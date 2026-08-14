@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "rgh-plugins",
+  "owner": {
+    "name": "Russell Heilling",
+    "url": "https://github.com/xchewtoyx"
+  },
+  "description": "Zettelkasten-style Agent Plugins wiki bundles, packed and served from Cloudsmith.",
+  "plugins": [
+    {
+      "name": "rgh-sme",
+      "displayName": "rgh-sme",
+      "description": "Zettelkasten-style LLM wikis across a set of subject-matter domains, built from reference texts and packaged as Open Knowledge Format (OKF) bundles.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Russell Heilling",
+        "url": "https://github.com/xchewtoyx"
+      },
+      "homepage": "https://github.com/xchewtoyx/rgh-sme",
+      "repository": "https://github.com/xchewtoyx/rgh-sme",
+      "license": "MIT",
+      "keywords": ["zettelkasten", "okf", "knowledge", "wiki", "llm", "sme"],
+      "category": "knowledge",
+      "strict": false,
+      "source": {
+        "source": "archive",
+        "url": "https://dl.cloudsmith.io/public/chewcorp-kl2f/xchewtoyx/raw/names/rgh-sme/versions/0.1.1/rgh-sme-0.1.1.zip",
+        "sha256": "4ed83adb8c60f94d58edb391e6ae3647ec56a52673f13e404c542a534e465ed6"
+      }
+    },
+    {
+      "name": "rgh-pre",
+      "displayName": "rgh-pre",
+      "description": "Consumer wiki package for personal wellbeing and Personal Reliability Engineering: philosophy, mindset, telemetry-state, capacity-load, failure-modes, controls-design, incident-response, reliability-strategy.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Russell Heilling",
+        "url": "https://github.com/xchewtoyx"
+      },
+      "homepage": "https://github.com/xchewtoyx/rgh-pre",
+      "repository": "https://github.com/xchewtoyx/rgh-pre",
+      "keywords": [
+        "wellbeing",
+        "personal-reliability-engineering",
+        "wiki",
+        "agent-plugins",
+        "philosophy",
+        "mindset",
+        "telemetry-state",
+        "capacity-load",
+        "failure-modes",
+        "controls-design",
+        "incident-response",
+        "reliability-strategy"
+      ],
+      "category": "knowledge",
+      "strict": false,
+      "source": {
+        "source": "archive",
+        "url": "https://dl.cloudsmith.io/public/chewcorp-kl2f/xchewtoyx/raw/names/rgh-pre/versions/0.1.0/rgh-pre-0.1.0.zip",
+        "sha256": "342e4f3be4957fcc1bcf0c0ec1a9f185f32d7939b8b227ccbee4b60b64879f11"
+      }
+    }
+  ]
+}
