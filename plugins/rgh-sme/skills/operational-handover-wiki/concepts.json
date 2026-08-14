@@ -1,0 +1,2027 @@
+{
+  "bundle": "operational-handover",
+  "concepts": [
+    {
+      "concept_id": "acceptance-tests-as-durable-behavior-record",
+      "description": "The acceptance test written alongside a feature, not the requirement or story that prompted it, is the artifact a future maintainer should trust as the record of intended behavior.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.004674574956647898,
+      "title": "Acceptance Tests as Durable Behavior Record"
+    },
+    {
+      "concept_id": "authors-blind-spot-for-complexity",
+      "description": "Whoever built a system is a poor judge of how confusing it will be to someone inheriting it, because familiarity has already erased the difficulty for them.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.023793849674077137,
+      "title": "The Author's Blind Spot for Complexity"
+    },
+    {
+      "concept_id": "automated-guardrails-for-safe-changes",
+      "description": "Encoding which changes are safe, discouraged, or prohibited as automated, conspicuous checks rather than relying on a maintainer having read and remembered a prose warning.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.018796850152219928,
+      "title": "Automated Guardrails for Safe Changes"
+    },
+    {
+      "concept_id": "biodegradable-documentation",
+      "description": "Designing documentation for temporary system states (like migrations or parallel run phases) to decay and be removed once the transition is complete.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0024127842620506883,
+      "title": "Biodegradable Documentation"
+    },
+    {
+      "concept_id": "central-file-for-cross-module-design-notes",
+      "description": "A single named file collecting explanations for concerns that span multiple modules with no natural single home, referenced by short pointer comments at every touch point.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.009470858891985295,
+      "title": "Central File for Cross-Module Design Notes"
+    },
+    {
+      "concept_id": "champion-dependent-projects",
+      "description": "A system or initiative that survives only because one enthusiastic individual personally defends it decays once that person leaves, even if nothing about the system itself changed.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.003850625257422186,
+      "title": "Champion-Dependent Projects"
+    },
+    {
+      "concept_id": "change-scope-classification",
+      "description": "Classifying a prospective change by how many elements it touches predicts how risky and how staged a maintainer's rollout needs to be.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.006490712697540238,
+      "title": "Change Scope Classification (Local, Nonlocal, Architectural)"
+    },
+    {
+      "concept_id": "characterization-tests-for-undocumented-behavior",
+      "description": "Writing a test that pins down what a piece of undocumented legacy code currently does, before changing it, so a change can be verified safe without first understanding why the code behaves that way.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.010643721540358343,
+      "title": "Characterization Tests for Undocumented Behavior"
+    },
+    {
+      "concept_id": "checklist-compliance-precondition-audit",
+      "description": "Verifying that the physical or logistical resources a checklist step depends on are reliably available before attributing compliance failures to operator discipline.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.015194375313506436,
+      "title": "Checklist Compliance Precondition Audit"
+    },
+    {
+      "concept_id": "checklist-execution-as-team-communication",
+      "description": "Running an operational checklist as a spoken, team-led ritual rather than a silent solo paperwork exercise, including who has authority to invoke it.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.02458879625386265,
+      "title": "Checklist Execution as Team Communication"
+    },
+    {
+      "concept_id": "checklist-forcing-function-types",
+      "description": "The two complementary purposes a checklist item can serve \u2014 forcing a predictable step to happen, or forcing team members to exchange information \u2014 and why complex operations need both.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.014600376269572262,
+      "title": "Checklist Forcing Function Types"
+    },
+    {
+      "concept_id": "checklist-item-selection-tradeoffs",
+      "description": "Criteria for deciding which steps earn a place on a short operational checklist when many candidate items compete for limited space.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.028945627292274793,
+      "title": "Checklist Item Selection Trade-offs"
+    },
+    {
+      "concept_id": "cognitive-task-analysis-for-tacit-expertise",
+      "description": "A five-step discipline for extracting an expert operator's perceptual and judgment skills \u2014 not just their procedures \u2014 before that expertise leaves with them.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.020398456804490286,
+      "title": "Cognitive Task Analysis for Capturing Tacit Expertise"
+    },
+    {
+      "concept_id": "communicating-intent-for-improvisation",
+      "description": "A handover or instruction that states only the steps to follow leaves the recipient unable to adapt correctly when reality deviates from the plan; stating the underlying purpose is what lets them improvise instead of guessing.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.008832224985729675,
+      "title": "Communicating Intent for Improvisation"
+    },
+    {
+      "concept_id": "compliance-in-spirit-vs-ceremonial-documentation",
+      "description": "Satisfying the actual knowledge, traceability, and control needs behind a compliance framework's documentation requirement instead of producing documents that only exist to check the audit box.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.012944985298280011,
+      "title": "Compliance in Spirit vs. Ceremonial Documentation"
+    },
+    {
+      "concept_id": "critical-decision-method-interview",
+      "description": "A structured retrospective interview technique that surfaces an expert's tacit judgment by walking back through a specific difficult incident and probing each decision point, rather than asking generic questions about what they know.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.008192347860749613,
+      "title": "Critical-Decision-Method Interview for Eliciting Expertise"
+    },
+    {
+      "concept_id": "cross-specialist-communication-schedule",
+      "description": "A schedule that specifies who must consult whom, and by when, to resolve issues at the boundaries between specialties, as a companion to a process checklist.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.015023521989966142,
+      "title": "Cross-Specialist Communication Schedule"
+    },
+    {
+      "concept_id": "decentralized-authority-for-complex-operations",
+      "description": "Pushing operational decision-making to frontline operators under complex or nonroutine conditions, while centralizing communication and logistics support rather than the decisions themselves.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.012370933150249525,
+      "title": "Decentralized Authority for Complex Operations"
+    },
+    {
+      "concept_id": "decision-tables-for-branching-diagnostics",
+      "description": "Enumerating every combination of diagnostic conditions as an explicit table or tree forces complete coverage that nested prose conditionals silently omit.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.018925675844554374,
+      "title": "Decision Tables for Branching Diagnostics"
+    },
+    {
+      "concept_id": "decremental-drift-in-maintenance-intervals",
+      "description": "Repeatedly stretching a maintenance or inspection interval in small, individually-justified steps can silently erode a system's real safety margin, because each step looks locally reasonable and \"nothing broke\" is mistaken for proof the new interval is safe.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.01943810491785984,
+      "title": "Decremental Drift in Maintenance Intervals"
+    },
+    {
+      "concept_id": "dedicated-function-for-operational-learning",
+      "description": "Assigning a specific team or role ownership of failure investigation and checklist/runbook revision, rather than leaving operational documentation to accumulate ad hoc.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.009344664503710813,
+      "title": "Dedicated Function for Operational Learning"
+    },
+    {
+      "concept_id": "documentation-deprecation-migration",
+      "description": "Managing the deprecation of documentation as a structured migration process to guide users safely to supported alternatives.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.019589653121853304,
+      "title": "Documentation Deprecation as User Migration"
+    },
+    {
+      "concept_id": "documentation-maintenance-workflows",
+      "description": "Connecting documentation updates to software development and release pipelines to prevent stale or harmful content.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 4,
+      "pagerank": 0.04165305485075743,
+      "title": "Documentation Maintenance Workflows"
+    },
+    {
+      "concept_id": "documentation-targets-ineptitude-not-ignorance",
+      "description": "Distinguishing failures caused by not applying known knowledge consistently from failures caused by not having the knowledge at all, to scope what operational documentation can actually fix.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0024127842620506883,
+      "title": "Documentation Targets Ineptitude, Not Ignorance"
+    },
+    {
+      "concept_id": "documentation-version-boundaries",
+      "description": "Preserving distinct documentation for different supported versions of a system to avoid user confusion.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.019589653121853304,
+      "title": "Documentation Version Boundaries"
+    },
+    {
+      "concept_id": "emergency-fix-pipeline-rule",
+      "description": "The operational rule requiring all emergency patches and hotfixes to pass through the standard automated delivery pipeline to prevent regressions.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0024127842620506883,
+      "title": "Emergency Fix Pipeline Rule"
+    },
+    {
+      "concept_id": "external-annotations-for-fragile-legacy-systems",
+      "description": "Using annotations, sidecar files, or metadata registries to document a system without modifying it, for cases where touching the code directly is too risky.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.010686383954482268,
+      "title": "External Annotations for Fragile Legacy Systems"
+    },
+    {
+      "concept_id": "flowcharts-for-procedural-documentation",
+      "description": "A visual flowchart of a multi-step operational procedure is often less ambiguous and easier to follow correctly than the equivalent text-based, step-numbered writeup.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.015194375313506436,
+      "title": "Flowcharts for Procedural Documentation"
+    },
+    {
+      "concept_id": "guided-tours-and-sightseeing-maps",
+      "description": "Two written onboarding formats \u2014 an orientation map and a narrated code route \u2014 that stay useful only if kept linked to and refreshed with the actual source.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.0074932146619448815,
+      "title": "Guided Tours and Sightseeing Maps"
+    },
+    {
+      "concept_id": "handover-documentation-as-curation",
+      "description": "Approaching handover documentation as selecting and arranging existing knowledge for people who weren't present, adding only what's genuinely missing, rather than authoring a new account from scratch.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0024127842620506883,
+      "title": "Handover Documentation as Curation"
+    },
+    {
+      "concept_id": "hyrums-law",
+      "description": "With enough users of an interface, every observable behavior becomes something somebody depends on, whether or not it was ever documented or promised.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.004674574956647898,
+      "title": "Hyrum's Law"
+    },
+    {
+      "concept_id": "iac-properties-for-safe-change",
+      "description": "Four properties \u2014 reproducibility, idempotency, composability, and evolvability \u2014 that make infrastructure code safe for an unfamiliar operator to change without first understanding everything about it.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.011089884819481293,
+      "title": "Infrastructure-as-Code Properties for Safe Change"
+    },
+    {
+      "concept_id": "just-in-time-documentation-triggers",
+      "description": "Writing operational documentation only when a real knowledge gap is demonstrated, using disposable notes and a backlog rather than trying to document everything upfront.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 0,
+      "pagerank": 0.0058558218842361485,
+      "title": "Just-in-Time Documentation Triggers"
+    },
+    {
+      "concept_id": "launch-vs-handoff-readiness-reviews",
+      "description": "Comparing self-managed launch readiness reviews with the more stringent handoff readiness reviews used when transferring service management to operations.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.037172388576223125,
+      "title": "Launch vs. Handoff Readiness Reviews"
+    },
+    {
+      "concept_id": "layered-checklist-system-design",
+      "description": "Covering a complex, high-volume operation with several complementary, purpose-specific checklists rather than one comprehensive checklist.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.009379607460786477,
+      "title": "Layered Checklist System Design"
+    },
+    {
+      "concept_id": "leverage-interventions-vs-comprehensive-guidelines",
+      "description": "Why simple, standardized, easily-transmitted behavioral triggers change operator behavior at scale where comprehensive expert documentation does not.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0024127842620506883,
+      "title": "Leverage Interventions vs. Comprehensive Guidelines"
+    },
+    {
+      "concept_id": "live-knowledge-transfer-techniques",
+      "description": "Structured collaborative sessions that transfer tacit system knowledge during a handover more reliably than written documentation alone.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.011376964024744432,
+      "title": "Live Knowledge Transfer Techniques"
+    },
+    {
+      "concept_id": "marginal-documentation-migration",
+      "description": "Bringing a legacy, poorly-documented system up to a new documentation standard incrementally at the edges of active work, rather than attempting to document the whole system at once.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 0,
+      "pagerank": 0.013534913360507678,
+      "title": "Marginal Documentation Migration"
+    },
+    {
+      "concept_id": "on-call-onboarding-and-training",
+      "description": "Designing a structured, cumulative learning path to build independent operating competence in new on-call engineers.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.03036909344644202,
+      "title": "On-Call Onboarding and Training"
+    },
+    {
+      "concept_id": "on-call-shift-handover-briefing",
+      "description": "A recurring, structured briefing between outgoing and incoming on-call engineers that transfers in-progress context, not just the pager.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0024127842620506883,
+      "title": "On-Call Shift Handover Briefing"
+    },
+    {
+      "concept_id": "operability-as-a-design-property",
+      "description": "Treating how easy a system is for an operator to run day-to-day as a deliberate design goal alongside correctness and performance, not an afterthought left to documentation.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.007280958091573452,
+      "title": "Operability as a Design Property"
+    },
+    {
+      "concept_id": "operational-release-readiness-plan",
+      "description": "Key components that must be documented and agreed upon by development and operations before releasing or handing over a system.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0034382175592557206,
+      "title": "Operational Release Readiness Plan"
+    },
+    {
+      "concept_id": "operational-responsibility-transition",
+      "description": "Safely transferring operational ownership of systems between product and operations teams to avoid communication gaps and operational degradation.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.005074733238131953,
+      "title": "Operational Responsibility Transition"
+    },
+    {
+      "concept_id": "operational-stabilization-framework",
+      "description": "A structured, phased approach to recover a system from operational overload by embedding operations experts to clean up friction before handing support back.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0024127842620506883,
+      "title": "Operational Stabilization Framework"
+    },
+    {
+      "concept_id": "operational-warranty-period",
+      "description": "Requiring development teams to support a new service in production for a set period before handoff to ensure operational stability.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0024127842620506883,
+      "title": "Operational Warranty Period"
+    },
+    {
+      "concept_id": "phoenix-server-pattern",
+      "description": "Making a server disposable and automatically rebuildable from scratch so a new operator never needs to know its manual configuration history.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.006739281175576869,
+      "title": "Phoenix Server Pattern"
+    },
+    {
+      "concept_id": "place-documentation-where-maintainers-will-look",
+      "description": "Documentation survives and gets updated only if it sits where the person changing the system will actually be looking, which is rarely the commit log and rarely a header file separated from the implementation.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.011264058006836827,
+      "title": "Place Documentation Where Maintainers Will Look"
+    },
+    {
+      "concept_id": "playbook-maintenance-tension",
+      "description": "Balancing the trade-off between flexible, judgment-based playbooks and rigid, step-by-step procedures to manage documentation decay.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 5,
+      "pagerank": 0.02520130342426159,
+      "title": "Playbook Maintenance Tension"
+    },
+    {
+      "concept_id": "playbook-required-content-elements",
+      "description": "An operational playbook must layer business judgment (when, who to notify, what to verify) on top of the technical how-to, and should be authored jointly by developers and operators.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.030209157419378335,
+      "title": "Playbook Required Content Elements"
+    },
+    {
+      "concept_id": "postmortem-derived-checklist-items",
+      "description": "Building and refining checklist items by systematically cataloguing past mistakes across every stage of a process, rather than deriving items from theory alone.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.009344664503710813,
+      "title": "Postmortem-Derived Checklist Items"
+    },
+    {
+      "concept_id": "problem-complexity-taxonomy",
+      "description": "Classifying an operational task as simple, complicated, or complex to decide what kind of documentation and coordination approach it needs.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.006669450637504935,
+      "title": "Problem Complexity Taxonomy"
+    },
+    {
+      "concept_id": "production-readiness-review",
+      "description": "A structured framework to audit and improve service architecture and operational readiness before launching or handing over a service.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.014503496345419711,
+      "title": "Production Readiness Review"
+    },
+    {
+      "concept_id": "reducing-documentation-need-through-system-design",
+      "description": "Treating the amount of explanatory prose a system requires as something to minimize by design, not just something to write more of.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 5,
+      "pagerank": 0.028636413188385768,
+      "title": "Reducing Documentation Need Through System Design"
+    },
+    {
+      "concept_id": "rehearsing-rare-procedures-with-drills",
+      "description": "A recovery or failover procedure that is only ever invoked during a real emergency loses reliability over time, so it must be exercised on a schedule via deliberately induced failures.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.02345557418707241,
+      "title": "Rehearsing Rare Procedures with Deliberate Drills"
+    },
+    {
+      "concept_id": "reuse-existing-authoritative-sources",
+      "description": "Locating and publishing knowledge that already exists in an authoritative form \u2014 standard vocabulary, public references, or tool histories \u2014 instead of transcribing it into a new, separately-maintained document.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0034382175592557206,
+      "title": "Reuse Existing Authoritative Sources Before Writing New Documentation"
+    },
+    {
+      "concept_id": "runbook-checklist-design",
+      "description": "Designing operational checklists and runbooks that can be executed accurately under stress without causing cognitive overload.",
+      "inbound_link_count": 18,
+      "outbound_link_count": 7,
+      "pagerank": 0.10526015274115794,
+      "title": "Runbook and Checklist Design"
+    },
+    {
+      "concept_id": "self-documenting-declarative-systems",
+      "description": "Using declarative, inspectable automation (configuration, deployment, dependency definitions) as the source of truth so the system documents its own current state instead of relying on separately-maintained prose.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 1,
+      "pagerank": 0.015646638307805567,
+      "title": "Self-Documenting Declarative Systems"
+    },
+    {
+      "concept_id": "separating-stable-and-volatile-knowledge",
+      "description": "Decoupling slow-changing domain orientation from fast-decaying implementation details to ensure documentation remains maintainable.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.01571242768222009,
+      "title": "Separating Stable and Volatile Knowledge"
+    },
+    {
+      "concept_id": "service-decommissioning-checklist",
+      "description": "Retiring a service safely requires an ordered, cumulative checklist covering user removal, resource deallocation, and resource disposal, because skipped or misordered steps leave orphaned resources or break still-dependent systems.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.012944985298280011,
+      "title": "Service Decommissioning Checklist"
+    },
+    {
+      "concept_id": "service-handback-mechanism",
+      "description": "Handing operational support responsibility back to the development team when a production service becomes excessively fragile or creates too much operational toil.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.022597688621935372,
+      "title": "Service Handback Mechanism"
+    },
+    {
+      "concept_id": "snowflake-servers",
+      "description": "A system that has been hand-configured through undocumented, ad-hoc changes to the point that it cannot be reliably recreated from any written record.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.009270094431609244,
+      "title": "Snowflake Servers"
+    },
+    {
+      "concept_id": "structural-views-for-onboarding",
+      "description": "A newcomer needs at least three different diagram types, not one, because each answers a different orientation question a single \"architecture diagram\" can't cover on its own.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.009631723558793152,
+      "title": "Structural Views for Onboarding"
+    },
+    {
+      "concept_id": "system-baseline-for-troubleshooting",
+      "description": "A new operator must know what a system's normal behavior looks like before they can recognize what's abnormal, and must calibrate how rare a cause is likely to be given the system's scale and age.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.03885406476999125,
+      "title": "System Baseline for Troubleshooting"
+    },
+    {
+      "concept_id": "tacit-knowledge-erosion-under-ai-assisted-work",
+      "description": "AI coding and operations agents accelerate the loss of institutional knowledge that used to accumulate as a side effect of engineers personally authoring, debugging, and reviewing their own systems.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0024127842620506883,
+      "title": "Tacit Knowledge Erosion Under AI-Assisted Work"
+    },
+    {
+      "concept_id": "tailoring-documentation-to-recipient-role",
+      "description": "Different recipients of a handover need different subsets of the same material, so a single all-purpose document under-serves everyone rather than serving any of them well.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.004050177039759421,
+      "title": "Tailoring Documentation to Recipient Role"
+    },
+    {
+      "concept_id": "telling-the-story-of-the-system",
+      "description": "A live exercise where one person must explain a system's architecture starting from the barest essential summary and adding detail only as needed, forcing the team to separate what's essential from what's merely expedient.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.006467781364739849,
+      "title": "Telling the Story of the System"
+    },
+    {
+      "concept_id": "unauthorized-substitution-change-control",
+      "description": "Why a locally-reasonable substitution or deviation from an approved design must be routed back through the original design authority before being applied.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.02490601533798625,
+      "title": "Unauthorized Substitution Change Control"
+    },
+    {
+      "concept_id": "undocumented-rationale-and-zombie-process",
+      "description": "A control, gate, or approval step that outlives the reason for its existence because that reason was never written down, turning into pure friction no one can safely remove.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.004674574956647898,
+      "title": "Undocumented Rationale and Zombie Process"
+    },
+    {
+      "concept_id": "upstream-dependency-contract",
+      "description": "A written agreement documenting what an external data or system dependency actually provides, how, and who to contact, so a new maintainer isn't left reverse-engineering someone else's system under pressure.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.008832224985729675,
+      "title": "Upstream Dependency Contract"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "acceptance-tests-as-durable-behavior-record",
+      "source_path": "acceptance-tests-as-durable-behavior-record.md",
+      "target": "characterization-tests-for-undocumented-behavior.md",
+      "target_concept_id": "characterization-tests-for-undocumented-behavior",
+      "target_path": "characterization-tests-for-undocumented-behavior.md",
+      "text": "Characterization Tests for Undocumented Behavior",
+      "title": null
+    },
+    {
+      "source_concept_id": "authors-blind-spot-for-complexity",
+      "source_path": "authors-blind-spot-for-complexity.md",
+      "target": "reducing-documentation-need-through-system-design.md",
+      "target_concept_id": "reducing-documentation-need-through-system-design",
+      "target_path": "reducing-documentation-need-through-system-design.md",
+      "text": "Reducing Documentation Need Through System Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "authors-blind-spot-for-complexity",
+      "source_path": "authors-blind-spot-for-complexity.md",
+      "target": "system-baseline-for-troubleshooting.md",
+      "target_concept_id": "system-baseline-for-troubleshooting",
+      "target_path": "system-baseline-for-troubleshooting.md",
+      "text": "System Baseline for Troubleshooting",
+      "title": null
+    },
+    {
+      "source_concept_id": "automated-guardrails-for-safe-changes",
+      "source_path": "automated-guardrails-for-safe-changes.md",
+      "target": "playbook-maintenance-tension.md",
+      "target_concept_id": "playbook-maintenance-tension",
+      "target_path": "playbook-maintenance-tension.md",
+      "text": "ongoing revision",
+      "title": null
+    },
+    {
+      "source_concept_id": "automated-guardrails-for-safe-changes",
+      "source_path": "automated-guardrails-for-safe-changes.md",
+      "target": "unauthorized-substitution-change-control.md",
+      "target_concept_id": "unauthorized-substitution-change-control",
+      "target_path": "unauthorized-substitution-change-control.md",
+      "text": "Unauthorized Substitution Change Control",
+      "title": null
+    },
+    {
+      "source_concept_id": "biodegradable-documentation",
+      "source_path": "biodegradable-documentation.md",
+      "target": "documentation-maintenance-workflows.md",
+      "target_concept_id": "documentation-maintenance-workflows",
+      "target_path": "documentation-maintenance-workflows.md",
+      "text": "Documentation Maintenance Workflows",
+      "title": null
+    },
+    {
+      "source_concept_id": "central-file-for-cross-module-design-notes",
+      "source_path": "central-file-for-cross-module-design-notes.md",
+      "target": "documentation-maintenance-workflows.md",
+      "target_concept_id": "documentation-maintenance-workflows",
+      "target_path": "documentation-maintenance-workflows.md",
+      "text": "documentation maintenance workflows",
+      "title": null
+    },
+    {
+      "source_concept_id": "central-file-for-cross-module-design-notes",
+      "source_path": "central-file-for-cross-module-design-notes.md",
+      "target": "external-annotations-for-fragile-legacy-systems.md",
+      "target_concept_id": "external-annotations-for-fragile-legacy-systems",
+      "target_path": "external-annotations-for-fragile-legacy-systems.md",
+      "text": "External Annotations for Fragile Legacy Systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "champion-dependent-projects",
+      "source_path": "champion-dependent-projects.md",
+      "target": "operational-responsibility-transition.md",
+      "target_concept_id": "operational-responsibility-transition",
+      "target_path": "operational-responsibility-transition.md",
+      "text": "operational responsibility transition",
+      "title": null
+    },
+    {
+      "source_concept_id": "champion-dependent-projects",
+      "source_path": "champion-dependent-projects.md",
+      "target": "snowflake-servers.md",
+      "target_concept_id": "snowflake-servers",
+      "target_path": "snowflake-servers.md",
+      "text": "Snowflake Servers",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-scope-classification",
+      "source_path": "change-scope-classification.md",
+      "target": "automated-guardrails-for-safe-changes.md",
+      "target_concept_id": "automated-guardrails-for-safe-changes",
+      "target_path": "automated-guardrails-for-safe-changes.md",
+      "text": "Automated Guardrails for Safe Changes",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-scope-classification",
+      "source_path": "change-scope-classification.md",
+      "target": "iac-properties-for-safe-change.md",
+      "target_concept_id": "iac-properties-for-safe-change",
+      "target_path": "iac-properties-for-safe-change.md",
+      "text": "Infrastructure-as-Code Properties for Safe Change",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-scope-classification",
+      "source_path": "change-scope-classification.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "runbook",
+      "title": null
+    },
+    {
+      "source_concept_id": "characterization-tests-for-undocumented-behavior",
+      "source_path": "characterization-tests-for-undocumented-behavior.md",
+      "target": "acceptance-tests-as-durable-behavior-record.md",
+      "target_concept_id": "acceptance-tests-as-durable-behavior-record",
+      "target_path": "acceptance-tests-as-durable-behavior-record.md",
+      "text": "Acceptance Tests as Durable Behavior Record",
+      "title": null
+    },
+    {
+      "source_concept_id": "characterization-tests-for-undocumented-behavior",
+      "source_path": "characterization-tests-for-undocumented-behavior.md",
+      "target": "external-annotations-for-fragile-legacy-systems.md",
+      "target_concept_id": "external-annotations-for-fragile-legacy-systems",
+      "target_path": "external-annotations-for-fragile-legacy-systems.md",
+      "text": "External Annotations for Fragile Legacy Systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "characterization-tests-for-undocumented-behavior",
+      "source_path": "characterization-tests-for-undocumented-behavior.md",
+      "target": "hyrums-law.md",
+      "target_concept_id": "hyrums-law",
+      "target_path": "hyrums-law.md",
+      "text": "Hyrum's Law",
+      "title": null
+    },
+    {
+      "source_concept_id": "characterization-tests-for-undocumented-behavior",
+      "source_path": "characterization-tests-for-undocumented-behavior.md",
+      "target": "undocumented-rationale-and-zombie-process.md",
+      "target_concept_id": "undocumented-rationale-and-zombie-process",
+      "target_path": "undocumented-rationale-and-zombie-process.md",
+      "text": "Undocumented Rationale and Zombie Process",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-compliance-precondition-audit",
+      "source_path": "checklist-compliance-precondition-audit.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Runbook and Checklist Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-execution-as-team-communication",
+      "source_path": "checklist-execution-as-team-communication.md",
+      "target": "checklist-item-selection-tradeoffs.md",
+      "target_concept_id": "checklist-item-selection-tradeoffs",
+      "target_path": "checklist-item-selection-tradeoffs.md",
+      "text": "Checklist Item Selection Trade-offs",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-execution-as-team-communication",
+      "source_path": "checklist-execution-as-team-communication.md",
+      "target": "layered-checklist-system-design.md",
+      "target_concept_id": "layered-checklist-system-design",
+      "target_path": "layered-checklist-system-design.md",
+      "text": "Layered Checklist System",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-execution-as-team-communication",
+      "source_path": "checklist-execution-as-team-communication.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Runbook and Checklist Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-forcing-function-types",
+      "source_path": "checklist-forcing-function-types.md",
+      "target": "checklist-execution-as-team-communication.md",
+      "target_concept_id": "checklist-execution-as-team-communication",
+      "target_path": "checklist-execution-as-team-communication.md",
+      "text": "Checklist Execution as Team Communication",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-forcing-function-types",
+      "source_path": "checklist-forcing-function-types.md",
+      "target": "checklist-item-selection-tradeoffs.md",
+      "target_concept_id": "checklist-item-selection-tradeoffs",
+      "target_path": "checklist-item-selection-tradeoffs.md",
+      "text": "Checklist Item Selection Trade-offs",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-forcing-function-types",
+      "source_path": "checklist-forcing-function-types.md",
+      "target": "cross-specialist-communication-schedule.md",
+      "target_concept_id": "cross-specialist-communication-schedule",
+      "target_path": "cross-specialist-communication-schedule.md",
+      "text": "Cross-Specialist Communication Schedule",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-item-selection-tradeoffs",
+      "source_path": "checklist-item-selection-tradeoffs.md",
+      "target": "checklist-forcing-function-types.md",
+      "target_concept_id": "checklist-forcing-function-types",
+      "target_path": "checklist-forcing-function-types.md",
+      "text": "Checklist Forcing Function Types",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-item-selection-tradeoffs",
+      "source_path": "checklist-item-selection-tradeoffs.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Runbook and Checklist Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-item-selection-tradeoffs",
+      "source_path": "checklist-item-selection-tradeoffs.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Runbook and Checklist Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "cognitive-task-analysis-for-tacit-expertise",
+      "source_path": "cognitive-task-analysis-for-tacit-expertise.md",
+      "target": "critical-decision-method-interview.md",
+      "target_concept_id": "critical-decision-method-interview",
+      "target_path": "critical-decision-method-interview.md",
+      "text": "Critical-Decision-Method Interview",
+      "title": null
+    },
+    {
+      "source_concept_id": "cognitive-task-analysis-for-tacit-expertise",
+      "source_path": "cognitive-task-analysis-for-tacit-expertise.md",
+      "target": "live-knowledge-transfer-techniques.md",
+      "target_concept_id": "live-knowledge-transfer-techniques",
+      "target_path": "live-knowledge-transfer-techniques.md",
+      "text": "Live Knowledge Transfer Techniques",
+      "title": null
+    },
+    {
+      "source_concept_id": "cognitive-task-analysis-for-tacit-expertise",
+      "source_path": "cognitive-task-analysis-for-tacit-expertise.md",
+      "target": "on-call-onboarding-and-training.md",
+      "target_concept_id": "on-call-onboarding-and-training",
+      "target_path": "on-call-onboarding-and-training.md",
+      "text": "On-Call Onboarding and Training",
+      "title": null
+    },
+    {
+      "source_concept_id": "communicating-intent-for-improvisation",
+      "source_path": "communicating-intent-for-improvisation.md",
+      "target": "playbook-required-content-elements.md",
+      "target_concept_id": "playbook-required-content-elements",
+      "target_path": "playbook-required-content-elements.md",
+      "text": "Playbook Required Content Elements",
+      "title": null
+    },
+    {
+      "source_concept_id": "compliance-in-spirit-vs-ceremonial-documentation",
+      "source_path": "compliance-in-spirit-vs-ceremonial-documentation.md",
+      "target": "automated-guardrails-for-safe-changes.md",
+      "target_concept_id": "automated-guardrails-for-safe-changes",
+      "target_path": "automated-guardrails-for-safe-changes.md",
+      "text": "Automated Guardrails for Safe Changes",
+      "title": null
+    },
+    {
+      "source_concept_id": "compliance-in-spirit-vs-ceremonial-documentation",
+      "source_path": "compliance-in-spirit-vs-ceremonial-documentation.md",
+      "target": "launch-vs-handoff-readiness-reviews.md",
+      "target_concept_id": "launch-vs-handoff-readiness-reviews",
+      "target_path": "launch-vs-handoff-readiness-reviews.md",
+      "text": "Launch vs. Handoff Readiness Reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "critical-decision-method-interview",
+      "source_path": "critical-decision-method-interview.md",
+      "target": "cognitive-task-analysis-for-tacit-expertise.md",
+      "target_concept_id": "cognitive-task-analysis-for-tacit-expertise",
+      "target_path": "cognitive-task-analysis-for-tacit-expertise.md",
+      "text": "Cognitive Task Analysis",
+      "title": null
+    },
+    {
+      "source_concept_id": "cross-specialist-communication-schedule",
+      "source_path": "cross-specialist-communication-schedule.md",
+      "target": "decentralized-authority-for-complex-operations.md",
+      "target_concept_id": "decentralized-authority-for-complex-operations",
+      "target_path": "decentralized-authority-for-complex-operations.md",
+      "text": "decentralized authority",
+      "title": null
+    },
+    {
+      "source_concept_id": "cross-specialist-communication-schedule",
+      "source_path": "cross-specialist-communication-schedule.md",
+      "target": "problem-complexity-taxonomy.md",
+      "target_concept_id": "problem-complexity-taxonomy",
+      "target_path": "problem-complexity-taxonomy.md",
+      "text": "complicated operational work",
+      "title": null
+    },
+    {
+      "source_concept_id": "cross-specialist-communication-schedule",
+      "source_path": "cross-specialist-communication-schedule.md",
+      "target": "unauthorized-substitution-change-control.md",
+      "target_concept_id": "unauthorized-substitution-change-control",
+      "target_path": "unauthorized-substitution-change-control.md",
+      "text": "Unauthorized Substitution Change Control",
+      "title": null
+    },
+    {
+      "source_concept_id": "decentralized-authority-for-complex-operations",
+      "source_path": "decentralized-authority-for-complex-operations.md",
+      "target": "checklist-execution-as-team-communication.md",
+      "target_concept_id": "checklist-execution-as-team-communication",
+      "target_path": "checklist-execution-as-team-communication.md",
+      "text": "Checklist Execution as Team Communication",
+      "title": null
+    },
+    {
+      "source_concept_id": "decentralized-authority-for-complex-operations",
+      "source_path": "decentralized-authority-for-complex-operations.md",
+      "target": "playbook-maintenance-tension.md",
+      "target_concept_id": "playbook-maintenance-tension",
+      "target_path": "playbook-maintenance-tension.md",
+      "text": "Playbook Maintenance Tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "decision-tables-for-branching-diagnostics",
+      "source_path": "decision-tables-for-branching-diagnostics.md",
+      "target": "system-baseline-for-troubleshooting.md",
+      "target_concept_id": "system-baseline-for-troubleshooting",
+      "target_path": "system-baseline-for-troubleshooting.md",
+      "text": "System Baseline for Troubleshooting",
+      "title": null
+    },
+    {
+      "source_concept_id": "decremental-drift-in-maintenance-intervals",
+      "source_path": "decremental-drift-in-maintenance-intervals.md",
+      "target": "rehearsing-rare-procedures-with-drills.md",
+      "target_concept_id": "rehearsing-rare-procedures-with-drills",
+      "target_path": "rehearsing-rare-procedures-with-drills.md",
+      "text": "Rehearsing Rare Procedures with Deliberate Drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "decremental-drift-in-maintenance-intervals",
+      "source_path": "decremental-drift-in-maintenance-intervals.md",
+      "target": "unauthorized-substitution-change-control.md",
+      "target_concept_id": "unauthorized-substitution-change-control",
+      "target_path": "unauthorized-substitution-change-control.md",
+      "text": "Unauthorized Substitution Change Control",
+      "title": null
+    },
+    {
+      "source_concept_id": "dedicated-function-for-operational-learning",
+      "source_path": "dedicated-function-for-operational-learning.md",
+      "target": "documentation-maintenance-workflows.md",
+      "target_concept_id": "documentation-maintenance-workflows",
+      "target_path": "documentation-maintenance-workflows.md",
+      "text": "Documentation Maintenance Workflows",
+      "title": null
+    },
+    {
+      "source_concept_id": "dedicated-function-for-operational-learning",
+      "source_path": "dedicated-function-for-operational-learning.md",
+      "target": "playbook-maintenance-tension.md",
+      "target_concept_id": "playbook-maintenance-tension",
+      "target_path": "playbook-maintenance-tension.md",
+      "text": "Playbook Maintenance Tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "dedicated-function-for-operational-learning",
+      "source_path": "dedicated-function-for-operational-learning.md",
+      "target": "postmortem-derived-checklist-items.md",
+      "target_concept_id": "postmortem-derived-checklist-items",
+      "target_path": "postmortem-derived-checklist-items.md",
+      "text": "postmortem-derived checklist items",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-deprecation-migration",
+      "source_path": "documentation-deprecation-migration.md",
+      "target": "documentation-maintenance-workflows.md",
+      "target_concept_id": "documentation-maintenance-workflows",
+      "target_path": "documentation-maintenance-workflows.md",
+      "text": "Documentation Maintenance Workflows",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-deprecation-migration",
+      "source_path": "documentation-deprecation-migration.md",
+      "target": "documentation-version-boundaries.md",
+      "target_concept_id": "documentation-version-boundaries",
+      "target_path": "documentation-version-boundaries.md",
+      "text": "Documentation Version Boundaries",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-maintenance-workflows",
+      "source_path": "documentation-maintenance-workflows.md",
+      "target": "documentation-deprecation-migration.md",
+      "target_concept_id": "documentation-deprecation-migration",
+      "target_path": "documentation-deprecation-migration.md",
+      "text": "deprecation migrations",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-maintenance-workflows",
+      "source_path": "documentation-maintenance-workflows.md",
+      "target": "documentation-version-boundaries.md",
+      "target_concept_id": "documentation-version-boundaries",
+      "target_path": "documentation-version-boundaries.md",
+      "text": "version boundaries",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-maintenance-workflows",
+      "source_path": "documentation-maintenance-workflows.md",
+      "target": "marginal-documentation-migration.md",
+      "target_concept_id": "marginal-documentation-migration",
+      "target_path": "marginal-documentation-migration.md",
+      "text": "Marginal Documentation Migration",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-maintenance-workflows",
+      "source_path": "documentation-maintenance-workflows.md",
+      "target": "place-documentation-where-maintainers-will-look.md",
+      "target_concept_id": "place-documentation-where-maintainers-will-look",
+      "target_path": "place-documentation-where-maintainers-will-look.md",
+      "text": "Place Documentation Where Maintainers Will Look",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-targets-ineptitude-not-ignorance",
+      "source_path": "documentation-targets-ineptitude-not-ignorance.md",
+      "target": "documentation-maintenance-workflows.md",
+      "target_concept_id": "documentation-maintenance-workflows",
+      "target_path": "documentation-maintenance-workflows.md",
+      "text": "Documentation Maintenance Workflows",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-targets-ineptitude-not-ignorance",
+      "source_path": "documentation-targets-ineptitude-not-ignorance.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "runbook and checklist design",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-version-boundaries",
+      "source_path": "documentation-version-boundaries.md",
+      "target": "documentation-deprecation-migration.md",
+      "target_concept_id": "documentation-deprecation-migration",
+      "target_path": "documentation-deprecation-migration.md",
+      "text": "Documentation Deprecation as User Migration",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-version-boundaries",
+      "source_path": "documentation-version-boundaries.md",
+      "target": "documentation-maintenance-workflows.md",
+      "target_concept_id": "documentation-maintenance-workflows",
+      "target_path": "documentation-maintenance-workflows.md",
+      "text": "Documentation Maintenance Workflows",
+      "title": null
+    },
+    {
+      "source_concept_id": "emergency-fix-pipeline-rule",
+      "source_path": "emergency-fix-pipeline-rule.md",
+      "target": "operational-release-readiness-plan.md",
+      "target_concept_id": "operational-release-readiness-plan",
+      "target_path": "operational-release-readiness-plan.md",
+      "text": "Operational Release Readiness Plan",
+      "title": null
+    },
+    {
+      "source_concept_id": "emergency-fix-pipeline-rule",
+      "source_path": "emergency-fix-pipeline-rule.md",
+      "target": "playbook-maintenance-tension.md",
+      "target_concept_id": "playbook-maintenance-tension",
+      "target_path": "playbook-maintenance-tension.md",
+      "text": "Playbook Maintenance Tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "external-annotations-for-fragile-legacy-systems",
+      "source_path": "external-annotations-for-fragile-legacy-systems.md",
+      "target": "central-file-for-cross-module-design-notes.md",
+      "target_concept_id": "central-file-for-cross-module-design-notes",
+      "target_path": "central-file-for-cross-module-design-notes.md",
+      "text": "Central File for Cross-Module Design Notes",
+      "title": null
+    },
+    {
+      "source_concept_id": "external-annotations-for-fragile-legacy-systems",
+      "source_path": "external-annotations-for-fragile-legacy-systems.md",
+      "target": "characterization-tests-for-undocumented-behavior.md",
+      "target_concept_id": "characterization-tests-for-undocumented-behavior",
+      "target_path": "characterization-tests-for-undocumented-behavior.md",
+      "text": "characterization tests",
+      "title": null
+    },
+    {
+      "source_concept_id": "external-annotations-for-fragile-legacy-systems",
+      "source_path": "external-annotations-for-fragile-legacy-systems.md",
+      "target": "marginal-documentation-migration.md",
+      "target_concept_id": "marginal-documentation-migration",
+      "target_path": "marginal-documentation-migration.md",
+      "text": "Marginal Documentation Migration",
+      "title": null
+    },
+    {
+      "source_concept_id": "external-annotations-for-fragile-legacy-systems",
+      "source_path": "external-annotations-for-fragile-legacy-systems.md",
+      "target": "reducing-documentation-need-through-system-design.md",
+      "target_concept_id": "reducing-documentation-need-through-system-design",
+      "target_path": "reducing-documentation-need-through-system-design.md",
+      "text": "Reducing Documentation Need Through System Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "flowcharts-for-procedural-documentation",
+      "source_path": "flowcharts-for-procedural-documentation.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Runbook and Checklist Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "guided-tours-and-sightseeing-maps",
+      "source_path": "guided-tours-and-sightseeing-maps.md",
+      "target": "documentation-maintenance-workflows.md",
+      "target_concept_id": "documentation-maintenance-workflows",
+      "target_path": "documentation-maintenance-workflows.md",
+      "text": "Documentation Maintenance Workflows",
+      "title": null
+    },
+    {
+      "source_concept_id": "guided-tours-and-sightseeing-maps",
+      "source_path": "guided-tours-and-sightseeing-maps.md",
+      "target": "live-knowledge-transfer-techniques.md",
+      "target_concept_id": "live-knowledge-transfer-techniques",
+      "target_path": "live-knowledge-transfer-techniques.md",
+      "text": "Live Knowledge Transfer Techniques",
+      "title": null
+    },
+    {
+      "source_concept_id": "handover-documentation-as-curation",
+      "source_path": "handover-documentation-as-curation.md",
+      "target": "guided-tours-and-sightseeing-maps.md",
+      "target_concept_id": "guided-tours-and-sightseeing-maps",
+      "target_path": "guided-tours-and-sightseeing-maps.md",
+      "text": "Guided Tours and Sightseeing Maps",
+      "title": null
+    },
+    {
+      "source_concept_id": "handover-documentation-as-curation",
+      "source_path": "handover-documentation-as-curation.md",
+      "target": "just-in-time-documentation-triggers.md",
+      "target_concept_id": "just-in-time-documentation-triggers",
+      "target_path": "just-in-time-documentation-triggers.md",
+      "text": "Just-in-Time Documentation Triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "hyrums-law",
+      "source_path": "hyrums-law.md",
+      "target": "characterization-tests-for-undocumented-behavior.md",
+      "target_concept_id": "characterization-tests-for-undocumented-behavior",
+      "target_path": "characterization-tests-for-undocumented-behavior.md",
+      "text": "characterization tests for undocumented behavior",
+      "title": null
+    },
+    {
+      "source_concept_id": "hyrums-law",
+      "source_path": "hyrums-law.md",
+      "target": "external-annotations-for-fragile-legacy-systems.md",
+      "target_concept_id": "external-annotations-for-fragile-legacy-systems",
+      "target_path": "external-annotations-for-fragile-legacy-systems.md",
+      "text": "external annotation",
+      "title": null
+    },
+    {
+      "source_concept_id": "iac-properties-for-safe-change",
+      "source_path": "iac-properties-for-safe-change.md",
+      "target": "change-scope-classification.md",
+      "target_concept_id": "change-scope-classification",
+      "target_path": "change-scope-classification.md",
+      "text": "local rather than nonlocal or architectural",
+      "title": null
+    },
+    {
+      "source_concept_id": "iac-properties-for-safe-change",
+      "source_path": "iac-properties-for-safe-change.md",
+      "target": "phoenix-server-pattern.md",
+      "target_concept_id": "phoenix-server-pattern",
+      "target_path": "phoenix-server-pattern.md",
+      "text": "Phoenix Server Pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "iac-properties-for-safe-change",
+      "source_path": "iac-properties-for-safe-change.md",
+      "target": "reducing-documentation-need-through-system-design.md",
+      "target_concept_id": "reducing-documentation-need-through-system-design",
+      "target_path": "reducing-documentation-need-through-system-design.md",
+      "text": "Reducing Documentation Need Through System Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "iac-properties-for-safe-change",
+      "source_path": "iac-properties-for-safe-change.md",
+      "target": "snowflake-servers.md",
+      "target_concept_id": "snowflake-servers",
+      "target_path": "snowflake-servers.md",
+      "text": "snowflake server",
+      "title": null
+    },
+    {
+      "source_concept_id": "launch-vs-handoff-readiness-reviews",
+      "source_path": "launch-vs-handoff-readiness-reviews.md",
+      "target": "compliance-in-spirit-vs-ceremonial-documentation.md",
+      "target_concept_id": "compliance-in-spirit-vs-ceremonial-documentation",
+      "target_path": "compliance-in-spirit-vs-ceremonial-documentation.md",
+      "text": "Compliance in Spirit vs. Ceremonial Documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "launch-vs-handoff-readiness-reviews",
+      "source_path": "launch-vs-handoff-readiness-reviews.md",
+      "target": "service-decommissioning-checklist.md",
+      "target_concept_id": "service-decommissioning-checklist",
+      "target_path": "service-decommissioning-checklist.md",
+      "text": "Service Decommissioning Checklist",
+      "title": null
+    },
+    {
+      "source_concept_id": "launch-vs-handoff-readiness-reviews",
+      "source_path": "launch-vs-handoff-readiness-reviews.md",
+      "target": "service-handback-mechanism.md",
+      "target_concept_id": "service-handback-mechanism",
+      "target_path": "service-handback-mechanism.md",
+      "text": "Service Handback Mechanism",
+      "title": null
+    },
+    {
+      "source_concept_id": "layered-checklist-system-design",
+      "source_path": "layered-checklist-system-design.md",
+      "target": "checklist-forcing-function-types.md",
+      "target_concept_id": "checklist-forcing-function-types",
+      "target_path": "checklist-forcing-function-types.md",
+      "text": "communication forcing function",
+      "title": null
+    },
+    {
+      "source_concept_id": "layered-checklist-system-design",
+      "source_path": "layered-checklist-system-design.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Runbook and Checklist Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "leverage-interventions-vs-comprehensive-guidelines",
+      "source_path": "leverage-interventions-vs-comprehensive-guidelines.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Runbook and Checklist Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "live-knowledge-transfer-techniques",
+      "source_path": "live-knowledge-transfer-techniques.md",
+      "target": "cognitive-task-analysis-for-tacit-expertise.md",
+      "target_concept_id": "cognitive-task-analysis-for-tacit-expertise",
+      "target_path": "cognitive-task-analysis-for-tacit-expertise.md",
+      "text": "Cognitive Task Analysis for Capturing Tacit Expertise",
+      "title": null
+    },
+    {
+      "source_concept_id": "live-knowledge-transfer-techniques",
+      "source_path": "live-knowledge-transfer-techniques.md",
+      "target": "guided-tours-and-sightseeing-maps.md",
+      "target_concept_id": "guided-tours-and-sightseeing-maps",
+      "target_path": "guided-tours-and-sightseeing-maps.md",
+      "text": "Guided Tours and Sightseeing Maps",
+      "title": null
+    },
+    {
+      "source_concept_id": "live-knowledge-transfer-techniques",
+      "source_path": "live-knowledge-transfer-techniques.md",
+      "target": "just-in-time-documentation-triggers.md",
+      "target_concept_id": "just-in-time-documentation-triggers",
+      "target_path": "just-in-time-documentation-triggers.md",
+      "text": "Just-in-Time Documentation Triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "live-knowledge-transfer-techniques",
+      "source_path": "live-knowledge-transfer-techniques.md",
+      "target": "telling-the-story-of-the-system.md",
+      "target_concept_id": "telling-the-story-of-the-system",
+      "target_path": "telling-the-story-of-the-system.md",
+      "text": "Telling the Story of the System",
+      "title": null
+    },
+    {
+      "source_concept_id": "on-call-onboarding-and-training",
+      "source_path": "on-call-onboarding-and-training.md",
+      "target": "cognitive-task-analysis-for-tacit-expertise.md",
+      "target_concept_id": "cognitive-task-analysis-for-tacit-expertise",
+      "target_path": "cognitive-task-analysis-for-tacit-expertise.md",
+      "text": "Cognitive Task Analysis for Capturing Tacit Expertise",
+      "title": null
+    },
+    {
+      "source_concept_id": "on-call-onboarding-and-training",
+      "source_path": "on-call-onboarding-and-training.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "runbooks and playbooks",
+      "title": null
+    },
+    {
+      "source_concept_id": "on-call-onboarding-and-training",
+      "source_path": "on-call-onboarding-and-training.md",
+      "target": "system-baseline-for-troubleshooting.md",
+      "target_concept_id": "system-baseline-for-troubleshooting",
+      "target_path": "system-baseline-for-troubleshooting.md",
+      "text": "system baseline for troubleshooting",
+      "title": null
+    },
+    {
+      "source_concept_id": "on-call-shift-handover-briefing",
+      "source_path": "on-call-shift-handover-briefing.md",
+      "target": "on-call-onboarding-and-training.md",
+      "target_concept_id": "on-call-onboarding-and-training",
+      "target_path": "on-call-onboarding-and-training.md",
+      "text": "On-Call Onboarding and Training",
+      "title": null
+    },
+    {
+      "source_concept_id": "on-call-shift-handover-briefing",
+      "source_path": "on-call-shift-handover-briefing.md",
+      "target": "operational-responsibility-transition.md",
+      "target_concept_id": "operational-responsibility-transition",
+      "target_path": "operational-responsibility-transition.md",
+      "text": "Operational Responsibility Transition",
+      "title": null
+    },
+    {
+      "source_concept_id": "operability-as-a-design-property",
+      "source_path": "operability-as-a-design-property.md",
+      "target": "reducing-documentation-need-through-system-design.md",
+      "target_concept_id": "reducing-documentation-need-through-system-design",
+      "target_path": "reducing-documentation-need-through-system-design.md",
+      "text": "Reducing Documentation Need Through System Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "operability-as-a-design-property",
+      "source_path": "operability-as-a-design-property.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "runbook",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-release-readiness-plan",
+      "source_path": "operational-release-readiness-plan.md",
+      "target": "launch-vs-handoff-readiness-reviews.md",
+      "target_concept_id": "launch-vs-handoff-readiness-reviews",
+      "target_path": "launch-vs-handoff-readiness-reviews.md",
+      "text": "Launch vs. Handoff Readiness Reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-release-readiness-plan",
+      "source_path": "operational-release-readiness-plan.md",
+      "target": "production-readiness-review.md",
+      "target_concept_id": "production-readiness-review",
+      "target_path": "production-readiness-review.md",
+      "text": "Production Readiness Review",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-responsibility-transition",
+      "source_path": "operational-responsibility-transition.md",
+      "target": "champion-dependent-projects.md",
+      "target_concept_id": "champion-dependent-projects",
+      "target_path": "champion-dependent-projects.md",
+      "text": "Champion-Dependent Projects",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-responsibility-transition",
+      "source_path": "operational-responsibility-transition.md",
+      "target": "on-call-onboarding-and-training.md",
+      "target_concept_id": "on-call-onboarding-and-training",
+      "target_path": "on-call-onboarding-and-training.md",
+      "text": "On-Call Onboarding and Training",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-responsibility-transition",
+      "source_path": "operational-responsibility-transition.md",
+      "target": "service-handback-mechanism.md",
+      "target_concept_id": "service-handback-mechanism",
+      "target_path": "service-handback-mechanism.md",
+      "text": "Service Handback Mechanism",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-stabilization-framework",
+      "source_path": "operational-stabilization-framework.md",
+      "target": "service-handback-mechanism.md",
+      "target_concept_id": "service-handback-mechanism",
+      "target_path": "service-handback-mechanism.md",
+      "text": "Service Handback Mechanism",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-warranty-period",
+      "source_path": "operational-warranty-period.md",
+      "target": "launch-vs-handoff-readiness-reviews.md",
+      "target_concept_id": "launch-vs-handoff-readiness-reviews",
+      "target_path": "launch-vs-handoff-readiness-reviews.md",
+      "text": "Launch vs. Handoff Readiness Reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-warranty-period",
+      "source_path": "operational-warranty-period.md",
+      "target": "production-readiness-review.md",
+      "target_concept_id": "production-readiness-review",
+      "target_path": "production-readiness-review.md",
+      "text": "Production Readiness Review",
+      "title": null
+    },
+    {
+      "source_concept_id": "phoenix-server-pattern",
+      "source_path": "phoenix-server-pattern.md",
+      "target": "self-documenting-declarative-systems.md",
+      "target_concept_id": "self-documenting-declarative-systems",
+      "target_path": "self-documenting-declarative-systems.md",
+      "text": "self-documenting declarative systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "phoenix-server-pattern",
+      "source_path": "phoenix-server-pattern.md",
+      "target": "snowflake-servers.md",
+      "target_concept_id": "snowflake-servers",
+      "target_path": "snowflake-servers.md",
+      "text": "snowflake server",
+      "title": null
+    },
+    {
+      "source_concept_id": "place-documentation-where-maintainers-will-look",
+      "source_path": "place-documentation-where-maintainers-will-look.md",
+      "target": "central-file-for-cross-module-design-notes.md",
+      "target_concept_id": "central-file-for-cross-module-design-notes",
+      "target_path": "central-file-for-cross-module-design-notes.md",
+      "text": "Central File for Cross-Module Design Notes",
+      "title": null
+    },
+    {
+      "source_concept_id": "place-documentation-where-maintainers-will-look",
+      "source_path": "place-documentation-where-maintainers-will-look.md",
+      "target": "documentation-maintenance-workflows.md",
+      "target_concept_id": "documentation-maintenance-workflows",
+      "target_path": "documentation-maintenance-workflows.md",
+      "text": "Documentation Maintenance Workflows",
+      "title": null
+    },
+    {
+      "source_concept_id": "playbook-maintenance-tension",
+      "source_path": "playbook-maintenance-tension.md",
+      "target": "decentralized-authority-for-complex-operations.md",
+      "target_concept_id": "decentralized-authority-for-complex-operations",
+      "target_path": "decentralized-authority-for-complex-operations.md",
+      "text": "Decentralized Authority for Complex Operations",
+      "title": null
+    },
+    {
+      "source_concept_id": "playbook-maintenance-tension",
+      "source_path": "playbook-maintenance-tension.md",
+      "target": "dedicated-function-for-operational-learning.md",
+      "target_concept_id": "dedicated-function-for-operational-learning",
+      "target_path": "dedicated-function-for-operational-learning.md",
+      "text": "Dedicated Function for Operational Learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "playbook-maintenance-tension",
+      "source_path": "playbook-maintenance-tension.md",
+      "target": "on-call-onboarding-and-training.md",
+      "target_concept_id": "on-call-onboarding-and-training",
+      "target_path": "on-call-onboarding-and-training.md",
+      "text": "On-Call Onboarding and Training",
+      "title": null
+    },
+    {
+      "source_concept_id": "playbook-maintenance-tension",
+      "source_path": "playbook-maintenance-tension.md",
+      "target": "postmortem-derived-checklist-items.md",
+      "target_concept_id": "postmortem-derived-checklist-items",
+      "target_path": "postmortem-derived-checklist-items.md",
+      "text": "Postmortem-Derived Checklist Items",
+      "title": null
+    },
+    {
+      "source_concept_id": "playbook-maintenance-tension",
+      "source_path": "playbook-maintenance-tension.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Runbook and Checklist Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "playbook-required-content-elements",
+      "source_path": "playbook-required-content-elements.md",
+      "target": "communicating-intent-for-improvisation.md",
+      "target_concept_id": "communicating-intent-for-improvisation",
+      "target_path": "communicating-intent-for-improvisation.md",
+      "text": "Communicating Intent for Improvisation",
+      "title": null
+    },
+    {
+      "source_concept_id": "playbook-required-content-elements",
+      "source_path": "playbook-required-content-elements.md",
+      "target": "reducing-documentation-need-through-system-design.md",
+      "target_concept_id": "reducing-documentation-need-through-system-design",
+      "target_path": "reducing-documentation-need-through-system-design.md",
+      "text": "automating the procedure it describes",
+      "title": null
+    },
+    {
+      "source_concept_id": "playbook-required-content-elements",
+      "source_path": "playbook-required-content-elements.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Runbook and Checklist Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "playbook-required-content-elements",
+      "source_path": "playbook-required-content-elements.md",
+      "target": "upstream-dependency-contract.md",
+      "target_concept_id": "upstream-dependency-contract",
+      "target_path": "upstream-dependency-contract.md",
+      "text": "Upstream Dependency Contract",
+      "title": null
+    },
+    {
+      "source_concept_id": "postmortem-derived-checklist-items",
+      "source_path": "postmortem-derived-checklist-items.md",
+      "target": "checklist-item-selection-tradeoffs.md",
+      "target_concept_id": "checklist-item-selection-tradeoffs",
+      "target_path": "checklist-item-selection-tradeoffs.md",
+      "text": "item selection trade-offs",
+      "title": null
+    },
+    {
+      "source_concept_id": "postmortem-derived-checklist-items",
+      "source_path": "postmortem-derived-checklist-items.md",
+      "target": "dedicated-function-for-operational-learning.md",
+      "target_concept_id": "dedicated-function-for-operational-learning",
+      "target_path": "dedicated-function-for-operational-learning.md",
+      "text": "Dedicated Function for Operational Learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "postmortem-derived-checklist-items",
+      "source_path": "postmortem-derived-checklist-items.md",
+      "target": "on-call-onboarding-and-training.md",
+      "target_concept_id": "on-call-onboarding-and-training",
+      "target_path": "on-call-onboarding-and-training.md",
+      "text": "On-Call Onboarding and Training",
+      "title": null
+    },
+    {
+      "source_concept_id": "problem-complexity-taxonomy",
+      "source_path": "problem-complexity-taxonomy.md",
+      "target": "cross-specialist-communication-schedule.md",
+      "target_concept_id": "cross-specialist-communication-schedule",
+      "target_path": "cross-specialist-communication-schedule.md",
+      "text": "cross-specialist communication schedule",
+      "title": null
+    },
+    {
+      "source_concept_id": "problem-complexity-taxonomy",
+      "source_path": "problem-complexity-taxonomy.md",
+      "target": "decentralized-authority-for-complex-operations.md",
+      "target_concept_id": "decentralized-authority-for-complex-operations",
+      "target_path": "decentralized-authority-for-complex-operations.md",
+      "text": "decentralized authority",
+      "title": null
+    },
+    {
+      "source_concept_id": "problem-complexity-taxonomy",
+      "source_path": "problem-complexity-taxonomy.md",
+      "target": "playbook-maintenance-tension.md",
+      "target_concept_id": "playbook-maintenance-tension",
+      "target_path": "playbook-maintenance-tension.md",
+      "text": "Playbook Maintenance Tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "problem-complexity-taxonomy",
+      "source_path": "problem-complexity-taxonomy.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "READ-DO checklist",
+      "title": null
+    },
+    {
+      "source_concept_id": "production-readiness-review",
+      "source_path": "production-readiness-review.md",
+      "target": "launch-vs-handoff-readiness-reviews.md",
+      "target_concept_id": "launch-vs-handoff-readiness-reviews",
+      "target_path": "launch-vs-handoff-readiness-reviews.md",
+      "text": "Launch vs. Handoff Readiness Reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "production-readiness-review",
+      "source_path": "production-readiness-review.md",
+      "target": "service-handback-mechanism.md",
+      "target_concept_id": "service-handback-mechanism",
+      "target_path": "service-handback-mechanism.md",
+      "text": "Service Handback Mechanism",
+      "title": null
+    },
+    {
+      "source_concept_id": "reducing-documentation-need-through-system-design",
+      "source_path": "reducing-documentation-need-through-system-design.md",
+      "target": "authors-blind-spot-for-complexity.md",
+      "target_concept_id": "authors-blind-spot-for-complexity",
+      "target_path": "authors-blind-spot-for-complexity.md",
+      "text": "The Author's Blind Spot for Complexity",
+      "title": null
+    },
+    {
+      "source_concept_id": "reducing-documentation-need-through-system-design",
+      "source_path": "reducing-documentation-need-through-system-design.md",
+      "target": "documentation-maintenance-workflows.md",
+      "target_concept_id": "documentation-maintenance-workflows",
+      "target_path": "documentation-maintenance-workflows.md",
+      "text": "maintenance workflows",
+      "title": null
+    },
+    {
+      "source_concept_id": "reducing-documentation-need-through-system-design",
+      "source_path": "reducing-documentation-need-through-system-design.md",
+      "target": "iac-properties-for-safe-change.md",
+      "target_concept_id": "iac-properties-for-safe-change",
+      "target_path": "iac-properties-for-safe-change.md",
+      "text": "Infrastructure-as-Code Properties for Safe Change",
+      "title": null
+    },
+    {
+      "source_concept_id": "reducing-documentation-need-through-system-design",
+      "source_path": "reducing-documentation-need-through-system-design.md",
+      "target": "operability-as-a-design-property.md",
+      "target_concept_id": "operability-as-a-design-property",
+      "target_path": "operability-as-a-design-property.md",
+      "text": "Operability as a Design Property",
+      "title": null
+    },
+    {
+      "source_concept_id": "reducing-documentation-need-through-system-design",
+      "source_path": "reducing-documentation-need-through-system-design.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "runbooks",
+      "title": null
+    },
+    {
+      "source_concept_id": "rehearsing-rare-procedures-with-drills",
+      "source_path": "rehearsing-rare-procedures-with-drills.md",
+      "target": "decremental-drift-in-maintenance-intervals.md",
+      "target_concept_id": "decremental-drift-in-maintenance-intervals",
+      "target_path": "decremental-drift-in-maintenance-intervals.md",
+      "text": "Decremental Drift in Maintenance Intervals",
+      "title": null
+    },
+    {
+      "source_concept_id": "rehearsing-rare-procedures-with-drills",
+      "source_path": "rehearsing-rare-procedures-with-drills.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Mandatory Staging/Simulation Testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "reuse-existing-authoritative-sources",
+      "source_path": "reuse-existing-authoritative-sources.md",
+      "target": "self-documenting-declarative-systems.md",
+      "target_concept_id": "self-documenting-declarative-systems",
+      "target_path": "self-documenting-declarative-systems.md",
+      "text": "Self-Documenting Declarative Systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbook-checklist-design",
+      "source_path": "runbook-checklist-design.md",
+      "target": "checklist-compliance-precondition-audit.md",
+      "target_concept_id": "checklist-compliance-precondition-audit",
+      "target_path": "checklist-compliance-precondition-audit.md",
+      "text": "Checklist Compliance Precondition Audit",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbook-checklist-design",
+      "source_path": "runbook-checklist-design.md",
+      "target": "checklist-execution-as-team-communication.md",
+      "target_concept_id": "checklist-execution-as-team-communication",
+      "target_path": "checklist-execution-as-team-communication.md",
+      "text": "Checklist Execution as Team Communication",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbook-checklist-design",
+      "source_path": "runbook-checklist-design.md",
+      "target": "checklist-item-selection-tradeoffs.md",
+      "target_concept_id": "checklist-item-selection-tradeoffs",
+      "target_path": "checklist-item-selection-tradeoffs.md",
+      "text": "Checklist Item Selection Trade-offs",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbook-checklist-design",
+      "source_path": "runbook-checklist-design.md",
+      "target": "flowcharts-for-procedural-documentation.md",
+      "target_concept_id": "flowcharts-for-procedural-documentation",
+      "target_path": "flowcharts-for-procedural-documentation.md",
+      "text": "Flowcharts for Procedural Documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbook-checklist-design",
+      "source_path": "runbook-checklist-design.md",
+      "target": "on-call-onboarding-and-training.md",
+      "target_concept_id": "on-call-onboarding-and-training",
+      "target_path": "on-call-onboarding-and-training.md",
+      "text": "On-Call Onboarding and Training",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbook-checklist-design",
+      "source_path": "runbook-checklist-design.md",
+      "target": "playbook-required-content-elements.md",
+      "target_concept_id": "playbook-required-content-elements",
+      "target_path": "playbook-required-content-elements.md",
+      "text": "Playbook Required Content Elements",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbook-checklist-design",
+      "source_path": "runbook-checklist-design.md",
+      "target": "rehearsing-rare-procedures-with-drills.md",
+      "target_concept_id": "rehearsing-rare-procedures-with-drills",
+      "target_path": "rehearsing-rare-procedures-with-drills.md",
+      "text": "Rehearsing Rare Procedures with Deliberate Drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-documenting-declarative-systems",
+      "source_path": "self-documenting-declarative-systems.md",
+      "target": "separating-stable-and-volatile-knowledge.md",
+      "target_concept_id": "separating-stable-and-volatile-knowledge",
+      "target_path": "separating-stable-and-volatile-knowledge.md",
+      "text": "stable vs. volatile knowledge",
+      "title": null
+    },
+    {
+      "source_concept_id": "separating-stable-and-volatile-knowledge",
+      "source_path": "separating-stable-and-volatile-knowledge.md",
+      "target": "playbook-maintenance-tension.md",
+      "target_concept_id": "playbook-maintenance-tension",
+      "target_path": "playbook-maintenance-tension.md",
+      "text": "Playbook Maintenance Tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "separating-stable-and-volatile-knowledge",
+      "source_path": "separating-stable-and-volatile-knowledge.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "Runbook and Checklist Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "separating-stable-and-volatile-knowledge",
+      "source_path": "separating-stable-and-volatile-knowledge.md",
+      "target": "self-documenting-declarative-systems.md",
+      "target_concept_id": "self-documenting-declarative-systems",
+      "target_path": "self-documenting-declarative-systems.md",
+      "text": "Self-Documenting Declarative Systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-decommissioning-checklist",
+      "source_path": "service-decommissioning-checklist.md",
+      "target": "launch-vs-handoff-readiness-reviews.md",
+      "target_concept_id": "launch-vs-handoff-readiness-reviews",
+      "target_path": "launch-vs-handoff-readiness-reviews.md",
+      "text": "service launches",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-handback-mechanism",
+      "source_path": "service-handback-mechanism.md",
+      "target": "launch-vs-handoff-readiness-reviews.md",
+      "target_concept_id": "launch-vs-handoff-readiness-reviews",
+      "target_path": "launch-vs-handoff-readiness-reviews.md",
+      "text": "Launch vs. Handoff Readiness Reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-handback-mechanism",
+      "source_path": "service-handback-mechanism.md",
+      "target": "production-readiness-review.md",
+      "target_concept_id": "production-readiness-review",
+      "target_path": "production-readiness-review.md",
+      "text": "Production Readiness Review",
+      "title": null
+    },
+    {
+      "source_concept_id": "snowflake-servers",
+      "source_path": "snowflake-servers.md",
+      "target": "iac-properties-for-safe-change.md",
+      "target_concept_id": "iac-properties-for-safe-change",
+      "target_path": "iac-properties-for-safe-change.md",
+      "text": "Infrastructure-as-Code Properties for Safe Change",
+      "title": null
+    },
+    {
+      "source_concept_id": "snowflake-servers",
+      "source_path": "snowflake-servers.md",
+      "target": "phoenix-server-pattern.md",
+      "target_concept_id": "phoenix-server-pattern",
+      "target_path": "phoenix-server-pattern.md",
+      "text": "phoenix server pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "snowflake-servers",
+      "source_path": "snowflake-servers.md",
+      "target": "reducing-documentation-need-through-system-design.md",
+      "target_concept_id": "reducing-documentation-need-through-system-design",
+      "target_path": "reducing-documentation-need-through-system-design.md",
+      "text": "Reducing Documentation Need Through System Design",
+      "title": null
+    },
+    {
+      "source_concept_id": "snowflake-servers",
+      "source_path": "snowflake-servers.md",
+      "target": "self-documenting-declarative-systems.md",
+      "target_concept_id": "self-documenting-declarative-systems",
+      "target_path": "self-documenting-declarative-systems.md",
+      "text": "Self-Documenting Declarative Systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "structural-views-for-onboarding",
+      "source_path": "structural-views-for-onboarding.md",
+      "target": "guided-tours-and-sightseeing-maps.md",
+      "target_concept_id": "guided-tours-and-sightseeing-maps",
+      "target_path": "guided-tours-and-sightseeing-maps.md",
+      "text": "guided tour",
+      "title": null
+    },
+    {
+      "source_concept_id": "structural-views-for-onboarding",
+      "source_path": "structural-views-for-onboarding.md",
+      "target": "runbook-checklist-design.md",
+      "target_concept_id": "runbook-checklist-design",
+      "target_path": "runbook-checklist-design.md",
+      "text": "runbook",
+      "title": null
+    },
+    {
+      "source_concept_id": "structural-views-for-onboarding",
+      "source_path": "structural-views-for-onboarding.md",
+      "target": "system-baseline-for-troubleshooting.md",
+      "target_concept_id": "system-baseline-for-troubleshooting",
+      "target_path": "system-baseline-for-troubleshooting.md",
+      "text": "system baseline",
+      "title": null
+    },
+    {
+      "source_concept_id": "structural-views-for-onboarding",
+      "source_path": "structural-views-for-onboarding.md",
+      "target": "tailoring-documentation-to-recipient-role.md",
+      "target_concept_id": "tailoring-documentation-to-recipient-role",
+      "target_path": "tailoring-documentation-to-recipient-role.md",
+      "text": "Tailoring Documentation to Recipient Role",
+      "title": null
+    },
+    {
+      "source_concept_id": "structural-views-for-onboarding",
+      "source_path": "structural-views-for-onboarding.md",
+      "target": "telling-the-story-of-the-system.md",
+      "target_concept_id": "telling-the-story-of-the-system",
+      "target_path": "telling-the-story-of-the-system.md",
+      "text": "Telling the Story of the System",
+      "title": null
+    },
+    {
+      "source_concept_id": "system-baseline-for-troubleshooting",
+      "source_path": "system-baseline-for-troubleshooting.md",
+      "target": "authors-blind-spot-for-complexity.md",
+      "target_concept_id": "authors-blind-spot-for-complexity",
+      "target_path": "authors-blind-spot-for-complexity.md",
+      "text": "The Author's Blind Spot for Complexity",
+      "title": null
+    },
+    {
+      "source_concept_id": "system-baseline-for-troubleshooting",
+      "source_path": "system-baseline-for-troubleshooting.md",
+      "target": "decision-tables-for-branching-diagnostics.md",
+      "target_concept_id": "decision-tables-for-branching-diagnostics",
+      "target_path": "decision-tables-for-branching-diagnostics.md",
+      "text": "decision tables and trees",
+      "title": null
+    },
+    {
+      "source_concept_id": "tacit-knowledge-erosion-under-ai-assisted-work",
+      "source_path": "tacit-knowledge-erosion-under-ai-assisted-work.md",
+      "target": "reuse-existing-authoritative-sources.md",
+      "target_concept_id": "reuse-existing-authoritative-sources",
+      "target_path": "reuse-existing-authoritative-sources.md",
+      "text": "Reuse Existing Authoritative Sources",
+      "title": null
+    },
+    {
+      "source_concept_id": "tacit-knowledge-erosion-under-ai-assisted-work",
+      "source_path": "tacit-knowledge-erosion-under-ai-assisted-work.md",
+      "target": "self-documenting-declarative-systems.md",
+      "target_concept_id": "self-documenting-declarative-systems",
+      "target_path": "self-documenting-declarative-systems.md",
+      "text": "Self-Documenting Declarative Systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "tailoring-documentation-to-recipient-role",
+      "source_path": "tailoring-documentation-to-recipient-role.md",
+      "target": "change-scope-classification.md",
+      "target_concept_id": "change-scope-classification",
+      "target_path": "change-scope-classification.md",
+      "text": "the scope of a change",
+      "title": null
+    },
+    {
+      "source_concept_id": "tailoring-documentation-to-recipient-role",
+      "source_path": "tailoring-documentation-to-recipient-role.md",
+      "target": "structural-views-for-onboarding.md",
+      "target_concept_id": "structural-views-for-onboarding",
+      "target_path": "structural-views-for-onboarding.md",
+      "text": "Structural Views for Onboarding",
+      "title": null
+    },
+    {
+      "source_concept_id": "telling-the-story-of-the-system",
+      "source_path": "telling-the-story-of-the-system.md",
+      "target": "structural-views-for-onboarding.md",
+      "target_concept_id": "structural-views-for-onboarding",
+      "target_path": "structural-views-for-onboarding.md",
+      "text": "structural view",
+      "title": null
+    },
+    {
+      "source_concept_id": "unauthorized-substitution-change-control",
+      "source_path": "unauthorized-substitution-change-control.md",
+      "target": "automated-guardrails-for-safe-changes.md",
+      "target_concept_id": "automated-guardrails-for-safe-changes",
+      "target_path": "automated-guardrails-for-safe-changes.md",
+      "text": "automated guardrail",
+      "title": null
+    },
+    {
+      "source_concept_id": "unauthorized-substitution-change-control",
+      "source_path": "unauthorized-substitution-change-control.md",
+      "target": "cross-specialist-communication-schedule.md",
+      "target_concept_id": "cross-specialist-communication-schedule",
+      "target_path": "cross-specialist-communication-schedule.md",
+      "text": "cross-specialist communication schedule",
+      "title": null
+    },
+    {
+      "source_concept_id": "unauthorized-substitution-change-control",
+      "source_path": "unauthorized-substitution-change-control.md",
+      "target": "decremental-drift-in-maintenance-intervals.md",
+      "target_concept_id": "decremental-drift-in-maintenance-intervals",
+      "target_path": "decremental-drift-in-maintenance-intervals.md",
+      "text": "Decremental Drift in Maintenance Intervals",
+      "title": null
+    },
+    {
+      "source_concept_id": "undocumented-rationale-and-zombie-process",
+      "source_path": "undocumented-rationale-and-zombie-process.md",
+      "target": "automated-guardrails-for-safe-changes.md",
+      "target_concept_id": "automated-guardrails-for-safe-changes",
+      "target_path": "automated-guardrails-for-safe-changes.md",
+      "text": "automated guardrail",
+      "title": null
+    },
+    {
+      "source_concept_id": "undocumented-rationale-and-zombie-process",
+      "source_path": "undocumented-rationale-and-zombie-process.md",
+      "target": "unauthorized-substitution-change-control.md",
+      "target_concept_id": "unauthorized-substitution-change-control",
+      "target_path": "unauthorized-substitution-change-control.md",
+      "text": "Unauthorized Substitution Change Control",
+      "title": null
+    },
+    {
+      "source_concept_id": "upstream-dependency-contract",
+      "source_path": "upstream-dependency-contract.md",
+      "target": "playbook-required-content-elements.md",
+      "target_concept_id": "playbook-required-content-elements",
+      "target_path": "playbook-required-content-elements.md",
+      "text": "Playbook Required Content Elements",
+      "title": null
+    }
+  ],
+  "orphans": []
+}

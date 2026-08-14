@@ -1,0 +1,3519 @@
+{
+  "bundle": "change-engineering",
+  "concepts": [
+    {
+      "concept_id": "aa-baseline-noise-calibration",
+      "description": "Run a system against itself under identical inputs to measure nondeterminism and infrastructure noise before trusting an A/B diff against a new version.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.002071696843662634,
+      "title": "A-A Baseline Noise Calibration"
+    },
+    {
+      "concept_id": "ab-diff-regression-testing",
+      "description": "Send identical traffic to old and new versions and compare outputs to catch regressions without pre-specifying every expected behavior.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.002272374030798046,
+      "title": "A/B Diff Regression Testing"
+    },
+    {
+      "concept_id": "backward-and-forward-compatibility-during-rollout",
+      "description": "A rolling deployment forces old and new code to read each other's data simultaneously, so a safe schema or wire-format change must satisfy both compatibility directions at once, not just one.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.004671282978041479,
+      "title": "Backward and Forward Compatibility During Rollout"
+    },
+    {
+      "concept_id": "blue-green-deployment",
+      "description": "Maintain two identical production environments and cut traffic over from the active one to the newly deployed one with a single router change, giving near-instant rollback at the cost of double the resources.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 3,
+      "pagerank": 0.03196819089907043,
+      "title": "Blue-Green Deployment"
+    },
+    {
+      "concept_id": "branch-by-abstraction",
+      "description": "Replace a large architectural component through a sequence of small, independently deployable commits on trunk by inserting an abstraction layer first, instead of doing the replacement on a long-lived branch.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.004489846823660133,
+      "title": "Branch by Abstraction"
+    },
+    {
+      "concept_id": "branch-gated-deploy-workflow",
+      "description": "Wire deployment as a separate pipeline job that requires tests to pass and restricts to an approved branch, enabling optional continuous deployment.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.004127626419664604,
+      "title": "Branch Gated Deploy Workflow"
+    },
+    {
+      "concept_id": "build-cop-rollback-discipline",
+      "description": "A designated owner keeps CI green by rolling back breaking changes quickly rather than fixing forward on top of a broken mainline.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.012572244651909677,
+      "title": "Build Cop Rollback Discipline"
+    },
+    {
+      "concept_id": "build-once-promote-artifact",
+      "description": "Compile and package a release candidate exactly once, then move that identical binary unchanged through every subsequent environment, so what was verified is provably what ships.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 4,
+      "pagerank": 0.02059350715303205,
+      "title": "Build Once, Promote the Artifact"
+    },
+    {
+      "concept_id": "build-quality-in",
+      "description": "Detect and fix defects at the point of origin instead of relying on downstream inspection, so that changes entering the pipeline are already low-risk rather than being filtered late.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.008216382871790554,
+      "title": "Build Quality In"
+    },
+    {
+      "concept_id": "canary-measurement-validity",
+      "description": "A canary verdict is only trustworthy if canary and control are measured at a fine enough granularity and aren't contaminating each other, and if the comparison is population-based rather than time-based.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 2,
+      "pagerank": 0.04400037631337738,
+      "title": "Canary Measurement Validity"
+    },
+    {
+      "concept_id": "canary-metric-selection",
+      "description": "Choosing which signals decide whether a canary passes is a trade-off between false positives that discard good releases and false negatives that let bad ones through, and should reuse existing SLI instrumentation.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 2,
+      "pagerank": 0.04249407302501626,
+      "title": "Canary Metric Selection"
+    },
+    {
+      "concept_id": "canary-population-and-duration-selection",
+      "description": "Sizing a canary is a trade-off between statistical confidence and how much error-budget risk the canary itself consumes, tuned against the system's real historical failure patterns rather than worst-case theory.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.017916146085839968,
+      "title": "Canary Population and Duration Selection"
+    },
+    {
+      "concept_id": "canary-release",
+      "description": "Deploy a change to a small, time-limited subset of production capacity or traffic and evaluate it against the unchanged rest of the fleet before deciding whether to roll it out further.",
+      "inbound_link_count": 30,
+      "outbound_link_count": 11,
+      "pagerank": 0.12921510071154632,
+      "title": "Canary Release"
+    },
+    {
+      "concept_id": "canarying-pipeline-systems",
+      "description": "Canary evaluation for batch and streaming pipelines needs a duration spanning a full work unit and worker-pool isolation, instead of the request-latency-scale duration and traffic-split isolation used for request-serving services.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.01466884467709601,
+      "title": "Canarying Noninteractive (Pipeline) Systems"
+    },
+    {
+      "concept_id": "capture-and-replay-validation",
+      "description": "Record real production traffic once, then replay it repeatedly against a candidate change to validate behavior offline, without needing a live mirror or touching production during the test.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.006119300827469568,
+      "title": "Capture-and-Replay Validation"
+    },
+    {
+      "concept_id": "change-approval-board-pathology",
+      "description": "External change approval boards (CABs) correlate negatively with delivery tempo and show no measurable improvement to stability, making them a net cost rather than a risk-reduction mechanism.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.01201865399392718,
+      "title": "Change Approval Board Pathology"
+    },
+    {
+      "concept_id": "change-failure-rate",
+      "description": "One of the four DORA delivery-performance metrics, measuring the percentage of production changes that cause degradation, outage, or require immediate remediation.",
+      "inbound_link_count": 10,
+      "outbound_link_count": 5,
+      "pagerank": 0.014305106176828165,
+      "title": "Change Failure Rate"
+    },
+    {
+      "concept_id": "change-freeze-triggers",
+      "description": "Conditions that should automatically suspend non-essential releases \u2014 an active incident on the system, or exhaustion of its error budget \u2014 until the underlying condition clears.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.003912991434693675,
+      "title": "Change Freeze Triggers"
+    },
+    {
+      "concept_id": "change-neutral-release",
+      "description": "Flag-guard every new feature so a rollout validates deployment mechanics and stability without simultaneously testing new behavior.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0032452551037793244,
+      "title": "Change Neutral Release"
+    },
+    {
+      "concept_id": "change-size-gating",
+      "description": "Automatically flag or block a change whose size is anomalously large relative to normal \u2014 lines changed, records affected, or percentage delta \u2014 since an unexpectedly huge change is a strong, cheap-to-detect signal of a mistake rather than intent.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0022464190459280764,
+      "title": "Change-Size Gating"
+    },
+    {
+      "concept_id": "changes-as-dominant-outage-cause",
+      "description": "Across thousands of production postmortems, binary and configuration pushes together account for the large majority of outage triggers, which is the empirical justification for investing in gradual rollout over other reliability work.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.004117261334694018,
+      "title": "Changes as the Dominant Outage Cause"
+    },
+    {
+      "concept_id": "ci-culprit-finding",
+      "description": "When CI batches changes, isolate the breaking commit by re-running tests per change or binary-searching the batch.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.007028597303658397,
+      "title": "CI Culprit Finding"
+    },
+    {
+      "concept_id": "communication-checklist-for-cross-team-changes",
+      "description": "For a change that touches a system shared across specialist teams, an explicit checklist of who must be consulted before implementation catches the risk that a purely technical checklist cannot.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.00316124501441448,
+      "title": "Communication Checklist for Cross-Team Changes"
+    },
+    {
+      "concept_id": "configuration-startup-presubmit-test",
+      "description": "Sandbox per-deployment-instance configuration on presubmit and verify every server starts healthy before merge, catching config incompatibilities unit tests miss.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0016853932584269665,
+      "title": "Configuration Startup Presubmit Test"
+    },
+    {
+      "concept_id": "continuous-deployment-automated-gates",
+      "description": "Turn the informal human hunches that make an operator hesitate to push (\"not during financial close\", \"not while the build is flaky\") into explicit, automatable gate conditions rather than relying on inconsistent manual veto.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.002640121352946399,
+      "title": "Continuous Deployment Automated Gates"
+    },
+    {
+      "concept_id": "continuous-deployment-vs-continuous-delivery",
+      "description": "Continuous delivery guarantees every change is releasable on demand; continuous deployment additionally removes the human decision to actually push each releasable change to production.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 6,
+      "pagerank": 0.017239292711135633,
+      "title": "Continuous Deployment vs. Continuous Delivery"
+    },
+    {
+      "concept_id": "customer-facing-release-tracks",
+      "description": "For a multi-tenant service releasing frequently, offer customers a choice between an immediate \"rapid\" track and a delayed \"scheduled\" track, so their own planning and testing needs don't have to block your release cadence.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.004180308876842001,
+      "title": "Customer-Facing Release Tracks"
+    },
+    {
+      "concept_id": "dark-launch",
+      "description": "Run a new code path against real production traffic and discard or hide its output well before customers ever see it, so scale and correctness problems surface long before the feature is exposed.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.002047429628946969,
+      "title": "Dark Launch"
+    },
+    {
+      "concept_id": "decoupling-deployment-from-release",
+      "description": "Treat installing new code in production and exposing it to users as two separate acts, so that technical delivery risk and business exposure risk can be managed independently.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.008805584485276583,
+      "title": "Decoupling Deployment from Release"
+    },
+    {
+      "concept_id": "dependency-graph-test-selection",
+      "description": "Run only tests downstream of a change in the build dependency graph to minimize CI cost and wait time while preserving relevant coverage.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0016853932584269665,
+      "title": "Dependency Graph Test Selection"
+    },
+    {
+      "concept_id": "deployment-frequency",
+      "description": "One of the four DORA delivery-performance metrics, measuring how often an organization ships to production, used as an operational proxy for batch size.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.011194152601498992,
+      "title": "Deployment Frequency"
+    },
+    {
+      "concept_id": "deployment-pain",
+      "description": "The fear, anxiety, and friction engineers feel when releasing to production is a measurable symptom of unsafe release mechanics, not an inherent cost of shipping software.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 6,
+      "pagerank": 0.0016853932584269665,
+      "title": "Deployment Pain"
+    },
+    {
+      "concept_id": "deployment-pipeline-traceability",
+      "description": "A deployment pipeline should let you recover every artifact \u2014 code, dependency versions, test results, and tooling \u2014 that produced a given running element, not just the fact that it passed.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.016920642884331556,
+      "title": "Deployment Pipeline Traceability"
+    },
+    {
+      "concept_id": "emergency-change-breakglass",
+      "description": "A deliberately narrow, heavily audited mechanism to bypass normal change gates during an active incident, traded off against the risk that the bypass itself is misused.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.012720572901079976,
+      "title": "Emergency Change Breakglass"
+    },
+    {
+      "concept_id": "expand-and-contract-schema-migration",
+      "description": "Decouple a relational schema change from the application code deployment that depends on it by splitting the migration into an expand phase, a dual-write phase, and a contract phase across successive releases.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 8,
+      "pagerank": 0.02909095838648011,
+      "title": "Expand-and-Contract Schema Migration"
+    },
+    {
+      "concept_id": "failure-demand",
+      "description": "Demand for engineering work created by not doing something correctly the first time \u2014 rework, incident response, and hotfixing \u2014 which a high change failure rate directly inflates.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0016853932584269665,
+      "title": "Failure Demand"
+    },
+    {
+      "concept_id": "fallback-to-a-safe-default",
+      "description": "When neither rollback nor roll-forward is fast enough or even possible, switch to a simpler, safe, non-optimal behavior instead \u2014 trading quality for a guarantee that the failure mode is bounded.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.008267939574852095,
+      "title": "Fallback to a Safe Default"
+    },
+    {
+      "concept_id": "feature-flag-aware-integration-tests",
+      "description": "Integration tests query rollout state and assert both enabled and disabled expected outputs so mid-rollout plug-ins do not break CI.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.002174459934392584,
+      "title": "Feature Flag Aware Integration Tests"
+    },
+    {
+      "concept_id": "feature-flag-blast-radius-isolation",
+      "description": "Gating individual features behind their own flags lets a broken feature be disabled in isolation, without forcing a rollback of the whole release it shipped in.",
+      "inbound_link_count": 11,
+      "outbound_link_count": 2,
+      "pagerank": 0.01616353097039883,
+      "title": "Feature Flag Blast Radius Isolation"
+    },
+    {
+      "concept_id": "green-head-vs-true-head",
+      "description": "Continuous build maintains two notions of mainline \u2014 latest commit and latest commit that passed automated build and test \u2014 so developers can choose stability vs freshness when syncing.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.011898815510100857,
+      "title": "Green Head vs True Head"
+    },
+    {
+      "concept_id": "hitless-in-service-software-upgrade",
+      "description": "Patch a running process's code or data in place \u2014 without stopping, restarting, or replacing it \u2014 for deployments where even a rolling restart's brief per-instance gap is unacceptable.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.012004873738346352,
+      "title": "Hitless In-Service Software Upgrade (ISSU)"
+    },
+    {
+      "concept_id": "independent-deployability",
+      "description": "The ability to deploy and release an individual service on demand, independently of other services it depends on, which is the architectural precondition for safe progressive delivery.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 6,
+      "pagerank": 0.0104177769704187,
+      "title": "Independent Deployability"
+    },
+    {
+      "concept_id": "known-failure-suppression-in-ci",
+      "description": "Tag failing tests with tracked bugs and suppress their failures to keep the suite green while retaining visibility into outstanding issues.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0023014902398381986,
+      "title": "Known Failure Suppression in CI"
+    },
+    {
+      "concept_id": "launch-kpi-thresholds",
+      "description": "Pre-agreed key-performance-indicator thresholds let imperfect releases ship when guardrail metrics are within bounds, instead of blocking on perfection.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.015207010630841669,
+      "title": "Launch KPI Thresholds"
+    },
+    {
+      "concept_id": "launch-readiness-review",
+      "description": "For a rare, high-blast-radius event like a major product launch, run a dedicated cross-team review of dependencies, capacity, and failure modes before launch day, rather than relying on routine per-change review.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 6,
+      "pagerank": 0.0025555508507294285,
+      "title": "Launch Readiness Review"
+    },
+    {
+      "concept_id": "lead-time-for-changes",
+      "description": "One of the four DORA delivery-performance metrics, measuring the elapsed time from code commit to that code running in production.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.008049660505430616,
+      "title": "Lead Time for Changes"
+    },
+    {
+      "concept_id": "manual-approval-release-gates",
+      "description": "For sufficiently critical systems, require an explicit human sign-off between each stage of an otherwise automated rollout, rather than letting automated metrics alone decide progression.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.007064657295881676,
+      "title": "Manual Approval Release Gates"
+    },
+    {
+      "concept_id": "mean-time-to-restore",
+      "description": "One of the four DORA delivery-performance metrics, measuring how quickly full service is restored after a production incident caused by a change.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.00541377790589209,
+      "title": "Mean Time to Restore (MTTR) as a Delivery Metric"
+    },
+    {
+      "concept_id": "migration-rollback-testing-cycle",
+      "description": "Every schema migration change needs its rollback path re-tested as part of the same test cycle as the forward change, and rollback should rename rather than drop objects so written data is never destroyed.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.004039506910573274,
+      "title": "Migration Rollback Testing Cycle"
+    },
+    {
+      "concept_id": "parallel-api-version-coexistence",
+      "description": "Run multiple major API versions side by side and announce retirement dates explicitly, instead of cutting consumers over to a breaking change all at once.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.007452578510810876,
+      "title": "Parallel API Version Coexistence"
+    },
+    {
+      "concept_id": "peer-review-as-change-control",
+      "description": "Requiring a non-author team member to review and approve a change in version control is the only change-approval method DORA research found to correlate positively with both tempo and stability.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 2,
+      "pagerank": 0.02058129782449556,
+      "title": "Peer Review as Change Control"
+    },
+    {
+      "concept_id": "pipeline-secret-injection",
+      "description": "Store deployment secrets in the CI platform's secret store, never in version control, and inject them into deploy jobs at runtime.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0016853932584269665,
+      "title": "Pipeline Secret Injection"
+    },
+    {
+      "concept_id": "placebo-deployment-ab-test",
+      "description": "Compare a real update against a placebo re-shipment of the old version to separate deployment-induced metric shifts from genuine quality change.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.002761313553215741,
+      "title": "Placebo Deployment A/B Test"
+    },
+    {
+      "concept_id": "pre-canary-artifact-smoke-test",
+      "description": "Before exposing any real load to a newly deployed artifact, confirm it is the intended version, that it loads in an exact copy of the production environment, and that it can serve a single minimal request without crashing \u2014 catching catastrophic failures at near-zero cost before spending canary population or time on them.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.014751363176964297,
+      "title": "Pre-Canary Artifact Smoke Test"
+    },
+    {
+      "concept_id": "pre-production-fidelity-limits",
+      "description": "Staging and pre-production environments structurally cannot reproduce production's real user diversity, live dependency behavior, and rare long-tail conditions, which is why some validation only works safely once a change is actually running in production.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 6,
+      "pagerank": 0.0176060155599155,
+      "title": "Pre-Production Fidelity Limits"
+    },
+    {
+      "concept_id": "premortem-risk-analysis",
+      "description": "Before executing a risky change, imagine it has already failed and work backward to explain why, which surfaces failure modes a straight review of the plan tends to miss because the plan's authors are invested in it succeeding.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002047429628946969,
+      "title": "Premortem Risk Analysis"
+    },
+    {
+      "concept_id": "presubmit-vs-postsubmit-test-gating",
+      "description": "Run only fast, reliable tests before merge; accept broader coverage and occasional rollbacks after merge, because exhaustive presubmit blocks productivity and fights mid-air collisions.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.010734243407067792,
+      "title": "Presubmit vs Postsubmit Test Gating"
+    },
+    {
+      "concept_id": "production-prober-testing",
+      "description": "Continuously run the same test suite against live production to verify both that production works and that the tests still detect real failures.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.011670196793989679,
+      "title": "Production Prober Testing"
+    },
+    {
+      "concept_id": "progressive-rollout-data-layer-isolation",
+      "description": "A progressive rollout isolates risk by code and serving version, but any component that changes what it writes to shared storage or logs silently couples old and new versions at the data layer too \u2014 and a rollback can amplify a failure instead of fixing it if the reintroduced old code can't read data the newer code already wrote.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.00860571037060884,
+      "title": "Progressive Rollout Data-Layer Isolation"
+    },
+    {
+      "concept_id": "proportional-traffic-shedding",
+      "description": "Migrate traffic from an old cluster to a fully-built parallel new one by gradually shifting the load-balanced percentage from 0 to 100, at the cost of running double capacity for the transition.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0016853932584269665,
+      "title": "Proportional Traffic Shedding"
+    },
+    {
+      "concept_id": "provenance-based-deployment-policy",
+      "description": "Deployment environments should verify what artifact is being deployed and how it was built, not just who initiated the deployment, by evaluating machine-checkable build provenance against an explicit policy.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.008095624278905712,
+      "title": "Provenance-Based Deployment Policy"
+    },
+    {
+      "concept_id": "record-replay-dependency-isolation",
+      "description": "Record real dependency traffic on post-submit, replay it hermetically on presubmit to test against external services without live calls or shared staging.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.003558119208203714,
+      "title": "Record Replay Dependency Isolation"
+    },
+    {
+      "concept_id": "release-atomicity-tuple-testing",
+      "description": "For tightly coupled components that cannot be made independently deployable, test and deploy a specific named combination of component versions as one atomic unit instead of versioning each independently.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.004624215794284134,
+      "title": "Release Atomicity and Tuple Testing"
+    },
+    {
+      "concept_id": "release-candidate-regression-testing",
+      "description": "Re-run the comprehensive test suite against an assembled release candidate even after post-submit CI passed, for sanity, auditability, cherry-picks, and emergency cuts.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.009004125208253801,
+      "title": "Release Candidate Regression Testing"
+    },
+    {
+      "concept_id": "release-team-protects-user-experience",
+      "description": "Release engineering's role includes blocking a ship when developer urgency would harm existing users, because frequent trains make missing one feature cheap.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0016853932584269665,
+      "title": "Release Team Protects User Experience"
+    },
+    {
+      "concept_id": "release-train-deadline-discipline",
+      "description": "A release train enforces hard submission deadlines so no single feature can delay the whole batch, and frequent trains make missing one cheap.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.01590823445257912,
+      "title": "Release Train Deadline Discipline"
+    },
+    {
+      "concept_id": "retraining-as-roll-forward-for-models",
+      "description": "For a model, retraining plays the role a code roll-forward normally plays \u2014 producing a new, hopefully-fixed version instead of reverting to a prior one \u2014 but it carries two failure modes an ordinary roll-forward doesn't share, and needs the same validation discipline before it ships.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.007811592256697493,
+      "title": "Retraining as Roll-Forward for Models"
+    },
+    {
+      "concept_id": "rollback-retriggers-shared-update-side-effects",
+      "description": "A rollback or reapply is not a neutral undo when the update mechanism itself fires a stateful side effect on every transition \u2014 reversing it can retrigger the exact fault the rollback was meant to fix, and repeated toggling can retrigger it repeatedly, compounding harm instead of curing it.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.006054655076603403,
+      "title": "Rollback Retriggers Shared Update Side Effects"
+    },
+    {
+      "concept_id": "rollback-vs-roll-forward",
+      "description": "When a change causes a production regression, reverting to the last known-good state is a safer default mitigation than pushing a forward fix, and designing releases to be cheaply revertible is what keeps that option available.",
+      "inbound_link_count": 19,
+      "outbound_link_count": 10,
+      "pagerank": 0.05140307957608894,
+      "title": "Roll Back vs. Roll Forward"
+    },
+    {
+      "concept_id": "rolling-deployment",
+      "description": "Update a fleet to a new version incrementally, node by node or shard by shard, rather than all at once, so a bad version is caught while most of the fleet is still running the old one.",
+      "inbound_link_count": 12,
+      "outbound_link_count": 3,
+      "pagerank": 0.036421694813274536,
+      "title": "Rolling Deployment"
+    },
+    {
+      "concept_id": "safe-configuration-change-properties",
+      "description": "Configuration changes carry the same production risk as code changes and need the same three safety properties: gradual deployability, rollback capability, and automatic rollback when operator control is lost.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.0052920276706449896,
+      "title": "Safe Configuration Change Properties"
+    },
+    {
+      "concept_id": "schema-migration-production-risk-categories",
+      "description": "Database migrations carry four distinct production risks \u2014 locking, resource saturation, data integrity, and replication stalls \u2014 each needing its own mitigation, not a single generic \"be careful\" review.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.006076659103255532,
+      "title": "Schema Migration Production Risk Categories"
+    },
+    {
+      "concept_id": "segregation-of-duties-via-pipeline-audit-trail",
+      "description": "Regulated environments can satisfy segregation-of-duties requirements without a change approval board by combining mandatory peer review with an automated, immutable deployment pipeline audit trail.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.020633770770607,
+      "title": "Segregation of Duties via Pipeline Audit Trail"
+    },
+    {
+      "concept_id": "self-serve-staging-load-test",
+      "description": "When local profiling stops predicting production performance, build a production-representative, self-serve load-testing capability in staging so a performance regression is caught before it consumes canary rollout budget on repeated deploy-and-rollback cycles.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.005479930319942896,
+      "title": "Self-Serve Staging Load Test"
+    },
+    {
+      "concept_id": "semantic-versioning",
+      "description": "The MAJOR.MINOR.PATCH versioning contract signals to consumers whether a release is safe to adopt automatically or requires a compatibility review.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.008618523767907959,
+      "title": "Semantic Versioning"
+    },
+    {
+      "concept_id": "speed-stability-tradeoff-myth",
+      "description": "Empirical DORA research shows high-performing delivery organizations achieve both faster tempo and higher stability simultaneously, disproving the assumption that shipping faster necessarily increases risk.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 8,
+      "pagerank": 0.005460935818722776,
+      "title": "The Speed-Stability Trade-off Myth"
+    },
+    {
+      "concept_id": "staged-percentage-rollout",
+      "description": "Progress a change through a fixed sequence of environments and traffic percentages \u2014 dry run, staging, canary, then an increasing percentage of production \u2014 instead of jumping straight from testing to full deployment.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 6,
+      "pagerank": 0.008569947231440127,
+      "title": "Staged Percentage Rollout"
+    },
+    {
+      "concept_id": "standard-change-preapproval",
+      "description": "Earn a pre-approved, no-manual-gate category for a class of changes by building a track record of automated testing and low change failure rate, instead of routing every change through the same approval process.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0016853932584269665,
+      "title": "Standard Change Pre-Approval"
+    },
+    {
+      "concept_id": "strangler-fig-pattern",
+      "description": "Replace a legacy system by routing traffic to a new implementation one slice of functionality at a time, so the legacy system is decommissioned gradually instead of via a single high-risk cutover.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.002639485708454745,
+      "title": "Strangler Fig Pattern"
+    },
+    {
+      "concept_id": "sut-hermeticity-vs-fidelity",
+      "description": "Larger tests trade isolation from flaky shared infrastructure against accuracy to production topology \u2014 pipeline stage choice is where on that curve to test.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.002693527043067173,
+      "title": "SUT Hermeticity vs Fidelity"
+    },
+    {
+      "concept_id": "tolerant-reader-pattern",
+      "description": "Consumers of an API or data format should ignore unexpected or unknown fields rather than failing on them, so producers can add fields without breaking existing clients.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.011344862352775776,
+      "title": "Tolerant Reader Pattern"
+    },
+    {
+      "concept_id": "traffic-teeing",
+      "description": "Copy live production traffic to a test or canary system and discard its responses, giving more realistic coverage than synthetic load at the cost of complexity and risk on stateful systems.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.01589981265165684,
+      "title": "Traffic Teeing"
+    },
+    {
+      "concept_id": "trunk-based-development",
+      "description": "Integrating every change into the mainline at least daily, instead of on long-lived feature branches, keeps merge risk low and is a precondition for continuous delivery.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.002639485708454745,
+      "title": "Trunk-Based Development"
+    },
+    {
+      "concept_id": "two-phase-mutation-testing",
+      "description": "Split a pipeline's write into a proposal phase and a validated-apply phase so a canaried change's real output can be checked for correctness before it is actually committed to the destination.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.007055641914583568,
+      "title": "Two-Phase Mutation Testing"
+    },
+    {
+      "concept_id": "update-safe-state-gating",
+      "description": "An embedded or mobile system should only apply an update while it is in an operational state where an update-induced glitch or restart cannot cause physical harm, not merely when connectivity allows it.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0027940741675309124,
+      "title": "Update Safe-State Gating"
+    },
+    {
+      "concept_id": "version-skew-during-rollout",
+      "description": "Progressive delivery leaves a distributed system running incompatible code, data, and configuration versions simultaneously until rollout completes.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.00716667726723215,
+      "title": "Version Skew During Rollout"
+    },
+    {
+      "concept_id": "versioned-incremental-migrations",
+      "description": "Apply schema changes as a sequence of small, sequentially-numbered migrations rather than as full schema diffs, so deployment tooling can always tell exactly what's been applied and what hasn't.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.004776307652343143,
+      "title": "Versioned Incremental Migrations"
+    },
+    {
+      "concept_id": "working-in-small-batches",
+      "description": "Reducing the size of each release lowers cycle time, shrinks blast radius, and shortens feedback loops, changing the economics of shipping changes.",
+      "inbound_link_count": 14,
+      "outbound_link_count": 3,
+      "pagerank": 0.019437985009637823,
+      "title": "Working in Small Batches"
+    },
+    {
+      "concept_id": "zero-downtime-deployment",
+      "description": "The requirement that production deployments happen during normal business hours without user-visible disruption, which rules out maintenance-window-based release strategies for continuous platforms.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.005015071697286963,
+      "title": "Zero-Downtime Deployment"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "aa-baseline-noise-calibration",
+      "source_path": "aa-baseline-noise-calibration.md",
+      "target": "ab-diff-regression-testing.md",
+      "target_concept_id": "ab-diff-regression-testing",
+      "target_path": "ab-diff-regression-testing.md",
+      "text": "A/B diff regression testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "aa-baseline-noise-calibration",
+      "source_path": "aa-baseline-noise-calibration.md",
+      "target": "canary-measurement-validity.md",
+      "target_concept_id": "canary-measurement-validity",
+      "target_path": "canary-measurement-validity.md",
+      "text": "canary measurement validity",
+      "title": null
+    },
+    {
+      "source_concept_id": "aa-baseline-noise-calibration",
+      "source_path": "aa-baseline-noise-calibration.md",
+      "target": "pre-canary-artifact-smoke-test.md",
+      "target_concept_id": "pre-canary-artifact-smoke-test",
+      "target_path": "pre-canary-artifact-smoke-test.md",
+      "text": "pre-canary artifact smoketest",
+      "title": null
+    },
+    {
+      "source_concept_id": "ab-diff-regression-testing",
+      "source_path": "ab-diff-regression-testing.md",
+      "target": "aa-baseline-noise-calibration.md",
+      "target_concept_id": "aa-baseline-noise-calibration",
+      "target_path": "aa-baseline-noise-calibration.md",
+      "text": "A-A baseline noisecalibration",
+      "title": null
+    },
+    {
+      "source_concept_id": "ab-diff-regression-testing",
+      "source_path": "ab-diff-regression-testing.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canaryrelease",
+      "title": null
+    },
+    {
+      "source_concept_id": "ab-diff-regression-testing",
+      "source_path": "ab-diff-regression-testing.md",
+      "target": "change-neutral-release.md",
+      "target_concept_id": "change-neutral-release",
+      "target_path": "change-neutral-release.md",
+      "text": "change-neutralrelease",
+      "title": null
+    },
+    {
+      "source_concept_id": "ab-diff-regression-testing",
+      "source_path": "ab-diff-regression-testing.md",
+      "target": "placebo-deployment-ab-test.md",
+      "target_concept_id": "placebo-deployment-ab-test",
+      "target_path": "placebo-deployment-ab-test.md",
+      "text": "placebo deployment A/Btest",
+      "title": null
+    },
+    {
+      "source_concept_id": "ab-diff-regression-testing",
+      "source_path": "ab-diff-regression-testing.md",
+      "target": "release-candidate-regression-testing.md",
+      "target_concept_id": "release-candidate-regression-testing",
+      "target_path": "release-candidate-regression-testing.md",
+      "text": "release candidate regressiontesting",
+      "title": null
+    },
+    {
+      "source_concept_id": "backward-and-forward-compatibility-during-rollout",
+      "source_path": "backward-and-forward-compatibility-during-rollout.md",
+      "target": "expand-and-contract-schema-migration.md",
+      "target_concept_id": "expand-and-contract-schema-migration",
+      "target_path": "expand-and-contract-schema-migration.md",
+      "text": "expand-and-contract schema migration",
+      "title": null
+    },
+    {
+      "source_concept_id": "backward-and-forward-compatibility-during-rollout",
+      "source_path": "backward-and-forward-compatibility-during-rollout.md",
+      "target": "parallel-api-version-coexistence.md",
+      "target_concept_id": "parallel-api-version-coexistence",
+      "target_path": "parallel-api-version-coexistence.md",
+      "text": "parallel API version coexistence",
+      "title": null
+    },
+    {
+      "source_concept_id": "backward-and-forward-compatibility-during-rollout",
+      "source_path": "backward-and-forward-compatibility-during-rollout.md",
+      "target": "progressive-rollout-data-layer-isolation.md",
+      "target_concept_id": "progressive-rollout-data-layer-isolation",
+      "target_path": "progressive-rollout-data-layer-isolation.md",
+      "text": "progressive rollout data-layer isolation",
+      "title": null
+    },
+    {
+      "source_concept_id": "backward-and-forward-compatibility-during-rollout",
+      "source_path": "backward-and-forward-compatibility-during-rollout.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "backward-and-forward-compatibility-during-rollout",
+      "source_path": "backward-and-forward-compatibility-during-rollout.md",
+      "target": "tolerant-reader-pattern.md",
+      "target_concept_id": "tolerant-reader-pattern",
+      "target_path": "tolerant-reader-pattern.md",
+      "text": "tolerant reader pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "blue-green-deployment",
+      "source_path": "blue-green-deployment.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "blue-green-deployment",
+      "source_path": "blue-green-deployment.md",
+      "target": "expand-and-contract-schema-migration.md",
+      "target_concept_id": "expand-and-contract-schema-migration",
+      "target_path": "expand-and-contract-schema-migration.md",
+      "text": "expand-and-contract schema migration",
+      "title": null
+    },
+    {
+      "source_concept_id": "blue-green-deployment",
+      "source_path": "blue-green-deployment.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "branch-by-abstraction",
+      "source_path": "branch-by-abstraction.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "feature flag blast radius isolation",
+      "title": null
+    },
+    {
+      "source_concept_id": "branch-by-abstraction",
+      "source_path": "branch-by-abstraction.md",
+      "target": "strangler-fig-pattern.md",
+      "target_concept_id": "strangler-fig-pattern",
+      "target_path": "strangler-fig-pattern.md",
+      "text": "strangler fig pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "branch-by-abstraction",
+      "source_path": "branch-by-abstraction.md",
+      "target": "trunk-based-development.md",
+      "target_concept_id": "trunk-based-development",
+      "target_path": "trunk-based-development.md",
+      "text": "trunk",
+      "title": null
+    },
+    {
+      "source_concept_id": "branch-by-abstraction",
+      "source_path": "branch-by-abstraction.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "branch-gated-deploy-workflow",
+      "source_path": "branch-gated-deploy-workflow.md",
+      "target": "continuous-deployment-vs-continuous-delivery.md",
+      "target_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "target_path": "continuous-deployment-vs-continuous-delivery.md",
+      "text": "continuous deployment vs. continuousdelivery",
+      "title": null
+    },
+    {
+      "source_concept_id": "branch-gated-deploy-workflow",
+      "source_path": "branch-gated-deploy-workflow.md",
+      "target": "peer-review-as-change-control.md",
+      "target_concept_id": "peer-review-as-change-control",
+      "target_path": "peer-review-as-change-control.md",
+      "text": "peer review as change control",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-cop-rollback-discipline",
+      "source_path": "build-cop-rollback-discipline.md",
+      "target": "ci-culprit-finding.md",
+      "target_concept_id": "ci-culprit-finding",
+      "target_path": "ci-culprit-finding.md",
+      "text": "CI culpritfinding",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-cop-rollback-discipline",
+      "source_path": "build-cop-rollback-discipline.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "roll back vs. roll forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-once-promote-artifact",
+      "source_path": "build-once-promote-artifact.md",
+      "target": "deployment-pipeline-traceability.md",
+      "target_concept_id": "deployment-pipeline-traceability",
+      "target_path": "deployment-pipeline-traceability.md",
+      "text": "deployment pipelinetraceability",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-once-promote-artifact",
+      "source_path": "build-once-promote-artifact.md",
+      "target": "release-candidate-regression-testing.md",
+      "target_concept_id": "release-candidate-regression-testing",
+      "target_path": "release-candidate-regression-testing.md",
+      "text": "release candidate regression testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-once-promote-artifact",
+      "source_path": "build-once-promote-artifact.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "rollback vs. roll-forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-once-promote-artifact",
+      "source_path": "build-once-promote-artifact.md",
+      "target": "version-skew-during-rollout.md",
+      "target_concept_id": "version-skew-during-rollout",
+      "target_path": "version-skew-during-rollout.md",
+      "text": "Version skew during rollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-quality-in",
+      "source_path": "build-quality-in.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-quality-in",
+      "source_path": "build-quality-in.md",
+      "target": "change-failure-rate.md",
+      "target_concept_id": "change-failure-rate",
+      "target_path": "change-failure-rate.md",
+      "text": "change failure rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-quality-in",
+      "source_path": "build-quality-in.md",
+      "target": "presubmit-vs-postsubmit-test-gating.md",
+      "target_concept_id": "presubmit-vs-postsubmit-test-gating",
+      "target_path": "presubmit-vs-postsubmit-test-gating.md",
+      "text": "presubmit vs postsubmit test gating",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-quality-in",
+      "source_path": "build-quality-in.md",
+      "target": "speed-stability-tradeoff-myth.md",
+      "target_concept_id": "speed-stability-tradeoff-myth",
+      "target_path": "speed-stability-tradeoff-myth.md",
+      "text": "speed-stability trade-off myth",
+      "title": null
+    },
+    {
+      "source_concept_id": "build-quality-in",
+      "source_path": "build-quality-in.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-measurement-validity",
+      "source_path": "canary-measurement-validity.md",
+      "target": "canary-metric-selection.md",
+      "target_concept_id": "canary-metric-selection",
+      "target_path": "canary-metric-selection.md",
+      "text": "metrics chosen",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-measurement-validity",
+      "source_path": "canary-measurement-validity.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-metric-selection",
+      "source_path": "canary-metric-selection.md",
+      "target": "canary-measurement-validity.md",
+      "target_concept_id": "canary-measurement-validity",
+      "target_path": "canary-measurement-validity.md",
+      "text": "canary measurement validity",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-metric-selection",
+      "source_path": "canary-metric-selection.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-population-and-duration-selection",
+      "source_path": "canary-population-and-duration-selection.md",
+      "target": "canary-metric-selection.md",
+      "target_concept_id": "canary-metric-selection",
+      "target_path": "canary-metric-selection.md",
+      "text": "canary metric selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-population-and-duration-selection",
+      "source_path": "canary-population-and-duration-selection.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "blue-green-deployment.md",
+      "target_concept_id": "blue-green-deployment",
+      "target_path": "blue-green-deployment.md",
+      "text": "blue-green deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "canary-measurement-validity.md",
+      "target_concept_id": "canary-measurement-validity",
+      "target_path": "canary-measurement-validity.md",
+      "text": "canary measurement validity",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "canary-measurement-validity.md",
+      "target_concept_id": "canary-measurement-validity",
+      "target_path": "canary-measurement-validity.md",
+      "text": "canary measurement validity",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "canary-metric-selection.md",
+      "target_concept_id": "canary-metric-selection",
+      "target_path": "canary-metric-selection.md",
+      "text": "canary metric selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "canary-population-and-duration-selection.md",
+      "target_concept_id": "canary-population-and-duration-selection",
+      "target_path": "canary-population-and-duration-selection.md",
+      "text": "canary population and duration selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "canarying-pipeline-systems.md",
+      "target_concept_id": "canarying-pipeline-systems",
+      "target_path": "canarying-pipeline-systems.md",
+      "text": "canarying pipeline systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "pre-canary-artifact-smoke-test.md",
+      "target_concept_id": "pre-canary-artifact-smoke-test",
+      "target_path": "pre-canary-artifact-smoke-test.md",
+      "text": "pre-canary artifact smoke test",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "pre-production-fidelity-limits.md",
+      "target_concept_id": "pre-production-fidelity-limits",
+      "target_path": "pre-production-fidelity-limits.md",
+      "text": "pre-production fidelitylimits",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "production-prober-testing.md",
+      "target_concept_id": "production-prober-testing",
+      "target_path": "production-prober-testing.md",
+      "text": "production prober testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "canary-release",
+      "source_path": "canary-release.md",
+      "target": "traffic-teeing.md",
+      "target_concept_id": "traffic-teeing",
+      "target_path": "traffic-teeing.md",
+      "text": "traffic teeing",
+      "title": null
+    },
+    {
+      "source_concept_id": "canarying-pipeline-systems",
+      "source_path": "canarying-pipeline-systems.md",
+      "target": "canary-population-and-duration-selection.md",
+      "target_concept_id": "canary-population-and-duration-selection",
+      "target_path": "canary-population-and-duration-selection.md",
+      "text": "canary population and duration selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "canarying-pipeline-systems",
+      "source_path": "canarying-pipeline-systems.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "Canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "canarying-pipeline-systems",
+      "source_path": "canarying-pipeline-systems.md",
+      "target": "two-phase-mutation-testing.md",
+      "target_concept_id": "two-phase-mutation-testing",
+      "target_path": "two-phase-mutation-testing.md",
+      "text": "two-phase mutation testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "capture-and-replay-validation",
+      "source_path": "capture-and-replay-validation.md",
+      "target": "record-replay-dependency-isolation.md",
+      "target_concept_id": "record-replay-dependency-isolation",
+      "target_path": "record-replay-dependency-isolation.md",
+      "text": "recordreplay dependency isolation",
+      "title": null
+    },
+    {
+      "source_concept_id": "capture-and-replay-validation",
+      "source_path": "capture-and-replay-validation.md",
+      "target": "schema-migration-production-risk-categories.md",
+      "target_concept_id": "schema-migration-production-risk-categories",
+      "target_path": "schema-migration-production-risk-categories.md",
+      "text": "schema migration production risk categories",
+      "title": null
+    },
+    {
+      "source_concept_id": "capture-and-replay-validation",
+      "source_path": "capture-and-replay-validation.md",
+      "target": "self-serve-staging-load-test.md",
+      "target_concept_id": "self-serve-staging-load-test",
+      "target_path": "self-serve-staging-load-test.md",
+      "text": "self-serve staging load test",
+      "title": null
+    },
+    {
+      "source_concept_id": "capture-and-replay-validation",
+      "source_path": "capture-and-replay-validation.md",
+      "target": "traffic-teeing.md",
+      "target_concept_id": "traffic-teeing",
+      "target_path": "traffic-teeing.md",
+      "text": "traffic teeing",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-approval-board-pathology",
+      "source_path": "change-approval-board-pathology.md",
+      "target": "change-failure-rate.md",
+      "target_concept_id": "change-failure-rate",
+      "target_path": "change-failure-rate.md",
+      "text": "change failure rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-approval-board-pathology",
+      "source_path": "change-approval-board-pathology.md",
+      "target": "lead-time-for-changes.md",
+      "target_concept_id": "lead-time-for-changes",
+      "target_path": "lead-time-for-changes.md",
+      "text": "lead time for changes",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-approval-board-pathology",
+      "source_path": "change-approval-board-pathology.md",
+      "target": "peer-review-as-change-control.md",
+      "target_concept_id": "peer-review-as-change-control",
+      "target_path": "peer-review-as-change-control.md",
+      "text": "peer review as change control",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-failure-rate",
+      "source_path": "change-failure-rate.md",
+      "target": "build-quality-in.md",
+      "target_concept_id": "build-quality-in",
+      "target_path": "build-quality-in.md",
+      "text": "build quality in",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-failure-rate",
+      "source_path": "change-failure-rate.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-failure-rate",
+      "source_path": "change-failure-rate.md",
+      "target": "changes-as-dominant-outage-cause.md",
+      "target_concept_id": "changes-as-dominant-outage-cause",
+      "target_path": "changes-as-dominant-outage-cause.md",
+      "text": "change types",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-failure-rate",
+      "source_path": "change-failure-rate.md",
+      "target": "mean-time-to-restore.md",
+      "target_concept_id": "mean-time-to-restore",
+      "target_path": "mean-time-to-restore.md",
+      "text": "mean time to restore",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-failure-rate",
+      "source_path": "change-failure-rate.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-freeze-triggers",
+      "source_path": "change-freeze-triggers.md",
+      "target": "change-approval-board-pathology.md",
+      "target_concept_id": "change-approval-board-pathology",
+      "target_path": "change-approval-board-pathology.md",
+      "text": "change approval board pathology",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-freeze-triggers",
+      "source_path": "change-freeze-triggers.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "rolling back",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-freeze-triggers",
+      "source_path": "change-freeze-triggers.md",
+      "target": "update-safe-state-gating.md",
+      "target_concept_id": "update-safe-state-gating",
+      "target_path": "update-safe-state-gating.md",
+      "text": "update safe-state gating",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-neutral-release",
+      "source_path": "change-neutral-release.md",
+      "target": "decoupling-deployment-from-release.md",
+      "target_concept_id": "decoupling-deployment-from-release",
+      "target_path": "decoupling-deployment-from-release.md",
+      "text": "decoupling deployment fromrelease",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-neutral-release",
+      "source_path": "change-neutral-release.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "flag-guarded",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-neutral-release",
+      "source_path": "change-neutral-release.md",
+      "target": "placebo-deployment-ab-test.md",
+      "target_concept_id": "placebo-deployment-ab-test",
+      "target_path": "placebo-deployment-ab-test.md",
+      "text": "placebo deployment A/B testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-neutral-release",
+      "source_path": "change-neutral-release.md",
+      "target": "staged-percentage-rollout.md",
+      "target_concept_id": "staged-percentage-rollout",
+      "target_path": "staged-percentage-rollout.md",
+      "text": "staged percentage rollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-size-gating",
+      "source_path": "change-size-gating.md",
+      "target": "continuous-deployment-automated-gates.md",
+      "target_concept_id": "continuous-deployment-automated-gates",
+      "target_path": "continuous-deployment-automated-gates.md",
+      "text": "continuous deployment automatedgates",
+      "title": null
+    },
+    {
+      "source_concept_id": "change-size-gating",
+      "source_path": "change-size-gating.md",
+      "target": "safe-configuration-change-properties.md",
+      "target_concept_id": "safe-configuration-change-properties",
+      "target_path": "safe-configuration-change-properties.md",
+      "text": "safeconfiguration change properties",
+      "title": null
+    },
+    {
+      "source_concept_id": "changes-as-dominant-outage-cause",
+      "source_path": "changes-as-dominant-outage-cause.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "changes-as-dominant-outage-cause",
+      "source_path": "changes-as-dominant-outage-cause.md",
+      "target": "change-failure-rate.md",
+      "target_concept_id": "change-failure-rate",
+      "target_path": "change-failure-rate.md",
+      "text": "change failure rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "changes-as-dominant-outage-cause",
+      "source_path": "changes-as-dominant-outage-cause.md",
+      "target": "change-freeze-triggers.md",
+      "target_concept_id": "change-freeze-triggers",
+      "target_path": "change-freeze-triggers.md",
+      "text": "change freeze triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "changes-as-dominant-outage-cause",
+      "source_path": "changes-as-dominant-outage-cause.md",
+      "target": "staged-percentage-rollout.md",
+      "target_concept_id": "staged-percentage-rollout",
+      "target_path": "staged-percentage-rollout.md",
+      "text": "gradual/staged rollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "ci-culprit-finding",
+      "source_path": "ci-culprit-finding.md",
+      "target": "build-cop-rollback-discipline.md",
+      "target_concept_id": "build-cop-rollback-discipline",
+      "target_path": "build-cop-rollback-discipline.md",
+      "text": "build cop rollbackdiscipline",
+      "title": null
+    },
+    {
+      "source_concept_id": "ci-culprit-finding",
+      "source_path": "ci-culprit-finding.md",
+      "target": "green-head-vs-true-head.md",
+      "target_concept_id": "green-head-vs-true-head",
+      "target_path": "green-head-vs-true-head.md",
+      "text": "green head vstrue head",
+      "title": null
+    },
+    {
+      "source_concept_id": "communication-checklist-for-cross-team-changes",
+      "source_path": "communication-checklist-for-cross-team-changes.md",
+      "target": "independent-deployability.md",
+      "target_concept_id": "independent-deployability",
+      "target_path": "independent-deployability.md",
+      "text": "independent deployability",
+      "title": null
+    },
+    {
+      "source_concept_id": "configuration-startup-presubmit-test",
+      "source_path": "configuration-startup-presubmit-test.md",
+      "target": "build-once-promote-artifact.md",
+      "target_concept_id": "build-once-promote-artifact",
+      "target_path": "build-once-promote-artifact.md",
+      "text": "release candidate",
+      "title": null
+    },
+    {
+      "source_concept_id": "configuration-startup-presubmit-test",
+      "source_path": "configuration-startup-presubmit-test.md",
+      "target": "green-head-vs-true-head.md",
+      "target_concept_id": "green-head-vs-true-head",
+      "target_path": "green-head-vs-true-head.md",
+      "text": "green head",
+      "title": null
+    },
+    {
+      "source_concept_id": "configuration-startup-presubmit-test",
+      "source_path": "configuration-startup-presubmit-test.md",
+      "target": "pre-production-fidelity-limits.md",
+      "target_concept_id": "pre-production-fidelity-limits",
+      "target_path": "pre-production-fidelity-limits.md",
+      "text": "pre-production fidelity limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "configuration-startup-presubmit-test",
+      "source_path": "configuration-startup-presubmit-test.md",
+      "target": "safe-configuration-change-properties.md",
+      "target_concept_id": "safe-configuration-change-properties",
+      "target_path": "safe-configuration-change-properties.md",
+      "text": "safe configuration changeproperties",
+      "title": null
+    },
+    {
+      "source_concept_id": "continuous-deployment-automated-gates",
+      "source_path": "continuous-deployment-automated-gates.md",
+      "target": "change-freeze-triggers.md",
+      "target_concept_id": "change-freeze-triggers",
+      "target_path": "change-freeze-triggers.md",
+      "text": "change freeze triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "continuous-deployment-automated-gates",
+      "source_path": "continuous-deployment-automated-gates.md",
+      "target": "change-size-gating.md",
+      "target_concept_id": "change-size-gating",
+      "target_path": "change-size-gating.md",
+      "text": "change-size gating",
+      "title": null
+    },
+    {
+      "source_concept_id": "continuous-deployment-automated-gates",
+      "source_path": "continuous-deployment-automated-gates.md",
+      "target": "continuous-deployment-vs-continuous-delivery.md",
+      "target_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "target_path": "continuous-deployment-vs-continuous-delivery.md",
+      "text": "continuous deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "continuous-deployment-automated-gates",
+      "source_path": "continuous-deployment-automated-gates.md",
+      "target": "manual-approval-release-gates.md",
+      "target_concept_id": "manual-approval-release-gates",
+      "target_path": "manual-approval-release-gates.md",
+      "text": "manual approval release gates",
+      "title": null
+    },
+    {
+      "source_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "source_path": "continuous-deployment-vs-continuous-delivery.md",
+      "target": "branch-gated-deploy-workflow.md",
+      "target_concept_id": "branch-gated-deploy-workflow",
+      "target_path": "branch-gated-deploy-workflow.md",
+      "text": "branchgated deploy workflow",
+      "title": null
+    },
+    {
+      "source_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "source_path": "continuous-deployment-vs-continuous-delivery.md",
+      "target": "build-once-promote-artifact.md",
+      "target_concept_id": "build-once-promote-artifact",
+      "target_path": "build-once-promote-artifact.md",
+      "text": "deployment pipeline",
+      "title": null
+    },
+    {
+      "source_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "source_path": "continuous-deployment-vs-continuous-delivery.md",
+      "target": "build-once-promote-artifact.md",
+      "target_concept_id": "build-once-promote-artifact",
+      "target_path": "build-once-promote-artifact.md",
+      "text": "releasecandidates",
+      "title": null
+    },
+    {
+      "source_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "source_path": "continuous-deployment-vs-continuous-delivery.md",
+      "target": "continuous-deployment-vs-continuous-delivery.md",
+      "target_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "target_path": "continuous-deployment-vs-continuous-delivery.md",
+      "text": "continuous deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "source_path": "continuous-deployment-vs-continuous-delivery.md",
+      "target": "decoupling-deployment-from-release.md",
+      "target_concept_id": "decoupling-deployment-from-release",
+      "target_path": "decoupling-deployment-from-release.md",
+      "text": "Decoupling deployment from release",
+      "title": null
+    },
+    {
+      "source_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "source_path": "continuous-deployment-vs-continuous-delivery.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "rollback vs. roll-forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "customer-facing-release-tracks",
+      "source_path": "customer-facing-release-tracks.md",
+      "target": "decoupling-deployment-from-release.md",
+      "target_concept_id": "decoupling-deployment-from-release",
+      "target_path": "decoupling-deployment-from-release.md",
+      "text": "decoupling deployment from release",
+      "title": null
+    },
+    {
+      "source_concept_id": "dark-launch",
+      "source_path": "dark-launch.md",
+      "target": "canary-measurement-validity.md",
+      "target_concept_id": "canary-measurement-validity",
+      "target_path": "canary-measurement-validity.md",
+      "text": "testingin production",
+      "title": null
+    },
+    {
+      "source_concept_id": "dark-launch",
+      "source_path": "dark-launch.md",
+      "target": "decoupling-deployment-from-release.md",
+      "target_concept_id": "decoupling-deployment-from-release",
+      "target_path": "decoupling-deployment-from-release.md",
+      "text": "decoupling deployment from release",
+      "title": null
+    },
+    {
+      "source_concept_id": "dark-launch",
+      "source_path": "dark-launch.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "feature flag",
+      "title": null
+    },
+    {
+      "source_concept_id": "dark-launch",
+      "source_path": "dark-launch.md",
+      "target": "traffic-teeing.md",
+      "target_concept_id": "traffic-teeing",
+      "target_path": "traffic-teeing.md",
+      "text": "traffic teeing",
+      "title": null
+    },
+    {
+      "source_concept_id": "decoupling-deployment-from-release",
+      "source_path": "decoupling-deployment-from-release.md",
+      "target": "continuous-deployment-vs-continuous-delivery.md",
+      "target_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "target_path": "continuous-deployment-vs-continuous-delivery.md",
+      "text": "continuousdelivery and continuous deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "decoupling-deployment-from-release",
+      "source_path": "decoupling-deployment-from-release.md",
+      "target": "customer-facing-release-tracks.md",
+      "target_concept_id": "customer-facing-release-tracks",
+      "target_path": "customer-facing-release-tracks.md",
+      "text": "customer-facing release tracks",
+      "title": null
+    },
+    {
+      "source_concept_id": "decoupling-deployment-from-release",
+      "source_path": "decoupling-deployment-from-release.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "Feature flags",
+      "title": null
+    },
+    {
+      "source_concept_id": "dependency-graph-test-selection",
+      "source_path": "dependency-graph-test-selection.md",
+      "target": "presubmit-vs-postsubmit-test-gating.md",
+      "target_concept_id": "presubmit-vs-postsubmit-test-gating",
+      "target_path": "presubmit-vs-postsubmit-test-gating.md",
+      "text": "presubmit vs postsubmit testgating",
+      "title": null
+    },
+    {
+      "source_concept_id": "dependency-graph-test-selection",
+      "source_path": "dependency-graph-test-selection.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-frequency",
+      "source_path": "deployment-frequency.md",
+      "target": "change-failure-rate.md",
+      "target_concept_id": "change-failure-rate",
+      "target_path": "change-failure-rate.md",
+      "text": "change failure rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-frequency",
+      "source_path": "deployment-frequency.md",
+      "target": "lead-time-for-changes.md",
+      "target_concept_id": "lead-time-for-changes",
+      "target_path": "lead-time-for-changes.md",
+      "text": "lead time for changes",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-frequency",
+      "source_path": "deployment-frequency.md",
+      "target": "speed-stability-tradeoff-myth.md",
+      "target_concept_id": "speed-stability-tradeoff-myth",
+      "target_path": "speed-stability-tradeoff-myth.md",
+      "text": "speed-stability trade-off myth",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-frequency",
+      "source_path": "deployment-frequency.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "batch size",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-pain",
+      "source_path": "deployment-pain.md",
+      "target": "change-failure-rate.md",
+      "target_concept_id": "change-failure-rate",
+      "target_path": "change-failure-rate.md",
+      "text": "change failure rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-pain",
+      "source_path": "deployment-pain.md",
+      "target": "mean-time-to-restore.md",
+      "target_concept_id": "mean-time-to-restore",
+      "target_path": "mean-time-to-restore.md",
+      "text": "mean time to restore",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-pain",
+      "source_path": "deployment-pain.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "rollback vs. roll-forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-pain",
+      "source_path": "deployment-pain.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-pain",
+      "source_path": "deployment-pain.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-pain",
+      "source_path": "deployment-pain.md",
+      "target": "zero-downtime-deployment.md",
+      "target_concept_id": "zero-downtime-deployment",
+      "target_path": "zero-downtime-deployment.md",
+      "text": "zero-downtime deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-pipeline-traceability",
+      "source_path": "deployment-pipeline-traceability.md",
+      "target": "build-once-promote-artifact.md",
+      "target_concept_id": "build-once-promote-artifact",
+      "target_path": "build-once-promote-artifact.md",
+      "text": "build once, promote theartifact",
+      "title": null
+    },
+    {
+      "source_concept_id": "deployment-pipeline-traceability",
+      "source_path": "deployment-pipeline-traceability.md",
+      "target": "segregation-of-duties-via-pipeline-audit-trail.md",
+      "target_concept_id": "segregation-of-duties-via-pipeline-audit-trail",
+      "target_path": "segregation-of-duties-via-pipeline-audit-trail.md",
+      "text": "segregation of duties viapipeline audit trail",
+      "title": null
+    },
+    {
+      "source_concept_id": "emergency-change-breakglass",
+      "source_path": "emergency-change-breakglass.md",
+      "target": "manual-approval-release-gates.md",
+      "target_concept_id": "manual-approval-release-gates",
+      "target_path": "manual-approval-release-gates.md",
+      "text": "manual approval release gates",
+      "title": null
+    },
+    {
+      "source_concept_id": "emergency-change-breakglass",
+      "source_path": "emergency-change-breakglass.md",
+      "target": "peer-review-as-change-control.md",
+      "target_concept_id": "peer-review-as-change-control",
+      "target_path": "peer-review-as-change-control.md",
+      "text": "peer review as change control",
+      "title": null
+    },
+    {
+      "source_concept_id": "emergency-change-breakglass",
+      "source_path": "emergency-change-breakglass.md",
+      "target": "provenance-based-deployment-policy.md",
+      "target_concept_id": "provenance-based-deployment-policy",
+      "target_path": "provenance-based-deployment-policy.md",
+      "text": "provenance-based deployment policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "expand-and-contract-schema-migration",
+      "source_path": "expand-and-contract-schema-migration.md",
+      "target": "blue-green-deployment.md",
+      "target_concept_id": "blue-green-deployment",
+      "target_path": "blue-green-deployment.md",
+      "text": "blue-green",
+      "title": null
+    },
+    {
+      "source_concept_id": "expand-and-contract-schema-migration",
+      "source_path": "expand-and-contract-schema-migration.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "expand-and-contract-schema-migration",
+      "source_path": "expand-and-contract-schema-migration.md",
+      "target": "independent-deployability.md",
+      "target_concept_id": "independent-deployability",
+      "target_path": "independent-deployability.md",
+      "text": "independent deployability",
+      "title": null
+    },
+    {
+      "source_concept_id": "expand-and-contract-schema-migration",
+      "source_path": "expand-and-contract-schema-migration.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "expand-and-contract-schema-migration",
+      "source_path": "expand-and-contract-schema-migration.md",
+      "target": "schema-migration-production-risk-categories.md",
+      "target_concept_id": "schema-migration-production-risk-categories",
+      "target_path": "schema-migration-production-risk-categories.md",
+      "text": "schema migration production risk categories",
+      "title": null
+    },
+    {
+      "source_concept_id": "expand-and-contract-schema-migration",
+      "source_path": "expand-and-contract-schema-migration.md",
+      "target": "tolerant-reader-pattern.md",
+      "target_concept_id": "tolerant-reader-pattern",
+      "target_path": "tolerant-reader-pattern.md",
+      "text": "tolerant reader pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "expand-and-contract-schema-migration",
+      "source_path": "expand-and-contract-schema-migration.md",
+      "target": "versioned-incremental-migrations.md",
+      "target_concept_id": "versioned-incremental-migrations",
+      "target_path": "versioned-incremental-migrations.md",
+      "text": "versioned incremental migrations",
+      "title": null
+    },
+    {
+      "source_concept_id": "expand-and-contract-schema-migration",
+      "source_path": "expand-and-contract-schema-migration.md",
+      "target": "zero-downtime-deployment.md",
+      "target_concept_id": "zero-downtime-deployment",
+      "target_path": "zero-downtime-deployment.md",
+      "text": "zero-downtime deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-demand",
+      "source_path": "failure-demand.md",
+      "target": "build-quality-in.md",
+      "target_concept_id": "build-quality-in",
+      "target_path": "build-quality-in.md",
+      "text": "build quality in",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-demand",
+      "source_path": "failure-demand.md",
+      "target": "change-failure-rate.md",
+      "target_concept_id": "change-failure-rate",
+      "target_path": "change-failure-rate.md",
+      "text": "change failure rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-demand",
+      "source_path": "failure-demand.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "fallback-to-a-safe-default",
+      "source_path": "fallback-to-a-safe-default.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "feature flag",
+      "title": null
+    },
+    {
+      "source_concept_id": "fallback-to-a-safe-default",
+      "source_path": "fallback-to-a-safe-default.md",
+      "target": "progressive-rollout-data-layer-isolation.md",
+      "target_concept_id": "progressive-rollout-data-layer-isolation",
+      "target_path": "progressive-rollout-data-layer-isolation.md",
+      "text": "progressive rollout data-layerisolation",
+      "title": null
+    },
+    {
+      "source_concept_id": "fallback-to-a-safe-default",
+      "source_path": "fallback-to-a-safe-default.md",
+      "target": "retraining-as-roll-forward-for-models.md",
+      "target_concept_id": "retraining-as-roll-forward-for-models",
+      "target_path": "retraining-as-roll-forward-for-models.md",
+      "text": "retraining",
+      "title": null
+    },
+    {
+      "source_concept_id": "fallback-to-a-safe-default",
+      "source_path": "fallback-to-a-safe-default.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "Roll back vs. roll forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "feature-flag-aware-integration-tests",
+      "source_path": "feature-flag-aware-integration-tests.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "feature flag blast radiusisolation",
+      "title": null
+    },
+    {
+      "source_concept_id": "feature-flag-aware-integration-tests",
+      "source_path": "feature-flag-aware-integration-tests.md",
+      "target": "known-failure-suppression-in-ci.md",
+      "target_concept_id": "known-failure-suppression-in-ci",
+      "target_path": "known-failure-suppression-in-ci.md",
+      "text": "known failuresuppression in CI",
+      "title": null
+    },
+    {
+      "source_concept_id": "feature-flag-aware-integration-tests",
+      "source_path": "feature-flag-aware-integration-tests.md",
+      "target": "version-skew-during-rollout.md",
+      "target_concept_id": "version-skew-during-rollout",
+      "target_path": "version-skew-during-rollout.md",
+      "text": "version skew duringrollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "feature-flag-blast-radius-isolation",
+      "source_path": "feature-flag-blast-radius-isolation.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "feature-flag-blast-radius-isolation",
+      "source_path": "feature-flag-blast-radius-isolation.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "rolling back",
+      "title": null
+    },
+    {
+      "source_concept_id": "green-head-vs-true-head",
+      "source_path": "green-head-vs-true-head.md",
+      "target": "continuous-deployment-vs-continuous-delivery.md",
+      "target_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "target_path": "continuous-deployment-vs-continuous-delivery.md",
+      "text": "Continuous delivery",
+      "title": null
+    },
+    {
+      "source_concept_id": "green-head-vs-true-head",
+      "source_path": "green-head-vs-true-head.md",
+      "target": "emergency-change-breakglass.md",
+      "target_concept_id": "emergency-change-breakglass",
+      "target_path": "emergency-change-breakglass.md",
+      "text": "emergencypush paths",
+      "title": null
+    },
+    {
+      "source_concept_id": "green-head-vs-true-head",
+      "source_path": "green-head-vs-true-head.md",
+      "target": "presubmit-vs-postsubmit-test-gating.md",
+      "target_concept_id": "presubmit-vs-postsubmit-test-gating",
+      "target_path": "presubmit-vs-postsubmit-test-gating.md",
+      "text": "presubmit vs postsubmit testgating",
+      "title": null
+    },
+    {
+      "source_concept_id": "hitless-in-service-software-upgrade",
+      "source_path": "hitless-in-service-software-upgrade.md",
+      "target": "blue-green-deployment.md",
+      "target_concept_id": "blue-green-deployment",
+      "target_path": "blue-green-deployment.md",
+      "text": "blue-green",
+      "title": null
+    },
+    {
+      "source_concept_id": "hitless-in-service-software-upgrade",
+      "source_path": "hitless-in-service-software-upgrade.md",
+      "target": "blue-green-deployment.md",
+      "target_concept_id": "blue-green-deployment",
+      "target_path": "blue-green-deployment.md",
+      "text": "blue-green deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "hitless-in-service-software-upgrade",
+      "source_path": "hitless-in-service-software-upgrade.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "hitless-in-service-software-upgrade",
+      "source_path": "hitless-in-service-software-upgrade.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling",
+      "title": null
+    },
+    {
+      "source_concept_id": "hitless-in-service-software-upgrade",
+      "source_path": "hitless-in-service-software-upgrade.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-deployability",
+      "source_path": "independent-deployability.md",
+      "target": "blue-green-deployment.md",
+      "target_concept_id": "blue-green-deployment",
+      "target_path": "blue-green-deployment.md",
+      "text": "blue-green deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-deployability",
+      "source_path": "independent-deployability.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-deployability",
+      "source_path": "independent-deployability.md",
+      "target": "communication-checklist-for-cross-team-changes.md",
+      "target_concept_id": "communication-checklist-for-cross-team-changes",
+      "target_path": "communication-checklist-for-cross-team-changes.md",
+      "text": "communication checklist for cross-teamchanges",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-deployability",
+      "source_path": "independent-deployability.md",
+      "target": "release-atomicity-tuple-testing.md",
+      "target_concept_id": "release-atomicity-tuple-testing",
+      "target_path": "release-atomicity-tuple-testing.md",
+      "text": "release atomicity and tupletesting",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-deployability",
+      "source_path": "independent-deployability.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-deployability",
+      "source_path": "independent-deployability.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "known-failure-suppression-in-ci",
+      "source_path": "known-failure-suppression-in-ci.md",
+      "target": "build-cop-rollback-discipline.md",
+      "target_concept_id": "build-cop-rollback-discipline",
+      "target_path": "build-cop-rollback-discipline.md",
+      "text": "build cop rollbackdiscipline",
+      "title": null
+    },
+    {
+      "source_concept_id": "known-failure-suppression-in-ci",
+      "source_path": "known-failure-suppression-in-ci.md",
+      "target": "change-failure-rate.md",
+      "target_concept_id": "change-failure-rate",
+      "target_path": "change-failure-rate.md",
+      "text": "change failure rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "known-failure-suppression-in-ci",
+      "source_path": "known-failure-suppression-in-ci.md",
+      "target": "feature-flag-aware-integration-tests.md",
+      "target_concept_id": "feature-flag-aware-integration-tests",
+      "target_path": "feature-flag-aware-integration-tests.md",
+      "text": "feature-flag-aware integration tests",
+      "title": null
+    },
+    {
+      "source_concept_id": "known-failure-suppression-in-ci",
+      "source_path": "known-failure-suppression-in-ci.md",
+      "target": "version-skew-during-rollout.md",
+      "target_concept_id": "version-skew-during-rollout",
+      "target_path": "version-skew-during-rollout.md",
+      "text": "version skew duringrollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "launch-kpi-thresholds",
+      "source_path": "launch-kpi-thresholds.md",
+      "target": "release-train-deadline-discipline.md",
+      "target_concept_id": "release-train-deadline-discipline",
+      "target_path": "release-train-deadline-discipline.md",
+      "text": "release train deadline discipline",
+      "title": null
+    },
+    {
+      "source_concept_id": "launch-readiness-review",
+      "source_path": "launch-readiness-review.md",
+      "target": "canary-metric-selection.md",
+      "target_concept_id": "canary-metric-selection",
+      "target_path": "canary-metric-selection.md",
+      "text": "canary analysis",
+      "title": null
+    },
+    {
+      "source_concept_id": "launch-readiness-review",
+      "source_path": "launch-readiness-review.md",
+      "target": "dark-launch.md",
+      "target_concept_id": "dark-launch",
+      "target_path": "dark-launch.md",
+      "text": "dark launch",
+      "title": null
+    },
+    {
+      "source_concept_id": "launch-readiness-review",
+      "source_path": "launch-readiness-review.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "feature flags",
+      "title": null
+    },
+    {
+      "source_concept_id": "launch-readiness-review",
+      "source_path": "launch-readiness-review.md",
+      "target": "peer-review-as-change-control.md",
+      "target_concept_id": "peer-review-as-change-control",
+      "target_path": "peer-review-as-change-control.md",
+      "text": "peer review as changecontrol",
+      "title": null
+    },
+    {
+      "source_concept_id": "launch-readiness-review",
+      "source_path": "launch-readiness-review.md",
+      "target": "premortem-risk-analysis.md",
+      "target_concept_id": "premortem-risk-analysis",
+      "target_path": "premortem-risk-analysis.md",
+      "text": "premortem",
+      "title": null
+    },
+    {
+      "source_concept_id": "launch-readiness-review",
+      "source_path": "launch-readiness-review.md",
+      "target": "staged-percentage-rollout.md",
+      "target_concept_id": "staged-percentage-rollout",
+      "target_path": "staged-percentage-rollout.md",
+      "text": "gradual stagedrollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "lead-time-for-changes",
+      "source_path": "lead-time-for-changes.md",
+      "target": "deployment-frequency.md",
+      "target_concept_id": "deployment-frequency",
+      "target_path": "deployment-frequency.md",
+      "text": "deployment frequency",
+      "title": null
+    },
+    {
+      "source_concept_id": "lead-time-for-changes",
+      "source_path": "lead-time-for-changes.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "roll-forward a viable alternative to rollback",
+      "title": null
+    },
+    {
+      "source_concept_id": "manual-approval-release-gates",
+      "source_path": "manual-approval-release-gates.md",
+      "target": "canary-metric-selection.md",
+      "target_concept_id": "canary-metric-selection",
+      "target_path": "canary-metric-selection.md",
+      "text": "canary",
+      "title": null
+    },
+    {
+      "source_concept_id": "manual-approval-release-gates",
+      "source_path": "manual-approval-release-gates.md",
+      "target": "canary-metric-selection.md",
+      "target_concept_id": "canary-metric-selection",
+      "target_path": "canary-metric-selection.md",
+      "text": "canary analysis",
+      "title": null
+    },
+    {
+      "source_concept_id": "manual-approval-release-gates",
+      "source_path": "manual-approval-release-gates.md",
+      "target": "emergency-change-breakglass.md",
+      "target_concept_id": "emergency-change-breakglass",
+      "target_path": "emergency-change-breakglass.md",
+      "text": "emergency change breakglass",
+      "title": null
+    },
+    {
+      "source_concept_id": "manual-approval-release-gates",
+      "source_path": "manual-approval-release-gates.md",
+      "target": "migration-rollback-testing-cycle.md",
+      "target_concept_id": "migration-rollback-testing-cycle",
+      "target_path": "migration-rollback-testing-cycle.md",
+      "text": "migrationrollback testing cycle",
+      "title": null
+    },
+    {
+      "source_concept_id": "manual-approval-release-gates",
+      "source_path": "manual-approval-release-gates.md",
+      "target": "peer-review-as-change-control.md",
+      "target_concept_id": "peer-review-as-change-control",
+      "target_path": "peer-review-as-change-control.md",
+      "text": "peer review as change control",
+      "title": null
+    },
+    {
+      "source_concept_id": "manual-approval-release-gates",
+      "source_path": "manual-approval-release-gates.md",
+      "target": "staged-percentage-rollout.md",
+      "target_concept_id": "staged-percentage-rollout",
+      "target_path": "staged-percentage-rollout.md",
+      "text": "staged percentage rollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "mean-time-to-restore",
+      "source_path": "mean-time-to-restore.md",
+      "target": "change-failure-rate.md",
+      "target_concept_id": "change-failure-rate",
+      "target_path": "change-failure-rate.md",
+      "text": "change failure rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "mean-time-to-restore",
+      "source_path": "mean-time-to-restore.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "rolled back cheaply",
+      "title": null
+    },
+    {
+      "source_concept_id": "migration-rollback-testing-cycle",
+      "source_path": "migration-rollback-testing-cycle.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "Roll back vs. roll forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "parallel-api-version-coexistence",
+      "source_path": "parallel-api-version-coexistence.md",
+      "target": "expand-and-contract-schema-migration.md",
+      "target_concept_id": "expand-and-contract-schema-migration",
+      "target_path": "expand-and-contract-schema-migration.md",
+      "text": "expand-and-contract schema migration",
+      "title": null
+    },
+    {
+      "source_concept_id": "parallel-api-version-coexistence",
+      "source_path": "parallel-api-version-coexistence.md",
+      "target": "semantic-versioning.md",
+      "target_concept_id": "semantic-versioning",
+      "target_path": "semantic-versioning.md",
+      "text": "semantic versioning",
+      "title": null
+    },
+    {
+      "source_concept_id": "parallel-api-version-coexistence",
+      "source_path": "parallel-api-version-coexistence.md",
+      "target": "tolerant-reader-pattern.md",
+      "target_concept_id": "tolerant-reader-pattern",
+      "target_path": "tolerant-reader-pattern.md",
+      "text": "the tolerant reader pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "peer-review-as-change-control",
+      "source_path": "peer-review-as-change-control.md",
+      "target": "change-approval-board-pathology.md",
+      "target_concept_id": "change-approval-board-pathology",
+      "target_path": "change-approval-board-pathology.md",
+      "text": "change approval board pathology",
+      "title": null
+    },
+    {
+      "source_concept_id": "peer-review-as-change-control",
+      "source_path": "peer-review-as-change-control.md",
+      "target": "segregation-of-duties-via-pipeline-audit-trail.md",
+      "target_concept_id": "segregation-of-duties-via-pipeline-audit-trail",
+      "target_path": "segregation-of-duties-via-pipeline-audit-trail.md",
+      "text": "segregation of duties",
+      "title": null
+    },
+    {
+      "source_concept_id": "pipeline-secret-injection",
+      "source_path": "pipeline-secret-injection.md",
+      "target": "provenance-based-deployment-policy.md",
+      "target_concept_id": "provenance-based-deployment-policy",
+      "target_path": "provenance-based-deployment-policy.md",
+      "text": "provenance-based deployment policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "pipeline-secret-injection",
+      "source_path": "pipeline-secret-injection.md",
+      "target": "segregation-of-duties-via-pipeline-audit-trail.md",
+      "target_concept_id": "segregation-of-duties-via-pipeline-audit-trail",
+      "target_path": "segregation-of-duties-via-pipeline-audit-trail.md",
+      "text": "segregation of duties viapipeline audit trail",
+      "title": null
+    },
+    {
+      "source_concept_id": "placebo-deployment-ab-test",
+      "source_path": "placebo-deployment-ab-test.md",
+      "target": "canary-measurement-validity.md",
+      "target_concept_id": "canary-measurement-validity",
+      "target_path": "canary-measurement-validity.md",
+      "text": "canary measurementvalidity",
+      "title": null
+    },
+    {
+      "source_concept_id": "placebo-deployment-ab-test",
+      "source_path": "placebo-deployment-ab-test.md",
+      "target": "change-neutral-release.md",
+      "target_concept_id": "change-neutral-release",
+      "target_path": "change-neutral-release.md",
+      "text": "change-neutral release",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-canary-artifact-smoke-test",
+      "source_path": "pre-canary-artifact-smoke-test.md",
+      "target": "canary-measurement-validity.md",
+      "target_concept_id": "canary-measurement-validity",
+      "target_path": "canary-measurement-validity.md",
+      "text": "canary measurementvalidity",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-canary-artifact-smoke-test",
+      "source_path": "pre-canary-artifact-smoke-test.md",
+      "target": "canary-population-and-duration-selection.md",
+      "target_concept_id": "canary-population-and-duration-selection",
+      "target_path": "canary-population-and-duration-selection.md",
+      "text": "canary populationand duration selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-canary-artifact-smoke-test",
+      "source_path": "pre-canary-artifact-smoke-test.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-canary-artifact-smoke-test",
+      "source_path": "pre-canary-artifact-smoke-test.md",
+      "target": "deployment-pipeline-traceability.md",
+      "target_concept_id": "deployment-pipeline-traceability",
+      "target_path": "deployment-pipeline-traceability.md",
+      "text": "deployment pipeline traceability",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-canary-artifact-smoke-test",
+      "source_path": "pre-canary-artifact-smoke-test.md",
+      "target": "pre-production-fidelity-limits.md",
+      "target_concept_id": "pre-production-fidelity-limits",
+      "target_path": "pre-production-fidelity-limits.md",
+      "text": "pre-production fidelity limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-canary-artifact-smoke-test",
+      "source_path": "pre-canary-artifact-smoke-test.md",
+      "target": "provenance-based-deployment-policy.md",
+      "target_concept_id": "provenance-based-deployment-policy",
+      "target_path": "provenance-based-deployment-policy.md",
+      "text": "provenance-based deployment policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-production-fidelity-limits",
+      "source_path": "pre-production-fidelity-limits.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "Canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-production-fidelity-limits",
+      "source_path": "pre-production-fidelity-limits.md",
+      "target": "capture-and-replay-validation.md",
+      "target_concept_id": "capture-and-replay-validation",
+      "target_path": "capture-and-replay-validation.md",
+      "text": "capture-and-replayvalidation",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-production-fidelity-limits",
+      "source_path": "pre-production-fidelity-limits.md",
+      "target": "pre-canary-artifact-smoke-test.md",
+      "target_concept_id": "pre-canary-artifact-smoke-test",
+      "target_path": "pre-canary-artifact-smoke-test.md",
+      "text": "pre-canary artifact smoke test",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-production-fidelity-limits",
+      "source_path": "pre-production-fidelity-limits.md",
+      "target": "self-serve-staging-load-test.md",
+      "target_concept_id": "self-serve-staging-load-test",
+      "target_path": "self-serve-staging-load-test.md",
+      "text": "self-serve stagingload test",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-production-fidelity-limits",
+      "source_path": "pre-production-fidelity-limits.md",
+      "target": "staged-percentage-rollout.md",
+      "target_concept_id": "staged-percentage-rollout",
+      "target_path": "staged-percentage-rollout.md",
+      "text": "staged percentage rollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "pre-production-fidelity-limits",
+      "source_path": "pre-production-fidelity-limits.md",
+      "target": "traffic-teeing.md",
+      "target_concept_id": "traffic-teeing",
+      "target_path": "traffic-teeing.md",
+      "text": "trafficteeing",
+      "title": null
+    },
+    {
+      "source_concept_id": "premortem-risk-analysis",
+      "source_path": "premortem-risk-analysis.md",
+      "target": "launch-readiness-review.md",
+      "target_concept_id": "launch-readiness-review",
+      "target_path": "launch-readiness-review.md",
+      "text": "launch readiness review",
+      "title": null
+    },
+    {
+      "source_concept_id": "premortem-risk-analysis",
+      "source_path": "premortem-risk-analysis.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "rollback vs. roll-forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "presubmit-vs-postsubmit-test-gating",
+      "source_path": "presubmit-vs-postsubmit-test-gating.md",
+      "target": "build-cop-rollback-discipline.md",
+      "target_concept_id": "build-cop-rollback-discipline",
+      "target_path": "build-cop-rollback-discipline.md",
+      "text": "build cop rollback discipline",
+      "title": null
+    },
+    {
+      "source_concept_id": "presubmit-vs-postsubmit-test-gating",
+      "source_path": "presubmit-vs-postsubmit-test-gating.md",
+      "target": "build-quality-in.md",
+      "target_concept_id": "build-quality-in",
+      "target_path": "build-quality-in.md",
+      "text": "hermetic testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "presubmit-vs-postsubmit-test-gating",
+      "source_path": "presubmit-vs-postsubmit-test-gating.md",
+      "target": "green-head-vs-true-head.md",
+      "target_concept_id": "green-head-vs-true-head",
+      "target_path": "green-head-vs-true-head.md",
+      "text": "continuous build green head vs truehead",
+      "title": null
+    },
+    {
+      "source_concept_id": "production-prober-testing",
+      "source_path": "production-prober-testing.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "production-prober-testing",
+      "source_path": "production-prober-testing.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "testing in production",
+      "title": null
+    },
+    {
+      "source_concept_id": "production-prober-testing",
+      "source_path": "production-prober-testing.md",
+      "target": "pre-production-fidelity-limits.md",
+      "target_concept_id": "pre-production-fidelity-limits",
+      "target_path": "pre-production-fidelity-limits.md",
+      "text": "pre-production fidelity limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "production-prober-testing",
+      "source_path": "production-prober-testing.md",
+      "target": "presubmit-vs-postsubmit-test-gating.md",
+      "target_concept_id": "presubmit-vs-postsubmit-test-gating",
+      "target_path": "presubmit-vs-postsubmit-test-gating.md",
+      "text": "presubmit vs postsubmittest gating",
+      "title": null
+    },
+    {
+      "source_concept_id": "production-prober-testing",
+      "source_path": "production-prober-testing.md",
+      "target": "release-candidate-regression-testing.md",
+      "target_concept_id": "release-candidate-regression-testing",
+      "target_path": "release-candidate-regression-testing.md",
+      "text": "release candidateregression testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-rollout-data-layer-isolation",
+      "source_path": "progressive-rollout-data-layer-isolation.md",
+      "target": "backward-and-forward-compatibility-during-rollout.md",
+      "target_concept_id": "backward-and-forward-compatibility-during-rollout",
+      "target_path": "backward-and-forward-compatibility-during-rollout.md",
+      "text": "backward and forwardcompatibility during rollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-rollout-data-layer-isolation",
+      "source_path": "progressive-rollout-data-layer-isolation.md",
+      "target": "expand-and-contract-schema-migration.md",
+      "target_concept_id": "expand-and-contract-schema-migration",
+      "target_path": "expand-and-contract-schema-migration.md",
+      "text": "expand-and-contract schemamigration",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-rollout-data-layer-isolation",
+      "source_path": "progressive-rollout-data-layer-isolation.md",
+      "target": "release-atomicity-tuple-testing.md",
+      "target_concept_id": "release-atomicity-tuple-testing",
+      "target_path": "release-atomicity-tuple-testing.md",
+      "text": "release atomicity and tuple testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-rollout-data-layer-isolation",
+      "source_path": "progressive-rollout-data-layer-isolation.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "roll back vs. roll forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-rollout-data-layer-isolation",
+      "source_path": "progressive-rollout-data-layer-isolation.md",
+      "target": "staged-percentage-rollout.md",
+      "target_concept_id": "staged-percentage-rollout",
+      "target_path": "staged-percentage-rollout.md",
+      "text": "Progressive rollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "proportional-traffic-shedding",
+      "source_path": "proportional-traffic-shedding.md",
+      "target": "blue-green-deployment.md",
+      "target_concept_id": "blue-green-deployment",
+      "target_path": "blue-green-deployment.md",
+      "text": "blue-green deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "proportional-traffic-shedding",
+      "source_path": "proportional-traffic-shedding.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "proportional-traffic-shedding",
+      "source_path": "proportional-traffic-shedding.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "provenance-based-deployment-policy",
+      "source_path": "provenance-based-deployment-policy.md",
+      "target": "emergency-change-breakglass.md",
+      "target_concept_id": "emergency-change-breakglass",
+      "target_path": "emergency-change-breakglass.md",
+      "text": "emergency change breakglass",
+      "title": null
+    },
+    {
+      "source_concept_id": "provenance-based-deployment-policy",
+      "source_path": "provenance-based-deployment-policy.md",
+      "target": "safe-configuration-change-properties.md",
+      "target_concept_id": "safe-configuration-change-properties",
+      "target_path": "safe-configuration-change-properties.md",
+      "text": "safe configuration changeproperties",
+      "title": null
+    },
+    {
+      "source_concept_id": "provenance-based-deployment-policy",
+      "source_path": "provenance-based-deployment-policy.md",
+      "target": "segregation-of-duties-via-pipeline-audit-trail.md",
+      "target_concept_id": "segregation-of-duties-via-pipeline-audit-trail",
+      "target_path": "segregation-of-duties-via-pipeline-audit-trail.md",
+      "text": "segregation of duties via pipeline audit trail",
+      "title": null
+    },
+    {
+      "source_concept_id": "record-replay-dependency-isolation",
+      "source_path": "record-replay-dependency-isolation.md",
+      "target": "capture-and-replay-validation.md",
+      "target_concept_id": "capture-and-replay-validation",
+      "target_path": "capture-and-replay-validation.md",
+      "text": "capture-and-replay validation",
+      "title": null
+    },
+    {
+      "source_concept_id": "record-replay-dependency-isolation",
+      "source_path": "record-replay-dependency-isolation.md",
+      "target": "presubmit-vs-postsubmit-test-gating.md",
+      "target_concept_id": "presubmit-vs-postsubmit-test-gating",
+      "target_path": "presubmit-vs-postsubmit-test-gating.md",
+      "text": "presubmit vs postsubmit test gating",
+      "title": null
+    },
+    {
+      "source_concept_id": "record-replay-dependency-isolation",
+      "source_path": "record-replay-dependency-isolation.md",
+      "target": "sut-hermeticity-vs-fidelity.md",
+      "target_concept_id": "sut-hermeticity-vs-fidelity",
+      "target_path": "sut-hermeticity-vs-fidelity.md",
+      "text": "SUThermeticity vs fidelity",
+      "title": null
+    },
+    {
+      "source_concept_id": "release-atomicity-tuple-testing",
+      "source_path": "release-atomicity-tuple-testing.md",
+      "target": "independent-deployability.md",
+      "target_concept_id": "independent-deployability",
+      "target_path": "independent-deployability.md",
+      "text": "Independent deployability",
+      "title": null
+    },
+    {
+      "source_concept_id": "release-atomicity-tuple-testing",
+      "source_path": "release-atomicity-tuple-testing.md",
+      "target": "parallel-api-version-coexistence.md",
+      "target_concept_id": "parallel-api-version-coexistence",
+      "target_path": "parallel-api-version-coexistence.md",
+      "text": "parallel API versioncoexistence",
+      "title": null
+    },
+    {
+      "source_concept_id": "release-atomicity-tuple-testing",
+      "source_path": "release-atomicity-tuple-testing.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "rollback",
+      "title": null
+    },
+    {
+      "source_concept_id": "release-candidate-regression-testing",
+      "source_path": "release-candidate-regression-testing.md",
+      "target": "build-once-promote-artifact.md",
+      "target_concept_id": "build-once-promote-artifact",
+      "target_path": "build-once-promote-artifact.md",
+      "text": "build once, promote theartifact",
+      "title": null
+    },
+    {
+      "source_concept_id": "release-candidate-regression-testing",
+      "source_path": "release-candidate-regression-testing.md",
+      "target": "green-head-vs-true-head.md",
+      "target_concept_id": "green-head-vs-true-head",
+      "target_path": "green-head-vs-true-head.md",
+      "text": "continuous build",
+      "title": null
+    },
+    {
+      "source_concept_id": "release-team-protects-user-experience",
+      "source_path": "release-team-protects-user-experience.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "feature flags",
+      "title": null
+    },
+    {
+      "source_concept_id": "release-team-protects-user-experience",
+      "source_path": "release-team-protects-user-experience.md",
+      "target": "release-train-deadline-discipline.md",
+      "target_concept_id": "release-train-deadline-discipline",
+      "target_path": "release-train-deadline-discipline.md",
+      "text": "release train deadlinediscipline",
+      "title": null
+    },
+    {
+      "source_concept_id": "release-train-deadline-discipline",
+      "source_path": "release-train-deadline-discipline.md",
+      "target": "launch-kpi-thresholds.md",
+      "target_concept_id": "launch-kpi-thresholds",
+      "target_path": "launch-kpi-thresholds.md",
+      "text": "launch KPIthresholds",
+      "title": null
+    },
+    {
+      "source_concept_id": "retraining-as-roll-forward-for-models",
+      "source_path": "retraining-as-roll-forward-for-models.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary",
+      "title": null
+    },
+    {
+      "source_concept_id": "retraining-as-roll-forward-for-models",
+      "source_path": "retraining-as-roll-forward-for-models.md",
+      "target": "fallback-to-a-safe-default.md",
+      "target_concept_id": "fallback-to-a-safe-default",
+      "target_path": "fallback-to-a-safe-default.md",
+      "text": "fallbackto a safe default",
+      "title": null
+    },
+    {
+      "source_concept_id": "retraining-as-roll-forward-for-models",
+      "source_path": "retraining-as-roll-forward-for-models.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "Roll back vs. roll forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-retriggers-shared-update-side-effects",
+      "source_path": "rollback-retriggers-shared-update-side-effects.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "Roll back vs. roll forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-retriggers-shared-update-side-effects",
+      "source_path": "rollback-retriggers-shared-update-side-effects.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "roll back vs. rollforward",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-vs-roll-forward",
+      "source_path": "rollback-vs-roll-forward.md",
+      "target": "build-cop-rollback-discipline.md",
+      "target_concept_id": "build-cop-rollback-discipline",
+      "target_path": "build-cop-rollback-discipline.md",
+      "text": "build cop rollbackdiscipline",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-vs-roll-forward",
+      "source_path": "rollback-vs-roll-forward.md",
+      "target": "continuous-deployment-vs-continuous-delivery.md",
+      "target_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "target_path": "continuous-deployment-vs-continuous-delivery.md",
+      "text": "continuous deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-vs-roll-forward",
+      "source_path": "rollback-vs-roll-forward.md",
+      "target": "emergency-change-breakglass.md",
+      "target_concept_id": "emergency-change-breakglass",
+      "target_path": "emergency-change-breakglass.md",
+      "text": "emergency breakglass",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-vs-roll-forward",
+      "source_path": "rollback-vs-roll-forward.md",
+      "target": "expand-and-contract-schema-migration.md",
+      "target_concept_id": "expand-and-contract-schema-migration",
+      "target_path": "expand-and-contract-schema-migration.md",
+      "text": "expand-and-contract schema migration",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-vs-roll-forward",
+      "source_path": "rollback-vs-roll-forward.md",
+      "target": "fallback-to-a-safe-default.md",
+      "target_concept_id": "fallback-to-a-safe-default",
+      "target_path": "fallback-to-a-safe-default.md",
+      "text": "falling back to a simpler safedefault",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-vs-roll-forward",
+      "source_path": "rollback-vs-roll-forward.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "feature flags",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-vs-roll-forward",
+      "source_path": "rollback-vs-roll-forward.md",
+      "target": "progressive-rollout-data-layer-isolation.md",
+      "target_concept_id": "progressive-rollout-data-layer-isolation",
+      "target_path": "progressive-rollout-data-layer-isolation.md",
+      "text": "progressive rollout data-layer isolation",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-vs-roll-forward",
+      "source_path": "rollback-vs-roll-forward.md",
+      "target": "retraining-as-roll-forward-for-models.md",
+      "target_concept_id": "retraining-as-roll-forward-for-models",
+      "target_path": "retraining-as-roll-forward-for-models.md",
+      "text": "retraining as roll-forward formodels",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-vs-roll-forward",
+      "source_path": "rollback-vs-roll-forward.md",
+      "target": "rollback-retriggers-shared-update-side-effects.md",
+      "target_concept_id": "rollback-retriggers-shared-update-side-effects",
+      "target_path": "rollback-retriggers-shared-update-side-effects.md",
+      "text": "rollback retriggers shared update sideeffects",
+      "title": null
+    },
+    {
+      "source_concept_id": "rollback-vs-roll-forward",
+      "source_path": "rollback-vs-roll-forward.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "rolling-deployment",
+      "source_path": "rolling-deployment.md",
+      "target": "blue-green-deployment.md",
+      "target_concept_id": "blue-green-deployment",
+      "target_path": "blue-green-deployment.md",
+      "text": "blue-green deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "rolling-deployment",
+      "source_path": "rolling-deployment.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "rolling-deployment",
+      "source_path": "rolling-deployment.md",
+      "target": "hitless-in-service-software-upgrade.md",
+      "target_concept_id": "hitless-in-service-software-upgrade",
+      "target_path": "hitless-in-service-software-upgrade.md",
+      "text": "hitless in-service software upgrade",
+      "title": null
+    },
+    {
+      "source_concept_id": "safe-configuration-change-properties",
+      "source_path": "safe-configuration-change-properties.md",
+      "target": "build-once-promote-artifact.md",
+      "target_concept_id": "build-once-promote-artifact",
+      "target_path": "build-once-promote-artifact.md",
+      "text": "releasecandidate",
+      "title": null
+    },
+    {
+      "source_concept_id": "safe-configuration-change-properties",
+      "source_path": "safe-configuration-change-properties.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "safe-configuration-change-properties",
+      "source_path": "safe-configuration-change-properties.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "roll back vs. roll forward",
+      "title": null
+    },
+    {
+      "source_concept_id": "safe-configuration-change-properties",
+      "source_path": "safe-configuration-change-properties.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "schema-migration-production-risk-categories",
+      "source_path": "schema-migration-production-risk-categories.md",
+      "target": "expand-and-contract-schema-migration.md",
+      "target_concept_id": "expand-and-contract-schema-migration",
+      "target_path": "expand-and-contract-schema-migration.md",
+      "text": "expand-and-contract schema migration",
+      "title": null
+    },
+    {
+      "source_concept_id": "schema-migration-production-risk-categories",
+      "source_path": "schema-migration-production-risk-categories.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling",
+      "title": null
+    },
+    {
+      "source_concept_id": "segregation-of-duties-via-pipeline-audit-trail",
+      "source_path": "segregation-of-duties-via-pipeline-audit-trail.md",
+      "target": "deployment-pipeline-traceability.md",
+      "target_concept_id": "deployment-pipeline-traceability",
+      "target_path": "deployment-pipeline-traceability.md",
+      "text": "traceability",
+      "title": null
+    },
+    {
+      "source_concept_id": "segregation-of-duties-via-pipeline-audit-trail",
+      "source_path": "segregation-of-duties-via-pipeline-audit-trail.md",
+      "target": "peer-review-as-change-control.md",
+      "target_concept_id": "peer-review-as-change-control",
+      "target_path": "peer-review-as-change-control.md",
+      "text": "Peer review",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-serve-staging-load-test",
+      "source_path": "self-serve-staging-load-test.md",
+      "target": "canary-metric-selection.md",
+      "target_concept_id": "canary-metric-selection",
+      "target_path": "canary-metric-selection.md",
+      "text": "canary metric selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-serve-staging-load-test",
+      "source_path": "self-serve-staging-load-test.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-serve-staging-load-test",
+      "source_path": "self-serve-staging-load-test.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-serve-staging-load-test",
+      "source_path": "self-serve-staging-load-test.md",
+      "target": "capture-and-replay-validation.md",
+      "target_concept_id": "capture-and-replay-validation",
+      "target_path": "capture-and-replay-validation.md",
+      "text": "capture-and-replayvalidation",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-serve-staging-load-test",
+      "source_path": "self-serve-staging-load-test.md",
+      "target": "pre-production-fidelity-limits.md",
+      "target_concept_id": "pre-production-fidelity-limits",
+      "target_path": "pre-production-fidelity-limits.md",
+      "text": "Pre-production fidelity limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "semantic-versioning",
+      "source_path": "semantic-versioning.md",
+      "target": "parallel-api-version-coexistence.md",
+      "target_concept_id": "parallel-api-version-coexistence",
+      "target_path": "parallel-api-version-coexistence.md",
+      "text": "parallel API version coexistence",
+      "title": null
+    },
+    {
+      "source_concept_id": "semantic-versioning",
+      "source_path": "semantic-versioning.md",
+      "target": "tolerant-reader-pattern.md",
+      "target_concept_id": "tolerant-reader-pattern",
+      "target_path": "tolerant-reader-pattern.md",
+      "text": "tolerant reader pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-tradeoff-myth",
+      "source_path": "speed-stability-tradeoff-myth.md",
+      "target": "build-quality-in.md",
+      "target_concept_id": "build-quality-in",
+      "target_path": "build-quality-in.md",
+      "text": "build quality in",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-tradeoff-myth",
+      "source_path": "speed-stability-tradeoff-myth.md",
+      "target": "change-failure-rate.md",
+      "target_concept_id": "change-failure-rate",
+      "target_path": "change-failure-rate.md",
+      "text": "Change failure rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-tradeoff-myth",
+      "source_path": "speed-stability-tradeoff-myth.md",
+      "target": "deployment-frequency.md",
+      "target_concept_id": "deployment-frequency",
+      "target_path": "deployment-frequency.md",
+      "text": "Deployment frequency",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-tradeoff-myth",
+      "source_path": "speed-stability-tradeoff-myth.md",
+      "target": "lead-time-for-changes.md",
+      "target_concept_id": "lead-time-for-changes",
+      "target_path": "lead-time-for-changes.md",
+      "text": "Lead time for changes",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-tradeoff-myth",
+      "source_path": "speed-stability-tradeoff-myth.md",
+      "target": "mean-time-to-restore.md",
+      "target_concept_id": "mean-time-to-restore",
+      "target_path": "mean-time-to-restore.md",
+      "text": "Mean time to restore",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-tradeoff-myth",
+      "source_path": "speed-stability-tradeoff-myth.md",
+      "target": "release-train-deadline-discipline.md",
+      "target_concept_id": "release-train-deadline-discipline",
+      "target_path": "release-train-deadline-discipline.md",
+      "text": "releasetrains",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-tradeoff-myth",
+      "source_path": "speed-stability-tradeoff-myth.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-tradeoff-myth",
+      "source_path": "speed-stability-tradeoff-myth.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "staged-percentage-rollout",
+      "source_path": "staged-percentage-rollout.md",
+      "target": "canary-metric-selection.md",
+      "target_concept_id": "canary-metric-selection",
+      "target_path": "canary-metric-selection.md",
+      "text": "canary metrics",
+      "title": null
+    },
+    {
+      "source_concept_id": "staged-percentage-rollout",
+      "source_path": "staged-percentage-rollout.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "staged-percentage-rollout",
+      "source_path": "staged-percentage-rollout.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "staged-percentage-rollout",
+      "source_path": "staged-percentage-rollout.md",
+      "target": "manual-approval-release-gates.md",
+      "target_concept_id": "manual-approval-release-gates",
+      "target_path": "manual-approval-release-gates.md",
+      "text": "manual approval release gates",
+      "title": null
+    },
+    {
+      "source_concept_id": "staged-percentage-rollout",
+      "source_path": "staged-percentage-rollout.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "staged-percentage-rollout",
+      "source_path": "staged-percentage-rollout.md",
+      "target": "two-phase-mutation-testing.md",
+      "target_concept_id": "two-phase-mutation-testing",
+      "target_path": "two-phase-mutation-testing.md",
+      "text": "two-phase mutation testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "standard-change-preapproval",
+      "source_path": "standard-change-preapproval.md",
+      "target": "change-approval-board-pathology.md",
+      "target_concept_id": "change-approval-board-pathology",
+      "target_path": "change-approval-board-pathology.md",
+      "text": "change approval boardpathology",
+      "title": null
+    },
+    {
+      "source_concept_id": "standard-change-preapproval",
+      "source_path": "standard-change-preapproval.md",
+      "target": "change-failure-rate.md",
+      "target_concept_id": "change-failure-rate",
+      "target_path": "change-failure-rate.md",
+      "text": "change failure rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "standard-change-preapproval",
+      "source_path": "standard-change-preapproval.md",
+      "target": "mean-time-to-restore.md",
+      "target_concept_id": "mean-time-to-restore",
+      "target_path": "mean-time-to-restore.md",
+      "text": "mean time torestore",
+      "title": null
+    },
+    {
+      "source_concept_id": "strangler-fig-pattern",
+      "source_path": "strangler-fig-pattern.md",
+      "target": "branch-by-abstraction.md",
+      "target_concept_id": "branch-by-abstraction",
+      "target_path": "branch-by-abstraction.md",
+      "text": "branch byabstraction",
+      "title": null
+    },
+    {
+      "source_concept_id": "sut-hermeticity-vs-fidelity",
+      "source_path": "sut-hermeticity-vs-fidelity.md",
+      "target": "pre-production-fidelity-limits.md",
+      "target_concept_id": "pre-production-fidelity-limits",
+      "target_path": "pre-production-fidelity-limits.md",
+      "text": "pre-production fidelity limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "sut-hermeticity-vs-fidelity",
+      "source_path": "sut-hermeticity-vs-fidelity.md",
+      "target": "presubmit-vs-postsubmit-test-gating.md",
+      "target_concept_id": "presubmit-vs-postsubmit-test-gating",
+      "target_path": "presubmit-vs-postsubmit-test-gating.md",
+      "text": "presubmit vs postsubmit testgating",
+      "title": null
+    },
+    {
+      "source_concept_id": "sut-hermeticity-vs-fidelity",
+      "source_path": "sut-hermeticity-vs-fidelity.md",
+      "target": "record-replay-dependency-isolation.md",
+      "target_concept_id": "record-replay-dependency-isolation",
+      "target_path": "record-replay-dependency-isolation.md",
+      "text": "record replaydependency isolation",
+      "title": null
+    },
+    {
+      "source_concept_id": "sut-hermeticity-vs-fidelity",
+      "source_path": "sut-hermeticity-vs-fidelity.md",
+      "target": "release-candidate-regression-testing.md",
+      "target_concept_id": "release-candidate-regression-testing",
+      "target_path": "release-candidate-regression-testing.md",
+      "text": "release candidateregression testing",
+      "title": null
+    },
+    {
+      "source_concept_id": "tolerant-reader-pattern",
+      "source_path": "tolerant-reader-pattern.md",
+      "target": "expand-and-contract-schema-migration.md",
+      "target_concept_id": "expand-and-contract-schema-migration",
+      "target_path": "expand-and-contract-schema-migration.md",
+      "text": "expand-and-contract schema migration",
+      "title": null
+    },
+    {
+      "source_concept_id": "tolerant-reader-pattern",
+      "source_path": "tolerant-reader-pattern.md",
+      "target": "semantic-versioning.md",
+      "target_concept_id": "semantic-versioning",
+      "target_path": "semantic-versioning.md",
+      "text": "semantic versioning",
+      "title": null
+    },
+    {
+      "source_concept_id": "traffic-teeing",
+      "source_path": "traffic-teeing.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "trunk-based-development",
+      "source_path": "trunk-based-development.md",
+      "target": "branch-by-abstraction.md",
+      "target_concept_id": "branch-by-abstraction",
+      "target_path": "branch-by-abstraction.md",
+      "text": "branch byabstraction",
+      "title": null
+    },
+    {
+      "source_concept_id": "trunk-based-development",
+      "source_path": "trunk-based-development.md",
+      "target": "continuous-deployment-vs-continuous-delivery.md",
+      "target_concept_id": "continuous-deployment-vs-continuous-delivery",
+      "target_path": "continuous-deployment-vs-continuous-delivery.md",
+      "text": "continuous deployment vs.continuous delivery",
+      "title": null
+    },
+    {
+      "source_concept_id": "trunk-based-development",
+      "source_path": "trunk-based-development.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "feature flag blast radius isolation",
+      "title": null
+    },
+    {
+      "source_concept_id": "trunk-based-development",
+      "source_path": "trunk-based-development.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "two-phase-mutation-testing",
+      "source_path": "two-phase-mutation-testing.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "two-phase-mutation-testing",
+      "source_path": "two-phase-mutation-testing.md",
+      "target": "canarying-pipeline-systems.md",
+      "target_concept_id": "canarying-pipeline-systems",
+      "target_path": "canarying-pipeline-systems.md",
+      "text": "canarying pipeline systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "update-safe-state-gating",
+      "source_path": "update-safe-state-gating.md",
+      "target": "change-freeze-triggers.md",
+      "target_concept_id": "change-freeze-triggers",
+      "target_path": "change-freeze-triggers.md",
+      "text": "change freeze triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "update-safe-state-gating",
+      "source_path": "update-safe-state-gating.md",
+      "target": "independent-deployability.md",
+      "target_concept_id": "independent-deployability",
+      "target_path": "independent-deployability.md",
+      "text": "partial system deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "update-safe-state-gating",
+      "source_path": "update-safe-state-gating.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "rollback",
+      "title": null
+    },
+    {
+      "source_concept_id": "version-skew-during-rollout",
+      "source_path": "version-skew-during-rollout.md",
+      "target": "backward-and-forward-compatibility-during-rollout.md",
+      "target_concept_id": "backward-and-forward-compatibility-during-rollout",
+      "target_path": "backward-and-forward-compatibility-during-rollout.md",
+      "text": "backward and forward compatibility duringrollout",
+      "title": null
+    },
+    {
+      "source_concept_id": "version-skew-during-rollout",
+      "source_path": "version-skew-during-rollout.md",
+      "target": "build-once-promote-artifact.md",
+      "target_concept_id": "build-once-promote-artifact",
+      "target_path": "build-once-promote-artifact.md",
+      "text": "release candidate",
+      "title": null
+    },
+    {
+      "source_concept_id": "version-skew-during-rollout",
+      "source_path": "version-skew-during-rollout.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "Canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "version-skew-during-rollout",
+      "source_path": "version-skew-during-rollout.md",
+      "target": "feature-flag-blast-radius-isolation.md",
+      "target_concept_id": "feature-flag-blast-radius-isolation",
+      "target_path": "feature-flag-blast-radius-isolation.md",
+      "text": "feature flags",
+      "title": null
+    },
+    {
+      "source_concept_id": "versioned-incremental-migrations",
+      "source_path": "versioned-incremental-migrations.md",
+      "target": "expand-and-contract-schema-migration.md",
+      "target_concept_id": "expand-and-contract-schema-migration",
+      "target_path": "expand-and-contract-schema-migration.md",
+      "text": "expand-and-contract migrations",
+      "title": null
+    },
+    {
+      "source_concept_id": "versioned-incremental-migrations",
+      "source_path": "versioned-incremental-migrations.md",
+      "target": "migration-rollback-testing-cycle.md",
+      "target_concept_id": "migration-rollback-testing-cycle",
+      "target_path": "migration-rollback-testing-cycle.md",
+      "text": "migration rollback testing cycle",
+      "title": null
+    },
+    {
+      "source_concept_id": "versioned-incremental-migrations",
+      "source_path": "versioned-incremental-migrations.md",
+      "target": "working-in-small-batches.md",
+      "target_concept_id": "working-in-small-batches",
+      "target_path": "working-in-small-batches.md",
+      "text": "working in small batches",
+      "title": null
+    },
+    {
+      "source_concept_id": "working-in-small-batches",
+      "source_path": "working-in-small-batches.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "working-in-small-batches",
+      "source_path": "working-in-small-batches.md",
+      "target": "deployment-frequency.md",
+      "target_concept_id": "deployment-frequency",
+      "target_path": "deployment-frequency.md",
+      "text": "Deployment frequency",
+      "title": null
+    },
+    {
+      "source_concept_id": "working-in-small-batches",
+      "source_path": "working-in-small-batches.md",
+      "target": "rollback-vs-roll-forward.md",
+      "target_concept_id": "rollback-vs-roll-forward",
+      "target_path": "rollback-vs-roll-forward.md",
+      "text": "roll back",
+      "title": null
+    },
+    {
+      "source_concept_id": "zero-downtime-deployment",
+      "source_path": "zero-downtime-deployment.md",
+      "target": "blue-green-deployment.md",
+      "target_concept_id": "blue-green-deployment",
+      "target_path": "blue-green-deployment.md",
+      "text": "blue-green deployment",
+      "title": null
+    },
+    {
+      "source_concept_id": "zero-downtime-deployment",
+      "source_path": "zero-downtime-deployment.md",
+      "target": "canary-release.md",
+      "target_concept_id": "canary-release",
+      "target_path": "canary-release.md",
+      "text": "canary release",
+      "title": null
+    },
+    {
+      "source_concept_id": "zero-downtime-deployment",
+      "source_path": "zero-downtime-deployment.md",
+      "target": "expand-and-contract-schema-migration.md",
+      "target_concept_id": "expand-and-contract-schema-migration",
+      "target_path": "expand-and-contract-schema-migration.md",
+      "text": "schema and data migrations",
+      "title": null
+    },
+    {
+      "source_concept_id": "zero-downtime-deployment",
+      "source_path": "zero-downtime-deployment.md",
+      "target": "independent-deployability.md",
+      "target_concept_id": "independent-deployability",
+      "target_path": "independent-deployability.md",
+      "text": "independent deployability",
+      "title": null
+    },
+    {
+      "source_concept_id": "zero-downtime-deployment",
+      "source_path": "zero-downtime-deployment.md",
+      "target": "rolling-deployment.md",
+      "target_concept_id": "rolling-deployment",
+      "target_path": "rolling-deployment.md",
+      "text": "rolling deployment",
+      "title": null
+    }
+  ],
+  "orphans": []
+}

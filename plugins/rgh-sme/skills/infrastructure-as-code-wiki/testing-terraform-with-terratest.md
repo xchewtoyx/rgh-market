@@ -1,0 +1,14 @@
+---
+type: concept
+title: Testing Terraform with Terratest
+description: A Go testing library that applies a real Terraform example against a real cloud sandbox, asserts on live outcomes, and guarantees teardown — because infrastructure tests can't run against localhost or reliable local mocks.
+sources:
+  - title: Terraform Up & Running
+    resource: "Terraform: Up & Running, 3rd Edition (Yevgeniy Brikman), ch. 9"
+---
+
+Infrastructure code decays even when nobody touches it — cloud provider APIs change, provider plugins get new releases, base images drift — so, per the general case for [testing declarative infrastructure code](testing-declarative-infrastructure-code.md), infrastructure code without automated tests should be assumed broken sooner or later. Terraform testing has a specific practical constraint application testing doesn't: there is no `localhost` to test against, and local API mocks (LocalStack and similar) only cover a thin slice of any real cloud API's behavior — they can't validate real networking paths, security group routing, or IAM permission enforcement. Meaningful Terraform tests have to apply real code against a real cloud sandbox account, which means they cost money, take real provisioning time, and must guarantee teardown afterward.
+
+Terratest (from Gruntwork) is a Go library built around this reality: a test instantiates one of a module's `examples/` configurations with a randomized, unique name (to avoid collisions when tests run in parallel), runs `terraform init` and `apply`, asserts against the live, functioning result — such as retrying an HTTP request against a load balancer's DNS name until it returns the expected response, tolerating the propagation and boot delays real infrastructure has — and destroys everything via a deferred call, so teardown happens even if the assertions fail. This is a concrete implementation of the general [outcome-testing](test-fixtures-for-infrastructure-stacks.md) idea from [progressive testing for infrastructure](progressive-testing-for-infrastructure.md): proving the infrastructure does what it should, not just that the declared resources exist.
+
+Practical rules that make this kind of testing viable at all: always namespace test resources uniquely so parallel test runs don't collide; use retry-with-backoff for anything that depends on eventual consistency (DNS propagation, instance boot scripts); pair deferred teardown in the test itself with a scheduled sweep tool (such as `cloud-nuke`) to catch orphaned resources from tests that crashed before teardown ran; and keep modules small, since a module that takes 30+ minutes to provision discourages engineers from running the test suite at all — the same [small, fast-to-provision component](infrastructure-component-coupling-and-cohesion.md) discipline that makes any progressive testing strategy practical.

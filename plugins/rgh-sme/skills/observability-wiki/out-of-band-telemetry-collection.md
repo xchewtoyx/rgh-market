@@ -1,0 +1,15 @@
+---
+type: concept
+title: Collect Telemetry Out-of-Band, Not Piggybacked on the Request
+description: Writing telemetry to a local buffer that a separate collection process later pulls from — rather than attaching it to the very requests being observed — avoids distorting the measured traffic and doesn't require the request tree to be perfectly nested, at the cost of the collected data lagging behind real time by a variable amount.
+sources:
+  - title: "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure"
+    resource: "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure (Sigelman et al.), §2.5-2.5.1"
+---
+
+Trace/telemetry data can in principle be propagated **in-band** — carried along in the very request/response traffic being observed, e.g. returned inside RPC response headers — or **out-of-band**: written to a local buffer (a log file, a disk-backed queue) that a separate collection process later pulls from asynchronously, decoupled from the request's own lifecycle. Out-of-band is the better default for two independent reasons:
+
+1. **In-band collection distorts what it measures.** A single request in a large distributed system can accumulate telemetry (e.g. thousands of trace spans) far larger than the actual response payload it's attached to — Google observed RPC responses near the root of such traces are often under 10 KB. Stapling the accumulated telemetry onto that response would dwarf the real application data being sent, biasing exactly the network/latency behavior the telemetry is trying to measure.
+2. **In-band collection assumes perfect nesting.** It implicitly requires every unit of work to return its telemetry to its caller before that caller itself returns — but many real systems (middleware that replies before all of its own backend calls have completed) don't nest that cleanly. An in-band scheme simply can't represent that non-nested execution pattern; see [span links for non-linear workflows](span-links-vs-parent-child.md) for the same nesting-doesn't-always-fit problem showing up on the trace-model side.
+
+The trade-off: out-of-band collection means the central store lags behind real time by a variable, sometimes long, amount — Dapper's own pipeline (local log files, pulled by a collection daemon, written into a central store) saw a median collection latency under 15 seconds, but a long tail where 98th-percentile latency was under two minutes only about 75% of the time, and could stretch to many hours the rest of the time. Any consumer of the collected data — dashboards, alerting, analysis tools — has to be built assuming that lag exists and can occasionally be large, rather than assuming near-real-time arrival is guaranteed. This out-of-band, pull-based shape is the same underlying pattern as [decoupling ingestion from query](decoupled-ingestion-and-query.md) and [pull-based metrics collection](pull-based-metrics-collection.md): the collector, not the instrumented process, controls when and how fast data actually moves.

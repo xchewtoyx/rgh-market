@@ -1,0 +1,2245 @@
+{
+  "bundle": "telemetry-state",
+  "concepts": [
+    {
+      "concept_id": "affect-labeling",
+      "description": "Naming an emotion in real time, in specific rather than reflexive terms, which both improves the accuracy of the state reading and measurably reduces distress.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 4,
+      "pagerank": 0.02439544363150276,
+      "title": "Affect Labeling"
+    },
+    {
+      "concept_id": "alexithymia",
+      "description": "A trait-like difficulty identifying and describing one's own emotional states, such that internal signals arrive as static rather than a clear reading.",
+      "inbound_link_count": 13,
+      "outbound_link_count": 5,
+      "pagerank": 0.07156805955139685,
+      "title": "Alexithymia"
+    },
+    {
+      "concept_id": "alexithymia-self-report-measures",
+      "description": "Validated self-report tools for gauging where a person falls on the alexithymia spectrum, useful for establishing a baseline of how much to trust one's own emotional-state readings.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.01401842607140984,
+      "title": "Alexithymia Self-Report Measures"
+    },
+    {
+      "concept_id": "attachment-and-aversion-reactions",
+      "description": "Automatic next-moment responses to feeling tone — clinging to pleasant, pushing away unpleasant, tuning out neutral — which often run below awareness and distort what a state reading is actually about.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.004084164734594623,
+      "title": "Attachment and Aversion Reactions"
+    },
+    {
+      "concept_id": "attention-gates-mood-reading",
+      "description": "Moment-to-moment emotional state is largely determined by what you are attending to right now, so a mood reading taken while attention is elsewhere or split is a different kind of signal than one taken in full presence.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018518518518518521,
+      "title": "Attention Gates Mood Reading"
+    },
+    {
+      "concept_id": "automatic-pilot-blinds-signal",
+      "description": "Operating on habitual autopilot — body doing one thing while mind is elsewhere — lets negative thought fragments coalesce unnoticed until they are too strong to handle easily.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 2,
+      "pagerank": 0.009261174801156402,
+      "title": "Automatic Pilot Blinds Signal"
+    },
+    {
+      "concept_id": "aversion-bodily-signature",
+      "description": "Recurring somatic patterns — contraction, pushing-away, sudden fatigue — that signal the mind-body has registered something it wants gone, often before the mind names an emotion or admits dislike.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.0038236122225331626,
+      "title": "Aversion Bodily Signature"
+    },
+    {
+      "concept_id": "behavioral-shift-as-emotional-signal",
+      "description": "In autistic people, changes in functioning, interests, withdrawal, or repetitive behavior often surface before — or instead of — a clear verbal report of anxiety or depression.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.0052169970862041525,
+      "title": "Behavioral Shift as Emotional Signal"
+    },
+    {
+      "concept_id": "body-scan",
+      "description": "A structured technique for reading current physical state by sequentially attending to each part of the body and noting sensations with neutral, non-judgmental descriptors.",
+      "inbound_link_count": 18,
+      "outbound_link_count": 10,
+      "pagerank": 0.07680290779221394,
+      "title": "Body Scan"
+    },
+    {
+      "concept_id": "brain-fog-as-state-signal",
+      "description": "Cognitive dulling during burnout or overload — lost train of thought, word-finding failure, weakened imagery — that marks a state shift even when emotion is not clearly named.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018518518518518521,
+      "title": "Brain Fog as a State Signal"
+    },
+    {
+      "concept_id": "burnout-vs-depression-state-signals",
+      "description": "Autistic burnout and clinical depression overlap in fatigue and withdrawal but differ in pleasure capacity, worthlessness, memory, and masking collapse — distinctions that change how much to trust a mood reading.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.004491441285095257,
+      "title": "Burnout vs. Depression State Signals"
+    },
+    {
+      "concept_id": "calm-baseline-state",
+      "description": "Deliberately noting what a resting, non-activated body and mind feel like, so that later deviations from it are recognisable as signal rather than treated as the default.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.025412624566085663,
+      "title": "Establishing a Calm Baseline"
+    },
+    {
+      "concept_id": "catastrophic-sensation-misinterpretation",
+      "description": "Reading normal bodily sensations as evidence of serious illness because vigilance and checking amplify attention to sensations that healthy bodies routinely produce.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018518518518518521,
+      "title": "Catastrophic Sensation Misinterpretation"
+    },
+    {
+      "concept_id": "chronic-autonomic-hyperarousal",
+      "description": "A persistently elevated sympathetic or reduced parasympathetic baseline that can make \"normal\" days feel keyed-up and distort what counts as calm.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.004285405632052793,
+      "title": "Chronic Autonomic Hyperarousal"
+    },
+    {
+      "concept_id": "context-dependent-sensory-reading",
+      "description": "The same sensory stimulus can read as pleasant or unbearable depending on social load, interest, and environment — so stimulus type alone is an incomplete state input.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.00606171544860069,
+      "title": "Context-Dependent Sensory Reading"
+    },
+    {
+      "concept_id": "day-reconstruction-method",
+      "description": "A structured way to rebuild yesterday as timed episodes and rate feelings per episode, producing a duration-weighted picture of experienced state rather than a single global judgment.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.006167374930636971,
+      "title": "Day Reconstruction Method"
+    },
+    {
+      "concept_id": "deep-focus-restorative-state",
+      "description": "An absorbed focus state where sensory input dims and cognitive clarity returns — an autistic-specific alternative to meditation when present- moment body focus lets in overwhelming unfiltered sensation.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0031635802469135808,
+      "title": "Deep Focus as Restorative State"
+    },
+    {
+      "concept_id": "delayed-emotional-processing",
+      "description": "When the emotional reaction to an event surfaces later than the event itself, making a real-time state reading incomplete and retroactive tracing necessary.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.016767387695691183,
+      "title": "Delayed Emotional Processing"
+    },
+    {
+      "concept_id": "demand-avoidance-as-arousal-signal",
+      "description": "Sudden resistance to a task — even one you were about to do — when it is framed as a demand, marking nervous-system fight-or-flight activation rather than simple laziness.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0018518518518518521,
+      "title": "Demand Avoidance as Arousal Signal"
+    },
+    {
+      "concept_id": "distinguishing-anxiety-from-sensory-overload",
+      "description": "A diagnostic check for whether current distress originates externally (sensory overload) or internally (anxiety driven by thought), since the two feel similar but call for reading different signals.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 1,
+      "pagerank": 0.011753690112521297,
+      "title": "Distinguishing Anxiety from Sensory Overload"
+    },
+    {
+      "concept_id": "embodied-signals-precede-conscious-reading",
+      "description": "Faster unconscious channels — embodied, emotional, and intuitive — register environmental and internal state in milliseconds, while deliberate verbal self-report runs hundreds of times slower, so a conscious \"how do I feel?\" answer often lags behind what the body already knows.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 5,
+      "pagerank": 0.016939403931500743,
+      "title": "Embodied Signals Precede Conscious Reading"
+    },
+    {
+      "concept_id": "emotion-as-decision-signal",
+      "description": "Emotion is not optional input to good decisions — without felt emotional feedback, even intact reasoning and memory cannot reliably choose or follow through on everyday actions.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0018518518518518521,
+      "title": "Emotion as a Decision Signal"
+    },
+    {
+      "concept_id": "emotion-tracking-journal",
+      "description": "Journaling a single recurring emotion over days or weeks — its physical signature, frequency, and context — purely to observe it and surface trigger patterns, without taking corrective action during the tracking period itself.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 4,
+      "pagerank": 0.01932438099407178,
+      "title": "Recurring-Emotion Tracking"
+    },
+    {
+      "concept_id": "emotional-body-regions",
+      "description": "Metaphorical somatic loci — heart, solar plexus, throat — where attention surfaces constriction or openness tied to grief, vitality, or vocalized emotion, useful when state is felt regionally rather than as a named mood.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.008380106669891753,
+      "title": "Emotional Body Regions"
+    },
+    {
+      "concept_id": "emotional-physical-signature",
+      "description": "Each emotion tends to produce a distinct, recognisable pattern of physical sensation, which can be used to diagnose which emotion is present by symptom when the emotion's name or origin isn't clear.",
+      "inbound_link_count": 12,
+      "outbound_link_count": 4,
+      "pagerank": 0.049788596282657416,
+      "title": "The Physical Signature of an Emotion"
+    },
+    {
+      "concept_id": "emotional-storm",
+      "description": "The observation that pure, single emotions are rare — multiple emotions and physical sensations typically co-occur — which means a state reading usually needs to be decomposed rather than reduced to one label.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.01312807950272566,
+      "title": "The Emotional Storm"
+    },
+    {
+      "concept_id": "emotional-vocabulary-building",
+      "description": "Practices for expanding the range of specific words available for naming a feeling, which addresses the \"difficulty describing feelings\" side of alexithymia separately from the underlying sensing itself.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.009592736820789463,
+      "title": "Emotional Vocabulary Building"
+    },
+    {
+      "concept_id": "eroded-perception-trust",
+      "description": "When repeated invalidation of felt sensations and needs trains a person to stop trusting their own readings, making even accurate signals hard to believe.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.007133117755198631,
+      "title": "Eroded Perception Trust"
+    },
+    {
+      "concept_id": "experiencing-vs-remembering-self",
+      "description": "Two evaluators inside one person — the self that lives each moment and the self that stores and judges the story — which often disagree and make confidence in a state reading depend on which one is answering.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.006515396162887853,
+      "title": "Experiencing Self vs Remembering Self"
+    },
+    {
+      "concept_id": "experiential-avoidance-signal-blunting",
+      "description": "Habitual efforts to escape or suppress unwanted emotions, thoughts, and body sensations that disconnect a person from both negative and positive feeling, degrading the quality of real-time state readings.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.005602057806360769,
+      "title": "Experiential Avoidance Signal Blunting"
+    },
+    {
+      "concept_id": "facial-expression-mismatch",
+      "description": "When outward facial display systematically misrepresents felt emotion, degrading both others' readings of you and your confidence that others see what you feel.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.01401842607140984,
+      "title": "Facial Expression Mismatch"
+    },
+    {
+      "concept_id": "facial-postural-feedback-on-judgment",
+      "description": "Activating smiling, frowning, or head-movement muscles unconsciously shifts emotional judgments — evidence that bodily configuration feeds back into felt state readings the person did not choose.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0018518518518518521,
+      "title": "Facial and Postural Feedback on Judgment"
+    },
+    {
+      "concept_id": "four-autistic-stress-state-signatures",
+      "description": "Distinct readable states — burnout, inertia, meltdown, shutdown — with different somatic and behavioral signatures, so telemetry can identify which stress response is forming rather than collapsing them into \"stress.\"",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.006750833956073329,
+      "title": "Four Autistic Stress State Signatures"
+    },
+    {
+      "concept_id": "four-corners-of-awareness",
+      "description": "A scanning checklist of four distinct channels to check when reading current state — the outside world, the inside of the body, thoughts and emotions, and a sense of connection to something larger.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.004094907407407408,
+      "title": "Four Corners of Awareness"
+    },
+    {
+      "concept_id": "graded-awareness-model",
+      "description": "Awareness of the present moment runs along a graded scale rather than being simply on or off, which matters for judging how much of a current state reading is actually being registered versus missed.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0026388888888888894,
+      "title": "Graded Awareness Model"
+    },
+    {
+      "concept_id": "habits-scorecard",
+      "description": "A sequential daily-habit inventory marked good, bad, or neutral purely for observation — raising nonconscious routines into readable state data without judgment or immediate change pressure.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0034265487051306663,
+      "title": "Habits Scorecard"
+    },
+    {
+      "concept_id": "halt-body-budget-rubric",
+      "description": "A four-check screen — hungry, angry, lonely, tired — for whether basic body state is bankrupt before trusting a higher-level mood or decision reading.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0018518518518518521,
+      "title": "HALT Body-Budget Rubric"
+    },
+    {
+      "concept_id": "healthy-vs-unhealthy-emotion-reading",
+      "description": "The same situational theme can produce either a healthy or unhealthy negative emotion; distinguishing them requires reading thinking style, attention focus, and behaviour — not the theme or sensation alone.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018518518518518521,
+      "title": "Healthy vs Unhealthy Emotion Reading"
+    },
+    {
+      "concept_id": "heuristic-substitution-in-state-reading",
+      "description": "When a hard question about overall state is unanswered quickly, the mind often substitutes an easier one — usually current mood — and treats the answer as complete.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.009684435130162266,
+      "title": "Heuristic Substitution in State Reading"
+    },
+    {
+      "concept_id": "hyperempathy-and-absorbed-emotion",
+      "description": "A heightened sensitivity to other people's emotional states that can register as one's own feeling, making it hard to tell whether an emotional reading originates internally or was absorbed from the surrounding environment.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0018518518518518521,
+      "title": "Hyperempathy and Absorbed Emotion"
+    },
+    {
+      "concept_id": "hyperfocus-bodily-signal-blindness",
+      "description": "Deep absorption that blocks hunger, bathroom, breathing, and end-of-day signals until external timers or others notice — making hyperfocus a state that hides load until it is late.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0018518518518518521,
+      "title": "Hyperfocus Bodily Signal Blindness"
+    },
+    {
+      "concept_id": "inquiring-stance-check-in",
+      "description": "A brief four-question scan — how things are now, what is in mind, what is in the body, what is skillful — that steps out of automatic pilot before trusting a reactive state reading.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0018518518518518521,
+      "title": "Inquiring Stance Check-In"
+    },
+    {
+      "concept_id": "interlocking-state-dimensions",
+      "description": "Feelings, thoughts, body sensations, and behaviors form mutually reinforcing loops where any one dimension can trigger the others — so a partial state reading may miss the cascade already underway.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.003685150417805737,
+      "title": "Interlocking State Dimensions"
+    },
+    {
+      "concept_id": "internal-barometer",
+      "description": "A single pleasant–unpleasant–neutral scale underlying all feelings that registers the \"internal atmosphere\" moment to moment and can be read as an early-warning system before specific emotions are named.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 4,
+      "pagerank": 0.007536199286052485,
+      "title": "Internal Barometer"
+    },
+    {
+      "concept_id": "interoception",
+      "description": "The body's ability to sense and interpret internal signals — heart rate, breathing, gut sensations, muscle tension, hunger, emotion — which is the raw channel a state reading is built from.",
+      "inbound_link_count": 18,
+      "outbound_link_count": 10,
+      "pagerank": 0.08576635168448783,
+      "title": "Interoception"
+    },
+    {
+      "concept_id": "masking-blunts-signal",
+      "description": "Long-term suppression of authentic expression — masking — degrades the reliability of a person's own internal-state reading, both by drowning out natural self-soothing responses and by training people to hide emotion from themselves as well as from others.",
+      "inbound_link_count": 14,
+      "outbound_link_count": 6,
+      "pagerank": 0.07748420704635256,
+      "title": "Masking Blunts the Signal"
+    },
+    {
+      "concept_id": "masking-personas",
+      "description": "The compensating identities performed to hide suppressed traits — humble instead of arrogant, warm instead of cold — which can make the outward presentation a poor guide to internal state.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.008286398418672278,
+      "title": "Masking Personas"
+    },
+    {
+      "concept_id": "meta-emotions-as-signal-noise",
+      "description": "Feelings about feelings — guilt about depression, shame about anger — that layer a second emotion on top of a primary one and can block accurate reading of the underlying state.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.00348911781378261,
+      "title": "Meta-Emotions as Signal Noise"
+    },
+    {
+      "concept_id": "micro-interoceptive-check-ins",
+      "description": "A lightweight alternative to a full body scan — folding brief, non-judgmental noticing of a body sensation into an existing routine or a scheduled alarm, for when a dedicated scan is too intrusive or effortful.",
+      "inbound_link_count": 13,
+      "outbound_link_count": 4,
+      "pagerank": 0.04057886816732767,
+      "title": "Micro Interoceptive Check-Ins"
+    },
+    {
+      "concept_id": "misophonia",
+      "description": "An extreme emotional reaction to specific everyday sounds that most people barely notice, with misperceptions that can make a state reading feel certain when it is actually distorted.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0032415752879639305,
+      "title": "Misophonia"
+    },
+    {
+      "concept_id": "mood-colored-interpretation",
+      "description": "Current mood filters ambiguous facts toward the most negative plausible story, which then feels like evidence rather than interpretation — a calibration hazard when trusting a state reading or its implied cause.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.004145640752639551,
+      "title": "Mood-Colored Interpretation"
+    },
+    {
+      "concept_id": "not-wanting-locks-rumination",
+      "description": "The implicit \"I don't want to feel like this\" that keeps the mind in concept-based thinking about feelings rather than reading them directly — a locknut holding rumination in place.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.003396388801968581,
+      "title": "Not-Wanting Locks Rumination"
+    },
+    {
+      "concept_id": "peak-end-duration-bias",
+      "description": "Retrospective judgments of an episode weight its worst moment and its ending heavily and often ignore how long it lasted, distorting confidence in how bad or good it actually was.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.003697880931095887,
+      "title": "Peak-End and Duration Bias"
+    },
+    {
+      "concept_id": "pleasant-experience-awareness-log",
+      "description": "A daily practice of noticing one pleasant moment and recording its thoughts, feelings, and body sensations to tune into valence early and deconstruct experience into readable components.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.0045748257236472864,
+      "title": "Pleasant Experience Awareness Log"
+    },
+    {
+      "concept_id": "pointing-and-calling-awareness",
+      "description": "Verbally naming an action or status while pointing or gesturing at it — engaging eyes, hands, mouth, and ears together to lift behavior from nonconscious autopilot to conscious state reading.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0033081346640279037,
+      "title": "Pointing-and-Calling Awareness"
+    },
+    {
+      "concept_id": "present-moment-actionability-check",
+      "description": "Using physical location and time (\"where are my feet right now?\") to test whether an anxious state reading corresponds to a problem actionable in this moment, separating present threat from future worry.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018518518518518521,
+      "title": "Present-Moment Actionability Check"
+    },
+    {
+      "concept_id": "primary-vs-secondary-alexithymia",
+      "description": "Distinguishes a lifelong trait form of alexithymia from a temporary, situational form brought on by stress, trauma, or burnout, which matters for judging whether a degraded emotional reading is your baseline or a deviation from it.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.024995341722725856,
+      "title": "Primary vs. Secondary Alexithymia"
+    },
+    {
+      "concept_id": "proprioception",
+      "description": "The sense of body position and pressure in space, via muscle and joint receptors, whose over- or under-responsiveness shapes what a person's body is actually signalling about touch and pressure.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.020873244819362185,
+      "title": "Proprioception"
+    },
+    {
+      "concept_id": "raw-spots-and-triggers",
+      "description": "Sensitive vulnerabilities from past wounds that amplify a current emotional reaction beyond what the present-moment trigger alone would produce, which matters for judging how much of a reading is genuinely about the present situation.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0034259259259259264,
+      "title": "Raw Spots and Triggers"
+    },
+    {
+      "concept_id": "rejection-sensitive-dysphoria-as-state-signal",
+      "description": "A rapid, visceral emotional surge triggered by perceived rejection, criticism, or disappointment — often out of proportion to the cue and resistant to slow cognitive reframing in the moment.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002996684695995299,
+      "title": "Rejection Sensitive Dysphoria as State Signal"
+    },
+    {
+      "concept_id": "relapse-signature-state-reading",
+      "description": "A personal, pre-identified set of mind-and-body changes that signal depression may be developing again — established while mood is stable so early warning is possible before escalation.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0027328005384868698,
+      "title": "Relapse Signature State Reading"
+    },
+    {
+      "concept_id": "safe-word-for-overwhelm",
+      "description": "A pre-agreed phrase, gesture, or code with a trusted person to signal need to leave or get help when meltdown, shutdown, or panic has degraded normal communication.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0018518518518518521,
+      "title": "Safe Word for Overwhelm"
+    },
+    {
+      "concept_id": "scheduled-sensory-honoring",
+      "description": "Blocking calendar time to deliberately meet sensory avoid and seek needs, because spontaneous self-care often fails when masking and overload consume attention.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018518518518518521,
+      "title": "Scheduled Sensory Honoring"
+    },
+    {
+      "concept_id": "second-arrow-suffering",
+      "description": "The added distress fired onto an initial pain or unpleasant feeling — anger, fear, shame, self-criticism — which often hurts more than the first arrow and is identifiable as a separate telemetry channel.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.003000807908496104,
+      "title": "Second Arrow Suffering"
+    },
+    {
+      "concept_id": "self-attunement",
+      "description": "The practice of deliberately tuning into inner experience in the moment, used to recover a state reading that masking or interoceptive difficulty has obscured.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.023640625501569486,
+      "title": "Self-Attunement"
+    },
+    {
+      "concept_id": "sensory-craving",
+      "description": "A strong pull toward specific sensory input — visual inspection, smell, touch, pressure, or repetitive movement — that signals what the nervous system is seeking, not merely what the person \"likes.\"",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.007368213711436754,
+      "title": "Sensory Craving"
+    },
+    {
+      "concept_id": "sensory-over-responsivity",
+      "description": "When sensory input registers as too strong, producing avoidance, unusual reactions, or meltdowns — or, critically, only an internal reaction with no outward sign that anything is wrong.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 6,
+      "pagerank": 0.009809827365643647,
+      "title": "Sensory Over-Responsivity"
+    },
+    {
+      "concept_id": "sensory-profile-mapping",
+      "description": "Building a personal map of sensory triggers (what causes overload) and preferences (what soothes) across taste, smell, touch, sound, and sight, as a baseline against which overload can be recognised early.",
+      "inbound_link_count": 10,
+      "outbound_link_count": 8,
+      "pagerank": 0.032768846290980105,
+      "title": "Sensory Profile Mapping"
+    },
+    {
+      "concept_id": "sensory-shutdown-under-sadness",
+      "description": "During sad mood, the brain's default-mode rumination can actively suppress sensory processing, blunting interoceptive signal and raising depression risk when the shutdown is intense.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018518518518518521,
+      "title": "Sensory Shutdown Under Sadness"
+    },
+    {
+      "concept_id": "sensory-under-responsivity",
+      "description": "When a sensory stimulus registers too faintly or too late, producing stoicism, accidents, or apparent indifference that can make a state reading look \"stable\" when internal needs are unmet.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.023889000329783607,
+      "title": "Sensory Under-Responsivity"
+    },
+    {
+      "concept_id": "signal-dulling-coping",
+      "description": "Coping strategies used to maintain a mask — substance use, eating-disorder behaviour, dissociation, rigid rules, compulsive people-pleasing — that deliberately blunt interoceptive and emotional signal.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.0028042017311707195,
+      "title": "Signal-Dulling Coping"
+    },
+    {
+      "concept_id": "situation-interpretation-reaction",
+      "description": "A three-part structure for calibrating emotional readings: facts (A), the story the mind adds (B), and the felt reaction (C) — where mistaking B for A is a common source of overconfident state misreadings.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.004040586392986185,
+      "title": "Situation-Interpretation-Reaction Model"
+    },
+    {
+      "concept_id": "social-calories",
+      "description": "A limited pool of social energy that depletes faster under sensory distraction and high-pressure interaction, requiring recovery time alone before state readings stabilize.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.004952777581122042,
+      "title": "Social Calories"
+    },
+    {
+      "concept_id": "stim-vs-compulsion-signal-distinction",
+      "description": "Repetitive behavior can be self-soothing sensory regulation or anxiety-driven compulsion; distress to the person doing it — not observer discomfort — is the key discriminator for state reading.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.002276308877604623,
+      "title": "Stim vs. Compulsion Signal Distinction"
+    },
+    {
+      "concept_id": "stimming-as-state-signal",
+      "description": "Repetitive self-stimulation that feels pleasant and reduces stress but often co-occurs with anxiety — a voluntary-yet-compelled behaviour that can flag arousal even when emotion is not consciously named.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.002496806033839829,
+      "title": "Stimming as a State Signal"
+    },
+    {
+      "concept_id": "stimuli-response-journal",
+      "description": "A structured log of emotional and physical stimuli paired with stress responses over time — scientific-style data collection to reveal which inputs push toward burnout, inertia, meltdown, or shutdown.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0029994924459719897,
+      "title": "Stimuli-Response Journal"
+    },
+    {
+      "concept_id": "stress-response-signals",
+      "description": "The distinct physical and behavioural signatures of the fight-or-flight versus freeze-or-fawn stress responses, useful for recognising that stress is present even when it doesn't look like obvious agitation.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.015040910060223237,
+      "title": "Stress Response Signals"
+    },
+    {
+      "concept_id": "unhelpful-self-monitoring",
+      "description": "Self-monitoring aimed at social performance — eye contact, tone, stim suppression — that displaces monitoring of internal state and degrades confidence in what is actually happening inside.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 1,
+      "pagerank": 0.03693839942047259,
+      "title": "Unhelpful Self-Monitoring"
+    },
+    {
+      "concept_id": "unpleasant-experience-awareness-log",
+      "description": "A daily practice of noticing one unpleasant moment and recording thoughts, feelings, body sensations, and aversion reactions to tune early warning and deconstruct experience into readable components.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 7,
+      "pagerank": 0.0035183103905827916,
+      "title": "Unpleasant Experience Awareness Log"
+    },
+    {
+      "concept_id": "vestibular-sense",
+      "description": "The inner-ear sense governing balance and movement coordination, whose over- or under-responsiveness explains why the same movement (spinning, swaying, riding in a car) reads as very different signals in different people.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.019790342918360716,
+      "title": "Vestibular Sense"
+    },
+    {
+      "concept_id": "walking-meditation-as-state-anchor",
+      "description": "Using deliberate walking attention — formal or informal — as an alternative body anchor when sitting meditation is impractical due to pain, agitation, or anger, keeping mindfulness in motion rather than abandoning state reading.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.008380106669891753,
+      "title": "Walking Meditation as State Anchor"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "affect-labeling",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "affect-labeling",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scanning"
+    },
+    {
+      "source_concept_id": "affect-labeling",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "the physical signature of an emotion"
+    },
+    {
+      "source_concept_id": "affect-labeling",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "masking blunts the signal"
+    },
+    {
+      "source_concept_id": "alexithymia",
+      "target": "alexithymia-self-report-measures.md",
+      "target_concept_id": "alexithymia-self-report-measures",
+      "text": "alexithymia self-report measures"
+    },
+    {
+      "source_concept_id": "alexithymia",
+      "target": "facial-expression-mismatch.md",
+      "target_concept_id": "facial-expression-mismatch",
+      "text": "flat or restricted affect"
+    },
+    {
+      "source_concept_id": "alexithymia",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoception"
+    },
+    {
+      "source_concept_id": "alexithymia",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoceptive"
+    },
+    {
+      "source_concept_id": "alexithymia",
+      "target": "primary-vs-secondary-alexithymia.md",
+      "target_concept_id": "primary-vs-secondary-alexithymia",
+      "text": "primary vs. secondary alexithymia"
+    },
+    {
+      "source_concept_id": "alexithymia-self-report-measures",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "attachment-and-aversion-reactions",
+      "target": "aversion-bodily-signature.md",
+      "target_concept_id": "aversion-bodily-signature",
+      "text": "aversion bodily signature"
+    },
+    {
+      "source_concept_id": "attachment-and-aversion-reactions",
+      "target": "internal-barometer.md",
+      "target_concept_id": "internal-barometer",
+      "text": "internal barometer"
+    },
+    {
+      "source_concept_id": "attachment-and-aversion-reactions",
+      "target": "not-wanting-locks-rumination.md",
+      "target_concept_id": "not-wanting-locks-rumination",
+      "text": "not-wanting locks rumination"
+    },
+    {
+      "source_concept_id": "attachment-and-aversion-reactions",
+      "target": "pleasant-experience-awareness-log.md",
+      "target_concept_id": "pleasant-experience-awareness-log",
+      "text": "pleasant experience awareness log"
+    },
+    {
+      "source_concept_id": "attachment-and-aversion-reactions",
+      "target": "unpleasant-experience-awareness-log.md",
+      "target_concept_id": "unpleasant-experience-awareness-log",
+      "text": "unpleasant experience awareness log"
+    },
+    {
+      "source_concept_id": "attention-gates-mood-reading",
+      "target": "graded-awareness-model.md",
+      "target_concept_id": "graded-awareness-model",
+      "text": "graded awareness model"
+    },
+    {
+      "source_concept_id": "attention-gates-mood-reading",
+      "target": "heuristic-substitution-in-state-reading.md",
+      "target_concept_id": "heuristic-substitution-in-state-reading",
+      "text": "substituted"
+    },
+    {
+      "source_concept_id": "automatic-pilot-blinds-signal",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scan"
+    },
+    {
+      "source_concept_id": "automatic-pilot-blinds-signal",
+      "target": "embodied-signals-precede-conscious-reading.md",
+      "target_concept_id": "embodied-signals-precede-conscious-reading",
+      "text": "embodied signals precede conscious reading"
+    },
+    {
+      "source_concept_id": "aversion-bodily-signature",
+      "target": "attachment-and-aversion-reactions.md",
+      "target_concept_id": "attachment-and-aversion-reactions",
+      "text": "attachment and aversion reactions"
+    },
+    {
+      "source_concept_id": "aversion-bodily-signature",
+      "target": "embodied-signals-precede-conscious-reading.md",
+      "target_concept_id": "embodied-signals-precede-conscious-reading",
+      "text": "embodied signals precede conscious reading"
+    },
+    {
+      "source_concept_id": "aversion-bodily-signature",
+      "target": "internal-barometer.md",
+      "target_concept_id": "internal-barometer",
+      "text": "internal barometer"
+    },
+    {
+      "source_concept_id": "behavioral-shift-as-emotional-signal",
+      "target": "burnout-vs-depression-state-signals.md",
+      "target_concept_id": "burnout-vs-depression-state-signals",
+      "text": "burnout vs. depression state signals"
+    },
+    {
+      "source_concept_id": "behavioral-shift-as-emotional-signal",
+      "target": "delayed-emotional-processing.md",
+      "target_concept_id": "delayed-emotional-processing",
+      "text": "delayed emotional processing"
+    },
+    {
+      "source_concept_id": "behavioral-shift-as-emotional-signal",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "mask"
+    },
+    {
+      "source_concept_id": "body-scan",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "body-scan",
+      "target": "calm-baseline-state.md",
+      "target_concept_id": "calm-baseline-state",
+      "text": "establishing a calm baseline"
+    },
+    {
+      "source_concept_id": "body-scan",
+      "target": "emotional-body-regions.md",
+      "target_concept_id": "emotional-body-regions",
+      "text": "emotional body regions"
+    },
+    {
+      "source_concept_id": "body-scan",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "physical signatures"
+    },
+    {
+      "source_concept_id": "body-scan",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "the physical signature of an emotion"
+    },
+    {
+      "source_concept_id": "body-scan",
+      "target": "emotional-vocabulary-building.md",
+      "target_concept_id": "emotional-vocabulary-building",
+      "text": "emotional vocabulary building"
+    },
+    {
+      "source_concept_id": "body-scan",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "Interoception"
+    },
+    {
+      "source_concept_id": "body-scan",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoceptive"
+    },
+    {
+      "source_concept_id": "body-scan",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "body-scan",
+      "target": "walking-meditation-as-state-anchor.md",
+      "target_concept_id": "walking-meditation-as-state-anchor",
+      "text": "walking meditation as state anchor"
+    },
+    {
+      "source_concept_id": "brain-fog-as-state-signal",
+      "target": "deep-focus-restorative-state.md",
+      "target_concept_id": "deep-focus-restorative-state",
+      "text": "deep focus as restorative state"
+    },
+    {
+      "source_concept_id": "brain-fog-as-state-signal",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "delayed interoception"
+    },
+    {
+      "source_concept_id": "burnout-vs-depression-state-signals",
+      "target": "behavioral-shift-as-emotional-signal.md",
+      "target_concept_id": "behavioral-shift-as-emotional-signal",
+      "text": "behavioral shift as emotional signal"
+    },
+    {
+      "source_concept_id": "burnout-vs-depression-state-signals",
+      "target": "chronic-autonomic-hyperarousal.md",
+      "target_concept_id": "chronic-autonomic-hyperarousal",
+      "text": "chronic autonomic hyperarousal"
+    },
+    {
+      "source_concept_id": "calm-baseline-state",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scanning"
+    },
+    {
+      "source_concept_id": "calm-baseline-state",
+      "target": "emotion-tracking-journal.md",
+      "target_concept_id": "emotion-tracking-journal",
+      "text": "recurring-emotion tracking"
+    },
+    {
+      "source_concept_id": "calm-baseline-state",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "the physical signature of an emotion"
+    },
+    {
+      "source_concept_id": "catastrophic-sensation-misinterpretation",
+      "target": "eroded-perception-trust.md",
+      "target_concept_id": "eroded-perception-trust",
+      "text": "eroded perception trust"
+    },
+    {
+      "source_concept_id": "catastrophic-sensation-misinterpretation",
+      "target": "sensory-profile-mapping.md",
+      "target_concept_id": "sensory-profile-mapping",
+      "text": "sensory profile mapping"
+    },
+    {
+      "source_concept_id": "chronic-autonomic-hyperarousal",
+      "target": "calm-baseline-state.md",
+      "target_concept_id": "calm-baseline-state",
+      "text": "calm baseline state"
+    },
+    {
+      "source_concept_id": "chronic-autonomic-hyperarousal",
+      "target": "distinguishing-anxiety-from-sensory-overload.md",
+      "target_concept_id": "distinguishing-anxiety-from-sensory-overload",
+      "text": "distinguishing anxiety from sensory overload"
+    },
+    {
+      "source_concept_id": "context-dependent-sensory-reading",
+      "target": "distinguishing-anxiety-from-sensory-overload.md",
+      "target_concept_id": "distinguishing-anxiety-from-sensory-overload",
+      "text": "distinguishing anxiety from sensory overload"
+    },
+    {
+      "source_concept_id": "context-dependent-sensory-reading",
+      "target": "social-calories.md",
+      "target_concept_id": "social-calories",
+      "text": "calorie"
+    },
+    {
+      "source_concept_id": "day-reconstruction-method",
+      "target": "emotion-tracking-journal.md",
+      "target_concept_id": "emotion-tracking-journal",
+      "text": "emotion tracking journal"
+    },
+    {
+      "source_concept_id": "day-reconstruction-method",
+      "target": "experiencing-vs-remembering-self.md",
+      "target_concept_id": "experiencing-vs-remembering-self",
+      "text": "remembering self"
+    },
+    {
+      "source_concept_id": "day-reconstruction-method",
+      "target": "heuristic-substitution-in-state-reading.md",
+      "target_concept_id": "heuristic-substitution-in-state-reading",
+      "text": "substitution"
+    },
+    {
+      "source_concept_id": "deep-focus-restorative-state",
+      "target": "experiencing-vs-remembering-self.md",
+      "target_concept_id": "experiencing-vs-remembering-self",
+      "text": "experiencing self"
+    },
+    {
+      "source_concept_id": "deep-focus-restorative-state",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "delayed-emotional-processing",
+      "target": "emotion-tracking-journal.md",
+      "target_concept_id": "emotion-tracking-journal",
+      "text": "emotion tracking journal"
+    },
+    {
+      "source_concept_id": "delayed-emotional-processing",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "delayed-emotional-processing",
+      "target": "unhelpful-self-monitoring.md",
+      "target_concept_id": "unhelpful-self-monitoring",
+      "text": "unhelpful self-monitoring"
+    },
+    {
+      "source_concept_id": "demand-avoidance-as-arousal-signal",
+      "target": "stress-response-signals.md",
+      "target_concept_id": "stress-response-signals",
+      "text": "stress response signals"
+    },
+    {
+      "source_concept_id": "distinguishing-anxiety-from-sensory-overload",
+      "target": "stress-response-signals.md",
+      "target_concept_id": "stress-response-signals",
+      "text": "stress response signals"
+    },
+    {
+      "source_concept_id": "embodied-signals-precede-conscious-reading",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scan"
+    },
+    {
+      "source_concept_id": "embodied-signals-precede-conscious-reading",
+      "target": "delayed-emotional-processing.md",
+      "target_concept_id": "delayed-emotional-processing",
+      "text": "delayed emotional processing"
+    },
+    {
+      "source_concept_id": "embodied-signals-precede-conscious-reading",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "emotional physical signatures"
+    },
+    {
+      "source_concept_id": "embodied-signals-precede-conscious-reading",
+      "target": "heuristic-substitution-in-state-reading.md",
+      "target_concept_id": "heuristic-substitution-in-state-reading",
+      "text": "heuristic substitution in state reading"
+    },
+    {
+      "source_concept_id": "embodied-signals-precede-conscious-reading",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "emotion-as-decision-signal",
+      "target": "affect-labeling.md",
+      "target_concept_id": "affect-labeling",
+      "text": "affect labeling"
+    },
+    {
+      "source_concept_id": "emotion-as-decision-signal",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "emotion-as-decision-signal",
+      "target": "emotion-tracking-journal.md",
+      "target_concept_id": "emotion-tracking-journal",
+      "text": "recurring-emotion tracking"
+    },
+    {
+      "source_concept_id": "emotion-tracking-journal",
+      "target": "affect-labeling.md",
+      "target_concept_id": "affect-labeling",
+      "text": "affect labeling"
+    },
+    {
+      "source_concept_id": "emotion-tracking-journal",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scan"
+    },
+    {
+      "source_concept_id": "emotion-tracking-journal",
+      "target": "calm-baseline-state.md",
+      "target_concept_id": "calm-baseline-state",
+      "text": "calm baseline"
+    },
+    {
+      "source_concept_id": "emotion-tracking-journal",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "the physical signature of an emotion"
+    },
+    {
+      "source_concept_id": "emotional-body-regions",
+      "target": "affect-labeling.md",
+      "target_concept_id": "affect-labeling",
+      "text": "affect labeling"
+    },
+    {
+      "source_concept_id": "emotional-body-regions",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scan"
+    },
+    {
+      "source_concept_id": "emotional-body-regions",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "emotional physical signature"
+    },
+    {
+      "source_concept_id": "emotional-body-regions",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoception"
+    },
+    {
+      "source_concept_id": "emotional-physical-signature",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "emotional-physical-signature",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scanning"
+    },
+    {
+      "source_concept_id": "emotional-physical-signature",
+      "target": "calm-baseline-state.md",
+      "target_concept_id": "calm-baseline-state",
+      "text": "calm baseline"
+    },
+    {
+      "source_concept_id": "emotional-physical-signature",
+      "target": "emotional-storm.md",
+      "target_concept_id": "emotional-storm",
+      "text": "the emotional storm"
+    },
+    {
+      "source_concept_id": "emotional-storm",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scan"
+    },
+    {
+      "source_concept_id": "emotional-storm",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "physical signatures"
+    },
+    {
+      "source_concept_id": "emotional-vocabulary-building",
+      "target": "affect-labeling.md",
+      "target_concept_id": "affect-labeling",
+      "text": "affect labeling"
+    },
+    {
+      "source_concept_id": "emotional-vocabulary-building",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "emotional-vocabulary-building",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scanning"
+    },
+    {
+      "source_concept_id": "emotional-vocabulary-building",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "physical signatures"
+    },
+    {
+      "source_concept_id": "eroded-perception-trust",
+      "target": "emotion-tracking-journal.md",
+      "target_concept_id": "emotion-tracking-journal",
+      "text": "emotion tracking journal"
+    },
+    {
+      "source_concept_id": "eroded-perception-trust",
+      "target": "emotional-vocabulary-building.md",
+      "target_concept_id": "emotional-vocabulary-building",
+      "text": "emotional vocabulary building"
+    },
+    {
+      "source_concept_id": "eroded-perception-trust",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoception"
+    },
+    {
+      "source_concept_id": "eroded-perception-trust",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "eroded-perception-trust",
+      "target": "unhelpful-self-monitoring.md",
+      "target_concept_id": "unhelpful-self-monitoring",
+      "text": "unhelpful self-monitoring"
+    },
+    {
+      "source_concept_id": "experiencing-vs-remembering-self",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "experiencing-vs-remembering-self",
+      "target": "peak-end-duration-bias.md",
+      "target_concept_id": "peak-end-duration-bias",
+      "text": "peak-endweighting"
+    },
+    {
+      "source_concept_id": "experiencing-vs-remembering-self",
+      "target": "sensory-over-responsivity.md",
+      "target_concept_id": "sensory-over-responsivity",
+      "text": "sensory over-responsivity"
+    },
+    {
+      "source_concept_id": "experiential-avoidance-signal-blunting",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scan"
+    },
+    {
+      "source_concept_id": "experiential-avoidance-signal-blunting",
+      "target": "interlocking-state-dimensions.md",
+      "target_concept_id": "interlocking-state-dimensions",
+      "text": "interlocking state dimensions"
+    },
+    {
+      "source_concept_id": "experiential-avoidance-signal-blunting",
+      "target": "internal-barometer.md",
+      "target_concept_id": "internal-barometer",
+      "text": "internal barometer"
+    },
+    {
+      "source_concept_id": "experiential-avoidance-signal-blunting",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "masking blunts signal"
+    },
+    {
+      "source_concept_id": "experiential-avoidance-signal-blunting",
+      "target": "signal-dulling-coping.md",
+      "target_concept_id": "signal-dulling-coping",
+      "text": "signal-dulling coping"
+    },
+    {
+      "source_concept_id": "facial-expression-mismatch",
+      "target": "masking-personas.md",
+      "target_concept_id": "masking-personas",
+      "text": "masking personas"
+    },
+    {
+      "source_concept_id": "facial-expression-mismatch",
+      "target": "unhelpful-self-monitoring.md",
+      "target_concept_id": "unhelpful-self-monitoring",
+      "text": "unhelpful self-monitoring"
+    },
+    {
+      "source_concept_id": "facial-postural-feedback-on-judgment",
+      "target": "embodied-signals-precede-conscious-reading.md",
+      "target_concept_id": "embodied-signals-precede-conscious-reading",
+      "text": "embodied signals precede conscious reading"
+    },
+    {
+      "source_concept_id": "facial-postural-feedback-on-judgment",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "emotional physical signature"
+    },
+    {
+      "source_concept_id": "facial-postural-feedback-on-judgment",
+      "target": "experiential-avoidance-signal-blunting.md",
+      "target_concept_id": "experiential-avoidance-signal-blunting",
+      "text": "experiential avoidance signal blunting"
+    },
+    {
+      "source_concept_id": "facial-postural-feedback-on-judgment",
+      "target": "internal-barometer.md",
+      "target_concept_id": "internal-barometer",
+      "text": "internal barometer"
+    },
+    {
+      "source_concept_id": "four-autistic-stress-state-signatures",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "four-autistic-stress-state-signatures",
+      "target": "delayed-emotional-processing.md",
+      "target_concept_id": "delayed-emotional-processing",
+      "text": "delayed emotional processing"
+    },
+    {
+      "source_concept_id": "four-autistic-stress-state-signatures",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "masking blunts signal"
+    },
+    {
+      "source_concept_id": "four-autistic-stress-state-signatures",
+      "target": "stimuli-response-journal.md",
+      "target_concept_id": "stimuli-response-journal",
+      "text": "stimuli-response journal"
+    },
+    {
+      "source_concept_id": "four-autistic-stress-state-signatures",
+      "target": "stress-response-signals.md",
+      "target_concept_id": "stress-response-signals",
+      "text": "stress response signals"
+    },
+    {
+      "source_concept_id": "four-corners-of-awareness",
+      "target": "affect-labeling.md",
+      "target_concept_id": "affect-labeling",
+      "text": "affect labeling"
+    },
+    {
+      "source_concept_id": "four-corners-of-awareness",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scanning"
+    },
+    {
+      "source_concept_id": "four-corners-of-awareness",
+      "target": "emotional-storm.md",
+      "target_concept_id": "emotional-storm",
+      "text": "the emotional storm"
+    },
+    {
+      "source_concept_id": "four-corners-of-awareness",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoception"
+    },
+    {
+      "source_concept_id": "four-corners-of-awareness",
+      "target": "sensory-profile-mapping.md",
+      "target_concept_id": "sensory-profile-mapping",
+      "text": "sensory profile mapping"
+    },
+    {
+      "source_concept_id": "graded-awareness-model",
+      "target": "four-corners-of-awareness.md",
+      "target_concept_id": "four-corners-of-awareness",
+      "text": "the four corners of awareness"
+    },
+    {
+      "source_concept_id": "habits-scorecard",
+      "target": "behavioral-shift-as-emotional-signal.md",
+      "target_concept_id": "behavioral-shift-as-emotional-signal",
+      "text": "behavioral shift as emotional signal"
+    },
+    {
+      "source_concept_id": "habits-scorecard",
+      "target": "pointing-and-calling-awareness.md",
+      "target_concept_id": "pointing-and-calling-awareness",
+      "text": "pointing-and-calling awareness"
+    },
+    {
+      "source_concept_id": "halt-body-budget-rubric",
+      "target": "calm-baseline-state.md",
+      "target_concept_id": "calm-baseline-state",
+      "text": "establishing a calm baseline"
+    },
+    {
+      "source_concept_id": "halt-body-budget-rubric",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "delayed interoception"
+    },
+    {
+      "source_concept_id": "halt-body-budget-rubric",
+      "target": "social-calories.md",
+      "target_concept_id": "social-calories",
+      "text": "social calorie"
+    },
+    {
+      "source_concept_id": "healthy-vs-unhealthy-emotion-reading",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "healthy-vs-unhealthy-emotion-reading",
+      "target": "meta-emotions-as-signal-noise.md",
+      "target_concept_id": "meta-emotions-as-signal-noise",
+      "text": "meta-emotions as signal noise"
+    },
+    {
+      "source_concept_id": "heuristic-substitution-in-state-reading",
+      "target": "day-reconstruction-method.md",
+      "target_concept_id": "day-reconstruction-method",
+      "text": "day reconstruction"
+    },
+    {
+      "source_concept_id": "heuristic-substitution-in-state-reading",
+      "target": "eroded-perception-trust.md",
+      "target_concept_id": "eroded-perception-trust",
+      "text": "eroded perception trust"
+    },
+    {
+      "source_concept_id": "heuristic-substitution-in-state-reading",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "hyperempathy-and-absorbed-emotion",
+      "target": "raw-spots-and-triggers.md",
+      "target_concept_id": "raw-spots-and-triggers",
+      "text": "raw spots"
+    },
+    {
+      "source_concept_id": "hyperfocus-bodily-signal-blindness",
+      "target": "chronic-autonomic-hyperarousal.md",
+      "target_concept_id": "chronic-autonomic-hyperarousal",
+      "text": "chronic autonomichyperarousal"
+    },
+    {
+      "source_concept_id": "hyperfocus-bodily-signal-blindness",
+      "target": "deep-focus-restorative-state.md",
+      "target_concept_id": "deep-focus-restorative-state",
+      "text": "deep focus as restorative state"
+    },
+    {
+      "source_concept_id": "hyperfocus-bodily-signal-blindness",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoceptive"
+    },
+    {
+      "source_concept_id": "inquiring-stance-check-in",
+      "target": "automatic-pilot-blinds-signal.md",
+      "target_concept_id": "automatic-pilot-blinds-signal",
+      "text": "automatic pilot blinds signal"
+    },
+    {
+      "source_concept_id": "inquiring-stance-check-in",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "inquiring-stance-check-in",
+      "target": "situation-interpretation-reaction.md",
+      "target_concept_id": "situation-interpretation-reaction",
+      "text": "situation-interpretation-reaction model"
+    },
+    {
+      "source_concept_id": "interlocking-state-dimensions",
+      "target": "automatic-pilot-blinds-signal.md",
+      "target_concept_id": "automatic-pilot-blinds-signal",
+      "text": "automatic pilot blinds signal"
+    },
+    {
+      "source_concept_id": "interlocking-state-dimensions",
+      "target": "embodied-signals-precede-conscious-reading.md",
+      "target_concept_id": "embodied-signals-precede-conscious-reading",
+      "text": "embodied signals precede conscious reading"
+    },
+    {
+      "source_concept_id": "interlocking-state-dimensions",
+      "target": "experiential-avoidance-signal-blunting.md",
+      "target_concept_id": "experiential-avoidance-signal-blunting",
+      "text": "experiential avoidance signal blunting"
+    },
+    {
+      "source_concept_id": "interlocking-state-dimensions",
+      "target": "situation-interpretation-reaction.md",
+      "target_concept_id": "situation-interpretation-reaction",
+      "text": "situation-interpretation-reaction model"
+    },
+    {
+      "source_concept_id": "internal-barometer",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scan"
+    },
+    {
+      "source_concept_id": "internal-barometer",
+      "target": "embodied-signals-precede-conscious-reading.md",
+      "target_concept_id": "embodied-signals-precede-conscious-reading",
+      "text": "embodied signals precede conscious reading"
+    },
+    {
+      "source_concept_id": "internal-barometer",
+      "target": "experiential-avoidance-signal-blunting.md",
+      "target_concept_id": "experiential-avoidance-signal-blunting",
+      "text": "experiential avoidance signal blunting"
+    },
+    {
+      "source_concept_id": "internal-barometer",
+      "target": "pleasant-experience-awareness-log.md",
+      "target_concept_id": "pleasant-experience-awareness-log",
+      "text": "pleasant experience awareness log"
+    },
+    {
+      "source_concept_id": "interoception",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "interoception",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scanning"
+    },
+    {
+      "source_concept_id": "interoception",
+      "target": "embodied-signals-precede-conscious-reading.md",
+      "target_concept_id": "embodied-signals-precede-conscious-reading",
+      "text": "embodied signals precede conscious reading"
+    },
+    {
+      "source_concept_id": "interoception",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "interoception",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "interoception",
+      "target": "proprioception.md",
+      "target_concept_id": "proprioception",
+      "text": "proprioception"
+    },
+    {
+      "source_concept_id": "interoception",
+      "target": "self-attunement.md",
+      "target_concept_id": "self-attunement",
+      "text": "self-attunement"
+    },
+    {
+      "source_concept_id": "interoception",
+      "target": "sensory-profile-mapping.md",
+      "target_concept_id": "sensory-profile-mapping",
+      "text": "sensory profile mapping"
+    },
+    {
+      "source_concept_id": "interoception",
+      "target": "sensory-under-responsivity.md",
+      "target_concept_id": "sensory-under-responsivity",
+      "text": "sensory under-responsivity"
+    },
+    {
+      "source_concept_id": "interoception",
+      "target": "vestibular-sense.md",
+      "target_concept_id": "vestibular-sense",
+      "text": "the vestibular sense"
+    },
+    {
+      "source_concept_id": "masking-blunts-signal",
+      "target": "affect-labeling.md",
+      "target_concept_id": "affect-labeling",
+      "text": "affect labeling"
+    },
+    {
+      "source_concept_id": "masking-blunts-signal",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "masking-blunts-signal",
+      "target": "primary-vs-secondary-alexithymia.md",
+      "target_concept_id": "primary-vs-secondary-alexithymia",
+      "text": "primary vs. secondary alexithymia"
+    },
+    {
+      "source_concept_id": "masking-blunts-signal",
+      "target": "self-attunement.md",
+      "target_concept_id": "self-attunement",
+      "text": "self-attunement"
+    },
+    {
+      "source_concept_id": "masking-blunts-signal",
+      "target": "unhelpful-self-monitoring.md",
+      "target_concept_id": "unhelpful-self-monitoring",
+      "text": "unhelpful self-monitoring"
+    },
+    {
+      "source_concept_id": "masking-blunts-signal",
+      "target": "unhelpful-self-monitoring.md",
+      "target_concept_id": "unhelpful-self-monitoring",
+      "text": "unhelpful self-monitoring"
+    },
+    {
+      "source_concept_id": "masking-personas",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "Masking"
+    },
+    {
+      "source_concept_id": "masking-personas",
+      "target": "self-attunement.md",
+      "target_concept_id": "self-attunement",
+      "text": "self-attunement"
+    },
+    {
+      "source_concept_id": "meta-emotions-as-signal-noise",
+      "target": "affect-labeling.md",
+      "target_concept_id": "affect-labeling",
+      "text": "affect labeling"
+    },
+    {
+      "source_concept_id": "meta-emotions-as-signal-noise",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "micro-interoceptive-check-ins",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scan"
+    },
+    {
+      "source_concept_id": "micro-interoceptive-check-ins",
+      "target": "delayed-emotional-processing.md",
+      "target_concept_id": "delayed-emotional-processing",
+      "text": "delayed emotional processing"
+    },
+    {
+      "source_concept_id": "micro-interoceptive-check-ins",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoception"
+    },
+    {
+      "source_concept_id": "micro-interoceptive-check-ins",
+      "target": "sensory-under-responsivity.md",
+      "target_concept_id": "sensory-under-responsivity",
+      "text": "under-responsivity"
+    },
+    {
+      "source_concept_id": "misophonia",
+      "target": "distinguishing-anxiety-from-sensory-overload.md",
+      "target_concept_id": "distinguishing-anxiety-from-sensory-overload",
+      "text": "distinguishing anxiety from sensory overload"
+    },
+    {
+      "source_concept_id": "misophonia",
+      "target": "sensory-over-responsivity.md",
+      "target_concept_id": "sensory-over-responsivity",
+      "text": "over-responsivity"
+    },
+    {
+      "source_concept_id": "mood-colored-interpretation",
+      "target": "automatic-pilot-blinds-signal.md",
+      "target_concept_id": "automatic-pilot-blinds-signal",
+      "text": "automatic pilot blinds signal"
+    },
+    {
+      "source_concept_id": "mood-colored-interpretation",
+      "target": "interlocking-state-dimensions.md",
+      "target_concept_id": "interlocking-state-dimensions",
+      "text": "interlocking state dimensions"
+    },
+    {
+      "source_concept_id": "mood-colored-interpretation",
+      "target": "relapse-signature-state-reading.md",
+      "target_concept_id": "relapse-signature-state-reading",
+      "text": "relapse signature"
+    },
+    {
+      "source_concept_id": "mood-colored-interpretation",
+      "target": "situation-interpretation-reaction.md",
+      "target_concept_id": "situation-interpretation-reaction",
+      "text": "situation-interpretation-reaction model"
+    },
+    {
+      "source_concept_id": "not-wanting-locks-rumination",
+      "target": "attachment-and-aversion-reactions.md",
+      "target_concept_id": "attachment-and-aversion-reactions",
+      "text": "attachment and aversion reactions"
+    },
+    {
+      "source_concept_id": "not-wanting-locks-rumination",
+      "target": "automatic-pilot-blinds-signal.md",
+      "target_concept_id": "automatic-pilot-blinds-signal",
+      "text": "automatic pilot blinds signal"
+    },
+    {
+      "source_concept_id": "not-wanting-locks-rumination",
+      "target": "mood-colored-interpretation.md",
+      "target_concept_id": "mood-colored-interpretation",
+      "text": "mood-colored interpretation"
+    },
+    {
+      "source_concept_id": "not-wanting-locks-rumination",
+      "target": "second-arrow-suffering.md",
+      "target_concept_id": "second-arrow-suffering",
+      "text": "second arrow suffering"
+    },
+    {
+      "source_concept_id": "peak-end-duration-bias",
+      "target": "day-reconstruction-method.md",
+      "target_concept_id": "day-reconstruction-method",
+      "text": "day reconstruction"
+    },
+    {
+      "source_concept_id": "peak-end-duration-bias",
+      "target": "experiencing-vs-remembering-self.md",
+      "target_concept_id": "experiencing-vs-remembering-self",
+      "text": "experiencing self vs remembering self"
+    },
+    {
+      "source_concept_id": "pleasant-experience-awareness-log",
+      "target": "emotion-tracking-journal.md",
+      "target_concept_id": "emotion-tracking-journal",
+      "text": "emotion tracking journal"
+    },
+    {
+      "source_concept_id": "pleasant-experience-awareness-log",
+      "target": "experiential-avoidance-signal-blunting.md",
+      "target_concept_id": "experiential-avoidance-signal-blunting",
+      "text": "experiential avoidance signal blunting"
+    },
+    {
+      "source_concept_id": "pleasant-experience-awareness-log",
+      "target": "internal-barometer.md",
+      "target_concept_id": "internal-barometer",
+      "text": "internal barometer"
+    },
+    {
+      "source_concept_id": "pleasant-experience-awareness-log",
+      "target": "unpleasant-experience-awareness-log.md",
+      "target_concept_id": "unpleasant-experience-awareness-log",
+      "text": "unpleasant experience awareness log"
+    },
+    {
+      "source_concept_id": "pointing-and-calling-awareness",
+      "target": "affect-labeling.md",
+      "target_concept_id": "affect-labeling",
+      "text": "affect labeling"
+    },
+    {
+      "source_concept_id": "pointing-and-calling-awareness",
+      "target": "automatic-pilot-blinds-signal.md",
+      "target_concept_id": "automatic-pilot-blinds-signal",
+      "text": "automatic pilot blinds signal"
+    },
+    {
+      "source_concept_id": "pointing-and-calling-awareness",
+      "target": "habits-scorecard.md",
+      "target_concept_id": "habits-scorecard",
+      "text": "habits scorecard"
+    },
+    {
+      "source_concept_id": "present-moment-actionability-check",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "masking blunts signal"
+    },
+    {
+      "source_concept_id": "present-moment-actionability-check",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "primary-vs-secondary-alexithymia",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "primary-vs-secondary-alexithymia",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "masking blunts emotional signal"
+    },
+    {
+      "source_concept_id": "proprioception",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoception"
+    },
+    {
+      "source_concept_id": "proprioception",
+      "target": "sensory-profile-mapping.md",
+      "target_concept_id": "sensory-profile-mapping",
+      "text": "sensory profile mapping"
+    },
+    {
+      "source_concept_id": "proprioception",
+      "target": "vestibular-sense.md",
+      "target_concept_id": "vestibular-sense",
+      "text": "the vestibular sense"
+    },
+    {
+      "source_concept_id": "raw-spots-and-triggers",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scanning"
+    },
+    {
+      "source_concept_id": "raw-spots-and-triggers",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "the physical signature of an emotion"
+    },
+    {
+      "source_concept_id": "rejection-sensitive-dysphoria-as-state-signal",
+      "target": "eroded-perception-trust.md",
+      "target_concept_id": "eroded-perception-trust",
+      "text": "eroded perception trust"
+    },
+    {
+      "source_concept_id": "rejection-sensitive-dysphoria-as-state-signal",
+      "target": "heuristic-substitution-in-state-reading.md",
+      "target_concept_id": "heuristic-substitution-in-state-reading",
+      "text": "heuristic substitution in state reading"
+    },
+    {
+      "source_concept_id": "relapse-signature-state-reading",
+      "target": "burnout-vs-depression-state-signals.md",
+      "target_concept_id": "burnout-vs-depression-state-signals",
+      "text": "burnout vs depression state signals"
+    },
+    {
+      "source_concept_id": "relapse-signature-state-reading",
+      "target": "internal-barometer.md",
+      "target_concept_id": "internal-barometer",
+      "text": "internal barometer"
+    },
+    {
+      "source_concept_id": "safe-word-for-overwhelm",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "self-monitoring"
+    },
+    {
+      "source_concept_id": "scheduled-sensory-honoring",
+      "target": "sensory-profile-mapping.md",
+      "target_concept_id": "sensory-profile-mapping",
+      "text": "sensory profile mapping"
+    },
+    {
+      "source_concept_id": "scheduled-sensory-honoring",
+      "target": "unhelpful-self-monitoring.md",
+      "target_concept_id": "unhelpful-self-monitoring",
+      "text": "unhelpful self-monitoring"
+    },
+    {
+      "source_concept_id": "second-arrow-suffering",
+      "target": "aversion-bodily-signature.md",
+      "target_concept_id": "aversion-bodily-signature",
+      "text": "aversion bodily signature"
+    },
+    {
+      "source_concept_id": "second-arrow-suffering",
+      "target": "meta-emotions-as-signal-noise.md",
+      "target_concept_id": "meta-emotions-as-signal-noise",
+      "text": "meta-emotions as signal noise"
+    },
+    {
+      "source_concept_id": "second-arrow-suffering",
+      "target": "not-wanting-locks-rumination.md",
+      "target_concept_id": "not-wanting-locks-rumination",
+      "text": "not-wanting locks rumination"
+    },
+    {
+      "source_concept_id": "self-attunement",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scanning"
+    },
+    {
+      "source_concept_id": "self-attunement",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoception"
+    },
+    {
+      "source_concept_id": "self-attunement",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "sensory-craving",
+      "target": "proprioception.md",
+      "target_concept_id": "proprioception",
+      "text": "proprioception"
+    },
+    {
+      "source_concept_id": "sensory-craving",
+      "target": "sensory-over-responsivity.md",
+      "target_concept_id": "sensory-over-responsivity",
+      "text": "over-responsivity"
+    },
+    {
+      "source_concept_id": "sensory-craving",
+      "target": "sensory-profile-mapping.md",
+      "target_concept_id": "sensory-profile-mapping",
+      "text": "sensory profile mapping"
+    },
+    {
+      "source_concept_id": "sensory-craving",
+      "target": "sensory-under-responsivity.md",
+      "target_concept_id": "sensory-under-responsivity",
+      "text": "under-responsivity"
+    },
+    {
+      "source_concept_id": "sensory-craving",
+      "target": "vestibular-sense.md",
+      "target_concept_id": "vestibular-sense",
+      "text": "vestibular"
+    },
+    {
+      "source_concept_id": "sensory-over-responsivity",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "masking blunts signal"
+    },
+    {
+      "source_concept_id": "sensory-over-responsivity",
+      "target": "misophonia.md",
+      "target_concept_id": "misophonia",
+      "text": "misophonia"
+    },
+    {
+      "source_concept_id": "sensory-over-responsivity",
+      "target": "proprioception.md",
+      "target_concept_id": "proprioception",
+      "text": "proprioception"
+    },
+    {
+      "source_concept_id": "sensory-over-responsivity",
+      "target": "sensory-craving.md",
+      "target_concept_id": "sensory-craving",
+      "text": "sensory craving"
+    },
+    {
+      "source_concept_id": "sensory-over-responsivity",
+      "target": "sensory-profile-mapping.md",
+      "target_concept_id": "sensory-profile-mapping",
+      "text": "sensory profile mapping"
+    },
+    {
+      "source_concept_id": "sensory-over-responsivity",
+      "target": "sensory-under-responsivity.md",
+      "target_concept_id": "sensory-under-responsivity",
+      "text": "sensory under-responsivity"
+    },
+    {
+      "source_concept_id": "sensory-profile-mapping",
+      "target": "distinguishing-anxiety-from-sensory-overload.md",
+      "target_concept_id": "distinguishing-anxiety-from-sensory-overload",
+      "text": "distinguishing anxiety from sensory overload"
+    },
+    {
+      "source_concept_id": "sensory-profile-mapping",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoception"
+    },
+    {
+      "source_concept_id": "sensory-profile-mapping",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoception"
+    },
+    {
+      "source_concept_id": "sensory-profile-mapping",
+      "target": "proprioception.md",
+      "target_concept_id": "proprioception",
+      "text": "proprioception"
+    },
+    {
+      "source_concept_id": "sensory-profile-mapping",
+      "target": "sensory-craving.md",
+      "target_concept_id": "sensory-craving",
+      "text": "sensory craving"
+    },
+    {
+      "source_concept_id": "sensory-profile-mapping",
+      "target": "sensory-over-responsivity.md",
+      "target_concept_id": "sensory-over-responsivity",
+      "text": "over-responsivity"
+    },
+    {
+      "source_concept_id": "sensory-profile-mapping",
+      "target": "sensory-under-responsivity.md",
+      "target_concept_id": "sensory-under-responsivity",
+      "text": "under-responsivity"
+    },
+    {
+      "source_concept_id": "sensory-profile-mapping",
+      "target": "vestibular-sense.md",
+      "target_concept_id": "vestibular-sense",
+      "text": "the vestibular sense"
+    },
+    {
+      "source_concept_id": "sensory-shutdown-under-sadness",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scan"
+    },
+    {
+      "source_concept_id": "sensory-shutdown-under-sadness",
+      "target": "delayed-emotional-processing.md",
+      "target_concept_id": "delayed-emotional-processing",
+      "text": "delayed emotional processing"
+    },
+    {
+      "source_concept_id": "sensory-under-responsivity",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoceptive"
+    },
+    {
+      "source_concept_id": "sensory-under-responsivity",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptive check-ins"
+    },
+    {
+      "source_concept_id": "sensory-under-responsivity",
+      "target": "sensory-profile-mapping.md",
+      "target_concept_id": "sensory-profile-mapping",
+      "text": "sensory profile mapping"
+    },
+    {
+      "source_concept_id": "signal-dulling-coping",
+      "target": "eroded-perception-trust.md",
+      "target_concept_id": "eroded-perception-trust",
+      "text": "eroded perceptiontrust"
+    },
+    {
+      "source_concept_id": "signal-dulling-coping",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "masking blunts signal"
+    },
+    {
+      "source_concept_id": "signal-dulling-coping",
+      "target": "masking-personas.md",
+      "target_concept_id": "masking-personas",
+      "text": "masking personas"
+    },
+    {
+      "source_concept_id": "signal-dulling-coping",
+      "target": "micro-interoceptive-check-ins.md",
+      "target_concept_id": "micro-interoceptive-check-ins",
+      "text": "micro interoceptivecheck-ins"
+    },
+    {
+      "source_concept_id": "signal-dulling-coping",
+      "target": "stress-response-signals.md",
+      "target_concept_id": "stress-response-signals",
+      "text": "freeze or fawn stresssignatures"
+    },
+    {
+      "source_concept_id": "situation-interpretation-reaction",
+      "target": "heuristic-substitution-in-state-reading.md",
+      "target_concept_id": "heuristic-substitution-in-state-reading",
+      "text": "heuristic substitution in state reading"
+    },
+    {
+      "source_concept_id": "situation-interpretation-reaction",
+      "target": "mood-colored-interpretation.md",
+      "target_concept_id": "mood-colored-interpretation",
+      "text": "mood-colored interpretation"
+    },
+    {
+      "source_concept_id": "situation-interpretation-reaction",
+      "target": "rejection-sensitive-dysphoria-as-state-signal.md",
+      "target_concept_id": "rejection-sensitive-dysphoria-as-state-signal",
+      "text": "rejection-sensitive dysphoria as state signal"
+    },
+    {
+      "source_concept_id": "social-calories",
+      "target": "context-dependent-sensory-reading.md",
+      "target_concept_id": "context-dependent-sensory-reading",
+      "text": "context-dependent sensory reading"
+    },
+    {
+      "source_concept_id": "stim-vs-compulsion-signal-distinction",
+      "target": "distinguishing-anxiety-from-sensory-overload.md",
+      "target_concept_id": "distinguishing-anxiety-from-sensory-overload",
+      "text": "distinguishing anxiety from sensory overload"
+    },
+    {
+      "source_concept_id": "stim-vs-compulsion-signal-distinction",
+      "target": "sensory-craving.md",
+      "target_concept_id": "sensory-craving",
+      "text": "sensory craving"
+    },
+    {
+      "source_concept_id": "stim-vs-compulsion-signal-distinction",
+      "target": "stimming-as-state-signal.md",
+      "target_concept_id": "stimming-as-state-signal",
+      "text": "stim"
+    },
+    {
+      "source_concept_id": "stimming-as-state-signal",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoceptive"
+    },
+    {
+      "source_concept_id": "stimming-as-state-signal",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "masking blunts signal"
+    },
+    {
+      "source_concept_id": "stimming-as-state-signal",
+      "target": "sensory-profile-mapping.md",
+      "target_concept_id": "sensory-profile-mapping",
+      "text": "sensory profile mapping"
+    },
+    {
+      "source_concept_id": "stimming-as-state-signal",
+      "target": "stim-vs-compulsion-signal-distinction.md",
+      "target_concept_id": "stim-vs-compulsion-signal-distinction",
+      "text": "stim vs. compulsion signal distinction"
+    },
+    {
+      "source_concept_id": "stimming-as-state-signal",
+      "target": "unhelpful-self-monitoring.md",
+      "target_concept_id": "unhelpful-self-monitoring",
+      "text": "unhelpful self-monitoring"
+    },
+    {
+      "source_concept_id": "stimuli-response-journal",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "stimuli-response-journal",
+      "target": "emotion-tracking-journal.md",
+      "target_concept_id": "emotion-tracking-journal",
+      "text": "emotion tracking journal"
+    },
+    {
+      "source_concept_id": "stimuli-response-journal",
+      "target": "four-autistic-stress-state-signatures.md",
+      "target_concept_id": "four-autistic-stress-state-signatures",
+      "text": "four autistic stress state signature"
+    },
+    {
+      "source_concept_id": "stimuli-response-journal",
+      "target": "habits-scorecard.md",
+      "target_concept_id": "habits-scorecard",
+      "text": "habits scorecard"
+    },
+    {
+      "source_concept_id": "stress-response-signals",
+      "target": "emotional-physical-signature.md",
+      "target_concept_id": "emotional-physical-signature",
+      "text": "the physical signature of an emotion"
+    },
+    {
+      "source_concept_id": "stress-response-signals",
+      "target": "four-autistic-stress-state-signatures.md",
+      "target_concept_id": "four-autistic-stress-state-signatures",
+      "text": "four autistic stress state signatures"
+    },
+    {
+      "source_concept_id": "stress-response-signals",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "distinguishing genuine signal from masking"
+    },
+    {
+      "source_concept_id": "unhelpful-self-monitoring",
+      "target": "masking-blunts-signal.md",
+      "target_concept_id": "masking-blunts-signal",
+      "text": "Masking"
+    },
+    {
+      "source_concept_id": "unpleasant-experience-awareness-log",
+      "target": "attachment-and-aversion-reactions.md",
+      "target_concept_id": "attachment-and-aversion-reactions",
+      "text": "attachment and aversion reactions"
+    },
+    {
+      "source_concept_id": "unpleasant-experience-awareness-log",
+      "target": "aversion-bodily-signature.md",
+      "target_concept_id": "aversion-bodily-signature",
+      "text": "aversion bodily signature"
+    },
+    {
+      "source_concept_id": "unpleasant-experience-awareness-log",
+      "target": "emotion-tracking-journal.md",
+      "target_concept_id": "emotion-tracking-journal",
+      "text": "emotion tracking journal"
+    },
+    {
+      "source_concept_id": "unpleasant-experience-awareness-log",
+      "target": "internal-barometer.md",
+      "target_concept_id": "internal-barometer",
+      "text": "feeling tone"
+    },
+    {
+      "source_concept_id": "unpleasant-experience-awareness-log",
+      "target": "mood-colored-interpretation.md",
+      "target_concept_id": "mood-colored-interpretation",
+      "text": "mood-colored interpretation"
+    },
+    {
+      "source_concept_id": "unpleasant-experience-awareness-log",
+      "target": "pleasant-experience-awareness-log.md",
+      "target_concept_id": "pleasant-experience-awareness-log",
+      "text": "pleasant experience awareness log"
+    },
+    {
+      "source_concept_id": "unpleasant-experience-awareness-log",
+      "target": "second-arrow-suffering.md",
+      "target_concept_id": "second-arrow-suffering",
+      "text": "second arrow suffering"
+    },
+    {
+      "source_concept_id": "vestibular-sense",
+      "target": "interoception.md",
+      "target_concept_id": "interoception",
+      "text": "interoception"
+    },
+    {
+      "source_concept_id": "vestibular-sense",
+      "target": "proprioception.md",
+      "target_concept_id": "proprioception",
+      "text": "proprioception"
+    },
+    {
+      "source_concept_id": "vestibular-sense",
+      "target": "sensory-profile-mapping.md",
+      "target_concept_id": "sensory-profile-mapping",
+      "text": "sensory profile mapping"
+    },
+    {
+      "source_concept_id": "walking-meditation-as-state-anchor",
+      "target": "automatic-pilot-blinds-signal.md",
+      "target_concept_id": "automatic-pilot-blinds-signal",
+      "text": "automatic pilot blinds signal"
+    },
+    {
+      "source_concept_id": "walking-meditation-as-state-anchor",
+      "target": "body-scan.md",
+      "target_concept_id": "body-scan",
+      "text": "body scan"
+    }
+  ]
+}

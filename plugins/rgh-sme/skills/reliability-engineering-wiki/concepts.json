@@ -1,0 +1,4553 @@
+{
+  "bundle": "reliability-engineering",
+  "concepts": [
+    {
+      "concept_id": "actionable-alert-philosophy",
+      "description": "Alerts should correspond to real, urgent, user-impacting problems that a human can actually act on, with severity tiered by how urgently a human needs to respond, and the whole alert corpus needs ongoing curation.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.003514231505264755,
+      "title": "Actionable Alert Philosophy"
+    },
+    {
+      "concept_id": "alerting-response-time-floor",
+      "description": "A practical minimum human response time of roughly five minutes bounds how tight an SLO can be before human-in-the-loop paging stops working at all.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.00855350956000139,
+      "title": "Alerting Response-Time Floor"
+    },
+    {
+      "concept_id": "aspirational-slo",
+      "description": "A deliberately-set target the team can't yet hit, used to force visibility and motivation, ratcheted tighter as reliability genuinely improves rather than enforced with an error budget from day one.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0030241062284606514,
+      "title": "Aspirational SLO"
+    },
+    {
+      "concept_id": "availability-table",
+      "description": "A reference mapping availability percentages to allowable downtime durations across different time windows.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.006338437380014844,
+      "title": "Availability Table"
+    },
+    {
+      "concept_id": "bulkhead-pattern",
+      "description": "Partitioning shared resources (thread pools, connection pools, or whole infrastructure clusters) per function or tenant so exhaustion in one partition cannot starve another.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.010268503246069444,
+      "title": "Bulkhead Pattern"
+    },
+    {
+      "concept_id": "burn-rate",
+      "description": "The speed at which a service is consuming its error budget relative to what's sustainable, expressed as a multiple of the rate that exactly exhausts the budget at the end of the SLO window.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 4,
+      "pagerank": 0.031607959731946106,
+      "title": "Burn Rate"
+    },
+    {
+      "concept_id": "calibrated-estimation-for-slo-targets",
+      "description": "When neither historical data nor an obvious aspiration exists, a trained 90% confidence-interval estimate from the engineers who know the system gives a defensible, explicitly-uncertain starting SLO target instead of an arbitrary guess dressed up as a fact.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.007450563115819254,
+      "title": "Calibrated Estimation for SLO Targets"
+    },
+    {
+      "concept_id": "canary-request-pattern",
+      "description": "Sending a fanned-out query to one or two backends first and only fanning out to the rest if those replies succeed, so a single malformed or malicious query can't crash an entire fleet at once.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.003999921003492647,
+      "title": "Canary Request Pattern"
+    },
+    {
+      "concept_id": "cascading-failure",
+      "description": "A positive feedback loop of failures that propagates through a system, often triggered by resource exhaustion, load shifts, or thundering herds.",
+      "inbound_link_count": 13,
+      "outbound_link_count": 9,
+      "pagerank": 0.02709593067950935,
+      "title": "Cascading Failure"
+    },
+    {
+      "concept_id": "catch-up-time-deadline-alerting",
+      "description": "For a long-running job with a hard deadline, alert on projected lateness (current elapsed time plus estimated catch-up time versus the deadline) rather than on every fluctuation in progress, to surface a likely miss far enough ahead to act on it.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.011564631972966017,
+      "title": "Catch-Up-Time Deadline Alerting"
+    },
+    {
+      "concept_id": "chaos-engineering",
+      "description": "The discipline of experimenting on a system in production by injecting controlled failures to reveal systemic weaknesses.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 10,
+      "pagerank": 0.006204924456735811,
+      "title": "Chaos Engineering"
+    },
+    {
+      "concept_id": "choosing-slo-targets-from-historical-data",
+      "description": "Basic descriptive statistics and percentiles over historical performance give a grounded starting point for an SLO target; without any history, an educated guess is fine as long as it's explicitly revisable.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 5,
+      "pagerank": 0.02567511822351152,
+      "title": "Choosing SLO Targets from Historical Data"
+    },
+    {
+      "concept_id": "circuit-breaker-pattern",
+      "description": "A state machine pattern that prevents cascading failures by immediately failing requests to a degraded downstream dependency.",
+      "inbound_link_count": 11,
+      "outbound_link_count": 3,
+      "pagerank": 0.012578692552042976,
+      "title": "Circuit Breaker Pattern"
+    },
+    {
+      "concept_id": "comparability-analysis-for-reliability-prediction",
+      "description": "Predicting a new system's reliability by finding the closest existing analogous system, adjusting its real reliability data for known differences, and making that adjustment rationale explicit and revisable.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.005805632633343834,
+      "title": "Comparability Analysis for Reliability Prediction"
+    },
+    {
+      "concept_id": "compliance-requirements-as-slos",
+      "description": "Framing an externally-imposed compliance requirement as an SLO, and the reporting that demonstrates it as the underlying SLI, lets compliance work be tracked with the same machinery and rigor as ordinary reliability work instead of as a separate, ad hoc process.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.005827742395340038,
+      "title": "Compliance Requirements as SLOs"
+    },
+    {
+      "concept_id": "cost-efficiency-as-sli",
+      "description": "Cost per unit of business value is a commonly neglected SLI type worth tracking alongside latency, availability, and throughput.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0022502996808955694,
+      "title": "Cost/Efficiency as an SLI"
+    },
+    {
+      "concept_id": "cost-of-nines",
+      "description": "The cost of each additional nine of reliability rises non-linearly, so moving from 99.9% to 99.99% requires roughly ten times the rigor of the step before it, not merely twice as much.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 6,
+      "pagerank": 0.014291189700368825,
+      "title": "Cost of Nines"
+    },
+    {
+      "concept_id": "critical-user-journey",
+      "description": "A multi-step sequence of user interactions (e.g. search \u2192 add to cart \u2192 purchase) that captures what actually matters to users even though it doesn't map 1:1 onto any single existing SLI.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 3,
+      "pagerank": 0.01656963583839563,
+      "title": "Critical User Journey"
+    },
+    {
+      "concept_id": "dependency-reliability-composition",
+      "description": "A service's reliability ceiling is bounded by its hard dependencies, and naively composing several \"reasonable\" per-component targets multiplies down to a much lower overall guarantee than intuition suggests.",
+      "inbound_link_count": 15,
+      "outbound_link_count": 6,
+      "pagerank": 0.038881615019787985,
+      "title": "Dependency Reliability Composition"
+    },
+    {
+      "concept_id": "durability-as-sli",
+      "description": "Durability measures the probability that a known-healthy copy of data can still be found in the future, a distinct property from availability that needs its own SLI treatment because loss is usually unrecoverable.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.012954850994953877,
+      "title": "Durability as an SLI"
+    },
+    {
+      "concept_id": "end-to-end-vs-per-component-sli-measurement",
+      "description": "Measuring the full path a user's request actually takes gives the most representative signal, but measuring each component's own reliability well is often an acceptable, cheaper compromise.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.014302279344315149,
+      "title": "End-to-End vs Per-Component SLI Measurement"
+    },
+    {
+      "concept_id": "error-budget",
+      "description": "The amount of unreliability a service is allowed over a measurement window, computed as one minus its SLO target, spent down by bad events and refilled as they roll out of the window.",
+      "inbound_link_count": 23,
+      "outbound_link_count": 4,
+      "pagerank": 0.05326727527471406,
+      "title": "Error Budget"
+    },
+    {
+      "concept_id": "error-budget-driven-prioritization",
+      "description": "Error budget consumption is a quantitative input for prioritizing reliability work \u2014 both for ranking which past incidents deserve remediation effort and for deciding what a team does next.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 3,
+      "pagerank": 0.029903495199418755,
+      "title": "Error-Budget-Driven Prioritization"
+    },
+    {
+      "concept_id": "error-budget-policy",
+      "description": "A written, specific document defining who owns error-budget enforcement and exactly what actions trigger at different levels of budget consumption.",
+      "inbound_link_count": 15,
+      "outbound_link_count": 5,
+      "pagerank": 0.03499919538158511,
+      "title": "Error Budget Policy"
+    },
+    {
+      "concept_id": "error-budget-surplus-for-experimentation",
+      "description": "A surplus error budget is a deliberate signal for when it's safe to run controlled experiments, load tests, or even purposely burn reliability to learn something the team couldn't otherwise find out.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.012209809535970301,
+      "title": "Using Error Budget Surplus for Experimentation"
+    },
+    {
+      "concept_id": "event-based-vs-metric-based-slo",
+      "description": "Event-based SLOs evaluate individual request events for success, whereas metric-based SLOs aggregate events into time buckets, which can cause disproportionate budget burn and limit backfilling.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0026963911207422706,
+      "title": "Event-Based vs. Metric-Based SLOs"
+    },
+    {
+      "concept_id": "extreme-availability-alerting-limits",
+      "description": "At very high availability targets, alerting alone cannot defend the SLO because a full outage can exhaust the entire budget faster than metrics can even be collected \u2014 the real defense has to be safe rollout mechanics.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.004109297470895757,
+      "title": "Extreme Availability Alerting Limits"
+    },
+    {
+      "concept_id": "failure-demand",
+      "description": "Failure demand is the operational workload created by failing to deliver a stable service or change correctly the first time, consuming capacity that would otherwise go to value-adding work.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.005621000299317389,
+      "title": "Failure Demand"
+    },
+    {
+      "concept_id": "failure-domain",
+      "description": "The bounded scope beyond which a given failure has no impact; deliberately sizing and aligning failure domains is what keeps a local failure local instead of letting it cascade.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.009508151746508065,
+      "title": "Failure Domain"
+    },
+    {
+      "concept_id": "failure-scenario-mapping",
+      "description": "A structured workshop for brainstorming specific failure modes and mapping each one across causes, blast-radius behavior, detection, and correction, before spending effort building mitigations.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.001968279110180964,
+      "title": "Failure Scenario Mapping"
+    },
+    {
+      "concept_id": "fast-burn-vs-slow-burn",
+      "description": "Near-total outages and steady trickles of intermittent errors both consume error budget but need fundamentally different alerting approaches to catch.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.013523742346116363,
+      "title": "Fast Burn vs Slow Burn"
+    },
+    {
+      "concept_id": "fault-error-failure-chain",
+      "description": "The three-stage model \u2014 a latent fault triggers an error, which if uncontained becomes a failure \u2014 that explains why localized defects must be stopped at explicit boundaries before they reach users.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.006603225842308198,
+      "title": "Fault-Error-Failure Chain"
+    },
+    {
+      "concept_id": "feature-freeze-as-first-error-budget-policy",
+      "description": "A recommended starting error budget policy for teams new to SLOs \u2014 a simple no-new-features freeze once budget is exhausted, softened by a \"thaw tax\" for genuinely urgent exceptions.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.007735725438115237,
+      "title": "Feature Freeze as a First Error Budget Policy"
+    },
+    {
+      "concept_id": "game-day-exercises",
+      "description": "Scheduled, large-scale rehearsals of catastrophic failure (e.g. simulated data-center loss) that surface latent single points of failure in both systems and human response process.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.004731256864294891,
+      "title": "Game Day Exercises"
+    },
+    {
+      "concept_id": "graceful-degradation",
+      "description": "Shedding non-essential functionality under stress or dependency failure so a service keeps serving its core user journeys instead of failing outright.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 6,
+      "pagerank": 0.008046943393749308,
+      "title": "Graceful Degradation"
+    },
+    {
+      "concept_id": "hard-vs-soft-dependency",
+      "description": "A hard dependency is one a service cannot be reliable without; converting a hard dependency into a soft one is one of the most effective reliability improvements available.",
+      "inbound_link_count": 11,
+      "outbound_link_count": 8,
+      "pagerank": 0.02724716827877531,
+      "title": "Hard vs Soft Dependency"
+    },
+    {
+      "concept_id": "hundred-percent-reliability-is-the-wrong-target",
+      "description": "A 100% SLO is always the wrong choice \u2014 it's unreachable, provides no perceptible benefit past what users can even notice, and forbids the change that services actually need to improve.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.018803391410188414,
+      "title": "100% Reliability Is the Wrong Target"
+    },
+    {
+      "concept_id": "hybrid-engineering-enablement-model",
+      "description": "Specialist teams (such as SRE or Security) scale their impact by acting as hybrid engineering teams that build self-service tooling, automated testing infrastructure, and secure-by-default base libraries, rather than acting as isolated gatekeepers.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.00144086041850831,
+      "title": "Hybrid Engineering Enablement Model"
+    },
+    {
+      "concept_id": "identifying-a-miscalibrated-slo",
+      "description": "Diagnostic signs that an SLO is measuring the wrong thing \u2014 the budget never lines up with real user happiness, or a known incident doesn't move the data at all.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 5,
+      "pagerank": 0.012541256691075848,
+      "title": "Identifying a Miscalibrated SLO"
+    },
+    {
+      "concept_id": "implicit-slo-from-past-performance",
+      "description": "Users come to expect continuity of whatever reliability level they've already experienced, whether or not it was ever formally promised, and will depend on any observable behavior of a system regardless of what its contract says.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.007164401556380099,
+      "title": "Implicit SLOs from Past Performance"
+    },
+    {
+      "concept_id": "independent-failover-reliability-composition",
+      "description": "Adding one genuinely independent failover path lets each underlying component be orders of magnitude less reliable than the composite target, because independent failure probabilities multiply down.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.014094547814094267,
+      "title": "Independent Failover Reliability Composition"
+    },
+    {
+      "concept_id": "independent-reliability-reporting-chains",
+      "description": "To effectively enforce error budget policies and arbitrate tradeoffs between velocity and stability, reliability engineering organizations must maintain reporting chains independent of product development management.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.00144086041850831,
+      "title": "Independent Reliability Reporting Chains"
+    },
+    {
+      "concept_id": "initial-vs-sustained-velocity",
+      "description": "Prioritizing immediate feature output over reliability and architectural structure degrades systems over time, creating technical debt that slows long-term development.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.01912950833730103,
+      "title": "Initial vs. Sustained Velocity"
+    },
+    {
+      "concept_id": "latency-budget-partial-response",
+      "description": "Giving each fan-out call a deadline derived from the overall latency target and rendering with whatever has replied by then, so one slow dependency degrades the response instead of delaying it past the target.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.002580844144507458,
+      "title": "Latency Budget with Partial Response"
+    },
+    {
+      "concept_id": "layered-percentile-slo-thresholds",
+      "description": "Defining a latency SLO across multiple percentiles, rather than a single cutoff, watches the long tail instead of writing it off, and needs both a floor and a ceiling to avoid wasting effort on unneeded speed.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.00948806477500106,
+      "title": "Layered Percentile SLO Thresholds"
+    },
+    {
+      "concept_id": "least-privilege-for-reliability",
+      "description": "Enforcing the principle of least privilege for operators and automated systems minimizes the blast radius of human errors, typos, and software bugs during production interventions.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.00144086041850831,
+      "title": "Least Privilege for Operational Reliability"
+    },
+    {
+      "concept_id": "load-shedding",
+      "description": "Rejecting lower-priority requests during periods of overload to preserve system capacity for critical traffic.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 3,
+      "pagerank": 0.008706024606234554,
+      "title": "Load Shedding"
+    },
+    {
+      "concept_id": "loose-architectural-coupling",
+      "description": "Decoupling services structurally so they can be designed, tested, and deployed independently reduces change failure risk, limits blast radius, and prevents developmental bottlenecks from compromising production stability.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.005617705097782721,
+      "title": "Loose Architectural Coupling"
+    },
+    {
+      "concept_id": "low-dependency-design",
+      "description": "A resilience pattern where a simplified, alternative serving path is built with minimal dependencies to ensure critical functions survive when the main infrastructure stack fails.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.01094254740651603,
+      "title": "Low-Dependency Design"
+    },
+    {
+      "concept_id": "low-traffic-slo-alerting",
+      "description": "Low event volume makes single failures look like enormous burn rates, requiring specific mitigations rather than tuning the alert threshold alone.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0025058442111957468,
+      "title": "Low-Traffic SLO Alerting"
+    },
+    {
+      "concept_id": "measurement-inversion-for-reliability-investment",
+      "description": "The reliability signals worth building are usually not the ones already heavily instrumented, because a variable's economic value of measurement runs inversely to how much measurement attention it already receives.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.009913501616570073,
+      "title": "Measurement Inversion for Reliability Investment"
+    },
+    {
+      "concept_id": "measurement-trust-and-generative-culture",
+      "description": "Accurate service-level objectives depend on a high-trust, generative culture; without psychological safety, teams distort metrics and game targets to avoid blame, making reliability tracking ineffective.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.0027139997127948274,
+      "title": "Measurement Trust and Generative Culture"
+    },
+    {
+      "concept_id": "measuring-many-things-by-measuring-a-few",
+      "description": "A well-chosen, small set of SLIs can implicitly validate many underlying concerns at once, because one check tends to subsume several others.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.008648781800011343,
+      "title": "Measuring Many Things by Measuring Only a Few"
+    },
+    {
+      "concept_id": "metric-attributes-for-slo-targets",
+      "description": "A metric's resolution, event quantity, and quality all bound how tight an SLO target can realistically be before the measurement itself becomes the noise source.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0025058442111957468,
+      "title": "Metric Attributes That Constrain SLO Targets"
+    },
+    {
+      "concept_id": "ml-prediction-confidence-as-sli",
+      "description": "A model-backed service's \"availability\" isn't binary up/down the way a plain request/response system's is, because predictions carry graded confidence and can be individually correct but still below a usable quality threshold.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.005394382916085508,
+      "title": "ML Prediction Confidence as SLI"
+    },
+    {
+      "concept_id": "ml-slo-scoped-to-business-outcome",
+      "description": "SLOs for a model-backed system should be scoped around the business objective the system delivers, not around raw model-performance statistics, because model quality alone can't establish whether the system is fulfilling its purpose.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.006780327248121335,
+      "title": "ML SLOs Scoped to Business Outcome"
+    },
+    {
+      "concept_id": "ml-slo-separation-of-concerns",
+      "description": "Defining SLOs for an ML-enhanced system is easier to reason about split along three independent axes \u2014 which layer, which signal family, and whether the target actually reaches business outcome \u2014 rather than as one undifferentiated set of targets.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 6,
+      "pagerank": 0.0028816824470193495,
+      "title": "ML SLO Separation of Concerns"
+    },
+    {
+      "concept_id": "ml-system-slo-entanglement",
+      "description": "An ML system is typically entangled with adjacent systems across the business, so beyond the smallest deployments it's generally impractical to set an SLO for the ML system without also setting SLOs for the systems around it.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.00539486947554837,
+      "title": "ML System SLO Entanglement"
+    },
+    {
+      "concept_id": "multiwindow-multi-burn-rate-alerting",
+      "description": "The recommended SLO alerting design \u2014 layering several burn-rate/window pairs, each paired with a short confirmation window, to catch both fast and slow budget burns with good precision, recall, and reset time.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.018939554127095665,
+      "title": "Multiwindow, Multi-Burn-Rate Alerting"
+    },
+    {
+      "concept_id": "n-plus-m-redundancy",
+      "description": "Provisioning N units of baseline capacity plus M spare units so the loss of any M units still leaves enough capacity to meet demand, turning \"is it up\" into a continuous capacity-headroom question.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.008031233225251719,
+      "title": "N+M Redundancy"
+    },
+    {
+      "concept_id": "nines-vs-time-budget-framing",
+      "description": "Fixating on \"the number of nines\" as the only vocabulary for a target is limiting; deriving a percentage from an acceptable time budget is often a more useful starting point than picking a percentage first.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.010139984305977106,
+      "title": "Nines vs Time-Budget Framing"
+    },
+    {
+      "concept_id": "normal-accident-theory",
+      "description": "In systems with high interactive complexity and tight coupling, failure is not an anomaly to be engineered away but a statistically inevitable property of the system itself.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 8,
+      "pagerank": 0.004795003424930693,
+      "title": "Normal Accident Theory"
+    },
+    {
+      "concept_id": "normalization-of-deviance",
+      "description": "Normalization of deviance is the organizational phenomenon where engineers become accustomed to persistent anomalies or minor failures, treating them as normal behavior rather than signals of system degradation.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.00144086041850831,
+      "title": "Normalization of Deviance"
+    },
+    {
+      "concept_id": "optimize-for-mttr-over-mtbf",
+      "description": "Given a choice, investing in faster recovery (Mean Time To Recovery) beats investing in less-frequent failure (Mean Time Between Failures), because change velocity itself is what makes fast recovery cheap.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.00280617134646208,
+      "title": "Optimize for MTTR Over MTBF"
+    },
+    {
+      "concept_id": "per-model-self-service-slos",
+      "description": "In environments with many models or high model churn, letting ML engineers define and enforce their own per-model or per-model-class SLOs through self-service infrastructure scales better than a central team hand-rolling each one.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.00144086041850831,
+      "title": "Per-Model Self-Service SLOs"
+    },
+    {
+      "concept_id": "pipeline-sli-types",
+      "description": "Data-processing pipelines need a distinct SLI vocabulary \u2014 freshness, correctness, completeness, and isolation \u2014 rather than the request-driven availability/latency pair.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 4,
+      "pagerank": 0.014112231068247801,
+      "title": "Pipeline SLI Types"
+    },
+    {
+      "concept_id": "quorum-replica-count-reliability-tradeoff",
+      "description": "In quorum-based replicated systems, tolerating one more simultaneous failure requires jumping cluster size by two, not one, and each jump costs write throughput \u2014 which is why practical systems converge on three or five replicas rather than scaling redundancy smoothly.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.003465444500744876,
+      "title": "Quorum Replica-Count Reliability Tradeoff"
+    },
+    {
+      "concept_id": "recovery-time-and-point-objectives",
+      "description": "RTO caps how long an outage may last and RPO caps how much data loss is acceptable, giving disaster-recovery design two independent, business-set targets instead of one vague \"be resilient\" mandate.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.005111409343912727,
+      "title": "Recovery Time Objective and Recovery Point Objective"
+    },
+    {
+      "concept_id": "reliability-burndown-reporting",
+      "description": "A time-series view of remaining error budget, more flexible than a raw budget-status snapshot, that lets humans spot emerging trends visually ahead of automated detection.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.005476984569837645,
+      "title": "Reliability Burndown Reporting"
+    },
+    {
+      "concept_id": "reliability-stack",
+      "description": "The layered relationship SLI \u2192 SLO \u2192 error budget, in which each layer is built directly on the one below it and none of them are meaningful in isolation.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 6,
+      "pagerank": 0.004613876055570518,
+      "title": "The Reliability Stack"
+    },
+    {
+      "concept_id": "replication-is-not-a-backup",
+      "description": "Database replication protects against hardware failure and localized downtime but does not protect against data corruption or user-error deletions, which propagate instantly to all replicas.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.005111409343912727,
+      "title": "Replication Is Not a Backup"
+    },
+    {
+      "concept_id": "resilience-vs-stability",
+      "description": "Resilience \u2014 the capacity to recover from a large perturbation \u2014 is a distinct system property from stability, is invisible during normal operation, and is easily traded away for short-term efficiency without anyone noticing until it's gone.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 7,
+      "pagerank": 0.0026701738951201426,
+      "title": "Resilience vs Stability"
+    },
+    {
+      "concept_id": "scale-induced-rare-failures",
+      "description": "As systems grow, rare failure modes with extremely low individual probability become certainties due to the law of large numbers, shifting the focus from prevention to tolerance.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 5,
+      "pagerank": 0.00144086041850831,
+      "title": "Scale-Induced Rare Failures"
+    },
+    {
+      "concept_id": "service-level-indicator",
+      "description": "A carefully defined, quantitative measure of a service's behavior, expressed as the ratio of good events to total events, that stands in for user-perceived reliability.",
+      "inbound_link_count": 12,
+      "outbound_link_count": 5,
+      "pagerank": 0.018664779518397817,
+      "title": "Service Level Indicator (SLI)"
+    },
+    {
+      "concept_id": "service-level-objective",
+      "description": "A target value or range for a service level indicator that a team commits to as an internal, revisable engineering objective rather than a contract.",
+      "inbound_link_count": 20,
+      "outbound_link_count": 11,
+      "pagerank": 0.03248220354003669,
+      "title": "Service Level Objective (SLO)"
+    },
+    {
+      "concept_id": "sharing-slo-with-vendor",
+      "description": "Sharing your own SLO with a cloud provider or vendor, rather than relying solely on their published SLA, gives both sides better data during an incident.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0033177520989449392,
+      "title": "Sharing Your SLO with a Vendor"
+    },
+    {
+      "concept_id": "sla-violation-consequences",
+      "description": "External SLAs attach explicit penalties, compensation credits, and reporting procedures to missed SLOs so violation handling is measurable and negotiated upfront rather than litigated after the fact.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.008064700301656475,
+      "title": "SLA Violation Consequences"
+    },
+    {
+      "concept_id": "sla-vs-slo",
+      "description": "A Service Level Agreement is an external, contractual promise with consequences attached, distinct from a Service Level Objective, which is an internal engineering target teams set stricter to create a safety margin.",
+      "inbound_link_count": 11,
+      "outbound_link_count": 10,
+      "pagerank": 0.022081058099212826,
+      "title": "SLA vs SLO"
+    },
+    {
+      "concept_id": "sli-measurement-point-selection",
+      "description": "Where an SLI is measured \u2014 server-side, client-side, or via an external black-box prober \u2014 trades off representativeness of real user experience against cost and implementation complexity.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.0119578384274104,
+      "title": "SLI Measurement Point Selection"
+    },
+    {
+      "concept_id": "sli-specification-vs-implementation",
+      "description": "What you want to measure (the SLI specification) and how you actually measure it (the SLI implementation) are separate decisions that trade off quality, coverage, and cost independently.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.016503417429831045,
+      "title": "SLI Specification vs Implementation"
+    },
+    {
+      "concept_id": "sli-types-by-service-category",
+      "description": "The recommended starting set of SLI types differs by what kind of service is being measured \u2014 request-driven, storage, or pipeline.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 7,
+      "pagerank": 0.006665955981123114,
+      "title": "SLI Types by Service Category"
+    },
+    {
+      "concept_id": "slo-adoption-anti-patterns",
+      "description": "Four recurring mistakes when rolling out SLOs across an organization \u2014 going too broad too fast, over-scoping the initial set, reviewing too rarely, and hiding results.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.00202946561731733,
+      "title": "SLO Adoption Anti-Patterns"
+    },
+    {
+      "concept_id": "slo-based-reporting-vs-incident-counting",
+      "description": "Counting incidents, bucketing severity levels, and averaging Mean Time to X metrics all systematically misrank reliability compared to what SLO and error-budget data show directly.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0023972865691247944,
+      "title": "SLO-Based Reporting vs Incident Counting"
+    },
+    {
+      "concept_id": "slo-count-and-scope",
+      "description": "A small number of representative SLOs per service, roughly three to five, is easier to make decisions from and statistically less prone to false alarms than a large sprawling set.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.008870054020500088,
+      "title": "SLO Count and Scope"
+    },
+    {
+      "concept_id": "slo-definition-document",
+      "description": "A standard written artifact capturing an SLO's ownership, approvers, definitions, rationale, and revisit schedule, so the target is understandable and defensible beyond the team that created it.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0025857965796625536,
+      "title": "SLO Definition Document"
+    },
+    {
+      "concept_id": "slo-discoverability",
+      "description": "An SLO that's technically correct but hard to find only delivers value to the team that wrote it \u2014 discoverability requires a central repository and dashboards, not just a well-written document.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.004040948906822493,
+      "title": "SLO Discoverability"
+    },
+    {
+      "concept_id": "slo-driven-risk-prioritization",
+      "description": "Prioritizing reliability risk work by likelihood times impact against stated SLO commitments, rather than by intuition or anecdote, gives a bounded, defensible starting list rather than an exhaustive one.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0035474748113028605,
+      "title": "SLO-Driven Risk Prioritization"
+    },
+    {
+      "concept_id": "slo-evolution-triggers",
+      "description": "SLOs work best when deliberately let change as usage, dependencies, functionality, and user expectations shift \u2014 a checklist of situations that should prompt revisiting a target.",
+      "inbound_link_count": 10,
+      "outbound_link_count": 5,
+      "pagerank": 0.020668754993154195,
+      "title": "SLO Evolution Triggers"
+    },
+    {
+      "concept_id": "slo-measurement-infrastructure-design-goals",
+      "description": "Six properties any SLO measurement implementation should be judged against \u2014 flexibility, testability, freshness, cost, reliability, and organizational constraints.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.01339257795215136,
+      "title": "SLO Measurement Infrastructure Design Goals"
+    },
+    {
+      "concept_id": "slo-stakeholder-buy-in-sequence",
+      "description": "Building organizational agreement to live by SLOs works best in a specific order \u2014 engineering and operations first, then product, then leadership, then legal, with QA informed rather than asked to approve.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 6,
+      "pagerank": 0.00144086041850831,
+      "title": "SLO Stakeholder Buy-In Sequence"
+    },
+    {
+      "concept_id": "slo-target-erosion",
+      "description": "Quietly lowering an SLO target after repeated misses, rather than deliberately deciding to change it, sets up a reinforcing spiral toward ever-lower reliability instead of a stabilizing correction.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 6,
+      "pagerank": 0.0049545501493156,
+      "title": "SLO Target Erosion"
+    },
+    {
+      "concept_id": "slo-tiering-by-criticality",
+      "description": "Applying different SLO targets by service criticality, customer tier, or responsiveness class rather than one blanket target keeps targets meaningful across services that aren't equally important.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.00144086041850831,
+      "title": "SLO Tiering by Criticality"
+    },
+    {
+      "concept_id": "slo-window-selection",
+      "description": "Rolling windows track user experience more faithfully than calendar-bound windows, but calendar windows are easier to communicate and align with planning cycles \u2014 the choice is a real trade-off, not a default.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.007745342052331847,
+      "title": "SLO Window Selection"
+    },
+    {
+      "concept_id": "speed-stability-correlation",
+      "description": "Empirical research demonstrates that software delivery speed and service stability are not opposing trade-offs, but are mutually reinforcing capabilities driven by continuous delivery practices.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.007875476657434936,
+      "title": "Speed-Stability Correlation"
+    },
+    {
+      "concept_id": "steady-state-design",
+      "description": "Designing a service to run indefinitely without periodic manual reboots or cleanup, by actively bounding resource and state growth rather than masking leaks with restarts.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0018621080343158578,
+      "title": "Steady-State Design"
+    },
+    {
+      "concept_id": "sustainable-on-call-and-burnout",
+      "description": "Operational burnout in engineering teams is driven by systemic factors like deployment pain, work overload, and lack of control; mitigating it requires blameless cultures, automated deployments, and structured slack time.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0024465237357861025,
+      "title": "Sustainable On-Call and Burnout Prevention"
+    },
+    {
+      "concept_id": "symptom-based-alerting",
+      "description": "Paging on user-visible defects rather than their underlying system roots to minimize false alarms and focus on actual reliability.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 6,
+      "pagerank": 0.002788485336687501,
+      "title": "Symptom-Based Alerting"
+    },
+    {
+      "concept_id": "system-stability",
+      "description": "Stability is a system's ability to keep functioning under stress, degrade gracefully rather than collapsing, and recover automatically from localized component failures \u2014 not the absence of errors.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.002477926954486259,
+      "title": "System Stability"
+    },
+    {
+      "concept_id": "system-understandability",
+      "description": "Managing system complexity through understandable designs ensures that engineers can accurately reason about operational behaviors and invariants, facilitating safer changes and faster incident response.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 0,
+      "pagerank": 0.0026035197245680985,
+      "title": "System Understandability"
+    },
+    {
+      "concept_id": "time-based-vs-request-based-availability",
+      "description": "Availability can be computed as a fraction of uptime over total time, or as a fraction of successful requests over total valid requests, and the two formulas capture different failure modes.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.005908381422501745,
+      "title": "Time-Based vs Request-Based Availability"
+    },
+    {
+      "concept_id": "too-reliable-is-a-cost",
+      "description": "Consistently exceeding an SLO trains users to expect the higher bar as the new baseline, quietly erasing the slack the SLO was meant to protect.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.0075031170923827535,
+      "title": "Being Too Reliable Is a Real Cost"
+    },
+    {
+      "concept_id": "training-data-consistency-requirement",
+      "description": "Whether a training pipeline needs a strict cross-replica consistency guarantee for its input data is driven by data sparsity, not by a blanket reliability rule, and can be resolved either by tolerating inconsistency or by paying for a consistency-guaranteeing storage layer.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0022502996808955694,
+      "title": "Training Data Consistency Requirement"
+    },
+    {
+      "concept_id": "training-label-correctness-as-sli",
+      "description": "A supervised model's training label is a recorded proxy for ground truth, not ground truth itself, so the pipeline that produces labels needs its own correctness/completeness SLI rather than being trusted implicitly.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.007334721469507679,
+      "title": "Training Label Correctness as SLI"
+    },
+    {
+      "concept_id": "uptime-availability-reliability-distinctions",
+      "description": "Three commonly conflated terms with precise, distinct meanings that matter when choosing what an SLI actually measures.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.00144086041850831,
+      "title": "Uptime vs Availability vs Reliability"
+    },
+    {
+      "concept_id": "user-centric-sli-selection",
+      "description": "Reliability is defined by how a service appears to the user experiencing it, not by internal metrics, so SLIs must be chosen from the user's vantage point rather than from whatever is easiest to instrument.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 7,
+      "pagerank": 0.012287836351412678,
+      "title": "User-Centric SLI Selection"
+    },
+    {
+      "concept_id": "user-impact-minutes",
+      "description": "A metric that quantifies the severity of an outage by multiplying its duration by the fraction of the user base affected.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.003375622258066917,
+      "title": "User-Impact Minutes"
+    },
+    {
+      "concept_id": "voting-and-triple-modular-redundancy",
+      "description": "Running several independent implementations of the same function in parallel and comparing their outputs so a single faulty result gets outvoted rather than propagating.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.00280617134646208,
+      "title": "Voting and Triple Modular Redundancy"
+    },
+    {
+      "concept_id": "why-simple-threshold-alerting-fails",
+      "description": "Alerting on a fixed metric threshold is cheap to build but degrades predictably over time and structurally can't see slow, distributed, or emergent failure modes.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.003530375870005556,
+      "title": "Why Simple Threshold Alerting Fails"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "actionable-alert-philosophy",
+      "source_path": "actionable-alert-philosophy.md",
+      "target": "multiwindow-multi-burn-rate-alerting.md",
+      "target_concept_id": "multiwindow-multi-burn-rate-alerting",
+      "target_path": "multiwindow-multi-burn-rate-alerting.md",
+      "text": "Multiwindow multi-burn-rate alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "actionable-alert-philosophy",
+      "source_path": "actionable-alert-philosophy.md",
+      "target": "sustainable-on-call-and-burnout.md",
+      "target_concept_id": "sustainable-on-call-and-burnout",
+      "target_path": "sustainable-on-call-and-burnout.md",
+      "text": "burnout",
+      "title": null
+    },
+    {
+      "source_concept_id": "actionable-alert-philosophy",
+      "source_path": "actionable-alert-philosophy.md",
+      "target": "symptom-based-alerting.md",
+      "target_concept_id": "symptom-based-alerting",
+      "target_path": "symptom-based-alerting.md",
+      "text": "symptom-based alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "actionable-alert-philosophy",
+      "source_path": "actionable-alert-philosophy.md",
+      "target": "user-centric-sli-selection.md",
+      "target_concept_id": "user-centric-sli-selection",
+      "target_path": "user-centric-sli-selection.md",
+      "text": "user-centric SLI selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "actionable-alert-philosophy",
+      "source_path": "actionable-alert-philosophy.md",
+      "target": "why-simple-threshold-alerting-fails.md",
+      "target_concept_id": "why-simple-threshold-alerting-fails",
+      "target_path": "why-simple-threshold-alerting-fails.md",
+      "text": "why simple threshold alerting fails",
+      "title": null
+    },
+    {
+      "source_concept_id": "alerting-response-time-floor",
+      "source_path": "alerting-response-time-floor.md",
+      "target": "choosing-slo-targets-from-historical-data.md",
+      "target_concept_id": "choosing-slo-targets-from-historical-data",
+      "target_path": "choosing-slo-targets-from-historical-data.md",
+      "text": "choosing SLO targets from historical data",
+      "title": null
+    },
+    {
+      "source_concept_id": "alerting-response-time-floor",
+      "source_path": "alerting-response-time-floor.md",
+      "target": "extreme-availability-alerting-limits.md",
+      "target_concept_id": "extreme-availability-alerting-limits",
+      "target_path": "extreme-availability-alerting-limits.md",
+      "text": "extreme availability alerting limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "alerting-response-time-floor",
+      "source_path": "alerting-response-time-floor.md",
+      "target": "slo-window-selection.md",
+      "target_concept_id": "slo-window-selection",
+      "target_path": "slo-window-selection.md",
+      "text": "SLO window selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "aspirational-slo",
+      "source_path": "aspirational-slo.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error-budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "aspirational-slo",
+      "source_path": "aspirational-slo.md",
+      "target": "slo-evolution-triggers.md",
+      "target_concept_id": "slo-evolution-triggers",
+      "target_path": "slo-evolution-triggers.md",
+      "text": "SLO evolution triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "availability-table",
+      "source_path": "availability-table.md",
+      "target": "cost-of-nines.md",
+      "target_concept_id": "cost-of-nines",
+      "target_path": "cost-of-nines.md",
+      "text": "cost of nines",
+      "title": null
+    },
+    {
+      "source_concept_id": "availability-table",
+      "source_path": "availability-table.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "availability-table",
+      "source_path": "availability-table.md",
+      "target": "nines-vs-time-budget-framing.md",
+      "target_concept_id": "nines-vs-time-budget-framing",
+      "target_path": "nines-vs-time-budget-framing.md",
+      "text": "nines vs time-budget framing",
+      "title": null
+    },
+    {
+      "source_concept_id": "availability-table",
+      "source_path": "availability-table.md",
+      "target": "time-based-vs-request-based-availability.md",
+      "target_concept_id": "time-based-vs-request-based-availability",
+      "target_path": "time-based-vs-request-based-availability.md",
+      "text": "time-based vs request-based availability",
+      "title": null
+    },
+    {
+      "source_concept_id": "bulkhead-pattern",
+      "source_path": "bulkhead-pattern.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "bulkhead-pattern",
+      "source_path": "bulkhead-pattern.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuit breaker",
+      "title": null
+    },
+    {
+      "source_concept_id": "bulkhead-pattern",
+      "source_path": "bulkhead-pattern.md",
+      "target": "fault-error-failure-chain.md",
+      "target_concept_id": "fault-error-failure-chain",
+      "target_path": "fault-error-failure-chain.md",
+      "text": "fault-error-failure chain",
+      "title": null
+    },
+    {
+      "source_concept_id": "bulkhead-pattern",
+      "source_path": "bulkhead-pattern.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "hard dependency",
+      "title": null
+    },
+    {
+      "source_concept_id": "burn-rate",
+      "source_path": "burn-rate.md",
+      "target": "catch-up-time-deadline-alerting.md",
+      "target_concept_id": "catch-up-time-deadline-alerting",
+      "target_path": "catch-up-time-deadline-alerting.md",
+      "text": "Catch-up-time deadline alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "burn-rate",
+      "source_path": "burn-rate.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "burn-rate",
+      "source_path": "burn-rate.md",
+      "target": "fast-burn-vs-slow-burn.md",
+      "target_concept_id": "fast-burn-vs-slow-burn",
+      "target_path": "fast-burn-vs-slow-burn.md",
+      "text": "slow burn",
+      "title": null
+    },
+    {
+      "source_concept_id": "burn-rate",
+      "source_path": "burn-rate.md",
+      "target": "multiwindow-multi-burn-rate-alerting.md",
+      "target_concept_id": "multiwindow-multi-burn-rate-alerting",
+      "target_path": "multiwindow-multi-burn-rate-alerting.md",
+      "text": "multiwindow multi-burn-rate alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "calibrated-estimation-for-slo-targets",
+      "source_path": "calibrated-estimation-for-slo-targets.md",
+      "target": "aspirational-slo.md",
+      "target_concept_id": "aspirational-slo",
+      "target_path": "aspirational-slo.md",
+      "text": "aspirational SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "calibrated-estimation-for-slo-targets",
+      "source_path": "calibrated-estimation-for-slo-targets.md",
+      "target": "choosing-slo-targets-from-historical-data.md",
+      "target_concept_id": "choosing-slo-targets-from-historical-data",
+      "target_path": "choosing-slo-targets-from-historical-data.md",
+      "text": "Choosing SLO targets from historical data",
+      "title": null
+    },
+    {
+      "source_concept_id": "calibrated-estimation-for-slo-targets",
+      "source_path": "calibrated-estimation-for-slo-targets.md",
+      "target": "choosing-slo-targets-from-historical-data.md",
+      "target_concept_id": "choosing-slo-targets-from-historical-data",
+      "target_path": "choosing-slo-targets-from-historical-data.md",
+      "text": "choosing SLOtargets from historical data",
+      "title": null
+    },
+    {
+      "source_concept_id": "calibrated-estimation-for-slo-targets",
+      "source_path": "calibrated-estimation-for-slo-targets.md",
+      "target": "slo-evolution-triggers.md",
+      "target_concept_id": "slo-evolution-triggers",
+      "target_path": "slo-evolution-triggers.md",
+      "text": "SLO evolution triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "cascading-failure",
+      "source_path": "cascading-failure.md",
+      "target": "bulkhead-pattern.md",
+      "target_concept_id": "bulkhead-pattern",
+      "target_path": "bulkhead-pattern.md",
+      "text": "bulkhead pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "cascading-failure",
+      "source_path": "cascading-failure.md",
+      "target": "canary-request-pattern.md",
+      "target_concept_id": "canary-request-pattern",
+      "target_path": "canary-request-pattern.md",
+      "text": "canary request pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "cascading-failure",
+      "source_path": "cascading-failure.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuit breakers",
+      "title": null
+    },
+    {
+      "source_concept_id": "cascading-failure",
+      "source_path": "cascading-failure.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "cascading-failure",
+      "source_path": "cascading-failure.md",
+      "target": "failure-domain.md",
+      "target_concept_id": "failure-domain",
+      "target_path": "failure-domain.md",
+      "text": "failure domains",
+      "title": null
+    },
+    {
+      "source_concept_id": "cascading-failure",
+      "source_path": "cascading-failure.md",
+      "target": "fault-error-failure-chain.md",
+      "target_concept_id": "fault-error-failure-chain",
+      "target_path": "fault-error-failure-chain.md",
+      "text": "fault-error-failure chain",
+      "title": null
+    },
+    {
+      "source_concept_id": "cascading-failure",
+      "source_path": "cascading-failure.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "hard vs soft dependency",
+      "title": null
+    },
+    {
+      "source_concept_id": "cascading-failure",
+      "source_path": "cascading-failure.md",
+      "target": "load-shedding.md",
+      "target_concept_id": "load-shedding",
+      "target_path": "load-shedding.md",
+      "text": "load shedding",
+      "title": null
+    },
+    {
+      "source_concept_id": "cascading-failure",
+      "source_path": "cascading-failure.md",
+      "target": "normal-accident-theory.md",
+      "target_concept_id": "normal-accident-theory",
+      "target_path": "normal-accident-theory.md",
+      "text": "normal accident theory",
+      "title": null
+    },
+    {
+      "source_concept_id": "catch-up-time-deadline-alerting",
+      "source_path": "catch-up-time-deadline-alerting.md",
+      "target": "burn-rate.md",
+      "target_concept_id": "burn-rate",
+      "target_path": "burn-rate.md",
+      "text": "burn rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "catch-up-time-deadline-alerting",
+      "source_path": "catch-up-time-deadline-alerting.md",
+      "target": "pipeline-sli-types.md",
+      "target_concept_id": "pipeline-sli-types",
+      "target_path": "pipeline-sli-types.md",
+      "text": "freshness SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering",
+      "source_path": "chaos-engineering.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering",
+      "source_path": "chaos-engineering.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuit breaker",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering",
+      "source_path": "chaos-engineering.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuitbreakers",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering",
+      "source_path": "chaos-engineering.md",
+      "target": "failure-scenario-mapping.md",
+      "target_concept_id": "failure-scenario-mapping",
+      "target_path": "failure-scenario-mapping.md",
+      "text": "Failure scenario mapping",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering",
+      "source_path": "chaos-engineering.md",
+      "target": "game-day-exercises.md",
+      "target_concept_id": "game-day-exercises",
+      "target_path": "game-day-exercises.md",
+      "text": "game day exercises",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering",
+      "source_path": "chaos-engineering.md",
+      "target": "graceful-degradation.md",
+      "target_concept_id": "graceful-degradation",
+      "target_path": "graceful-degradation.md",
+      "text": "degrade gracefully",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering",
+      "source_path": "chaos-engineering.md",
+      "target": "graceful-degradation.md",
+      "target_concept_id": "graceful-degradation",
+      "target_path": "graceful-degradation.md",
+      "text": "gracefuldegradation",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering",
+      "source_path": "chaos-engineering.md",
+      "target": "loose-architectural-coupling.md",
+      "target_concept_id": "loose-architectural-coupling",
+      "target_path": "loose-architectural-coupling.md",
+      "text": "loose architecturalcoupling",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering",
+      "source_path": "chaos-engineering.md",
+      "target": "resilience-vs-stability.md",
+      "target_concept_id": "resilience-vs-stability",
+      "target_path": "resilience-vs-stability.md",
+      "text": "resilience is invisible during normal operation",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering",
+      "source_path": "chaos-engineering.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "service level indicators",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-slo-targets-from-historical-data",
+      "source_path": "choosing-slo-targets-from-historical-data.md",
+      "target": "calibrated-estimation-for-slo-targets.md",
+      "target_concept_id": "calibrated-estimation-for-slo-targets",
+      "target_path": "calibrated-estimation-for-slo-targets.md",
+      "text": "calibrated estimation for SLO targets",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-slo-targets-from-historical-data",
+      "source_path": "choosing-slo-targets-from-historical-data.md",
+      "target": "comparability-analysis-for-reliability-prediction.md",
+      "target_concept_id": "comparability-analysis-for-reliability-prediction",
+      "target_path": "comparability-analysis-for-reliability-prediction.md",
+      "text": "comparability analysis for reliability prediction",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-slo-targets-from-historical-data",
+      "source_path": "choosing-slo-targets-from-historical-data.md",
+      "target": "layered-percentile-slo-thresholds.md",
+      "target_concept_id": "layered-percentile-slo-thresholds",
+      "target_path": "layered-percentile-slo-thresholds.md",
+      "text": "layered percentile SLO thresholds",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-slo-targets-from-historical-data",
+      "source_path": "choosing-slo-targets-from-historical-data.md",
+      "target": "slo-evolution-triggers.md",
+      "target_concept_id": "slo-evolution-triggers",
+      "target_path": "slo-evolution-triggers.md",
+      "text": "SLO evolution triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-slo-targets-from-historical-data",
+      "source_path": "choosing-slo-targets-from-historical-data.md",
+      "target": "slo-measurement-infrastructure-design-goals.md",
+      "target_concept_id": "slo-measurement-infrastructure-design-goals",
+      "target_path": "slo-measurement-infrastructure-design-goals.md",
+      "text": "SLO measurement infrastructure design goals",
+      "title": null
+    },
+    {
+      "source_concept_id": "circuit-breaker-pattern",
+      "source_path": "circuit-breaker-pattern.md",
+      "target": "bulkhead-pattern.md",
+      "target_concept_id": "bulkhead-pattern",
+      "target_path": "bulkhead-pattern.md",
+      "text": "bulkhead",
+      "title": null
+    },
+    {
+      "source_concept_id": "circuit-breaker-pattern",
+      "source_path": "circuit-breaker-pattern.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "circuit-breaker-pattern",
+      "source_path": "circuit-breaker-pattern.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "comparability-analysis-for-reliability-prediction",
+      "source_path": "comparability-analysis-for-reliability-prediction.md",
+      "target": "calibrated-estimation-for-slo-targets.md",
+      "target_concept_id": "calibrated-estimation-for-slo-targets",
+      "target_path": "calibrated-estimation-for-slo-targets.md",
+      "text": "calibrated estimation",
+      "title": null
+    },
+    {
+      "source_concept_id": "comparability-analysis-for-reliability-prediction",
+      "source_path": "comparability-analysis-for-reliability-prediction.md",
+      "target": "choosing-slo-targets-from-historical-data.md",
+      "target_concept_id": "choosing-slo-targets-from-historical-data",
+      "target_path": "choosing-slo-targets-from-historical-data.md",
+      "text": "choosing SLO targets from historical data",
+      "title": null
+    },
+    {
+      "source_concept_id": "comparability-analysis-for-reliability-prediction",
+      "source_path": "comparability-analysis-for-reliability-prediction.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "compliance-requirements-as-slos",
+      "source_path": "compliance-requirements-as-slos.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "compliance-requirements-as-slos",
+      "source_path": "compliance-requirements-as-slos.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "compliance-requirements-as-slos",
+      "source_path": "compliance-requirements-as-slos.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLA",
+      "title": null
+    },
+    {
+      "source_concept_id": "cost-efficiency-as-sli",
+      "source_path": "cost-efficiency-as-sli.md",
+      "target": "cost-of-nines.md",
+      "target_concept_id": "cost-of-nines",
+      "target_path": "cost-of-nines.md",
+      "text": "cost of nines",
+      "title": null
+    },
+    {
+      "source_concept_id": "cost-of-nines",
+      "source_path": "cost-of-nines.md",
+      "target": "availability-table.md",
+      "target_concept_id": "availability-table",
+      "target_path": "availability-table.md",
+      "text": "availability table",
+      "title": null
+    },
+    {
+      "source_concept_id": "cost-of-nines",
+      "source_path": "cost-of-nines.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "cost-of-nines",
+      "source_path": "cost-of-nines.md",
+      "target": "hundred-percent-reliability-is-the-wrong-target.md",
+      "target_concept_id": "hundred-percent-reliability-is-the-wrong-target",
+      "target_path": "hundred-percent-reliability-is-the-wrong-target.md",
+      "text": "100% reliability is the wrong target",
+      "title": null
+    },
+    {
+      "source_concept_id": "cost-of-nines",
+      "source_path": "cost-of-nines.md",
+      "target": "independent-failover-reliability-composition.md",
+      "target_concept_id": "independent-failover-reliability-composition",
+      "target_path": "independent-failover-reliability-composition.md",
+      "text": "independent failover reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "cost-of-nines",
+      "source_path": "cost-of-nines.md",
+      "target": "nines-vs-time-budget-framing.md",
+      "target_concept_id": "nines-vs-time-budget-framing",
+      "target_path": "nines-vs-time-budget-framing.md",
+      "text": "nines vs time-budget framing",
+      "title": null
+    },
+    {
+      "source_concept_id": "cost-of-nines",
+      "source_path": "cost-of-nines.md",
+      "target": "quorum-replica-count-reliability-tradeoff.md",
+      "target_concept_id": "quorum-replica-count-reliability-tradeoff",
+      "target_path": "quorum-replica-count-reliability-tradeoff.md",
+      "text": "quorum replica-count reliability tradeoff",
+      "title": null
+    },
+    {
+      "source_concept_id": "critical-user-journey",
+      "source_path": "critical-user-journey.md",
+      "target": "end-to-end-vs-per-component-sli-measurement.md",
+      "target_concept_id": "end-to-end-vs-per-component-sli-measurement",
+      "target_path": "end-to-end-vs-per-component-sli-measurement.md",
+      "text": "end-to-end vs per-component SLI measurement",
+      "title": null
+    },
+    {
+      "source_concept_id": "critical-user-journey",
+      "source_path": "critical-user-journey.md",
+      "target": "measuring-many-things-by-measuring-a-few.md",
+      "target_concept_id": "measuring-many-things-by-measuring-a-few",
+      "target_path": "measuring-many-things-by-measuring-a-few.md",
+      "text": "measuring many things by measuring only a few",
+      "title": null
+    },
+    {
+      "source_concept_id": "critical-user-journey",
+      "source_path": "critical-user-journey.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "dependency-reliability-composition",
+      "source_path": "dependency-reliability-composition.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "dependency-reliability-composition",
+      "source_path": "dependency-reliability-composition.md",
+      "target": "failure-domain.md",
+      "target_concept_id": "failure-domain",
+      "target_path": "failure-domain.md",
+      "text": "failuredomains",
+      "title": null
+    },
+    {
+      "source_concept_id": "dependency-reliability-composition",
+      "source_path": "dependency-reliability-composition.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "hard dependencies",
+      "title": null
+    },
+    {
+      "source_concept_id": "dependency-reliability-composition",
+      "source_path": "dependency-reliability-composition.md",
+      "target": "independent-failover-reliability-composition.md",
+      "target_concept_id": "independent-failover-reliability-composition",
+      "target_path": "independent-failover-reliability-composition.md",
+      "text": "independent failover reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "dependency-reliability-composition",
+      "source_path": "dependency-reliability-composition.md",
+      "target": "low-dependency-design.md",
+      "target_concept_id": "low-dependency-design",
+      "target_path": "low-dependency-design.md",
+      "text": "low-dependencydesign",
+      "title": null
+    },
+    {
+      "source_concept_id": "dependency-reliability-composition",
+      "source_path": "dependency-reliability-composition.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLA vs SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "durability-as-sli",
+      "source_path": "durability-as-sli.md",
+      "target": "recovery-time-and-point-objectives.md",
+      "target_concept_id": "recovery-time-and-point-objectives",
+      "target_path": "recovery-time-and-point-objectives.md",
+      "text": "RTO/RPO",
+      "title": null
+    },
+    {
+      "source_concept_id": "durability-as-sli",
+      "source_path": "durability-as-sli.md",
+      "target": "replication-is-not-a-backup.md",
+      "target_concept_id": "replication-is-not-a-backup",
+      "target_path": "replication-is-not-a-backup.md",
+      "text": "replication is not a backup",
+      "title": null
+    },
+    {
+      "source_concept_id": "durability-as-sli",
+      "source_path": "durability-as-sli.md",
+      "target": "sli-types-by-service-category.md",
+      "target_concept_id": "sli-types-by-service-category",
+      "target_path": "sli-types-by-service-category.md",
+      "text": "availability",
+      "title": null
+    },
+    {
+      "source_concept_id": "end-to-end-vs-per-component-sli-measurement",
+      "source_path": "end-to-end-vs-per-component-sli-measurement.md",
+      "target": "critical-user-journey.md",
+      "target_concept_id": "critical-user-journey",
+      "target_path": "critical-user-journey.md",
+      "text": "critical user journeys",
+      "title": null
+    },
+    {
+      "source_concept_id": "end-to-end-vs-per-component-sli-measurement",
+      "source_path": "end-to-end-vs-per-component-sli-measurement.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "end-to-end-vs-per-component-sli-measurement",
+      "source_path": "end-to-end-vs-per-component-sli-measurement.md",
+      "target": "pipeline-sli-types.md",
+      "target_concept_id": "pipeline-sli-types",
+      "target_path": "pipeline-sli-types.md",
+      "text": "pipeline SLI types",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget",
+      "source_path": "error-budget.md",
+      "target": "burn-rate.md",
+      "target_concept_id": "burn-rate",
+      "target_path": "burn-rate.md",
+      "text": "burn rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget",
+      "source_path": "error-budget.md",
+      "target": "error-budget-driven-prioritization.md",
+      "target_concept_id": "error-budget-driven-prioritization",
+      "target_path": "error-budget-driven-prioritization.md",
+      "text": "error-budget-driven prioritization",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget",
+      "source_path": "error-budget.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget",
+      "source_path": "error-budget.md",
+      "target": "hundred-percent-reliability-is-the-wrong-target.md",
+      "target_concept_id": "hundred-percent-reliability-is-the-wrong-target",
+      "target_path": "hundred-percent-reliability-is-the-wrong-target.md",
+      "text": "targeting 100%",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-driven-prioritization",
+      "source_path": "error-budget-driven-prioritization.md",
+      "target": "error-budget-surplus-for-experimentation.md",
+      "target_concept_id": "error-budget-surplus-for-experimentation",
+      "target_path": "error-budget-surplus-for-experimentation.md",
+      "text": "using error budget surplus for experimentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-driven-prioritization",
+      "source_path": "error-budget-driven-prioritization.md",
+      "target": "initial-vs-sustained-velocity.md",
+      "target_concept_id": "initial-vs-sustained-velocity",
+      "target_path": "initial-vs-sustained-velocity.md",
+      "text": "initial vs. sustained velocity",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-driven-prioritization",
+      "source_path": "error-budget-driven-prioritization.md",
+      "target": "measurement-inversion-for-reliability-investment.md",
+      "target_concept_id": "measurement-inversion-for-reliability-investment",
+      "target_path": "measurement-inversion-for-reliability-investment.md",
+      "text": "measurement inversion for reliabilityinvestment",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-policy",
+      "source_path": "error-budget-policy.md",
+      "target": "burn-rate.md",
+      "target_concept_id": "burn-rate",
+      "target_path": "burn-rate.md",
+      "text": "burn rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-policy",
+      "source_path": "error-budget-policy.md",
+      "target": "error-budget-driven-prioritization.md",
+      "target_concept_id": "error-budget-driven-prioritization",
+      "target_path": "error-budget-driven-prioritization.md",
+      "text": "error-budget-driven prioritization",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-policy",
+      "source_path": "error-budget-policy.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-policy",
+      "source_path": "error-budget-policy.md",
+      "target": "feature-freeze-as-first-error-budget-policy.md",
+      "target_concept_id": "feature-freeze-as-first-error-budget-policy",
+      "target_path": "feature-freeze-as-first-error-budget-policy.md",
+      "text": "feature freeze as a first error budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-policy",
+      "source_path": "error-budget-policy.md",
+      "target": "initial-vs-sustained-velocity.md",
+      "target_concept_id": "initial-vs-sustained-velocity",
+      "target_path": "initial-vs-sustained-velocity.md",
+      "text": "initial vs.sustained velocity",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-surplus-for-experimentation",
+      "source_path": "error-budget-surplus-for-experimentation.md",
+      "target": "error-budget-driven-prioritization.md",
+      "target_concept_id": "error-budget-driven-prioritization",
+      "target_path": "error-budget-driven-prioritization.md",
+      "text": "error-budget-driven prioritization",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-surplus-for-experimentation",
+      "source_path": "error-budget-surplus-for-experimentation.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-budget-surplus-for-experimentation",
+      "source_path": "error-budget-surplus-for-experimentation.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "hard dependencies",
+      "title": null
+    },
+    {
+      "source_concept_id": "event-based-vs-metric-based-slo",
+      "source_path": "event-based-vs-metric-based-slo.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "event-based-vs-metric-based-slo",
+      "source_path": "event-based-vs-metric-based-slo.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "service-level indicator",
+      "title": null
+    },
+    {
+      "source_concept_id": "event-based-vs-metric-based-slo",
+      "source_path": "event-based-vs-metric-based-slo.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "service-level objective",
+      "title": null
+    },
+    {
+      "source_concept_id": "event-based-vs-metric-based-slo",
+      "source_path": "event-based-vs-metric-based-slo.md",
+      "target": "slo-measurement-infrastructure-design-goals.md",
+      "target_concept_id": "slo-measurement-infrastructure-design-goals",
+      "target_path": "slo-measurement-infrastructure-design-goals.md",
+      "text": "SLO measurement infrastructure design goals",
+      "title": null
+    },
+    {
+      "source_concept_id": "extreme-availability-alerting-limits",
+      "source_path": "extreme-availability-alerting-limits.md",
+      "target": "alerting-response-time-floor.md",
+      "target_concept_id": "alerting-response-time-floor",
+      "target_path": "alerting-response-time-floor.md",
+      "text": "alerting response-time floor",
+      "title": null
+    },
+    {
+      "source_concept_id": "extreme-availability-alerting-limits",
+      "source_path": "extreme-availability-alerting-limits.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-demand",
+      "source_path": "failure-demand.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error-budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-demand",
+      "source_path": "failure-demand.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-demand",
+      "source_path": "failure-demand.md",
+      "target": "initial-vs-sustained-velocity.md",
+      "target_concept_id": "initial-vs-sustained-velocity",
+      "target_path": "initial-vs-sustained-velocity.md",
+      "text": "sustained velocity",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-domain",
+      "source_path": "failure-domain.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-domain",
+      "source_path": "failure-domain.md",
+      "target": "game-day-exercises.md",
+      "target_concept_id": "game-day-exercises",
+      "target_path": "game-day-exercises.md",
+      "text": "gameday exercises",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-domain",
+      "source_path": "failure-domain.md",
+      "target": "independent-failover-reliability-composition.md",
+      "target_concept_id": "independent-failover-reliability-composition",
+      "target_path": "independent-failover-reliability-composition.md",
+      "text": "independent failover reliabilitycomposition",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-domain",
+      "source_path": "failure-domain.md",
+      "target": "n-plus-m-redundancy.md",
+      "target_concept_id": "n-plus-m-redundancy",
+      "target_path": "n-plus-m-redundancy.md",
+      "text": "N+M redundancy",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-scenario-mapping",
+      "source_path": "failure-scenario-mapping.md",
+      "target": "chaos-engineering.md",
+      "target_concept_id": "chaos-engineering",
+      "target_path": "chaos-engineering.md",
+      "text": "chaosexperiment",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-scenario-mapping",
+      "source_path": "failure-scenario-mapping.md",
+      "target": "game-day-exercises.md",
+      "target_concept_id": "game-day-exercises",
+      "target_path": "game-day-exercises.md",
+      "text": "game day exercises",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-scenario-mapping",
+      "source_path": "failure-scenario-mapping.md",
+      "target": "graceful-degradation.md",
+      "target_concept_id": "graceful-degradation",
+      "target_path": "graceful-degradation.md",
+      "text": "gracefuldegradation",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-scenario-mapping",
+      "source_path": "failure-scenario-mapping.md",
+      "target": "load-shedding.md",
+      "target_concept_id": "load-shedding",
+      "target_path": "load-shedding.md",
+      "text": "loadshedding",
+      "title": null
+    },
+    {
+      "source_concept_id": "fast-burn-vs-slow-burn",
+      "source_path": "fast-burn-vs-slow-burn.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "fast-burn-vs-slow-burn",
+      "source_path": "fast-burn-vs-slow-burn.md",
+      "target": "multiwindow-multi-burn-rate-alerting.md",
+      "target_concept_id": "multiwindow-multi-burn-rate-alerting",
+      "target_path": "multiwindow-multi-burn-rate-alerting.md",
+      "text": "multiwindow multi-burn-rate alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "fault-error-failure-chain",
+      "source_path": "fault-error-failure-chain.md",
+      "target": "bulkhead-pattern.md",
+      "target_concept_id": "bulkhead-pattern",
+      "target_path": "bulkhead-pattern.md",
+      "text": "bulkheads",
+      "title": null
+    },
+    {
+      "source_concept_id": "fault-error-failure-chain",
+      "source_path": "fault-error-failure-chain.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "fault-error-failure-chain",
+      "source_path": "fault-error-failure-chain.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuit breakers",
+      "title": null
+    },
+    {
+      "source_concept_id": "feature-freeze-as-first-error-budget-policy",
+      "source_path": "feature-freeze-as-first-error-budget-policy.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "game-day-exercises",
+      "source_path": "game-day-exercises.md",
+      "target": "chaos-engineering.md",
+      "target_concept_id": "chaos-engineering",
+      "target_path": "chaos-engineering.md",
+      "text": "chaosengineering",
+      "title": null
+    },
+    {
+      "source_concept_id": "graceful-degradation",
+      "source_path": "graceful-degradation.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "graceful-degradation",
+      "source_path": "graceful-degradation.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuitbreaker",
+      "title": null
+    },
+    {
+      "source_concept_id": "graceful-degradation",
+      "source_path": "graceful-degradation.md",
+      "target": "critical-user-journey.md",
+      "target_concept_id": "critical-user-journey",
+      "target_path": "critical-user-journey.md",
+      "text": "critical user journey",
+      "title": null
+    },
+    {
+      "source_concept_id": "graceful-degradation",
+      "source_path": "graceful-degradation.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "hard dependency into a softdependency",
+      "title": null
+    },
+    {
+      "source_concept_id": "graceful-degradation",
+      "source_path": "graceful-degradation.md",
+      "target": "latency-budget-partial-response.md",
+      "target_concept_id": "latency-budget-partial-response",
+      "target_path": "latency-budget-partial-response.md",
+      "text": "latencybudget",
+      "title": null
+    },
+    {
+      "source_concept_id": "graceful-degradation",
+      "source_path": "graceful-degradation.md",
+      "target": "load-shedding.md",
+      "target_concept_id": "load-shedding",
+      "target_path": "load-shedding.md",
+      "text": "load shedding",
+      "title": null
+    },
+    {
+      "source_concept_id": "hard-vs-soft-dependency",
+      "source_path": "hard-vs-soft-dependency.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "hard-vs-soft-dependency",
+      "source_path": "hard-vs-soft-dependency.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "hard-vs-soft-dependency",
+      "source_path": "hard-vs-soft-dependency.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency-composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "hard-vs-soft-dependency",
+      "source_path": "hard-vs-soft-dependency.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error-budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "hard-vs-soft-dependency",
+      "source_path": "hard-vs-soft-dependency.md",
+      "target": "graceful-degradation.md",
+      "target_concept_id": "graceful-degradation",
+      "target_path": "graceful-degradation.md",
+      "text": "graceful degradation",
+      "title": null
+    },
+    {
+      "source_concept_id": "hard-vs-soft-dependency",
+      "source_path": "hard-vs-soft-dependency.md",
+      "target": "loose-architectural-coupling.md",
+      "target_concept_id": "loose-architectural-coupling",
+      "target_path": "loose-architectural-coupling.md",
+      "text": "loose architectural coupling",
+      "title": null
+    },
+    {
+      "source_concept_id": "hard-vs-soft-dependency",
+      "source_path": "hard-vs-soft-dependency.md",
+      "target": "slo-evolution-triggers.md",
+      "target_concept_id": "slo-evolution-triggers",
+      "target_path": "slo-evolution-triggers.md",
+      "text": "SLO evolution triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "hard-vs-soft-dependency",
+      "source_path": "hard-vs-soft-dependency.md",
+      "target": "training-label-correctness-as-sli.md",
+      "target_concept_id": "training-label-correctness-as-sli",
+      "target_path": "training-label-correctness-as-sli.md",
+      "text": "training labels",
+      "title": null
+    },
+    {
+      "source_concept_id": "hundred-percent-reliability-is-the-wrong-target",
+      "source_path": "hundred-percent-reliability-is-the-wrong-target.md",
+      "target": "cost-of-nines.md",
+      "target_concept_id": "cost-of-nines",
+      "target_path": "cost-of-nines.md",
+      "text": "cost of nines",
+      "title": null
+    },
+    {
+      "source_concept_id": "hundred-percent-reliability-is-the-wrong-target",
+      "source_path": "hundred-percent-reliability-is-the-wrong-target.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "hundred-percent-reliability-is-the-wrong-target",
+      "source_path": "hundred-percent-reliability-is-the-wrong-target.md",
+      "target": "nines-vs-time-budget-framing.md",
+      "target_concept_id": "nines-vs-time-budget-framing",
+      "target_path": "nines-vs-time-budget-framing.md",
+      "text": "nines vs time-budget framing",
+      "title": null
+    },
+    {
+      "source_concept_id": "hybrid-engineering-enablement-model",
+      "source_path": "hybrid-engineering-enablement-model.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budgets",
+      "title": null
+    },
+    {
+      "source_concept_id": "hybrid-engineering-enablement-model",
+      "source_path": "hybrid-engineering-enablement-model.md",
+      "target": "failure-demand.md",
+      "target_concept_id": "failure-demand",
+      "target_path": "failure-demand.md",
+      "text": "failure demand",
+      "title": null
+    },
+    {
+      "source_concept_id": "hybrid-engineering-enablement-model",
+      "source_path": "hybrid-engineering-enablement-model.md",
+      "target": "measurement-trust-and-generative-culture.md",
+      "target_concept_id": "measurement-trust-and-generative-culture",
+      "target_path": "measurement-trust-and-generative-culture.md",
+      "text": "generative culture",
+      "title": null
+    },
+    {
+      "source_concept_id": "identifying-a-miscalibrated-slo",
+      "source_path": "identifying-a-miscalibrated-slo.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "identifying-a-miscalibrated-slo",
+      "source_path": "identifying-a-miscalibrated-slo.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "identifying-a-miscalibrated-slo",
+      "source_path": "identifying-a-miscalibrated-slo.md",
+      "target": "sli-measurement-point-selection.md",
+      "target_concept_id": "sli-measurement-point-selection",
+      "target_path": "sli-measurement-point-selection.md",
+      "text": "SLI measurement point selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "identifying-a-miscalibrated-slo",
+      "source_path": "identifying-a-miscalibrated-slo.md",
+      "target": "sli-specification-vs-implementation.md",
+      "target_concept_id": "sli-specification-vs-implementation",
+      "target_path": "sli-specification-vs-implementation.md",
+      "text": "SLI implementation",
+      "title": null
+    },
+    {
+      "source_concept_id": "identifying-a-miscalibrated-slo",
+      "source_path": "identifying-a-miscalibrated-slo.md",
+      "target": "slo-evolution-triggers.md",
+      "target_concept_id": "slo-evolution-triggers",
+      "target_path": "slo-evolution-triggers.md",
+      "text": "SLO evolution triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "implicit-slo-from-past-performance",
+      "source_path": "implicit-slo-from-past-performance.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "implicit-slo-from-past-performance",
+      "source_path": "implicit-slo-from-past-performance.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLA",
+      "title": null
+    },
+    {
+      "source_concept_id": "implicit-slo-from-past-performance",
+      "source_path": "implicit-slo-from-past-performance.md",
+      "target": "slo-discoverability.md",
+      "target_concept_id": "slo-discoverability",
+      "target_path": "slo-discoverability.md",
+      "text": "SLOs should not be hidden",
+      "title": null
+    },
+    {
+      "source_concept_id": "implicit-slo-from-past-performance",
+      "source_path": "implicit-slo-from-past-performance.md",
+      "target": "too-reliable-is-a-cost.md",
+      "target_concept_id": "too-reliable-is-a-cost",
+      "target_path": "too-reliable-is-a-cost.md",
+      "text": "too reliable is a cost",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-failover-reliability-composition",
+      "source_path": "independent-failover-reliability-composition.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-failover-reliability-composition",
+      "source_path": "independent-failover-reliability-composition.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-failover-reliability-composition",
+      "source_path": "independent-failover-reliability-composition.md",
+      "target": "low-dependency-design.md",
+      "target_concept_id": "low-dependency-design",
+      "target_path": "low-dependency-design.md",
+      "text": "low-dependency design",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-reliability-reporting-chains",
+      "source_path": "independent-reliability-reporting-chains.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error-budget policies",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-reliability-reporting-chains",
+      "source_path": "independent-reliability-reporting-chains.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error-budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "independent-reliability-reporting-chains",
+      "source_path": "independent-reliability-reporting-chains.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "service-level objectives (SLOs)",
+      "title": null
+    },
+    {
+      "source_concept_id": "initial-vs-sustained-velocity",
+      "source_path": "initial-vs-sustained-velocity.md",
+      "target": "error-budget-driven-prioritization.md",
+      "target_concept_id": "error-budget-driven-prioritization",
+      "target_path": "error-budget-driven-prioritization.md",
+      "text": "error-budget-driven-prioritization",
+      "title": null
+    },
+    {
+      "source_concept_id": "initial-vs-sustained-velocity",
+      "source_path": "initial-vs-sustained-velocity.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error-budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "initial-vs-sustained-velocity",
+      "source_path": "initial-vs-sustained-velocity.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "initial-vs-sustained-velocity",
+      "source_path": "initial-vs-sustained-velocity.md",
+      "target": "failure-demand.md",
+      "target_concept_id": "failure-demand",
+      "target_path": "failure-demand.md",
+      "text": "failure demand",
+      "title": null
+    },
+    {
+      "source_concept_id": "initial-vs-sustained-velocity",
+      "source_path": "initial-vs-sustained-velocity.md",
+      "target": "speed-stability-correlation.md",
+      "target_concept_id": "speed-stability-correlation",
+      "target_path": "speed-stability-correlation.md",
+      "text": "speed-stability correlation",
+      "title": null
+    },
+    {
+      "source_concept_id": "latency-budget-partial-response",
+      "source_path": "latency-budget-partial-response.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuit breaker",
+      "title": null
+    },
+    {
+      "source_concept_id": "latency-budget-partial-response",
+      "source_path": "latency-budget-partial-response.md",
+      "target": "critical-user-journey.md",
+      "target_concept_id": "critical-user-journey",
+      "target_path": "critical-user-journey.md",
+      "text": "critical userjourney",
+      "title": null
+    },
+    {
+      "source_concept_id": "latency-budget-partial-response",
+      "source_path": "latency-budget-partial-response.md",
+      "target": "graceful-degradation.md",
+      "target_concept_id": "graceful-degradation",
+      "target_path": "graceful-degradation.md",
+      "text": "gracefuldegradation",
+      "title": null
+    },
+    {
+      "source_concept_id": "latency-budget-partial-response",
+      "source_path": "latency-budget-partial-response.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "soft dependency",
+      "title": null
+    },
+    {
+      "source_concept_id": "layered-percentile-slo-thresholds",
+      "source_path": "layered-percentile-slo-thresholds.md",
+      "target": "choosing-slo-targets-from-historical-data.md",
+      "target_concept_id": "choosing-slo-targets-from-historical-data",
+      "target_path": "choosing-slo-targets-from-historical-data.md",
+      "text": "choosing SLO targets from historical data",
+      "title": null
+    },
+    {
+      "source_concept_id": "least-privilege-for-reliability",
+      "source_path": "least-privilege-for-reliability.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "load-shedding",
+      "source_path": "load-shedding.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "load-shedding",
+      "source_path": "load-shedding.md",
+      "target": "critical-user-journey.md",
+      "target_concept_id": "critical-user-journey",
+      "target_path": "critical-user-journey.md",
+      "text": "critical user journey",
+      "title": null
+    },
+    {
+      "source_concept_id": "load-shedding",
+      "source_path": "load-shedding.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "loose-architectural-coupling",
+      "source_path": "loose-architectural-coupling.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "hard dependency into a soft dependency",
+      "title": null
+    },
+    {
+      "source_concept_id": "loose-architectural-coupling",
+      "source_path": "loose-architectural-coupling.md",
+      "target": "speed-stability-correlation.md",
+      "target_concept_id": "speed-stability-correlation",
+      "target_path": "speed-stability-correlation.md",
+      "text": "speed-stability correlation",
+      "title": null
+    },
+    {
+      "source_concept_id": "low-dependency-design",
+      "source_path": "low-dependency-design.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "low-dependency-design",
+      "source_path": "low-dependency-design.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "hard vs soft dependency",
+      "title": null
+    },
+    {
+      "source_concept_id": "low-dependency-design",
+      "source_path": "low-dependency-design.md",
+      "target": "independent-failover-reliability-composition.md",
+      "target_concept_id": "independent-failover-reliability-composition",
+      "target_path": "independent-failover-reliability-composition.md",
+      "text": "independent failover reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "low-traffic-slo-alerting",
+      "source_path": "low-traffic-slo-alerting.md",
+      "target": "burn-rate.md",
+      "target_concept_id": "burn-rate",
+      "target_path": "burn-rate.md",
+      "text": "burn rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "low-traffic-slo-alerting",
+      "source_path": "low-traffic-slo-alerting.md",
+      "target": "metric-attributes-for-slo-targets.md",
+      "target_concept_id": "metric-attributes-for-slo-targets",
+      "target_path": "metric-attributes-for-slo-targets.md",
+      "text": "metric attributes for SLO targets",
+      "title": null
+    },
+    {
+      "source_concept_id": "measurement-inversion-for-reliability-investment",
+      "source_path": "measurement-inversion-for-reliability-investment.md",
+      "target": "critical-user-journey.md",
+      "target_concept_id": "critical-user-journey",
+      "target_path": "critical-user-journey.md",
+      "text": "critical userjourney",
+      "title": null
+    },
+    {
+      "source_concept_id": "measurement-inversion-for-reliability-investment",
+      "source_path": "measurement-inversion-for-reliability-investment.md",
+      "target": "error-budget-driven-prioritization.md",
+      "target_concept_id": "error-budget-driven-prioritization",
+      "target_path": "error-budget-driven-prioritization.md",
+      "text": "error-budget-drivenprioritization",
+      "title": null
+    },
+    {
+      "source_concept_id": "measurement-inversion-for-reliability-investment",
+      "source_path": "measurement-inversion-for-reliability-investment.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "hard or soft",
+      "title": null
+    },
+    {
+      "source_concept_id": "measurement-inversion-for-reliability-investment",
+      "source_path": "measurement-inversion-for-reliability-investment.md",
+      "target": "slo-driven-risk-prioritization.md",
+      "target_concept_id": "slo-driven-risk-prioritization",
+      "target_path": "slo-driven-risk-prioritization.md",
+      "text": "SLO-driven riskprioritization",
+      "title": null
+    },
+    {
+      "source_concept_id": "measurement-trust-and-generative-culture",
+      "source_path": "measurement-trust-and-generative-culture.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error-budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "measurement-trust-and-generative-culture",
+      "source_path": "measurement-trust-and-generative-culture.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budgets",
+      "title": null
+    },
+    {
+      "source_concept_id": "measurement-trust-and-generative-culture",
+      "source_path": "measurement-trust-and-generative-culture.md",
+      "target": "identifying-a-miscalibrated-slo.md",
+      "target_concept_id": "identifying-a-miscalibrated-slo",
+      "target_path": "identifying-a-miscalibrated-slo.md",
+      "text": "identify miscalibrated SLOs",
+      "title": null
+    },
+    {
+      "source_concept_id": "measurement-trust-and-generative-culture",
+      "source_path": "measurement-trust-and-generative-culture.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "service-level indicator (SLI)",
+      "title": null
+    },
+    {
+      "source_concept_id": "measurement-trust-and-generative-culture",
+      "source_path": "measurement-trust-and-generative-culture.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "service-level objectives (SLOs)",
+      "title": null
+    },
+    {
+      "source_concept_id": "measurement-trust-and-generative-culture",
+      "source_path": "measurement-trust-and-generative-culture.md",
+      "target": "slo-adoption-anti-patterns.md",
+      "target_concept_id": "slo-adoption-anti-patterns",
+      "target_path": "slo-adoption-anti-patterns.md",
+      "text": "SLO adoption anti-patterns",
+      "title": null
+    },
+    {
+      "source_concept_id": "measuring-many-things-by-measuring-a-few",
+      "source_path": "measuring-many-things-by-measuring-a-few.md",
+      "target": "end-to-end-vs-per-component-sli-measurement.md",
+      "target_concept_id": "end-to-end-vs-per-component-sli-measurement",
+      "target_path": "end-to-end-vs-per-component-sli-measurement.md",
+      "text": "end-to-end vs per-component SLI measurement",
+      "title": null
+    },
+    {
+      "source_concept_id": "measuring-many-things-by-measuring-a-few",
+      "source_path": "measuring-many-things-by-measuring-a-few.md",
+      "target": "slo-count-and-scope.md",
+      "target_concept_id": "slo-count-and-scope",
+      "target_path": "slo-count-and-scope.md",
+      "text": "SLO count and scope",
+      "title": null
+    },
+    {
+      "source_concept_id": "metric-attributes-for-slo-targets",
+      "source_path": "metric-attributes-for-slo-targets.md",
+      "target": "identifying-a-miscalibrated-slo.md",
+      "target_concept_id": "identifying-a-miscalibrated-slo",
+      "target_path": "identifying-a-miscalibrated-slo.md",
+      "text": "identifying a miscalibrated SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "metric-attributes-for-slo-targets",
+      "source_path": "metric-attributes-for-slo-targets.md",
+      "target": "low-traffic-slo-alerting.md",
+      "target_concept_id": "low-traffic-slo-alerting",
+      "target_path": "low-traffic-slo-alerting.md",
+      "text": "low-traffic SLO alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-prediction-confidence-as-sli",
+      "source_path": "ml-prediction-confidence-as-sli.md",
+      "target": "ml-slo-scoped-to-business-outcome.md",
+      "target_concept_id": "ml-slo-scoped-to-business-outcome",
+      "target_path": "ml-slo-scoped-to-business-outcome.md",
+      "text": "ML SLOs scoped to business outcome",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-prediction-confidence-as-sli",
+      "source_path": "ml-prediction-confidence-as-sli.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-prediction-confidence-as-sli",
+      "source_path": "ml-prediction-confidence-as-sli.md",
+      "target": "sli-types-by-service-category.md",
+      "target_concept_id": "sli-types-by-service-category",
+      "target_path": "sli-types-by-service-category.md",
+      "text": "request-driven SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-prediction-confidence-as-sli",
+      "source_path": "ml-prediction-confidence-as-sli.md",
+      "target": "user-centric-sli-selection.md",
+      "target_concept_id": "user-centric-sli-selection",
+      "target_path": "user-centric-sli-selection.md",
+      "text": "user-centric SLI selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-slo-scoped-to-business-outcome",
+      "source_path": "ml-slo-scoped-to-business-outcome.md",
+      "target": "ml-prediction-confidence-as-sli.md",
+      "target_concept_id": "ml-prediction-confidence-as-sli",
+      "target_path": "ml-prediction-confidence-as-sli.md",
+      "text": "ML prediction confidence as SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-slo-scoped-to-business-outcome",
+      "source_path": "ml-slo-scoped-to-business-outcome.md",
+      "target": "ml-slo-separation-of-concerns.md",
+      "target_concept_id": "ml-slo-separation-of-concerns",
+      "target_path": "ml-slo-separation-of-concerns.md",
+      "text": "ML SLO separation of concerns",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-slo-scoped-to-business-outcome",
+      "source_path": "ml-slo-scoped-to-business-outcome.md",
+      "target": "ml-system-slo-entanglement.md",
+      "target_concept_id": "ml-system-slo-entanglement",
+      "target_path": "ml-system-slo-entanglement.md",
+      "text": "ML system SLO entanglement",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-slo-scoped-to-business-outcome",
+      "source_path": "ml-slo-scoped-to-business-outcome.md",
+      "target": "user-centric-sli-selection.md",
+      "target_concept_id": "user-centric-sli-selection",
+      "target_path": "user-centric-sli-selection.md",
+      "text": "user-centric SLI selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-slo-separation-of-concerns",
+      "source_path": "ml-slo-separation-of-concerns.md",
+      "target": "catch-up-time-deadline-alerting.md",
+      "target_concept_id": "catch-up-time-deadline-alerting",
+      "target_path": "catch-up-time-deadline-alerting.md",
+      "text": "catch-up-time deadline alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-slo-separation-of-concerns",
+      "source_path": "ml-slo-separation-of-concerns.md",
+      "target": "ml-prediction-confidence-as-sli.md",
+      "target_concept_id": "ml-prediction-confidence-as-sli",
+      "target_path": "ml-prediction-confidence-as-sli.md",
+      "text": "ML prediction confidence as SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-slo-separation-of-concerns",
+      "source_path": "ml-slo-separation-of-concerns.md",
+      "target": "ml-slo-scoped-to-business-outcome.md",
+      "target_concept_id": "ml-slo-scoped-to-business-outcome",
+      "target_path": "ml-slo-scoped-to-business-outcome.md",
+      "text": "ML SLOs scoped to business outcome",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-slo-separation-of-concerns",
+      "source_path": "ml-slo-separation-of-concerns.md",
+      "target": "pipeline-sli-types.md",
+      "target_concept_id": "pipeline-sli-types",
+      "target_path": "pipeline-sli-types.md",
+      "text": "freshness",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-slo-separation-of-concerns",
+      "source_path": "ml-slo-separation-of-concerns.md",
+      "target": "pipeline-sli-types.md",
+      "target_concept_id": "pipeline-sli-types",
+      "target_path": "pipeline-sli-types.md",
+      "text": "pipeline",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-slo-separation-of-concerns",
+      "source_path": "ml-slo-separation-of-concerns.md",
+      "target": "sli-types-by-service-category.md",
+      "target_concept_id": "sli-types-by-service-category",
+      "target_path": "sli-types-by-service-category.md",
+      "text": "golden foursignals",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-system-slo-entanglement",
+      "source_path": "ml-system-slo-entanglement.md",
+      "target": "ml-slo-scoped-to-business-outcome.md",
+      "target_concept_id": "ml-slo-scoped-to-business-outcome",
+      "target_path": "ml-slo-scoped-to-business-outcome.md",
+      "text": "ML SLOs scoped to business outcome",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-system-slo-entanglement",
+      "source_path": "ml-system-slo-entanglement.md",
+      "target": "slo-count-and-scope.md",
+      "target_concept_id": "slo-count-and-scope",
+      "target_path": "slo-count-and-scope.md",
+      "text": "SLO count and scope",
+      "title": null
+    },
+    {
+      "source_concept_id": "multiwindow-multi-burn-rate-alerting",
+      "source_path": "multiwindow-multi-burn-rate-alerting.md",
+      "target": "alerting-response-time-floor.md",
+      "target_concept_id": "alerting-response-time-floor",
+      "target_path": "alerting-response-time-floor.md",
+      "text": "alerting response-time floor",
+      "title": null
+    },
+    {
+      "source_concept_id": "multiwindow-multi-burn-rate-alerting",
+      "source_path": "multiwindow-multi-burn-rate-alerting.md",
+      "target": "burn-rate.md",
+      "target_concept_id": "burn-rate",
+      "target_path": "burn-rate.md",
+      "text": "burn rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "multiwindow-multi-burn-rate-alerting",
+      "source_path": "multiwindow-multi-burn-rate-alerting.md",
+      "target": "fast-burn-vs-slow-burn.md",
+      "target_concept_id": "fast-burn-vs-slow-burn",
+      "target_path": "fast-burn-vs-slow-burn.md",
+      "text": "fast burn vs slow burn",
+      "title": null
+    },
+    {
+      "source_concept_id": "n-plus-m-redundancy",
+      "source_path": "n-plus-m-redundancy.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliabilitycomposition",
+      "title": null
+    },
+    {
+      "source_concept_id": "n-plus-m-redundancy",
+      "source_path": "n-plus-m-redundancy.md",
+      "target": "graceful-degradation.md",
+      "target_concept_id": "graceful-degradation",
+      "target_path": "graceful-degradation.md",
+      "text": "gracefuldegradation",
+      "title": null
+    },
+    {
+      "source_concept_id": "n-plus-m-redundancy",
+      "source_path": "n-plus-m-redundancy.md",
+      "target": "load-shedding.md",
+      "target_concept_id": "load-shedding",
+      "target_path": "load-shedding.md",
+      "text": "load shedding",
+      "title": null
+    },
+    {
+      "source_concept_id": "n-plus-m-redundancy",
+      "source_path": "n-plus-m-redundancy.md",
+      "target": "optimize-for-mttr-over-mtbf.md",
+      "target_concept_id": "optimize-for-mttr-over-mtbf",
+      "target_path": "optimize-for-mttr-over-mtbf.md",
+      "text": "MTTR",
+      "title": null
+    },
+    {
+      "source_concept_id": "n-plus-m-redundancy",
+      "source_path": "n-plus-m-redundancy.md",
+      "target": "voting-and-triple-modular-redundancy.md",
+      "target_concept_id": "voting-and-triple-modular-redundancy",
+      "target_path": "voting-and-triple-modular-redundancy.md",
+      "text": "voting, not spares",
+      "title": null
+    },
+    {
+      "source_concept_id": "nines-vs-time-budget-framing",
+      "source_path": "nines-vs-time-budget-framing.md",
+      "target": "availability-table.md",
+      "target_concept_id": "availability-table",
+      "target_path": "availability-table.md",
+      "text": "availability table",
+      "title": null
+    },
+    {
+      "source_concept_id": "nines-vs-time-budget-framing",
+      "source_path": "nines-vs-time-budget-framing.md",
+      "target": "cost-of-nines.md",
+      "target_concept_id": "cost-of-nines",
+      "target_path": "cost-of-nines.md",
+      "text": "cost of nines",
+      "title": null
+    },
+    {
+      "source_concept_id": "nines-vs-time-budget-framing",
+      "source_path": "nines-vs-time-budget-framing.md",
+      "target": "layered-percentile-slo-thresholds.md",
+      "target_concept_id": "layered-percentile-slo-thresholds",
+      "target_path": "layered-percentile-slo-thresholds.md",
+      "text": "layered percentile SLO thresholds",
+      "title": null
+    },
+    {
+      "source_concept_id": "normal-accident-theory",
+      "source_path": "normal-accident-theory.md",
+      "target": "bulkhead-pattern.md",
+      "target_concept_id": "bulkhead-pattern",
+      "target_path": "bulkhead-pattern.md",
+      "text": "bulkhead pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "normal-accident-theory",
+      "source_path": "normal-accident-theory.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascadingfailure",
+      "title": null
+    },
+    {
+      "source_concept_id": "normal-accident-theory",
+      "source_path": "normal-accident-theory.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuit breakerpattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "normal-accident-theory",
+      "source_path": "normal-accident-theory.md",
+      "target": "hundred-percent-reliability-is-the-wrong-target.md",
+      "target_concept_id": "hundred-percent-reliability-is-the-wrong-target",
+      "target_path": "hundred-percent-reliability-is-the-wrong-target.md",
+      "text": "embracing risk via error budgets",
+      "title": null
+    },
+    {
+      "source_concept_id": "normal-accident-theory",
+      "source_path": "normal-accident-theory.md",
+      "target": "load-shedding.md",
+      "target_concept_id": "load-shedding",
+      "target_path": "load-shedding.md",
+      "text": "load shedding",
+      "title": null
+    },
+    {
+      "source_concept_id": "normal-accident-theory",
+      "source_path": "normal-accident-theory.md",
+      "target": "loose-architectural-coupling.md",
+      "target_concept_id": "loose-architectural-coupling",
+      "target_path": "loose-architectural-coupling.md",
+      "text": "loose architectural coupling",
+      "title": null
+    },
+    {
+      "source_concept_id": "normal-accident-theory",
+      "source_path": "normal-accident-theory.md",
+      "target": "system-stability.md",
+      "target_concept_id": "system-stability",
+      "target_path": "system-stability.md",
+      "text": "system stability",
+      "title": null
+    },
+    {
+      "source_concept_id": "normal-accident-theory",
+      "source_path": "normal-accident-theory.md",
+      "target": "system-understandability.md",
+      "target_concept_id": "system-understandability",
+      "target_path": "system-understandability.md",
+      "text": "systemunderstandability",
+      "title": null
+    },
+    {
+      "source_concept_id": "normalization-of-deviance",
+      "source_path": "normalization-of-deviance.md",
+      "target": "actionable-alert-philosophy.md",
+      "target_concept_id": "actionable-alert-philosophy",
+      "target_path": "actionable-alert-philosophy.md",
+      "text": "actionable alert philosophy",
+      "title": null
+    },
+    {
+      "source_concept_id": "normalization-of-deviance",
+      "source_path": "normalization-of-deviance.md",
+      "target": "sustainable-on-call-and-burnout.md",
+      "target_concept_id": "sustainable-on-call-and-burnout",
+      "target_path": "sustainable-on-call-and-burnout.md",
+      "text": "pager fatigue",
+      "title": null
+    },
+    {
+      "source_concept_id": "normalization-of-deviance",
+      "source_path": "normalization-of-deviance.md",
+      "target": "system-understandability.md",
+      "target_concept_id": "system-understandability",
+      "target_path": "system-understandability.md",
+      "text": "system understandability",
+      "title": null
+    },
+    {
+      "source_concept_id": "optimize-for-mttr-over-mtbf",
+      "source_path": "optimize-for-mttr-over-mtbf.md",
+      "target": "hundred-percent-reliability-is-the-wrong-target.md",
+      "target_concept_id": "hundred-percent-reliability-is-the-wrong-target",
+      "target_path": "hundred-percent-reliability-is-the-wrong-target.md",
+      "text": "100% reliability is the wrongtarget",
+      "title": null
+    },
+    {
+      "source_concept_id": "optimize-for-mttr-over-mtbf",
+      "source_path": "optimize-for-mttr-over-mtbf.md",
+      "target": "normal-accident-theory.md",
+      "target_concept_id": "normal-accident-theory",
+      "target_path": "normal-accident-theory.md",
+      "text": "complex system",
+      "title": null
+    },
+    {
+      "source_concept_id": "optimize-for-mttr-over-mtbf",
+      "source_path": "optimize-for-mttr-over-mtbf.md",
+      "target": "speed-stability-correlation.md",
+      "target_concept_id": "speed-stability-correlation",
+      "target_path": "speed-stability-correlation.md",
+      "text": "speed-stabilitycorrelation",
+      "title": null
+    },
+    {
+      "source_concept_id": "per-model-self-service-slos",
+      "source_path": "per-model-self-service-slos.md",
+      "target": "ml-prediction-confidence-as-sli.md",
+      "target_concept_id": "ml-prediction-confidence-as-sli",
+      "target_path": "ml-prediction-confidence-as-sli.md",
+      "text": "ML prediction confidence as SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "per-model-self-service-slos",
+      "source_path": "per-model-self-service-slos.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "pipeline-sli-types",
+      "source_path": "pipeline-sli-types.md",
+      "target": "catch-up-time-deadline-alerting.md",
+      "target_concept_id": "catch-up-time-deadline-alerting",
+      "target_path": "catch-up-time-deadline-alerting.md",
+      "text": "catch-up-time deadline alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "pipeline-sli-types",
+      "source_path": "pipeline-sli-types.md",
+      "target": "durability-as-sli.md",
+      "target_concept_id": "durability-as-sli",
+      "target_path": "durability-as-sli.md",
+      "text": "durability as SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "pipeline-sli-types",
+      "source_path": "pipeline-sli-types.md",
+      "target": "end-to-end-vs-per-component-sli-measurement.md",
+      "target_concept_id": "end-to-end-vs-per-component-sli-measurement",
+      "target_path": "end-to-end-vs-per-component-sli-measurement.md",
+      "text": "end-to-end vs per-component SLI measurement",
+      "title": null
+    },
+    {
+      "source_concept_id": "pipeline-sli-types",
+      "source_path": "pipeline-sli-types.md",
+      "target": "training-label-correctness-as-sli.md",
+      "target_concept_id": "training-label-correctness-as-sli",
+      "target_path": "training-label-correctness-as-sli.md",
+      "text": "training label correctness as SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "quorum-replica-count-reliability-tradeoff",
+      "source_path": "quorum-replica-count-reliability-tradeoff.md",
+      "target": "cost-of-nines.md",
+      "target_concept_id": "cost-of-nines",
+      "target_path": "cost-of-nines.md",
+      "text": "cost of nines",
+      "title": null
+    },
+    {
+      "source_concept_id": "quorum-replica-count-reliability-tradeoff",
+      "source_path": "quorum-replica-count-reliability-tradeoff.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "quorum-replica-count-reliability-tradeoff",
+      "source_path": "quorum-replica-count-reliability-tradeoff.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "hard dependency",
+      "title": null
+    },
+    {
+      "source_concept_id": "quorum-replica-count-reliability-tradeoff",
+      "source_path": "quorum-replica-count-reliability-tradeoff.md",
+      "target": "n-plus-m-redundancy.md",
+      "target_concept_id": "n-plus-m-redundancy",
+      "target_path": "n-plus-m-redundancy.md",
+      "text": "N+M redundancy",
+      "title": null
+    },
+    {
+      "source_concept_id": "recovery-time-and-point-objectives",
+      "source_path": "recovery-time-and-point-objectives.md",
+      "target": "durability-as-sli.md",
+      "target_concept_id": "durability-as-sli",
+      "target_path": "durability-as-sli.md",
+      "text": "Durability as an SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "recovery-time-and-point-objectives",
+      "source_path": "recovery-time-and-point-objectives.md",
+      "target": "n-plus-m-redundancy.md",
+      "target_concept_id": "n-plus-m-redundancy",
+      "target_path": "n-plus-m-redundancy.md",
+      "text": "hot/warm/cold sparegrades",
+      "title": null
+    },
+    {
+      "source_concept_id": "recovery-time-and-point-objectives",
+      "source_path": "recovery-time-and-point-objectives.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "reliability-burndown-reporting",
+      "source_path": "reliability-burndown-reporting.md",
+      "target": "burn-rate.md",
+      "target_concept_id": "burn-rate",
+      "target_path": "burn-rate.md",
+      "text": "burn-rate",
+      "title": null
+    },
+    {
+      "source_concept_id": "reliability-burndown-reporting",
+      "source_path": "reliability-burndown-reporting.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "reliability-burndown-reporting",
+      "source_path": "reliability-burndown-reporting.md",
+      "target": "time-based-vs-request-based-availability.md",
+      "target_concept_id": "time-based-vs-request-based-availability",
+      "target_path": "time-based-vs-request-based-availability.md",
+      "text": "time-based vs request-based availability",
+      "title": null
+    },
+    {
+      "source_concept_id": "reliability-stack",
+      "source_path": "reliability-stack.md",
+      "target": "cost-of-nines.md",
+      "target_concept_id": "cost-of-nines",
+      "target_path": "cost-of-nines.md",
+      "text": "cost of nines",
+      "title": null
+    },
+    {
+      "source_concept_id": "reliability-stack",
+      "source_path": "reliability-stack.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "Error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "reliability-stack",
+      "source_path": "reliability-stack.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "Service Level Indicator",
+      "title": null
+    },
+    {
+      "source_concept_id": "reliability-stack",
+      "source_path": "reliability-stack.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "Service Level Objective",
+      "title": null
+    },
+    {
+      "source_concept_id": "reliability-stack",
+      "source_path": "reliability-stack.md",
+      "target": "slo-evolution-triggers.md",
+      "target_concept_id": "slo-evolution-triggers",
+      "target_path": "slo-evolution-triggers.md",
+      "text": "SLO evolution triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "reliability-stack",
+      "source_path": "reliability-stack.md",
+      "target": "user-centric-sli-selection.md",
+      "target_concept_id": "user-centric-sli-selection",
+      "target_path": "user-centric-sli-selection.md",
+      "text": "user-centric SLI selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "replication-is-not-a-backup",
+      "source_path": "replication-is-not-a-backup.md",
+      "target": "durability-as-sli.md",
+      "target_concept_id": "durability-as-sli",
+      "target_path": "durability-as-sli.md",
+      "text": "durability as an SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "resilience-vs-stability",
+      "source_path": "resilience-vs-stability.md",
+      "target": "bulkhead-pattern.md",
+      "target_concept_id": "bulkhead-pattern",
+      "target_path": "bulkhead-pattern.md",
+      "text": "bulkhead pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "resilience-vs-stability",
+      "source_path": "resilience-vs-stability.md",
+      "target": "chaos-engineering.md",
+      "target_concept_id": "chaos-engineering",
+      "target_path": "chaos-engineering.md",
+      "text": "chaos engineering",
+      "title": null
+    },
+    {
+      "source_concept_id": "resilience-vs-stability",
+      "source_path": "resilience-vs-stability.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuit breakers",
+      "title": null
+    },
+    {
+      "source_concept_id": "resilience-vs-stability",
+      "source_path": "resilience-vs-stability.md",
+      "target": "game-day-exercises.md",
+      "target_concept_id": "game-day-exercises",
+      "target_path": "game-day-exercises.md",
+      "text": "game dayexercises",
+      "title": null
+    },
+    {
+      "source_concept_id": "resilience-vs-stability",
+      "source_path": "resilience-vs-stability.md",
+      "target": "graceful-degradation.md",
+      "target_concept_id": "graceful-degradation",
+      "target_path": "graceful-degradation.md",
+      "text": "graceful degradation",
+      "title": null
+    },
+    {
+      "source_concept_id": "resilience-vs-stability",
+      "source_path": "resilience-vs-stability.md",
+      "target": "load-shedding.md",
+      "target_concept_id": "load-shedding",
+      "target_path": "load-shedding.md",
+      "text": "loadshedding",
+      "title": null
+    },
+    {
+      "source_concept_id": "resilience-vs-stability",
+      "source_path": "resilience-vs-stability.md",
+      "target": "too-reliable-is-a-cost.md",
+      "target_concept_id": "too-reliable-is-a-cost",
+      "target_path": "too-reliable-is-a-cost.md",
+      "text": "being too reliable is a real cost",
+      "title": null
+    },
+    {
+      "source_concept_id": "scale-induced-rare-failures",
+      "source_path": "scale-induced-rare-failures.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "scale-induced-rare-failures",
+      "source_path": "scale-induced-rare-failures.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "scale-induced-rare-failures",
+      "source_path": "scale-induced-rare-failures.md",
+      "target": "extreme-availability-alerting-limits.md",
+      "target_concept_id": "extreme-availability-alerting-limits",
+      "target_path": "extreme-availability-alerting-limits.md",
+      "text": "extreme availability alerting limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "scale-induced-rare-failures",
+      "source_path": "scale-induced-rare-failures.md",
+      "target": "loose-architectural-coupling.md",
+      "target_concept_id": "loose-architectural-coupling",
+      "target_path": "loose-architectural-coupling.md",
+      "text": "loose architectural coupling",
+      "title": null
+    },
+    {
+      "source_concept_id": "scale-induced-rare-failures",
+      "source_path": "scale-induced-rare-failures.md",
+      "target": "system-understandability.md",
+      "target_concept_id": "system-understandability",
+      "target_path": "system-understandability.md",
+      "text": "system understandability",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-indicator",
+      "source_path": "service-level-indicator.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-indicator",
+      "source_path": "service-level-indicator.md",
+      "target": "reliability-stack.md",
+      "target_concept_id": "reliability-stack",
+      "target_path": "reliability-stack.md",
+      "text": "reliability stack",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-indicator",
+      "source_path": "service-level-indicator.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "service level objective",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-indicator",
+      "source_path": "service-level-indicator.md",
+      "target": "sli-specification-vs-implementation.md",
+      "target_concept_id": "sli-specification-vs-implementation",
+      "target_path": "sli-specification-vs-implementation.md",
+      "text": "SLI specification vs implementation",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-indicator",
+      "source_path": "service-level-indicator.md",
+      "target": "user-centric-sli-selection.md",
+      "target_concept_id": "user-centric-sli-selection",
+      "target_path": "user-centric-sli-selection.md",
+      "text": "user-centric SLI selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "choosing-slo-targets-from-historical-data.md",
+      "target_concept_id": "choosing-slo-targets-from-historical-data",
+      "target_path": "choosing-slo-targets-from-historical-data.md",
+      "text": "choosing SLO targets from historical data",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "compliance-requirements-as-slos.md",
+      "target_concept_id": "compliance-requirements-as-slos",
+      "target_path": "compliance-requirements-as-slos.md",
+      "text": "compliance requirements as SLOs",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "hundred-percent-reliability-is-the-wrong-target.md",
+      "target_concept_id": "hundred-percent-reliability-is-the-wrong-target",
+      "target_path": "hundred-percent-reliability-is-the-wrong-target.md",
+      "text": "100% reliability is the wrong target",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "identifying-a-miscalibrated-slo.md",
+      "target_concept_id": "identifying-a-miscalibrated-slo",
+      "target_path": "identifying-a-miscalibrated-slo.md",
+      "text": "identifying a miscalibrated SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "service level indicator",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "sla-violation-consequences.md",
+      "target_concept_id": "sla-violation-consequences",
+      "target_path": "sla-violation-consequences.md",
+      "text": "violation consequence",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLA",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLA",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "slo-evolution-triggers.md",
+      "target_concept_id": "slo-evolution-triggers",
+      "target_path": "slo-evolution-triggers.md",
+      "text": "SLO evolution triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "service-level-objective",
+      "source_path": "service-level-objective.md",
+      "target": "slo-window-selection.md",
+      "target_concept_id": "slo-window-selection",
+      "target_path": "slo-window-selection.md",
+      "text": "measurement window",
+      "title": null
+    },
+    {
+      "source_concept_id": "sharing-slo-with-vendor",
+      "source_path": "sharing-slo-with-vendor.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLA",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-violation-consequences",
+      "source_path": "sla-violation-consequences.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error budget policies",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-violation-consequences",
+      "source_path": "sla-violation-consequences.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-violation-consequences",
+      "source_path": "sla-violation-consequences.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLA",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-violation-consequences",
+      "source_path": "sla-violation-consequences.md",
+      "target": "sli-measurement-point-selection.md",
+      "target_concept_id": "sli-measurement-point-selection",
+      "target_path": "sli-measurement-point-selection.md",
+      "text": "SLI measurement point selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-violation-consequences",
+      "source_path": "sla-violation-consequences.md",
+      "target": "slo-window-selection.md",
+      "target_concept_id": "slo-window-selection",
+      "target_path": "slo-window-selection.md",
+      "text": "measurement window",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-vs-slo",
+      "source_path": "sla-vs-slo.md",
+      "target": "compliance-requirements-as-slos.md",
+      "target_concept_id": "compliance-requirements-as-slos",
+      "target_path": "compliance-requirements-as-slos.md",
+      "text": "compliance requirements as SLOs",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-vs-slo",
+      "source_path": "sla-vs-slo.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-vs-slo",
+      "source_path": "sla-vs-slo.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-vs-slo",
+      "source_path": "sla-vs-slo.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-vs-slo",
+      "source_path": "sla-vs-slo.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-vs-slo",
+      "source_path": "sla-vs-slo.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-vs-slo",
+      "source_path": "sla-vs-slo.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-vs-slo",
+      "source_path": "sla-vs-slo.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "Service Level Objective",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-vs-slo",
+      "source_path": "sla-vs-slo.md",
+      "target": "sharing-slo-with-vendor.md",
+      "target_concept_id": "sharing-slo-with-vendor",
+      "target_path": "sharing-slo-with-vendor.md",
+      "text": "sharing your SLO with a vendor",
+      "title": null
+    },
+    {
+      "source_concept_id": "sla-vs-slo",
+      "source_path": "sla-vs-slo.md",
+      "target": "sla-violation-consequences.md",
+      "target_concept_id": "sla-violation-consequences",
+      "target_path": "sla-violation-consequences.md",
+      "text": "violation consequences",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-measurement-point-selection",
+      "source_path": "sli-measurement-point-selection.md",
+      "target": "identifying-a-miscalibrated-slo.md",
+      "target_concept_id": "identifying-a-miscalibrated-slo",
+      "target_path": "identifying-a-miscalibrated-slo.md",
+      "text": "identifying a miscalibrated SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-measurement-point-selection",
+      "source_path": "sli-measurement-point-selection.md",
+      "target": "sla-violation-consequences.md",
+      "target_concept_id": "sla-violation-consequences",
+      "target_path": "sla-violation-consequences.md",
+      "text": "violation-claims procedure",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-measurement-point-selection",
+      "source_path": "sli-measurement-point-selection.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLAs",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-measurement-point-selection",
+      "source_path": "sli-measurement-point-selection.md",
+      "target": "sli-specification-vs-implementation.md",
+      "target_concept_id": "sli-specification-vs-implementation",
+      "target_path": "sli-specification-vs-implementation.md",
+      "text": "SLI specification",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-measurement-point-selection",
+      "source_path": "sli-measurement-point-selection.md",
+      "target": "sli-specification-vs-implementation.md",
+      "target_concept_id": "sli-specification-vs-implementation",
+      "target_path": "sli-specification-vs-implementation.md",
+      "text": "SLI specification vs implementation",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-specification-vs-implementation",
+      "source_path": "sli-specification-vs-implementation.md",
+      "target": "sli-measurement-point-selection.md",
+      "target_concept_id": "sli-measurement-point-selection",
+      "target_path": "sli-measurement-point-selection.md",
+      "text": "SLI measurement point selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-specification-vs-implementation",
+      "source_path": "sli-specification-vs-implementation.md",
+      "target": "slo-measurement-infrastructure-design-goals.md",
+      "target_concept_id": "slo-measurement-infrastructure-design-goals",
+      "target_path": "slo-measurement-infrastructure-design-goals.md",
+      "text": "SLO measurement infrastructure design goals",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-types-by-service-category",
+      "source_path": "sli-types-by-service-category.md",
+      "target": "cost-efficiency-as-sli.md",
+      "target_concept_id": "cost-efficiency-as-sli",
+      "target_path": "cost-efficiency-as-sli.md",
+      "text": "cost/efficiency",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-types-by-service-category",
+      "source_path": "sli-types-by-service-category.md",
+      "target": "critical-user-journey.md",
+      "target_concept_id": "critical-user-journey",
+      "target_path": "critical-user-journey.md",
+      "text": "critical user journeys",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-types-by-service-category",
+      "source_path": "sli-types-by-service-category.md",
+      "target": "durability-as-sli.md",
+      "target_concept_id": "durability-as-sli",
+      "target_path": "durability-as-sli.md",
+      "text": "durability",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-types-by-service-category",
+      "source_path": "sli-types-by-service-category.md",
+      "target": "layered-percentile-slo-thresholds.md",
+      "target_concept_id": "layered-percentile-slo-thresholds",
+      "target_path": "layered-percentile-slo-thresholds.md",
+      "text": "layered percentile SLO thresholds",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-types-by-service-category",
+      "source_path": "sli-types-by-service-category.md",
+      "target": "pipeline-sli-types.md",
+      "target_concept_id": "pipeline-sli-types",
+      "target_path": "pipeline-sli-types.md",
+      "text": "pipeline SLI types",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-types-by-service-category",
+      "source_path": "sli-types-by-service-category.md",
+      "target": "slo-count-and-scope.md",
+      "target_concept_id": "slo-count-and-scope",
+      "target_path": "slo-count-and-scope.md",
+      "text": "SLO count and scope",
+      "title": null
+    },
+    {
+      "source_concept_id": "sli-types-by-service-category",
+      "source_path": "sli-types-by-service-category.md",
+      "target": "training-data-consistency-requirement.md",
+      "target_concept_id": "training-data-consistency-requirement",
+      "target_path": "training-data-consistency-requirement.md",
+      "text": "training data consistency requirement",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-adoption-anti-patterns",
+      "source_path": "slo-adoption-anti-patterns.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-adoption-anti-patterns",
+      "source_path": "slo-adoption-anti-patterns.md",
+      "target": "feature-freeze-as-first-error-budget-policy.md",
+      "target_concept_id": "feature-freeze-as-first-error-budget-policy",
+      "target_path": "feature-freeze-as-first-error-budget-policy.md",
+      "text": "feature freeze as a first error budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-adoption-anti-patterns",
+      "source_path": "slo-adoption-anti-patterns.md",
+      "target": "measurement-trust-and-generative-culture.md",
+      "target_concept_id": "measurement-trust-and-generative-culture",
+      "target_path": "measurement-trust-and-generative-culture.md",
+      "text": "generative culture",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-adoption-anti-patterns",
+      "source_path": "slo-adoption-anti-patterns.md",
+      "target": "slo-count-and-scope.md",
+      "target_concept_id": "slo-count-and-scope",
+      "target_path": "slo-count-and-scope.md",
+      "text": "SLO count and scope",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-adoption-anti-patterns",
+      "source_path": "slo-adoption-anti-patterns.md",
+      "target": "slo-discoverability.md",
+      "target_concept_id": "slo-discoverability",
+      "target_path": "slo-discoverability.md",
+      "text": "SLO discoverability",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-based-reporting-vs-incident-counting",
+      "source_path": "slo-based-reporting-vs-incident-counting.md",
+      "target": "reliability-burndown-reporting.md",
+      "target_concept_id": "reliability-burndown-reporting",
+      "target_path": "reliability-burndown-reporting.md",
+      "text": "reliability burndown reporting",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-based-reporting-vs-incident-counting",
+      "source_path": "slo-based-reporting-vs-incident-counting.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-based-reporting-vs-incident-counting",
+      "source_path": "slo-based-reporting-vs-incident-counting.md",
+      "target": "user-impact-minutes.md",
+      "target_concept_id": "user-impact-minutes",
+      "target_path": "user-impact-minutes.md",
+      "text": "user-impact minutes",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-count-and-scope",
+      "source_path": "slo-count-and-scope.md",
+      "target": "critical-user-journey.md",
+      "target_concept_id": "critical-user-journey",
+      "target_path": "critical-user-journey.md",
+      "text": "critical user journey",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-count-and-scope",
+      "source_path": "slo-count-and-scope.md",
+      "target": "measuring-many-things-by-measuring-a-few.md",
+      "target_concept_id": "measuring-many-things-by-measuring-a-few",
+      "target_path": "measuring-many-things-by-measuring-a-few.md",
+      "text": "measuring many things by measuring only a few",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-count-and-scope",
+      "source_path": "slo-count-and-scope.md",
+      "target": "ml-system-slo-entanglement.md",
+      "target_concept_id": "ml-system-slo-entanglement",
+      "target_path": "ml-system-slo-entanglement.md",
+      "text": "ML system SLO entanglement",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-definition-document",
+      "source_path": "slo-definition-document.md",
+      "target": "choosing-slo-targets-from-historical-data.md",
+      "target_concept_id": "choosing-slo-targets-from-historical-data",
+      "target_path": "choosing-slo-targets-from-historical-data.md",
+      "text": "choosing SLO targets from historical data",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-definition-document",
+      "source_path": "slo-definition-document.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-definition-document",
+      "source_path": "slo-definition-document.md",
+      "target": "slo-discoverability.md",
+      "target_concept_id": "slo-discoverability",
+      "target_path": "slo-discoverability.md",
+      "text": "SLO discoverability",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-discoverability",
+      "source_path": "slo-discoverability.md",
+      "target": "implicit-slo-from-past-performance.md",
+      "target_concept_id": "implicit-slo-from-past-performance",
+      "target_path": "implicit-slo-from-past-performance.md",
+      "text": "implicit SLOs from past performance",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-discoverability",
+      "source_path": "slo-discoverability.md",
+      "target": "reliability-burndown-reporting.md",
+      "target_concept_id": "reliability-burndown-reporting",
+      "target_path": "reliability-burndown-reporting.md",
+      "text": "reliability burndown reporting",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-discoverability",
+      "source_path": "slo-discoverability.md",
+      "target": "slo-definition-document.md",
+      "target_concept_id": "slo-definition-document",
+      "target_path": "slo-definition-document.md",
+      "text": "SLO definition documents",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-driven-risk-prioritization",
+      "source_path": "slo-driven-risk-prioritization.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-driven-risk-prioritization",
+      "source_path": "slo-driven-risk-prioritization.md",
+      "target": "slo-evolution-triggers.md",
+      "target_concept_id": "slo-evolution-triggers",
+      "target_path": "slo-evolution-triggers.md",
+      "text": "SLO evolution triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-evolution-triggers",
+      "source_path": "slo-evolution-triggers.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-evolution-triggers",
+      "source_path": "slo-evolution-triggers.md",
+      "target": "identifying-a-miscalibrated-slo.md",
+      "target_concept_id": "identifying-a-miscalibrated-slo",
+      "target_path": "identifying-a-miscalibrated-slo.md",
+      "text": "identifying a miscalibrated SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-evolution-triggers",
+      "source_path": "slo-evolution-triggers.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "Service Level Objective",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-evolution-triggers",
+      "source_path": "slo-evolution-triggers.md",
+      "target": "slo-target-erosion.md",
+      "target_concept_id": "slo-target-erosion",
+      "target_path": "slo-target-erosion.md",
+      "text": "SLO targeterosion",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-evolution-triggers",
+      "source_path": "slo-evolution-triggers.md",
+      "target": "too-reliable-is-a-cost.md",
+      "target_concept_id": "too-reliable-is-a-cost",
+      "target_path": "too-reliable-is-a-cost.md",
+      "text": "too reliable is a cost",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-measurement-infrastructure-design-goals",
+      "source_path": "slo-measurement-infrastructure-design-goals.md",
+      "target": "choosing-slo-targets-from-historical-data.md",
+      "target_concept_id": "choosing-slo-targets-from-historical-data",
+      "target_path": "choosing-slo-targets-from-historical-data.md",
+      "text": "choosing SLO targets from historical data",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-measurement-infrastructure-design-goals",
+      "source_path": "slo-measurement-infrastructure-design-goals.md",
+      "target": "sli-specification-vs-implementation.md",
+      "target_concept_id": "sli-specification-vs-implementation",
+      "target_path": "sli-specification-vs-implementation.md",
+      "text": "SLI specification vs implementation",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-stakeholder-buy-in-sequence",
+      "source_path": "slo-stakeholder-buy-in-sequence.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-stakeholder-buy-in-sequence",
+      "source_path": "slo-stakeholder-buy-in-sequence.md",
+      "target": "hundred-percent-reliability-is-the-wrong-target.md",
+      "target_concept_id": "hundred-percent-reliability-is-the-wrong-target",
+      "target_path": "hundred-percent-reliability-is-the-wrong-target.md",
+      "text": "100% reliability is the wrong target",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-stakeholder-buy-in-sequence",
+      "source_path": "slo-stakeholder-buy-in-sequence.md",
+      "target": "sla-violation-consequences.md",
+      "target_concept_id": "sla-violation-consequences",
+      "target_path": "sla-violation-consequences.md",
+      "text": "violation consequences",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-stakeholder-buy-in-sequence",
+      "source_path": "slo-stakeholder-buy-in-sequence.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLA",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-stakeholder-buy-in-sequence",
+      "source_path": "slo-stakeholder-buy-in-sequence.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLAs",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-stakeholder-buy-in-sequence",
+      "source_path": "slo-stakeholder-buy-in-sequence.md",
+      "target": "slo-adoption-anti-patterns.md",
+      "target_concept_id": "slo-adoption-anti-patterns",
+      "target_path": "slo-adoption-anti-patterns.md",
+      "text": "SLO adoption anti-patterns",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-target-erosion",
+      "source_path": "slo-target-erosion.md",
+      "target": "error-budget-driven-prioritization.md",
+      "target_concept_id": "error-budget-driven-prioritization",
+      "target_path": "error-budget-driven-prioritization.md",
+      "text": "error-budget-drivenprioritization",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-target-erosion",
+      "source_path": "slo-target-erosion.md",
+      "target": "error-budget-surplus-for-experimentation.md",
+      "target_concept_id": "error-budget-surplus-for-experimentation",
+      "target_path": "error-budget-surplus-for-experimentation.md",
+      "text": "error budget surplus",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-target-erosion",
+      "source_path": "slo-target-erosion.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-target-erosion",
+      "source_path": "slo-target-erosion.md",
+      "target": "resilience-vs-stability.md",
+      "target_concept_id": "resilience-vs-stability",
+      "target_path": "resilience-vs-stability.md",
+      "text": "resilience",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-target-erosion",
+      "source_path": "slo-target-erosion.md",
+      "target": "slo-evolution-triggers.md",
+      "target_concept_id": "slo-evolution-triggers",
+      "target_path": "slo-evolution-triggers.md",
+      "text": "SLO evolutiontriggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-target-erosion",
+      "source_path": "slo-target-erosion.md",
+      "target": "too-reliable-is-a-cost.md",
+      "target_concept_id": "too-reliable-is-a-cost",
+      "target_path": "too-reliable-is-a-cost.md",
+      "text": "being too reliable is a realcost",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-tiering-by-criticality",
+      "source_path": "slo-tiering-by-criticality.md",
+      "target": "dependency-reliability-composition.md",
+      "target_concept_id": "dependency-reliability-composition",
+      "target_path": "dependency-reliability-composition.md",
+      "text": "dependency reliability composition",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-tiering-by-criticality",
+      "source_path": "slo-tiering-by-criticality.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "service-level guarantees",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-tiering-by-criticality",
+      "source_path": "slo-tiering-by-criticality.md",
+      "target": "sla-vs-slo.md",
+      "target_concept_id": "sla-vs-slo",
+      "target_path": "sla-vs-slo.md",
+      "text": "SLA",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-tiering-by-criticality",
+      "source_path": "slo-tiering-by-criticality.md",
+      "target": "slo-count-and-scope.md",
+      "target_concept_id": "slo-count-and-scope",
+      "target_path": "slo-count-and-scope.md",
+      "text": "SLO count and scope",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-window-selection",
+      "source_path": "slo-window-selection.md",
+      "target": "multiwindow-multi-burn-rate-alerting.md",
+      "target_concept_id": "multiwindow-multi-burn-rate-alerting",
+      "target_path": "multiwindow-multi-burn-rate-alerting.md",
+      "text": "multiwindow multi-burn-rate alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "slo-window-selection",
+      "source_path": "slo-window-selection.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-correlation",
+      "source_path": "speed-stability-correlation.md",
+      "target": "error-budget-driven-prioritization.md",
+      "target_concept_id": "error-budget-driven-prioritization",
+      "target_path": "error-budget-driven-prioritization.md",
+      "text": "driven prioritization",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-correlation",
+      "source_path": "speed-stability-correlation.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error-budget policies",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-correlation",
+      "source_path": "speed-stability-correlation.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budgets",
+      "title": null
+    },
+    {
+      "source_concept_id": "speed-stability-correlation",
+      "source_path": "speed-stability-correlation.md",
+      "target": "initial-vs-sustained-velocity.md",
+      "target_concept_id": "initial-vs-sustained-velocity",
+      "target_path": "initial-vs-sustained-velocity.md",
+      "text": "sustained velocity",
+      "title": null
+    },
+    {
+      "source_concept_id": "steady-state-design",
+      "source_path": "steady-state-design.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuit breakers",
+      "title": null
+    },
+    {
+      "source_concept_id": "steady-state-design",
+      "source_path": "steady-state-design.md",
+      "target": "load-shedding.md",
+      "target_concept_id": "load-shedding",
+      "target_path": "load-shedding.md",
+      "text": "load shedding",
+      "title": null
+    },
+    {
+      "source_concept_id": "steady-state-design",
+      "source_path": "steady-state-design.md",
+      "target": "system-stability.md",
+      "target_concept_id": "system-stability",
+      "target_path": "system-stability.md",
+      "text": "strain",
+      "title": null
+    },
+    {
+      "source_concept_id": "sustainable-on-call-and-burnout",
+      "source_path": "sustainable-on-call-and-burnout.md",
+      "target": "actionable-alert-philosophy.md",
+      "target_concept_id": "actionable-alert-philosophy",
+      "target_path": "actionable-alert-philosophy.md",
+      "text": "actionable alert philosophy",
+      "title": null
+    },
+    {
+      "source_concept_id": "sustainable-on-call-and-burnout",
+      "source_path": "sustainable-on-call-and-burnout.md",
+      "target": "error-budget-policy.md",
+      "target_concept_id": "error-budget-policy",
+      "target_path": "error-budget-policy.md",
+      "text": "error-budget policy",
+      "title": null
+    },
+    {
+      "source_concept_id": "sustainable-on-call-and-burnout",
+      "source_path": "sustainable-on-call-and-burnout.md",
+      "target": "failure-demand.md",
+      "target_concept_id": "failure-demand",
+      "target_path": "failure-demand.md",
+      "text": "failure demand",
+      "title": null
+    },
+    {
+      "source_concept_id": "sustainable-on-call-and-burnout",
+      "source_path": "sustainable-on-call-and-burnout.md",
+      "target": "measurement-trust-and-generative-culture.md",
+      "target_concept_id": "measurement-trust-and-generative-culture",
+      "target_path": "measurement-trust-and-generative-culture.md",
+      "text": "generative Westrum culture",
+      "title": null
+    },
+    {
+      "source_concept_id": "symptom-based-alerting",
+      "source_path": "symptom-based-alerting.md",
+      "target": "actionable-alert-philosophy.md",
+      "target_concept_id": "actionable-alert-philosophy",
+      "target_path": "actionable-alert-philosophy.md",
+      "text": "actionable alert philosophy",
+      "title": null
+    },
+    {
+      "source_concept_id": "symptom-based-alerting",
+      "source_path": "symptom-based-alerting.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "symptom-based-alerting",
+      "source_path": "symptom-based-alerting.md",
+      "target": "multiwindow-multi-burn-rate-alerting.md",
+      "target_concept_id": "multiwindow-multi-burn-rate-alerting",
+      "target_path": "multiwindow-multi-burn-rate-alerting.md",
+      "text": "multiwindow multi-burn-rate alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "symptom-based-alerting",
+      "source_path": "symptom-based-alerting.md",
+      "target": "service-level-indicator.md",
+      "target_concept_id": "service-level-indicator",
+      "target_path": "service-level-indicator.md",
+      "text": "service-level indicator",
+      "title": null
+    },
+    {
+      "source_concept_id": "symptom-based-alerting",
+      "source_path": "symptom-based-alerting.md",
+      "target": "service-level-objective.md",
+      "target_concept_id": "service-level-objective",
+      "target_path": "service-level-objective.md",
+      "text": "service-level objectives",
+      "title": null
+    },
+    {
+      "source_concept_id": "symptom-based-alerting",
+      "source_path": "symptom-based-alerting.md",
+      "target": "user-centric-sli-selection.md",
+      "target_concept_id": "user-centric-sli-selection",
+      "target_path": "user-centric-sli-selection.md",
+      "text": "user-centric SLI selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "system-stability",
+      "source_path": "system-stability.md",
+      "target": "cascading-failure.md",
+      "target_concept_id": "cascading-failure",
+      "target_path": "cascading-failure.md",
+      "text": "cascading failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "system-stability",
+      "source_path": "system-stability.md",
+      "target": "circuit-breaker-pattern.md",
+      "target_concept_id": "circuit-breaker-pattern",
+      "target_path": "circuit-breaker-pattern.md",
+      "text": "circuit breakers",
+      "title": null
+    },
+    {
+      "source_concept_id": "system-stability",
+      "source_path": "system-stability.md",
+      "target": "fault-error-failure-chain.md",
+      "target_concept_id": "fault-error-failure-chain",
+      "target_path": "fault-error-failure-chain.md",
+      "text": "fault-error-failure chain",
+      "title": null
+    },
+    {
+      "source_concept_id": "system-stability",
+      "source_path": "system-stability.md",
+      "target": "load-shedding.md",
+      "target_concept_id": "load-shedding",
+      "target_path": "load-shedding.md",
+      "text": "load shedding",
+      "title": null
+    },
+    {
+      "source_concept_id": "system-stability",
+      "source_path": "system-stability.md",
+      "target": "steady-state-design.md",
+      "target_concept_id": "steady-state-design",
+      "target_path": "steady-state-design.md",
+      "text": "steady-state design",
+      "title": null
+    },
+    {
+      "source_concept_id": "time-based-vs-request-based-availability",
+      "source_path": "time-based-vs-request-based-availability.md",
+      "target": "error-budget.md",
+      "target_concept_id": "error-budget",
+      "target_path": "error-budget.md",
+      "text": "error budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "time-based-vs-request-based-availability",
+      "source_path": "time-based-vs-request-based-availability.md",
+      "target": "event-based-vs-metric-based-slo.md",
+      "target_concept_id": "event-based-vs-metric-based-slo",
+      "target_path": "event-based-vs-metric-based-slo.md",
+      "text": "event-based vs. metric-based SLOs",
+      "title": null
+    },
+    {
+      "source_concept_id": "time-based-vs-request-based-availability",
+      "source_path": "time-based-vs-request-based-availability.md",
+      "target": "reliability-burndown-reporting.md",
+      "target_concept_id": "reliability-burndown-reporting",
+      "target_path": "reliability-burndown-reporting.md",
+      "text": "reliability burndown reporting",
+      "title": null
+    },
+    {
+      "source_concept_id": "time-based-vs-request-based-availability",
+      "source_path": "time-based-vs-request-based-availability.md",
+      "target": "user-impact-minutes.md",
+      "target_concept_id": "user-impact-minutes",
+      "target_path": "user-impact-minutes.md",
+      "text": "user-impact minutes",
+      "title": null
+    },
+    {
+      "source_concept_id": "too-reliable-is-a-cost",
+      "source_path": "too-reliable-is-a-cost.md",
+      "target": "error-budget-surplus-for-experimentation.md",
+      "target_concept_id": "error-budget-surplus-for-experimentation",
+      "target_path": "error-budget-surplus-for-experimentation.md",
+      "text": "error budget surplus for experimentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "too-reliable-is-a-cost",
+      "source_path": "too-reliable-is-a-cost.md",
+      "target": "identifying-a-miscalibrated-slo.md",
+      "target_concept_id": "identifying-a-miscalibrated-slo",
+      "target_path": "identifying-a-miscalibrated-slo.md",
+      "text": "identifying a miscalibrated SLO",
+      "title": null
+    },
+    {
+      "source_concept_id": "too-reliable-is-a-cost",
+      "source_path": "too-reliable-is-a-cost.md",
+      "target": "implicit-slo-from-past-performance.md",
+      "target_concept_id": "implicit-slo-from-past-performance",
+      "target_path": "implicit-slo-from-past-performance.md",
+      "text": "implicit SLOs from past performance",
+      "title": null
+    },
+    {
+      "source_concept_id": "too-reliable-is-a-cost",
+      "source_path": "too-reliable-is-a-cost.md",
+      "target": "slo-evolution-triggers.md",
+      "target_concept_id": "slo-evolution-triggers",
+      "target_path": "slo-evolution-triggers.md",
+      "text": "SLO evolution triggers",
+      "title": null
+    },
+    {
+      "source_concept_id": "training-data-consistency-requirement",
+      "source_path": "training-data-consistency-requirement.md",
+      "target": "durability-as-sli.md",
+      "target_concept_id": "durability-as-sli",
+      "target_path": "durability-as-sli.md",
+      "text": "durability as SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "training-label-correctness-as-sli",
+      "source_path": "training-label-correctness-as-sli.md",
+      "target": "hard-vs-soft-dependency.md",
+      "target_concept_id": "hard-vs-soft-dependency",
+      "target_path": "hard-vs-soft-dependency.md",
+      "text": "hard dependency",
+      "title": null
+    },
+    {
+      "source_concept_id": "training-label-correctness-as-sli",
+      "source_path": "training-label-correctness-as-sli.md",
+      "target": "pipeline-sli-types.md",
+      "target_concept_id": "pipeline-sli-types",
+      "target_path": "pipeline-sli-types.md",
+      "text": "pipeline correctness/completeness",
+      "title": null
+    },
+    {
+      "source_concept_id": "training-label-correctness-as-sli",
+      "source_path": "training-label-correctness-as-sli.md",
+      "target": "user-centric-sli-selection.md",
+      "target_concept_id": "user-centric-sli-selection",
+      "target_path": "user-centric-sli-selection.md",
+      "text": "proxy for reality",
+      "title": null
+    },
+    {
+      "source_concept_id": "uptime-availability-reliability-distinctions",
+      "source_path": "uptime-availability-reliability-distinctions.md",
+      "target": "time-based-vs-request-based-availability.md",
+      "target_concept_id": "time-based-vs-request-based-availability",
+      "target_path": "time-based-vs-request-based-availability.md",
+      "text": "time-based vs request-based availability",
+      "title": null
+    },
+    {
+      "source_concept_id": "uptime-availability-reliability-distinctions",
+      "source_path": "uptime-availability-reliability-distinctions.md",
+      "target": "user-centric-sli-selection.md",
+      "target_concept_id": "user-centric-sli-selection",
+      "target_path": "user-centric-sli-selection.md",
+      "text": "user-centric SLI selection",
+      "title": null
+    },
+    {
+      "source_concept_id": "user-centric-sli-selection",
+      "source_path": "user-centric-sli-selection.md",
+      "target": "critical-user-journey.md",
+      "target_concept_id": "critical-user-journey",
+      "target_path": "critical-user-journey.md",
+      "text": "critical user journeys",
+      "title": null
+    },
+    {
+      "source_concept_id": "user-centric-sli-selection",
+      "source_path": "user-centric-sli-selection.md",
+      "target": "end-to-end-vs-per-component-sli-measurement.md",
+      "target_concept_id": "end-to-end-vs-per-component-sli-measurement",
+      "target_path": "end-to-end-vs-per-component-sli-measurement.md",
+      "text": "end-to-end vs per-component SLI measurement",
+      "title": null
+    },
+    {
+      "source_concept_id": "user-centric-sli-selection",
+      "source_path": "user-centric-sli-selection.md",
+      "target": "implicit-slo-from-past-performance.md",
+      "target_concept_id": "implicit-slo-from-past-performance",
+      "target_path": "implicit-slo-from-past-performance.md",
+      "text": "Hyrum's Law",
+      "title": null
+    },
+    {
+      "source_concept_id": "user-centric-sli-selection",
+      "source_path": "user-centric-sli-selection.md",
+      "target": "implicit-slo-from-past-performance.md",
+      "target_concept_id": "implicit-slo-from-past-performance",
+      "target_path": "implicit-slo-from-past-performance.md",
+      "text": "implicit SLOs form from past performance",
+      "title": null
+    },
+    {
+      "source_concept_id": "user-centric-sli-selection",
+      "source_path": "user-centric-sli-selection.md",
+      "target": "ml-prediction-confidence-as-sli.md",
+      "target_concept_id": "ml-prediction-confidence-as-sli",
+      "target_path": "ml-prediction-confidence-as-sli.md",
+      "text": "ML prediction confidence as SLI",
+      "title": null
+    },
+    {
+      "source_concept_id": "user-centric-sli-selection",
+      "source_path": "user-centric-sli-selection.md",
+      "target": "ml-slo-scoped-to-business-outcome.md",
+      "target_concept_id": "ml-slo-scoped-to-business-outcome",
+      "target_path": "ml-slo-scoped-to-business-outcome.md",
+      "text": "ML SLOs scoped to business outcome",
+      "title": null
+    },
+    {
+      "source_concept_id": "user-centric-sli-selection",
+      "source_path": "user-centric-sli-selection.md",
+      "target": "why-simple-threshold-alerting-fails.md",
+      "target_concept_id": "why-simple-threshold-alerting-fails",
+      "target_path": "why-simple-threshold-alerting-fails.md",
+      "text": "why simple threshold alerting fails",
+      "title": null
+    },
+    {
+      "source_concept_id": "user-impact-minutes",
+      "source_path": "user-impact-minutes.md",
+      "target": "reliability-burndown-reporting.md",
+      "target_concept_id": "reliability-burndown-reporting",
+      "target_path": "reliability-burndown-reporting.md",
+      "text": "reliability burndown reporting",
+      "title": null
+    },
+    {
+      "source_concept_id": "user-impact-minutes",
+      "source_path": "user-impact-minutes.md",
+      "target": "slo-based-reporting-vs-incident-counting.md",
+      "target_concept_id": "slo-based-reporting-vs-incident-counting",
+      "target_path": "slo-based-reporting-vs-incident-counting.md",
+      "text": "SLO-based reporting vs incident counting",
+      "title": null
+    },
+    {
+      "source_concept_id": "user-impact-minutes",
+      "source_path": "user-impact-minutes.md",
+      "target": "time-based-vs-request-based-availability.md",
+      "target_concept_id": "time-based-vs-request-based-availability",
+      "target_path": "time-based-vs-request-based-availability.md",
+      "text": "time-based vs request-based availability",
+      "title": null
+    },
+    {
+      "source_concept_id": "voting-and-triple-modular-redundancy",
+      "source_path": "voting-and-triple-modular-redundancy.md",
+      "target": "n-plus-m-redundancy.md",
+      "target_concept_id": "n-plus-m-redundancy",
+      "target_path": "n-plus-m-redundancy.md",
+      "text": "N+Mredundancy",
+      "title": null
+    },
+    {
+      "source_concept_id": "why-simple-threshold-alerting-fails",
+      "source_path": "why-simple-threshold-alerting-fails.md",
+      "target": "actionable-alert-philosophy.md",
+      "target_concept_id": "actionable-alert-philosophy",
+      "target_path": "actionable-alert-philosophy.md",
+      "text": "actionable alert philosophy",
+      "title": null
+    },
+    {
+      "source_concept_id": "why-simple-threshold-alerting-fails",
+      "source_path": "why-simple-threshold-alerting-fails.md",
+      "target": "multiwindow-multi-burn-rate-alerting.md",
+      "target_concept_id": "multiwindow-multi-burn-rate-alerting",
+      "target_path": "multiwindow-multi-burn-rate-alerting.md",
+      "text": "multiwindow multi-burn-rate alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "why-simple-threshold-alerting-fails",
+      "source_path": "why-simple-threshold-alerting-fails.md",
+      "target": "symptom-based-alerting.md",
+      "target_concept_id": "symptom-based-alerting",
+      "target_path": "symptom-based-alerting.md",
+      "text": "symptom-based alerting",
+      "title": null
+    },
+    {
+      "source_concept_id": "why-simple-threshold-alerting-fails",
+      "source_path": "why-simple-threshold-alerting-fails.md",
+      "target": "user-centric-sli-selection.md",
+      "target_concept_id": "user-centric-sli-selection",
+      "target_path": "user-centric-sli-selection.md",
+      "text": "user-centric SLI selection",
+      "title": null
+    }
+  ],
+  "orphans": []
+}

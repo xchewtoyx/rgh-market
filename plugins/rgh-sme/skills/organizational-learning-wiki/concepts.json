@@ -1,0 +1,4183 @@
+{
+  "bundle": "organizational-learning",
+  "concepts": [
+    {
+      "concept_id": "adaptive-vs-generative-learning",
+      "description": "Survival learning adapts to change; generative learning enhances the capacity to create \u2014 both are needed, but survival alone is not enough.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.002428284920005394,
+      "title": "Adaptive Versus Generative Learning"
+    },
+    {
+      "concept_id": "after-action-reviews",
+      "description": "A three-question ritual linking what happened, what was expected, and what can be learned \u2014 moving from a culture of reports to a culture of review.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.0026756283310105443,
+      "title": "After Action Reviews"
+    },
+    {
+      "concept_id": "alignment-in-teams",
+      "description": "When a group's energies harmonize toward shared results \u2014 the precondition before empowering individuals empowers the whole team.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0067501896103465304,
+      "title": "Alignment in Teams"
+    },
+    {
+      "concept_id": "asymmetry-of-voice-and-silence",
+      "description": "Silence offers immediate, high-certainty self-protection while voice is effortful, delayed, and uncertain in benefit \u2014 biasing people toward holding back.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.004152595877610635,
+      "title": "Asymmetry of Voice and Silence"
+    },
+    {
+      "concept_id": "balancing-feedback",
+      "description": "Goal-oriented self-correction that maintains a target \u2014 the source of stability and the hidden resistance that frustrates organizational change efforts.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.003629958246511456,
+      "title": "Balancing Feedback"
+    },
+    {
+      "concept_id": "balancing-inquiry-and-advocacy",
+      "description": "Collaborative learning skill of making one's reasoning explicit while genuinely exploring others' views \u2014 neither pure advocacy nor pure inquiry.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 2,
+      "pagerank": 0.006668546213157207,
+      "title": "Balancing Inquiry and Advocacy"
+    },
+    {
+      "concept_id": "becoming-bicultural-innovator",
+      "description": "Moving fluently between an open learning-oriented team culture and the traditional mainstream organization \u2014 respecting each world's ground rules.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.003241813090886658,
+      "title": "Becoming Bicultural as Innovator"
+    },
+    {
+      "concept_id": "boiled-frog",
+      "description": "A learning disability of failing to sense slow, gradual threats because threat-detection is geared to sudden change.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.01552303927855623,
+      "title": "Boiled Frog"
+    },
+    {
+      "concept_id": "cassandra-culture",
+      "description": "A culture that fails to listen thoughtfully to those who speak up \u2014 especially with unpleasant news \u2014 making voice ineffective even when someone breaks silence.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013617793917385386,
+      "title": "Cassandra Culture"
+    },
+    {
+      "concept_id": "connecting-innovation-to-organizational-core",
+      "description": "Anchoring new learning practices in an organization's core identity and natural way of creating value \u2014 so radical ideas find fertile soil rather than being pushed in.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0025260881227688234,
+      "title": "Connecting Innovation to Organizational Core"
+    },
+    {
+      "concept_id": "countering-groupthink",
+      "description": "Structural and leadership interventions that license skepticism, assign dissent roles, and reduce hierarchy so teams test assumptions instead of treating unanimity as proof.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.0025397344209040964,
+      "title": "Countering Groupthink"
+    },
+    {
+      "concept_id": "creative-tension",
+      "description": "The generative force from holding a vision while looking honestly at current reality \u2014 central to stewardship and organizational learning.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 3,
+      "pagerank": 0.011284643428282032,
+      "title": "Creative Tension"
+    },
+    {
+      "concept_id": "dangerous-silence",
+      "description": "When fear of speaking up about safety or wrongdoing leads to preventable physical harm \u2014 illustrated by high-risk industry accidents.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.0036631140810059973,
+      "title": "Dangerous Silence"
+    },
+    {
+      "concept_id": "deep-learning-cycle",
+      "description": "Five interlinked elements \u2014 beliefs, practices, skills, relationships, and awareness \u2014 that jointly develop organizational capacity rather than one-off results.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0023391716133313147,
+      "title": "Deep Learning Cycle"
+    },
+    {
+      "concept_id": "defensive-routines",
+      "description": "Entrenched habits that protect people from embarrassment of exposing their thinking \u2014 blocking learning while feeling like protection of views or relations.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 1,
+      "pagerank": 0.02569226220595507,
+      "title": "Defensive Routines"
+    },
+    {
+      "concept_id": "delays-in-systems",
+      "description": "Gaps between actions and consequences that cause overshoot, oscillation, and misattribution \u2014 making aggressive intervention worsen outcomes under delay.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.0034819632728375896,
+      "title": "Delays in Systems"
+    },
+    {
+      "concept_id": "deliberate-culture-recovery",
+      "description": "Organizations can shift from fearful silence toward psychological safety through sustained norm-setting, practice, and leadership reinforcement \u2014 a long journey, not an overnight fix.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0013617793917385386,
+      "title": "Deliberate Culture Recovery"
+    },
+    {
+      "concept_id": "delusion-of-learning-from-experience",
+      "description": "A learning disability where the most important organizational decisions have consequences beyond anyone's direct experience or learning horizon.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.009190858714896059,
+      "title": "Delusion of Learning from Experience"
+    },
+    {
+      "concept_id": "dialogue-versus-discussion",
+      "description": "Two distinct team conversation modes \u2014 dialogue diverges to access collective meaning; discussion converges to decide among alternative views.",
+      "inbound_link_count": 11,
+      "outbound_link_count": 2,
+      "pagerank": 0.03563208127904348,
+      "title": "Dialogue Versus Discussion"
+    },
+    {
+      "concept_id": "discounting-the-future-for-interpersonal-risk",
+      "description": "A bias toward immediate interpersonal safety that underweights delayed but important consequences of staying silent.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013617793917385386,
+      "title": "Discounting the Future for Interpersonal Risk"
+    },
+    {
+      "concept_id": "ecology-of-leadership",
+      "description": "Three interdependent leadership types \u2014 local line, network, and executive \u2014 that together sustain organizational learning.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.013327625306163408,
+      "title": "Ecology of Leadership"
+    },
+    {
+      "concept_id": "enrollment-vs-compliance",
+      "description": "A taxonomy of attitudes toward organizational vision \u2014 from commitment and enrollment through grudging compliance to apathy \u2014 where 90% of \"commitment\" is compliance.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018973239796054473,
+      "title": "Enrollment Versus Compliance"
+    },
+    {
+      "concept_id": "epidemic-of-workplace-silence",
+      "description": "Widespread withholding of questions, ideas, and concerns even when people believe speaking up could matter for the organization or themselves.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.019940212429709347,
+      "title": "Epidemic of Workplace Silence"
+    },
+    {
+      "concept_id": "error-reporting-paradox",
+      "description": "Better teams often report more errors not because they make more mistakes but because their climate makes reporting safe.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0019405356332274175,
+      "title": "Error-Reporting Paradox"
+    },
+    {
+      "concept_id": "espoused-theory-vs-theory-in-use",
+      "description": "The gap between what people say they believe and the mental models implied by their actions \u2014 a reflective entry point for organizational learning.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0031829369880667837,
+      "title": "Espoused Theory versus Theory-in-Use"
+    },
+    {
+      "concept_id": "failure-parties",
+      "description": "A ritual honoring intelligent, high-quality experiments that failed \u2014 building safety, freeing resources, and spreading lessons.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.005290228679190085,
+      "title": "Failure Parties"
+    },
+    {
+      "concept_id": "failure-taxonomy",
+      "description": "Three failure types \u2014 preventable, complex, and intelligent \u2014 each requiring different leadership framing and response.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.007449342370592096,
+      "title": "Failure Taxonomy"
+    },
+    {
+      "concept_id": "fear-as-ineffective-motivator",
+      "description": "Fear-based management may have suited simple repetitive tasks but impairs learning, creativity, and collaboration when work is uncertain.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013617793917385386,
+      "title": "Fear as an Ineffective Motivator for Knowledge Work"
+    },
+    {
+      "concept_id": "fearless-organization",
+      "description": "An organization that minimizes interpersonal fear so team performance can maximize in knowledge-intensive, interdependent work.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013617793917385386,
+      "title": "Fearless Organization"
+    },
+    {
+      "concept_id": "five-disciplines-as-ensemble",
+      "description": "Five personal learning disciplines must work together as an ensemble \u2014 like the DC-3's five component technologies \u2014 for the learning-organization innovation to succeed at scale.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.0027787143344700956,
+      "title": "Five Disciplines as Ensemble"
+    },
+    {
+      "concept_id": "fixation-on-events",
+      "description": "A learning disability where short-term events dominate attention, obscuring longer patterns needed for generative learning.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 2,
+      "pagerank": 0.014768088415127993,
+      "title": "Fixation on Events"
+    },
+    {
+      "concept_id": "focused-event-analysis",
+      "description": "A cross-disciplinary meeting after a failure to understand contributing factors and improve the system rather than assign blame.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0027937441666148854,
+      "title": "Focused Event Analysis"
+    },
+    {
+      "concept_id": "grassroots-learning-initiatives",
+      "description": "Starting organizational learning where you are with whoever is present \u2014 without waiting for top-management sponsorship to drive every needed change.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002739549955365371,
+      "title": "Grassroots Learning Initiatives"
+    },
+    {
+      "concept_id": "groupthink",
+      "description": "A group-interaction failure mode where small cohesive teams develop shared illusions that suppress critical thinking and reality testing in pursuit of unanimity.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.0024006240388105126,
+      "title": "Groupthink"
+    },
+    {
+      "concept_id": "growth-and-underinvestment-archetype",
+      "description": "A combined limits-to-growth and shifting-the-burden pattern where underinvestment in capacity or quality standards caps growth despite hard work and strong demand.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.005952492444771826,
+      "title": "Growth and Underinvestment Archetype"
+    },
+    {
+      "concept_id": "i-am-my-position",
+      "description": "A learning disability where people limit their sense of responsibility to job boundaries and confuse role with identity.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.013693974737165417,
+      "title": "I Am My Position"
+    },
+    {
+      "concept_id": "illusion-of-success-from-silence",
+      "description": "When fear blocks bad news from traveling upward, organizations can appear successful for years while strategic failure accumulates unseen.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.003966834162718684,
+      "title": "Illusion of Success from Silence"
+    },
+    {
+      "concept_id": "illusion-of-taking-charge",
+      "description": "A learning disability where aggressive \"proactiveness\" is reactiveness against an external enemy \u2014 not true proactiveness from seeing one's own contribution.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.005567579154422714,
+      "title": "Illusion of Taking Charge"
+    },
+    {
+      "concept_id": "implicit-theories-of-voice",
+      "description": "Taken-for-granted beliefs about when and how it is appropriate to speak up at work \u2014 often learned and rarely examined.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0013617793917385386,
+      "title": "Implicit Theories of Voice"
+    },
+    {
+      "concept_id": "institutionalized-candor",
+      "description": "Organizations that embed structured, rule-governed forums for frank feedback \u2014 like Pixar's Braintrust \u2014 make candor a practice rather than a personality.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.00274110919634745,
+      "title": "Institutionalized Candor"
+    },
+    {
+      "concept_id": "integrating-learning-and-work",
+      "description": "Connecting reflection to action within daily work \u2014 the antidote to treating learning as an add-on program separate from real operations.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.00211987410762582,
+      "title": "Integrating Learning and Work"
+    },
+    {
+      "concept_id": "interpersonal-risk-taking-at-work",
+      "description": "The social hazards people weigh when deciding whether to speak up \u2014 looking ignorant, incompetent, or disruptive.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.054527395874961214,
+      "title": "Interpersonal Risk-Taking at Work"
+    },
+    {
+      "concept_id": "inviting-participation",
+      "description": "Leadership practices that lower the bar for voice through humility, inquiry, and structures that elicit input.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.0037637381564127196,
+      "title": "Inviting Participation"
+    },
+    {
+      "concept_id": "laws-of-systems-thinking",
+      "description": "Eleven recurring principles showing why intuitive, nonsystemic responses to complex organizational problems tend to fail \u2014 and where leverage often lies.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 10,
+      "pagerank": 0.002711770553961703,
+      "title": "Laws of Systems Thinking"
+    },
+    {
+      "concept_id": "leader-as-designer",
+      "description": "Leadership focused on shaping learning infrastructures, guiding ideas, and organizational artifacts that enable collective learning \u2014 not heroic command.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.008892958295637833,
+      "title": "Leader as Designer"
+    },
+    {
+      "concept_id": "leader-as-steward",
+      "description": "Leadership in service of a larger purpose \u2014 balancing commitment with uncertainty, conservation with change, and sustainable results over ambition.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.014086165845949796,
+      "title": "Leader as Steward"
+    },
+    {
+      "concept_id": "leader-as-teacher",
+      "description": "Leadership that creates space for learning by helping people see reality and build capacity \u2014 starting from the leader's own learning.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.012210179870823571,
+      "title": "Leader as Teacher"
+    },
+    {
+      "concept_id": "leaders-toolkit-for-psychological-safety",
+      "description": "Three interrelated leadership practices \u2014 setting the stage, inviting participation, responding productively \u2014 that build and restore candor.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.006674129538614172,
+      "title": "Leader's Toolkit for Psychological Safety"
+    },
+    {
+      "concept_id": "leaps-of-abstraction",
+      "description": "Untested jumps from observation to generalization that freeze mental models and block learning when treated as fact.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002263611897984756,
+      "title": "Leaps of Abstraction"
+    },
+    {
+      "concept_id": "learning-communities",
+      "description": "When personal aspiration connects with organizational essence, community forms as both strategy and outcome \u2014 through questions that have heart and meaning.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.001986869032001279,
+      "title": "Learning Communities"
+    },
+    {
+      "concept_id": "learning-infrastructure-beyond-training",
+      "description": "Organizational capacity for learning requires tools, institutionalized practice opportunities, and inquiry culture \u2014 connected, not isolated programs.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.0041953992731125255,
+      "title": "Learning Infrastructure Beyond Training"
+    },
+    {
+      "concept_id": "left-hand-column-technique",
+      "description": "Argyris's method of writing unspoken thoughts beside actual dialogue to reveal how mental models drive unproductive exchanges.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.004909129664671234,
+      "title": "Left-Hand Column Technique"
+    },
+    {
+      "concept_id": "legitimacy-of-the-other",
+      "description": "Intelligent collective action requires recognizing each network member as a legitimate participant \u2014 Maturana's \"love\" as the emotion that expands intelligence.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 6,
+      "pagerank": 0.0018110145048069784,
+      "title": "Legitimacy of the Other"
+    },
+    {
+      "concept_id": "limits-to-growth-archetype",
+      "description": "A reinforcing success process eventually hits a balancing limit \u2014 leverage lies in removing the constraint, not pushing harder on growth.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.004769705815946045,
+      "title": "Limits to Growth Archetype"
+    },
+    {
+      "concept_id": "machine-age-thinking",
+      "description": "An implicit image of organizations as machines to be run and driven \u2014 language and design that block seeing companies as human communities capable of learning.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0018574871168783045,
+      "title": "Machine-Age Thinking"
+    },
+    {
+      "concept_id": "measuring-psychological-safety",
+      "description": "Survey instruments \u2014 especially Edmondson's seven-item scale \u2014 are the most common way to assess group-level psychological safety.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013617793917385386,
+      "title": "Measuring Psychological Safety"
+    },
+    {
+      "concept_id": "mental-models-as-organizational-routine",
+      "description": "Surfacing and testing the assumptions behind positions \u2014 a collective inquiry practice that makes dialogue and learning possible.",
+      "inbound_link_count": 13,
+      "outbound_link_count": 5,
+      "pagerank": 0.021039228573609247,
+      "title": "Mental Models as Organizational Routine"
+    },
+    {
+      "concept_id": "metanoia",
+      "description": "A fundamental shift of mind \u2014 from seeing ourselves as separate from problems to seeing how our own actions create the reality we experience.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.0034135041964764605,
+      "title": "Metanoia"
+    },
+    {
+      "concept_id": "micro-assessment-of-interpersonal-risk",
+      "description": "A largely unconscious moment-by-moment calculation weighing interpersonal risk against the value of speaking up.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.02527862762407218,
+      "title": "Micro-Assessment of Interpersonal Risk"
+    },
+    {
+      "concept_id": "myth-of-the-management-team",
+      "description": "A learning disability where management teams avoid embarrassment, producing watered-down compromises instead of collective inquiry.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.016696677022717467,
+      "title": "Myth of the Management Team"
+    },
+    {
+      "concept_id": "networks-of-collaboration",
+      "description": "Knowledge flows through social collaboration networks \u2014 not capture-and- disseminate databases \u2014 and strengthens when people reflect on who they work with.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.002114047508022631,
+      "title": "Networks of Collaboration"
+    },
+    {
+      "concept_id": "organizations-as-living-systems",
+      "description": "Seeing organizations as capable of learning, evolving, and healing themselves \u2014 not machines whose parts are fixed separately \u2014 shifts both tools and leadership.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.0029159274017491995,
+      "title": "Organizations as Living Systems"
+    },
+    {
+      "concept_id": "peacekeeping-circles",
+      "description": "A collective reflective practice that builds transformative relationships through equal, supportive conversation rather than hierarchical intervention.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.001618339782882865,
+      "title": "Peacekeeping Circles"
+    },
+    {
+      "concept_id": "personal-mastery-as-organizational-commitment",
+      "description": "Treating the organization as an environment where people genuinely grow as human beings \u2014 an act of faith that most companies espouse but rarely walk.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.0037184815759336923,
+      "title": "Personal Mastery as Organizational Commitment"
+    },
+    {
+      "concept_id": "playing-to-win-mindset",
+      "description": "A orientation toward upside, opportunity, and necessary risk-taking \u2014 contrasted with playing not to lose, which reliably forecloses growth and innovation.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0013617793917385386,
+      "title": "Playing to Win Mindset"
+    },
+    {
+      "concept_id": "practice-fields-for-management-teams",
+      "description": "Virtual worlds where management teams can experiment, replay decisions, and develop joint learning skills \u2014 the rehearsal space most teams lack.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 6,
+      "pagerank": 0.011469161209752166,
+      "title": "Practice Fields for Management Teams"
+    },
+    {
+      "concept_id": "precision-questioning",
+      "description": "A team technique for constructive confrontation \u2014 tactfully dissecting vague claims with specific questions that expose reasoning for testing rather than attacking the person.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.002740712444308668,
+      "title": "Precision Questioning"
+    },
+    {
+      "concept_id": "premortem-technique",
+      "description": "A structured team exercise that imagines a planned decision has already failed, surfacing suppressed doubts before commitment and countering post-decision groupthink.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.0021879147537348714,
+      "title": "Premortem Technique"
+    },
+    {
+      "concept_id": "productive-conflict-in-learning-teams",
+      "description": "Visible conflict of ideas \u2014 not absence of conflict \u2014 signals a team that is continually learning when handled without defensive routines.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.0075561991313771604,
+      "title": "Productive Conflict in Learning Teams"
+    },
+    {
+      "concept_id": "psychological-safety",
+      "description": "A group-level belief that the work environment is safe for interpersonal risk-taking \u2014 speaking up with ideas, questions, or concerns.",
+      "inbound_link_count": 34,
+      "outbound_link_count": 4,
+      "pagerank": 0.13228362337755778,
+      "title": "Psychological Safety"
+    },
+    {
+      "concept_id": "psychological-safety-and-emergency-protocols",
+      "description": "Protocols and training only work when interpersonal fear does not crowd out speaking up \u2014 psychological safety is a precondition, not a substitute.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.001747616886064458,
+      "title": "Psychological Safety and Emergency Protocols"
+    },
+    {
+      "concept_id": "psychological-safety-and-inclusion",
+      "description": "Inclusion and belonging require psychological safety \u2014 the subjective goals cannot be achieved without broad input across groups.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013617793917385386,
+      "title": "Psychological Safety and Inclusion"
+    },
+    {
+      "concept_id": "psychological-safety-and-learning-behavior",
+      "description": "Research links psychological safety to interdependent learning \u2014 reporting errors, sharing knowledge, and fixing root problems rather than workarounds.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013617793917385386,
+      "title": "Psychological Safety and Learning Behavior"
+    },
+    {
+      "concept_id": "psychological-safety-and-performance",
+      "description": "In uncertain, interdependent work, psychological safety enables the voice, coordination, and innovation that performance depends on.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013617793917385386,
+      "title": "Psychological Safety and Performance"
+    },
+    {
+      "concept_id": "psychological-safety-and-performance-standards",
+      "description": "Two independent leadership dimensions \u2014 safety and standards \u2014 whose combination defines apathy, comfort, anxiety, and learning zones.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.048188798992506596,
+      "title": "Psychological Safety and Performance Standards"
+    },
+    {
+      "concept_id": "psychological-safety-as-group-climate",
+      "description": "Psychological safety is a shared property of a team or unit, shaped by local leadership \u2014 not an individual trait or dyadic relationship.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.03062953146735284,
+      "title": "Psychological Safety as Group Climate"
+    },
+    {
+      "concept_id": "psychological-safety-as-moderator",
+      "description": "Psychological safety strengthens or weakens how other team attributes \u2014 diversity, dispersion, conflict \u2014 translate into outcomes.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.004081460836031473,
+      "title": "Psychological Safety as Moderator"
+    },
+    {
+      "concept_id": "psychological-safety-as-ongoing-process",
+      "description": "Building candor requires continuous small and large corrections \u2014 like tacking upwind \u2014 not a one-time destination.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0028822189160470184,
+      "title": "Psychological Safety as an Ongoing Process"
+    },
+    {
+      "concept_id": "psychological-safety-not-enough",
+      "description": "Safety removes brakes on learning but does not replace high standards, purpose, or the motivation to reach them.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.05053099021703074,
+      "title": "Psychological Safety Is Not Enough"
+    },
+    {
+      "concept_id": "psychological-safety-not-niceness",
+      "description": "Psychological safety enables candor and productive disagreement \u2014 not polite agreement or unconditional praise.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013617793917385386,
+      "title": "Psychological Safety Is Not Niceness"
+    },
+    {
+      "concept_id": "psychological-safety-vs-trust",
+      "description": "Psychological safety is group-level and immediate; trust is dyadic and forward-looking \u2014 related but distinct constructs.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013617793917385386,
+      "title": "Psychological Safety Versus Trust"
+    },
+    {
+      "concept_id": "psychological-safety-without-formal-authority",
+      "description": "Anyone can contribute to psychological safety through questions, listening, framing, and vulnerability \u2014 not only people with positional power.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.004193900534169968,
+      "title": "Psychological Safety Without Formal Authority"
+    },
+    {
+      "concept_id": "purpose-beyond-profit",
+      "description": "Profitability is a performance requirement for staying in the game, not an organization's purpose \u2014 treating it as purpose tends toward financial mediocrity.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0025202095271498227,
+      "title": "Purpose Beyond Profit"
+    },
+    {
+      "concept_id": "radical-transparency-and-candor",
+      "description": "Extreme openness norms \u2014 speaking every critical opinion, prohibiting talk behind backs, making assessments visible \u2014 as one path to learning culture.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0013617793917385386,
+      "title": "Radical Transparency and Candor"
+    },
+    {
+      "concept_id": "reflective-openness",
+      "description": "Looking inward so conversation reveals one's own biases and how one's thinking contributes to problems \u2014 the cornerstone of mental-models work, beyond merely speaking one's views aloud.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.006427611273832748,
+      "title": "Reflective Openness"
+    },
+    {
+      "concept_id": "reinforcing-feedback",
+      "description": "A feedback loop where a small change builds on itself in the same direction \u2014 the engine of growth, decline, or escalation in organizational systems.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 6,
+      "pagerank": 0.004517413430657082,
+      "title": "Reinforcing Feedback"
+    },
+    {
+      "concept_id": "responding-productively-to-voice",
+      "description": "How leaders react when people speak up \u2014 appreciation, destigmatizing failure, and fair sanctions \u2014 determines whether safety persists.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 4,
+      "pagerank": 0.006738657741334773,
+      "title": "Responding Productively to Voice"
+    },
+    {
+      "concept_id": "safe-to-fail-innovation-culture",
+      "description": "Rewarding teams for killing unpromising ideas early \u2014 making fast, evidence- based failure the path of least resistance in exploratory work.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.0027431744256956048,
+      "title": "Safe-to-Fail Innovation Culture"
+    },
+    {
+      "concept_id": "seeing-patterns-amid-complexity",
+      "description": "Systems thinking organizes overwhelming detail into coherent stories of cause and structure \u2014 enabling shared understanding, not just individual insight.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 8,
+      "pagerank": 0.0019404042497439182,
+      "title": "Seeing Patterns Amid Complexity"
+    },
+    {
+      "concept_id": "setting-the-stage-for-candor",
+      "description": "Leadership practice of framing work and purpose so people understand why voice, failure reporting, and learning matter.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.0058882062317912875,
+      "title": "Setting the Stage for Candor"
+    },
+    {
+      "concept_id": "seven-learning-disabilities",
+      "description": "Recurring organizational patterns that block learning despite bright, committed people \u2014 identified by Peter Senge as antidotes to the five disciplines.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 8,
+      "pagerank": 0.0395839443734051,
+      "title": "Seven Learning Disabilities"
+    },
+    {
+      "concept_id": "shared-vision-as-common-caring",
+      "description": "A shared vision is a force in people's hearts from common caring \u2014 not an imposed idea, and distinct from compliance-producing \"vision statements.\"",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.002703686702911107,
+      "title": "Shared Vision as Common Caring"
+    },
+    {
+      "concept_id": "shifting-the-burden-archetype",
+      "description": "Symptomatic fixes relieve pressure quickly while fundamental solutions atrophy \u2014 addiction to palliatives masks worsening underlying problems.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.004194656529300061,
+      "title": "Shifting the Burden Archetype"
+    },
+    {
+      "concept_id": "skilled-incompetence",
+      "description": "Chris Argyris's term for teams proficient at defensive routines that prevent learning while appearing competent.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.03807880047840116,
+      "title": "Skilled Incompetence"
+    },
+    {
+      "concept_id": "social-media-as-silence-release-valve",
+      "description": "When internal psychological safety is absent, social media can make prolonged organizational silence unsustainable \u2014 with reputational and human costs.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0013617793917385386,
+      "title": "Social Media as Silence Release Valve"
+    },
+    {
+      "concept_id": "speaking-up-for-physical-safety",
+      "description": "Worker physical safety depends on psychological safety first \u2014 people must feel able to report hazards before technical fixes can work.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0013617793917385386,
+      "title": "Speaking Up for Physical Safety"
+    },
+    {
+      "concept_id": "strategy-as-hypothesis",
+      "description": "Treating strategy as a hypothesis to be tested continuously \u2014 using front-line data to adapt rather than punishing disconfirming signals.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0029520553902104185,
+      "title": "Strategy as Hypothesis"
+    },
+    {
+      "concept_id": "structure-influences-behavior",
+      "description": "When people in the same system produce similar results regardless of who they are \u2014 because behavior arises from structure, not individual character alone.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0024323763295885995,
+      "title": "Structure Influences Behavior"
+    },
+    {
+      "concept_id": "suspending-assumptions",
+      "description": "A dialogue practice of holding assumptions visible and open to questioning rather than defending or suppressing them.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.021996282091821025,
+      "title": "Suspending Assumptions"
+    },
+    {
+      "concept_id": "systems-archetypes",
+      "description": "Recurring structural patterns \u2014 built from reinforcing loops, balancing loops, and delays \u2014 that give teams a shared language for diagnosing organizational learning failures.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 8,
+      "pagerank": 0.007709046467886569,
+      "title": "Systems Archetypes"
+    },
+    {
+      "concept_id": "systems-thinking-as-learning-language",
+      "description": "Using systems archetypes in team conversation objectifies problems as structure rather than personality \u2014 enabling candid diagnosis of learning failures.",
+      "inbound_link_count": 13,
+      "outbound_link_count": 19,
+      "pagerank": 0.012933960910018224,
+      "title": "Systems Thinking as Learning Language"
+    },
+    {
+      "concept_id": "tacit-knowledge-through-storytelling",
+      "description": "Moving organizational know-how through narratives, experience-sharing, and review rituals rather than capture-and-disseminate databases alone.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.0035136374298995942,
+      "title": "Tacit Knowledge Through Storytelling"
+    },
+    {
+      "concept_id": "team-collective-open-mindedness",
+      "description": "How a group thinks collectively is an emergent property of communication patterns \u2014 not simply the sum of members' individual open-mindedness.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 6,
+      "pagerank": 0.002167788912769168,
+      "title": "Team Collective Open-Mindedness"
+    },
+    {
+      "concept_id": "team-learning",
+      "description": "The collective discipline of aligning and developing a team's capacity to create results its members truly desire.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 5,
+      "pagerank": 0.03169649371637561,
+      "title": "Team Learning"
+    },
+    {
+      "concept_id": "the-enemy-is-out-there",
+      "description": "A learning disability that locates blame externally when problems often straddle inside and outside the organization.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.008681183770861432,
+      "title": "The Enemy Is Out There"
+    },
+    {
+      "concept_id": "three-levels-of-explanation",
+      "description": "Event, pattern-of-behavior, and structural explanations \u2014 equally true but vastly different in usefulness for generative organizational learning.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.0028939528498401383,
+      "title": "Three Levels of Explanation"
+    },
+    {
+      "concept_id": "three-openings-for-change",
+      "description": "Otto Scharmer's thresholds of head, heart, and will \u2014 inner orientations that determine whether learning interventions produce profound results.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0013617793917385386,
+      "title": "Three Openings for Change"
+    },
+    {
+      "concept_id": "uncoupling-fear-and-failure",
+      "description": "Separating the emotional terror of mistakes from the learning value of failure \u2014 so people innovate rather than repeat safe past successes.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.003668306067624816,
+      "title": "Uncoupling Fear and Failure"
+    },
+    {
+      "concept_id": "westrum-generative-culture",
+      "description": "A performance-oriented culture where messengers are trained, failure triggers inquiry, and information flows transparently \u2014 prerequisites for learning at scale.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0013617793917385386,
+      "title": "Westrum Generative Culture"
+    },
+    {
+      "concept_id": "why-shared-visions-die",
+      "description": "Limits-to-growth structures that arrest the reinforcing loop spreading a vision \u2014 and the levers that revive enrollment rather than compliance.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.0033826426169849206,
+      "title": "Why Shared Visions Die"
+    },
+    {
+      "concept_id": "working-across-difference",
+      "description": "Embracing diversity as a strategic necessity for learning \u2014 not political correctness \u2014 because real community requires being stuck with one another.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.002206198730339082,
+      "title": "Working Across Difference"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "adaptive-vs-generative-learning",
+      "source_path": "adaptive-vs-generative-learning.md",
+      "target": "deep-learning-cycle.md",
+      "target_concept_id": "deep-learning-cycle",
+      "target_path": "deep-learning-cycle.md",
+      "text": "deep learning cycle",
+      "title": null
+    },
+    {
+      "source_concept_id": "adaptive-vs-generative-learning",
+      "source_path": "adaptive-vs-generative-learning.md",
+      "target": "fixation-on-events.md",
+      "target_concept_id": "fixation-on-events",
+      "target_path": "fixation-on-events.md",
+      "text": "Fixation on events",
+      "title": null
+    },
+    {
+      "source_concept_id": "adaptive-vs-generative-learning",
+      "source_path": "adaptive-vs-generative-learning.md",
+      "target": "metanoia.md",
+      "target_concept_id": "metanoia",
+      "target_path": "metanoia.md",
+      "text": "metanoia",
+      "title": null
+    },
+    {
+      "source_concept_id": "after-action-reviews",
+      "source_path": "after-action-reviews.md",
+      "target": "integrating-learning-and-work.md",
+      "target_concept_id": "integrating-learning-and-work",
+      "target_path": "integrating-learning-and-work.md",
+      "text": "integrating learning and work",
+      "title": null
+    },
+    {
+      "source_concept_id": "after-action-reviews",
+      "source_path": "after-action-reviews.md",
+      "target": "learning-infrastructure-beyond-training.md",
+      "target_concept_id": "learning-infrastructure-beyond-training",
+      "target_path": "learning-infrastructure-beyond-training.md",
+      "text": "learning infrastructure beyond training",
+      "title": null
+    },
+    {
+      "source_concept_id": "after-action-reviews",
+      "source_path": "after-action-reviews.md",
+      "target": "tacit-knowledge-through-storytelling.md",
+      "target_concept_id": "tacit-knowledge-through-storytelling",
+      "target_path": "tacit-knowledge-through-storytelling.md",
+      "text": "tacit knowledge through storytelling",
+      "title": null
+    },
+    {
+      "source_concept_id": "alignment-in-teams",
+      "source_path": "alignment-in-teams.md",
+      "target": "team-learning.md",
+      "target_concept_id": "team-learning",
+      "target_path": "team-learning.md",
+      "text": "Team learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "asymmetry-of-voice-and-silence",
+      "source_path": "asymmetry-of-voice-and-silence.md",
+      "target": "epidemic-of-workplace-silence.md",
+      "target_concept_id": "epidemic-of-workplace-silence",
+      "target_path": "epidemic-of-workplace-silence.md",
+      "text": "asymmetry",
+      "title": null
+    },
+    {
+      "source_concept_id": "asymmetry-of-voice-and-silence",
+      "source_path": "asymmetry-of-voice-and-silence.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "balancing-feedback",
+      "source_path": "balancing-feedback.md",
+      "target": "laws-of-systems-thinking.md",
+      "target_concept_id": "laws-of-systems-thinking",
+      "target_path": "laws-of-systems-thinking.md",
+      "text": "systems thinking",
+      "title": null
+    },
+    {
+      "source_concept_id": "balancing-feedback",
+      "source_path": "balancing-feedback.md",
+      "target": "limits-to-growth-archetype.md",
+      "target_concept_id": "limits-to-growth-archetype",
+      "target_path": "limits-to-growth-archetype.md",
+      "text": "limits to growth archetype",
+      "title": null
+    },
+    {
+      "source_concept_id": "balancing-feedback",
+      "source_path": "balancing-feedback.md",
+      "target": "reinforcing-feedback.md",
+      "target_concept_id": "reinforcing-feedback",
+      "target_path": "reinforcing-feedback.md",
+      "text": "reinforcing feedback",
+      "title": null
+    },
+    {
+      "source_concept_id": "balancing-feedback",
+      "source_path": "balancing-feedback.md",
+      "target": "shifting-the-burden-archetype.md",
+      "target_concept_id": "shifting-the-burden-archetype",
+      "target_path": "shifting-the-burden-archetype.md",
+      "text": "shifting the burden archetype",
+      "title": null
+    },
+    {
+      "source_concept_id": "balancing-inquiry-and-advocacy",
+      "source_path": "balancing-inquiry-and-advocacy.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue versus discussion",
+      "title": null
+    },
+    {
+      "source_concept_id": "balancing-inquiry-and-advocacy",
+      "source_path": "balancing-inquiry-and-advocacy.md",
+      "target": "left-hand-column-technique.md",
+      "target_concept_id": "left-hand-column-technique",
+      "target_path": "left-hand-column-technique.md",
+      "text": "left-hand column technique",
+      "title": null
+    },
+    {
+      "source_concept_id": "becoming-bicultural-innovator",
+      "source_path": "becoming-bicultural-innovator.md",
+      "target": "grassroots-learning-initiatives.md",
+      "target_concept_id": "grassroots-learning-initiatives",
+      "target_path": "grassroots-learning-initiatives.md",
+      "text": "grassroots learning initiatives",
+      "title": null
+    },
+    {
+      "source_concept_id": "becoming-bicultural-innovator",
+      "source_path": "becoming-bicultural-innovator.md",
+      "target": "leader-as-teacher.md",
+      "target_concept_id": "leader-as-teacher",
+      "target_path": "leader-as-teacher.md",
+      "text": "leader as teacher",
+      "title": null
+    },
+    {
+      "source_concept_id": "boiled-frog",
+      "source_path": "boiled-frog.md",
+      "target": "fixation-on-events.md",
+      "target_concept_id": "fixation-on-events",
+      "target_path": "fixation-on-events.md",
+      "text": "fixation on events",
+      "title": null
+    },
+    {
+      "source_concept_id": "boiled-frog",
+      "source_path": "boiled-frog.md",
+      "target": "seven-learning-disabilities.md",
+      "target_concept_id": "seven-learning-disabilities",
+      "target_path": "seven-learning-disabilities.md",
+      "text": "learning disabilities",
+      "title": null
+    },
+    {
+      "source_concept_id": "cassandra-culture",
+      "source_path": "cassandra-culture.md",
+      "target": "asymmetry-of-voice-and-silence.md",
+      "target_concept_id": "asymmetry-of-voice-and-silence",
+      "target_path": "asymmetry-of-voice-and-silence.md",
+      "text": "voice",
+      "title": null
+    },
+    {
+      "source_concept_id": "cassandra-culture",
+      "source_path": "cassandra-culture.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "Psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "connecting-innovation-to-organizational-core",
+      "source_path": "connecting-innovation-to-organizational-core.md",
+      "target": "becoming-bicultural-innovator.md",
+      "target_concept_id": "becoming-bicultural-innovator",
+      "target_path": "becoming-bicultural-innovator.md",
+      "text": "becoming bicultural as innovator",
+      "title": null
+    },
+    {
+      "source_concept_id": "connecting-innovation-to-organizational-core",
+      "source_path": "connecting-innovation-to-organizational-core.md",
+      "target": "creative-tension.md",
+      "target_concept_id": "creative-tension",
+      "target_path": "creative-tension.md",
+      "text": "creative tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "connecting-innovation-to-organizational-core",
+      "source_path": "connecting-innovation-to-organizational-core.md",
+      "target": "leader-as-steward.md",
+      "target_concept_id": "leader-as-steward",
+      "target_path": "leader-as-steward.md",
+      "text": "leader as steward",
+      "title": null
+    },
+    {
+      "source_concept_id": "countering-groupthink",
+      "source_path": "countering-groupthink.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue versus discussion",
+      "title": null
+    },
+    {
+      "source_concept_id": "countering-groupthink",
+      "source_path": "countering-groupthink.md",
+      "target": "groupthink.md",
+      "target_concept_id": "groupthink",
+      "target_path": "groupthink.md",
+      "text": "groupthink",
+      "title": null
+    },
+    {
+      "source_concept_id": "countering-groupthink",
+      "source_path": "countering-groupthink.md",
+      "target": "inviting-participation.md",
+      "target_concept_id": "inviting-participation",
+      "target_path": "inviting-participation.md",
+      "text": "inviting participation",
+      "title": null
+    },
+    {
+      "source_concept_id": "countering-groupthink",
+      "source_path": "countering-groupthink.md",
+      "target": "precision-questioning.md",
+      "target_concept_id": "precision-questioning",
+      "target_path": "precision-questioning.md",
+      "text": "Precision questioning",
+      "title": null
+    },
+    {
+      "source_concept_id": "countering-groupthink",
+      "source_path": "countering-groupthink.md",
+      "target": "premortem-technique.md",
+      "target_concept_id": "premortem-technique",
+      "target_path": "premortem-technique.md",
+      "text": "premortem technique",
+      "title": null
+    },
+    {
+      "source_concept_id": "countering-groupthink",
+      "source_path": "countering-groupthink.md",
+      "target": "setting-the-stage-for-candor.md",
+      "target_concept_id": "setting-the-stage-for-candor",
+      "target_path": "setting-the-stage-for-candor.md",
+      "text": "setting the stage for candor",
+      "title": null
+    },
+    {
+      "source_concept_id": "creative-tension",
+      "source_path": "creative-tension.md",
+      "target": "leader-as-steward.md",
+      "target_concept_id": "leader-as-steward",
+      "target_path": "leader-as-steward.md",
+      "text": "Leaders as stewards",
+      "title": null
+    },
+    {
+      "source_concept_id": "creative-tension",
+      "source_path": "creative-tension.md",
+      "target": "leader-as-teacher.md",
+      "target_concept_id": "leader-as-teacher",
+      "target_path": "leader-as-teacher.md",
+      "text": "Leaders as teachers",
+      "title": null
+    },
+    {
+      "source_concept_id": "creative-tension",
+      "source_path": "creative-tension.md",
+      "target": "psychological-safety-and-performance-standards.md",
+      "target_concept_id": "psychological-safety-and-performance-standards",
+      "target_path": "psychological-safety-and-performance-standards.md",
+      "text": "psychological safety and performance standards",
+      "title": null
+    },
+    {
+      "source_concept_id": "dangerous-silence",
+      "source_path": "dangerous-silence.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "deep-learning-cycle",
+      "source_path": "deep-learning-cycle.md",
+      "target": "learning-infrastructure-beyond-training.md",
+      "target_concept_id": "learning-infrastructure-beyond-training",
+      "target_path": "learning-infrastructure-beyond-training.md",
+      "text": "learning infrastructure beyond training",
+      "title": null
+    },
+    {
+      "source_concept_id": "deep-learning-cycle",
+      "source_path": "deep-learning-cycle.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models as organizational routine",
+      "title": null
+    },
+    {
+      "source_concept_id": "defensive-routines",
+      "source_path": "defensive-routines.md",
+      "target": "skilled-incompetence.md",
+      "target_concept_id": "skilled-incompetence",
+      "target_path": "skilled-incompetence.md",
+      "text": "skilled incompetence",
+      "title": null
+    },
+    {
+      "source_concept_id": "delays-in-systems",
+      "source_path": "delays-in-systems.md",
+      "target": "delusion-of-learning-from-experience.md",
+      "target_concept_id": "delusion-of-learning-from-experience",
+      "target_path": "delusion-of-learning-from-experience.md",
+      "text": "delusion of learning from experience",
+      "title": null
+    },
+    {
+      "source_concept_id": "delays-in-systems",
+      "source_path": "delays-in-systems.md",
+      "target": "fixation-on-events.md",
+      "target_concept_id": "fixation-on-events",
+      "target_path": "fixation-on-events.md",
+      "text": "fixation on events",
+      "title": null
+    },
+    {
+      "source_concept_id": "delays-in-systems",
+      "source_path": "delays-in-systems.md",
+      "target": "reinforcing-feedback.md",
+      "target_concept_id": "reinforcing-feedback",
+      "target_path": "reinforcing-feedback.md",
+      "text": "reinforcing feedback",
+      "title": null
+    },
+    {
+      "source_concept_id": "deliberate-culture-recovery",
+      "source_path": "deliberate-culture-recovery.md",
+      "target": "failure-parties.md",
+      "target_concept_id": "failure-parties",
+      "target_path": "failure-parties.md",
+      "text": "failure parties",
+      "title": null
+    },
+    {
+      "source_concept_id": "deliberate-culture-recovery",
+      "source_path": "deliberate-culture-recovery.md",
+      "target": "illusion-of-success-from-silence.md",
+      "target_concept_id": "illusion-of-success-from-silence",
+      "target_path": "illusion-of-success-from-silence.md",
+      "text": "illusion of success from silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "deliberate-culture-recovery",
+      "source_path": "deliberate-culture-recovery.md",
+      "target": "psychological-safety-as-ongoing-process.md",
+      "target_concept_id": "psychological-safety-as-ongoing-process",
+      "target_path": "psychological-safety-as-ongoing-process.md",
+      "text": "psychological safety as an ongoing process",
+      "title": null
+    },
+    {
+      "source_concept_id": "delusion-of-learning-from-experience",
+      "source_path": "delusion-of-learning-from-experience.md",
+      "target": "seven-learning-disabilities.md",
+      "target_concept_id": "seven-learning-disabilities",
+      "target_path": "seven-learning-disabilities.md",
+      "text": "learning disabilities",
+      "title": null
+    },
+    {
+      "source_concept_id": "delusion-of-learning-from-experience",
+      "source_path": "delusion-of-learning-from-experience.md",
+      "target": "team-learning.md",
+      "target_concept_id": "team-learning",
+      "target_path": "team-learning.md",
+      "text": "team learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "dialogue-versus-discussion",
+      "source_path": "dialogue-versus-discussion.md",
+      "target": "suspending-assumptions.md",
+      "target_concept_id": "suspending-assumptions",
+      "target_path": "suspending-assumptions.md",
+      "text": "Suspend assumptions",
+      "title": null
+    },
+    {
+      "source_concept_id": "dialogue-versus-discussion",
+      "source_path": "dialogue-versus-discussion.md",
+      "target": "team-learning.md",
+      "target_concept_id": "team-learning",
+      "target_path": "team-learning.md",
+      "text": "Team learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "discounting-the-future-for-interpersonal-risk",
+      "source_path": "discounting-the-future-for-interpersonal-risk.md",
+      "target": "interpersonal-risk-taking-at-work.md",
+      "target_concept_id": "interpersonal-risk-taking-at-work",
+      "target_path": "interpersonal-risk-taking-at-work.md",
+      "text": "discount the future",
+      "title": null
+    },
+    {
+      "source_concept_id": "ecology-of-leadership",
+      "source_path": "ecology-of-leadership.md",
+      "target": "leader-as-designer.md",
+      "target_concept_id": "leader-as-designer",
+      "target_path": "leader-as-designer.md",
+      "text": "designer",
+      "title": null
+    },
+    {
+      "source_concept_id": "ecology-of-leadership",
+      "source_path": "ecology-of-leadership.md",
+      "target": "leader-as-steward.md",
+      "target_concept_id": "leader-as-steward",
+      "target_path": "leader-as-steward.md",
+      "text": "steward",
+      "title": null
+    },
+    {
+      "source_concept_id": "ecology-of-leadership",
+      "source_path": "ecology-of-leadership.md",
+      "target": "leader-as-teacher.md",
+      "target_concept_id": "leader-as-teacher",
+      "target_path": "leader-as-teacher.md",
+      "text": "teacher",
+      "title": null
+    },
+    {
+      "source_concept_id": "ecology-of-leadership",
+      "source_path": "ecology-of-leadership.md",
+      "target": "psychological-safety-without-formal-authority.md",
+      "target_concept_id": "psychological-safety-without-formal-authority",
+      "target_path": "psychological-safety-without-formal-authority.md",
+      "text": "psychological safety without formal authority",
+      "title": null
+    },
+    {
+      "source_concept_id": "enrollment-vs-compliance",
+      "source_path": "enrollment-vs-compliance.md",
+      "target": "shared-vision-as-common-caring.md",
+      "target_concept_id": "shared-vision-as-common-caring",
+      "target_path": "shared-vision-as-common-caring.md",
+      "text": "shared vision as common caring",
+      "title": null
+    },
+    {
+      "source_concept_id": "enrollment-vs-compliance",
+      "source_path": "enrollment-vs-compliance.md",
+      "target": "why-shared-visions-die.md",
+      "target_concept_id": "why-shared-visions-die",
+      "target_path": "why-shared-visions-die.md",
+      "text": "why shared visions die",
+      "title": null
+    },
+    {
+      "source_concept_id": "epidemic-of-workplace-silence",
+      "source_path": "epidemic-of-workplace-silence.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "Psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "error-reporting-paradox",
+      "source_path": "error-reporting-paradox.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "error-reporting paradox",
+      "title": null
+    },
+    {
+      "source_concept_id": "espoused-theory-vs-theory-in-use",
+      "source_path": "espoused-theory-vs-theory-in-use.md",
+      "target": "creative-tension.md",
+      "target_concept_id": "creative-tension",
+      "target_path": "creative-tension.md",
+      "text": "creative tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "espoused-theory-vs-theory-in-use",
+      "source_path": "espoused-theory-vs-theory-in-use.md",
+      "target": "leaps-of-abstraction.md",
+      "target_concept_id": "leaps-of-abstraction",
+      "target_path": "leaps-of-abstraction.md",
+      "text": "leaps of abstraction",
+      "title": null
+    },
+    {
+      "source_concept_id": "espoused-theory-vs-theory-in-use",
+      "source_path": "espoused-theory-vs-theory-in-use.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models as organizational routine",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-parties",
+      "source_path": "failure-parties.md",
+      "target": "failure-taxonomy.md",
+      "target_concept_id": "failure-taxonomy",
+      "target_path": "failure-taxonomy.md",
+      "text": "intelligent failures",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-parties",
+      "source_path": "failure-parties.md",
+      "target": "responding-productively-to-voice.md",
+      "target_concept_id": "responding-productively-to-voice",
+      "target_path": "responding-productively-to-voice.md",
+      "text": "destigmatizing failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-taxonomy",
+      "source_path": "failure-taxonomy.md",
+      "target": "epidemic-of-workplace-silence.md",
+      "target_concept_id": "epidemic-of-workplace-silence",
+      "target_path": "epidemic-of-workplace-silence.md",
+      "text": "epidemic silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-taxonomy",
+      "source_path": "failure-taxonomy.md",
+      "target": "failure-parties.md",
+      "target_concept_id": "failure-parties",
+      "target_path": "failure-parties.md",
+      "text": "failure parties",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-taxonomy",
+      "source_path": "failure-taxonomy.md",
+      "target": "setting-the-stage-for-candor.md",
+      "target_concept_id": "setting-the-stage-for-candor",
+      "target_path": "setting-the-stage-for-candor.md",
+      "text": "framing task",
+      "title": null
+    },
+    {
+      "source_concept_id": "fear-as-ineffective-motivator",
+      "source_path": "fear-as-ineffective-motivator.md",
+      "target": "illusion-of-success-from-silence.md",
+      "target_concept_id": "illusion-of-success-from-silence",
+      "target_path": "illusion-of-success-from-silence.md",
+      "text": "illusion of success from silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "fear-as-ineffective-motivator",
+      "source_path": "fear-as-ineffective-motivator.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "fearless-organization",
+      "source_path": "fearless-organization.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "Psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "five-disciplines-as-ensemble",
+      "source_path": "five-disciplines-as-ensemble.md",
+      "target": "creative-tension.md",
+      "target_concept_id": "creative-tension",
+      "target_path": "creative-tension.md",
+      "text": "creative tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "five-disciplines-as-ensemble",
+      "source_path": "five-disciplines-as-ensemble.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "Mental models as organizational routine",
+      "title": null
+    },
+    {
+      "source_concept_id": "five-disciplines-as-ensemble",
+      "source_path": "five-disciplines-as-ensemble.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "Systems thinking as learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "five-disciplines-as-ensemble",
+      "source_path": "five-disciplines-as-ensemble.md",
+      "target": "team-learning.md",
+      "target_concept_id": "team-learning",
+      "target_path": "team-learning.md",
+      "text": "Team learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "fixation-on-events",
+      "source_path": "fixation-on-events.md",
+      "target": "boiled-frog.md",
+      "target_concept_id": "boiled-frog",
+      "target_path": "boiled-frog.md",
+      "text": "boiled frog",
+      "title": null
+    },
+    {
+      "source_concept_id": "fixation-on-events",
+      "source_path": "fixation-on-events.md",
+      "target": "seven-learning-disabilities.md",
+      "target_concept_id": "seven-learning-disabilities",
+      "target_path": "seven-learning-disabilities.md",
+      "text": "learning disabilities",
+      "title": null
+    },
+    {
+      "source_concept_id": "focused-event-analysis",
+      "source_path": "focused-event-analysis.md",
+      "target": "dangerous-silence.md",
+      "target_concept_id": "dangerous-silence",
+      "target_path": "dangerous-silence.md",
+      "text": "dangerous silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "focused-event-analysis",
+      "source_path": "focused-event-analysis.md",
+      "target": "failure-taxonomy.md",
+      "target_concept_id": "failure-taxonomy",
+      "target_path": "failure-taxonomy.md",
+      "text": "complex failures",
+      "title": null
+    },
+    {
+      "source_concept_id": "focused-event-analysis",
+      "source_path": "focused-event-analysis.md",
+      "target": "responding-productively-to-voice.md",
+      "target_concept_id": "responding-productively-to-voice",
+      "target_path": "responding-productively-to-voice.md",
+      "text": "responding productively to voice",
+      "title": null
+    },
+    {
+      "source_concept_id": "grassroots-learning-initiatives",
+      "source_path": "grassroots-learning-initiatives.md",
+      "target": "becoming-bicultural-innovator.md",
+      "target_concept_id": "becoming-bicultural-innovator",
+      "target_path": "becoming-bicultural-innovator.md",
+      "text": "becoming bicultural",
+      "title": null
+    },
+    {
+      "source_concept_id": "grassroots-learning-initiatives",
+      "source_path": "grassroots-learning-initiatives.md",
+      "target": "connecting-innovation-to-organizational-core.md",
+      "target_concept_id": "connecting-innovation-to-organizational-core",
+      "target_path": "connecting-innovation-to-organizational-core.md",
+      "text": "connecting innovation to organizational core",
+      "title": null
+    },
+    {
+      "source_concept_id": "groupthink",
+      "source_path": "groupthink.md",
+      "target": "countering-groupthink.md",
+      "target_concept_id": "countering-groupthink",
+      "target_path": "countering-groupthink.md",
+      "text": "countering groupthink",
+      "title": null
+    },
+    {
+      "source_concept_id": "groupthink",
+      "source_path": "groupthink.md",
+      "target": "myth-of-the-management-team.md",
+      "target_concept_id": "myth-of-the-management-team",
+      "target_path": "myth-of-the-management-team.md",
+      "text": "myth of the management team",
+      "title": null
+    },
+    {
+      "source_concept_id": "groupthink",
+      "source_path": "groupthink.md",
+      "target": "precision-questioning.md",
+      "target_concept_id": "precision-questioning",
+      "target_path": "precision-questioning.md",
+      "text": "Precision questioning",
+      "title": null
+    },
+    {
+      "source_concept_id": "groupthink",
+      "source_path": "groupthink.md",
+      "target": "productive-conflict-in-learning-teams.md",
+      "target_concept_id": "productive-conflict-in-learning-teams",
+      "target_path": "productive-conflict-in-learning-teams.md",
+      "text": "productive conflict in learning teams",
+      "title": null
+    },
+    {
+      "source_concept_id": "groupthink",
+      "source_path": "groupthink.md",
+      "target": "seven-learning-disabilities.md",
+      "target_concept_id": "seven-learning-disabilities",
+      "target_path": "seven-learning-disabilities.md",
+      "text": "learning disabilities",
+      "title": null
+    },
+    {
+      "source_concept_id": "groupthink",
+      "source_path": "groupthink.md",
+      "target": "team-collective-open-mindedness.md",
+      "target_concept_id": "team-collective-open-mindedness",
+      "target_path": "team-collective-open-mindedness.md",
+      "text": "team collective open-mindedness",
+      "title": null
+    },
+    {
+      "source_concept_id": "growth-and-underinvestment-archetype",
+      "source_path": "growth-and-underinvestment-archetype.md",
+      "target": "boiled-frog.md",
+      "target_concept_id": "boiled-frog",
+      "target_path": "boiled-frog.md",
+      "text": "boiled frog",
+      "title": null
+    },
+    {
+      "source_concept_id": "growth-and-underinvestment-archetype",
+      "source_path": "growth-and-underinvestment-archetype.md",
+      "target": "delusion-of-learning-from-experience.md",
+      "target_concept_id": "delusion-of-learning-from-experience",
+      "target_path": "delusion-of-learning-from-experience.md",
+      "text": "delusion of learning from experience",
+      "title": null
+    },
+    {
+      "source_concept_id": "growth-and-underinvestment-archetype",
+      "source_path": "growth-and-underinvestment-archetype.md",
+      "target": "limits-to-growth-archetype.md",
+      "target_concept_id": "limits-to-growth-archetype",
+      "target_path": "limits-to-growth-archetype.md",
+      "text": "limits to growth",
+      "title": null
+    },
+    {
+      "source_concept_id": "growth-and-underinvestment-archetype",
+      "source_path": "growth-and-underinvestment-archetype.md",
+      "target": "shifting-the-burden-archetype.md",
+      "target_concept_id": "shifting-the-burden-archetype",
+      "target_path": "shifting-the-burden-archetype.md",
+      "text": "shifting the burden",
+      "title": null
+    },
+    {
+      "source_concept_id": "growth-and-underinvestment-archetype",
+      "source_path": "growth-and-underinvestment-archetype.md",
+      "target": "systems-archetypes.md",
+      "target_concept_id": "systems-archetypes",
+      "target_path": "systems-archetypes.md",
+      "text": "systems archetypes",
+      "title": null
+    },
+    {
+      "source_concept_id": "i-am-my-position",
+      "source_path": "i-am-my-position.md",
+      "target": "seven-learning-disabilities.md",
+      "target_concept_id": "seven-learning-disabilities",
+      "target_path": "seven-learning-disabilities.md",
+      "text": "learning disabilities",
+      "title": null
+    },
+    {
+      "source_concept_id": "illusion-of-success-from-silence",
+      "source_path": "illusion-of-success-from-silence.md",
+      "target": "dangerous-silence.md",
+      "target_concept_id": "dangerous-silence",
+      "target_path": "dangerous-silence.md",
+      "text": "dangerous silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "illusion-of-success-from-silence",
+      "source_path": "illusion-of-success-from-silence.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "illusion-of-success-from-silence",
+      "source_path": "illusion-of-success-from-silence.md",
+      "target": "strategy-as-hypothesis.md",
+      "target_concept_id": "strategy-as-hypothesis",
+      "target_path": "strategy-as-hypothesis.md",
+      "text": "strategy as hypothesis",
+      "title": null
+    },
+    {
+      "source_concept_id": "illusion-of-taking-charge",
+      "source_path": "illusion-of-taking-charge.md",
+      "target": "seven-learning-disabilities.md",
+      "target_concept_id": "seven-learning-disabilities",
+      "target_path": "seven-learning-disabilities.md",
+      "text": "learning disabilities",
+      "title": null
+    },
+    {
+      "source_concept_id": "illusion-of-taking-charge",
+      "source_path": "illusion-of-taking-charge.md",
+      "target": "the-enemy-is-out-there.md",
+      "target_concept_id": "the-enemy-is-out-there",
+      "target_path": "the-enemy-is-out-there.md",
+      "text": "enemy out there",
+      "title": null
+    },
+    {
+      "source_concept_id": "institutionalized-candor",
+      "source_path": "institutionalized-candor.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "institutionalized-candor",
+      "source_path": "institutionalized-candor.md",
+      "target": "uncoupling-fear-and-failure.md",
+      "target_concept_id": "uncoupling-fear-and-failure",
+      "target_path": "uncoupling-fear-and-failure.md",
+      "text": "uncoupling fear and failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "integrating-learning-and-work",
+      "source_path": "integrating-learning-and-work.md",
+      "target": "after-action-reviews.md",
+      "target_concept_id": "after-action-reviews",
+      "target_path": "after-action-reviews.md",
+      "text": "After Action Reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "integrating-learning-and-work",
+      "source_path": "integrating-learning-and-work.md",
+      "target": "practice-fields-for-management-teams.md",
+      "target_concept_id": "practice-fields-for-management-teams",
+      "target_path": "practice-fields-for-management-teams.md",
+      "text": "practice fields for management teams",
+      "title": null
+    },
+    {
+      "source_concept_id": "integrating-learning-and-work",
+      "source_path": "integrating-learning-and-work.md",
+      "target": "tacit-knowledge-through-storytelling.md",
+      "target_concept_id": "tacit-knowledge-through-storytelling",
+      "target_path": "tacit-knowledge-through-storytelling.md",
+      "text": "tacit knowledge through storytelling",
+      "title": null
+    },
+    {
+      "source_concept_id": "interpersonal-risk-taking-at-work",
+      "source_path": "interpersonal-risk-taking-at-work.md",
+      "target": "micro-assessment-of-interpersonal-risk.md",
+      "target_concept_id": "micro-assessment-of-interpersonal-risk",
+      "target_path": "micro-assessment-of-interpersonal-risk.md",
+      "text": "micro-assessment",
+      "title": null
+    },
+    {
+      "source_concept_id": "interpersonal-risk-taking-at-work",
+      "source_path": "interpersonal-risk-taking-at-work.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "Psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "inviting-participation",
+      "source_path": "inviting-participation.md",
+      "target": "asymmetry-of-voice-and-silence.md",
+      "target_concept_id": "asymmetry-of-voice-and-silence",
+      "target_path": "asymmetry-of-voice-and-silence.md",
+      "text": "asymmetry of voice and silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "inviting-participation",
+      "source_path": "inviting-participation.md",
+      "target": "leaders-toolkit-for-psychological-safety.md",
+      "target_concept_id": "leaders-toolkit-for-psychological-safety",
+      "target_path": "leaders-toolkit-for-psychological-safety.md",
+      "text": "leader's toolkit",
+      "title": null
+    },
+    {
+      "source_concept_id": "laws-of-systems-thinking",
+      "source_path": "laws-of-systems-thinking.md",
+      "target": "balancing-feedback.md",
+      "target_concept_id": "balancing-feedback",
+      "target_path": "balancing-feedback.md",
+      "text": "balancing feedback",
+      "title": null
+    },
+    {
+      "source_concept_id": "laws-of-systems-thinking",
+      "source_path": "laws-of-systems-thinking.md",
+      "target": "delays-in-systems.md",
+      "target_concept_id": "delays-in-systems",
+      "target_path": "delays-in-systems.md",
+      "text": "delay",
+      "title": null
+    },
+    {
+      "source_concept_id": "laws-of-systems-thinking",
+      "source_path": "laws-of-systems-thinking.md",
+      "target": "fixation-on-events.md",
+      "target_concept_id": "fixation-on-events",
+      "target_path": "fixation-on-events.md",
+      "text": "political decision making",
+      "title": null
+    },
+    {
+      "source_concept_id": "laws-of-systems-thinking",
+      "source_path": "laws-of-systems-thinking.md",
+      "target": "i-am-my-position.md",
+      "target_concept_id": "i-am-my-position",
+      "target_path": "i-am-my-position.md",
+      "text": "I am my position",
+      "title": null
+    },
+    {
+      "source_concept_id": "laws-of-systems-thinking",
+      "source_path": "laws-of-systems-thinking.md",
+      "target": "limits-to-growth-archetype.md",
+      "target_concept_id": "limits-to-growth-archetype",
+      "target_path": "limits-to-growth-archetype.md",
+      "text": "limits to growth",
+      "title": null
+    },
+    {
+      "source_concept_id": "laws-of-systems-thinking",
+      "source_path": "laws-of-systems-thinking.md",
+      "target": "shifting-the-burden-archetype.md",
+      "target_concept_id": "shifting-the-burden-archetype",
+      "target_path": "shifting-the-burden-archetype.md",
+      "text": "shifting the burden to the intervenor",
+      "title": null
+    },
+    {
+      "source_concept_id": "laws-of-systems-thinking",
+      "source_path": "laws-of-systems-thinking.md",
+      "target": "systems-archetypes.md",
+      "target_concept_id": "systems-archetypes",
+      "target_path": "systems-archetypes.md",
+      "text": "systems archetypes",
+      "title": null
+    },
+    {
+      "source_concept_id": "laws-of-systems-thinking",
+      "source_path": "laws-of-systems-thinking.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "systems thinking as learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "laws-of-systems-thinking",
+      "source_path": "laws-of-systems-thinking.md",
+      "target": "the-enemy-is-out-there.md",
+      "target_concept_id": "the-enemy-is-out-there",
+      "target_path": "the-enemy-is-out-there.md",
+      "text": "the enemy is out there",
+      "title": null
+    },
+    {
+      "source_concept_id": "laws-of-systems-thinking",
+      "source_path": "laws-of-systems-thinking.md",
+      "target": "three-levels-of-explanation.md",
+      "target_concept_id": "three-levels-of-explanation",
+      "target_path": "three-levels-of-explanation.md",
+      "text": "three levels of explanation",
+      "title": null
+    },
+    {
+      "source_concept_id": "leader-as-designer",
+      "source_path": "leader-as-designer.md",
+      "target": "ecology-of-leadership.md",
+      "target_concept_id": "ecology-of-leadership",
+      "target_path": "ecology-of-leadership.md",
+      "text": "ecology of leadership",
+      "title": null
+    },
+    {
+      "source_concept_id": "leader-as-designer",
+      "source_path": "leader-as-designer.md",
+      "target": "leader-as-steward.md",
+      "target_concept_id": "leader-as-steward",
+      "target_path": "leader-as-steward.md",
+      "text": "steward",
+      "title": null
+    },
+    {
+      "source_concept_id": "leader-as-designer",
+      "source_path": "leader-as-designer.md",
+      "target": "leader-as-teacher.md",
+      "target_concept_id": "leader-as-teacher",
+      "target_path": "leader-as-teacher.md",
+      "text": "teacher",
+      "title": null
+    },
+    {
+      "source_concept_id": "leader-as-steward",
+      "source_path": "leader-as-steward.md",
+      "target": "creative-tension.md",
+      "target_concept_id": "creative-tension",
+      "target_path": "creative-tension.md",
+      "text": "creative tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "leader-as-steward",
+      "source_path": "leader-as-steward.md",
+      "target": "ecology-of-leadership.md",
+      "target_concept_id": "ecology-of-leadership",
+      "target_path": "ecology-of-leadership.md",
+      "text": "ecology of leadership",
+      "title": null
+    },
+    {
+      "source_concept_id": "leader-as-teacher",
+      "source_path": "leader-as-teacher.md",
+      "target": "ecology-of-leadership.md",
+      "target_concept_id": "ecology-of-leadership",
+      "target_path": "ecology-of-leadership.md",
+      "text": "ecology of leadership",
+      "title": null
+    },
+    {
+      "source_concept_id": "leader-as-teacher",
+      "source_path": "leader-as-teacher.md",
+      "target": "leader-as-designer.md",
+      "target_concept_id": "leader-as-designer",
+      "target_path": "leader-as-designer.md",
+      "text": "designer",
+      "title": null
+    },
+    {
+      "source_concept_id": "leader-as-teacher",
+      "source_path": "leader-as-teacher.md",
+      "target": "leader-as-steward.md",
+      "target_concept_id": "leader-as-steward",
+      "target_path": "leader-as-steward.md",
+      "text": "steward",
+      "title": null
+    },
+    {
+      "source_concept_id": "leaders-toolkit-for-psychological-safety",
+      "source_path": "leaders-toolkit-for-psychological-safety.md",
+      "target": "inviting-participation.md",
+      "target_concept_id": "inviting-participation",
+      "target_path": "inviting-participation.md",
+      "text": "Inviting participation",
+      "title": null
+    },
+    {
+      "source_concept_id": "leaders-toolkit-for-psychological-safety",
+      "source_path": "leaders-toolkit-for-psychological-safety.md",
+      "target": "psychological-safety-as-ongoing-process.md",
+      "target_concept_id": "psychological-safety-as-ongoing-process",
+      "target_path": "psychological-safety-as-ongoing-process.md",
+      "text": "psychological safety as an ongoing process",
+      "title": null
+    },
+    {
+      "source_concept_id": "leaders-toolkit-for-psychological-safety",
+      "source_path": "leaders-toolkit-for-psychological-safety.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "leaders-toolkit-for-psychological-safety",
+      "source_path": "leaders-toolkit-for-psychological-safety.md",
+      "target": "responding-productively-to-voice.md",
+      "target_concept_id": "responding-productively-to-voice",
+      "target_path": "responding-productively-to-voice.md",
+      "text": "Responding productively",
+      "title": null
+    },
+    {
+      "source_concept_id": "leaders-toolkit-for-psychological-safety",
+      "source_path": "leaders-toolkit-for-psychological-safety.md",
+      "target": "setting-the-stage-for-candor.md",
+      "target_concept_id": "setting-the-stage-for-candor",
+      "target_path": "setting-the-stage-for-candor.md",
+      "text": "Setting the stage",
+      "title": null
+    },
+    {
+      "source_concept_id": "leaps-of-abstraction",
+      "source_path": "leaps-of-abstraction.md",
+      "target": "balancing-inquiry-and-advocacy.md",
+      "target_concept_id": "balancing-inquiry-and-advocacy",
+      "target_path": "balancing-inquiry-and-advocacy.md",
+      "text": "balancing inquiry and advocacy",
+      "title": null
+    },
+    {
+      "source_concept_id": "leaps-of-abstraction",
+      "source_path": "leaps-of-abstraction.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models as organizational routine",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-communities",
+      "source_path": "learning-communities.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue versus discussion",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-communities",
+      "source_path": "learning-communities.md",
+      "target": "working-across-difference.md",
+      "target_concept_id": "working-across-difference",
+      "target_path": "working-across-difference.md",
+      "text": "working across difference",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-infrastructure-beyond-training",
+      "source_path": "learning-infrastructure-beyond-training.md",
+      "target": "after-action-reviews.md",
+      "target_concept_id": "after-action-reviews",
+      "target_path": "after-action-reviews.md",
+      "text": "After Action Reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-infrastructure-beyond-training",
+      "source_path": "learning-infrastructure-beyond-training.md",
+      "target": "balancing-inquiry-and-advocacy.md",
+      "target_concept_id": "balancing-inquiry-and-advocacy",
+      "target_path": "balancing-inquiry-and-advocacy.md",
+      "text": "balancing inquiry and advocacy",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-infrastructure-beyond-training",
+      "source_path": "learning-infrastructure-beyond-training.md",
+      "target": "leader-as-designer.md",
+      "target_concept_id": "leader-as-designer",
+      "target_path": "leader-as-designer.md",
+      "text": "leader as designer",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-infrastructure-beyond-training",
+      "source_path": "learning-infrastructure-beyond-training.md",
+      "target": "left-hand-column-technique.md",
+      "target_concept_id": "left-hand-column-technique",
+      "target_path": "left-hand-column-technique.md",
+      "text": "left-hand column",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-infrastructure-beyond-training",
+      "source_path": "learning-infrastructure-beyond-training.md",
+      "target": "practice-fields-for-management-teams.md",
+      "target_concept_id": "practice-fields-for-management-teams",
+      "target_path": "practice-fields-for-management-teams.md",
+      "text": "practice fields",
+      "title": null
+    },
+    {
+      "source_concept_id": "left-hand-column-technique",
+      "source_path": "left-hand-column-technique.md",
+      "target": "balancing-inquiry-and-advocacy.md",
+      "target_concept_id": "balancing-inquiry-and-advocacy",
+      "target_path": "balancing-inquiry-and-advocacy.md",
+      "text": "balancing inquiry and advocacy",
+      "title": null
+    },
+    {
+      "source_concept_id": "left-hand-column-technique",
+      "source_path": "left-hand-column-technique.md",
+      "target": "defensive-routines.md",
+      "target_concept_id": "defensive-routines",
+      "target_path": "defensive-routines.md",
+      "text": "defensive routines",
+      "title": null
+    },
+    {
+      "source_concept_id": "left-hand-column-technique",
+      "source_path": "left-hand-column-technique.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models",
+      "title": null
+    },
+    {
+      "source_concept_id": "legitimacy-of-the-other",
+      "source_path": "legitimacy-of-the-other.md",
+      "target": "inviting-participation.md",
+      "target_concept_id": "inviting-participation",
+      "target_path": "inviting-participation.md",
+      "text": "inviting participation",
+      "title": null
+    },
+    {
+      "source_concept_id": "legitimacy-of-the-other",
+      "source_path": "legitimacy-of-the-other.md",
+      "target": "networks-of-collaboration.md",
+      "target_concept_id": "networks-of-collaboration",
+      "target_path": "networks-of-collaboration.md",
+      "text": "networks of collaboration",
+      "title": null
+    },
+    {
+      "source_concept_id": "legitimacy-of-the-other",
+      "source_path": "legitimacy-of-the-other.md",
+      "target": "peacekeeping-circles.md",
+      "target_concept_id": "peacekeeping-circles",
+      "target_path": "peacekeeping-circles.md",
+      "text": "peacekeeping circles",
+      "title": null
+    },
+    {
+      "source_concept_id": "legitimacy-of-the-other",
+      "source_path": "legitimacy-of-the-other.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "legitimacy-of-the-other",
+      "source_path": "legitimacy-of-the-other.md",
+      "target": "reflective-openness.md",
+      "target_concept_id": "reflective-openness",
+      "target_path": "reflective-openness.md",
+      "text": "participative openness without reflectivelearning",
+      "title": null
+    },
+    {
+      "source_concept_id": "legitimacy-of-the-other",
+      "source_path": "legitimacy-of-the-other.md",
+      "target": "reflective-openness.md",
+      "target_concept_id": "reflective-openness",
+      "target_path": "reflective-openness.md",
+      "text": "reflective openness",
+      "title": null
+    },
+    {
+      "source_concept_id": "limits-to-growth-archetype",
+      "source_path": "limits-to-growth-archetype.md",
+      "target": "boiled-frog.md",
+      "target_concept_id": "boiled-frog",
+      "target_path": "boiled-frog.md",
+      "text": "boiled frog",
+      "title": null
+    },
+    {
+      "source_concept_id": "limits-to-growth-archetype",
+      "source_path": "limits-to-growth-archetype.md",
+      "target": "systems-archetypes.md",
+      "target_concept_id": "systems-archetypes",
+      "target_path": "systems-archetypes.md",
+      "text": "systems archetypes",
+      "title": null
+    },
+    {
+      "source_concept_id": "machine-age-thinking",
+      "source_path": "machine-age-thinking.md",
+      "target": "leader-as-designer.md",
+      "target_concept_id": "leader-as-designer",
+      "target_path": "leader-as-designer.md",
+      "text": "leader as designer",
+      "title": null
+    },
+    {
+      "source_concept_id": "machine-age-thinking",
+      "source_path": "machine-age-thinking.md",
+      "target": "organizations-as-living-systems.md",
+      "target_concept_id": "organizations-as-living-systems",
+      "target_path": "organizations-as-living-systems.md",
+      "text": "living systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "machine-age-thinking",
+      "source_path": "machine-age-thinking.md",
+      "target": "purpose-beyond-profit.md",
+      "target_concept_id": "purpose-beyond-profit",
+      "target_path": "purpose-beyond-profit.md",
+      "text": "purpose beyond profit",
+      "title": null
+    },
+    {
+      "source_concept_id": "measuring-psychological-safety",
+      "source_path": "measuring-psychological-safety.md",
+      "target": "psychological-safety-as-group-climate.md",
+      "target_concept_id": "psychological-safety-as-group-climate",
+      "target_path": "psychological-safety-as-group-climate.md",
+      "text": "group level",
+      "title": null
+    },
+    {
+      "source_concept_id": "measuring-psychological-safety",
+      "source_path": "measuring-psychological-safety.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "mental-models-as-organizational-routine",
+      "source_path": "mental-models-as-organizational-routine.md",
+      "target": "defensive-routines.md",
+      "target_concept_id": "defensive-routines",
+      "target_path": "defensive-routines.md",
+      "text": "defensive routines",
+      "title": null
+    },
+    {
+      "source_concept_id": "mental-models-as-organizational-routine",
+      "source_path": "mental-models-as-organizational-routine.md",
+      "target": "reflective-openness.md",
+      "target_concept_id": "reflective-openness",
+      "target_path": "reflective-openness.md",
+      "text": "Reflective openness",
+      "title": null
+    },
+    {
+      "source_concept_id": "mental-models-as-organizational-routine",
+      "source_path": "mental-models-as-organizational-routine.md",
+      "target": "skilled-incompetence.md",
+      "target_concept_id": "skilled-incompetence",
+      "target_path": "skilled-incompetence.md",
+      "text": "skilled incompetence",
+      "title": null
+    },
+    {
+      "source_concept_id": "mental-models-as-organizational-routine",
+      "source_path": "mental-models-as-organizational-routine.md",
+      "target": "suspending-assumptions.md",
+      "target_concept_id": "suspending-assumptions",
+      "target_path": "suspending-assumptions.md",
+      "text": "Suspending assumptions",
+      "title": null
+    },
+    {
+      "source_concept_id": "mental-models-as-organizational-routine",
+      "source_path": "mental-models-as-organizational-routine.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "systems thinking as learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "metanoia",
+      "source_path": "metanoia.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "Systems thinking as learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "metanoia",
+      "source_path": "metanoia.md",
+      "target": "team-learning.md",
+      "target_concept_id": "team-learning",
+      "target_path": "team-learning.md",
+      "text": "personal mastery",
+      "title": null
+    },
+    {
+      "source_concept_id": "micro-assessment-of-interpersonal-risk",
+      "source_path": "micro-assessment-of-interpersonal-risk.md",
+      "target": "interpersonal-risk-taking-at-work.md",
+      "target_concept_id": "interpersonal-risk-taking-at-work",
+      "target_path": "interpersonal-risk-taking-at-work.md",
+      "text": "micro-assessments",
+      "title": null
+    },
+    {
+      "source_concept_id": "myth-of-the-management-team",
+      "source_path": "myth-of-the-management-team.md",
+      "target": "seven-learning-disabilities.md",
+      "target_concept_id": "seven-learning-disabilities",
+      "target_path": "seven-learning-disabilities.md",
+      "text": "learning disabilities",
+      "title": null
+    },
+    {
+      "source_concept_id": "myth-of-the-management-team",
+      "source_path": "myth-of-the-management-team.md",
+      "target": "skilled-incompetence.md",
+      "target_concept_id": "skilled-incompetence",
+      "target_path": "skilled-incompetence.md",
+      "text": "skilled incompetence",
+      "title": null
+    },
+    {
+      "source_concept_id": "networks-of-collaboration",
+      "source_path": "networks-of-collaboration.md",
+      "target": "learning-infrastructure-beyond-training.md",
+      "target_concept_id": "learning-infrastructure-beyond-training",
+      "target_path": "learning-infrastructure-beyond-training.md",
+      "text": "learning infrastructure beyond training",
+      "title": null
+    },
+    {
+      "source_concept_id": "networks-of-collaboration",
+      "source_path": "networks-of-collaboration.md",
+      "target": "legitimacy-of-the-other.md",
+      "target_concept_id": "legitimacy-of-the-other",
+      "target_path": "legitimacy-of-the-other.md",
+      "text": "legitimacy of the other",
+      "title": null
+    },
+    {
+      "source_concept_id": "networks-of-collaboration",
+      "source_path": "networks-of-collaboration.md",
+      "target": "organizations-as-living-systems.md",
+      "target_concept_id": "organizations-as-living-systems",
+      "target_path": "organizations-as-living-systems.md",
+      "text": "organizations as living systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "networks-of-collaboration",
+      "source_path": "networks-of-collaboration.md",
+      "target": "tacit-knowledge-through-storytelling.md",
+      "target_concept_id": "tacit-knowledge-through-storytelling",
+      "target_path": "tacit-knowledge-through-storytelling.md",
+      "text": "tacit knowledge through storytelling",
+      "title": null
+    },
+    {
+      "source_concept_id": "organizations-as-living-systems",
+      "source_path": "organizations-as-living-systems.md",
+      "target": "machine-age-thinking.md",
+      "target_concept_id": "machine-age-thinking",
+      "target_path": "machine-age-thinking.md",
+      "text": "machine-age thinking",
+      "title": null
+    },
+    {
+      "source_concept_id": "organizations-as-living-systems",
+      "source_path": "organizations-as-living-systems.md",
+      "target": "metanoia.md",
+      "target_concept_id": "metanoia",
+      "target_path": "metanoia.md",
+      "text": "metanoia",
+      "title": null
+    },
+    {
+      "source_concept_id": "organizations-as-living-systems",
+      "source_path": "organizations-as-living-systems.md",
+      "target": "networks-of-collaboration.md",
+      "target_concept_id": "networks-of-collaboration",
+      "target_path": "networks-of-collaboration.md",
+      "text": "networks of collaboration",
+      "title": null
+    },
+    {
+      "source_concept_id": "organizations-as-living-systems",
+      "source_path": "organizations-as-living-systems.md",
+      "target": "systems-archetypes.md",
+      "target_concept_id": "systems-archetypes",
+      "target_path": "systems-archetypes.md",
+      "text": "systems archetypes",
+      "title": null
+    },
+    {
+      "source_concept_id": "organizations-as-living-systems",
+      "source_path": "organizations-as-living-systems.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "systems thinking as learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "peacekeeping-circles",
+      "source_path": "peacekeeping-circles.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue versus discussion",
+      "title": null
+    },
+    {
+      "source_concept_id": "peacekeeping-circles",
+      "source_path": "peacekeeping-circles.md",
+      "target": "inviting-participation.md",
+      "target_concept_id": "inviting-participation",
+      "target_path": "inviting-participation.md",
+      "text": "inviting participation",
+      "title": null
+    },
+    {
+      "source_concept_id": "peacekeeping-circles",
+      "source_path": "peacekeeping-circles.md",
+      "target": "reflective-openness.md",
+      "target_concept_id": "reflective-openness",
+      "target_path": "reflective-openness.md",
+      "text": "reflective openness",
+      "title": null
+    },
+    {
+      "source_concept_id": "peacekeeping-circles",
+      "source_path": "peacekeeping-circles.md",
+      "target": "tacit-knowledge-through-storytelling.md",
+      "target_concept_id": "tacit-knowledge-through-storytelling",
+      "target_path": "tacit-knowledge-through-storytelling.md",
+      "text": "tacit knowledge through storytelling",
+      "title": null
+    },
+    {
+      "source_concept_id": "personal-mastery-as-organizational-commitment",
+      "source_path": "personal-mastery-as-organizational-commitment.md",
+      "target": "five-disciplines-as-ensemble.md",
+      "target_concept_id": "five-disciplines-as-ensemble",
+      "target_path": "five-disciplines-as-ensemble.md",
+      "text": "five disciplines as ensemble",
+      "title": null
+    },
+    {
+      "source_concept_id": "personal-mastery-as-organizational-commitment",
+      "source_path": "personal-mastery-as-organizational-commitment.md",
+      "target": "leader-as-teacher.md",
+      "target_concept_id": "leader-as-teacher",
+      "target_path": "leader-as-teacher.md",
+      "text": "leader as teacher",
+      "title": null
+    },
+    {
+      "source_concept_id": "personal-mastery-as-organizational-commitment",
+      "source_path": "personal-mastery-as-organizational-commitment.md",
+      "target": "learning-infrastructure-beyond-training.md",
+      "target_concept_id": "learning-infrastructure-beyond-training",
+      "target_path": "learning-infrastructure-beyond-training.md",
+      "text": "learning infrastructure beyond training",
+      "title": null
+    },
+    {
+      "source_concept_id": "personal-mastery-as-organizational-commitment",
+      "source_path": "personal-mastery-as-organizational-commitment.md",
+      "target": "purpose-beyond-profit.md",
+      "target_concept_id": "purpose-beyond-profit",
+      "target_path": "purpose-beyond-profit.md",
+      "text": "purpose beyond profit",
+      "title": null
+    },
+    {
+      "source_concept_id": "personal-mastery-as-organizational-commitment",
+      "source_path": "personal-mastery-as-organizational-commitment.md",
+      "target": "reflective-openness.md",
+      "target_concept_id": "reflective-openness",
+      "target_path": "reflective-openness.md",
+      "text": "Reflective openness",
+      "title": null
+    },
+    {
+      "source_concept_id": "playing-to-win-mindset",
+      "source_path": "playing-to-win-mindset.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "playing-to-win-mindset",
+      "source_path": "playing-to-win-mindset.md",
+      "target": "safe-to-fail-innovation-culture.md",
+      "target_concept_id": "safe-to-fail-innovation-culture",
+      "target_path": "safe-to-fail-innovation-culture.md",
+      "text": "safe-to-fail innovation culture",
+      "title": null
+    },
+    {
+      "source_concept_id": "playing-to-win-mindset",
+      "source_path": "playing-to-win-mindset.md",
+      "target": "uncoupling-fear-and-failure.md",
+      "target_concept_id": "uncoupling-fear-and-failure",
+      "target_path": "uncoupling-fear-and-failure.md",
+      "text": "uncoupling fear and failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "practice-fields-for-management-teams",
+      "source_path": "practice-fields-for-management-teams.md",
+      "target": "delusion-of-learning-from-experience.md",
+      "target_concept_id": "delusion-of-learning-from-experience",
+      "target_path": "delusion-of-learning-from-experience.md",
+      "text": "delusion of learning from experience",
+      "title": null
+    },
+    {
+      "source_concept_id": "practice-fields-for-management-teams",
+      "source_path": "practice-fields-for-management-teams.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue",
+      "title": null
+    },
+    {
+      "source_concept_id": "practice-fields-for-management-teams",
+      "source_path": "practice-fields-for-management-teams.md",
+      "target": "practice-fields-for-management-teams.md",
+      "target_concept_id": "practice-fields-for-management-teams",
+      "target_path": "practice-fields-for-management-teams.md",
+      "text": "practice fields",
+      "title": null
+    },
+    {
+      "source_concept_id": "practice-fields-for-management-teams",
+      "source_path": "practice-fields-for-management-teams.md",
+      "target": "suspending-assumptions.md",
+      "target_concept_id": "suspending-assumptions",
+      "target_path": "suspending-assumptions.md",
+      "text": "suspend assumptions",
+      "title": null
+    },
+    {
+      "source_concept_id": "practice-fields-for-management-teams",
+      "source_path": "practice-fields-for-management-teams.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "systems thinking as learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "practice-fields-for-management-teams",
+      "source_path": "practice-fields-for-management-teams.md",
+      "target": "team-learning.md",
+      "target_concept_id": "team-learning",
+      "target_path": "team-learning.md",
+      "text": "Team learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "precision-questioning",
+      "source_path": "precision-questioning.md",
+      "target": "balancing-inquiry-and-advocacy.md",
+      "target_concept_id": "balancing-inquiry-and-advocacy",
+      "target_path": "balancing-inquiry-and-advocacy.md",
+      "text": "balancing inquiry and advocacy",
+      "title": null
+    },
+    {
+      "source_concept_id": "precision-questioning",
+      "source_path": "precision-questioning.md",
+      "target": "countering-groupthink.md",
+      "target_concept_id": "countering-groupthink",
+      "target_path": "countering-groupthink.md",
+      "text": "countering groupthink",
+      "title": null
+    },
+    {
+      "source_concept_id": "precision-questioning",
+      "source_path": "precision-questioning.md",
+      "target": "defensive-routines.md",
+      "target_concept_id": "defensive-routines",
+      "target_path": "defensive-routines.md",
+      "text": "defensive routines",
+      "title": null
+    },
+    {
+      "source_concept_id": "precision-questioning",
+      "source_path": "precision-questioning.md",
+      "target": "productive-conflict-in-learning-teams.md",
+      "target_concept_id": "productive-conflict-in-learning-teams",
+      "target_path": "productive-conflict-in-learning-teams.md",
+      "text": "productive conflict in learning teams",
+      "title": null
+    },
+    {
+      "source_concept_id": "precision-questioning",
+      "source_path": "precision-questioning.md",
+      "target": "team-collective-open-mindedness.md",
+      "target_concept_id": "team-collective-open-mindedness",
+      "target_path": "team-collective-open-mindedness.md",
+      "text": "team collective open-mindedness",
+      "title": null
+    },
+    {
+      "source_concept_id": "premortem-technique",
+      "source_path": "premortem-technique.md",
+      "target": "countering-groupthink.md",
+      "target_concept_id": "countering-groupthink",
+      "target_path": "countering-groupthink.md",
+      "text": "countering groupthink",
+      "title": null
+    },
+    {
+      "source_concept_id": "premortem-technique",
+      "source_path": "premortem-technique.md",
+      "target": "groupthink.md",
+      "target_concept_id": "groupthink",
+      "target_path": "groupthink.md",
+      "text": "groupthink",
+      "title": null
+    },
+    {
+      "source_concept_id": "premortem-technique",
+      "source_path": "premortem-technique.md",
+      "target": "precision-questioning.md",
+      "target_concept_id": "precision-questioning",
+      "target_path": "precision-questioning.md",
+      "text": "precision questioning",
+      "title": null
+    },
+    {
+      "source_concept_id": "premortem-technique",
+      "source_path": "premortem-technique.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "premortem-technique",
+      "source_path": "premortem-technique.md",
+      "target": "safe-to-fail-innovation-culture.md",
+      "target_concept_id": "safe-to-fail-innovation-culture",
+      "target_path": "safe-to-fail-innovation-culture.md",
+      "text": "safe-to-fail innovation culture",
+      "title": null
+    },
+    {
+      "source_concept_id": "productive-conflict-in-learning-teams",
+      "source_path": "productive-conflict-in-learning-teams.md",
+      "target": "defensive-routines.md",
+      "target_concept_id": "defensive-routines",
+      "target_path": "defensive-routines.md",
+      "text": "defensive routines",
+      "title": null
+    },
+    {
+      "source_concept_id": "productive-conflict-in-learning-teams",
+      "source_path": "productive-conflict-in-learning-teams.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue",
+      "title": null
+    },
+    {
+      "source_concept_id": "productive-conflict-in-learning-teams",
+      "source_path": "productive-conflict-in-learning-teams.md",
+      "target": "psychological-safety-as-moderator.md",
+      "target_concept_id": "psychological-safety-as-moderator",
+      "target_path": "psychological-safety-as-moderator.md",
+      "text": "Psychological safety as moderator",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety",
+      "source_path": "psychological-safety.md",
+      "target": "interpersonal-risk-taking-at-work.md",
+      "target_concept_id": "interpersonal-risk-taking-at-work",
+      "target_path": "interpersonal-risk-taking-at-work.md",
+      "text": "interpersonal risk-taking",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety",
+      "source_path": "psychological-safety.md",
+      "target": "psychological-safety-and-performance-standards.md",
+      "target_concept_id": "psychological-safety-and-performance-standards",
+      "target_path": "psychological-safety-and-performance-standards.md",
+      "text": "high performance standards",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety",
+      "source_path": "psychological-safety.md",
+      "target": "psychological-safety-as-group-climate.md",
+      "target_concept_id": "psychological-safety-as-group-climate",
+      "target_path": "psychological-safety-as-group-climate.md",
+      "text": "group climate",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety",
+      "source_path": "psychological-safety.md",
+      "target": "psychological-safety-not-enough.md",
+      "target_concept_id": "psychological-safety-not-enough",
+      "target_path": "psychological-safety-not-enough.md",
+      "text": "removes brakes on learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-and-emergency-protocols",
+      "source_path": "psychological-safety-and-emergency-protocols.md",
+      "target": "interpersonal-risk-taking-at-work.md",
+      "target_concept_id": "interpersonal-risk-taking-at-work",
+      "target_path": "interpersonal-risk-taking-at-work.md",
+      "text": "interpersonal risk",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-and-emergency-protocols",
+      "source_path": "psychological-safety-and-emergency-protocols.md",
+      "target": "micro-assessment-of-interpersonal-risk.md",
+      "target_concept_id": "micro-assessment-of-interpersonal-risk",
+      "target_path": "micro-assessment-of-interpersonal-risk.md",
+      "text": "micro-assessments of interpersonal risk",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-and-inclusion",
+      "source_path": "psychological-safety-and-inclusion.md",
+      "target": "psychological-safety-as-moderator.md",
+      "target_concept_id": "psychological-safety-as-moderator",
+      "target_path": "psychological-safety-as-moderator.md",
+      "text": "extra ingredient",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-and-inclusion",
+      "source_path": "psychological-safety-and-inclusion.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-and-learning-behavior",
+      "source_path": "psychological-safety-and-learning-behavior.md",
+      "target": "error-reporting-paradox.md",
+      "target_concept_id": "error-reporting-paradox",
+      "target_path": "error-reporting-paradox.md",
+      "text": "error-reporting paradox",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-and-learning-behavior",
+      "source_path": "psychological-safety-and-learning-behavior.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-and-performance",
+      "source_path": "psychological-safety-and-performance.md",
+      "target": "psychological-safety-not-enough.md",
+      "target_concept_id": "psychological-safety-not-enough",
+      "target_path": "psychological-safety-not-enough.md",
+      "text": "psychological safety is not enough",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-and-performance",
+      "source_path": "psychological-safety-and-performance.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-and-performance-standards",
+      "source_path": "psychological-safety-and-performance-standards.md",
+      "target": "psychological-safety-not-enough.md",
+      "target_concept_id": "psychological-safety-not-enough",
+      "target_path": "psychological-safety-not-enough.md",
+      "text": "takes off the brakes",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-and-performance-standards",
+      "source_path": "psychological-safety-and-performance-standards.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "Psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-as-group-climate",
+      "source_path": "psychological-safety-as-group-climate.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "shared perceptions among people workingtogether",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-as-moderator",
+      "source_path": "psychological-safety-as-moderator.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-as-ongoing-process",
+      "source_path": "psychological-safety-as-ongoing-process.md",
+      "target": "asymmetry-of-voice-and-silence.md",
+      "target_concept_id": "asymmetry-of-voice-and-silence",
+      "target_path": "asymmetry-of-voice-and-silence.md",
+      "text": "asymmetry of voice and silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-as-ongoing-process",
+      "source_path": "psychological-safety-as-ongoing-process.md",
+      "target": "leaders-toolkit-for-psychological-safety.md",
+      "target_concept_id": "leaders-toolkit-for-psychological-safety",
+      "target_path": "leaders-toolkit-for-psychological-safety.md",
+      "text": "leader's toolkit",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-as-ongoing-process",
+      "source_path": "psychological-safety-as-ongoing-process.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-as-ongoing-process",
+      "source_path": "psychological-safety-as-ongoing-process.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-not-enough",
+      "source_path": "psychological-safety-not-enough.md",
+      "target": "epidemic-of-workplace-silence.md",
+      "target_concept_id": "epidemic-of-workplace-silence",
+      "target_path": "epidemic-of-workplace-silence.md",
+      "text": "silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-not-enough",
+      "source_path": "psychological-safety-not-enough.md",
+      "target": "psychological-safety-and-performance-standards.md",
+      "target_concept_id": "psychological-safety-and-performance-standards",
+      "target_path": "psychological-safety-and-performance-standards.md",
+      "text": "high performance standards",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-not-enough",
+      "source_path": "psychological-safety-not-enough.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-not-niceness",
+      "source_path": "psychological-safety-not-niceness.md",
+      "target": "psychological-safety-and-performance-standards.md",
+      "target_concept_id": "psychological-safety-and-performance-standards",
+      "target_path": "psychological-safety-and-performance-standards.md",
+      "text": "not lowering performance standards",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-not-niceness",
+      "source_path": "psychological-safety-not-niceness.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "Psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-vs-trust",
+      "source_path": "psychological-safety-vs-trust.md",
+      "target": "psychological-safety-as-group-climate.md",
+      "target_concept_id": "psychological-safety-as-group-climate",
+      "target_path": "psychological-safety-as-group-climate.md",
+      "text": "group-level climate",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-vs-trust",
+      "source_path": "psychological-safety-vs-trust.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "Psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "psychological-safety-without-formal-authority",
+      "source_path": "psychological-safety-without-formal-authority.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "purpose-beyond-profit",
+      "source_path": "purpose-beyond-profit.md",
+      "target": "enrollment-vs-compliance.md",
+      "target_concept_id": "enrollment-vs-compliance",
+      "target_path": "enrollment-vs-compliance.md",
+      "text": "enrollment versus compliance",
+      "title": null
+    },
+    {
+      "source_concept_id": "purpose-beyond-profit",
+      "source_path": "purpose-beyond-profit.md",
+      "target": "personal-mastery-as-organizational-commitment.md",
+      "target_concept_id": "personal-mastery-as-organizational-commitment",
+      "target_path": "personal-mastery-as-organizational-commitment.md",
+      "text": "Personal mastery as organizational commitment",
+      "title": null
+    },
+    {
+      "source_concept_id": "purpose-beyond-profit",
+      "source_path": "purpose-beyond-profit.md",
+      "target": "setting-the-stage-for-candor.md",
+      "target_concept_id": "setting-the-stage-for-candor",
+      "target_path": "setting-the-stage-for-candor.md",
+      "text": "set the stage for candor",
+      "title": null
+    },
+    {
+      "source_concept_id": "purpose-beyond-profit",
+      "source_path": "purpose-beyond-profit.md",
+      "target": "shared-vision-as-common-caring.md",
+      "target_concept_id": "shared-vision-as-common-caring",
+      "target_path": "shared-vision-as-common-caring.md",
+      "text": "shared vision as common caring",
+      "title": null
+    },
+    {
+      "source_concept_id": "radical-transparency-and-candor",
+      "source_path": "radical-transparency-and-candor.md",
+      "target": "institutionalized-candor.md",
+      "target_concept_id": "institutionalized-candor",
+      "target_path": "institutionalized-candor.md",
+      "text": "institutionalized candor",
+      "title": null
+    },
+    {
+      "source_concept_id": "radical-transparency-and-candor",
+      "source_path": "radical-transparency-and-candor.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "radical-transparency-and-candor",
+      "source_path": "radical-transparency-and-candor.md",
+      "target": "responding-productively-to-voice.md",
+      "target_concept_id": "responding-productively-to-voice",
+      "target_path": "responding-productively-to-voice.md",
+      "text": "responding productively to voice",
+      "title": null
+    },
+    {
+      "source_concept_id": "radical-transparency-and-candor",
+      "source_path": "radical-transparency-and-candor.md",
+      "target": "uncoupling-fear-and-failure.md",
+      "target_concept_id": "uncoupling-fear-and-failure",
+      "target_path": "uncoupling-fear-and-failure.md",
+      "text": "uncoupling fear and failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "reflective-openness",
+      "source_path": "reflective-openness.md",
+      "target": "espoused-theory-vs-theory-in-use.md",
+      "target_concept_id": "espoused-theory-vs-theory-in-use",
+      "target_path": "espoused-theory-vs-theory-in-use.md",
+      "text": "espoused theory versus theory-in-use",
+      "title": null
+    },
+    {
+      "source_concept_id": "reflective-openness",
+      "source_path": "reflective-openness.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models as organizational routine",
+      "title": null
+    },
+    {
+      "source_concept_id": "reflective-openness",
+      "source_path": "reflective-openness.md",
+      "target": "personal-mastery-as-organizational-commitment.md",
+      "target_concept_id": "personal-mastery-as-organizational-commitment",
+      "target_path": "personal-mastery-as-organizational-commitment.md",
+      "text": "personal mastery as organizational commitment",
+      "title": null
+    },
+    {
+      "source_concept_id": "reinforcing-feedback",
+      "source_path": "reinforcing-feedback.md",
+      "target": "balancing-feedback.md",
+      "target_concept_id": "balancing-feedback",
+      "target_path": "balancing-feedback.md",
+      "text": "balancing feedback",
+      "title": null
+    },
+    {
+      "source_concept_id": "reinforcing-feedback",
+      "source_path": "reinforcing-feedback.md",
+      "target": "boiled-frog.md",
+      "target_concept_id": "boiled-frog",
+      "target_path": "boiled-frog.md",
+      "text": "boiled frog",
+      "title": null
+    },
+    {
+      "source_concept_id": "reinforcing-feedback",
+      "source_path": "reinforcing-feedback.md",
+      "target": "systems-archetypes.md",
+      "target_concept_id": "systems-archetypes",
+      "target_path": "systems-archetypes.md",
+      "text": "systems archetypes",
+      "title": null
+    },
+    {
+      "source_concept_id": "reinforcing-feedback",
+      "source_path": "reinforcing-feedback.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "systems thinking as learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "reinforcing-feedback",
+      "source_path": "reinforcing-feedback.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "war-on-terrorismescalation",
+      "title": null
+    },
+    {
+      "source_concept_id": "reinforcing-feedback",
+      "source_path": "reinforcing-feedback.md",
+      "target": "why-shared-visions-die.md",
+      "target_concept_id": "why-shared-visions-die",
+      "target_path": "why-shared-visions-die.md",
+      "text": "shared vision",
+      "title": null
+    },
+    {
+      "source_concept_id": "responding-productively-to-voice",
+      "source_path": "responding-productively-to-voice.md",
+      "target": "failure-parties.md",
+      "target_concept_id": "failure-parties",
+      "target_path": "failure-parties.md",
+      "text": "failure parties",
+      "title": null
+    },
+    {
+      "source_concept_id": "responding-productively-to-voice",
+      "source_path": "responding-productively-to-voice.md",
+      "target": "focused-event-analysis.md",
+      "target_concept_id": "focused-event-analysis",
+      "target_path": "focused-event-analysis.md",
+      "text": "focused event analysis",
+      "title": null
+    },
+    {
+      "source_concept_id": "responding-productively-to-voice",
+      "source_path": "responding-productively-to-voice.md",
+      "target": "leaders-toolkit-for-psychological-safety.md",
+      "target_concept_id": "leaders-toolkit-for-psychological-safety",
+      "target_path": "leaders-toolkit-for-psychological-safety.md",
+      "text": "leader's toolkit",
+      "title": null
+    },
+    {
+      "source_concept_id": "responding-productively-to-voice",
+      "source_path": "responding-productively-to-voice.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "safe-to-fail-innovation-culture",
+      "source_path": "safe-to-fail-innovation-culture.md",
+      "target": "failure-taxonomy.md",
+      "target_concept_id": "failure-taxonomy",
+      "target_path": "failure-taxonomy.md",
+      "text": "failure taxonomy's",
+      "title": null
+    },
+    {
+      "source_concept_id": "safe-to-fail-innovation-culture",
+      "source_path": "safe-to-fail-innovation-culture.md",
+      "target": "institutionalized-candor.md",
+      "target_concept_id": "institutionalized-candor",
+      "target_path": "institutionalized-candor.md",
+      "text": "institutionalized candor",
+      "title": null
+    },
+    {
+      "source_concept_id": "safe-to-fail-innovation-culture",
+      "source_path": "safe-to-fail-innovation-culture.md",
+      "target": "premortem-technique.md",
+      "target_concept_id": "premortem-technique",
+      "target_path": "premortem-technique.md",
+      "text": "premortem technique",
+      "title": null
+    },
+    {
+      "source_concept_id": "safe-to-fail-innovation-culture",
+      "source_path": "safe-to-fail-innovation-culture.md",
+      "target": "strategy-as-hypothesis.md",
+      "target_concept_id": "strategy-as-hypothesis",
+      "target_path": "strategy-as-hypothesis.md",
+      "text": "strategy as hypothesis",
+      "title": null
+    },
+    {
+      "source_concept_id": "safe-to-fail-innovation-culture",
+      "source_path": "safe-to-fail-innovation-culture.md",
+      "target": "uncoupling-fear-and-failure.md",
+      "target_concept_id": "uncoupling-fear-and-failure",
+      "target_path": "uncoupling-fear-and-failure.md",
+      "text": "uncoupling fear and failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "seeing-patterns-amid-complexity",
+      "source_path": "seeing-patterns-amid-complexity.md",
+      "target": "five-disciplines-as-ensemble.md",
+      "target_concept_id": "five-disciplines-as-ensemble",
+      "target_path": "five-disciplines-as-ensemble.md",
+      "text": "five disciplines as ensemble",
+      "title": null
+    },
+    {
+      "source_concept_id": "seeing-patterns-amid-complexity",
+      "source_path": "seeing-patterns-amid-complexity.md",
+      "target": "fixation-on-events.md",
+      "target_concept_id": "fixation-on-events",
+      "target_path": "fixation-on-events.md",
+      "text": "fixation on events",
+      "title": null
+    },
+    {
+      "source_concept_id": "seeing-patterns-amid-complexity",
+      "source_path": "seeing-patterns-amid-complexity.md",
+      "target": "growth-and-underinvestment-archetype.md",
+      "target_concept_id": "growth-and-underinvestment-archetype",
+      "target_path": "growth-and-underinvestment-archetype.md",
+      "text": "growth and underinvestment",
+      "title": null
+    },
+    {
+      "source_concept_id": "seeing-patterns-amid-complexity",
+      "source_path": "seeing-patterns-amid-complexity.md",
+      "target": "practice-fields-for-management-teams.md",
+      "target_concept_id": "practice-fields-for-management-teams",
+      "target_path": "practice-fields-for-management-teams.md",
+      "text": "practice fields for management teams",
+      "title": null
+    },
+    {
+      "source_concept_id": "seeing-patterns-amid-complexity",
+      "source_path": "seeing-patterns-amid-complexity.md",
+      "target": "systems-archetypes.md",
+      "target_concept_id": "systems-archetypes",
+      "target_path": "systems-archetypes.md",
+      "text": "systems archetypes",
+      "title": null
+    },
+    {
+      "source_concept_id": "seeing-patterns-amid-complexity",
+      "source_path": "seeing-patterns-amid-complexity.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "detail complexity",
+      "title": null
+    },
+    {
+      "source_concept_id": "seeing-patterns-amid-complexity",
+      "source_path": "seeing-patterns-amid-complexity.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "systems thinking as learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "seeing-patterns-amid-complexity",
+      "source_path": "seeing-patterns-amid-complexity.md",
+      "target": "three-levels-of-explanation.md",
+      "target_concept_id": "three-levels-of-explanation",
+      "target_path": "three-levels-of-explanation.md",
+      "text": "three levels of explanation",
+      "title": null
+    },
+    {
+      "source_concept_id": "setting-the-stage-for-candor",
+      "source_path": "setting-the-stage-for-candor.md",
+      "target": "failure-taxonomy.md",
+      "target_concept_id": "failure-taxonomy",
+      "target_path": "failure-taxonomy.md",
+      "text": "reframe failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "setting-the-stage-for-candor",
+      "source_path": "setting-the-stage-for-candor.md",
+      "target": "interpersonal-risk-taking-at-work.md",
+      "target_concept_id": "interpersonal-risk-taking-at-work",
+      "target_path": "interpersonal-risk-taking-at-work.md",
+      "text": "interpersonal risk",
+      "title": null
+    },
+    {
+      "source_concept_id": "setting-the-stage-for-candor",
+      "source_path": "setting-the-stage-for-candor.md",
+      "target": "leaders-toolkit-for-psychological-safety.md",
+      "target_concept_id": "leaders-toolkit-for-psychological-safety",
+      "target_path": "leaders-toolkit-for-psychological-safety.md",
+      "text": "leader's toolkit",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-learning-disabilities",
+      "source_path": "seven-learning-disabilities.md",
+      "target": "boiled-frog.md",
+      "target_concept_id": "boiled-frog",
+      "target_path": "boiled-frog.md",
+      "text": "Boiled frog",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-learning-disabilities",
+      "source_path": "seven-learning-disabilities.md",
+      "target": "delusion-of-learning-from-experience.md",
+      "target_concept_id": "delusion-of-learning-from-experience",
+      "target_path": "delusion-of-learning-from-experience.md",
+      "text": "Delusion of learning from experience",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-learning-disabilities",
+      "source_path": "seven-learning-disabilities.md",
+      "target": "fixation-on-events.md",
+      "target_concept_id": "fixation-on-events",
+      "target_path": "fixation-on-events.md",
+      "text": "Fixation on events",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-learning-disabilities",
+      "source_path": "seven-learning-disabilities.md",
+      "target": "i-am-my-position.md",
+      "target_concept_id": "i-am-my-position",
+      "target_path": "i-am-my-position.md",
+      "text": "I am my position",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-learning-disabilities",
+      "source_path": "seven-learning-disabilities.md",
+      "target": "illusion-of-taking-charge.md",
+      "target_concept_id": "illusion-of-taking-charge",
+      "target_path": "illusion-of-taking-charge.md",
+      "text": "Illusion of taking charge",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-learning-disabilities",
+      "source_path": "seven-learning-disabilities.md",
+      "target": "myth-of-the-management-team.md",
+      "target_concept_id": "myth-of-the-management-team",
+      "target_path": "myth-of-the-management-team.md",
+      "text": "Myth of the management team",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-learning-disabilities",
+      "source_path": "seven-learning-disabilities.md",
+      "target": "skilled-incompetence.md",
+      "target_concept_id": "skilled-incompetence",
+      "target_path": "skilled-incompetence.md",
+      "text": "skilled incompetence",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-learning-disabilities",
+      "source_path": "seven-learning-disabilities.md",
+      "target": "the-enemy-is-out-there.md",
+      "target_concept_id": "the-enemy-is-out-there",
+      "target_path": "the-enemy-is-out-there.md",
+      "text": "The enemy is out there",
+      "title": null
+    },
+    {
+      "source_concept_id": "shared-vision-as-common-caring",
+      "source_path": "shared-vision-as-common-caring.md",
+      "target": "adaptive-vs-generative-learning.md",
+      "target_concept_id": "adaptive-vs-generative-learning",
+      "target_path": "adaptive-vs-generative-learning.md",
+      "text": "adaptive versus generative learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "shared-vision-as-common-caring",
+      "source_path": "shared-vision-as-common-caring.md",
+      "target": "balancing-inquiry-and-advocacy.md",
+      "target_concept_id": "balancing-inquiry-and-advocacy",
+      "target_path": "balancing-inquiry-and-advocacy.md",
+      "text": "balancing inquiry and advocacy",
+      "title": null
+    },
+    {
+      "source_concept_id": "shared-vision-as-common-caring",
+      "source_path": "shared-vision-as-common-caring.md",
+      "target": "creative-tension.md",
+      "target_concept_id": "creative-tension",
+      "target_path": "creative-tension.md",
+      "text": "creative tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "shared-vision-as-common-caring",
+      "source_path": "shared-vision-as-common-caring.md",
+      "target": "why-shared-visions-die.md",
+      "target_concept_id": "why-shared-visions-die",
+      "target_path": "why-shared-visions-die.md",
+      "text": "why shared visions die",
+      "title": null
+    },
+    {
+      "source_concept_id": "shifting-the-burden-archetype",
+      "source_path": "shifting-the-burden-archetype.md",
+      "target": "growth-and-underinvestment-archetype.md",
+      "target_concept_id": "growth-and-underinvestment-archetype",
+      "target_path": "growth-and-underinvestment-archetype.md",
+      "text": "growth and underinvestment",
+      "title": null
+    },
+    {
+      "source_concept_id": "skilled-incompetence",
+      "source_path": "skilled-incompetence.md",
+      "target": "defensive-routines.md",
+      "target_concept_id": "defensive-routines",
+      "target_path": "defensive-routines.md",
+      "text": "defensive routines",
+      "title": null
+    },
+    {
+      "source_concept_id": "skilled-incompetence",
+      "source_path": "skilled-incompetence.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue",
+      "title": null
+    },
+    {
+      "source_concept_id": "skilled-incompetence",
+      "source_path": "skilled-incompetence.md",
+      "target": "myth-of-the-management-team.md",
+      "target_concept_id": "myth-of-the-management-team",
+      "target_path": "myth-of-the-management-team.md",
+      "text": "myth of the management team",
+      "title": null
+    },
+    {
+      "source_concept_id": "social-media-as-silence-release-valve",
+      "source_path": "social-media-as-silence-release-valve.md",
+      "target": "dangerous-silence.md",
+      "target_concept_id": "dangerous-silence",
+      "target_path": "dangerous-silence.md",
+      "text": "dangerous silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "social-media-as-silence-release-valve",
+      "source_path": "social-media-as-silence-release-valve.md",
+      "target": "epidemic-of-workplace-silence.md",
+      "target_concept_id": "epidemic-of-workplace-silence",
+      "target_path": "epidemic-of-workplace-silence.md",
+      "text": "epidemic of workplace silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "social-media-as-silence-release-valve",
+      "source_path": "social-media-as-silence-release-valve.md",
+      "target": "illusion-of-success-from-silence.md",
+      "target_concept_id": "illusion-of-success-from-silence",
+      "target_path": "illusion-of-success-from-silence.md",
+      "text": "illusion of success from silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "speaking-up-for-physical-safety",
+      "source_path": "speaking-up-for-physical-safety.md",
+      "target": "psychological-safety-and-emergency-protocols.md",
+      "target_concept_id": "psychological-safety-and-emergency-protocols",
+      "target_path": "psychological-safety-and-emergency-protocols.md",
+      "text": "psychological safety and emergency protocols",
+      "title": null
+    },
+    {
+      "source_concept_id": "speaking-up-for-physical-safety",
+      "source_path": "speaking-up-for-physical-safety.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "speaking-up-for-physical-safety",
+      "source_path": "speaking-up-for-physical-safety.md",
+      "target": "setting-the-stage-for-candor.md",
+      "target_concept_id": "setting-the-stage-for-candor",
+      "target_path": "setting-the-stage-for-candor.md",
+      "text": "setting the stage",
+      "title": null
+    },
+    {
+      "source_concept_id": "strategy-as-hypothesis",
+      "source_path": "strategy-as-hypothesis.md",
+      "target": "illusion-of-success-from-silence.md",
+      "target_concept_id": "illusion-of-success-from-silence",
+      "target_path": "illusion-of-success-from-silence.md",
+      "text": "illusion of success from silence",
+      "title": null
+    },
+    {
+      "source_concept_id": "strategy-as-hypothesis",
+      "source_path": "strategy-as-hypothesis.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "structure-influences-behavior",
+      "source_path": "structure-influences-behavior.md",
+      "target": "i-am-my-position.md",
+      "target_concept_id": "i-am-my-position",
+      "target_path": "i-am-my-position.md",
+      "text": "i am my position",
+      "title": null
+    },
+    {
+      "source_concept_id": "structure-influences-behavior",
+      "source_path": "structure-influences-behavior.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "systems thinking as learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "structure-influences-behavior",
+      "source_path": "structure-influences-behavior.md",
+      "target": "the-enemy-is-out-there.md",
+      "target_concept_id": "the-enemy-is-out-there",
+      "target_path": "the-enemy-is-out-there.md",
+      "text": "the enemy is out there",
+      "title": null
+    },
+    {
+      "source_concept_id": "structure-influences-behavior",
+      "source_path": "structure-influences-behavior.md",
+      "target": "three-levels-of-explanation.md",
+      "target_concept_id": "three-levels-of-explanation",
+      "target_path": "three-levels-of-explanation.md",
+      "text": "three levels of explanation",
+      "title": null
+    },
+    {
+      "source_concept_id": "suspending-assumptions",
+      "source_path": "suspending-assumptions.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue",
+      "title": null
+    },
+    {
+      "source_concept_id": "suspending-assumptions",
+      "source_path": "suspending-assumptions.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-archetypes",
+      "source_path": "systems-archetypes.md",
+      "target": "balancing-feedback.md",
+      "target_concept_id": "balancing-feedback",
+      "target_path": "balancing-feedback.md",
+      "text": "balancing feedback",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-archetypes",
+      "source_path": "systems-archetypes.md",
+      "target": "delays-in-systems.md",
+      "target_concept_id": "delays-in-systems",
+      "target_path": "delays-in-systems.md",
+      "text": "delays in systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-archetypes",
+      "source_path": "systems-archetypes.md",
+      "target": "growth-and-underinvestment-archetype.md",
+      "target_concept_id": "growth-and-underinvestment-archetype",
+      "target_path": "growth-and-underinvestment-archetype.md",
+      "text": "growth and underinvestment",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-archetypes",
+      "source_path": "systems-archetypes.md",
+      "target": "limits-to-growth-archetype.md",
+      "target_concept_id": "limits-to-growth-archetype",
+      "target_path": "limits-to-growth-archetype.md",
+      "text": "limits to growth",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-archetypes",
+      "source_path": "systems-archetypes.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models as organizational routine",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-archetypes",
+      "source_path": "systems-archetypes.md",
+      "target": "reinforcing-feedback.md",
+      "target_concept_id": "reinforcing-feedback",
+      "target_path": "reinforcing-feedback.md",
+      "text": "reinforcing feedback",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-archetypes",
+      "source_path": "systems-archetypes.md",
+      "target": "shifting-the-burden-archetype.md",
+      "target_concept_id": "shifting-the-burden-archetype",
+      "target_path": "shifting-the-burden-archetype.md",
+      "text": "shifting the burden",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-archetypes",
+      "source_path": "systems-archetypes.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "organizational learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "balancing-feedback.md",
+      "target_concept_id": "balancing-feedback",
+      "target_path": "balancing-feedback.md",
+      "text": "balancing feedback",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "creative-tension.md",
+      "target_concept_id": "creative-tension",
+      "target_path": "creative-tension.md",
+      "text": "shared vision",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "defensive-routines.md",
+      "target_concept_id": "defensive-routines",
+      "target_path": "defensive-routines.md",
+      "text": "defensive routines",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "delays-in-systems.md",
+      "target_concept_id": "delays-in-systems",
+      "target_path": "delays-in-systems.md",
+      "text": "delays",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "five-disciplines-as-ensemble.md",
+      "target_concept_id": "five-disciplines-as-ensemble",
+      "target_path": "five-disciplines-as-ensemble.md",
+      "text": "five disciplines as ensemble",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "laws-of-systems-thinking.md",
+      "target_concept_id": "laws-of-systems-thinking",
+      "target_path": "laws-of-systems-thinking.md",
+      "text": "laws of systems thinking",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental model",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "metanoia.md",
+      "target_concept_id": "metanoia",
+      "target_path": "metanoia.md",
+      "text": "metanoia",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "organizations-as-living-systems.md",
+      "target_concept_id": "organizations-as-living-systems",
+      "target_path": "organizations-as-living-systems.md",
+      "text": "organizations as living systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "practice-fields-for-management-teams.md",
+      "target_concept_id": "practice-fields-for-management-teams",
+      "target_path": "practice-fields-for-management-teams.md",
+      "text": "practice fields",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "reinforcing-feedback.md",
+      "target_concept_id": "reinforcing-feedback",
+      "target_path": "reinforcing-feedback.md",
+      "text": "reinforcing feedback",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "seeing-patterns-amid-complexity.md",
+      "target_concept_id": "seeing-patterns-amid-complexity",
+      "target_path": "seeing-patterns-amid-complexity.md",
+      "text": "seeing patterns amid complexity",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "structure-influences-behavior.md",
+      "target_concept_id": "structure-influences-behavior",
+      "target_path": "structure-influences-behavior.md",
+      "text": "structure influences behavior",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "systems-archetypes.md",
+      "target_concept_id": "systems-archetypes",
+      "target_path": "systems-archetypes.md",
+      "text": "Systems archetypes",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "systems-archetypes.md",
+      "target_concept_id": "systems-archetypes",
+      "target_path": "systems-archetypes.md",
+      "text": "systems archetypes",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "systems-archetypes.md",
+      "target_concept_id": "systems-archetypes",
+      "target_path": "systems-archetypes.md",
+      "text": "systems archetypes",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "team-learning.md",
+      "target_concept_id": "team-learning",
+      "target_path": "team-learning.md",
+      "text": "team learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "systems-thinking-as-learning-language",
+      "source_path": "systems-thinking-as-learning-language.md",
+      "target": "three-levels-of-explanation.md",
+      "target_concept_id": "three-levels-of-explanation",
+      "target_path": "three-levels-of-explanation.md",
+      "text": "three levels of explanation",
+      "title": null
+    },
+    {
+      "source_concept_id": "tacit-knowledge-through-storytelling",
+      "source_path": "tacit-knowledge-through-storytelling.md",
+      "target": "practice-fields-for-management-teams.md",
+      "target_concept_id": "practice-fields-for-management-teams",
+      "target_path": "practice-fields-for-management-teams.md",
+      "text": "practice fields for management teams",
+      "title": null
+    },
+    {
+      "source_concept_id": "tacit-knowledge-through-storytelling",
+      "source_path": "tacit-knowledge-through-storytelling.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "tacit-knowledge-through-storytelling",
+      "source_path": "tacit-knowledge-through-storytelling.md",
+      "target": "team-learning.md",
+      "target_concept_id": "team-learning",
+      "target_path": "team-learning.md",
+      "text": "team learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-collective-open-mindedness",
+      "source_path": "team-collective-open-mindedness.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue versus discussion",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-collective-open-mindedness",
+      "source_path": "team-collective-open-mindedness.md",
+      "target": "groupthink.md",
+      "target_concept_id": "groupthink",
+      "target_path": "groupthink.md",
+      "text": "groupthink",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-collective-open-mindedness",
+      "source_path": "team-collective-open-mindedness.md",
+      "target": "inviting-participation.md",
+      "target_concept_id": "inviting-participation",
+      "target_path": "inviting-participation.md",
+      "text": "inviting participation",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-collective-open-mindedness",
+      "source_path": "team-collective-open-mindedness.md",
+      "target": "precision-questioning.md",
+      "target_concept_id": "precision-questioning",
+      "target_path": "precision-questioning.md",
+      "text": "Precision questioning",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-collective-open-mindedness",
+      "source_path": "team-collective-open-mindedness.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychologically safe",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-collective-open-mindedness",
+      "source_path": "team-collective-open-mindedness.md",
+      "target": "team-learning.md",
+      "target_concept_id": "team-learning",
+      "target_path": "team-learning.md",
+      "text": "team learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-learning",
+      "source_path": "team-learning.md",
+      "target": "alignment-in-teams.md",
+      "target_concept_id": "alignment-in-teams",
+      "target_path": "alignment-in-teams.md",
+      "text": "Alignment",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-learning",
+      "source_path": "team-learning.md",
+      "target": "defensive-routines.md",
+      "target_concept_id": "defensive-routines",
+      "target_path": "defensive-routines.md",
+      "text": "defensive routines",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-learning",
+      "source_path": "team-learning.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue and discussion",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-learning",
+      "source_path": "team-learning.md",
+      "target": "practice-fields-for-management-teams.md",
+      "target_concept_id": "practice-fields-for-management-teams",
+      "target_path": "practice-fields-for-management-teams.md",
+      "text": "practice fields",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-learning",
+      "source_path": "team-learning.md",
+      "target": "productive-conflict-in-learning-teams.md",
+      "target_concept_id": "productive-conflict-in-learning-teams",
+      "target_path": "productive-conflict-in-learning-teams.md",
+      "text": "productive conflict",
+      "title": null
+    },
+    {
+      "source_concept_id": "the-enemy-is-out-there",
+      "source_path": "the-enemy-is-out-there.md",
+      "target": "i-am-my-position.md",
+      "target_concept_id": "i-am-my-position",
+      "target_path": "i-am-my-position.md",
+      "text": "I am my position",
+      "title": null
+    },
+    {
+      "source_concept_id": "three-levels-of-explanation",
+      "source_path": "three-levels-of-explanation.md",
+      "target": "adaptive-vs-generative-learning.md",
+      "target_concept_id": "adaptive-vs-generative-learning",
+      "target_path": "adaptive-vs-generative-learning.md",
+      "text": "Generative learning",
+      "title": null
+    },
+    {
+      "source_concept_id": "three-levels-of-explanation",
+      "source_path": "three-levels-of-explanation.md",
+      "target": "delays-in-systems.md",
+      "target_concept_id": "delays-in-systems",
+      "target_path": "delays-in-systems.md",
+      "text": "delays",
+      "title": null
+    },
+    {
+      "source_concept_id": "three-levels-of-explanation",
+      "source_path": "three-levels-of-explanation.md",
+      "target": "fixation-on-events.md",
+      "target_concept_id": "fixation-on-events",
+      "target_path": "fixation-on-events.md",
+      "text": "fixation on events",
+      "title": null
+    },
+    {
+      "source_concept_id": "three-levels-of-explanation",
+      "source_path": "three-levels-of-explanation.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models",
+      "title": null
+    },
+    {
+      "source_concept_id": "three-levels-of-explanation",
+      "source_path": "three-levels-of-explanation.md",
+      "target": "structure-influences-behavior.md",
+      "target_concept_id": "structure-influences-behavior",
+      "target_path": "structure-influences-behavior.md",
+      "text": "structure influences behavior",
+      "title": null
+    },
+    {
+      "source_concept_id": "three-openings-for-change",
+      "source_path": "three-openings-for-change.md",
+      "target": "dialogue-versus-discussion.md",
+      "target_concept_id": "dialogue-versus-discussion",
+      "target_path": "dialogue-versus-discussion.md",
+      "text": "dialogue versus discussion",
+      "title": null
+    },
+    {
+      "source_concept_id": "three-openings-for-change",
+      "source_path": "three-openings-for-change.md",
+      "target": "leader-as-teacher.md",
+      "target_concept_id": "leader-as-teacher",
+      "target_path": "leader-as-teacher.md",
+      "text": "leader as teacher",
+      "title": null
+    },
+    {
+      "source_concept_id": "three-openings-for-change",
+      "source_path": "three-openings-for-change.md",
+      "target": "metanoia.md",
+      "target_concept_id": "metanoia",
+      "target_path": "metanoia.md",
+      "text": "metanoia",
+      "title": null
+    },
+    {
+      "source_concept_id": "three-openings-for-change",
+      "source_path": "three-openings-for-change.md",
+      "target": "suspending-assumptions.md",
+      "target_concept_id": "suspending-assumptions",
+      "target_path": "suspending-assumptions.md",
+      "text": "suspending taken-for-granted assumptions",
+      "title": null
+    },
+    {
+      "source_concept_id": "uncoupling-fear-and-failure",
+      "source_path": "uncoupling-fear-and-failure.md",
+      "target": "failure-taxonomy.md",
+      "target_concept_id": "failure-taxonomy",
+      "target_path": "failure-taxonomy.md",
+      "text": "failure taxonomy",
+      "title": null
+    },
+    {
+      "source_concept_id": "uncoupling-fear-and-failure",
+      "source_path": "uncoupling-fear-and-failure.md",
+      "target": "institutionalized-candor.md",
+      "target_concept_id": "institutionalized-candor",
+      "target_path": "institutionalized-candor.md",
+      "text": "institutionalized candor",
+      "title": null
+    },
+    {
+      "source_concept_id": "uncoupling-fear-and-failure",
+      "source_path": "uncoupling-fear-and-failure.md",
+      "target": "psychological-safety-and-performance-standards.md",
+      "target_concept_id": "psychological-safety-and-performance-standards",
+      "target_path": "psychological-safety-and-performance-standards.md",
+      "text": "performance standards",
+      "title": null
+    },
+    {
+      "source_concept_id": "uncoupling-fear-and-failure",
+      "source_path": "uncoupling-fear-and-failure.md",
+      "target": "responding-productively-to-voice.md",
+      "target_concept_id": "responding-productively-to-voice",
+      "target_path": "responding-productively-to-voice.md",
+      "text": "destigmatize failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "uncoupling-fear-and-failure",
+      "source_path": "uncoupling-fear-and-failure.md",
+      "target": "safe-to-fail-innovation-culture.md",
+      "target_concept_id": "safe-to-fail-innovation-culture",
+      "target_path": "safe-to-fail-innovation-culture.md",
+      "text": "safe-to-fail innovation culture",
+      "title": null
+    },
+    {
+      "source_concept_id": "westrum-generative-culture",
+      "source_path": "westrum-generative-culture.md",
+      "target": "deep-learning-cycle.md",
+      "target_concept_id": "deep-learning-cycle",
+      "target_path": "deep-learning-cycle.md",
+      "text": "deep learning cycle",
+      "title": null
+    },
+    {
+      "source_concept_id": "westrum-generative-culture",
+      "source_path": "westrum-generative-culture.md",
+      "target": "failure-taxonomy.md",
+      "target_concept_id": "failure-taxonomy",
+      "target_path": "failure-taxonomy.md",
+      "text": "failure taxonomy",
+      "title": null
+    },
+    {
+      "source_concept_id": "westrum-generative-culture",
+      "source_path": "westrum-generative-culture.md",
+      "target": "psychological-safety.md",
+      "target_concept_id": "psychological-safety",
+      "target_path": "psychological-safety.md",
+      "text": "psychological safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "westrum-generative-culture",
+      "source_path": "westrum-generative-culture.md",
+      "target": "responding-productively-to-voice.md",
+      "target_concept_id": "responding-productively-to-voice",
+      "target_path": "responding-productively-to-voice.md",
+      "text": "responding productively to voice",
+      "title": null
+    },
+    {
+      "source_concept_id": "why-shared-visions-die",
+      "source_path": "why-shared-visions-die.md",
+      "target": "balancing-inquiry-and-advocacy.md",
+      "target_concept_id": "balancing-inquiry-and-advocacy",
+      "target_path": "balancing-inquiry-and-advocacy.md",
+      "text": "Balancing inquiry and advocacy",
+      "title": null
+    },
+    {
+      "source_concept_id": "why-shared-visions-die",
+      "source_path": "why-shared-visions-die.md",
+      "target": "creative-tension.md",
+      "target_concept_id": "creative-tension",
+      "target_path": "creative-tension.md",
+      "text": "creative tension",
+      "title": null
+    },
+    {
+      "source_concept_id": "why-shared-visions-die",
+      "source_path": "why-shared-visions-die.md",
+      "target": "limits-to-growth-archetype.md",
+      "target_concept_id": "limits-to-growth-archetype",
+      "target_path": "limits-to-growth-archetype.md",
+      "text": "limits to growth",
+      "title": null
+    },
+    {
+      "source_concept_id": "why-shared-visions-die",
+      "source_path": "why-shared-visions-die.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models",
+      "title": null
+    },
+    {
+      "source_concept_id": "why-shared-visions-die",
+      "source_path": "why-shared-visions-die.md",
+      "target": "systems-thinking-as-learning-language.md",
+      "target_concept_id": "systems-thinking-as-learning-language",
+      "target_path": "systems-thinking-as-learning-language.md",
+      "text": "systems thinking as learning language",
+      "title": null
+    },
+    {
+      "source_concept_id": "working-across-difference",
+      "source_path": "working-across-difference.md",
+      "target": "balancing-inquiry-and-advocacy.md",
+      "target_concept_id": "balancing-inquiry-and-advocacy",
+      "target_path": "balancing-inquiry-and-advocacy.md",
+      "text": "balancing inquiry and advocacy",
+      "title": null
+    },
+    {
+      "source_concept_id": "working-across-difference",
+      "source_path": "working-across-difference.md",
+      "target": "learning-communities.md",
+      "target_concept_id": "learning-communities",
+      "target_path": "learning-communities.md",
+      "text": "learning communities",
+      "title": null
+    },
+    {
+      "source_concept_id": "working-across-difference",
+      "source_path": "working-across-difference.md",
+      "target": "mental-models-as-organizational-routine.md",
+      "target_concept_id": "mental-models-as-organizational-routine",
+      "target_path": "mental-models-as-organizational-routine.md",
+      "text": "mental models as organizational routine",
+      "title": null
+    }
+  ],
+  "orphans": [
+    "implicit-theories-of-voice"
+  ]
+}

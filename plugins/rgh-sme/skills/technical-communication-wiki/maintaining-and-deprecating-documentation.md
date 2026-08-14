@@ -1,0 +1,33 @@
+---
+type: concept
+title: Maintaining and Deprecating Documentation
+description: >
+  The largest cause of documentation failure is not bad writing but
+  unmaintained writing — a page that was once correct becomes actively
+  harmful once the product it describes changes underneath it — and
+  deprecating a page is a reader migration to manage, not just a
+  deletion.
+sources:
+  - title: "Docs for Developers: An Engineer's Field Guide to Technical Writing"
+    resource: "Docs for Developers (Bhatti, Corleissen, Lambourne, Nunez, Waterhouse), ch. 11"
+  - title: "A Philosophy of Software Design"
+    resource: "A Philosophy of Software Design (John Ousterhout), ch. 16"
+  - title: "Software Architecture in Practice, 4th Edition"
+    resource: "Software Architecture in Practice (Bass, Clements, Kazman), ch. 22"
+  - title: "Software Engineering at Google"
+    resource: "Software Engineering at Google (Winters, Manshreck, Wright), ch. 12"
+---
+
+Documentation's largest failure mode is maintenance, not authorship: a page that was accurate when written becomes actively harmful once the product, interface, policy, dependency, or supported workflow it describes changes and the page doesn't. This makes explicit ownership and ongoing lifecycle work a requirement, not a nice-to-have — documentation that's treated as a one-time publishing event will decay regardless of how well it was originally written.
+
+**Freshness metadata** makes staleness visible before a reader hits a wrong instruction: record the last review date and owner in the document itself (or in machine-readable frontmatter the publishing system can scan), and trigger reminders when a page has not been touched in a defined interval. Including the owner in that metadata increases adoption — under source control, updating "last reviewed" requires the same review process as any other change, which gives owners a concrete incentive to keep the date honest. Even a blunt "This no longer works — see `<replacement>`" note from a non-owner beats leaving an authoritative-looking broken page silent.
+
+The practical fix is connecting documentation changes to the same engineering and release workflows that govern the product: keep source under version control with review history, make documentation updates part of a team's definition-of-done and change checklists, test code samples, links, and builds the same way software is tested, and assign explicit owners to specific areas or pages so staleness has someone accountable for catching it. Release notes, support tickets, user feedback, analytics, and scheduled audits are all sources for finding content that's gone stale before a reader discovers it the hard way. Keep the editable source files behind diagrams and screenshots (see [using visuals effectively](using-visuals-effectively.md)) — without them, even a known-stale visual is effectively unmaintainable.
+
+When content does change, preserve a clear single source of truth and explicit version boundaries: readers still on an older supported version need documentation that matches their actual environment, so current, legacy, and future behavior need to be visibly distinguished rather than blended into one page that's only correct for the latest version. Redirect moved pages instead of breaking links that other content or external sources depend on, and remove misleading duplicate content outright rather than leaving two versions of the same guidance in conflict with each other.
+
+**Physical proximity is a maintenance mechanism in its own right.** Explanatory text placed right next to what it describes is far more likely to get updated when that thing changes, simply because whoever is editing it is already looking at that spot — an explanation kept somewhere separate (a wiki page once removed from the artifact, a header file when the behavior lives in the implementation) can drift for a long time before anyone editing the actual thing notices it's now wrong. Where physical placement genuinely can't put the explanation next to a general audience without also exposing it to a narrower one that shouldn't need it, the fix is tooling that surfaces it to whoever needs it (a rendered doc site, an IDE hover) rather than duplicating the text into a second, separately-maintained location. This also gives a concrete rule of thumb for how detailed an explanation can safely be: the farther it has to sit from the thing it describes, the more it should stick to a stable, abstract level rather than fine-grained detail — detail invalidates quickly when it's out of the editor's immediate view, while a durable, higher-level statement stays true through much more local change (see [choosing a different altitude](choosing-a-different-altitude-than-what-its-explaining.md)).
+
+**Deprecation is a reader migration, not a deletion.** A deprecation notice needs to say what's changing, why, who's affected, the timeline, the supported alternative, concrete migration steps, and where to get help — not just that the old approach is going away. Give warnings early and repeat them across the relevant documentation, the product itself, and release communication, rather than a single announcement easy to miss. Keep deprecated content available long enough for real users to actually transition, mark it unmistakably as deprecated the whole time it remains, and only retire it once the replacement and its migration path are genuinely viable — then measure the actual migration friction users hit and update the guidance as they encounter problems the plan didn't anticipate.
+
+**When a system changes faster than any realistic update cycle can track, stop documenting a snapshot and document invariants instead.** Some systems (a plugin ecosystem accepting third-party components at any time, a service deployed many times a day) genuinely outpace the rate at which a "here is the current state" document could stay accurate, and no one should block a release on documentation catching up to it. The fix is a deliberate shift in what the documentation is for: rather than describing today's exact configuration, describe what stays true across every version — the properties a new component must satisfy to be accepted, the fixed points a variable system is guaranteed not to move — and separately document the allowed *forms* of change (which kinds of variation are sanctioned, such as adding a new module or swapping an implementation) rather than every actual instance of that change as it happens. This reframes the documentation from a picture of the system to a set of compliance constraints the system is guaranteed to honor — a different, more durable kind of accuracy that a snapshot-style document can't offer once change outruns the update cycle.

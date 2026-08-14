@@ -5,7 +5,7 @@
     "name": "Russell Heilling",
     "url": "https://github.com/xchewtoyx"
   },
-  "description": "Zettelkasten-style Agent Plugins wiki bundles, packed and served from Cloudsmith.",
+  "description": "Zettelkasten-style Agent Plugins wiki bundles. Cloudsmith is the artifact store; plugins/ vendors the latest package from it so stable Claude Code (which doesn't yet support the archive source type) can install directly from git.",
   "plugins": [
     {
       "name": "rgh-sme",
@@ -22,11 +22,7 @@
       "keywords": ["zettelkasten", "okf", "knowledge", "wiki", "llm", "sme"],
       "category": "knowledge",
       "strict": false,
-      "source": {
-        "source": "archive",
-        "url": "https://dl.cloudsmith.io/public/chewcorp-kl2f/xchewtoyx/raw/names/rgh-sme/versions/0.1.1/rgh-sme-0.1.1.zip",
-        "sha256": "4ed83adb8c60f94d58edb391e6ae3647ec56a52673f13e404c542a534e465ed6"
-      }
+      "source": "./plugins/rgh-sme"
     },
     {
       "name": "rgh-pre",
@@ -55,11 +51,7 @@
       ],
       "category": "knowledge",
       "strict": false,
-      "source": {
-        "source": "archive",
-        "url": "https://dl.cloudsmith.io/public/chewcorp-kl2f/xchewtoyx/raw/names/rgh-pre/versions/0.1.0/rgh-pre-0.1.0.zip",
-        "sha256": "342e4f3be4957fcc1bcf0c0ec1a9f185f32d7939b8b227ccbee4b60b64879f11"
-      }
+      "source": "./plugins/rgh-pre"
     }
   ]
 }

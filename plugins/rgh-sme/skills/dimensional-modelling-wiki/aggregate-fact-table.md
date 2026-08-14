@@ -1,0 +1,32 @@
+---
+type: concept
+title: Aggregate Fact Table
+description: A performance-oriented rollup of an atomic fact table, built on shrunken conformed dimensions and meant to be invisible to users.
+sources:
+  - title: "The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling, 3rd Edition"
+    resource: "The Data Warehouse Toolkit (Kimball, Ross), 3rd ed., ch. 2"
+  - title: "Star Schema: The Complete Reference"
+    resource: "Star Schema: The Complete Reference (Christopher Adamson), ch. 15"
+---
+
+An aggregate fact table is a simple numeric rollup of atomic [fact-table](fact-table.md) data, built purely to accelerate query performance rather than to answer a question the atomic table couldn't. It carries foreign keys to [shrunken dimension](shrunken-dimension.md)s (conformed to the atomic dimensions) plus facts summed from the more atomic table — see [aggregate design patterns](aggregate-design-patterns.md) for the three ways to build one. This is a form of **vertical partitioning** — every row of the atomic table contributes, but only a subset of columns/facts survives into the rollup — the counterpart to the **horizontal partitioning** a [sliced fact table](sliced-fact-table.md) performs by keeping every column but only a row-subset.
+
+Aggregates should behave like database indexes: available to the BI layer so any report writer, query tool, or BI application benefits transparently through [aggregate navigation](aggregate-navigator.md), but never directly encountered or hand-selected by users. This openness matters — if only one favored tool can exploit an aggregate, the rest of the BI ecosystem gets none of the performance benefit. An **aggregate OLAP cube** is built the same way but, unlike a relational aggregate fact table, is meant to be accessed directly by users; see [olap-cube](olap-cube.md).
+
+Aggregate fact tables are a supplement to, never a replacement for, an atomic-[grain](grain.md) base fact table — see [grain](grain.md) for why premature summarization at the base-table level (as opposed to a genuinely additional aggregate layer) forecloses future flexibility.
+
+## Define an aggregate by its grain, and require conformance
+
+State an aggregate's design the same way any fact table's design starts — as a [grain](grain.md) statement ("orders by month, product, and salesrep"), not as a description of what it summarizes across. The latter framing breaks down for a rollup dimension that's only partially summarized: "summarizes across days" doesn't distinguish a monthly aggregate from a quarterly one, since a month is itself a partial rollup of day.
+
+An aggregate must return exactly the same results as the base table it summarizes — the design-time guarantee for this is requiring the aggregate to [conform](conformed-dimensions.md) to the base star on both sides: its dimensions must be identical to, or a genuine rollup subset of, the base dimensions in structure and content, and its facts must share the base facts' names, business meaning, and data type (see [conformed facts](conformed-facts.md)), returning identical content when aggregated back to the same level of detail as the base fact. Structural conformance can be checked at design time; content conformance can only be guaranteed at load time, which is the practical reason to source an aggregate from the already-loaded base star rather than reprocessing the original upstream sources a second time — a shared or identical dimension needs no extra work beyond replication, while a genuine rollup dimension (month from day, say) still needs its own surrogate key and its own load logic, best driven from the base dimension table rather than re-derived from source.
+
+Conformance is also what keeps using an aggregate simple: because its facts and dimension attributes are name-for-name identical to the base star's, rewriting a query to target the aggregate instead of the base table is mechanical — substitute the aggregate's table names for the base table's (and substitute the rollup dimension's surrogate key wherever a rollup like month-for-day is involved), with no other change to the query's structure. A summary that instead changes structure or introduces content that doesn't conform to the base facts (a new fact, a filtered subset, a transposed layout) is not an aggregate in this sense — it's a [derived schema](derived-schema.md), and needs its own distinctly named facts and its own query shape rather than simple substitution.
+
+## Storing multiple summarization levels in one table is an anti-pattern
+
+Storing both detailed and summarized rows together in the same fact table — distinguished by a "level" indicator on a shared dimension (e.g., a date dimension row tagged `level = "Day"` or `level = "Month"`, with non-applicable attributes on month-rows defaulted to a placeholder) — is the fact-table analog of the dimension-table anti-pattern described in "Anti-pattern: mixing atomic and rollup rows in one dimension table" under [fixed-depth positional hierarchy](fixed-depth-hierarchy.md), and fails for the identical reason: every transaction ends up recorded twice, once at its own grain and again folded into the coarser summary row, so any query that doesn't explicitly constrain the level column double-counts data. The risk compounds with a multi-dimension aggregate, since a separate level column would then be needed in every rollup-capable dimension involved, and every query would have to constrain every one of them — including dimensions the query doesn't otherwise reference — to stay correct. Keep a base fact table and its aggregates in genuinely separate tables instead.
+
+## Is the speedup worth it?
+
+Only build an aggregate when the rollup ratio it offers is large enough to matter. If users constantly query at a coarser grain than the atomic table (for example, an airline's segment-grain flight activity table queried mostly at the level of a whole multi-segment trip) but the rollup from atomic to that coarser grain is small — a typical trip might average only 3 segments — the resulting aggregate table might yield barely a 3x speedup over scanning the atomic table directly, which may not be worth the added ETL and maintenance burden of keeping a whole extra table synchronized. Weigh the expected rollup ratio against that ongoing cost before building the aggregate, rather than assuming any aggregate automatically pays for itself.

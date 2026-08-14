@@ -1,0 +1,3623 @@
+{
+  "bundle": "data-visualization",
+  "concepts": [
+    {
+      "concept_id": "action-titles-and-on-chart-annotation",
+      "description": "Charts need words as much as marks: action titles state the finding, axis and chart titles remove decoding work, and direct annotations explain the points that matter so viewers do not have to invent the conclusion.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.006015244485353172,
+      "title": "Action Titles and On-Chart Annotation"
+    },
+    {
+      "concept_id": "aesthetics-serve-communication",
+      "description": "An unattractive dashboard puts viewers in a mindset that isn't conducive to use, but the fix is displaying the data itself attractively \u2014 not adding ornamentation, which is a distinct failure mode from ugliness.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 7,
+      "pagerank": 0.013173324859569653,
+      "title": "Aesthetics Serve Communication, Not Decoration"
+    },
+    {
+      "concept_id": "alignment-and-white-space",
+      "description": "Clean horizontal and vertical alignment (prefer upper-left justification for how-to-read chrome) and deliberate white space make a layout comfortable; center-aligned floating titles and stuffed margins make even good content feel sloppy.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.0060239279564401615,
+      "title": "Alignment and White Space"
+    },
+    {
+      "concept_id": "avoid-3d-effects-and-occlusion",
+      "description": "3-D styling on business graphs rarely encodes real data and often actively hides it, since objects in front occlude \u2014 completely hide \u2014 objects behind them.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 2,
+      "pagerank": 0.020204701109150985,
+      "title": "Avoid 3-D Effects and Occlusion"
+    },
+    {
+      "concept_id": "avoid-area-encoding-for-quantitative-comparison",
+      "description": "People judge circle/shape size by a linear dimension (like diameter), not true 2-D area, so encoding a quantitative value as shape area systematically distorts how much bigger one value looks compared to another.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.010180722480809786,
+      "title": "Avoid Area Encoding for Quantitative Comparison"
+    },
+    {
+      "concept_id": "axis-manipulation-antipatterns",
+      "description": "Beyond a non-zero bar baseline, an axis can mislead by being inverted, by cherry-picking the plotted time window, by spacing ticks unevenly, or by rescaling a second axis until an unrelated series appears to track the first.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.009348333098454406,
+      "title": "Axis Manipulation Antipatterns"
+    },
+    {
+      "concept_id": "bar-graph-zero-baseline-rule",
+      "description": "A bar's length is read as directly proportional to its value, so a bar graph's quantitative axis must start at zero or it creates a visually false ratio between values.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 4,
+      "pagerank": 0.017063964867030167,
+      "title": "Bar Graph Zero-Baseline Rule"
+    },
+    {
+      "concept_id": "box-plot",
+      "description": "Shows the distribution of a set of values, not just a single summary statistic \u2014 necessary because sets with identical medians (or averages) can have very differently shaped distributions.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.013292927937607705,
+      "title": "Box Plot"
+    },
+    {
+      "concept_id": "bullet-graph",
+      "description": "A dense, colorblind-safe replacement for circular gauges/meters: one bar encoding a measure, a tick mark encoding a comparison target, and background intensity bands encoding qualitative range.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.017029888949990187,
+      "title": "Bullet Graph"
+    },
+    {
+      "concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "description": "Categorical axes are nominal, ordinal, or interval, and this classification directly determines whether the data should be shown as bars or as a line.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 6,
+      "pagerank": 0.018237473874136125,
+      "title": "Categorical Scale Types and Bar vs. Line Choice"
+    },
+    {
+      "concept_id": "choosing-the-right-measure",
+      "description": "A measure can be perfectly accurate and still be the wrong choice \u2014 pick the derived value that directly answers the viewer's question instead of forcing them to compute it themselves.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 2,
+      "pagerank": 0.013071040907185518,
+      "title": "Choosing the Right Measure"
+    },
+    {
+      "concept_id": "color-logic-on-dark-backgrounds",
+      "description": "Prefer light backgrounds so attention stays on the data, but when a dark brand template forces a dark ground, invert emphasis logic \u2014 white becomes the standout, yellow becomes highly attention-grabbing, and grey still recedes.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.0046859592150961995,
+      "title": "Color Logic on Dark Backgrounds"
+    },
+    {
+      "concept_id": "color-perception-context-dependence",
+      "description": "A color or intensity is never perceived in isolation \u2014 the surrounding colors change how it looks, so color choices must be validated in the actual context they'll appear in, not swatch by swatch.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.013604507892172322,
+      "title": "Color Perception Is Context-Dependent"
+    },
+    {
+      "concept_id": "colorblind-safe-color-encoding",
+      "description": "Roughly 10% of men and 1% of women cannot reliably distinguish red from green, so meaning encoded purely via hue (especially a red/yellow/green traffic-light scheme) is invisible to a meaningful share of viewers.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 5,
+      "pagerank": 0.03583844712436311,
+      "title": "Colorblind-Safe Color Encoding"
+    },
+    {
+      "concept_id": "combination-bar-and-line-chart",
+      "description": "Combine bars and a line in one chart when part of the data is best shown as individual values (bars) and part is best shown as overall shape (a line) \u2014 for example, monthly revenue and expenses as bars with profit trend as a line.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.003396517784823658,
+      "title": "Combination Bar and Line Chart"
+    },
+    {
+      "concept_id": "contextualizing-metrics-with-comparisons",
+      "description": "A raw measure means little on its own; it becomes meaningful only against a comparative yardstick, and there is a standard taxonomy of which yardsticks are useful.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.01361943823549924,
+      "title": "Contextualizing Metrics with Comparisons"
+    },
+    {
+      "concept_id": "cumulative-charts-obscure-recent-trend",
+      "description": "A running-total chart can only ever go up (or stay flat), so it structurally cannot show that the underlying period-over-period rate is slowing or reversing \u2014 plot the per-period values when trend direction matters.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0017857142857142859,
+      "title": "Cumulative Charts Obscure Recent Trend Reversals"
+    },
+    {
+      "concept_id": "customize-numeric-presentation-to-audience",
+      "description": "Match a number's precision, units, and vocabulary to what the audience actually needs and understands \u2014 more precision or unfamiliar statistical terms only slow viewers down without adding value.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.014281712040001976,
+      "title": "Customize Numeric Presentation to the Audience"
+    },
+    {
+      "concept_id": "dashboard-as-launch-pad",
+      "description": "A single-screen dashboard usually cannot hold everything needed to act on a finding, so design it for interaction \u2014 drill-down and slicing initiated by clicking the data itself.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.009794686428688047,
+      "title": "Dashboard as Launch Pad"
+    },
+    {
+      "concept_id": "dashboard-definition",
+      "description": "A dashboard is a visual display of the most important information needed to achieve one or more objectives, consolidated on a single screen so it can be monitored at a glance.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 7,
+      "pagerank": 0.024887084679969407,
+      "title": "Dashboard Definition"
+    },
+    {
+      "concept_id": "dashboard-role-taxonomy",
+      "description": "Of the many ways to classify dashboards, the one that actually drives different visual-design choices is the role it serves \u2014 strategic, analytical, or operational.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.007510474518701489,
+      "title": "Dashboard Role Taxonomy (Strategic, Analytical, Operational)"
+    },
+    {
+      "concept_id": "data-ink-ratio",
+      "description": "Maximize the proportion of a display's visual weight that actually represents data, by removing decoration and non-essential elements first and only then enhancing what's left for clarity.",
+      "inbound_link_count": 11,
+      "outbound_link_count": 10,
+      "pagerank": 0.03922743130708501,
+      "title": "Data-Ink Ratio (Reduce Non-Data Pixels, Enhance Data Pixels)"
+    },
+    {
+      "concept_id": "declutter-chart-chrome",
+      "description": "A practical subtraction checklist for default chart chrome \u2014 borders, gridlines, gratuitous markers, noisy axis labels, legends, and inconsistent colors \u2014 so data and labels carry the load without competing non-data pixels.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 9,
+      "pagerank": 0.004822264431039808,
+      "title": "Declutter Chart Chrome"
+    },
+    {
+      "concept_id": "delineate-groups-with-least-visible-means",
+      "description": "Separate dashboard sections using the least visually intrusive technique that works \u2014 white space first, subtle borders only when density leaves no room for white space.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.011811238897472933,
+      "title": "Delineate Groups with the Least Visible Means"
+    },
+    {
+      "concept_id": "direct-labeling-over-legends",
+      "description": "Label data directly on the chart wherever possible, instead of forcing the viewer's eye to bounce back and forth between the chart and a separate key.",
+      "inbound_link_count": 10,
+      "outbound_link_count": 4,
+      "pagerank": 0.02161416068306564,
+      "title": "Direct Labeling Over Legends"
+    },
+    {
+      "concept_id": "distinguish-actual-from-forecast",
+      "description": "When actual and forecast share one time axis, mark uncertainty explicitly \u2014 solid versus dotted lines, lighter weight, region shading, and labels \u2014 rather than plotting one undifferentiated series that hides where fact ends and projection begins.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0017857142857142859,
+      "title": "Distinguish Actual from Forecast"
+    },
+    {
+      "concept_id": "drawing-objects-for-relationships",
+      "description": "Use shapes for entities and lines (with arrows for direction) for their relationships to show process flow or org-chart-style structure \u2014 a distinct display need from quantitative charts.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.003838640758425943,
+      "title": "Drawing Objects for Process Flow and Entity Relationships"
+    },
+    {
+      "concept_id": "dual-dimension-encoding-antipattern",
+      "description": "Encoding a single quantitative value in two visual dimensions of the same object at once (e.g., both bar height and bar width) tempts viewers into inaccurate area comparisons and requires too much study to interpret.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.004449781483323211,
+      "title": "Dual-Dimension Encoding Antipattern"
+    },
+    {
+      "concept_id": "evaluative-state-banding",
+      "description": "When flagging a measure's good/bad status, use a small number of discrete states (roughly 4-5 at most) rather than a continuous or finely graded scale, or the evaluation itself becomes hard to perceive quickly.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.017981392677224636,
+      "title": "Evaluative State Banding"
+    },
+    {
+      "concept_id": "gaining-acceptance-for-new-visual-designs",
+      "description": "Audiences often resist unfamiliar chart forms; win acceptance by articulating benefits, showing before/after, offering options for input, and recruiting vocal allies \u2014 while testing whether resistance is change-aversion or a real design flaw.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.003385331254952298,
+      "title": "Gaining Acceptance for New Visual Designs"
+    },
+    {
+      "concept_id": "gestalt-closure",
+      "description": "Viewers perceive ambiguous or incomplete shapes as closed and regular whenever reasonably possible, which means a chart doesn't need a full border to read as a defined region.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.005575480844867262,
+      "title": "Gestalt Principle: Closure"
+    },
+    {
+      "concept_id": "gestalt-connection",
+      "description": "Objects joined by a visible line are grouped together more strongly than proximity or similarity can achieve, making connection the right tool for showing relationships between entities.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.012076047810175988,
+      "title": "Gestalt Principle: Connection"
+    },
+    {
+      "concept_id": "gestalt-continuity",
+      "description": "Objects that are aligned with each other, or that appear to continue one another, are perceived as a single whole \u2014 alignment alone can group table columns without needing grid lines.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.003374932418661508,
+      "title": "Gestalt Principle: Continuity"
+    },
+    {
+      "concept_id": "gestalt-enclosure",
+      "description": "A visual border or shared background fill makes viewers perceive the enclosed objects as one distinct group, and it works even when the border is very subtle.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.010251549473547289,
+      "title": "Gestalt Principle: Enclosure"
+    },
+    {
+      "concept_id": "gestalt-proximity",
+      "description": "Objects located near each other are perceived as belonging to the same group \u2014 often the simplest and least visually intrusive way to link data.",
+      "inbound_link_count": 13,
+      "outbound_link_count": 6,
+      "pagerank": 0.03730399130179783,
+      "title": "Gestalt Principle: Proximity"
+    },
+    {
+      "concept_id": "gestalt-similarity",
+      "description": "Objects that share color, size, shape, or orientation are perceived as grouped together, even when they sit in different locations on the screen.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 3,
+      "pagerank": 0.021263340082768173,
+      "title": "Gestalt Principle: Similarity"
+    },
+    {
+      "concept_id": "glass-slipper-visualization-antipattern",
+      "description": "Borrowing a visualization form's implied structure or rigor for data that doesn't actually have that structure \u2014 like forcing a foot into a shoe it doesn't fit.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0017857142857142859,
+      "title": "Glass-Slipper Visualization Antipattern"
+    },
+    {
+      "concept_id": "heat-map-for-distribution-over-many-series",
+      "description": "A color-density grid preserves the full spread across many parallel series (or time buckets) that a single aggregate line \u2014 mean, median, or a percentile \u2014 would collapse away.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.005552049387124634,
+      "title": "Heat Map for Distribution Across Many Series or Over Time"
+    },
+    {
+      "concept_id": "horizontal-bars-for-categorical-labels",
+      "description": "Horizontal bar charts are the default for categorical comparisons with readable labels: category names run left-to-right in natural reading order and are seen before the data under a top-left-first scan.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 4,
+      "pagerank": 0.012161609165639978,
+      "title": "Horizontal Bars for Categorical Labels"
+    },
+    {
+      "concept_id": "line-chart-for-trend-shape",
+      "description": "Line charts exist to reveal shape \u2014 trend, fluctuation, cycle, rate of change, or co-variation \u2014 not to support reading off individual values, so their quantitative scale need not start at zero.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 8,
+      "pagerank": 0.020938326802473924,
+      "title": "Line Chart for Trend Shape"
+    },
+    {
+      "concept_id": "minimize-extraneous-cognitive-load",
+      "description": "Every visual element costs mental effort; extraneous cognitive load is processing that consumes that budget without helping understanding, so clutter that makes a graphic look hard can cause the audience to opt out before the message is heard.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 5,
+      "pagerank": 0.012842128392000754,
+      "title": "Minimize Extraneous Cognitive Load"
+    },
+    {
+      "concept_id": "multi-foci-time-display",
+      "description": "Show recent history at fine granularity and older history at progressively coarser granularity, as adjoining chart sections, so a long time series still fits within the single-screen constraint.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0037537331754608806,
+      "title": "Multi-Foci Time Display"
+    },
+    {
+      "concept_id": "normalize-by-rate-not-raw-count",
+      "description": "Comparing raw counts across groups with different underlying exposure or population size can reverse the real pattern; divide by the right denominator before charting a comparison.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0017857142857142859,
+      "title": "Normalize by Rate, Not Raw Count, Across Unequal Groups"
+    },
+    {
+      "concept_id": "noticing-non-events",
+      "description": "Human perception is tuned to detect change, not the absence of expected change, so a monitoring display that only reacts when something moves will systematically fail to flag a value that should have changed and didn't.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0017857142857142859,
+      "title": "Noticing Non-Events"
+    },
+    {
+      "concept_id": "order-categorical-values-by-magnitude",
+      "description": "When a categorical axis has no inherent order, sort its bars/slices by value rather than leaving them in an arbitrary or alphabetical order.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.012356594253270101,
+      "title": "Order Categorical Values by Magnitude"
+    },
+    {
+      "concept_id": "pareto-chart",
+      "description": "Bars show individual values ranked largest to smallest; an overlaid line shows the running cumulative total, revealing how concentrated the contribution is across ranked categories.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.008832754097150978,
+      "title": "Pareto Chart"
+    },
+    {
+      "concept_id": "perceptual-distinctness-limits",
+      "description": "Most preattentive attributes have a practical ceiling of about 5 reliably distinguishable levels, and hue tops out around 9 before memory for what each one means starts to fail.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.019964882447463257,
+      "title": "Perceptual Distinctness Limits"
+    },
+    {
+      "concept_id": "pie-charts-are-rarely-appropriate",
+      "description": "Pie charts encode quantity as 2-D area and angle, which humans compare poorly, and are frequently misused for data that isn't even parts of a whole; a bar graph almost always communicates the same data better.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.008864703919075555,
+      "title": "Pie Charts Are Rarely Appropriate"
+    },
+    {
+      "concept_id": "positive-negative-direction-encoding",
+      "description": "Plot reductions below a baseline and additions above it (or use empty outline for a gap) so direction itself carries meaning, then reinforce with matching label colors and deliberate stack order.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 5,
+      "pagerank": 0.0017857142857142859,
+      "title": "Positive-Negative Direction Encoding"
+    },
+    {
+      "concept_id": "preattentive-attributes-for-dashboards",
+      "description": "Of the many visual attributes perceived preattentively, eleven are relevant to dashboards, and only some of them can express \"greater than / less than\" rather than merely \"different from.\"",
+      "inbound_link_count": 10,
+      "outbound_link_count": 7,
+      "pagerank": 0.03622361220865202,
+      "title": "Preattentive Attributes for Dashboards"
+    },
+    {
+      "concept_id": "preattentive-processing",
+      "description": "Certain simple visual attributes are recognized almost instantly and below conscious awareness, while everything else must be found through slow, sequential, conscious search.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 3,
+      "pagerank": 0.027439639730040502,
+      "title": "Preattentive Processing"
+    },
+    {
+      "concept_id": "principle-of-the-moving-part",
+      "description": "A fixed scale with a moving pointer preserves the whole range and the viewer's position within it; a moving scale behind a fixed window hides everything outside that window and destroys spatial/trend context.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0017857142857142859,
+      "title": "Principle of the Moving Part"
+    },
+    {
+      "concept_id": "progressive-emphasis-across-slides",
+      "description": "The same underlying chart can support different claims by restyling preattentive emphasis alone \u2014 and in live presentation, revealing or highlighting only the relevant slice at each step controls attention through the narrative.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.00750970424116865,
+      "title": "Progressive Emphasis Across Slides"
+    },
+    {
+      "concept_id": "proportional-ink-principle",
+      "description": "Whenever shaded area or length represents a numerical value, that visual quantity must be directly proportional to the value it represents \u2014 the general rule that explains why bar charts need a zero baseline and several other common chart distortions.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.012536774882088163,
+      "title": "Proportional Ink Principle"
+    },
+    {
+      "concept_id": "radar-charts-pitfalls",
+      "description": "Radar (spider) charts arrange a quantitative scale radially from center to perimeter, which obscures data a linear bar graph would show clearly, and are rarely appropriate for business data.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0017857142857142859,
+      "title": "Radar Chart Pitfalls"
+    },
+    {
+      "concept_id": "scatter-plot-for-correlation",
+      "description": "Purpose-built to show whether, how strongly, and in what direction two paired quantitative variables correlate \u2014 something a time-series line graph of the same data cannot reveal clearly.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.020187312812467127,
+      "title": "Scatter Plot for Correlation"
+    },
+    {
+      "concept_id": "screen-position-emphasis",
+      "description": "Top-left and center are the highest-emphasis regions of a screen, so the most important, always-important data belongs there \u2014 and a logo or nav controls never should.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 5,
+      "pagerank": 0.01803762345016449,
+      "title": "Screen Position as a Static Highlighting Tool"
+    },
+    {
+      "concept_id": "secondary-y-axis-alternatives",
+      "description": "A secondary y-axis can plot two differently unit-ed series on one x-axis, but forces the reader to decode which series belongs to which scale and can imply a false relationship \u2014 prefer direct labels or vertically paired charts instead.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.005175863804256002,
+      "title": "Secondary Y-Axis Alternatives"
+    },
+    {
+      "concept_id": "self-sufficient-graphic-elements",
+      "description": "Unlike a dashboard tile that lives inside a persistent interactive interface, a standalone chart may be viewed, printed, or copied out of context, so its title, axis labels and units, legend, and data source must all be readable on the graphic itself.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.005690832826090595,
+      "title": "A Standalone Graphic Must Be Self-Sufficient"
+    },
+    {
+      "concept_id": "short-term-memory-chunk-limit",
+      "description": "Working memory holds only about 3-9 chunks of visual information at once, which is the underlying reason data that scrolls out of view is effectively lost to the viewer.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.013867519198757675,
+      "title": "Short-Term Memory Chunk Limit"
+    },
+    {
+      "concept_id": "single-hue-saturation-over-rainbow",
+      "description": "Encoding ranked or quantitative values as a rainbow of categorical hues makes every cell look different and nothing stand out; varying saturation of one hue preserves order, draws the eye to extremes, and stays colorblind-friendlier.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.007650756411634745,
+      "title": "Single-Hue Saturation Over Rainbow Encoding"
+    },
+    {
+      "concept_id": "single-screen-constraint",
+      "description": "A dashboard must fit entirely within one eye span, with nothing requiring scrolling or navigation to a different screen to be seen alongside the rest.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.011576578507248659,
+      "title": "Single-Screen Constraint"
+    },
+    {
+      "concept_id": "size-signals-relative-importance",
+      "description": "Relative size is read as relative importance, so equally important elements should be sized similarly and the truly focal element should be made conspicuously larger \u2014 never leave sizing to layout happenstance.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.004852107700064234,
+      "title": "Size Signals Relative Importance"
+    },
+    {
+      "concept_id": "slopegraph",
+      "description": "A slopegraph compares the same categories at two points in time (or two states) as paired values connected by lines, so relative increases and decreases read directly as slope without needing a second chart.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.006594063762460623,
+      "title": "Slopegraph for Change Between Two Points"
+    },
+    {
+      "concept_id": "small-multiples",
+      "description": "Repeat the same basic graph many times, each instance varying along one variable, to fit a three-variable comparison within eye span that wouldn't fit in a single graph.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0029710017842071767,
+      "title": "Small Multiples"
+    },
+    {
+      "concept_id": "spaghetti-graph-strategies",
+      "description": "A spaghetti graph \u2014 many overlapping lines on one plot \u2014 is hard to track; fix it by emphasizing one series at a time, separating series into matched- scale small multiples, or combining separation with muted context lines.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.0041833600290648336,
+      "title": "Spaghetti Graph Strategies"
+    },
+    {
+      "concept_id": "sparklines",
+      "description": "A tiny, axis-less line graph giving quick historical context without a precise quantitative readout \u2014 ideal for dense dashboards where a full chart won't fit.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.004010415447960379,
+      "title": "Sparklines"
+    },
+    {
+      "concept_id": "spatial-arrangement-by-importance-and-use",
+      "description": "Placement should follow which data is most important, most urgent, or most needs to be compared to something else \u2014 not a default grouping by department or data source.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.010092447286068309,
+      "title": "Arrange Dashboard Content by Importance and Use, Not by Org Chart"
+    },
+    {
+      "concept_id": "stacked-bar-chart-tradeoffs",
+      "description": "Stacked bars make the whole easy to compare across instances but make every segment above the bottom one hard to compare, since its baseline shifts with the segments beneath it.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.00947529173185823,
+      "title": "Stacked Bar Chart Tradeoffs"
+    },
+    {
+      "concept_id": "static-vs-dynamic-highlighting",
+      "description": "Highlight always-important data through fixed screen position; highlight data that's only important right now through a preattentive attribute that changes with the data, and never over-highlight either way.",
+      "inbound_link_count": 11,
+      "outbound_link_count": 4,
+      "pagerank": 0.04182814156699131,
+      "title": "Static vs. Dynamic Highlighting"
+    },
+    {
+      "concept_id": "status-icon-design",
+      "description": "Dashboard icons only need to cover three meanings \u2014 alert, up/down, on/off \u2014 and each should use one simple, consistent shape with as few severity levels as possible.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.011699283696550237,
+      "title": "Status Icon Design"
+    },
+    {
+      "concept_id": "summarization-and-exception-reporting",
+      "description": "Condense dashboard content by reducing large sets of numbers to summaries and by showing detail only when something falls outside normal range \u2014 without going so far that the viewer loses all ongoing awareness.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.011775164802092036,
+      "title": "Summarization and Exception Reporting"
+    },
+    {
+      "concept_id": "support-meaningful-comparisons",
+      "description": "Deliberately design for the comparisons a viewer actually needs to make \u2014 through proximity, shared color, and combined graphs \u2014 and avoid visual choices that accidentally imply a comparison that isn't meant.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 6,
+      "pagerank": 0.021787623681117967,
+      "title": "Support Meaningful Comparisons, Discourage Meaningless Ones"
+    },
+    {
+      "concept_id": "text-vs-graphics-tradeoff",
+      "description": "Text excels at precise lookup of individual values; graphics excel at revealing shape and relationships \u2014 pick text alone when only one unqualified value matters, and graphics once shape or comparison matters.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.004010415447960379,
+      "title": "Text vs. Graphics Tradeoff"
+    },
+    {
+      "concept_id": "treemap",
+      "description": "A space-efficient display of large hierarchical or categorical data as nested rectangles, sized and colored to make outliers jump out \u2014 not designed for precise quantitative comparison or ranking.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.006335349226835436,
+      "title": "Treemap"
+    },
+    {
+      "concept_id": "usability-testing-with-single-prototype",
+      "description": "Test one well-designed prototype with real users and real data rather than presenting multiple design alternatives for them to choose between.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0037040677914628407,
+      "title": "Usability-Test a Single Best-Effort Prototype"
+    },
+    {
+      "concept_id": "variable-bin-width-distortion",
+      "description": "When bars represent counts grouped into ranges, unequal bin widths let bin width itself \u2014 not the underlying density of the data \u2014 drive apparent bar height, which can manufacture a visual pattern that isn't really there.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.004369362600214531,
+      "title": "Variable Bin Width Distorts Bar and Histogram Comparisons"
+    },
+    {
+      "concept_id": "visual-affordances-for-charts",
+      "description": "Form follows function in data display: decide what the audience must do with the data, then make that use obvious through highlighting at most about 10% of the visual, removing distractions, and a clear visual hierarchy.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.00663840290834785,
+      "title": "Visual Affordances for Charts"
+    },
+    {
+      "concept_id": "visual-consistency-principle",
+      "description": "Anything that means the same thing, or works the same way, should look the same everywhere on a dashboard \u2014 including which chart type is used for a given kind of data relationship.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.02223702599365659,
+      "title": "Visual Consistency Principle"
+    },
+    {
+      "concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "description": "Used sparingly, preattentive attributes do more than make one element pop \u2014 variance within and across attributes creates an ordered path through a graphic so the audience reads the most important points first.",
+      "inbound_link_count": 14,
+      "outbound_link_count": 5,
+      "pagerank": 0.03225329377021749,
+      "title": "Visual Hierarchy with Preattentive Attributes"
+    },
+    {
+      "concept_id": "visualization-for-exploration-vs-communication",
+      "description": "Data visualization serves two distinct purposes \u2014 finding patterns in data and presenting findings to others \u2014 and designs that work for one often fail for the other.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 7,
+      "pagerank": 0.008545426158025988,
+      "title": "Visualization for Exploration vs. Communication"
+    },
+    {
+      "concept_id": "vivid-color-restraint",
+      "description": "Fully saturated, \"hot\" color is a powerful attention-grabber precisely because it's rare \u2014 use it sparingly, or its power dilutes and viewers are kept in an unnecessarily stressed, pinpoint-attention state.",
+      "inbound_link_count": 10,
+      "outbound_link_count": 4,
+      "pagerank": 0.022252989534054708,
+      "title": "Reserve Vivid Color for What Genuinely Needs Attention"
+    },
+    {
+      "concept_id": "waterfall-chart",
+      "description": "A waterfall chart unpacks a starting value into sequential positive and negative contributions that reach an ending value, making composition of change readable without forcing every segment onto a shared stacked baseline.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.003396517784823658,
+      "title": "Waterfall Chart for Sequential Increases and Decreases"
+    },
+    {
+      "concept_id": "when-geography-belongs-on-a-dashboard",
+      "description": "Plot data on a map only when its meaning genuinely depends on spatial or geographic relationships that a table or ranked bar graph could not reveal.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.003303571428571429,
+      "title": "When Geography Belongs on a Dashboard"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "action-titles-and-on-chart-annotation",
+      "source_path": "action-titles-and-on-chart-annotation.md",
+      "target": "direct-labeling-over-legends.md",
+      "target_concept_id": "direct-labeling-over-legends",
+      "target_path": "direct-labeling-over-legends.md",
+      "text": "direct labels",
+      "title": null
+    },
+    {
+      "source_concept_id": "action-titles-and-on-chart-annotation",
+      "source_path": "action-titles-and-on-chart-annotation.md",
+      "target": "self-sufficient-graphic-elements.md",
+      "target_concept_id": "self-sufficient-graphic-elements",
+      "target_path": "self-sufficient-graphic-elements.md",
+      "text": "a standalone graphic must be self-sufficient",
+      "title": null
+    },
+    {
+      "source_concept_id": "action-titles-and-on-chart-annotation",
+      "source_path": "action-titles-and-on-chart-annotation.md",
+      "target": "short-term-memory-chunk-limit.md",
+      "target_concept_id": "short-term-memory-chunk-limit",
+      "target_path": "short-term-memory-chunk-limit.md",
+      "text": "working memory",
+      "title": null
+    },
+    {
+      "source_concept_id": "action-titles-and-on-chart-annotation",
+      "source_path": "action-titles-and-on-chart-annotation.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "preattentive emphasis",
+      "title": null
+    },
+    {
+      "source_concept_id": "aesthetics-serve-communication",
+      "source_path": "aesthetics-serve-communication.md",
+      "target": "alignment-and-white-space.md",
+      "target_concept_id": "alignment-and-white-space",
+      "target_path": "alignment-and-white-space.md",
+      "text": "alignment and white space",
+      "title": null
+    },
+    {
+      "source_concept_id": "aesthetics-serve-communication",
+      "source_path": "aesthetics-serve-communication.md",
+      "target": "color-logic-on-dark-backgrounds.md",
+      "target_concept_id": "color-logic-on-dark-backgrounds",
+      "target_path": "color-logic-on-dark-backgrounds.md",
+      "text": "color logic on dark backgrounds",
+      "title": null
+    },
+    {
+      "source_concept_id": "aesthetics-serve-communication",
+      "source_path": "aesthetics-serve-communication.md",
+      "target": "colorblind-safe-color-encoding.md",
+      "target_concept_id": "colorblind-safe-color-encoding",
+      "target_path": "colorblind-safe-color-encoding.md",
+      "text": "colorblind-safe encoding",
+      "title": null
+    },
+    {
+      "source_concept_id": "aesthetics-serve-communication",
+      "source_path": "aesthetics-serve-communication.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "data-ink ratio",
+      "title": null
+    },
+    {
+      "source_concept_id": "aesthetics-serve-communication",
+      "source_path": "aesthetics-serve-communication.md",
+      "target": "gaining-acceptance-for-new-visual-designs.md",
+      "target_concept_id": "gaining-acceptance-for-new-visual-designs",
+      "target_path": "gaining-acceptance-for-new-visual-designs.md",
+      "text": "gaining acceptance for new visual designs",
+      "title": null
+    },
+    {
+      "source_concept_id": "aesthetics-serve-communication",
+      "source_path": "aesthetics-serve-communication.md",
+      "target": "vivid-color-restraint.md",
+      "target_concept_id": "vivid-color-restraint",
+      "target_path": "vivid-color-restraint.md",
+      "text": "color",
+      "title": null
+    },
+    {
+      "source_concept_id": "aesthetics-serve-communication",
+      "source_path": "aesthetics-serve-communication.md",
+      "target": "vivid-color-restraint.md",
+      "target_concept_id": "vivid-color-restraint",
+      "target_path": "vivid-color-restraint.md",
+      "text": "vivid color restraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "alignment-and-white-space",
+      "source_path": "alignment-and-white-space.md",
+      "target": "declutter-chart-chrome.md",
+      "target_concept_id": "declutter-chart-chrome",
+      "target_path": "declutter-chart-chrome.md",
+      "text": "decluttering chrome",
+      "title": null
+    },
+    {
+      "source_concept_id": "alignment-and-white-space",
+      "source_path": "alignment-and-white-space.md",
+      "target": "delineate-groups-with-least-visible-means.md",
+      "target_concept_id": "delineate-groups-with-least-visible-means",
+      "target_path": "delineate-groups-with-least-visible-means.md",
+      "text": "group delineator",
+      "title": null
+    },
+    {
+      "source_concept_id": "alignment-and-white-space",
+      "source_path": "alignment-and-white-space.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "Gestalt proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "alignment-and-white-space",
+      "source_path": "alignment-and-white-space.md",
+      "target": "minimize-extraneous-cognitive-load.md",
+      "target_concept_id": "minimize-extraneous-cognitive-load",
+      "target_path": "minimize-extraneous-cognitive-load.md",
+      "text": "extraneous cognitive load",
+      "title": null
+    },
+    {
+      "source_concept_id": "alignment-and-white-space",
+      "source_path": "alignment-and-white-space.md",
+      "target": "screen-position-emphasis.md",
+      "target_concept_id": "screen-position-emphasis",
+      "target_path": "screen-position-emphasis.md",
+      "text": "screen position",
+      "title": null
+    },
+    {
+      "source_concept_id": "alignment-and-white-space",
+      "source_path": "alignment-and-white-space.md",
+      "target": "vivid-color-restraint.md",
+      "target_concept_id": "vivid-color-restraint",
+      "target_path": "vivid-color-restraint.md",
+      "text": "strategic contrast",
+      "title": null
+    },
+    {
+      "source_concept_id": "avoid-3d-effects-and-occlusion",
+      "source_path": "avoid-3d-effects-and-occlusion.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "data-ink ratio",
+      "title": null
+    },
+    {
+      "source_concept_id": "avoid-3d-effects-and-occlusion",
+      "source_path": "avoid-3d-effects-and-occlusion.md",
+      "target": "scatter-plot-for-correlation.md",
+      "target_concept_id": "scatter-plot-for-correlation",
+      "target_path": "scatter-plot-for-correlation.md",
+      "text": "scatter plot for correlation",
+      "title": null
+    },
+    {
+      "source_concept_id": "avoid-area-encoding-for-quantitative-comparison",
+      "source_path": "avoid-area-encoding-for-quantitative-comparison.md",
+      "target": "pie-charts-are-rarely-appropriate.md",
+      "target_concept_id": "pie-charts-are-rarely-appropriate",
+      "target_path": "pie-charts-are-rarely-appropriate.md",
+      "text": "pie charts",
+      "title": null
+    },
+    {
+      "source_concept_id": "avoid-area-encoding-for-quantitative-comparison",
+      "source_path": "avoid-area-encoding-for-quantitative-comparison.md",
+      "target": "preattentive-attributes-for-dashboards.md",
+      "target_concept_id": "preattentive-attributes-for-dashboards",
+      "target_path": "preattentive-attributes-for-dashboards.md",
+      "text": "2-D position and line length areread accurately",
+      "title": null
+    },
+    {
+      "source_concept_id": "avoid-area-encoding-for-quantitative-comparison",
+      "source_path": "avoid-area-encoding-for-quantitative-comparison.md",
+      "target": "treemap.md",
+      "target_concept_id": "treemap",
+      "target_path": "treemap.md",
+      "text": "treemaps",
+      "title": null
+    },
+    {
+      "source_concept_id": "axis-manipulation-antipatterns",
+      "source_path": "axis-manipulation-antipatterns.md",
+      "target": "bar-graph-zero-baseline-rule.md",
+      "target_concept_id": "bar-graph-zero-baseline-rule",
+      "target_path": "bar-graph-zero-baseline-rule.md",
+      "text": "zero-baseline rule for bars",
+      "title": null
+    },
+    {
+      "source_concept_id": "axis-manipulation-antipatterns",
+      "source_path": "axis-manipulation-antipatterns.md",
+      "target": "gestalt-continuity.md",
+      "target_concept_id": "gestalt-continuity",
+      "target_path": "gestalt-continuity.md",
+      "text": "Gestalt",
+      "title": null
+    },
+    {
+      "source_concept_id": "axis-manipulation-antipatterns",
+      "source_path": "axis-manipulation-antipatterns.md",
+      "target": "proportional-ink-principle.md",
+      "target_concept_id": "proportional-ink-principle",
+      "target_path": "proportional-ink-principle.md",
+      "text": "proportional ink",
+      "title": null
+    },
+    {
+      "source_concept_id": "axis-manipulation-antipatterns",
+      "source_path": "axis-manipulation-antipatterns.md",
+      "target": "self-sufficient-graphic-elements.md",
+      "target_concept_id": "self-sufficient-graphic-elements",
+      "target_path": "self-sufficient-graphic-elements.md",
+      "text": "a standalone graphic must be self-sufficient",
+      "title": null
+    },
+    {
+      "source_concept_id": "axis-manipulation-antipatterns",
+      "source_path": "axis-manipulation-antipatterns.md",
+      "target": "support-meaningful-comparisons.md",
+      "target_concept_id": "support-meaningful-comparisons",
+      "target_path": "support-meaningful-comparisons.md",
+      "text": "Combining two series on left/rightaxes",
+      "title": null
+    },
+    {
+      "source_concept_id": "bar-graph-zero-baseline-rule",
+      "source_path": "bar-graph-zero-baseline-rule.md",
+      "target": "bullet-graph.md",
+      "target_concept_id": "bullet-graph",
+      "target_path": "bullet-graph.md",
+      "text": "bullet graph",
+      "title": null
+    },
+    {
+      "source_concept_id": "bar-graph-zero-baseline-rule",
+      "source_path": "bar-graph-zero-baseline-rule.md",
+      "target": "direct-labeling-over-legends.md",
+      "target_concept_id": "direct-labeling-over-legends",
+      "target_path": "direct-labeling-over-legends.md",
+      "text": "direct data labels",
+      "title": null
+    },
+    {
+      "source_concept_id": "bar-graph-zero-baseline-rule",
+      "source_path": "bar-graph-zero-baseline-rule.md",
+      "target": "line-chart-for-trend-shape.md",
+      "target_concept_id": "line-chart-for-trend-shape",
+      "target_path": "line-chart-for-trend-shape.md",
+      "text": "line graphs",
+      "title": null
+    },
+    {
+      "source_concept_id": "bar-graph-zero-baseline-rule",
+      "source_path": "bar-graph-zero-baseline-rule.md",
+      "target": "proportional-ink-principle.md",
+      "target_concept_id": "proportional-ink-principle",
+      "target_path": "proportional-ink-principle.md",
+      "text": "proportional inkprinciple",
+      "title": null
+    },
+    {
+      "source_concept_id": "box-plot",
+      "source_path": "box-plot.md",
+      "target": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "target_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "text": "bar/line charts",
+      "title": null
+    },
+    {
+      "source_concept_id": "box-plot",
+      "source_path": "box-plot.md",
+      "target": "heat-map-for-distribution-over-many-series.md",
+      "target_concept_id": "heat-map-for-distribution-over-many-series",
+      "target_path": "heat-map-for-distribution-over-many-series.md",
+      "text": "heat map for distribution across many series",
+      "title": null
+    },
+    {
+      "source_concept_id": "box-plot",
+      "source_path": "box-plot.md",
+      "target": "scatter-plot-for-correlation.md",
+      "target_concept_id": "scatter-plot-for-correlation",
+      "target_path": "scatter-plot-for-correlation.md",
+      "text": "scatter plots",
+      "title": null
+    },
+    {
+      "source_concept_id": "bullet-graph",
+      "source_path": "bullet-graph.md",
+      "target": "bar-graph-zero-baseline-rule.md",
+      "target_concept_id": "bar-graph-zero-baseline-rule",
+      "target_path": "bar-graph-zero-baseline-rule.md",
+      "text": "start its scale at zero",
+      "title": null
+    },
+    {
+      "source_concept_id": "bullet-graph",
+      "source_path": "bullet-graph.md",
+      "target": "colorblind-safe-color-encoding.md",
+      "target_concept_id": "colorblind-safe-color-encoding",
+      "target_path": "colorblind-safe-color-encoding.md",
+      "text": "colorblind-safe color encoding",
+      "title": null
+    },
+    {
+      "source_concept_id": "bullet-graph",
+      "source_path": "bullet-graph.md",
+      "target": "perceptual-distinctness-limits.md",
+      "target_concept_id": "perceptual-distinctness-limits",
+      "target_path": "perceptual-distinctness-limits.md",
+      "text": "perceptual distinctness limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "bullet-graph",
+      "source_path": "bullet-graph.md",
+      "target": "preattentive-processing.md",
+      "target_concept_id": "preattentive-processing",
+      "target_path": "preattentive-processing.md",
+      "text": "preattentive processing",
+      "title": null
+    },
+    {
+      "source_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "source_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target": "horizontal-bars-for-categorical-labels.md",
+      "target_concept_id": "horizontal-bars-for-categorical-labels",
+      "target_path": "horizontal-bars-for-categorical-labels.md",
+      "text": "horizontal bars when labels are long",
+      "title": null
+    },
+    {
+      "source_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "source_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target": "line-chart-for-trend-shape.md",
+      "target_concept_id": "line-chart-for-trend-shape",
+      "target_path": "line-chart-for-trend-shape.md",
+      "text": "line chart for trend shape",
+      "title": null
+    },
+    {
+      "source_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "source_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target": "pareto-chart.md",
+      "target_concept_id": "pareto-chart",
+      "target_path": "pareto-chart.md",
+      "text": "Pareto chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "source_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target": "pie-charts-are-rarely-appropriate.md",
+      "target_concept_id": "pie-charts-are-rarely-appropriate",
+      "target_path": "pie-charts-are-rarely-appropriate.md",
+      "text": "pie chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "source_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target": "slopegraph.md",
+      "target_concept_id": "slopegraph",
+      "target_path": "slopegraph.md",
+      "text": "slopegraph",
+      "title": null
+    },
+    {
+      "source_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "source_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target": "variable-bin-width-distortion.md",
+      "target_concept_id": "variable-bin-width-distortion",
+      "target_path": "variable-bin-width-distortion.md",
+      "text": "variable bin width distortion",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-the-right-measure",
+      "source_path": "choosing-the-right-measure.md",
+      "target": "contextualizing-metrics-with-comparisons.md",
+      "target_concept_id": "contextualizing-metrics-with-comparisons",
+      "target_path": "contextualizing-metrics-with-comparisons.md",
+      "text": "matching visual form to an analyticalquestion",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-the-right-measure",
+      "source_path": "choosing-the-right-measure.md",
+      "target": "customize-numeric-presentation-to-audience.md",
+      "target_concept_id": "customize-numeric-presentation-to-audience",
+      "target_path": "customize-numeric-presentation-to-audience.md",
+      "text": "matching precision to the audience",
+      "title": null
+    },
+    {
+      "source_concept_id": "color-logic-on-dark-backgrounds",
+      "source_path": "color-logic-on-dark-backgrounds.md",
+      "target": "aesthetics-serve-communication.md",
+      "target_concept_id": "aesthetics-serve-communication",
+      "target_path": "aesthetics-serve-communication.md",
+      "text": "aesthetics serve communication",
+      "title": null
+    },
+    {
+      "source_concept_id": "color-logic-on-dark-backgrounds",
+      "source_path": "color-logic-on-dark-backgrounds.md",
+      "target": "color-perception-context-dependence.md",
+      "target_concept_id": "color-perception-context-dependence",
+      "target_path": "color-perception-context-dependence.md",
+      "text": "in the actual surrounding context",
+      "title": null
+    },
+    {
+      "source_concept_id": "color-logic-on-dark-backgrounds",
+      "source_path": "color-logic-on-dark-backgrounds.md",
+      "target": "vivid-color-restraint.md",
+      "target_concept_id": "vivid-color-restraint",
+      "target_path": "vivid-color-restraint.md",
+      "text": "vivid color restraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "color-perception-context-dependence",
+      "source_path": "color-perception-context-dependence.md",
+      "target": "perceptual-distinctness-limits.md",
+      "target_concept_id": "perceptual-distinctness-limits",
+      "target_path": "perceptual-distinctness-limits.md",
+      "text": "perceptual distinctness limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "color-perception-context-dependence",
+      "source_path": "color-perception-context-dependence.md",
+      "target": "visual-consistency-principle.md",
+      "target_concept_id": "visual-consistency-principle",
+      "target_path": "visual-consistency-principle.md",
+      "text": "regularized",
+      "title": null
+    },
+    {
+      "source_concept_id": "color-perception-context-dependence",
+      "source_path": "color-perception-context-dependence.md",
+      "target": "vivid-color-restraint.md",
+      "target_concept_id": "vivid-color-restraint",
+      "target_path": "vivid-color-restraint.md",
+      "text": "vivid color restraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "colorblind-safe-color-encoding",
+      "source_path": "colorblind-safe-color-encoding.md",
+      "target": "bullet-graph.md",
+      "target_concept_id": "bullet-graph",
+      "target_path": "bullet-graph.md",
+      "text": "bullet graph",
+      "title": null
+    },
+    {
+      "source_concept_id": "colorblind-safe-color-encoding",
+      "source_path": "colorblind-safe-color-encoding.md",
+      "target": "color-perception-context-dependence.md",
+      "target_concept_id": "color-perception-context-dependence",
+      "target_path": "color-perception-context-dependence.md",
+      "text": "color perception context dependence",
+      "title": null
+    },
+    {
+      "source_concept_id": "colorblind-safe-color-encoding",
+      "source_path": "colorblind-safe-color-encoding.md",
+      "target": "evaluative-state-banding.md",
+      "target_concept_id": "evaluative-state-banding",
+      "target_path": "evaluative-state-banding.md",
+      "text": "Evaluative state banding",
+      "title": null
+    },
+    {
+      "source_concept_id": "colorblind-safe-color-encoding",
+      "source_path": "colorblind-safe-color-encoding.md",
+      "target": "status-icon-design.md",
+      "target_concept_id": "status-icon-design",
+      "target_path": "status-icon-design.md",
+      "text": "Status icon design",
+      "title": null
+    },
+    {
+      "source_concept_id": "colorblind-safe-color-encoding",
+      "source_path": "colorblind-safe-color-encoding.md",
+      "target": "vivid-color-restraint.md",
+      "target_concept_id": "vivid-color-restraint",
+      "target_path": "vivid-color-restraint.md",
+      "text": "vivid color restraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "combination-bar-and-line-chart",
+      "source_path": "combination-bar-and-line-chart.md",
+      "target": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "target_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "text": "categorical scale types and bar vs. line choice",
+      "title": null
+    },
+    {
+      "source_concept_id": "combination-bar-and-line-chart",
+      "source_path": "combination-bar-and-line-chart.md",
+      "target": "pareto-chart.md",
+      "target_concept_id": "pareto-chart",
+      "target_path": "pareto-chart.md",
+      "text": "Pareto chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "combination-bar-and-line-chart",
+      "source_path": "combination-bar-and-line-chart.md",
+      "target": "stacked-bar-chart-tradeoffs.md",
+      "target_concept_id": "stacked-bar-chart-tradeoffs",
+      "target_path": "stacked-bar-chart-tradeoffs.md",
+      "text": "stacked bar chart tradeoffs",
+      "title": null
+    },
+    {
+      "source_concept_id": "contextualizing-metrics-with-comparisons",
+      "source_path": "contextualizing-metrics-with-comparisons.md",
+      "target": "choosing-the-right-measure.md",
+      "target_concept_id": "choosing-the-right-measure",
+      "target_path": "choosing-the-right-measure.md",
+      "text": "choosing the right measure",
+      "title": null
+    },
+    {
+      "source_concept_id": "contextualizing-metrics-with-comparisons",
+      "source_path": "contextualizing-metrics-with-comparisons.md",
+      "target": "evaluative-state-banding.md",
+      "target_concept_id": "evaluative-state-banding",
+      "target_path": "evaluative-state-banding.md",
+      "text": "evaluative state banding",
+      "title": null
+    },
+    {
+      "source_concept_id": "contextualizing-metrics-with-comparisons",
+      "source_path": "contextualizing-metrics-with-comparisons.md",
+      "target": "support-meaningful-comparisons.md",
+      "target_concept_id": "support-meaningful-comparisons",
+      "target_path": "support-meaningful-comparisons.md",
+      "text": "support meaningful comparisons",
+      "title": null
+    },
+    {
+      "source_concept_id": "cumulative-charts-obscure-recent-trend",
+      "source_path": "cumulative-charts-obscure-recent-trend.md",
+      "target": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "target_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "text": "bar",
+      "title": null
+    },
+    {
+      "source_concept_id": "cumulative-charts-obscure-recent-trend",
+      "source_path": "cumulative-charts-obscure-recent-trend.md",
+      "target": "choosing-the-right-measure.md",
+      "target_concept_id": "choosing-the-right-measure",
+      "target_path": "choosing-the-right-measure.md",
+      "text": "choosing the right measure",
+      "title": null
+    },
+    {
+      "source_concept_id": "cumulative-charts-obscure-recent-trend",
+      "source_path": "cumulative-charts-obscure-recent-trend.md",
+      "target": "line-chart-for-trend-shape.md",
+      "target_concept_id": "line-chart-for-trend-shape",
+      "target_path": "line-chart-for-trend-shape.md",
+      "text": "line chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "customize-numeric-presentation-to-audience",
+      "source_path": "customize-numeric-presentation-to-audience.md",
+      "target": "dashboard-definition.md",
+      "target_concept_id": "dashboard-definition",
+      "target_path": "dashboard-definition.md",
+      "text": "dashboard",
+      "title": null
+    },
+    {
+      "source_concept_id": "customize-numeric-presentation-to-audience",
+      "source_path": "customize-numeric-presentation-to-audience.md",
+      "target": "scatter-plot-for-correlation.md",
+      "target_concept_id": "scatter-plot-for-correlation",
+      "target_path": "scatter-plot-for-correlation.md",
+      "text": "scatter plot for correlation",
+      "title": null
+    },
+    {
+      "source_concept_id": "customize-numeric-presentation-to-audience",
+      "source_path": "customize-numeric-presentation-to-audience.md",
+      "target": "visual-affordances-for-charts.md",
+      "target_concept_id": "visual-affordances-for-charts",
+      "target_path": "visual-affordances-for-charts.md",
+      "text": "eliminating distractions",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-as-launch-pad",
+      "source_path": "dashboard-as-launch-pad.md",
+      "target": "dashboard-definition.md",
+      "target_concept_id": "dashboard-definition",
+      "target_path": "dashboard-definition.md",
+      "text": "dashboard",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-as-launch-pad",
+      "source_path": "dashboard-as-launch-pad.md",
+      "target": "dashboard-role-taxonomy.md",
+      "target_concept_id": "dashboard-role-taxonomy",
+      "target_path": "dashboard-role-taxonomy.md",
+      "text": "analytical dashboard",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-as-launch-pad",
+      "source_path": "dashboard-as-launch-pad.md",
+      "target": "summarization-and-exception-reporting.md",
+      "target_concept_id": "summarization-and-exception-reporting",
+      "target_path": "summarization-and-exception-reporting.md",
+      "text": "summarization and exception reporting",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-as-launch-pad",
+      "source_path": "dashboard-as-launch-pad.md",
+      "target": "treemap.md",
+      "target_concept_id": "treemap",
+      "target_path": "treemap.md",
+      "text": "treemaps",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-as-launch-pad",
+      "source_path": "dashboard-as-launch-pad.md",
+      "target": "visual-consistency-principle.md",
+      "target_concept_id": "visual-consistency-principle",
+      "target_path": "visual-consistency-principle.md",
+      "text": "visual consistency principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-definition",
+      "source_path": "dashboard-definition.md",
+      "target": "dashboard-as-launch-pad.md",
+      "target_concept_id": "dashboard-as-launch-pad",
+      "target_path": "dashboard-as-launch-pad.md",
+      "text": "dashboard as launch pad",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-definition",
+      "source_path": "dashboard-definition.md",
+      "target": "dashboard-role-taxonomy.md",
+      "target_concept_id": "dashboard-role-taxonomy",
+      "target_path": "dashboard-role-taxonomy.md",
+      "text": "dashboard role taxonomy",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-definition",
+      "source_path": "dashboard-definition.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "Gestalt grouping principles",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-definition",
+      "source_path": "dashboard-definition.md",
+      "target": "preattentive-processing.md",
+      "target_concept_id": "preattentive-processing",
+      "target_path": "preattentive-processing.md",
+      "text": "preattentive processing",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-definition",
+      "source_path": "dashboard-definition.md",
+      "target": "single-screen-constraint.md",
+      "target_concept_id": "single-screen-constraint",
+      "target_path": "single-screen-constraint.md",
+      "text": "single-screen constraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-definition",
+      "source_path": "dashboard-definition.md",
+      "target": "spatial-arrangement-by-importance-and-use.md",
+      "target_concept_id": "spatial-arrangement-by-importance-and-use",
+      "target_path": "spatial-arrangement-by-importance-and-use.md",
+      "text": "organize dashboard groups by business function, entity, or use",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-definition",
+      "source_path": "dashboard-definition.md",
+      "target": "summarization-and-exception-reporting.md",
+      "target_concept_id": "summarization-and-exception-reporting",
+      "target_path": "summarization-and-exception-reporting.md",
+      "text": "summarization and exception reporting",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-role-taxonomy",
+      "source_path": "dashboard-role-taxonomy.md",
+      "target": "contextualizing-metrics-with-comparisons.md",
+      "target_concept_id": "contextualizing-metrics-with-comparisons",
+      "target_path": "contextualizing-metrics-with-comparisons.md",
+      "text": "context to attach to eachnumber",
+      "title": null
+    },
+    {
+      "source_concept_id": "dashboard-role-taxonomy",
+      "source_path": "dashboard-role-taxonomy.md",
+      "target": "dashboard-as-launch-pad.md",
+      "target_concept_id": "dashboard-as-launch-pad",
+      "target_path": "dashboard-as-launch-pad.md",
+      "text": "dashboard as launch pad",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-ink-ratio",
+      "source_path": "data-ink-ratio.md",
+      "target": "aesthetics-serve-communication.md",
+      "target_concept_id": "aesthetics-serve-communication",
+      "target_path": "aesthetics-serve-communication.md",
+      "text": "aesthetics should serve communication",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-ink-ratio",
+      "source_path": "data-ink-ratio.md",
+      "target": "avoid-3d-effects-and-occlusion.md",
+      "target_concept_id": "avoid-3d-effects-and-occlusion",
+      "target_path": "avoid-3d-effects-and-occlusion.md",
+      "text": "avoid 3-D effects and occlusion",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-ink-ratio",
+      "source_path": "data-ink-ratio.md",
+      "target": "avoid-3d-effects-and-occlusion.md",
+      "target_concept_id": "avoid-3d-effects-and-occlusion",
+      "target_path": "avoid-3d-effects-and-occlusion.md",
+      "text": "chartjunk",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-ink-ratio",
+      "source_path": "data-ink-ratio.md",
+      "target": "gestalt-closure.md",
+      "target_concept_id": "gestalt-closure",
+      "target_path": "gestalt-closure.md",
+      "text": "Gestalt closure",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-ink-ratio",
+      "source_path": "data-ink-ratio.md",
+      "target": "minimize-extraneous-cognitive-load.md",
+      "target_concept_id": "minimize-extraneous-cognitive-load",
+      "target_path": "minimize-extraneous-cognitive-load.md",
+      "text": "minimizing extraneous cognitive load",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-ink-ratio",
+      "source_path": "data-ink-ratio.md",
+      "target": "proportional-ink-principle.md",
+      "target_concept_id": "proportional-ink-principle",
+      "target_path": "proportional-ink-principle.md",
+      "text": "proportionalink",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-ink-ratio",
+      "source_path": "data-ink-ratio.md",
+      "target": "screen-position-emphasis.md",
+      "target_concept_id": "screen-position-emphasis",
+      "target_path": "screen-position-emphasis.md",
+      "text": "screen position as a static highlighting tool",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-ink-ratio",
+      "source_path": "data-ink-ratio.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "static vs. dynamic highlighting",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-ink-ratio",
+      "source_path": "data-ink-ratio.md",
+      "target": "summarization-and-exception-reporting.md",
+      "target_concept_id": "summarization-and-exception-reporting",
+      "target_path": "summarization-and-exception-reporting.md",
+      "text": "summarization and exceptions",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-ink-ratio",
+      "source_path": "data-ink-ratio.md",
+      "target": "visual-consistency-principle.md",
+      "target_concept_id": "visual-consistency-principle",
+      "target_path": "visual-consistency-principle.md",
+      "text": "visual consistency principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "declutter-chart-chrome",
+      "source_path": "declutter-chart-chrome.md",
+      "target": "action-titles-and-on-chart-annotation.md",
+      "target_concept_id": "action-titles-and-on-chart-annotation",
+      "target_path": "action-titles-and-on-chart-annotation.md",
+      "text": "annotation",
+      "title": null
+    },
+    {
+      "source_concept_id": "declutter-chart-chrome",
+      "source_path": "declutter-chart-chrome.md",
+      "target": "alignment-and-white-space.md",
+      "target_concept_id": "alignment-and-white-space",
+      "target_path": "alignment-and-white-space.md",
+      "text": "white space",
+      "title": null
+    },
+    {
+      "source_concept_id": "declutter-chart-chrome",
+      "source_path": "declutter-chart-chrome.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "data-inkratio",
+      "title": null
+    },
+    {
+      "source_concept_id": "declutter-chart-chrome",
+      "source_path": "declutter-chart-chrome.md",
+      "target": "direct-labeling-over-legends.md",
+      "target_concept_id": "direct-labeling-over-legends",
+      "target_path": "direct-labeling-over-legends.md",
+      "text": "Label data directly",
+      "title": null
+    },
+    {
+      "source_concept_id": "declutter-chart-chrome",
+      "source_path": "declutter-chart-chrome.md",
+      "target": "gestalt-closure.md",
+      "target_concept_id": "gestalt-closure",
+      "target_path": "gestalt-closure.md",
+      "text": "Gestalt closure",
+      "title": null
+    },
+    {
+      "source_concept_id": "declutter-chart-chrome",
+      "source_path": "declutter-chart-chrome.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "declutter-chart-chrome",
+      "source_path": "declutter-chart-chrome.md",
+      "target": "gestalt-similarity.md",
+      "target_concept_id": "gestalt-similarity",
+      "target_path": "gestalt-similarity.md",
+      "text": "similarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "declutter-chart-chrome",
+      "source_path": "declutter-chart-chrome.md",
+      "target": "minimize-extraneous-cognitive-load.md",
+      "target_concept_id": "minimize-extraneous-cognitive-load",
+      "target_path": "minimize-extraneous-cognitive-load.md",
+      "text": "extraneous cognitive load",
+      "title": null
+    },
+    {
+      "source_concept_id": "declutter-chart-chrome",
+      "source_path": "declutter-chart-chrome.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "emphasis",
+      "title": null
+    },
+    {
+      "source_concept_id": "delineate-groups-with-least-visible-means",
+      "source_path": "delineate-groups-with-least-visible-means.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "data-ink ratio",
+      "title": null
+    },
+    {
+      "source_concept_id": "delineate-groups-with-least-visible-means",
+      "source_path": "delineate-groups-with-least-visible-means.md",
+      "target": "gestalt-enclosure.md",
+      "target_concept_id": "gestalt-enclosure",
+      "target_path": "gestalt-enclosure.md",
+      "text": "Gestalt enclosure",
+      "title": null
+    },
+    {
+      "source_concept_id": "delineate-groups-with-least-visible-means",
+      "source_path": "delineate-groups-with-least-visible-means.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "Gestalt proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "direct-labeling-over-legends",
+      "source_path": "direct-labeling-over-legends.md",
+      "target": "dashboard-definition.md",
+      "target_concept_id": "dashboard-definition",
+      "target_path": "dashboard-definition.md",
+      "text": "dashboard",
+      "title": null
+    },
+    {
+      "source_concept_id": "direct-labeling-over-legends",
+      "source_path": "direct-labeling-over-legends.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "Gestalt proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "direct-labeling-over-legends",
+      "source_path": "direct-labeling-over-legends.md",
+      "target": "short-term-memory-chunk-limit.md",
+      "target_concept_id": "short-term-memory-chunk-limit",
+      "target_path": "short-term-memory-chunk-limit.md",
+      "text": "short-term memory",
+      "title": null
+    },
+    {
+      "source_concept_id": "direct-labeling-over-legends",
+      "source_path": "direct-labeling-over-legends.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "visual-hierarchy",
+      "title": null
+    },
+    {
+      "source_concept_id": "distinguish-actual-from-forecast",
+      "source_path": "distinguish-actual-from-forecast.md",
+      "target": "action-titles-and-on-chart-annotation.md",
+      "target_concept_id": "action-titles-and-on-chart-annotation",
+      "target_path": "action-titles-and-on-chart-annotation.md",
+      "text": "action titles and annotation",
+      "title": null
+    },
+    {
+      "source_concept_id": "distinguish-actual-from-forecast",
+      "source_path": "distinguish-actual-from-forecast.md",
+      "target": "gestalt-similarity.md",
+      "target_concept_id": "gestalt-similarity",
+      "target_path": "gestalt-similarity.md",
+      "text": "similarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "distinguish-actual-from-forecast",
+      "source_path": "distinguish-actual-from-forecast.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "visual hierarchy",
+      "title": null
+    },
+    {
+      "source_concept_id": "drawing-objects-for-relationships",
+      "source_path": "drawing-objects-for-relationships.md",
+      "target": "gestalt-connection.md",
+      "target_concept_id": "gestalt-connection",
+      "target_path": "gestalt-connection.md",
+      "text": "Gestalt connection",
+      "title": null
+    },
+    {
+      "source_concept_id": "dual-dimension-encoding-antipattern",
+      "source_path": "dual-dimension-encoding-antipattern.md",
+      "target": "avoid-area-encoding-for-quantitative-comparison.md",
+      "target_concept_id": "avoid-area-encoding-for-quantitative-comparison",
+      "target_path": "avoid-area-encoding-for-quantitative-comparison.md",
+      "text": "avoid area encoding for quantitative comparison",
+      "title": null
+    },
+    {
+      "source_concept_id": "dual-dimension-encoding-antipattern",
+      "source_path": "dual-dimension-encoding-antipattern.md",
+      "target": "bullet-graph.md",
+      "target_concept_id": "bullet-graph",
+      "target_path": "bullet-graph.md",
+      "text": "bullet graph",
+      "title": null
+    },
+    {
+      "source_concept_id": "dual-dimension-encoding-antipattern",
+      "source_path": "dual-dimension-encoding-antipattern.md",
+      "target": "preattentive-attributes-for-dashboards.md",
+      "target_concept_id": "preattentive-attributes-for-dashboards",
+      "target_path": "preattentive-attributes-for-dashboards.md",
+      "text": "2-D position or line length",
+      "title": null
+    },
+    {
+      "source_concept_id": "dual-dimension-encoding-antipattern",
+      "source_path": "dual-dimension-encoding-antipattern.md",
+      "target": "proportional-ink-principle.md",
+      "target_concept_id": "proportional-ink-principle",
+      "target_path": "proportional-ink-principle.md",
+      "text": "proportional ink",
+      "title": null
+    },
+    {
+      "source_concept_id": "evaluative-state-banding",
+      "source_path": "evaluative-state-banding.md",
+      "target": "bullet-graph.md",
+      "target_concept_id": "bullet-graph",
+      "target_path": "bullet-graph.md",
+      "text": "bullet graph",
+      "title": null
+    },
+    {
+      "source_concept_id": "evaluative-state-banding",
+      "source_path": "evaluative-state-banding.md",
+      "target": "colorblind-safe-color-encoding.md",
+      "target_concept_id": "colorblind-safe-color-encoding",
+      "target_path": "colorblind-safe-color-encoding.md",
+      "text": "colorblind-safe color encoding",
+      "title": null
+    },
+    {
+      "source_concept_id": "evaluative-state-banding",
+      "source_path": "evaluative-state-banding.md",
+      "target": "perceptual-distinctness-limits.md",
+      "target_concept_id": "perceptual-distinctness-limits",
+      "target_path": "perceptual-distinctness-limits.md",
+      "text": "perceptual distinctness limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "evaluative-state-banding",
+      "source_path": "evaluative-state-banding.md",
+      "target": "status-icon-design.md",
+      "target_concept_id": "status-icon-design",
+      "target_path": "status-icon-design.md",
+      "text": "status icon design",
+      "title": null
+    },
+    {
+      "source_concept_id": "gaining-acceptance-for-new-visual-designs",
+      "source_path": "gaining-acceptance-for-new-visual-designs.md",
+      "target": "aesthetics-serve-communication.md",
+      "target_concept_id": "aesthetics-serve-communication",
+      "target_path": "aesthetics-serve-communication.md",
+      "text": "aesthetics that serve communication",
+      "title": null
+    },
+    {
+      "source_concept_id": "gaining-acceptance-for-new-visual-designs",
+      "source_path": "gaining-acceptance-for-new-visual-designs.md",
+      "target": "usability-testing-with-single-prototype.md",
+      "target_concept_id": "usability-testing-with-single-prototype",
+      "target_path": "usability-testing-with-single-prototype.md",
+      "text": "usability testing of a single prototype",
+      "title": null
+    },
+    {
+      "source_concept_id": "gaining-acceptance-for-new-visual-designs",
+      "source_path": "gaining-acceptance-for-new-visual-designs.md",
+      "target": "usability-testing-with-single-prototype.md",
+      "target_concept_id": "usability-testing-with-single-prototype",
+      "target_path": "usability-testing-with-single-prototype.md",
+      "text": "usability-testing a single best-effort interactive prototype",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-closure",
+      "source_path": "gestalt-closure.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "reducing non-data pixels",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-connection",
+      "source_path": "gestalt-connection.md",
+      "target": "drawing-objects-for-relationships.md",
+      "target_concept_id": "drawing-objects-for-relationships",
+      "target_path": "drawing-objects-for-relationships.md",
+      "text": "drawing objects for relationships",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-connection",
+      "source_path": "gestalt-connection.md",
+      "target": "gestalt-enclosure.md",
+      "target_concept_id": "gestalt-enclosure",
+      "target_path": "gestalt-enclosure.md",
+      "text": "enclosure",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-connection",
+      "source_path": "gestalt-connection.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-connection",
+      "source_path": "gestalt-connection.md",
+      "target": "gestalt-similarity.md",
+      "target_concept_id": "gestalt-similarity",
+      "target_path": "gestalt-similarity.md",
+      "text": "similarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-connection",
+      "source_path": "gestalt-connection.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "visual hierarchy",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-continuity",
+      "source_path": "gestalt-continuity.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "eliminate a non-data pixel",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-enclosure",
+      "source_path": "gestalt-enclosure.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "data-ink ratio",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-enclosure",
+      "source_path": "gestalt-enclosure.md",
+      "target": "delineate-groups-with-least-visible-means.md",
+      "target_concept_id": "delineate-groups-with-least-visible-means",
+      "target_path": "delineate-groups-with-least-visible-means.md",
+      "text": "white space over an added border",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-enclosure",
+      "source_path": "gestalt-enclosure.md",
+      "target": "gestalt-connection.md",
+      "target_concept_id": "gestalt-connection",
+      "target_path": "gestalt-connection.md",
+      "text": "connection",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-enclosure",
+      "source_path": "gestalt-enclosure.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-enclosure",
+      "source_path": "gestalt-enclosure.md",
+      "target": "gestalt-similarity.md",
+      "target_concept_id": "gestalt-similarity",
+      "target_path": "gestalt-similarity.md",
+      "text": "similarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-proximity",
+      "source_path": "gestalt-proximity.md",
+      "target": "dashboard-definition.md",
+      "target_concept_id": "dashboard-definition",
+      "target_path": "dashboard-definition.md",
+      "text": "dashboard",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-proximity",
+      "source_path": "gestalt-proximity.md",
+      "target": "delineate-groups-with-least-visible-means.md",
+      "target_concept_id": "delineate-groups-with-least-visible-means",
+      "target_path": "delineate-groups-with-least-visible-means.md",
+      "text": "delineate groups with the least visible means",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-proximity",
+      "source_path": "gestalt-proximity.md",
+      "target": "gestalt-connection.md",
+      "target_concept_id": "gestalt-connection",
+      "target_path": "gestalt-connection.md",
+      "text": "Gestalt connection",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-proximity",
+      "source_path": "gestalt-proximity.md",
+      "target": "minimize-extraneous-cognitive-load.md",
+      "target_concept_id": "minimize-extraneous-cognitive-load",
+      "target_path": "minimize-extraneous-cognitive-load.md",
+      "text": "clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-proximity",
+      "source_path": "gestalt-proximity.md",
+      "target": "spatial-arrangement-by-importance-and-use.md",
+      "target_concept_id": "spatial-arrangement-by-importance-and-use",
+      "target_path": "spatial-arrangement-by-importance-and-use.md",
+      "text": "arrange dashboard content by importance and use",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-proximity",
+      "source_path": "gestalt-proximity.md",
+      "target": "support-meaningful-comparisons.md",
+      "target_concept_id": "support-meaningful-comparisons",
+      "target_path": "support-meaningful-comparisons.md",
+      "text": "support meaningful comparisons",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-similarity",
+      "source_path": "gestalt-similarity.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-similarity",
+      "source_path": "gestalt-similarity.md",
+      "target": "support-meaningful-comparisons.md",
+      "target_concept_id": "support-meaningful-comparisons",
+      "target_path": "support-meaningful-comparisons.md",
+      "text": "support meaningful comparisons",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-similarity",
+      "source_path": "gestalt-similarity.md",
+      "target": "visual-consistency-principle.md",
+      "target_concept_id": "visual-consistency-principle",
+      "target_path": "visual-consistency-principle.md",
+      "text": "visual consistency principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "glass-slipper-visualization-antipattern",
+      "source_path": "glass-slipper-visualization-antipattern.md",
+      "target": "when-geography-belongs-on-a-dashboard.md",
+      "target_concept_id": "when-geography-belongs-on-a-dashboard",
+      "target_path": "when-geography-belongs-on-a-dashboard.md",
+      "text": "when geography belongs on adashboard",
+      "title": null
+    },
+    {
+      "source_concept_id": "heat-map-for-distribution-over-many-series",
+      "source_path": "heat-map-for-distribution-over-many-series.md",
+      "target": "box-plot.md",
+      "target_concept_id": "box-plot",
+      "target_path": "box-plot.md",
+      "text": "box plot",
+      "title": null
+    },
+    {
+      "source_concept_id": "heat-map-for-distribution-over-many-series",
+      "source_path": "heat-map-for-distribution-over-many-series.md",
+      "target": "box-plot.md",
+      "target_concept_id": "box-plot",
+      "target_path": "box-plot.md",
+      "text": "distribution",
+      "title": null
+    },
+    {
+      "source_concept_id": "heat-map-for-distribution-over-many-series",
+      "source_path": "heat-map-for-distribution-over-many-series.md",
+      "target": "choosing-the-right-measure.md",
+      "target_concept_id": "choosing-the-right-measure",
+      "target_path": "choosing-the-right-measure.md",
+      "text": "choosing the right measure",
+      "title": null
+    },
+    {
+      "source_concept_id": "heat-map-for-distribution-over-many-series",
+      "source_path": "heat-map-for-distribution-over-many-series.md",
+      "target": "line-chart-for-trend-shape.md",
+      "target_concept_id": "line-chart-for-trend-shape",
+      "target_path": "line-chart-for-trend-shape.md",
+      "text": "line chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "horizontal-bars-for-categorical-labels",
+      "source_path": "horizontal-bars-for-categorical-labels.md",
+      "target": "bar-graph-zero-baseline-rule.md",
+      "target_concept_id": "bar-graph-zero-baseline-rule",
+      "target_path": "bar-graph-zero-baseline-rule.md",
+      "text": "zero-baseline rule",
+      "title": null
+    },
+    {
+      "source_concept_id": "horizontal-bars-for-categorical-labels",
+      "source_path": "horizontal-bars-for-categorical-labels.md",
+      "target": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "target_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "text": "nominal/ordinal \u2192 bars",
+      "title": null
+    },
+    {
+      "source_concept_id": "horizontal-bars-for-categorical-labels",
+      "source_path": "horizontal-bars-for-categorical-labels.md",
+      "target": "order-categorical-values-by-magnitude.md",
+      "target_concept_id": "order-categorical-values-by-magnitude",
+      "target_path": "order-categorical-values-by-magnitude.md",
+      "text": "magnitude or message priority",
+      "title": null
+    },
+    {
+      "source_concept_id": "horizontal-bars-for-categorical-labels",
+      "source_path": "horizontal-bars-for-categorical-labels.md",
+      "target": "stacked-bar-chart-tradeoffs.md",
+      "target_concept_id": "stacked-bar-chart-tradeoffs",
+      "target_path": "stacked-bar-chart-tradeoffs.md",
+      "text": "stacking tradeoffs",
+      "title": null
+    },
+    {
+      "source_concept_id": "line-chart-for-trend-shape",
+      "source_path": "line-chart-for-trend-shape.md",
+      "target": "axis-manipulation-antipatterns.md",
+      "target_concept_id": "axis-manipulation-antipatterns",
+      "target_path": "axis-manipulation-antipatterns.md",
+      "text": "uneven tick spacing",
+      "title": null
+    },
+    {
+      "source_concept_id": "line-chart-for-trend-shape",
+      "source_path": "line-chart-for-trend-shape.md",
+      "target": "bar-graph-zero-baseline-rule.md",
+      "target_concept_id": "bar-graph-zero-baseline-rule",
+      "target_path": "bar-graph-zero-baseline-rule.md",
+      "text": "bar graph, which must start its scale at zero",
+      "title": null
+    },
+    {
+      "source_concept_id": "line-chart-for-trend-shape",
+      "source_path": "line-chart-for-trend-shape.md",
+      "target": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "target_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "text": "categorical scale types and bar vs. line choice",
+      "title": null
+    },
+    {
+      "source_concept_id": "line-chart-for-trend-shape",
+      "source_path": "line-chart-for-trend-shape.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "data-ink ratio",
+      "title": null
+    },
+    {
+      "source_concept_id": "line-chart-for-trend-shape",
+      "source_path": "line-chart-for-trend-shape.md",
+      "target": "direct-labeling-over-legends.md",
+      "target_concept_id": "direct-labeling-over-legends",
+      "target_path": "direct-labeling-over-legends.md",
+      "text": "label directly",
+      "title": null
+    },
+    {
+      "source_concept_id": "line-chart-for-trend-shape",
+      "source_path": "line-chart-for-trend-shape.md",
+      "target": "slopegraph.md",
+      "target_concept_id": "slopegraph",
+      "target_path": "slopegraph.md",
+      "text": "slopegraph",
+      "title": null
+    },
+    {
+      "source_concept_id": "line-chart-for-trend-shape",
+      "source_path": "line-chart-for-trend-shape.md",
+      "target": "sparklines.md",
+      "target_concept_id": "sparklines",
+      "target_path": "sparklines.md",
+      "text": "sparklines",
+      "title": null
+    },
+    {
+      "source_concept_id": "line-chart-for-trend-shape",
+      "source_path": "line-chart-for-trend-shape.md",
+      "target": "text-vs-graphics-tradeoff.md",
+      "target_concept_id": "text-vs-graphics-tradeoff",
+      "target_path": "text-vs-graphics-tradeoff.md",
+      "text": "text vs. graphics tradeoff",
+      "title": null
+    },
+    {
+      "source_concept_id": "minimize-extraneous-cognitive-load",
+      "source_path": "minimize-extraneous-cognitive-load.md",
+      "target": "alignment-and-white-space.md",
+      "target_concept_id": "alignment-and-white-space",
+      "target_path": "alignment-and-white-space.md",
+      "text": "alignment and white space",
+      "title": null
+    },
+    {
+      "source_concept_id": "minimize-extraneous-cognitive-load",
+      "source_path": "minimize-extraneous-cognitive-load.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "data-ink ratio",
+      "title": null
+    },
+    {
+      "source_concept_id": "minimize-extraneous-cognitive-load",
+      "source_path": "minimize-extraneous-cognitive-load.md",
+      "target": "declutter-chart-chrome.md",
+      "target_concept_id": "declutter-chart-chrome",
+      "target_path": "declutter-chart-chrome.md",
+      "text": "declutter chart chrome",
+      "title": null
+    },
+    {
+      "source_concept_id": "minimize-extraneous-cognitive-load",
+      "source_path": "minimize-extraneous-cognitive-load.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "Gestalt grouping",
+      "title": null
+    },
+    {
+      "source_concept_id": "minimize-extraneous-cognitive-load",
+      "source_path": "minimize-extraneous-cognitive-load.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "build visual hierarchy",
+      "title": null
+    },
+    {
+      "source_concept_id": "multi-foci-time-display",
+      "source_path": "multi-foci-time-display.md",
+      "target": "single-screen-constraint.md",
+      "target_concept_id": "single-screen-constraint",
+      "target_path": "single-screen-constraint.md",
+      "text": "single-screen constraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "normalize-by-rate-not-raw-count",
+      "source_path": "normalize-by-rate-not-raw-count.md",
+      "target": "choosing-the-right-measure.md",
+      "target_concept_id": "choosing-the-right-measure",
+      "target_path": "choosing-the-right-measure.md",
+      "text": "choosing the right measure",
+      "title": null
+    },
+    {
+      "source_concept_id": "noticing-non-events",
+      "source_path": "noticing-non-events.md",
+      "target": "preattentive-processing.md",
+      "target_concept_id": "preattentive-processing",
+      "target_path": "preattentive-processing.md",
+      "text": "preattentive processing",
+      "title": null
+    },
+    {
+      "source_concept_id": "noticing-non-events",
+      "source_path": "noticing-non-events.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "dynamic highlighting",
+      "title": null
+    },
+    {
+      "source_concept_id": "order-categorical-values-by-magnitude",
+      "source_path": "order-categorical-values-by-magnitude.md",
+      "target": "horizontal-bars-for-categorical-labels.md",
+      "target_concept_id": "horizontal-bars-for-categorical-labels",
+      "target_path": "horizontal-bars-for-categorical-labels.md",
+      "text": "horizontal bar chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "order-categorical-values-by-magnitude",
+      "source_path": "order-categorical-values-by-magnitude.md",
+      "target": "pareto-chart.md",
+      "target_concept_id": "pareto-chart",
+      "target_path": "pareto-chart.md",
+      "text": "Pareto chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "order-categorical-values-by-magnitude",
+      "source_path": "order-categorical-values-by-magnitude.md",
+      "target": "progressive-emphasis-across-slides.md",
+      "target_concept_id": "progressive-emphasis-across-slides",
+      "target_path": "progressive-emphasis-across-slides.md",
+      "text": "emphasis and annotation",
+      "title": null
+    },
+    {
+      "source_concept_id": "pareto-chart",
+      "source_path": "pareto-chart.md",
+      "target": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "target_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "text": "categorical scale types and bar vs. line choice",
+      "title": null
+    },
+    {
+      "source_concept_id": "pareto-chart",
+      "source_path": "pareto-chart.md",
+      "target": "order-categorical-values-by-magnitude.md",
+      "target_concept_id": "order-categorical-values-by-magnitude",
+      "target_path": "order-categorical-values-by-magnitude.md",
+      "text": "order categorical values by magnitude",
+      "title": null
+    },
+    {
+      "source_concept_id": "perceptual-distinctness-limits",
+      "source_path": "perceptual-distinctness-limits.md",
+      "target": "colorblind-safe-color-encoding.md",
+      "target_concept_id": "colorblind-safe-color-encoding",
+      "target_path": "colorblind-safe-color-encoding.md",
+      "text": "colorblind-safe color encoding",
+      "title": null
+    },
+    {
+      "source_concept_id": "perceptual-distinctness-limits",
+      "source_path": "perceptual-distinctness-limits.md",
+      "target": "evaluative-state-banding.md",
+      "target_concept_id": "evaluative-state-banding",
+      "target_path": "evaluative-state-banding.md",
+      "text": "evaluative state banding",
+      "title": null
+    },
+    {
+      "source_concept_id": "perceptual-distinctness-limits",
+      "source_path": "perceptual-distinctness-limits.md",
+      "target": "preattentive-attributes-for-dashboards.md",
+      "target_concept_id": "preattentive-attributes-for-dashboards",
+      "target_path": "preattentive-attributes-for-dashboards.md",
+      "text": "preattentive attribute",
+      "title": null
+    },
+    {
+      "source_concept_id": "perceptual-distinctness-limits",
+      "source_path": "perceptual-distinctness-limits.md",
+      "target": "short-term-memory-chunk-limit.md",
+      "target_concept_id": "short-term-memory-chunk-limit",
+      "target_path": "short-term-memory-chunk-limit.md",
+      "text": "short-term memory",
+      "title": null
+    },
+    {
+      "source_concept_id": "pie-charts-are-rarely-appropriate",
+      "source_path": "pie-charts-are-rarely-appropriate.md",
+      "target": "avoid-3d-effects-and-occlusion.md",
+      "target_concept_id": "avoid-3d-effects-and-occlusion",
+      "target_path": "avoid-3d-effects-and-occlusion.md",
+      "text": "avoid 3-D effects and occlusion",
+      "title": null
+    },
+    {
+      "source_concept_id": "pie-charts-are-rarely-appropriate",
+      "source_path": "pie-charts-are-rarely-appropriate.md",
+      "target": "avoid-area-encoding-for-quantitative-comparison.md",
+      "target_concept_id": "avoid-area-encoding-for-quantitative-comparison",
+      "target_path": "avoid-area-encoding-for-quantitative-comparison.md",
+      "text": "avoid area encoding for quantitative comparison",
+      "title": null
+    },
+    {
+      "source_concept_id": "pie-charts-are-rarely-appropriate",
+      "source_path": "pie-charts-are-rarely-appropriate.md",
+      "target": "bar-graph-zero-baseline-rule.md",
+      "target_concept_id": "bar-graph-zero-baseline-rule",
+      "target_path": "bar-graph-zero-baseline-rule.md",
+      "text": "zero baseline",
+      "title": null
+    },
+    {
+      "source_concept_id": "pie-charts-are-rarely-appropriate",
+      "source_path": "pie-charts-are-rarely-appropriate.md",
+      "target": "horizontal-bars-for-categorical-labels.md",
+      "target_concept_id": "horizontal-bars-for-categorical-labels",
+      "target_path": "horizontal-bars-for-categorical-labels.md",
+      "text": "horizontal bar chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "pie-charts-are-rarely-appropriate",
+      "source_path": "pie-charts-are-rarely-appropriate.md",
+      "target": "proportional-ink-principle.md",
+      "target_concept_id": "proportional-ink-principle",
+      "target_path": "proportional-ink-principle.md",
+      "text": "proportional ink",
+      "title": null
+    },
+    {
+      "source_concept_id": "pie-charts-are-rarely-appropriate",
+      "source_path": "pie-charts-are-rarely-appropriate.md",
+      "target": "stacked-bar-chart-tradeoffs.md",
+      "target_concept_id": "stacked-bar-chart-tradeoffs",
+      "target_path": "stacked-bar-chart-tradeoffs.md",
+      "text": "stacked bar chart tradeoffs",
+      "title": null
+    },
+    {
+      "source_concept_id": "positive-negative-direction-encoding",
+      "source_path": "positive-negative-direction-encoding.md",
+      "target": "bar-graph-zero-baseline-rule.md",
+      "target_concept_id": "bar-graph-zero-baseline-rule",
+      "target_path": "bar-graph-zero-baseline-rule.md",
+      "text": "zero-baseline rule",
+      "title": null
+    },
+    {
+      "source_concept_id": "positive-negative-direction-encoding",
+      "source_path": "positive-negative-direction-encoding.md",
+      "target": "gestalt-similarity.md",
+      "target_concept_id": "gestalt-similarity",
+      "target_path": "gestalt-similarity.md",
+      "text": "Gestalt similarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "positive-negative-direction-encoding",
+      "source_path": "positive-negative-direction-encoding.md",
+      "target": "horizontal-bars-for-categorical-labels.md",
+      "target_concept_id": "horizontal-bars-for-categorical-labels",
+      "target_path": "horizontal-bars-for-categorical-labels.md",
+      "text": "horizontal 100%-stacked Likert bars",
+      "title": null
+    },
+    {
+      "source_concept_id": "positive-negative-direction-encoding",
+      "source_path": "positive-negative-direction-encoding.md",
+      "target": "order-categorical-values-by-magnitude.md",
+      "target_concept_id": "order-categorical-values-by-magnitude",
+      "target_path": "order-categorical-values-by-magnitude.md",
+      "text": "order by message priority",
+      "title": null
+    },
+    {
+      "source_concept_id": "positive-negative-direction-encoding",
+      "source_path": "positive-negative-direction-encoding.md",
+      "target": "secondary-y-axis-alternatives.md",
+      "target_concept_id": "secondary-y-axis-alternatives",
+      "target_path": "secondary-y-axis-alternatives.md",
+      "text": "secondary-axis caution",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-attributes-for-dashboards",
+      "source_path": "preattentive-attributes-for-dashboards.md",
+      "target": "avoid-3d-effects-and-occlusion.md",
+      "target_concept_id": "avoid-3d-effects-and-occlusion",
+      "target_path": "avoid-3d-effects-and-occlusion.md",
+      "text": "avoid 3-D effects and occlusion",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-attributes-for-dashboards",
+      "source_path": "preattentive-attributes-for-dashboards.md",
+      "target": "avoid-area-encoding-for-quantitative-comparison.md",
+      "target_concept_id": "avoid-area-encoding-for-quantitative-comparison",
+      "target_path": "avoid-area-encoding-for-quantitative-comparison.md",
+      "text": "avoid area encoding for quantitative comparison",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-attributes-for-dashboards",
+      "source_path": "preattentive-attributes-for-dashboards.md",
+      "target": "color-perception-context-dependence.md",
+      "target_concept_id": "color-perception-context-dependence",
+      "target_path": "color-perception-context-dependence.md",
+      "text": "color perception context dependence",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-attributes-for-dashboards",
+      "source_path": "preattentive-attributes-for-dashboards.md",
+      "target": "gestalt-similarity.md",
+      "target_concept_id": "gestalt-similarity",
+      "target_path": "gestalt-similarity.md",
+      "text": "Gestalt similarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-attributes-for-dashboards",
+      "source_path": "preattentive-attributes-for-dashboards.md",
+      "target": "perceptual-distinctness-limits.md",
+      "target_concept_id": "perceptual-distinctness-limits",
+      "target_path": "perceptual-distinctness-limits.md",
+      "text": "perceptual distinctness limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-attributes-for-dashboards",
+      "source_path": "preattentive-attributes-for-dashboards.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "static vs. dynamic highlighting",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-attributes-for-dashboards",
+      "source_path": "preattentive-attributes-for-dashboards.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "static vs. dynamic highlighting",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-processing",
+      "source_path": "preattentive-processing.md",
+      "target": "preattentive-attributes-for-dashboards.md",
+      "target_concept_id": "preattentive-attributes-for-dashboards",
+      "target_path": "preattentive-attributes-for-dashboards.md",
+      "text": "preattentive attributes for dashboards",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-processing",
+      "source_path": "preattentive-processing.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "dynamic highlighting",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-processing",
+      "source_path": "preattentive-processing.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "visual hierarchy in explanatory graphics",
+      "title": null
+    },
+    {
+      "source_concept_id": "principle-of-the-moving-part",
+      "source_path": "principle-of-the-moving-part.md",
+      "target": "bullet-graph.md",
+      "target_concept_id": "bullet-graph",
+      "target_path": "bullet-graph.md",
+      "text": "bullet graph",
+      "title": null
+    },
+    {
+      "source_concept_id": "principle-of-the-moving-part",
+      "source_path": "principle-of-the-moving-part.md",
+      "target": "preattentive-attributes-for-dashboards.md",
+      "target_concept_id": "preattentive-attributes-for-dashboards",
+      "target_path": "preattentive-attributes-for-dashboards.md",
+      "text": "2-D position",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-emphasis-across-slides",
+      "source_path": "progressive-emphasis-across-slides.md",
+      "target": "action-titles-and-on-chart-annotation.md",
+      "target_concept_id": "action-titles-and-on-chart-annotation",
+      "target_path": "action-titles-and-on-chart-annotation.md",
+      "text": "annotated standalone version",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-emphasis-across-slides",
+      "source_path": "progressive-emphasis-across-slides.md",
+      "target": "direct-labeling-over-legends.md",
+      "target_concept_id": "direct-labeling-over-legends",
+      "target_path": "direct-labeling-over-legends.md",
+      "text": "direct labels",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-emphasis-across-slides",
+      "source_path": "progressive-emphasis-across-slides.md",
+      "target": "spaghetti-graph-strategies.md",
+      "target_concept_id": "spaghetti-graph-strategies",
+      "target_path": "spaghetti-graph-strategies.md",
+      "text": "spaghetti graph strategies",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-emphasis-across-slides",
+      "source_path": "progressive-emphasis-across-slides.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "visual hierarchy",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-emphasis-across-slides",
+      "source_path": "progressive-emphasis-across-slides.md",
+      "target": "visualization-for-exploration-vs-communication.md",
+      "target_concept_id": "visualization-for-exploration-vs-communication",
+      "target_path": "visualization-for-exploration-vs-communication.md",
+      "text": "explanatory vs. exploratory design",
+      "title": null
+    },
+    {
+      "source_concept_id": "proportional-ink-principle",
+      "source_path": "proportional-ink-principle.md",
+      "target": "avoid-3d-effects-and-occlusion.md",
+      "target_concept_id": "avoid-3d-effects-and-occlusion",
+      "target_path": "avoid-3d-effects-and-occlusion.md",
+      "text": "avoid 3-D effects and occlusion",
+      "title": null
+    },
+    {
+      "source_concept_id": "proportional-ink-principle",
+      "source_path": "proportional-ink-principle.md",
+      "target": "bar-graph-zero-baseline-rule.md",
+      "target_concept_id": "bar-graph-zero-baseline-rule",
+      "target_path": "bar-graph-zero-baseline-rule.md",
+      "text": "why bar graphs must start their scale atzero",
+      "title": null
+    },
+    {
+      "source_concept_id": "proportional-ink-principle",
+      "source_path": "proportional-ink-principle.md",
+      "target": "dual-dimension-encoding-antipattern.md",
+      "target_concept_id": "dual-dimension-encoding-antipattern",
+      "target_path": "dual-dimension-encoding-antipattern.md",
+      "text": "dual-dimension encoding antipattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "proportional-ink-principle",
+      "source_path": "proportional-ink-principle.md",
+      "target": "line-chart-for-trend-shape.md",
+      "target_concept_id": "line-chart-for-trend-shape",
+      "target_path": "line-chart-for-trend-shape.md",
+      "text": "line chart for trend shape",
+      "title": null
+    },
+    {
+      "source_concept_id": "radar-charts-pitfalls",
+      "source_path": "radar-charts-pitfalls.md",
+      "target": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "target_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "text": "bar graph",
+      "title": null
+    },
+    {
+      "source_concept_id": "scatter-plot-for-correlation",
+      "source_path": "scatter-plot-for-correlation.md",
+      "target": "avoid-3d-effects-and-occlusion.md",
+      "target_concept_id": "avoid-3d-effects-and-occlusion",
+      "target_path": "avoid-3d-effects-and-occlusion.md",
+      "text": "avoid 3-D effects and occlusion",
+      "title": null
+    },
+    {
+      "source_concept_id": "scatter-plot-for-correlation",
+      "source_path": "scatter-plot-for-correlation.md",
+      "target": "axis-manipulation-antipatterns.md",
+      "target_concept_id": "axis-manipulation-antipatterns",
+      "target_path": "axis-manipulation-antipatterns.md",
+      "text": "axis manipulation antipatterns",
+      "title": null
+    },
+    {
+      "source_concept_id": "scatter-plot-for-correlation",
+      "source_path": "scatter-plot-for-correlation.md",
+      "target": "box-plot.md",
+      "target_concept_id": "box-plot",
+      "target_path": "box-plot.md",
+      "text": "box plots",
+      "title": null
+    },
+    {
+      "source_concept_id": "scatter-plot-for-correlation",
+      "source_path": "scatter-plot-for-correlation.md",
+      "target": "customize-numeric-presentation-to-audience.md",
+      "target_concept_id": "customize-numeric-presentation-to-audience",
+      "target_path": "customize-numeric-presentation-to-audience.md",
+      "text": "customize numeric presentation to the audience",
+      "title": null
+    },
+    {
+      "source_concept_id": "scatter-plot-for-correlation",
+      "source_path": "scatter-plot-for-correlation.md",
+      "target": "line-chart-for-trend-shape.md",
+      "target_concept_id": "line-chart-for-trend-shape",
+      "target_path": "line-chart-for-trend-shape.md",
+      "text": "line charts",
+      "title": null
+    },
+    {
+      "source_concept_id": "screen-position-emphasis",
+      "source_path": "screen-position-emphasis.md",
+      "target": "gestalt-enclosure.md",
+      "target_concept_id": "gestalt-enclosure",
+      "target_path": "gestalt-enclosure.md",
+      "text": "Gestalt enclosure",
+      "title": null
+    },
+    {
+      "source_concept_id": "screen-position-emphasis",
+      "source_path": "screen-position-emphasis.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "Gestalt proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "screen-position-emphasis",
+      "source_path": "screen-position-emphasis.md",
+      "target": "size-signals-relative-importance.md",
+      "target_concept_id": "size-signals-relative-importance",
+      "target_path": "size-signals-relative-importance.md",
+      "text": "Size",
+      "title": null
+    },
+    {
+      "source_concept_id": "screen-position-emphasis",
+      "source_path": "screen-position-emphasis.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "static vs. dynamic highlighting",
+      "title": null
+    },
+    {
+      "source_concept_id": "screen-position-emphasis",
+      "source_path": "screen-position-emphasis.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "static vs. dynamic highlighting",
+      "title": null
+    },
+    {
+      "source_concept_id": "secondary-y-axis-alternatives",
+      "source_path": "secondary-y-axis-alternatives.md",
+      "target": "axis-manipulation-antipatterns.md",
+      "target_concept_id": "axis-manipulation-antipatterns",
+      "target_path": "axis-manipulation-antipatterns.md",
+      "text": "fabricated dual-axis",
+      "title": null
+    },
+    {
+      "source_concept_id": "secondary-y-axis-alternatives",
+      "source_path": "secondary-y-axis-alternatives.md",
+      "target": "direct-labeling-over-legends.md",
+      "target_concept_id": "direct-labeling-over-legends",
+      "target_path": "direct-labeling-over-legends.md",
+      "text": "label the relevant points directly",
+      "title": null
+    },
+    {
+      "source_concept_id": "secondary-y-axis-alternatives",
+      "source_path": "secondary-y-axis-alternatives.md",
+      "target": "support-meaningful-comparisons.md",
+      "target_concept_id": "support-meaningful-comparisons",
+      "target_path": "support-meaningful-comparisons.md",
+      "text": "support meaningful comparisons",
+      "title": null
+    },
+    {
+      "source_concept_id": "secondary-y-axis-alternatives",
+      "source_path": "secondary-y-axis-alternatives.md",
+      "target": "vivid-color-restraint.md",
+      "target_concept_id": "vivid-color-restraint",
+      "target_path": "vivid-color-restraint.md",
+      "text": "color",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-sufficient-graphic-elements",
+      "source_path": "self-sufficient-graphic-elements.md",
+      "target": "action-titles-and-on-chart-annotation.md",
+      "target_concept_id": "action-titles-and-on-chart-annotation",
+      "target_path": "action-titles-and-on-chart-annotation.md",
+      "text": "action title",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-sufficient-graphic-elements",
+      "source_path": "self-sufficient-graphic-elements.md",
+      "target": "axis-manipulation-antipatterns.md",
+      "target_concept_id": "axis-manipulation-antipatterns",
+      "target_path": "axis-manipulation-antipatterns.md",
+      "text": "axis manipulation",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-sufficient-graphic-elements",
+      "source_path": "self-sufficient-graphic-elements.md",
+      "target": "customize-numeric-presentation-to-audience.md",
+      "target_concept_id": "customize-numeric-presentation-to-audience",
+      "target_path": "customize-numeric-presentation-to-audience.md",
+      "text": "customize numeric presentation to the audience",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-sufficient-graphic-elements",
+      "source_path": "self-sufficient-graphic-elements.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "data-ink ratio",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-sufficient-graphic-elements",
+      "source_path": "self-sufficient-graphic-elements.md",
+      "target": "direct-labeling-over-legends.md",
+      "target_concept_id": "direct-labeling-over-legends",
+      "target_path": "direct-labeling-over-legends.md",
+      "text": "direct labeling over a legend",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-sufficient-graphic-elements",
+      "source_path": "self-sufficient-graphic-elements.md",
+      "target": "visual-affordances-for-charts.md",
+      "target_concept_id": "visual-affordances-for-charts",
+      "target_path": "visual-affordances-for-charts.md",
+      "text": "visual affordances",
+      "title": null
+    },
+    {
+      "source_concept_id": "short-term-memory-chunk-limit",
+      "source_path": "short-term-memory-chunk-limit.md",
+      "target": "direct-labeling-over-legends.md",
+      "target_concept_id": "direct-labeling-over-legends",
+      "target_path": "direct-labeling-over-legends.md",
+      "text": "direct labels",
+      "title": null
+    },
+    {
+      "source_concept_id": "short-term-memory-chunk-limit",
+      "source_path": "short-term-memory-chunk-limit.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "Gestalt proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "short-term-memory-chunk-limit",
+      "source_path": "short-term-memory-chunk-limit.md",
+      "target": "preattentive-processing.md",
+      "target_concept_id": "preattentive-processing",
+      "target_path": "preattentive-processing.md",
+      "text": "preattentive processing",
+      "title": null
+    },
+    {
+      "source_concept_id": "short-term-memory-chunk-limit",
+      "source_path": "short-term-memory-chunk-limit.md",
+      "target": "single-screen-constraint.md",
+      "target_concept_id": "single-screen-constraint",
+      "target_path": "single-screen-constraint.md",
+      "text": "single-screen constraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-hue-saturation-over-rainbow",
+      "source_path": "single-hue-saturation-over-rainbow.md",
+      "target": "color-logic-on-dark-backgrounds.md",
+      "target_concept_id": "color-logic-on-dark-backgrounds",
+      "target_path": "color-logic-on-dark-backgrounds.md",
+      "text": "dark background",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-hue-saturation-over-rainbow",
+      "source_path": "single-hue-saturation-over-rainbow.md",
+      "target": "colorblind-safe-color-encoding.md",
+      "target_concept_id": "colorblind-safe-color-encoding",
+      "target_path": "colorblind-safe-color-encoding.md",
+      "text": "colorblind-safe",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-hue-saturation-over-rainbow",
+      "source_path": "single-hue-saturation-over-rainbow.md",
+      "target": "preattentive-attributes-for-dashboards.md",
+      "target_concept_id": "preattentive-attributes-for-dashboards",
+      "target_path": "preattentive-attributes-for-dashboards.md",
+      "text": "quantitative preattentive encoding",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-hue-saturation-over-rainbow",
+      "source_path": "single-hue-saturation-over-rainbow.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "visual hierarchy",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-hue-saturation-over-rainbow",
+      "source_path": "single-hue-saturation-over-rainbow.md",
+      "target": "vivid-color-restraint.md",
+      "target_concept_id": "vivid-color-restraint",
+      "target_path": "vivid-color-restraint.md",
+      "text": "vivid color restraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-screen-constraint",
+      "source_path": "single-screen-constraint.md",
+      "target": "dashboard-definition.md",
+      "target_concept_id": "dashboard-definition",
+      "target_path": "dashboard-definition.md",
+      "text": "dashboard",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-screen-constraint",
+      "source_path": "single-screen-constraint.md",
+      "target": "dashboard-definition.md",
+      "target_concept_id": "dashboard-definition",
+      "target_path": "dashboard-definition.md",
+      "text": "dashboard definition",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-screen-constraint",
+      "source_path": "single-screen-constraint.md",
+      "target": "multi-foci-time-display.md",
+      "target_concept_id": "multi-foci-time-display",
+      "target_path": "multi-foci-time-display.md",
+      "text": "multi-foci time display",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-screen-constraint",
+      "source_path": "single-screen-constraint.md",
+      "target": "short-term-memory-chunk-limit.md",
+      "target_concept_id": "short-term-memory-chunk-limit",
+      "target_path": "short-term-memory-chunk-limit.md",
+      "text": "short-term memory chunk limit",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-screen-constraint",
+      "source_path": "single-screen-constraint.md",
+      "target": "summarization-and-exception-reporting.md",
+      "target_concept_id": "summarization-and-exception-reporting",
+      "target_path": "summarization-and-exception-reporting.md",
+      "text": "summarization and exception reporting",
+      "title": null
+    },
+    {
+      "source_concept_id": "size-signals-relative-importance",
+      "source_path": "size-signals-relative-importance.md",
+      "target": "preattentive-attributes-for-dashboards.md",
+      "target_concept_id": "preattentive-attributes-for-dashboards",
+      "target_path": "preattentive-attributes-for-dashboards.md",
+      "text": "preattentive attributes",
+      "title": null
+    },
+    {
+      "source_concept_id": "size-signals-relative-importance",
+      "source_path": "size-signals-relative-importance.md",
+      "target": "screen-position-emphasis.md",
+      "target_concept_id": "screen-position-emphasis",
+      "target_path": "screen-position-emphasis.md",
+      "text": "screen position",
+      "title": null
+    },
+    {
+      "source_concept_id": "size-signals-relative-importance",
+      "source_path": "size-signals-relative-importance.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "over-highlighting",
+      "title": null
+    },
+    {
+      "source_concept_id": "size-signals-relative-importance",
+      "source_path": "size-signals-relative-importance.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "visual hierarchy with preattentive attributes",
+      "title": null
+    },
+    {
+      "source_concept_id": "slopegraph",
+      "source_path": "slopegraph.md",
+      "target": "horizontal-bars-for-categorical-labels.md",
+      "target_concept_id": "horizontal-bars-for-categorical-labels",
+      "target_path": "horizontal-bars-for-categorical-labels.md",
+      "text": "100%-stacked bar",
+      "title": null
+    },
+    {
+      "source_concept_id": "slopegraph",
+      "source_path": "slopegraph.md",
+      "target": "line-chart-for-trend-shape.md",
+      "target_concept_id": "line-chart-for-trend-shape",
+      "target_path": "line-chart-for-trend-shape.md",
+      "text": "line chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "slopegraph",
+      "source_path": "slopegraph.md",
+      "target": "order-categorical-values-by-magnitude.md",
+      "target_concept_id": "order-categorical-values-by-magnitude",
+      "target_path": "order-categorical-values-by-magnitude.md",
+      "text": "fixed ordinal order",
+      "title": null
+    },
+    {
+      "source_concept_id": "slopegraph",
+      "source_path": "slopegraph.md",
+      "target": "spaghetti-graph-strategies.md",
+      "target_concept_id": "spaghetti-graph-strategies",
+      "target_path": "spaghetti-graph-strategies.md",
+      "text": "spaghetti graph strategies",
+      "title": null
+    },
+    {
+      "source_concept_id": "slopegraph",
+      "source_path": "slopegraph.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "emphasizing one series",
+      "title": null
+    },
+    {
+      "source_concept_id": "small-multiples",
+      "source_path": "small-multiples.md",
+      "target": "direct-labeling-over-legends.md",
+      "target_concept_id": "direct-labeling-over-legends",
+      "target_path": "direct-labeling-over-legends.md",
+      "text": "direct labels",
+      "title": null
+    },
+    {
+      "source_concept_id": "small-multiples",
+      "source_path": "small-multiples.md",
+      "target": "gestalt-similarity.md",
+      "target_concept_id": "gestalt-similarity",
+      "target_path": "gestalt-similarity.md",
+      "text": "Gestalt similarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "small-multiples",
+      "source_path": "small-multiples.md",
+      "target": "line-chart-for-trend-shape.md",
+      "target_concept_id": "line-chart-for-trend-shape",
+      "target_path": "line-chart-for-trend-shape.md",
+      "text": "line chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "small-multiples",
+      "source_path": "small-multiples.md",
+      "target": "single-screen-constraint.md",
+      "target_concept_id": "single-screen-constraint",
+      "target_path": "single-screen-constraint.md",
+      "text": "single-screen constraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "spaghetti-graph-strategies",
+      "source_path": "spaghetti-graph-strategies.md",
+      "target": "action-titles-and-on-chart-annotation.md",
+      "target_concept_id": "action-titles-and-on-chart-annotation",
+      "target_path": "action-titles-and-on-chart-annotation.md",
+      "text": "annotation",
+      "title": null
+    },
+    {
+      "source_concept_id": "spaghetti-graph-strategies",
+      "source_path": "spaghetti-graph-strategies.md",
+      "target": "progressive-emphasis-across-slides.md",
+      "target_concept_id": "progressive-emphasis-across-slides",
+      "target_path": "progressive-emphasis-across-slides.md",
+      "text": "progressive emphasis",
+      "title": null
+    },
+    {
+      "source_concept_id": "spaghetti-graph-strategies",
+      "source_path": "spaghetti-graph-strategies.md",
+      "target": "small-multiples.md",
+      "target_concept_id": "small-multiples",
+      "target_path": "small-multiples.md",
+      "text": "small multiples",
+      "title": null
+    },
+    {
+      "source_concept_id": "sparklines",
+      "source_path": "sparklines.md",
+      "target": "line-chart-for-trend-shape.md",
+      "target_concept_id": "line-chart-for-trend-shape",
+      "target_path": "line-chart-for-trend-shape.md",
+      "text": "line chart for trend shape",
+      "title": null
+    },
+    {
+      "source_concept_id": "spatial-arrangement-by-importance-and-use",
+      "source_path": "spatial-arrangement-by-importance-and-use.md",
+      "target": "delineate-groups-with-least-visible-means.md",
+      "target_concept_id": "delineate-groups-with-least-visible-means",
+      "target_path": "delineate-groups-with-least-visible-means.md",
+      "text": "delineate groups with the least visible means",
+      "title": null
+    },
+    {
+      "source_concept_id": "spatial-arrangement-by-importance-and-use",
+      "source_path": "spatial-arrangement-by-importance-and-use.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "Gestalt proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "spatial-arrangement-by-importance-and-use",
+      "source_path": "spatial-arrangement-by-importance-and-use.md",
+      "target": "screen-position-emphasis.md",
+      "target_concept_id": "screen-position-emphasis",
+      "target_path": "screen-position-emphasis.md",
+      "text": "screen position emphasis",
+      "title": null
+    },
+    {
+      "source_concept_id": "spatial-arrangement-by-importance-and-use",
+      "source_path": "spatial-arrangement-by-importance-and-use.md",
+      "target": "support-meaningful-comparisons.md",
+      "target_concept_id": "support-meaningful-comparisons",
+      "target_path": "support-meaningful-comparisons.md",
+      "text": "support meaningful comparisons",
+      "title": null
+    },
+    {
+      "source_concept_id": "stacked-bar-chart-tradeoffs",
+      "source_path": "stacked-bar-chart-tradeoffs.md",
+      "target": "combination-bar-and-line-chart.md",
+      "target_concept_id": "combination-bar-and-line-chart",
+      "target_path": "combination-bar-and-line-chart.md",
+      "text": "combination bar and line chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "stacked-bar-chart-tradeoffs",
+      "source_path": "stacked-bar-chart-tradeoffs.md",
+      "target": "horizontal-bars-for-categorical-labels.md",
+      "target_concept_id": "horizontal-bars-for-categorical-labels",
+      "target_path": "horizontal-bars-for-categorical-labels.md",
+      "text": "Horizontal 100%-stacked bars",
+      "title": null
+    },
+    {
+      "source_concept_id": "stacked-bar-chart-tradeoffs",
+      "source_path": "stacked-bar-chart-tradeoffs.md",
+      "target": "pie-charts-are-rarely-appropriate.md",
+      "target_concept_id": "pie-charts-are-rarely-appropriate",
+      "target_path": "pie-charts-are-rarely-appropriate.md",
+      "text": "pie charts are rarely appropriate",
+      "title": null
+    },
+    {
+      "source_concept_id": "stacked-bar-chart-tradeoffs",
+      "source_path": "stacked-bar-chart-tradeoffs.md",
+      "target": "vivid-color-restraint.md",
+      "target_concept_id": "vivid-color-restraint",
+      "target_path": "vivid-color-restraint.md",
+      "text": "vivid color restraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "stacked-bar-chart-tradeoffs",
+      "source_path": "stacked-bar-chart-tradeoffs.md",
+      "target": "waterfall-chart.md",
+      "target_concept_id": "waterfall-chart",
+      "target_path": "waterfall-chart.md",
+      "text": "waterfall chart",
+      "title": null
+    },
+    {
+      "source_concept_id": "static-vs-dynamic-highlighting",
+      "source_path": "static-vs-dynamic-highlighting.md",
+      "target": "colorblind-safe-color-encoding.md",
+      "target_concept_id": "colorblind-safe-color-encoding",
+      "target_path": "colorblind-safe-color-encoding.md",
+      "text": "colorblind-safe color encoding",
+      "title": null
+    },
+    {
+      "source_concept_id": "static-vs-dynamic-highlighting",
+      "source_path": "static-vs-dynamic-highlighting.md",
+      "target": "data-ink-ratio.md",
+      "target_concept_id": "data-ink-ratio",
+      "target_path": "data-ink-ratio.md",
+      "text": "unnecessary data pixels are eliminated",
+      "title": null
+    },
+    {
+      "source_concept_id": "static-vs-dynamic-highlighting",
+      "source_path": "static-vs-dynamic-highlighting.md",
+      "target": "preattentive-attributes-for-dashboards.md",
+      "target_concept_id": "preattentive-attributes-for-dashboards",
+      "target_path": "preattentive-attributes-for-dashboards.md",
+      "text": "preattentive attribute",
+      "title": null
+    },
+    {
+      "source_concept_id": "static-vs-dynamic-highlighting",
+      "source_path": "static-vs-dynamic-highlighting.md",
+      "target": "screen-position-emphasis.md",
+      "target_concept_id": "screen-position-emphasis",
+      "target_path": "screen-position-emphasis.md",
+      "text": "screen position",
+      "title": null
+    },
+    {
+      "source_concept_id": "status-icon-design",
+      "source_path": "status-icon-design.md",
+      "target": "colorblind-safe-color-encoding.md",
+      "target_concept_id": "colorblind-safe-color-encoding",
+      "target_path": "colorblind-safe-color-encoding.md",
+      "text": "colorblind-safe color encoding",
+      "title": null
+    },
+    {
+      "source_concept_id": "status-icon-design",
+      "source_path": "status-icon-design.md",
+      "target": "perceptual-distinctness-limits.md",
+      "target_concept_id": "perceptual-distinctness-limits",
+      "target_path": "perceptual-distinctness-limits.md",
+      "text": "perceptual distinctness limits",
+      "title": null
+    },
+    {
+      "source_concept_id": "status-icon-design",
+      "source_path": "status-icon-design.md",
+      "target": "preattentive-processing.md",
+      "target_concept_id": "preattentive-processing",
+      "target_path": "preattentive-processing.md",
+      "text": "preattentive processing",
+      "title": null
+    },
+    {
+      "source_concept_id": "status-icon-design",
+      "source_path": "status-icon-design.md",
+      "target": "visual-consistency-principle.md",
+      "target_concept_id": "visual-consistency-principle",
+      "target_path": "visual-consistency-principle.md",
+      "text": "visual consistency principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "summarization-and-exception-reporting",
+      "source_path": "summarization-and-exception-reporting.md",
+      "target": "box-plot.md",
+      "target_concept_id": "box-plot",
+      "target_path": "box-plot.md",
+      "text": "box plot",
+      "title": null
+    },
+    {
+      "source_concept_id": "summarization-and-exception-reporting",
+      "source_path": "summarization-and-exception-reporting.md",
+      "target": "dashboard-definition.md",
+      "target_concept_id": "dashboard-definition",
+      "target_path": "dashboard-definition.md",
+      "text": "dashboard",
+      "title": null
+    },
+    {
+      "source_concept_id": "summarization-and-exception-reporting",
+      "source_path": "summarization-and-exception-reporting.md",
+      "target": "evaluative-state-banding.md",
+      "target_concept_id": "evaluative-state-banding",
+      "target_path": "evaluative-state-banding.md",
+      "text": "evaluative state banding",
+      "title": null
+    },
+    {
+      "source_concept_id": "summarization-and-exception-reporting",
+      "source_path": "summarization-and-exception-reporting.md",
+      "target": "scatter-plot-for-correlation.md",
+      "target_concept_id": "scatter-plot-for-correlation",
+      "target_path": "scatter-plot-for-correlation.md",
+      "text": "scatter plot for correlation",
+      "title": null
+    },
+    {
+      "source_concept_id": "summarization-and-exception-reporting",
+      "source_path": "summarization-and-exception-reporting.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "static/dynamic highlighting",
+      "title": null
+    },
+    {
+      "source_concept_id": "support-meaningful-comparisons",
+      "source_path": "support-meaningful-comparisons.md",
+      "target": "choosing-the-right-measure.md",
+      "target_concept_id": "choosing-the-right-measure",
+      "target_path": "choosing-the-right-measure.md",
+      "text": "choosing the right measure",
+      "title": null
+    },
+    {
+      "source_concept_id": "support-meaningful-comparisons",
+      "source_path": "support-meaningful-comparisons.md",
+      "target": "contextualizing-metrics-with-comparisons.md",
+      "target_concept_id": "contextualizing-metrics-with-comparisons",
+      "target_path": "contextualizing-metrics-with-comparisons.md",
+      "text": "comparison",
+      "title": null
+    },
+    {
+      "source_concept_id": "support-meaningful-comparisons",
+      "source_path": "support-meaningful-comparisons.md",
+      "target": "gestalt-proximity.md",
+      "target_concept_id": "gestalt-proximity",
+      "target_path": "gestalt-proximity.md",
+      "text": "Gestalt proximity",
+      "title": null
+    },
+    {
+      "source_concept_id": "support-meaningful-comparisons",
+      "source_path": "support-meaningful-comparisons.md",
+      "target": "gestalt-similarity.md",
+      "target_concept_id": "gestalt-similarity",
+      "target_path": "gestalt-similarity.md",
+      "text": "Gestalt similarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "support-meaningful-comparisons",
+      "source_path": "support-meaningful-comparisons.md",
+      "target": "secondary-y-axis-alternatives.md",
+      "target_concept_id": "secondary-y-axis-alternatives",
+      "target_path": "secondary-y-axis-alternatives.md",
+      "text": "secondary y-axis alternatives",
+      "title": null
+    },
+    {
+      "source_concept_id": "support-meaningful-comparisons",
+      "source_path": "support-meaningful-comparisons.md",
+      "target": "visual-consistency-principle.md",
+      "target_concept_id": "visual-consistency-principle",
+      "target_path": "visual-consistency-principle.md",
+      "text": "visual consistency principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "text-vs-graphics-tradeoff",
+      "source_path": "text-vs-graphics-tradeoff.md",
+      "target": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "target_concept_id": "categorical-scale-types-and-bar-vs-line-choice",
+      "target_path": "categorical-scale-types-and-bar-vs-line-choice.md",
+      "text": "categorical scale types and bar vs. line choice",
+      "title": null
+    },
+    {
+      "source_concept_id": "text-vs-graphics-tradeoff",
+      "source_path": "text-vs-graphics-tradeoff.md",
+      "target": "choosing-the-right-measure.md",
+      "target_concept_id": "choosing-the-right-measure",
+      "target_path": "choosing-the-right-measure.md",
+      "text": "choosing the right measure",
+      "title": null
+    },
+    {
+      "source_concept_id": "text-vs-graphics-tradeoff",
+      "source_path": "text-vs-graphics-tradeoff.md",
+      "target": "single-hue-saturation-over-rainbow.md",
+      "target_concept_id": "single-hue-saturation-over-rainbow",
+      "target_path": "single-hue-saturation-over-rainbow.md",
+      "text": "single-hue saturation heat map",
+      "title": null
+    },
+    {
+      "source_concept_id": "treemap",
+      "source_path": "treemap.md",
+      "target": "avoid-area-encoding-for-quantitative-comparison.md",
+      "target_concept_id": "avoid-area-encoding-for-quantitative-comparison",
+      "target_path": "avoid-area-encoding-for-quantitative-comparison.md",
+      "text": "avoid area encoding for quantitative comparison",
+      "title": null
+    },
+    {
+      "source_concept_id": "treemap",
+      "source_path": "treemap.md",
+      "target": "colorblind-safe-color-encoding.md",
+      "target_concept_id": "colorblind-safe-color-encoding",
+      "target_path": "colorblind-safe-color-encoding.md",
+      "text": "colorblind-safe color encoding",
+      "title": null
+    },
+    {
+      "source_concept_id": "treemap",
+      "source_path": "treemap.md",
+      "target": "dashboard-as-launch-pad.md",
+      "target_concept_id": "dashboard-as-launch-pad",
+      "target_path": "dashboard-as-launch-pad.md",
+      "text": "dashboard as launch pad",
+      "title": null
+    },
+    {
+      "source_concept_id": "usability-testing-with-single-prototype",
+      "source_path": "usability-testing-with-single-prototype.md",
+      "target": "customize-numeric-presentation-to-audience.md",
+      "target_concept_id": "customize-numeric-presentation-to-audience",
+      "target_path": "customize-numeric-presentation-to-audience.md",
+      "text": "customize numeric presentation to the audience",
+      "title": null
+    },
+    {
+      "source_concept_id": "usability-testing-with-single-prototype",
+      "source_path": "usability-testing-with-single-prototype.md",
+      "target": "dashboard-definition.md",
+      "target_concept_id": "dashboard-definition",
+      "target_path": "dashboard-definition.md",
+      "text": "dashboard definition",
+      "title": null
+    },
+    {
+      "source_concept_id": "variable-bin-width-distortion",
+      "source_path": "variable-bin-width-distortion.md",
+      "target": "box-plot.md",
+      "target_concept_id": "box-plot",
+      "target_path": "box-plot.md",
+      "text": "box plot",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-affordances-for-charts",
+      "source_path": "visual-affordances-for-charts.md",
+      "target": "customize-numeric-presentation-to-audience.md",
+      "target_concept_id": "customize-numeric-presentation-to-audience",
+      "target_path": "customize-numeric-presentation-to-audience.md",
+      "text": "numeric precision to the audience",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-affordances-for-charts",
+      "source_path": "visual-affordances-for-charts.md",
+      "target": "minimize-extraneous-cognitive-load.md",
+      "target_concept_id": "minimize-extraneous-cognitive-load",
+      "target_path": "minimize-extraneous-cognitive-load.md",
+      "text": "clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-affordances-for-charts",
+      "source_path": "visual-affordances-for-charts.md",
+      "target": "preattentive-attributes-for-dashboards.md",
+      "target_concept_id": "preattentive-attributes-for-dashboards",
+      "target_path": "preattentive-attributes-for-dashboards.md",
+      "text": "preattentive attributes",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-affordances-for-charts",
+      "source_path": "visual-affordances-for-charts.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "visual hierarchy",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-affordances-for-charts",
+      "source_path": "visual-affordances-for-charts.md",
+      "target": "vivid-color-restraint.md",
+      "target_concept_id": "vivid-color-restraint",
+      "target_path": "vivid-color-restraint.md",
+      "text": "vivid color restraint",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-consistency-principle",
+      "source_path": "visual-consistency-principle.md",
+      "target": "colorblind-safe-color-encoding.md",
+      "target_concept_id": "colorblind-safe-color-encoding",
+      "target_path": "colorblind-safe-color-encoding.md",
+      "text": "colors should carry consistentmeaning",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-consistency-principle",
+      "source_path": "visual-consistency-principle.md",
+      "target": "gestalt-similarity.md",
+      "target_concept_id": "gestalt-similarity",
+      "target_path": "gestalt-similarity.md",
+      "text": "Gestalt similarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-consistency-principle",
+      "source_path": "visual-consistency-principle.md",
+      "target": "preattentive-processing.md",
+      "target_concept_id": "preattentive-processing",
+      "target_path": "preattentive-processing.md",
+      "text": "preattentive processing",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "source_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "target": "direct-labeling-over-legends.md",
+      "target_concept_id": "direct-labeling-over-legends",
+      "target_path": "direct-labeling-over-legends.md",
+      "text": "direct labeling over legends",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "source_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "target": "preattentive-attributes-for-dashboards.md",
+      "target_concept_id": "preattentive-attributes-for-dashboards",
+      "target_path": "preattentive-attributes-for-dashboards.md",
+      "text": "Preattentive attributes",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "source_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "target": "preattentive-processing.md",
+      "target_concept_id": "preattentive-processing",
+      "target_path": "preattentive-processing.md",
+      "text": "preattentive",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "source_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "over-highlighting on a dashboard",
+      "title": null
+    },
+    {
+      "source_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "source_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "target": "visualization-for-exploration-vs-communication.md",
+      "target_concept_id": "visualization-for-exploration-vs-communication",
+      "target_path": "visualization-for-exploration-vs-communication.md",
+      "text": "explanatory communication",
+      "title": null
+    },
+    {
+      "source_concept_id": "visualization-for-exploration-vs-communication",
+      "source_path": "visualization-for-exploration-vs-communication.md",
+      "target": "aesthetics-serve-communication.md",
+      "target_concept_id": "aesthetics-serve-communication",
+      "target_path": "aesthetics-serve-communication.md",
+      "text": "aesthetics that serve the message",
+      "title": null
+    },
+    {
+      "source_concept_id": "visualization-for-exploration-vs-communication",
+      "source_path": "visualization-for-exploration-vs-communication.md",
+      "target": "bar-graph-zero-baseline-rule.md",
+      "target_concept_id": "bar-graph-zero-baseline-rule",
+      "target_path": "bar-graph-zero-baseline-rule.md",
+      "text": "graphical integrity",
+      "title": null
+    },
+    {
+      "source_concept_id": "visualization-for-exploration-vs-communication",
+      "source_path": "visualization-for-exploration-vs-communication.md",
+      "target": "dashboard-role-taxonomy.md",
+      "target_concept_id": "dashboard-role-taxonomy",
+      "target_path": "dashboard-role-taxonomy.md",
+      "text": "analytical dashboards",
+      "title": null
+    },
+    {
+      "source_concept_id": "visualization-for-exploration-vs-communication",
+      "source_path": "visualization-for-exploration-vs-communication.md",
+      "target": "preattentive-processing.md",
+      "target_concept_id": "preattentive-processing",
+      "target_path": "preattentive-processing.md",
+      "text": "preattentive",
+      "title": null
+    },
+    {
+      "source_concept_id": "visualization-for-exploration-vs-communication",
+      "source_path": "visualization-for-exploration-vs-communication.md",
+      "target": "progressive-emphasis-across-slides.md",
+      "target_concept_id": "progressive-emphasis-across-slides",
+      "target_path": "progressive-emphasis-across-slides.md",
+      "text": "progressive emphasis across slides",
+      "title": null
+    },
+    {
+      "source_concept_id": "visualization-for-exploration-vs-communication",
+      "source_path": "visualization-for-exploration-vs-communication.md",
+      "target": "self-sufficient-graphic-elements.md",
+      "target_concept_id": "self-sufficient-graphic-elements",
+      "target_path": "self-sufficient-graphic-elements.md",
+      "text": "a standalone graphic must be self-sufficient",
+      "title": null
+    },
+    {
+      "source_concept_id": "visualization-for-exploration-vs-communication",
+      "source_path": "visualization-for-exploration-vs-communication.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "visual hierarchy with preattentive attributes",
+      "title": null
+    },
+    {
+      "source_concept_id": "vivid-color-restraint",
+      "source_path": "vivid-color-restraint.md",
+      "target": "aesthetics-serve-communication.md",
+      "target_concept_id": "aesthetics-serve-communication",
+      "target_path": "aesthetics-serve-communication.md",
+      "text": "aesthetics serve communication",
+      "title": null
+    },
+    {
+      "source_concept_id": "vivid-color-restraint",
+      "source_path": "vivid-color-restraint.md",
+      "target": "single-hue-saturation-over-rainbow.md",
+      "target_concept_id": "single-hue-saturation-over-rainbow",
+      "target_path": "single-hue-saturation-over-rainbow.md",
+      "text": "rainbow encodings fail",
+      "title": null
+    },
+    {
+      "source_concept_id": "vivid-color-restraint",
+      "source_path": "vivid-color-restraint.md",
+      "target": "static-vs-dynamic-highlighting.md",
+      "target_concept_id": "static-vs-dynamic-highlighting",
+      "target_path": "static-vs-dynamic-highlighting.md",
+      "text": "dynamic highlighting",
+      "title": null
+    },
+    {
+      "source_concept_id": "vivid-color-restraint",
+      "source_path": "vivid-color-restraint.md",
+      "target": "visual-hierarchy-with-preattentive-attributes.md",
+      "target_concept_id": "visual-hierarchy-with-preattentive-attributes",
+      "target_path": "visual-hierarchy-with-preattentive-attributes.md",
+      "text": "visual hierarchy",
+      "title": null
+    },
+    {
+      "source_concept_id": "waterfall-chart",
+      "source_path": "waterfall-chart.md",
+      "target": "stacked-bar-chart-tradeoffs.md",
+      "target_concept_id": "stacked-bar-chart-tradeoffs",
+      "target_path": "stacked-bar-chart-tradeoffs.md",
+      "text": "stacked bar",
+      "title": null
+    },
+    {
+      "source_concept_id": "when-geography-belongs-on-a-dashboard",
+      "source_path": "when-geography-belongs-on-a-dashboard.md",
+      "target": "order-categorical-values-by-magnitude.md",
+      "target_concept_id": "order-categorical-values-by-magnitude",
+      "target_path": "order-categorical-values-by-magnitude.md",
+      "text": "ranked bar graph",
+      "title": null
+    }
+  ],
+  "orphans": []
+}

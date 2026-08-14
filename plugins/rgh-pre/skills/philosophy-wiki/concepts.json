@@ -1,0 +1,3229 @@
+{
+  "bundle": "philosophy",
+  "concepts": [
+    {
+      "concept_id": "accepting-unfairness-and-uncertainty",
+      "description": "The claim that insisting life should be fair or certain blocks resilience and wise risk-taking, while accepting injustice and unknowability as features of existence frees energy for what you can still influence.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002022244691607685,
+      "title": "Accepting Unfairness and Uncertainty"
+    },
+    {
+      "concept_id": "admitting-you-do-not-know",
+      "description": "The claim that openly admitting you do not know your way — rather than rushing with narrow ambition — makes available inner and outer allies from soulfulness and selflessness, while arrogant presumption of knowledge leads to impasse.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.0031203706926263034,
+      "title": "Admitting You Do Not Know"
+    },
+    {
+      "concept_id": "adversity-as-training-ground",
+      "description": "The Stoic reframe of hardship as the raw material virtue works on and becomes visible through, comparable to an athlete's opponent, rather than as pure misfortune to be merely endured.",
+      "inbound_link_count": 11,
+      "outbound_link_count": 5,
+      "pagerank": 0.021856717765456883,
+      "title": "Adversity as Training Ground"
+    },
+    {
+      "concept_id": "agency-as-effective-truth",
+      "description": "The claim that what we believe about our power to act becomes self-fulfilling — accepting impotence makes it true, while choosing to act can make change possible even when the odds look impossible.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.004256682116984994,
+      "title": "Agency as Effective Truth"
+    },
+    {
+      "concept_id": "ahimsa-non-harming",
+      "description": "The ethical orientation of living so as to cause as little damage and suffering as possible — to others and to oneself — tested most when fear tempts harm, not when no one threatens you.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.0020687984496124035,
+      "title": "Ahimsa (Non-Harming)"
+    },
+    {
+      "concept_id": "amor-fati",
+      "description": "The Stoic ideal of not merely enduring but actively willing whatever happens, on the ground that the universe is governed by a rational, providential order that a wise person can choose to agree with.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.006008040012629411,
+      "title": "Willing Acceptance of Fate (Amor Fati)"
+    },
+    {
+      "concept_id": "arguing-with-reality-causes-suffering",
+      "description": "The claim that the only time we suffer is when we believe a thought that argues with what is — wanting reality to differ from how it is now is hopeless, while ceasing to oppose what is makes action simple and effective.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.013491476434503213,
+      "title": "Arguing With Reality Causes Suffering"
+    },
+    {
+      "concept_id": "art-of-acquiescence",
+      "description": "The Stoic practice of accepting what lies outside control after the dichotomy has been applied — distinct from resignation, and the necessary prelude to working with reality as it is.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.006064096615969192,
+      "title": "The Art of Acquiescence"
+    },
+    {
+      "concept_id": "asking-for-help-as-courage",
+      "description": "The Stoic claim that needing and requesting aid is not weakness but a soldier's duty mid-mission — and that refusing to ask isolates people and blocks the help structures designed for exactly their situation.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Asking for Help as Courage"
+    },
+    {
+      "concept_id": "awareness-beyond-thinking",
+      "description": "The claim that awareness is not the same as thought — it lies beyond thinking yet makes use of it — and that sustained awareness reveals our fundamental nature as integrated and whole rather than fragmented like the thinking mind.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.002820240686315525,
+      "title": "Awareness Beyond Thinking"
+    },
+    {
+      "concept_id": "buddha-as-awakened-one",
+      "description": "The Buddhist claim that \"Buddha\" means one who has awakened to his or her own true nature — so the most important point is to be yourself, not to try to become something you are not already, and practice need not conflict with any beliefs or traditions.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.0020142853141612146,
+      "title": "Buddha as Awakened One"
+    },
+    {
+      "concept_id": "choosing-which-ancestral-tradition-to-follow",
+      "description": "The claim that everyone inherits both courage and cowardice from their forebears — and that living well means consciously aligning with the lineage of those who endured and acted rather than those who shrank.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011627906976744188,
+      "title": "Choosing Which Ancestral Tradition to Follow"
+    },
+    {
+      "concept_id": "concentration-without-mindfulness-incomplete",
+      "description": "The Buddhist-influenced claim that one-pointed concentration (samadhi) stabilizes the mind but is incomplete without mindfulness — and that attachment to the pleasant stillness of concentration can arrest development and short-circuit wisdom.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Concentration Without Mindfulness Is Incomplete"
+    },
+    {
+      "concept_id": "consolation-for-grief",
+      "description": "Seneca's position on mourning: real, involuntary tears are permitted and even healthy, but sustained, self-indulgent, or performative grief is a choice that should be corrected, not honored as devotion.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.011990035721826128,
+      "title": "The Stoic Approach to Grief"
+    },
+    {
+      "concept_id": "courage-against-despair",
+      "description": "The claim that courage requires honest commitment to meaning and noble ideals — whose opposite is not cowardice but apathy, cynicism, and the refusal to believe effort matters.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.004266402235012862,
+      "title": "Courage Against Despair and Nihilism"
+    },
+    {
+      "concept_id": "courage-as-gateway-to-every-good",
+      "description": "The claim that fear-driven conformity, if universalized, would freeze all progress — and that what we want in life and what the world needs lies on the far side of courage, which remains a choice we can wield or refuse.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Courage as Gateway to Every Good"
+    },
+    {
+      "concept_id": "courage-as-habit",
+      "description": "The virtue-ethical claim that bravery must be cultivated through repeated small acts of moral courage — not reserved for emergencies — or it will not be available when the stakes are highest.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018217054263565894,
+      "title": "Courage as Habit"
+    },
+    {
+      "concept_id": "courage-for-neighbors",
+      "description": "The claim that moral bravery often matters most in ordinary reciprocity with those nearest us — showing up, trying, and refusing indifference even when dramatic rescue fails.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.0022184270025839797,
+      "title": "Courage for Neighbors"
+    },
+    {
+      "concept_id": "courage-of-prevention",
+      "description": "The claim that the higher courage often lies in preventing unnecessary conflict — through restraint, diplomacy, and refusal to escalate — rather than in winning the fights that need never have happened.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Courage of Prevention"
+    },
+    {
+      "concept_id": "courage-requires-a-worthy-cause",
+      "description": "The classical and Stoic claim that bravery is not an independent good — courage detached from justice or a right end is recklessness, vanity, or obedience, not virtue.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.004446327747945883,
+      "title": "Courage Requires a Worthy Cause"
+    },
+    {
+      "concept_id": "courage-to-be-seen",
+      "description": "The claim that fear of embarrassment and public judgment — not only fear of physical danger — is a deficiency of courage that blocks destiny, original work, and self-actualization.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Courage to Be Seen"
+    },
+    {
+      "concept_id": "courage-to-be-yourself",
+      "description": "The ethical claim that conforming out of fear — muting one's originality to avoid standing out — is a form of cowardice, and that integrity requires being oneself even when difference makes one a target.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.004120047119391645,
+      "title": "Courage to Be Yourself"
+    },
+    {
+      "concept_id": "courage-to-leave",
+      "description": "The claim that walking away from a dead end — emigration, a failed project, a bad marriage — can be as courageous as staying, and that enduring in the wrong thing is not wisdom but eventually cowardice.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Courage to Leave"
+    },
+    {
+      "concept_id": "death-is-not-to-be-feared",
+      "description": "The recurring Stoic arguments that death cannot harm the person who undergoes it — because it is either nonexistence, a natural process, or symmetrical with the nonexistence before birth — as distinct from the practice of remembering it.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.006219846232920028,
+      "title": "Why Death Is Not to Be Feared"
+    },
+    {
+      "concept_id": "defiance-under-coercion",
+      "description": "The Stoic and practical claim that even under threat one retains the power to refuse wrong, resist tyranny, and withhold consent — because no one can make a person do wrong without their own participation.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0016569767441860467,
+      "title": "Defiance Under Coercion"
+    },
+    {
+      "concept_id": "design-versus-randomness-and-meaning",
+      "description": "The question of whether the universe is the product of intentional design or pure chance, treated as practically significant because it determines whether hardship can be read as part of a larger order or only as meaningless accident.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.002022244691607685,
+      "title": "Design Versus Randomness as a Ground for Meaning"
+    },
+    {
+      "concept_id": "dichotomy-of-control",
+      "description": "The Stoic division of everything in life into what is \"up to us\" (our own judgments, desires, and choices) and what is not, as the starting point for a settled life.",
+      "inbound_link_count": 15,
+      "outbound_link_count": 4,
+      "pagerank": 0.06837819795270283,
+      "title": "The Dichotomy of Control"
+    },
+    {
+      "concept_id": "discipline-of-perception",
+      "description": "The first Stoic discipline — seeing events simply as they are, filtering prejudice, fear, and excitement so composure and objectivity can turn obstacles into education rather than despair.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.0018952444409368733,
+      "title": "The Discipline of Perception"
+    },
+    {
+      "concept_id": "discipline-of-the-will",
+      "description": "The Stoic third discipline — fortitude about life itself when perception and action cannot remove an obstacle — encompassing acceptance, preparation, meaning-making, and cheerfulness under fate.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.003525965986169206,
+      "title": "The Discipline of the Will"
+    },
+    {
+      "concept_id": "eclectic-approach-to-wisdom",
+      "description": "Seneca's stance of drawing usable truth from rival philosophical schools, including ones he otherwise disagreed with, on the ground that good ideas belong to whoever can use them rather than to the school that first produced them.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.0026162634226871424,
+      "title": "An Eclectic Approach to Wisdom"
+    },
+    {
+      "concept_id": "everyday-life-as-the-path",
+      "description": "Gary Snyder's claim that ordinary daily chores are not distractions from a separate formal practice but our path — apprenticed to reality itself, we must master the twenty-four hours.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.0028296122958271592,
+      "title": "Everyday Life as the Path"
+    },
+    {
+      "concept_id": "everything-is-on-loan",
+      "description": "The framing of possessions, relationships, and even one's own life as temporarily granted rather than owned outright, so that loss is a return rather than a theft.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.03199398738034532,
+      "title": "Everything We Hold Is Only on Loan"
+    },
+    {
+      "concept_id": "experiencing-self-versus-remembering-self",
+      "description": "The distinction between the self that lives through moments and the self that keeps score by memory — and why duration-weighted well-being may diverge from peak-end evaluation when choosing a life.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011627906976744188,
+      "title": "Experiencing Self Versus Remembering Self"
+    },
+    {
+      "concept_id": "extirpation-of-the-passions",
+      "description": "The Stoic argument, against the rival Peripatetic view, that destructive emotions should be uprooted entirely rather than kept at a \"moderate\" level, because a moderate emotion still rests on a false judgment and tends to escalate.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.008533531125469231,
+      "title": "Eliminating the Passions Rather Than Moderating Them"
+    },
+    {
+      "concept_id": "fate-thinking-versus-probabilistic-thinking",
+      "description": "The tension between explaining events as meant-to-be (fate, divine order) and explaining them as contingent outcomes in a probabilistic world — with the latter supporting clearer foresight at the cost of comforting narrative.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002022244691607685,
+      "title": "Fate Thinking Versus Probabilistic Thinking"
+    },
+    {
+      "concept_id": "fear-as-signal-of-what-matters",
+      "description": "The counterintuitive claim that fear often points toward the morally necessary action — not as counsel to obey, but as a compass indicating where conscience and growth lie.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Fear as Signal of What Matters"
+    },
+    {
+      "concept_id": "fear-of-death-as-identity-fear",
+      "description": "The claim that dread of dying is often dread of the dissolution of a constructed self-story — and that when death and identity are seen as concepts rather than threats, the fear collapses into acceptance or even love of what is.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0049853718486908526,
+      "title": "Fear of Death as Fear of Identity Loss"
+    },
+    {
+      "concept_id": "focus-scrutiny-on-your-own-courage",
+      "description": "The Stoic and classical injunction not to judge another person's fear or cowardice — you cannot know their wrestling — and to redirect moral scrutiny inward, changing others silently by example.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.002285531061584841,
+      "title": "Focus Scrutiny on Your Own Courage"
+    },
+    {
+      "concept_id": "forgiveness-as-seeing-the-story-did-not-happen",
+      "description": "The claim that full forgiveness means realizing what you thought happened did not — that suffering comes from uninvestigated beliefs about wrongs, not from the events themselves, and that everyone acts from the beliefs they could not help holding in the moment.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Forgiveness as Seeing the Story Did Not Happen"
+    },
+    {
+      "concept_id": "freedom-through-frugality",
+      "description": "The Stoic and classical argument that stripping away the superfluous secures autonomy — not because poverty is good, but because neediness and excess both enslave.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.006811737466415513,
+      "title": "Freedom Through Frugality"
+    },
+    {
+      "concept_id": "grace-under-pressure",
+      "description": "The cultivated poise that holds when stakes are highest — not rushing into battle but remaining composed, disciplined, and purposeful when natural impulses would betray oneself or others.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0014922480620155041,
+      "title": "Grace Under Pressure"
+    },
+    {
+      "concept_id": "habitual-automaticity",
+      "description": "The claim that habitual unawareness and automaticity are exceedingly tenacious forces working against wakefulness — requiring sustained inner commitment to keep capturing moments in awareness, yet yielding enlightening and liberating work when met.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.003129113954642258,
+      "title": "Habitual Automaticity"
+    },
+    {
+      "concept_id": "happiness-through-self-knowledge",
+      "description": "The claim that outer sources of happiness — God, environment, other people — can help, but happiness will be no deeper than one's capacity to know oneself inwardly and meet the outer world from being at home in one's own skin.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Happiness Through Self-Knowledge"
+    },
+    {
+      "concept_id": "ignoring-provocation",
+      "description": "The Stoic discipline of refusing to supply the second half of a conflict — enduring slights and insults when engagement would trade self-control for self-indulgence and abandon the task at hand.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Ignoring Provocation"
+    },
+    {
+      "concept_id": "impermanence-of-self-and-non-attachment",
+      "description": "The claim, developed independently in Buddhist-influenced modern writing and echoed in Stoic flux doctrine, that the self is not a fixed, unchanging thing to defend but a constantly changing process, and that seeing this clearly loosens the grip of loss and status-anxiety.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 1,
+      "pagerank": 0.007580975727432533,
+      "title": "Impermanence of Self and Non-Attachment"
+    },
+    {
+      "concept_id": "indecision-as-surrendering-agency",
+      "description": "The claim that refusing to choose is itself a choice — usually for the status quo — and that prolonged deliberation often masks fear of consequences rather than genuine weighing of options.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Indecision as Surrendering Agency"
+    },
+    {
+      "concept_id": "interconnectedness",
+      "description": "The claim that nothing exists in isolation — everything is embedded in complex webs of cause, condition, and flux — and that seeing this directly deepens appreciation and corrects the illusion of separateness.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 3,
+      "pagerank": 0.0093592730456721,
+      "title": "Interconnectedness"
+    },
+    {
+      "concept_id": "involuntary-scare-versus-chosen-fear",
+      "description": "The distinction between a momentary, precognitive reaction to threat and fear as a ruling state one chooses to maintain — the Stoic claim that only the second is morally significant and that logic can deflate it.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.006221825404532378,
+      "title": "Involuntary Scare Versus Chosen Fear"
+    },
+    {
+      "concept_id": "job-on-the-planet",
+      "description": "Buckminster Fuller's reframing of vocation as asking what the planet needs done that you know something about and probably will not happen unless you take responsibility — living as if your life were a gift to be spent in service of the whole.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.0036792246225364625,
+      "title": "Job on the Planet"
+    },
+    {
+      "concept_id": "joy-vs-pleasure",
+      "description": "Seneca's distinction between fleeting pleasure, which depends on external circumstance, and the sage's steady joy, which arises entirely from virtue and cannot be taken away by fortune.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0029761648017856152,
+      "title": "Stoic Joy Versus Ordinary Pleasure"
+    },
+    {
+      "concept_id": "judgments-not-events-disturb-us",
+      "description": "The Stoic diagnosis that suffering is produced not by what happens but by the opinion we form about what happens, so the cure for disturbance is correcting the opinion rather than controlling the event.",
+      "inbound_link_count": 12,
+      "outbound_link_count": 6,
+      "pagerank": 0.06481024203308759,
+      "title": "It Is Judgments, Not Events, That Disturb Us"
+    },
+    {
+      "concept_id": "karma-as-accumulated-tendency",
+      "description": "The Buddhist-influenced claim that every effect has antecedent causes and every action seeds further tendencies — not fixed destiny, but a momentum that can imprison or be refashioned only in the present moment.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.0056810307666838354,
+      "title": "Karma as Accumulated Tendency"
+    },
+    {
+      "concept_id": "keep-identity-small",
+      "description": "The claim that clinging tightly to any single identity makes you brittle when life challenges that role, while defining yourself by flexible traits lets you adapt like water around an obstacle.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0016965397199607815,
+      "title": "Keep Identity Small"
+    },
+    {
+      "concept_id": "kindness-as-fundamental-orientation",
+      "description": "The claim that kindness is not a technique for changing the world but an uncovering of love and compassion already present below fear, hurt, greed, and the illusion of separateness — an orientation that can stretch to all beings without natural limit.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Kindness as Fundamental Orientation"
+    },
+    {
+      "concept_id": "leadership-through-sacrifice",
+      "description": "The ethical claim that authority is earned by sharing deprivations and absorbing costs for others — not by exemption from the standards one imposes, and that the privilege of command is obligation, not license.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Leadership Through Sacrifice"
+    },
+    {
+      "concept_id": "letting-go-as-ethical-stance",
+      "description": "The Buddhist-influenced claim that ceasing to cling — to outcomes, views, likes and dislikes — is a conscious choice to release into present moments as they unfold, prerequisite to clarity and wise action.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Letting Go as Ethical Stance"
+    },
+    {
+      "concept_id": "living-according-to-nature",
+      "description": "The Stoic formula for the goal of life — that the human good consists in living in accordance with reason, both one's own nature and the rational order of the whole cosmos.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Living According to Nature"
+    },
+    {
+      "concept_id": "living-consistently-with-your-values",
+      "description": "The Stoic test of genuine wisdom as consistency of character across circumstances — wanting and rejecting the same things always — rather than momentary conviction or fine speech.",
+      "inbound_link_count": 18,
+      "outbound_link_count": 2,
+      "pagerank": 0.05980202687773725,
+      "title": "Living Consistently With Your Values"
+    },
+    {
+      "concept_id": "making-others-better-by-example",
+      "description": "The Stoic claim that self-discipline becomes socially transformative not through berating others but through the contagious pull of a life lived under high standards — including the choice of moral exemplars.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.0032134797588285963,
+      "title": "Making Others Better by Example"
+    },
+    {
+      "concept_id": "making-your-own-luck",
+      "description": "The claim that moral opportunity is not merely handed out by circumstance — heroes actively seek the moments that test them, and true good fortune consists in character, intentions, and actions rather than external luck.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.003357222723843447,
+      "title": "Making Your Own Luck"
+    },
+    {
+      "concept_id": "meditation-as-human-development",
+      "description": "The Buddhist-influenced claim that meditation (bhavana) is development through mental training — a natural extension of maturing that uses fairy tales, shadow work, and repetitive inner labor to recover golden promise and become a fully developed adult rather than a childhood innocence already past.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Meditation as Human Development"
+    },
+    {
+      "concept_id": "meditation-as-way-of-being",
+      "description": "The claim that meditation is better understood as a Way of living in harmony with things as they are — not a technique — including the ability to know something about where you are now even when you do not know where you are going.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.003159042078188648,
+      "title": "Meditation as a Way of Being"
+    },
+    {
+      "concept_id": "meditation-vision-and-personal-values",
+      "description": "The claim that sustaining meditation requires a vision truly your own — deep, tenacious, close to who you believe yourself to be — renewed daily so practice embodies what you value rather than becoming mechanical habit.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0011627906976744188,
+      "title": "Meditation Vision and Personal Values"
+    },
+    {
+      "concept_id": "megalopsychia-greatness-of-soul",
+      "description": "The Stoic and classical ideal of heroic courage — risking oneself for others or a larger cause, where love overrides self-preservation and courage goes beyond the call of duty.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.0032303757080233446,
+      "title": "Megalopsychia (Greatness of Soul)"
+    },
+    {
+      "concept_id": "memento-mori",
+      "description": "The Stoic discipline of deliberately keeping death in view every day, not as morbidity but as the surest way to strip away trivial concerns and focus attention on living well now.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.012863074896411362,
+      "title": "Memento Mori as a Daily Practice"
+    },
+    {
+      "concept_id": "mindfulness-as-art-of-living",
+      "description": "The claim that mindfulness is waking up and living in harmony with oneself and the world — paying attention on purpose, in the present moment, and nonjudgmentally — as a practical route to the art of conscious living rather than a belief system or religion.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.004119723750040575,
+      "title": "Mindfulness as the Art of Living"
+    },
+    {
+      "concept_id": "mount-analogue",
+      "description": "The metaphor that life itself is the mountain — the climb is the teacher, not standing at the top — and that teaching is sharing a progress report, not absolute truth, for those still on the path.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0027264611622525997,
+      "title": "Mount Analogue"
+    },
+    {
+      "concept_id": "no-one-errs-willingly",
+      "description": "The Socratic-Stoic claim that wrongdoers act from mistaken judgment about what is good, not from clear-eyed malice, and so deserve pity and correction rather than hatred.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0160368378862614,
+      "title": "No One Errs Willingly"
+    },
+    {
+      "concept_id": "non-doing-and-wu-wei",
+      "description": "The Taoist and Zen claim that the highest mastery — in stillness or action — arises from non-doing: effortless activity in which the doer does not force outcomes yet nothing is left undone.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.0029000987587535034,
+      "title": "Non-Doing and Wu Wei"
+    },
+    {
+      "concept_id": "nonviolent-restraint-under-assault",
+      "description": "The ethical claim that true self-mastery can require absorbing violence or betrayal without retaliation — turning restraint into a demonstration of justice, will, and sustained commitment.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.002243136304909561,
+      "title": "Nonviolent Restraint Under Assault"
+    },
+    {
+      "concept_id": "obstacles-never-end",
+      "description": "The Stoic acceptance that life offers no permanent obstacle-free state — each breakthrough only qualifies you for the next test, and the proper response is preparation to start again rather than hoping for an end.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Obstacles Never End"
+    },
+    {
+      "concept_id": "ordinary-consciousness-as-sleep",
+      "description": "The Buddhist-influenced claim that everyday waking awareness is severely limited — more like an extended dream than true wakefulness — and that systematic self-observation is how a person wakes from automaticity.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 6,
+      "pagerank": 0.002848441179279366,
+      "title": "Ordinary Consciousness as Sleep"
+    },
+    {
+      "concept_id": "pain-versus-suffering",
+      "description": "The distinction between pain — a transient, useful signal produced by an actual event — and suffering, the self-generated repetition and amplification of pain through rumination, which continues even once the triggering event is over.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0017489502583979332,
+      "title": "Pain Is Inevitable, Suffering Is Optional"
+    },
+    {
+      "concept_id": "parrhesia-speaking-truth-to-power",
+      "description": "The classical virtue of frank speech to those in authority — refusing flattery, lies, and complicity when silence would betray truth and character.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.004371659560625216,
+      "title": "Parrhesia (Speaking Truth to Power)"
+    },
+    {
+      "concept_id": "patience-as-discipline",
+      "description": "The virtue of waiting well — distinct from hustle — that prevents premature action, lets creation and judgment mature, and makes the fruit of effort sweeter because it was not snatched too early.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.001986434108527132,
+      "title": "Patience as Discipline"
+    },
+    {
+      "concept_id": "philosophical-friendship-with-oneself",
+      "description": "The Stoic claim that strict self-discipline must not collapse into self- hatred — progress requires treating oneself as a friend under high standards, not as an enemy to be whipped.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0027800763224389,
+      "title": "Philosophical Friendship With Oneself"
+    },
+    {
+      "concept_id": "philosophy-as-therapy-not-theory",
+      "description": "The Stoic insistence that philosophy exists to be practiced and to change how a person actually lives, and the recurring polemic against treating philosophy as clever argument, logic-chopping, or erudition for its own sake.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 2,
+      "pagerank": 0.03978886608213524,
+      "title": "Philosophy as Therapy, Not Theory"
+    },
+    {
+      "concept_id": "positive-thinking-is-not-meditation",
+      "description": "The claim that deciding to think positively may be useful but is not meditation — it is just more thinking, and can be as confining and imprisoning as negative thinking unless something beyond thought transforms the relationship to mind.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0019618588921305868,
+      "title": "Positive Thinking Is Not Meditation"
+    },
+    {
+      "concept_id": "preferred-indifferents",
+      "description": "The Stoic classification of externals like health, wealth, and reputation as neither good nor bad in themselves, but as reasonably preferred or avoided while never being the basis of a good life.",
+      "inbound_link_count": 10,
+      "outbound_link_count": 3,
+      "pagerank": 0.042350795573437294,
+      "title": "Preferred and Dispreferred Indifferents"
+    },
+    {
+      "concept_id": "premeditation-of-adversity",
+      "description": "The Stoic practice of rehearsing future hardships in advance so that, when they arrive, they land as familiar rather than as a shock.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 5,
+      "pagerank": 0.018273983635617545,
+      "title": "Premeditating Adversity"
+    },
+    {
+      "concept_id": "prepare-for-none-of-it-to-work",
+      "description": "The Stoic disposition of trying with full effort while accepting that plans may fail entirely — holding yourself to your best, not the impossible, and moving on when the verdict arrives.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Prepare for None of It to Work"
+    },
+    {
+      "concept_id": "present-moment-intimacy",
+      "description": "The cross-tradition claim that appreciation for the present moment and an intimate relationship with it — through continual attending with care and discernment — is the root of Buddhism, Taoism, yoga, and comparable Western voices, and the direct opposite of taking life for granted.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.003134436669159613,
+      "title": "Present-Moment Intimacy"
+    },
+    {
+      "concept_id": "principles-worth-the-cost",
+      "description": "The Stoic and classical claim that some goods — dignity, justice, truth — justify real sacrifice, and that refusing to pay the price is a worse moral failure than the risks courage demands.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.003658463747777247,
+      "title": "Principles Worth the Cost"
+    },
+    {
+      "concept_id": "refusal-of-the-call",
+      "description": "The claim that meaningful vocation is almost always preceded by fear-driven delay — and that the defining battle of a consequential life is whether one eventually answers what one already knows one is called to do.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.0027729185314455777,
+      "title": "Refusal of the Call"
+    },
+    {
+      "concept_id": "refusal-to-submit-under-oppression",
+      "description": "The ethical claim that submission does not cure abuse or injustice — that resistance, even partial or costly, breaks oppression for oneself and for those who come after.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Refusal to Submit Under Oppression"
+    },
+    {
+      "concept_id": "refusal-to-surrender",
+      "description": "The distinction between enduring hardship and refusing to quit on a just cause while life remains — withholding consent to defeat even when tactical retreat may sometimes be warranted.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.0033049438642364726,
+      "title": "Refusal to Surrender"
+    },
+    {
+      "concept_id": "rigid-demands-versus-flexible-thinking",
+      "description": "The claim that demanding the world, yourself, or others \"must\" be a particular way blocks adaptation to reality and fuels emotional disturbance, while flexible preferences preserve energy for creative response.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Rigid Demands Versus Flexible Thinking"
+    },
+    {
+      "concept_id": "ruling-over-yourself",
+      "description": "The Stoic ideal of temperament and self-command tested over a lifetime of duty under constraint — reigning over impulse, opinion, and ego when formal power is limited or privilege is vast.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Ruling Over Yourself"
+    },
+    {
+      "concept_id": "safety-first-as-self-defeating",
+      "description": "The ethical claim that pursuing personal safety above principle is not only cowardly but strategically futile — it forfeits credibility and often fails to secure even the survival it promises.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Safety-First as Self-Defeating"
+    },
+    {
+      "concept_id": "self-examination-as-daily-practice",
+      "description": "The Stoic practice of reviewing one's own conduct at the end of each day — praising what went well, correcting what did not — as a concrete method for turning philosophical conviction into an actual habit.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.018427053296481,
+      "title": "Nightly Self-Examination"
+    },
+    {
+      "concept_id": "selfing",
+      "description": "The ingrained tendency to construct an \"I,\" \"me,\" and \"mine\" out of almost every experience and operate from that limited, mostly fantasy perspective — recognition of which loosens suffering without denying functional personhood.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.001883820078657751,
+      "title": "Selfing"
+    },
+    {
+      "concept_id": "slavery-to-passions",
+      "description": "The Stoic diagnosis that voluntary dependency on pleasure, ambition, or comfort is a deeper slavery than legal bondage — and that self-mastery begins with refusing anything that masters you.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.00908039223519385,
+      "title": "Slavery to Passions and Craving"
+    },
+    {
+      "concept_id": "soul-versus-spirit",
+      "description": "The archetypal distinction between spirit's upward quest for unity and transcendence and soul's downward journey through multiplicity, darkness, and eachness — both needed for a fully developed human life.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 2,
+      "pagerank": 0.027934733226888817,
+      "title": "Soul Versus Spirit"
+    },
+    {
+      "concept_id": "spirit-of-inquiry",
+      "description": "The claim that inquiry is fundamental to living mindfully — asking \"What is this?\" without expecting quick answers, carrying wonder through daily life, with no timetable for acknowledging what we most need to face.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.0024986307311612678,
+      "title": "Spirit of Inquiry"
+    },
+    {
+      "concept_id": "spirituality-as-wholeness",
+      "description": "The claim that spirituality is direct experience of wholeness and interconnectedness — not a separate domain of life but the inner quality brought to whatever you are already doing.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 1,
+      "pagerank": 0.0221937985694964,
+      "title": "Spirituality as Wholeness"
+    },
+    {
+      "concept_id": "stages-of-moral-progress",
+      "description": "The Stoic distinction between the fully wise sage — a near-mythical ideal — and the \"progressor\" who is still working toward wisdom, with a ranked account of how far along the path a person has come.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.003820399297909646,
+      "title": "Stages of Moral Progress"
+    },
+    {
+      "concept_id": "stoic-cardinal-virtues",
+      "description": "The Stoic (and broader classical) division of virtue into wisdom, courage, justice, and self-control, understood as facets of one unified rational excellence rather than four separate traits.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 4,
+      "pagerank": 0.007470562356857858,
+      "title": "The Four Cardinal Virtues"
+    },
+    {
+      "concept_id": "stoic-cosmopolitanism",
+      "description": "The Stoic doctrine that every rational being is first and foremost a citizen of the universe, sharing reason in common with all humanity and the gods, prior to and beyond any local city or nation.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.024810674133667956,
+      "title": "Stoic Cosmopolitanism"
+    },
+    {
+      "concept_id": "stoic-friendship",
+      "description": "Seneca's account of friendship as grounded in shared virtue and natural sociability rather than utility, distinguishing it sharply from the Epicurean view that friendship is ultimately self-interested.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.038300285193966825,
+      "title": "Stoic Friendship"
+    },
+    {
+      "concept_id": "stoic-inner-citadel",
+      "description": "The Stoic image of the mind as a fortress that no external force can actually breach, since it can only be conquered from within by its own bad judgments.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 2,
+      "pagerank": 0.03422260016694183,
+      "title": "The Inner Citadel"
+    },
+    {
+      "concept_id": "stoic-slavery-and-human-dignity",
+      "description": "The unresolved gap in Stoic thought between an ethics that grounds equal moral worth in every person's shared rational nature, and a practical stance that stopped short of demanding the abolition of slavery itself.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.016178908363585185,
+      "title": "The Stoic Tension Over Slavery and Human Dignity"
+    },
+    {
+      "concept_id": "strength-at-broken-places",
+      "description": "The reframe that courage means recovering after being broken — not invulnerability — and that repair, honestly acknowledged, can leave a person stronger at the fracture than before.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Strength at Broken Places"
+    },
+    {
+      "concept_id": "strength-enough-to-be-weak",
+      "description": "The claim that performed invulnerability is often weakness masking fear, while appropriate openness about vulnerability is where genuine strength lies.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Strength Enough to Be Weak"
+    },
+    {
+      "concept_id": "strenuous-life",
+      "description": "The claim that bodily discipline and physical training are not vanity but preparation for virtue — hardening the body so the mind can endure hardship and act when life demands it.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "The Strenuous Life"
+    },
+    {
+      "concept_id": "strict-with-yourself-tolerant-with-others",
+      "description": "The Stoic and classical rule that moral rigor applies inward — holding others to your private standard is unfair, counterproductive, and a form of intemperance disguised as superiority.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.0038053779406223088,
+      "title": "Strict With Yourself, Tolerant With Others"
+    },
+    {
+      "concept_id": "temperance-as-self-mastery",
+      "description": "The cardinal virtue of self-restraint understood as command over oneself — not deprivation — without which freedom, the other virtues, and a stable life collapse into dependency or excess.",
+      "inbound_link_count": 15,
+      "outbound_link_count": 5,
+      "pagerank": 0.016157127084872304,
+      "title": "Temperance as Self-Mastery"
+    },
+    {
+      "concept_id": "tempered-ambition",
+      "description": "The claim that ambition is a necessary driver of purpose but becomes a destructive passion when it cannot be checked — society rewards the fever while ignoring the wreckage it leaves behind.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Tempered Ambition"
+    },
+    {
+      "concept_id": "testing-impressions-before-assent",
+      "description": "The Stoic discipline of pausing to examine an impression before granting it belief, since assent — not the impression itself — is the one fully voluntary act where a mind can go right or wrong.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 3,
+      "pagerank": 0.034236919834165755,
+      "title": "Testing Impressions Before Assent"
+    },
+    {
+      "concept_id": "the-slow-boil-of-moral-compromise",
+      "description": "The mechanism by which reasonable initial compromises harden into complicity when circumstances change — and the test of philosophy as whether conduct eventually matches what one writes about virtue.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "The Slow Boil of Moral Compromise"
+    },
+    {
+      "concept_id": "the-world-tests-your-courage",
+      "description": "The claim that difficulty is not merely misfortune but a continuous question posed to each person — whether they will act with spine or be sorted among cowards — answered only in public deed, not private words.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "The World Tests Your Courage"
+    },
+    {
+      "concept_id": "three-disciplines-of-stoic-practice",
+      "description": "The Stoic framework of perception, action, and will as interdependent disciplines for converting obstacles into fuel — attitude first, ingenuity second, fortitude third.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0014849822526337003,
+      "title": "Three Disciplines of Stoic Practice"
+    },
+    {
+      "concept_id": "three-domains-of-concern",
+      "description": "Byron Katie's partition of all mental business into what is mine, what is yours, and what belongs to God — anything outside everyone's control — as an ethical map for where suffering begins when we live outside our own lane.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Three Domains of Concern"
+    },
+    {
+      "concept_id": "three-topics-of-stoic-training",
+      "description": "Epictetus's structure for practicing philosophy in the right order — first governing desire and aversion, then appropriate action, and only last the fine points of logical assent — because most people neglect the first two for the sake of the third.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 6,
+      "pagerank": 0.0011627906976744188,
+      "title": "The Three Topics of Stoic Training"
+    },
+    {
+      "concept_id": "trust-your-own-experience",
+      "description": "The claim that meditative and philosophical paths deepen when you trust your own direct experience rather than deferring to external authority to anoint it with blessing — especially in the face of insecurity about doing it right.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0021080727031629774,
+      "title": "Trust Your Own Experience"
+    },
+    {
+      "concept_id": "two-handles-of-events",
+      "description": "Epictetus's image for deliberately choosing which aspect of a difficult situation to take hold of — the aspect that can be carried, not the one that can't.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.014059871245351097,
+      "title": "Every Event Has Two Handles"
+    },
+    {
+      "concept_id": "unchanged-by-success",
+      "description": "The discipline of refusing to let power, position, or changed fortune inflate ego or buy exemption from the rules — when external checks fall away, self-mastery becomes the only remaining constraint.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Unchanged by Success"
+    },
+    {
+      "concept_id": "unconditional-versus-conditional-love",
+      "description": "The distinction between love that depends on a reason (\"I love you because...\") and is therefore vulnerable to that reason changing, and love without a precondition, which cannot generate the disappointment that conditional attachment can.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011627906976744188,
+      "title": "Unconditional Versus Conditional Love"
+    },
+    {
+      "concept_id": "unity-over-self",
+      "description": "The Stoic and practical claim that focusing on a cause larger than oneself — especially service to others under shared hardship — diminishes fear, self-pity, and the urge to quit when personal troubles feel overwhelming.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0016569767441860467,
+      "title": "Unity Over Self"
+    },
+    {
+      "concept_id": "view-from-above",
+      "description": "A perspective-taking exercise, used by Marcus Aurelius and Seneca, of mentally rising above one's immediate circumstances to see them at the scale of the whole cosmos or of history, so as to shrink their apparent size and urgency.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.014310957762786182,
+      "title": "The View from Above"
+    },
+    {
+      "concept_id": "virtue-as-the-sole-good",
+      "description": "The core Stoic thesis that virtue alone is good, is sufficient by itself for a happy life, and cannot be increased or diminished by circumstance.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 3,
+      "pagerank": 0.023390969620294896,
+      "title": "Virtue as the Sole Good"
+    },
+    {
+      "concept_id": "virtue-under-public-power",
+      "description": "The Stoic ideal of self-mastery tested not in withdrawal but in public office — where temptation, flattery, and absolute power make temperance hardest and most consequential.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 3,
+      "pagerank": 0.009041986959552386,
+      "title": "Virtue Exercised Under Public Power"
+    },
+    {
+      "concept_id": "voluntary-discomfort-as-inoculation",
+      "description": "The Stoic practice of deliberately seeking hardship in times of plenty so that fortune's reversals find a person already tested — not afraid of loss, change, or the conditions most people dread.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.003909502302102757,
+      "title": "Voluntary Discomfort as Inoculation"
+    },
+    {
+      "concept_id": "voluntary-poverty-as-training",
+      "description": "Seneca's practice of periodically living on minimal food and rough clothing by choice, to test whether one's ease with wealth is real or merely untested, and to inoculate against the fear of poverty.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.003923552219022399,
+      "title": "Voluntary Poverty as Training"
+    },
+    {
+      "concept_id": "voluntary-relinquishment-of-power",
+      "description": "The classical and Stoic ideal that true temperance and greatness show in willingly surrendering or sharing power one could keep — because appetite and ego, not office, are what corrupt.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0016569767441860467,
+      "title": "Voluntary Relinquishment of Power"
+    },
+    {
+      "concept_id": "voluntary-simplicity",
+      "description": "The intentional choice to do less, acquire less, and go fewer places so you can be more present — countering the impulse to fill time and miss nourishment at a deep level.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011627906976744188,
+      "title": "Voluntary Simplicity"
+    },
+    {
+      "concept_id": "what-is-my-way",
+      "description": "The sustained inquiry into one's Way with a capital W — who am I, where am I going, what do I truly love — without seeking fixed answers, resting in not-knowing until the question winds up doing you rather than you doing it.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 5,
+      "pagerank": 0.003546197071065197,
+      "title": "What Is My Way"
+    },
+    {
+      "concept_id": "wholeness-and-eachness",
+      "description": "The claim that direct experience of oneness does not flatten difference — wholeness and the unique suchness of each particular are interwoven, and the particulars count.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.015686872742650855,
+      "title": "Wholeness and Eachness"
+    },
+    {
+      "concept_id": "world-as-self-projection",
+      "description": "The claim that inner and outer always match — that we perceive the world through uninvestigated stories and see ourselves in what we call reality, not a neutral given independent of the mind that interprets it.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.011164655499213614,
+      "title": "World as Self-Projection"
+    },
+    {
+      "concept_id": "you-cannot-escape-yourself",
+      "description": "The claim that changing jobs, places, or relationships cannot outrun your own patterns of seeing and behaving — transformation requires facing the present situation, not romantic escape elsewhere.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.0035540786641022806,
+      "title": "You Cannot Escape Yourself"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "accepting-unfairness-and-uncertainty",
+      "target": "fate-thinking-versus-probabilistic-thinking.md",
+      "target_concept_id": "fate-thinking-versus-probabilistic-thinking",
+      "text": "fate thinking versus probabilistic thinking"
+    },
+    {
+      "source_concept_id": "accepting-unfairness-and-uncertainty",
+      "target": "karma-as-accumulated-tendency.md",
+      "target_concept_id": "karma-as-accumulated-tendency",
+      "text": "karma as accumulatedtendency"
+    },
+    {
+      "source_concept_id": "admitting-you-do-not-know",
+      "target": "eclectic-approach-to-wisdom.md",
+      "target_concept_id": "eclectic-approach-to-wisdom",
+      "text": "an eclectic approach to wisdom"
+    },
+    {
+      "source_concept_id": "admitting-you-do-not-know",
+      "target": "meditation-as-way-of-being.md",
+      "target_concept_id": "meditation-as-way-of-being",
+      "text": "meditation as a way ofbeing"
+    },
+    {
+      "source_concept_id": "admitting-you-do-not-know",
+      "target": "soul-versus-spirit.md",
+      "target_concept_id": "soul-versus-spirit",
+      "text": "soul versus spirit"
+    },
+    {
+      "source_concept_id": "admitting-you-do-not-know",
+      "target": "what-is-my-way.md",
+      "target_concept_id": "what-is-my-way",
+      "text": "what is my way"
+    },
+    {
+      "source_concept_id": "adversity-as-training-ground",
+      "target": "preferred-indifferents.md",
+      "target_concept_id": "preferred-indifferents",
+      "text": "merely preferred or dispreferred, not good or bad in themselves"
+    },
+    {
+      "source_concept_id": "adversity-as-training-ground",
+      "target": "premeditation-of-adversity.md",
+      "target_concept_id": "premeditation-of-adversity",
+      "text": "premeditating adversity"
+    },
+    {
+      "source_concept_id": "adversity-as-training-ground",
+      "target": "stoic-inner-citadel.md",
+      "target_concept_id": "stoic-inner-citadel",
+      "text": "inner citadel"
+    },
+    {
+      "source_concept_id": "adversity-as-training-ground",
+      "target": "two-handles-of-events.md",
+      "target_concept_id": "two-handles-of-events",
+      "text": "choosing the workable \"handle\" of an event"
+    },
+    {
+      "source_concept_id": "adversity-as-training-ground",
+      "target": "virtue-as-the-sole-good.md",
+      "target_concept_id": "virtue-as-the-sole-good",
+      "text": "virtue is the sole good"
+    },
+    {
+      "source_concept_id": "agency-as-effective-truth",
+      "target": "courage-against-despair.md",
+      "target_concept_id": "courage-against-despair",
+      "text": "courage against despair andnihilism"
+    },
+    {
+      "source_concept_id": "agency-as-effective-truth",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "dichotomy of control"
+    },
+    {
+      "source_concept_id": "agency-as-effective-truth",
+      "target": "making-your-own-luck.md",
+      "target_concept_id": "making-your-own-luck",
+      "text": "making your own luck"
+    },
+    {
+      "source_concept_id": "ahimsa-non-harming",
+      "target": "courage-for-neighbors.md",
+      "target_concept_id": "courage-for-neighbors",
+      "text": "courage forneighbors"
+    },
+    {
+      "source_concept_id": "ahimsa-non-harming",
+      "target": "nonviolent-restraint-under-assault.md",
+      "target_concept_id": "nonviolent-restraint-under-assault",
+      "text": "nonviolent restraint under assault"
+    },
+    {
+      "source_concept_id": "ahimsa-non-harming",
+      "target": "pain-versus-suffering.md",
+      "target_concept_id": "pain-versus-suffering",
+      "text": "mindfulness of clinging andrejecting"
+    },
+    {
+      "source_concept_id": "amor-fati",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "adversity itself can be treated as training ground"
+    },
+    {
+      "source_concept_id": "amor-fati",
+      "target": "everything-is-on-loan.md",
+      "target_concept_id": "everything-is-on-loan",
+      "text": "loss is reframed as returning something that was only ever on loan"
+    },
+    {
+      "source_concept_id": "amor-fati",
+      "target": "premeditation-of-adversity.md",
+      "target_concept_id": "premeditation-of-adversity",
+      "text": "premeditating adversity"
+    },
+    {
+      "source_concept_id": "arguing-with-reality-causes-suffering",
+      "target": "art-of-acquiescence.md",
+      "target_concept_id": "art-of-acquiescence",
+      "text": "the art ofacquiescence"
+    },
+    {
+      "source_concept_id": "arguing-with-reality-causes-suffering",
+      "target": "fear-of-death-as-identity-fear.md",
+      "target_concept_id": "fear-of-death-as-identity-fear",
+      "text": "fear of death as identityfear"
+    },
+    {
+      "source_concept_id": "arguing-with-reality-causes-suffering",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "it is judgments, not events, that disturbus"
+    },
+    {
+      "source_concept_id": "art-of-acquiescence",
+      "target": "amor-fati.md",
+      "target_concept_id": "amor-fati",
+      "text": "willing acceptanceof fate"
+    },
+    {
+      "source_concept_id": "art-of-acquiescence",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "dichotomy of control"
+    },
+    {
+      "source_concept_id": "art-of-acquiescence",
+      "target": "discipline-of-the-will.md",
+      "target_concept_id": "discipline-of-the-will",
+      "text": "disciplineof the will"
+    },
+    {
+      "source_concept_id": "asking-for-help-as-courage",
+      "target": "stoic-cardinal-virtues.md",
+      "target_concept_id": "stoic-cardinal-virtues",
+      "text": "stoic cardinal virtues"
+    },
+    {
+      "source_concept_id": "asking-for-help-as-courage",
+      "target": "unity-over-self.md",
+      "target_concept_id": "unity-over-self",
+      "text": "unity overself"
+    },
+    {
+      "source_concept_id": "awareness-beyond-thinking",
+      "target": "habitual-automaticity.md",
+      "target_concept_id": "habitual-automaticity",
+      "text": "habitualautomaticity"
+    },
+    {
+      "source_concept_id": "awareness-beyond-thinking",
+      "target": "ordinary-consciousness-as-sleep.md",
+      "target_concept_id": "ordinary-consciousness-as-sleep",
+      "text": "ordinary consciousness as sleep"
+    },
+    {
+      "source_concept_id": "awareness-beyond-thinking",
+      "target": "positive-thinking-is-not-meditation.md",
+      "target_concept_id": "positive-thinking-is-not-meditation",
+      "text": "positive thinking is notmeditation"
+    },
+    {
+      "source_concept_id": "buddha-as-awakened-one",
+      "target": "courage-to-be-yourself.md",
+      "target_concept_id": "courage-to-be-yourself",
+      "text": "courage to be yourself"
+    },
+    {
+      "source_concept_id": "buddha-as-awakened-one",
+      "target": "eclectic-approach-to-wisdom.md",
+      "target_concept_id": "eclectic-approach-to-wisdom",
+      "text": "an eclectic approach to wisdom"
+    },
+    {
+      "source_concept_id": "buddha-as-awakened-one",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistently with yourvalues"
+    },
+    {
+      "source_concept_id": "buddha-as-awakened-one",
+      "target": "soul-versus-spirit.md",
+      "target_concept_id": "soul-versus-spirit",
+      "text": "Soul versus spirit"
+    },
+    {
+      "source_concept_id": "buddha-as-awakened-one",
+      "target": "trust-your-own-experience.md",
+      "target_concept_id": "trust-your-own-experience",
+      "text": "trust your own experience"
+    },
+    {
+      "source_concept_id": "choosing-which-ancestral-tradition-to-follow",
+      "target": "making-your-own-luck.md",
+      "target_concept_id": "making-your-own-luck",
+      "text": "making your ownluck"
+    },
+    {
+      "source_concept_id": "concentration-without-mindfulness-incomplete",
+      "target": "everyday-life-as-the-path.md",
+      "target_concept_id": "everyday-life-as-the-path",
+      "text": "everyday life as the path"
+    },
+    {
+      "source_concept_id": "concentration-without-mindfulness-incomplete",
+      "target": "interconnectedness.md",
+      "target_concept_id": "interconnectedness",
+      "text": "interconnectedness"
+    },
+    {
+      "source_concept_id": "concentration-without-mindfulness-incomplete",
+      "target": "spirit-of-inquiry.md",
+      "target_concept_id": "spirit-of-inquiry",
+      "text": "spirit ofinquiry"
+    },
+    {
+      "source_concept_id": "consolation-for-grief",
+      "target": "everything-is-on-loan.md",
+      "target_concept_id": "everything-is-on-loan",
+      "text": "everything we hold being only ever on loan"
+    },
+    {
+      "source_concept_id": "courage-against-despair",
+      "target": "agency-as-effective-truth.md",
+      "target_concept_id": "agency-as-effective-truth",
+      "text": "agency aseffective truth"
+    },
+    {
+      "source_concept_id": "courage-against-despair",
+      "target": "stoic-cardinal-virtues.md",
+      "target_concept_id": "stoic-cardinal-virtues",
+      "text": "courage as the form of every virtueat the testing point"
+    },
+    {
+      "source_concept_id": "courage-as-gateway-to-every-good",
+      "target": "courage-against-despair.md",
+      "target_concept_id": "courage-against-despair",
+      "text": "courage against despair andnihilism"
+    },
+    {
+      "source_concept_id": "courage-as-gateway-to-every-good",
+      "target": "involuntary-scare-versus-chosen-fear.md",
+      "target_concept_id": "involuntary-scare-versus-chosen-fear",
+      "text": "involuntary scare versus chosenfear"
+    },
+    {
+      "source_concept_id": "courage-as-gateway-to-every-good",
+      "target": "stoic-cardinal-virtues.md",
+      "target_concept_id": "stoic-cardinal-virtues",
+      "text": "stoic cardinal virtues"
+    },
+    {
+      "source_concept_id": "courage-as-habit",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistentlywith your values"
+    },
+    {
+      "source_concept_id": "courage-as-habit",
+      "target": "stoic-cardinal-virtues.md",
+      "target_concept_id": "stoic-cardinal-virtues",
+      "text": "stoic cardinal virtues"
+    },
+    {
+      "source_concept_id": "courage-for-neighbors",
+      "target": "focus-scrutiny-on-your-own-courage.md",
+      "target_concept_id": "focus-scrutiny-on-your-own-courage",
+      "text": "focus scrutiny on your own courage"
+    },
+    {
+      "source_concept_id": "courage-for-neighbors",
+      "target": "making-others-better-by-example.md",
+      "target_concept_id": "making-others-better-by-example",
+      "text": "making others better by example"
+    },
+    {
+      "source_concept_id": "courage-for-neighbors",
+      "target": "megalopsychia-greatness-of-soul.md",
+      "target_concept_id": "megalopsychia-greatness-of-soul",
+      "text": "megalopsychia (greatness of soul)"
+    },
+    {
+      "source_concept_id": "courage-of-prevention",
+      "target": "courage-requires-a-worthy-cause.md",
+      "target_concept_id": "courage-requires-a-worthy-cause",
+      "text": "courage requires aworthy cause"
+    },
+    {
+      "source_concept_id": "courage-of-prevention",
+      "target": "nonviolent-restraint-under-assault.md",
+      "target_concept_id": "nonviolent-restraint-under-assault",
+      "text": "nonviolent restraint underassault"
+    },
+    {
+      "source_concept_id": "courage-requires-a-worthy-cause",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistentlywith your values"
+    },
+    {
+      "source_concept_id": "courage-requires-a-worthy-cause",
+      "target": "megalopsychia-greatness-of-soul.md",
+      "target_concept_id": "megalopsychia-greatness-of-soul",
+      "text": "megalopsychia (greatness of soul)"
+    },
+    {
+      "source_concept_id": "courage-requires-a-worthy-cause",
+      "target": "principles-worth-the-cost.md",
+      "target_concept_id": "principles-worth-the-cost",
+      "text": "principles worth the cost"
+    },
+    {
+      "source_concept_id": "courage-requires-a-worthy-cause",
+      "target": "stoic-cardinal-virtues.md",
+      "target_concept_id": "stoic-cardinal-virtues",
+      "text": "courage as the form of every virtue at thetesting point"
+    },
+    {
+      "source_concept_id": "courage-to-be-seen",
+      "target": "courage-to-be-yourself.md",
+      "target_concept_id": "courage-to-be-yourself",
+      "text": "courage to be yourself"
+    },
+    {
+      "source_concept_id": "courage-to-be-seen",
+      "target": "parrhesia-speaking-truth-to-power.md",
+      "target_concept_id": "parrhesia-speaking-truth-to-power",
+      "text": "parrhesia speaking truth to power"
+    },
+    {
+      "source_concept_id": "courage-to-be-yourself",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistently with your values"
+    },
+    {
+      "source_concept_id": "courage-to-be-yourself",
+      "target": "parrhesia-speaking-truth-to-power.md",
+      "target_concept_id": "parrhesia-speaking-truth-to-power",
+      "text": "parrhesia (speakingtruth to power)"
+    },
+    {
+      "source_concept_id": "courage-to-leave",
+      "target": "courage-to-be-yourself.md",
+      "target_concept_id": "courage-to-be-yourself",
+      "text": "courage to be yourself"
+    },
+    {
+      "source_concept_id": "courage-to-leave",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "dichotomy of control"
+    },
+    {
+      "source_concept_id": "death-is-not-to-be-feared",
+      "target": "consolation-for-grief.md",
+      "target_concept_id": "consolation-for-grief",
+      "text": "the Stoic approach to consoling grief"
+    },
+    {
+      "source_concept_id": "death-is-not-to-be-feared",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "judgments,not events, are what disturb us"
+    },
+    {
+      "source_concept_id": "death-is-not-to-be-feared",
+      "target": "memento-mori.md",
+      "target_concept_id": "memento-mori",
+      "text": "keeping death in daily view"
+    },
+    {
+      "source_concept_id": "defiance-under-coercion",
+      "target": "parrhesia-speaking-truth-to-power.md",
+      "target_concept_id": "parrhesia-speaking-truth-to-power",
+      "text": "parrhesia(speaking truth to power)"
+    },
+    {
+      "source_concept_id": "defiance-under-coercion",
+      "target": "refusal-to-surrender.md",
+      "target_concept_id": "refusal-to-surrender",
+      "text": "refusal to surrender"
+    },
+    {
+      "source_concept_id": "defiance-under-coercion",
+      "target": "stoic-inner-citadel.md",
+      "target_concept_id": "stoic-inner-citadel",
+      "text": "power of choice"
+    },
+    {
+      "source_concept_id": "design-versus-randomness-and-meaning",
+      "target": "amor-fati.md",
+      "target_concept_id": "amor-fati",
+      "text": "willingly agreeing with a rationally-ordered cosmos"
+    },
+    {
+      "source_concept_id": "dichotomy-of-control",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "judgments, not events, are what disturb us"
+    },
+    {
+      "source_concept_id": "dichotomy-of-control",
+      "target": "preferred-indifferents.md",
+      "target_concept_id": "preferred-indifferents",
+      "text": "preferred indifferents"
+    },
+    {
+      "source_concept_id": "dichotomy-of-control",
+      "target": "stoic-inner-citadel.md",
+      "target_concept_id": "stoic-inner-citadel",
+      "text": "power of choice"
+    },
+    {
+      "source_concept_id": "dichotomy-of-control",
+      "target": "testing-impressions-before-assent.md",
+      "target_concept_id": "testing-impressions-before-assent",
+      "text": "the discipline of testing impressions before assent"
+    },
+    {
+      "source_concept_id": "discipline-of-perception",
+      "target": "involuntary-scare-versus-chosen-fear.md",
+      "target_concept_id": "involuntary-scare-versus-chosen-fear",
+      "text": "involuntary scareversus chosen fear"
+    },
+    {
+      "source_concept_id": "discipline-of-perception",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "judgments, not events, disturbing us"
+    },
+    {
+      "source_concept_id": "discipline-of-perception",
+      "target": "testing-impressions-before-assent.md",
+      "target_concept_id": "testing-impressions-before-assent",
+      "text": "testing impressions before assent"
+    },
+    {
+      "source_concept_id": "discipline-of-perception",
+      "target": "three-disciplines-of-stoic-practice.md",
+      "target_concept_id": "three-disciplines-of-stoic-practice",
+      "text": "three disciplines of Stoic practice"
+    },
+    {
+      "source_concept_id": "discipline-of-perception",
+      "target": "view-from-above.md",
+      "target_concept_id": "view-from-above",
+      "text": "view from above"
+    },
+    {
+      "source_concept_id": "discipline-of-the-will",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "adversity as training ground"
+    },
+    {
+      "source_concept_id": "discipline-of-the-will",
+      "target": "amor-fati.md",
+      "target_concept_id": "amor-fati",
+      "text": "willing acceptance of fate"
+    },
+    {
+      "source_concept_id": "discipline-of-the-will",
+      "target": "art-of-acquiescence.md",
+      "target_concept_id": "art-of-acquiescence",
+      "text": "art of acquiescence"
+    },
+    {
+      "source_concept_id": "discipline-of-the-will",
+      "target": "memento-mori.md",
+      "target_concept_id": "memento-mori",
+      "text": "remembermortality"
+    },
+    {
+      "source_concept_id": "eclectic-approach-to-wisdom",
+      "target": "philosophy-as-therapy-not-theory.md",
+      "target_concept_id": "philosophy-as-therapy-not-theory",
+      "text": "philosophy is judged by whether it actually improves how a person lives"
+    },
+    {
+      "source_concept_id": "everyday-life-as-the-path",
+      "target": "job-on-the-planet.md",
+      "target_concept_id": "job-on-the-planet",
+      "text": "job on theplanet"
+    },
+    {
+      "source_concept_id": "everyday-life-as-the-path",
+      "target": "meditation-as-way-of-being.md",
+      "target_concept_id": "meditation-as-way-of-being",
+      "text": "meditation as a way of being"
+    },
+    {
+      "source_concept_id": "everyday-life-as-the-path",
+      "target": "non-doing-and-wu-wei.md",
+      "target_concept_id": "non-doing-and-wu-wei",
+      "text": "Non-doing and wu wei"
+    },
+    {
+      "source_concept_id": "everyday-life-as-the-path",
+      "target": "present-moment-intimacy.md",
+      "target_concept_id": "present-moment-intimacy",
+      "text": "present-moment intimacy"
+    },
+    {
+      "source_concept_id": "everyday-life-as-the-path",
+      "target": "soul-versus-spirit.md",
+      "target_concept_id": "soul-versus-spirit",
+      "text": "soul versus spirit"
+    },
+    {
+      "source_concept_id": "everyday-life-as-the-path",
+      "target": "spirituality-as-wholeness.md",
+      "target_concept_id": "spirituality-as-wholeness",
+      "text": "spirituality as wholeness"
+    },
+    {
+      "source_concept_id": "everything-is-on-loan",
+      "target": "consolation-for-grief.md",
+      "target_concept_id": "consolation-for-grief",
+      "text": "the Stoic approach to grief"
+    },
+    {
+      "source_concept_id": "everything-is-on-loan",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "dichotomy of control"
+    },
+    {
+      "source_concept_id": "everything-is-on-loan",
+      "target": "preferred-indifferents.md",
+      "target_concept_id": "preferred-indifferents",
+      "text": "preferred indifferents"
+    },
+    {
+      "source_concept_id": "experiencing-self-versus-remembering-self",
+      "target": "virtue-as-the-sole-good.md",
+      "target_concept_id": "virtue-as-the-sole-good",
+      "text": "what makes a life worthliving"
+    },
+    {
+      "source_concept_id": "extirpation-of-the-passions",
+      "target": "joy-vs-pleasure.md",
+      "target_concept_id": "joy-vs-pleasure",
+      "text": "joy as opposed to pleasure"
+    },
+    {
+      "source_concept_id": "extirpation-of-the-passions",
+      "target": "preferred-indifferents.md",
+      "target_concept_id": "preferred-indifferents",
+      "text": "indifferent"
+    },
+    {
+      "source_concept_id": "extirpation-of-the-passions",
+      "target": "stages-of-moral-progress.md",
+      "target_concept_id": "stages-of-moral-progress",
+      "text": "stages of moral progress"
+    },
+    {
+      "source_concept_id": "extirpation-of-the-passions",
+      "target": "virtue-as-the-sole-good.md",
+      "target_concept_id": "virtue-as-the-sole-good",
+      "text": "virtue is the sole good"
+    },
+    {
+      "source_concept_id": "fate-thinking-versus-probabilistic-thinking",
+      "target": "accepting-unfairness-and-uncertainty.md",
+      "target_concept_id": "accepting-unfairness-and-uncertainty",
+      "text": "accepting unfairness and uncertainty"
+    },
+    {
+      "source_concept_id": "fate-thinking-versus-probabilistic-thinking",
+      "target": "design-versus-randomness-and-meaning.md",
+      "target_concept_id": "design-versus-randomness-and-meaning",
+      "text": "design versus randomness and meaning"
+    },
+    {
+      "source_concept_id": "fear-as-signal-of-what-matters",
+      "target": "courage-against-despair.md",
+      "target_concept_id": "courage-against-despair",
+      "text": "courage against despair and nihilism"
+    },
+    {
+      "source_concept_id": "fear-as-signal-of-what-matters",
+      "target": "involuntary-scare-versus-chosen-fear.md",
+      "target_concept_id": "involuntary-scare-versus-chosen-fear",
+      "text": "involuntary scare versus chosenfear"
+    },
+    {
+      "source_concept_id": "fear-as-signal-of-what-matters",
+      "target": "refusal-of-the-call.md",
+      "target_concept_id": "refusal-of-the-call",
+      "text": "refusal of thecall"
+    },
+    {
+      "source_concept_id": "fear-of-death-as-identity-fear",
+      "target": "arguing-with-reality-causes-suffering.md",
+      "target_concept_id": "arguing-with-reality-causes-suffering",
+      "text": "arguing with reality causessuffering"
+    },
+    {
+      "source_concept_id": "fear-of-death-as-identity-fear",
+      "target": "death-is-not-to-be-feared.md",
+      "target_concept_id": "death-is-not-to-be-feared",
+      "text": "death is not to befeared"
+    },
+    {
+      "source_concept_id": "fear-of-death-as-identity-fear",
+      "target": "impermanence-of-self-and-non-attachment.md",
+      "target_concept_id": "impermanence-of-self-and-non-attachment",
+      "text": "impermanence of self andnon-attachment"
+    },
+    {
+      "source_concept_id": "focus-scrutiny-on-your-own-courage",
+      "target": "involuntary-scare-versus-chosen-fear.md",
+      "target_concept_id": "involuntary-scare-versus-chosen-fear",
+      "text": "involuntary scare versus chosen fear"
+    },
+    {
+      "source_concept_id": "focus-scrutiny-on-your-own-courage",
+      "target": "strict-with-yourself-tolerant-with-others.md",
+      "target_concept_id": "strict-with-yourself-tolerant-with-others",
+      "text": "strict with yourself, tolerant withothers"
+    },
+    {
+      "source_concept_id": "forgiveness-as-seeing-the-story-did-not-happen",
+      "target": "arguing-with-reality-causes-suffering.md",
+      "target_concept_id": "arguing-with-reality-causes-suffering",
+      "text": "arguing with reality causessuffering"
+    },
+    {
+      "source_concept_id": "forgiveness-as-seeing-the-story-did-not-happen",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistently with yourvalues"
+    },
+    {
+      "source_concept_id": "forgiveness-as-seeing-the-story-did-not-happen",
+      "target": "no-one-errs-willingly.md",
+      "target_concept_id": "no-one-errs-willingly",
+      "text": "no one errswillingly"
+    },
+    {
+      "source_concept_id": "freedom-through-frugality",
+      "target": "preferred-indifferents.md",
+      "target_concept_id": "preferred-indifferents",
+      "text": "preferred indifferent"
+    },
+    {
+      "source_concept_id": "freedom-through-frugality",
+      "target": "slavery-to-passions.md",
+      "target_concept_id": "slavery-to-passions",
+      "text": "slavery to craving"
+    },
+    {
+      "source_concept_id": "freedom-through-frugality",
+      "target": "voluntary-poverty-as-training.md",
+      "target_concept_id": "voluntary-poverty-as-training",
+      "text": "voluntary poverty as training"
+    },
+    {
+      "source_concept_id": "grace-under-pressure",
+      "target": "making-others-better-by-example.md",
+      "target_concept_id": "making-others-better-by-example",
+      "text": "making others better by example"
+    },
+    {
+      "source_concept_id": "grace-under-pressure",
+      "target": "stoic-inner-citadel.md",
+      "target_concept_id": "stoic-inner-citadel",
+      "text": "inner citadel"
+    },
+    {
+      "source_concept_id": "grace-under-pressure",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "grace-under-pressure",
+      "target": "virtue-under-public-power.md",
+      "target_concept_id": "virtue-under-public-power",
+      "text": "virtue exercised under public power"
+    },
+    {
+      "source_concept_id": "habitual-automaticity",
+      "target": "awareness-beyond-thinking.md",
+      "target_concept_id": "awareness-beyond-thinking",
+      "text": "awareness beyond thinking"
+    },
+    {
+      "source_concept_id": "habitual-automaticity",
+      "target": "mindfulness-as-art-of-living.md",
+      "target_concept_id": "mindfulness-as-art-of-living",
+      "text": "mindfulness as the art of living"
+    },
+    {
+      "source_concept_id": "habitual-automaticity",
+      "target": "ordinary-consciousness-as-sleep.md",
+      "target_concept_id": "ordinary-consciousness-as-sleep",
+      "text": "ordinary consciousness assleep"
+    },
+    {
+      "source_concept_id": "happiness-through-self-knowledge",
+      "target": "soul-versus-spirit.md",
+      "target_concept_id": "soul-versus-spirit",
+      "text": "soulversus spirit"
+    },
+    {
+      "source_concept_id": "happiness-through-self-knowledge",
+      "target": "spirituality-as-wholeness.md",
+      "target_concept_id": "spirituality-as-wholeness",
+      "text": "spirituality as wholeness"
+    },
+    {
+      "source_concept_id": "ignoring-provocation",
+      "target": "strict-with-yourself-tolerant-with-others.md",
+      "target_concept_id": "strict-with-yourself-tolerant-with-others",
+      "text": "strict with yourself, tolerant withothers"
+    },
+    {
+      "source_concept_id": "ignoring-provocation",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "impermanence-of-self-and-non-attachment",
+      "target": "everything-is-on-loan.md",
+      "target_concept_id": "everything-is-on-loan",
+      "text": "everything we hold is only ever on loan"
+    },
+    {
+      "source_concept_id": "indecision-as-surrendering-agency",
+      "target": "agency-as-effective-truth.md",
+      "target_concept_id": "agency-as-effective-truth",
+      "text": "agency as effective truth"
+    },
+    {
+      "source_concept_id": "indecision-as-surrendering-agency",
+      "target": "courage-as-habit.md",
+      "target_concept_id": "courage-as-habit",
+      "text": "courage ashabit"
+    },
+    {
+      "source_concept_id": "indecision-as-surrendering-agency",
+      "target": "refusal-of-the-call.md",
+      "target_concept_id": "refusal-of-the-call",
+      "text": "refusal of the call"
+    },
+    {
+      "source_concept_id": "interconnectedness",
+      "target": "karma-as-accumulated-tendency.md",
+      "target_concept_id": "karma-as-accumulated-tendency",
+      "text": "karma asaccumulated tendency"
+    },
+    {
+      "source_concept_id": "interconnectedness",
+      "target": "spirituality-as-wholeness.md",
+      "target_concept_id": "spirituality-as-wholeness",
+      "text": "spirituality aswholeness"
+    },
+    {
+      "source_concept_id": "interconnectedness",
+      "target": "wholeness-and-eachness.md",
+      "target_concept_id": "wholeness-and-eachness",
+      "text": "wholeness andeachness"
+    },
+    {
+      "source_concept_id": "involuntary-scare-versus-chosen-fear",
+      "target": "testing-impressions-before-assent.md",
+      "target_concept_id": "testing-impressions-before-assent",
+      "text": "testing impressions before assent"
+    },
+    {
+      "source_concept_id": "involuntary-scare-versus-chosen-fear",
+      "target": "testing-impressions-before-assent.md",
+      "target_concept_id": "testing-impressions-before-assent",
+      "text": "tests the impression before assent"
+    },
+    {
+      "source_concept_id": "job-on-the-planet",
+      "target": "interconnectedness.md",
+      "target_concept_id": "interconnectedness",
+      "text": "interconnectedness"
+    },
+    {
+      "source_concept_id": "job-on-the-planet",
+      "target": "mount-analogue.md",
+      "target_concept_id": "mount-analogue",
+      "text": "mount analogue"
+    },
+    {
+      "source_concept_id": "joy-vs-pleasure",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "choice"
+    },
+    {
+      "source_concept_id": "joy-vs-pleasure",
+      "target": "preferred-indifferents.md",
+      "target_concept_id": "preferred-indifferents",
+      "text": "preferred indifferents"
+    },
+    {
+      "source_concept_id": "joy-vs-pleasure",
+      "target": "virtue-as-the-sole-good.md",
+      "target_concept_id": "virtue-as-the-sole-good",
+      "text": "virtue is the sole good"
+    },
+    {
+      "source_concept_id": "judgments-not-events-disturb-us",
+      "target": "arguing-with-reality-causes-suffering.md",
+      "target_concept_id": "arguing-with-reality-causes-suffering",
+      "text": "arguing with reality causessuffering"
+    },
+    {
+      "source_concept_id": "judgments-not-events-disturb-us",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "what is up to us"
+    },
+    {
+      "source_concept_id": "judgments-not-events-disturb-us",
+      "target": "testing-impressions-before-assent.md",
+      "target_concept_id": "testing-impressions-before-assent",
+      "text": "the discipline of testing impressions before assent"
+    },
+    {
+      "source_concept_id": "judgments-not-events-disturb-us",
+      "target": "two-handles-of-events.md",
+      "target_concept_id": "two-handles-of-events",
+      "text": "which \"handle\" to pick an event up by"
+    },
+    {
+      "source_concept_id": "judgments-not-events-disturb-us",
+      "target": "view-from-above.md",
+      "target_concept_id": "view-from-above",
+      "text": "stepping back to view the event from a larger vantage point"
+    },
+    {
+      "source_concept_id": "judgments-not-events-disturb-us",
+      "target": "world-as-self-projection.md",
+      "target_concept_id": "world-as-self-projection",
+      "text": "world as self-projection"
+    },
+    {
+      "source_concept_id": "karma-as-accumulated-tendency",
+      "target": "impermanence-of-self-and-non-attachment.md",
+      "target_concept_id": "impermanence-of-self-and-non-attachment",
+      "text": "impermanence of self andnon-attachment"
+    },
+    {
+      "source_concept_id": "karma-as-accumulated-tendency",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "livingconsistently with your values"
+    },
+    {
+      "source_concept_id": "keep-identity-small",
+      "target": "impermanence-of-self-and-non-attachment.md",
+      "target_concept_id": "impermanence-of-self-and-non-attachment",
+      "text": "everything is impermanent"
+    },
+    {
+      "source_concept_id": "keep-identity-small",
+      "target": "selfing.md",
+      "target_concept_id": "selfing",
+      "text": "selfing"
+    },
+    {
+      "source_concept_id": "kindness-as-fundamental-orientation",
+      "target": "ahimsa-non-harming.md",
+      "target_concept_id": "ahimsa-non-harming",
+      "text": "ahimsa (non-harming)"
+    },
+    {
+      "source_concept_id": "kindness-as-fundamental-orientation",
+      "target": "interconnectedness.md",
+      "target_concept_id": "interconnectedness",
+      "text": "interconnectedness"
+    },
+    {
+      "source_concept_id": "kindness-as-fundamental-orientation",
+      "target": "mindfulness-as-art-of-living.md",
+      "target_concept_id": "mindfulness-as-art-of-living",
+      "text": "mindfulness as the art ofliving"
+    },
+    {
+      "source_concept_id": "leadership-through-sacrifice",
+      "target": "grace-under-pressure.md",
+      "target_concept_id": "grace-under-pressure",
+      "text": "grace underpressure"
+    },
+    {
+      "source_concept_id": "leadership-through-sacrifice",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "leadership-through-sacrifice",
+      "target": "virtue-under-public-power.md",
+      "target_concept_id": "virtue-under-public-power",
+      "text": "virtue exercised under public power"
+    },
+    {
+      "source_concept_id": "letting-go-as-ethical-stance",
+      "target": "ahimsa-non-harming.md",
+      "target_concept_id": "ahimsa-non-harming",
+      "text": "ahimsa (non-harming)"
+    },
+    {
+      "source_concept_id": "letting-go-as-ethical-stance",
+      "target": "impermanence-of-self-and-non-attachment.md",
+      "target_concept_id": "impermanence-of-self-and-non-attachment",
+      "text": "impermanence of self and non-attachment"
+    },
+    {
+      "source_concept_id": "letting-go-as-ethical-stance",
+      "target": "patience-as-discipline.md",
+      "target_concept_id": "patience-as-discipline",
+      "text": "patience asdiscipline"
+    },
+    {
+      "source_concept_id": "living-according-to-nature",
+      "target": "amor-fati.md",
+      "target_concept_id": "amor-fati",
+      "text": "willing acceptance of fate"
+    },
+    {
+      "source_concept_id": "living-according-to-nature",
+      "target": "stoic-cosmopolitanism.md",
+      "target_concept_id": "stoic-cosmopolitanism",
+      "text": "Stoic cosmopolitanism"
+    },
+    {
+      "source_concept_id": "living-according-to-nature",
+      "target": "virtue-as-the-sole-good.md",
+      "target_concept_id": "virtue-as-the-sole-good",
+      "text": "virtue as the sole good"
+    },
+    {
+      "source_concept_id": "living-consistently-with-your-values",
+      "target": "philosophy-as-therapy-not-theory.md",
+      "target_concept_id": "philosophy-as-therapy-not-theory",
+      "text": "philosophy is meant to be a daily practice, not merely a body of theory"
+    },
+    {
+      "source_concept_id": "living-consistently-with-your-values",
+      "target": "stoic-friendship.md",
+      "target_concept_id": "stoic-friendship",
+      "text": "Stoic friendship"
+    },
+    {
+      "source_concept_id": "making-others-better-by-example",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistently with yourvalues"
+    },
+    {
+      "source_concept_id": "making-others-better-by-example",
+      "target": "stoic-friendship.md",
+      "target_concept_id": "stoic-friendship",
+      "text": "Stoic friendship"
+    },
+    {
+      "source_concept_id": "making-others-better-by-example",
+      "target": "strict-with-yourself-tolerant-with-others.md",
+      "target_concept_id": "strict-with-yourself-tolerant-with-others",
+      "text": "strict with yourself, tolerant with others"
+    },
+    {
+      "source_concept_id": "making-others-better-by-example",
+      "target": "virtue-under-public-power.md",
+      "target_concept_id": "virtue-under-public-power",
+      "text": "virtue exercisedunder public power"
+    },
+    {
+      "source_concept_id": "making-your-own-luck",
+      "target": "agency-as-effective-truth.md",
+      "target_concept_id": "agency-as-effective-truth",
+      "text": "agency aseffective truth"
+    },
+    {
+      "source_concept_id": "making-your-own-luck",
+      "target": "refusal-of-the-call.md",
+      "target_concept_id": "refusal-of-the-call",
+      "text": "refusal of thecall"
+    },
+    {
+      "source_concept_id": "making-your-own-luck",
+      "target": "virtue-as-the-sole-good.md",
+      "target_concept_id": "virtue-as-the-sole-good",
+      "text": "virtue as the solegood"
+    },
+    {
+      "source_concept_id": "meditation-as-human-development",
+      "target": "admitting-you-do-not-know.md",
+      "target_concept_id": "admitting-you-do-not-know",
+      "text": "admitting you do notknow"
+    },
+    {
+      "source_concept_id": "meditation-as-human-development",
+      "target": "meditation-as-way-of-being.md",
+      "target_concept_id": "meditation-as-way-of-being",
+      "text": "meditation as a way ofbeing"
+    },
+    {
+      "source_concept_id": "meditation-as-human-development",
+      "target": "soul-versus-spirit.md",
+      "target_concept_id": "soul-versus-spirit",
+      "text": "soul versus spirit"
+    },
+    {
+      "source_concept_id": "meditation-as-way-of-being",
+      "target": "admitting-you-do-not-know.md",
+      "target_concept_id": "admitting-you-do-not-know",
+      "text": "admitting youdo not know"
+    },
+    {
+      "source_concept_id": "meditation-as-way-of-being",
+      "target": "everyday-life-as-the-path.md",
+      "target_concept_id": "everyday-life-as-the-path",
+      "text": "everydaylife as the path"
+    },
+    {
+      "source_concept_id": "meditation-as-way-of-being",
+      "target": "mindfulness-as-art-of-living.md",
+      "target_concept_id": "mindfulness-as-art-of-living",
+      "text": "mindfulness as the art ofliving"
+    },
+    {
+      "source_concept_id": "meditation-as-way-of-being",
+      "target": "what-is-my-way.md",
+      "target_concept_id": "what-is-my-way",
+      "text": "what ismy way"
+    },
+    {
+      "source_concept_id": "meditation-vision-and-personal-values",
+      "target": "ahimsa-non-harming.md",
+      "target_concept_id": "ahimsa-non-harming",
+      "text": "ahimsa(non-harming)"
+    },
+    {
+      "source_concept_id": "meditation-vision-and-personal-values",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistently with your values"
+    },
+    {
+      "source_concept_id": "meditation-vision-and-personal-values",
+      "target": "philosophy-as-therapy-not-theory.md",
+      "target_concept_id": "philosophy-as-therapy-not-theory",
+      "text": "philosophy as therapy, nottheory"
+    },
+    {
+      "source_concept_id": "meditation-vision-and-personal-values",
+      "target": "what-is-my-way.md",
+      "target_concept_id": "what-is-my-way",
+      "text": "what is my way"
+    },
+    {
+      "source_concept_id": "megalopsychia-greatness-of-soul",
+      "target": "courage-requires-a-worthy-cause.md",
+      "target_concept_id": "courage-requires-a-worthy-cause",
+      "text": "courage requires a worthy cause"
+    },
+    {
+      "source_concept_id": "megalopsychia-greatness-of-soul",
+      "target": "principles-worth-the-cost.md",
+      "target_concept_id": "principles-worth-the-cost",
+      "text": "principles worth the cost"
+    },
+    {
+      "source_concept_id": "megalopsychia-greatness-of-soul",
+      "target": "stoic-cardinal-virtues.md",
+      "target_concept_id": "stoic-cardinal-virtues",
+      "text": "courage as the form of every virtue at the testingpoint"
+    },
+    {
+      "source_concept_id": "memento-mori",
+      "target": "death-is-not-to-be-feared.md",
+      "target_concept_id": "death-is-not-to-be-feared",
+      "text": "death itself is not something to be feared"
+    },
+    {
+      "source_concept_id": "memento-mori",
+      "target": "premeditation-of-adversity.md",
+      "target_concept_id": "premeditation-of-adversity",
+      "text": "premeditating adversity"
+    },
+    {
+      "source_concept_id": "memento-mori",
+      "target": "view-from-above.md",
+      "target_concept_id": "view-from-above",
+      "text": "the view from above"
+    },
+    {
+      "source_concept_id": "mindfulness-as-art-of-living",
+      "target": "habitual-automaticity.md",
+      "target_concept_id": "habitual-automaticity",
+      "text": "habitual automaticity"
+    },
+    {
+      "source_concept_id": "mindfulness-as-art-of-living",
+      "target": "present-moment-intimacy.md",
+      "target_concept_id": "present-moment-intimacy",
+      "text": "present-moment intimacy"
+    },
+    {
+      "source_concept_id": "mindfulness-as-art-of-living",
+      "target": "spirituality-as-wholeness.md",
+      "target_concept_id": "spirituality-as-wholeness",
+      "text": "spirituality as wholeness"
+    },
+    {
+      "source_concept_id": "mount-analogue",
+      "target": "job-on-the-planet.md",
+      "target_concept_id": "job-on-the-planet",
+      "text": "job on theplanet"
+    },
+    {
+      "source_concept_id": "mount-analogue",
+      "target": "you-cannot-escape-yourself.md",
+      "target_concept_id": "you-cannot-escape-yourself",
+      "text": "you cannot escape yourself"
+    },
+    {
+      "source_concept_id": "no-one-errs-willingly",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "choice"
+    },
+    {
+      "source_concept_id": "no-one-errs-willingly",
+      "target": "stoic-inner-citadel.md",
+      "target_concept_id": "stoic-inner-citadel",
+      "text": "the inner citadel"
+    },
+    {
+      "source_concept_id": "non-doing-and-wu-wei",
+      "target": "soul-versus-spirit.md",
+      "target_concept_id": "soul-versus-spirit",
+      "text": "soul versus spirit"
+    },
+    {
+      "source_concept_id": "non-doing-and-wu-wei",
+      "target": "you-cannot-escape-yourself.md",
+      "target_concept_id": "you-cannot-escape-yourself",
+      "text": "you cannot escape yourself"
+    },
+    {
+      "source_concept_id": "nonviolent-restraint-under-assault",
+      "target": "making-others-better-by-example.md",
+      "target_concept_id": "making-others-better-by-example",
+      "text": "making others better by example"
+    },
+    {
+      "source_concept_id": "nonviolent-restraint-under-assault",
+      "target": "principles-worth-the-cost.md",
+      "target_concept_id": "principles-worth-the-cost",
+      "text": "principles worth the cost"
+    },
+    {
+      "source_concept_id": "nonviolent-restraint-under-assault",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "obstacles-never-end",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "adversity as training ground"
+    },
+    {
+      "source_concept_id": "obstacles-never-end",
+      "target": "amor-fati.md",
+      "target_concept_id": "amor-fati",
+      "text": "amorfati"
+    },
+    {
+      "source_concept_id": "obstacles-never-end",
+      "target": "discipline-of-the-will.md",
+      "target_concept_id": "discipline-of-the-will",
+      "text": "discipline of the will"
+    },
+    {
+      "source_concept_id": "ordinary-consciousness-as-sleep",
+      "target": "buddha-as-awakened-one.md",
+      "target_concept_id": "buddha-as-awakened-one",
+      "text": "Buddha as awakenedone"
+    },
+    {
+      "source_concept_id": "ordinary-consciousness-as-sleep",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "judgments, notevents, disturb us"
+    },
+    {
+      "source_concept_id": "ordinary-consciousness-as-sleep",
+      "target": "mindfulness-as-art-of-living.md",
+      "target_concept_id": "mindfulness-as-art-of-living",
+      "text": "mindfulness as the art of living"
+    },
+    {
+      "source_concept_id": "ordinary-consciousness-as-sleep",
+      "target": "present-moment-intimacy.md",
+      "target_concept_id": "present-moment-intimacy",
+      "text": "present-moment intimacy"
+    },
+    {
+      "source_concept_id": "ordinary-consciousness-as-sleep",
+      "target": "spirit-of-inquiry.md",
+      "target_concept_id": "spirit-of-inquiry",
+      "text": "spirit of inquiry"
+    },
+    {
+      "source_concept_id": "ordinary-consciousness-as-sleep",
+      "target": "world-as-self-projection.md",
+      "target_concept_id": "world-as-self-projection",
+      "text": "world as self-projection"
+    },
+    {
+      "source_concept_id": "pain-versus-suffering",
+      "target": "extirpation-of-the-passions.md",
+      "target_concept_id": "extirpation-of-the-passions",
+      "text": "a passion, once triggered by a genuine external loss, escalates throughadded judgment rather than through the loss itself"
+    },
+    {
+      "source_concept_id": "pain-versus-suffering",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "judgments, not events, are what disturb us"
+    },
+    {
+      "source_concept_id": "parrhesia-speaking-truth-to-power",
+      "target": "courage-against-despair.md",
+      "target_concept_id": "courage-against-despair",
+      "text": "Courage against despairand nihilism"
+    },
+    {
+      "source_concept_id": "parrhesia-speaking-truth-to-power",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistently with your values"
+    },
+    {
+      "source_concept_id": "parrhesia-speaking-truth-to-power",
+      "target": "virtue-under-public-power.md",
+      "target_concept_id": "virtue-under-public-power",
+      "text": "virtue exercised under public power"
+    },
+    {
+      "source_concept_id": "patience-as-discipline",
+      "target": "stages-of-moral-progress.md",
+      "target_concept_id": "stages-of-moral-progress",
+      "text": "stages of moral progress"
+    },
+    {
+      "source_concept_id": "patience-as-discipline",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "philosophical-friendship-with-oneself",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistently with your values"
+    },
+    {
+      "source_concept_id": "philosophical-friendship-with-oneself",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "philosophy-as-therapy-not-theory",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "testing a person's stated views by whether their character is actually consistent"
+    },
+    {
+      "source_concept_id": "philosophy-as-therapy-not-theory",
+      "target": "self-examination-as-daily-practice.md",
+      "target_concept_id": "self-examination-as-daily-practice",
+      "text": "philosophy as a daily, repeated practice"
+    },
+    {
+      "source_concept_id": "positive-thinking-is-not-meditation",
+      "target": "arguing-with-reality-causes-suffering.md",
+      "target_concept_id": "arguing-with-reality-causes-suffering",
+      "text": "arguing with reality causessuffering"
+    },
+    {
+      "source_concept_id": "positive-thinking-is-not-meditation",
+      "target": "awareness-beyond-thinking.md",
+      "target_concept_id": "awareness-beyond-thinking",
+      "text": "awareness beyond thinking"
+    },
+    {
+      "source_concept_id": "positive-thinking-is-not-meditation",
+      "target": "discipline-of-perception.md",
+      "target_concept_id": "discipline-of-perception",
+      "text": "discipline of perception"
+    },
+    {
+      "source_concept_id": "positive-thinking-is-not-meditation",
+      "target": "world-as-self-projection.md",
+      "target_concept_id": "world-as-self-projection",
+      "text": "world as self-projection"
+    },
+    {
+      "source_concept_id": "preferred-indifferents",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "Stoic"
+    },
+    {
+      "source_concept_id": "preferred-indifferents",
+      "target": "everything-is-on-loan.md",
+      "target_concept_id": "everything-is-on-loan",
+      "text": "the idea that everything we hold is only ever on loan"
+    },
+    {
+      "source_concept_id": "preferred-indifferents",
+      "target": "virtue-as-the-sole-good.md",
+      "target_concept_id": "virtue-as-the-sole-good",
+      "text": "virtue as the sole good"
+    },
+    {
+      "source_concept_id": "premeditation-of-adversity",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "treating adversity as material to work with rather than as disaster"
+    },
+    {
+      "source_concept_id": "premeditation-of-adversity",
+      "target": "involuntary-scare-versus-chosen-fear.md",
+      "target_concept_id": "involuntary-scare-versus-chosen-fear",
+      "text": "involuntary scare versuschosen fear"
+    },
+    {
+      "source_concept_id": "premeditation-of-adversity",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "judgment"
+    },
+    {
+      "source_concept_id": "premeditation-of-adversity",
+      "target": "memento-mori.md",
+      "target_concept_id": "memento-mori",
+      "text": "memento mori"
+    },
+    {
+      "source_concept_id": "premeditation-of-adversity",
+      "target": "testing-impressions-before-assent.md",
+      "target_concept_id": "testing-impressions-before-assent",
+      "text": "testing impressions beforeassent"
+    },
+    {
+      "source_concept_id": "prepare-for-none-of-it-to-work",
+      "target": "art-of-acquiescence.md",
+      "target_concept_id": "art-of-acquiescence",
+      "text": "the art of acquiescence"
+    },
+    {
+      "source_concept_id": "prepare-for-none-of-it-to-work",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "dichotomy of control"
+    },
+    {
+      "source_concept_id": "prepare-for-none-of-it-to-work",
+      "target": "premeditation-of-adversity.md",
+      "target_concept_id": "premeditation-of-adversity",
+      "text": "premeditating adversity"
+    },
+    {
+      "source_concept_id": "present-moment-intimacy",
+      "target": "everyday-life-as-the-path.md",
+      "target_concept_id": "everyday-life-as-the-path",
+      "text": "everyday life as the path"
+    },
+    {
+      "source_concept_id": "present-moment-intimacy",
+      "target": "interconnectedness.md",
+      "target_concept_id": "interconnectedness",
+      "text": "interconnectedness"
+    },
+    {
+      "source_concept_id": "present-moment-intimacy",
+      "target": "mindfulness-as-art-of-living.md",
+      "target_concept_id": "mindfulness-as-art-of-living",
+      "text": "mindfulness as the art of living"
+    },
+    {
+      "source_concept_id": "present-moment-intimacy",
+      "target": "stoic-inner-citadel.md",
+      "target_concept_id": "stoic-inner-citadel",
+      "text": "the innercitadel"
+    },
+    {
+      "source_concept_id": "principles-worth-the-cost",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistently with your values"
+    },
+    {
+      "source_concept_id": "principles-worth-the-cost",
+      "target": "stoic-cardinal-virtues.md",
+      "target_concept_id": "stoic-cardinal-virtues",
+      "text": "courage as the form of every virtue at the testingpoint"
+    },
+    {
+      "source_concept_id": "principles-worth-the-cost",
+      "target": "virtue-under-public-power.md",
+      "target_concept_id": "virtue-under-public-power",
+      "text": "virtue under public power"
+    },
+    {
+      "source_concept_id": "refusal-of-the-call",
+      "target": "courage-to-be-yourself.md",
+      "target_concept_id": "courage-to-be-yourself",
+      "text": "courage to be yourself"
+    },
+    {
+      "source_concept_id": "refusal-of-the-call",
+      "target": "refusal-to-surrender.md",
+      "target_concept_id": "refusal-to-surrender",
+      "text": "refusal to surrender"
+    },
+    {
+      "source_concept_id": "refusal-to-submit-under-oppression",
+      "target": "defiance-under-coercion.md",
+      "target_concept_id": "defiance-under-coercion",
+      "text": "defiance under coercion"
+    },
+    {
+      "source_concept_id": "refusal-to-submit-under-oppression",
+      "target": "stoic-slavery-and-human-dignity.md",
+      "target_concept_id": "stoic-slavery-and-human-dignity",
+      "text": "Stoic slavery and human dignity"
+    },
+    {
+      "source_concept_id": "refusal-to-surrender",
+      "target": "courage-requires-a-worthy-cause.md",
+      "target_concept_id": "courage-requires-a-worthy-cause",
+      "text": "courage requires a worthy cause"
+    },
+    {
+      "source_concept_id": "refusal-to-surrender",
+      "target": "stoic-slavery-and-human-dignity.md",
+      "target_concept_id": "stoic-slavery-and-human-dignity",
+      "text": "Stoic slavery and human dignity"
+    },
+    {
+      "source_concept_id": "rigid-demands-versus-flexible-thinking",
+      "target": "arguing-with-reality-causes-suffering.md",
+      "target_concept_id": "arguing-with-reality-causes-suffering",
+      "text": "arguing with reality causessuffering"
+    },
+    {
+      "source_concept_id": "rigid-demands-versus-flexible-thinking",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "dichotomy ofcontrol"
+    },
+    {
+      "source_concept_id": "ruling-over-yourself",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance asself-mastery"
+    },
+    {
+      "source_concept_id": "ruling-over-yourself",
+      "target": "virtue-under-public-power.md",
+      "target_concept_id": "virtue-under-public-power",
+      "text": "Virtue exercisedunder public power"
+    },
+    {
+      "source_concept_id": "safety-first-as-self-defeating",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "livingconsistently with your values"
+    },
+    {
+      "source_concept_id": "safety-first-as-self-defeating",
+      "target": "parrhesia-speaking-truth-to-power.md",
+      "target_concept_id": "parrhesia-speaking-truth-to-power",
+      "text": "parrhesia speaking truth to power"
+    },
+    {
+      "source_concept_id": "self-examination-as-daily-practice",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "self-examination"
+    },
+    {
+      "source_concept_id": "self-examination-as-daily-practice",
+      "target": "philosophy-as-therapy-not-theory.md",
+      "target_concept_id": "philosophy-as-therapy-not-theory",
+      "text": "philosophy must be lived rather than merely known"
+    },
+    {
+      "source_concept_id": "self-examination-as-daily-practice",
+      "target": "premeditation-of-adversity.md",
+      "target_concept_id": "premeditation-of-adversity",
+      "text": "premeditating adversity"
+    },
+    {
+      "source_concept_id": "selfing",
+      "target": "impermanence-of-self-and-non-attachment.md",
+      "target_concept_id": "impermanence-of-self-and-non-attachment",
+      "text": "impermanence of self andnon-attachment"
+    },
+    {
+      "source_concept_id": "selfing",
+      "target": "interconnectedness.md",
+      "target_concept_id": "interconnectedness",
+      "text": "interconnectedness"
+    },
+    {
+      "source_concept_id": "selfing",
+      "target": "keep-identity-small.md",
+      "target_concept_id": "keep-identity-small",
+      "text": "keep identitysmall"
+    },
+    {
+      "source_concept_id": "slavery-to-passions",
+      "target": "freedom-through-frugality.md",
+      "target_concept_id": "freedom-through-frugality",
+      "text": "freedom through frugality"
+    },
+    {
+      "source_concept_id": "slavery-to-passions",
+      "target": "stoic-slavery-and-human-dignity.md",
+      "target_concept_id": "stoic-slavery-and-human-dignity",
+      "text": "Stoic arguments about the dignity of enslaved persons"
+    },
+    {
+      "source_concept_id": "slavery-to-passions",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "soul-versus-spirit",
+      "target": "spirituality-as-wholeness.md",
+      "target_concept_id": "spirituality-as-wholeness",
+      "text": "spirituality as directexperience"
+    },
+    {
+      "source_concept_id": "soul-versus-spirit",
+      "target": "wholeness-and-eachness.md",
+      "target_concept_id": "wholeness-and-eachness",
+      "text": "wholeness and eachness"
+    },
+    {
+      "source_concept_id": "spirit-of-inquiry",
+      "target": "admitting-you-do-not-know.md",
+      "target_concept_id": "admitting-you-do-not-know",
+      "text": "admitting you do not know"
+    },
+    {
+      "source_concept_id": "spirit-of-inquiry",
+      "target": "awareness-beyond-thinking.md",
+      "target_concept_id": "awareness-beyond-thinking",
+      "text": "awareness beyondthinking"
+    },
+    {
+      "source_concept_id": "spirit-of-inquiry",
+      "target": "job-on-the-planet.md",
+      "target_concept_id": "job-on-the-planet",
+      "text": "job on the planet"
+    },
+    {
+      "source_concept_id": "spirit-of-inquiry",
+      "target": "philosophy-as-therapy-not-theory.md",
+      "target_concept_id": "philosophy-as-therapy-not-theory",
+      "text": "philosophy as therapy, not theory"
+    },
+    {
+      "source_concept_id": "spirit-of-inquiry",
+      "target": "self-examination-as-daily-practice.md",
+      "target_concept_id": "self-examination-as-daily-practice",
+      "text": "nightly self-examination"
+    },
+    {
+      "source_concept_id": "spirit-of-inquiry",
+      "target": "what-is-my-way.md",
+      "target_concept_id": "what-is-my-way",
+      "text": "what is my way"
+    },
+    {
+      "source_concept_id": "spirituality-as-wholeness",
+      "target": "soul-versus-spirit.md",
+      "target_concept_id": "soul-versus-spirit",
+      "text": "soul versus spirit"
+    },
+    {
+      "source_concept_id": "stages-of-moral-progress",
+      "target": "philosophy-as-therapy-not-theory.md",
+      "target_concept_id": "philosophy-as-therapy-not-theory",
+      "text": "philosophy is therapy, not theory"
+    },
+    {
+      "source_concept_id": "stoic-cardinal-virtues",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "consistency across circumstances"
+    },
+    {
+      "source_concept_id": "stoic-cardinal-virtues",
+      "target": "philosophy-as-therapy-not-theory.md",
+      "target_concept_id": "philosophy-as-therapy-not-theory",
+      "text": "philosophy must become action"
+    },
+    {
+      "source_concept_id": "stoic-cardinal-virtues",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance"
+    },
+    {
+      "source_concept_id": "stoic-cardinal-virtues",
+      "target": "virtue-as-the-sole-good.md",
+      "target_concept_id": "virtue-as-the-sole-good",
+      "text": "virtue is the sole good"
+    },
+    {
+      "source_concept_id": "stoic-cosmopolitanism",
+      "target": "stoic-friendship.md",
+      "target_concept_id": "stoic-friendship",
+      "text": "Stoic friendship"
+    },
+    {
+      "source_concept_id": "stoic-cosmopolitanism",
+      "target": "stoic-slavery-and-human-dignity.md",
+      "target_concept_id": "stoic-slavery-and-human-dignity",
+      "text": "slavery and human dignity"
+    },
+    {
+      "source_concept_id": "stoic-friendship",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "the broader Stoic emphasis on consistency of character"
+    },
+    {
+      "source_concept_id": "stoic-friendship",
+      "target": "stoic-cosmopolitanism.md",
+      "target_concept_id": "stoic-cosmopolitanism",
+      "text": "natural sociability"
+    },
+    {
+      "source_concept_id": "stoic-inner-citadel",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "power of choice"
+    },
+    {
+      "source_concept_id": "stoic-inner-citadel",
+      "target": "no-one-errs-willingly.md",
+      "target_concept_id": "no-one-errs-willingly",
+      "text": "wrongdoing only really harms the wrongdoer"
+    },
+    {
+      "source_concept_id": "stoic-slavery-and-human-dignity",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "stating a value and consistently living by it"
+    },
+    {
+      "source_concept_id": "stoic-slavery-and-human-dignity",
+      "target": "stoic-cosmopolitanism.md",
+      "target_concept_id": "stoic-cosmopolitanism",
+      "text": "Stoic cosmopolitanism"
+    },
+    {
+      "source_concept_id": "strength-at-broken-places",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "adversity as training ground"
+    },
+    {
+      "source_concept_id": "strength-at-broken-places",
+      "target": "refusal-to-surrender.md",
+      "target_concept_id": "refusal-to-surrender",
+      "text": "refusalto surrender"
+    },
+    {
+      "source_concept_id": "strength-enough-to-be-weak",
+      "target": "megalopsychia-greatness-of-soul.md",
+      "target_concept_id": "megalopsychia-greatness-of-soul",
+      "text": "megalopsychia(greatness of soul)"
+    },
+    {
+      "source_concept_id": "strength-enough-to-be-weak",
+      "target": "strict-with-yourself-tolerant-with-others.md",
+      "target_concept_id": "strict-with-yourself-tolerant-with-others",
+      "text": "strict withyourself, tolerant with others"
+    },
+    {
+      "source_concept_id": "strenuous-life",
+      "target": "patience-as-discipline.md",
+      "target_concept_id": "patience-as-discipline",
+      "text": "patience as discipline"
+    },
+    {
+      "source_concept_id": "strenuous-life",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "strict-with-yourself-tolerant-with-others",
+      "target": "philosophical-friendship-with-oneself.md",
+      "target_concept_id": "philosophical-friendship-with-oneself",
+      "text": "philosophical friendship with oneself"
+    },
+    {
+      "source_concept_id": "strict-with-yourself-tolerant-with-others",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "Temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "temperance-as-self-mastery",
+      "target": "freedom-through-frugality.md",
+      "target_concept_id": "freedom-through-frugality",
+      "text": "Frugality toward thesuperfluous"
+    },
+    {
+      "source_concept_id": "temperance-as-self-mastery",
+      "target": "slavery-to-passions.md",
+      "target_concept_id": "slavery-to-passions",
+      "text": "freedom from passion-slavery"
+    },
+    {
+      "source_concept_id": "temperance-as-self-mastery",
+      "target": "slavery-to-passions.md",
+      "target_concept_id": "slavery-to-passions",
+      "text": "slavery to passions and craving"
+    },
+    {
+      "source_concept_id": "temperance-as-self-mastery",
+      "target": "virtue-under-public-power.md",
+      "target_concept_id": "virtue-under-public-power",
+      "text": "virtue exercised under public power"
+    },
+    {
+      "source_concept_id": "temperance-as-self-mastery",
+      "target": "voluntary-discomfort-as-inoculation.md",
+      "target_concept_id": "voluntary-discomfort-as-inoculation",
+      "text": "voluntary discomfort asinoculation"
+    },
+    {
+      "source_concept_id": "tempered-ambition",
+      "target": "slavery-to-passions.md",
+      "target_concept_id": "slavery-to-passions",
+      "text": "slavery to passions and craving"
+    },
+    {
+      "source_concept_id": "tempered-ambition",
+      "target": "voluntary-relinquishment-of-power.md",
+      "target_concept_id": "voluntary-relinquishment-of-power",
+      "text": "voluntaryrelinquishment of power"
+    },
+    {
+      "source_concept_id": "testing-impressions-before-assent",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "dichotomy of control"
+    },
+    {
+      "source_concept_id": "testing-impressions-before-assent",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "judgments, not events, are what disturb us"
+    },
+    {
+      "source_concept_id": "testing-impressions-before-assent",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "judgments, not events, disturb us"
+    },
+    {
+      "source_concept_id": "the-slow-boil-of-moral-compromise",
+      "target": "courage-as-habit.md",
+      "target_concept_id": "courage-as-habit",
+      "text": "habit"
+    },
+    {
+      "source_concept_id": "the-slow-boil-of-moral-compromise",
+      "target": "living-consistently-with-your-values.md",
+      "target_concept_id": "living-consistently-with-your-values",
+      "text": "living consistently withyour values"
+    },
+    {
+      "source_concept_id": "the-slow-boil-of-moral-compromise",
+      "target": "philosophy-as-therapy-not-theory.md",
+      "target_concept_id": "philosophy-as-therapy-not-theory",
+      "text": "philosophy as therapy, nottheory"
+    },
+    {
+      "source_concept_id": "the-world-tests-your-courage",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "adversity as trainingground"
+    },
+    {
+      "source_concept_id": "the-world-tests-your-courage",
+      "target": "focus-scrutiny-on-your-own-courage.md",
+      "target_concept_id": "focus-scrutiny-on-your-own-courage",
+      "text": "focus scrutiny on your owncourage"
+    },
+    {
+      "source_concept_id": "three-disciplines-of-stoic-practice",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "adversity as training ground"
+    },
+    {
+      "source_concept_id": "three-disciplines-of-stoic-practice",
+      "target": "discipline-of-perception.md",
+      "target_concept_id": "discipline-of-perception",
+      "text": "the discipline ofperception"
+    },
+    {
+      "source_concept_id": "three-disciplines-of-stoic-practice",
+      "target": "discipline-of-the-will.md",
+      "target_concept_id": "discipline-of-the-will",
+      "text": "the discipline ofthe will"
+    },
+    {
+      "source_concept_id": "three-disciplines-of-stoic-practice",
+      "target": "testing-impressions-before-assent.md",
+      "target_concept_id": "testing-impressions-before-assent",
+      "text": "testing impressions beforeassent"
+    },
+    {
+      "source_concept_id": "three-domains-of-concern",
+      "target": "arguing-with-reality-causes-suffering.md",
+      "target_concept_id": "arguing-with-reality-causes-suffering",
+      "text": "arguing with reality causes suffering"
+    },
+    {
+      "source_concept_id": "three-domains-of-concern",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "dichotomy of control"
+    },
+    {
+      "source_concept_id": "three-topics-of-stoic-training",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "the dichotomy of control"
+    },
+    {
+      "source_concept_id": "three-topics-of-stoic-training",
+      "target": "dichotomy-of-control.md",
+      "target_concept_id": "dichotomy-of-control",
+      "text": "what is up to us"
+    },
+    {
+      "source_concept_id": "three-topics-of-stoic-training",
+      "target": "preferred-indifferents.md",
+      "target_concept_id": "preferred-indifferents",
+      "text": "preferred indifferents"
+    },
+    {
+      "source_concept_id": "three-topics-of-stoic-training",
+      "target": "stoic-cosmopolitanism.md",
+      "target_concept_id": "stoic-cosmopolitanism",
+      "text": "Stoic cosmopolitanism"
+    },
+    {
+      "source_concept_id": "three-topics-of-stoic-training",
+      "target": "testing-impressions-before-assent.md",
+      "target_concept_id": "testing-impressions-before-assent",
+      "text": "assent"
+    },
+    {
+      "source_concept_id": "three-topics-of-stoic-training",
+      "target": "testing-impressions-before-assent.md",
+      "target_concept_id": "testing-impressions-before-assent",
+      "text": "testing impressions before assent"
+    },
+    {
+      "source_concept_id": "trust-your-own-experience",
+      "target": "buddha-as-awakened-one.md",
+      "target_concept_id": "buddha-as-awakened-one",
+      "text": "Buddha as awakened one"
+    },
+    {
+      "source_concept_id": "trust-your-own-experience",
+      "target": "courage-to-be-yourself.md",
+      "target_concept_id": "courage-to-be-yourself",
+      "text": "courage to be yourself"
+    },
+    {
+      "source_concept_id": "trust-your-own-experience",
+      "target": "eclectic-approach-to-wisdom.md",
+      "target_concept_id": "eclectic-approach-to-wisdom",
+      "text": "an eclectic approach to wisdom"
+    },
+    {
+      "source_concept_id": "trust-your-own-experience",
+      "target": "what-is-my-way.md",
+      "target_concept_id": "what-is-my-way",
+      "text": "what is my way"
+    },
+    {
+      "source_concept_id": "two-handles-of-events",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "training ground for virtue"
+    },
+    {
+      "source_concept_id": "two-handles-of-events",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "judgments, not events, are what disturb us"
+    },
+    {
+      "source_concept_id": "two-handles-of-events",
+      "target": "stoic-inner-citadel.md",
+      "target_concept_id": "stoic-inner-citadel",
+      "text": "the inner citadel"
+    },
+    {
+      "source_concept_id": "unchanged-by-success",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "adversity as trainingground"
+    },
+    {
+      "source_concept_id": "unchanged-by-success",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperanceas self-mastery"
+    },
+    {
+      "source_concept_id": "unchanged-by-success",
+      "target": "virtue-under-public-power.md",
+      "target_concept_id": "virtue-under-public-power",
+      "text": "unchangedcharacter under public power"
+    },
+    {
+      "source_concept_id": "unconditional-versus-conditional-love",
+      "target": "everything-is-on-loan.md",
+      "target_concept_id": "everything-is-on-loan",
+      "text": "loss is easier to bear once a possession or relationship is understood asheld rather than owned outright"
+    },
+    {
+      "source_concept_id": "unconditional-versus-conditional-love",
+      "target": "stoic-friendship.md",
+      "target_concept_id": "stoic-friendship",
+      "text": "Stoic friendship"
+    },
+    {
+      "source_concept_id": "unity-over-self",
+      "target": "courage-for-neighbors.md",
+      "target_concept_id": "courage-for-neighbors",
+      "text": "courage forneighbors"
+    },
+    {
+      "source_concept_id": "unity-over-self",
+      "target": "courage-requires-a-worthy-cause.md",
+      "target_concept_id": "courage-requires-a-worthy-cause",
+      "text": "courage requires a worthy cause"
+    },
+    {
+      "source_concept_id": "unity-over-self",
+      "target": "making-others-better-by-example.md",
+      "target_concept_id": "making-others-better-by-example",
+      "text": "making others better byexample"
+    },
+    {
+      "source_concept_id": "view-from-above",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "judgments, not events, disturb us"
+    },
+    {
+      "source_concept_id": "view-from-above",
+      "target": "memento-mori.md",
+      "target_concept_id": "memento-mori",
+      "text": "remembering one's own mortality"
+    },
+    {
+      "source_concept_id": "virtue-as-the-sole-good",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "adversity as the material virtue works on rather than as harm"
+    },
+    {
+      "source_concept_id": "virtue-as-the-sole-good",
+      "target": "extirpation-of-the-passions.md",
+      "target_concept_id": "extirpation-of-the-passions",
+      "text": "eliminating rather than merely moderating the passions"
+    },
+    {
+      "source_concept_id": "virtue-as-the-sole-good",
+      "target": "preferred-indifferents.md",
+      "target_concept_id": "preferred-indifferents",
+      "text": "preferred indifferents"
+    },
+    {
+      "source_concept_id": "virtue-under-public-power",
+      "target": "adversity-as-training-ground.md",
+      "target_concept_id": "adversity-as-training-ground",
+      "text": "adversity becomes the material virtue workson"
+    },
+    {
+      "source_concept_id": "virtue-under-public-power",
+      "target": "stoic-inner-citadel.md",
+      "target_concept_id": "stoic-inner-citadel",
+      "text": "inner citadel"
+    },
+    {
+      "source_concept_id": "virtue-under-public-power",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "voluntary-discomfort-as-inoculation",
+      "target": "preferred-indifferents.md",
+      "target_concept_id": "preferred-indifferents",
+      "text": "preferred indifferents"
+    },
+    {
+      "source_concept_id": "voluntary-discomfort-as-inoculation",
+      "target": "premeditation-of-adversity.md",
+      "target_concept_id": "premeditation-of-adversity",
+      "text": "premeditating adversity"
+    },
+    {
+      "source_concept_id": "voluntary-discomfort-as-inoculation",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "voluntary-discomfort-as-inoculation",
+      "target": "voluntary-poverty-as-training.md",
+      "target_concept_id": "voluntary-poverty-as-training",
+      "text": "voluntary poverty as training"
+    },
+    {
+      "source_concept_id": "voluntary-poverty-as-training",
+      "target": "preferred-indifferents.md",
+      "target_concept_id": "preferred-indifferents",
+      "text": "wealth and poverty are preferred or dispreferred indifferents"
+    },
+    {
+      "source_concept_id": "voluntary-poverty-as-training",
+      "target": "premeditation-of-adversity.md",
+      "target_concept_id": "premeditation-of-adversity",
+      "text": "premeditating adversity"
+    },
+    {
+      "source_concept_id": "voluntary-relinquishment-of-power",
+      "target": "temperance-as-self-mastery.md",
+      "target_concept_id": "temperance-as-self-mastery",
+      "text": "temperance as self-mastery"
+    },
+    {
+      "source_concept_id": "voluntary-relinquishment-of-power",
+      "target": "virtue-under-public-power.md",
+      "target_concept_id": "virtue-under-public-power",
+      "text": "virtue exercised underpublic power"
+    },
+    {
+      "source_concept_id": "voluntary-simplicity",
+      "target": "freedom-through-frugality.md",
+      "target_concept_id": "freedom-through-frugality",
+      "text": "freedom throughfrugality"
+    },
+    {
+      "source_concept_id": "voluntary-simplicity",
+      "target": "interconnectedness.md",
+      "target_concept_id": "interconnectedness",
+      "text": "interconnected"
+    },
+    {
+      "source_concept_id": "voluntary-simplicity",
+      "target": "non-doing-and-wu-wei.md",
+      "target_concept_id": "non-doing-and-wu-wei",
+      "text": "non-doing and wu wei"
+    },
+    {
+      "source_concept_id": "what-is-my-way",
+      "target": "admitting-you-do-not-know.md",
+      "target_concept_id": "admitting-you-do-not-know",
+      "text": "admitting you do not know"
+    },
+    {
+      "source_concept_id": "what-is-my-way",
+      "target": "job-on-the-planet.md",
+      "target_concept_id": "job-on-the-planet",
+      "text": "job on theplanet"
+    },
+    {
+      "source_concept_id": "what-is-my-way",
+      "target": "meditation-as-way-of-being.md",
+      "target_concept_id": "meditation-as-way-of-being",
+      "text": "meditationas a way of being"
+    },
+    {
+      "source_concept_id": "what-is-my-way",
+      "target": "spirit-of-inquiry.md",
+      "target_concept_id": "spirit-of-inquiry",
+      "text": "spirit of inquiry"
+    },
+    {
+      "source_concept_id": "what-is-my-way",
+      "target": "trust-your-own-experience.md",
+      "target_concept_id": "trust-your-own-experience",
+      "text": "trust your ownexperience"
+    },
+    {
+      "source_concept_id": "wholeness-and-eachness",
+      "target": "interconnectedness.md",
+      "target_concept_id": "interconnectedness",
+      "text": "interconnectedness"
+    },
+    {
+      "source_concept_id": "wholeness-and-eachness",
+      "target": "soul-versus-spirit.md",
+      "target_concept_id": "soul-versus-spirit",
+      "text": "soul versusspirit"
+    },
+    {
+      "source_concept_id": "wholeness-and-eachness",
+      "target": "spirituality-as-wholeness.md",
+      "target_concept_id": "spirituality-as-wholeness",
+      "text": "spirituality as wholeness"
+    },
+    {
+      "source_concept_id": "world-as-self-projection",
+      "target": "judgments-not-events-disturb-us.md",
+      "target_concept_id": "judgments-not-events-disturb-us",
+      "text": "it is judgments, notevents, that disturb us"
+    },
+    {
+      "source_concept_id": "you-cannot-escape-yourself",
+      "target": "impermanence-of-self-and-non-attachment.md",
+      "target_concept_id": "impermanence-of-self-and-non-attachment",
+      "text": "impermanence of self and non-attachment"
+    },
+    {
+      "source_concept_id": "you-cannot-escape-yourself",
+      "target": "karma-as-accumulated-tendency.md",
+      "target_concept_id": "karma-as-accumulated-tendency",
+      "text": "karma"
+    },
+    {
+      "source_concept_id": "you-cannot-escape-yourself",
+      "target": "non-doing-and-wu-wei.md",
+      "target_concept_id": "non-doing-and-wu-wei",
+      "text": "non-doing and wu wei"
+    }
+  ]
+}

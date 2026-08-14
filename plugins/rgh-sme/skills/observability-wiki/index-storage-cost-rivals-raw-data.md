@@ -1,0 +1,12 @@
+---
+type: concept
+title: A Full Secondary Index Can Cost Nearly as Much as the Raw Data
+description: Indexing high-cardinality telemetry (like a trace-id-to-attributes lookup) isn't free to store — a general-purpose index can end up costing within a small percentage of the underlying data's storage footprint, so which indices to build should be chosen from observed query patterns rather than provisioned speculatively.
+sources:
+  - title: "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure"
+    resource: "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure (Sigelman et al.), §5.1"
+---
+
+Building an index for a high-[cardinality](cardinality.md) telemetry store (e.g. mapping "which traces touched this service/host in this time range" back to trace ids) is often assumed to be cheap relative to the raw data it indexes. In practice it can be nearly as expensive: Google found the compressed storage required for one such index was only about 26% less than the compressed storage of the actual trace data it indexed — index cost is a real, first-class line item, not a rounding error.
+
+Because indices aren't free, which ones to actually build should be chosen from **observed usage**, not provisioned speculatively for every access pattern that seems plausible up front. Google initially built and shipped two separate indices — one keyed by host machine, one by service name — then, watching real usage, found too little independent interest in the machine-based index to justify its storage cost on its own: users who cared about a specific machine turned out to also always be scoped to a specific service. The two were collapsed into one **composite index** ordered `(service name, host machine, timestamp)`, matching how the fields were actually queried together rather than how they were conceptually distinct. The general lesson generalizes past this one case: build the index a workload's real queries need, and be willing to retire or merge an index once usage data shows it isn't earning its storage cost, rather than treating an initial index design as permanent. This is the same underlying storage-cost trade-off as [skip indexes for high-cardinality lookups](skip-indexes-for-high-cardinality-lookups.md) and [incremental materialized views](materialized-views-for-precomputed-aggregates.md), applied to the decision of *whether and what* to index in the first place rather than *how*.

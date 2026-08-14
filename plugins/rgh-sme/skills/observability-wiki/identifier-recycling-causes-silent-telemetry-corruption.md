@@ -1,0 +1,12 @@
+---
+type: concept
+title: Identifier Recycling Causes Silent Telemetry Corruption
+description: Reassigning a tracking ID to a new entity shortly after the old one is retired lets different observers querying "the same" ID at nearly the same time silently pull data about two different things, producing an internally inconsistent picture with no error or warning.
+sources:
+  - title: "Sources of Power: How People Make Decisions"
+    resource: "Sources of Power (Gary Klein), ch. 6"
+---
+
+In the USS Vincennes shootdown, a networked radar system merged two ships' independent track numbers for the same aircraft into one canonical ID, retiring the other. Minutes later, the retired track number was recycled and silently reassigned to a completely unrelated aircraft flying hundreds of miles away — one that happened to be descending and speeding up. When the ship's captain asked what "that track" was doing, different crew members querying the same track number by different input paths (a trackball vs. a manually punched-in keypad number) retrieved data for two genuinely different aircraft, without any indication that they were looking at different things. Some correctly reported the real aircraft's steady climb; others correctly reported the recycled ID's unrelated descent — both groups were right about the data they pulled, but the numbers described different physical objects. This directly fed a fatal misdiagnosis, and a formal post-incident investigation attributed the discrepancy to human "scenario fulfillment" bias before a later reanalysis traced it to this identifier-reuse bug instead.
+
+The general lesson for any telemetry or tracking system: retiring and recycling an identifier introduces a window in which two lookups for "the same" ID can correctly, silently return data about different entities — this is not a data-quality anomaly any single query would flag, because each individual answer is accurate for the ID it was actually given. Systems that merge or retire IDs (trace/span IDs, container IDs, connection IDs, track/session IDs) should either avoid reissuing them within any plausible in-flight query or investigation window, or bind every returned value to an explicit generation/epoch marker so that two people comparing "track 4474" can immediately tell whether they mean the same underlying entity — see [wide-event attribute checklist](wide-event-attribute-checklist.md) for the practice of carrying enough identifying context on every event to make this kind of collision detectable rather than invisible.

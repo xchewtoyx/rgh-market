@@ -1,0 +1,1329 @@
+{
+  "bundle": "failure-modes",
+  "concepts": [
+    {
+      "concept_id": "adhd-burnout",
+      "description": "Mental and physical exhaustion from prolonged overexertion trying to keep pace with a world not built for how ADHD attention and energy work, often unrecognized as burnout until normally-easy tasks start to feel enormous.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.02539699639312338,
+      "title": "ADHD Burnout"
+    },
+    {
+      "concept_id": "adhd-misread-as-carelessness",
+      "description": "A misrecognition pattern in which ADHD-driven processing speed, interest gating, and omission errors are read as low care, incompetence, or unreliability — damaging self-esteem and obscuring the actual breakdown mechanism.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0035125606512998175,
+      "title": "ADHD Misread as Carelessness"
+    },
+    {
+      "concept_id": "affective-empathy-overload",
+      "description": "A dysregulation pattern in which intense affective empathy — feeling others' emotions strongly — overloads the nervous system and produces shutdown or meltdown behavior that is easily misread as lack of empathy.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0035125606512998175,
+      "title": "Affective Empathy Overload"
+    },
+    {
+      "concept_id": "alexithymia",
+      "description": "A pattern of difficulty noticing bodily sensations, linking them to situations, and accurately labeling the corresponding emotion — which obscures distress from observers and clinicians and drives misdiagnosis.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.009541657044109432,
+      "title": "Alexithymia"
+    },
+    {
+      "concept_id": "anxiety-vs-sensory-overload",
+      "description": "A diagnostic distinction between two superficially similar distress states — internally driven anxiety and externally driven sensory overload — resolved by tracking whether distress follows the stimulus or the thought.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0035125606512998175,
+      "title": "Anxiety versus Sensory Overload"
+    },
+    {
+      "concept_id": "attachment-reaction",
+      "description": "The mind's automatic \"hang on to it\" response to a pleasant feeling tone — clinging to enjoyable states that produces frustration and chasing when the experience ends or is interrupted.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.007719175596784615,
+      "title": "Attachment Reaction"
+    },
+    {
+      "concept_id": "autistic-burnout",
+      "description": "A particularly debilitating, long-lasting form of burnout arising from sustained, unsupported effort to meet neurotypical-paced expectations, marked by a distinctive symptom cluster and distinct from — though it can lead to — depression.",
+      "inbound_link_count": 17,
+      "outbound_link_count": 8,
+      "pagerank": 0.20597125804819447,
+      "title": "Autistic Burnout"
+    },
+    {
+      "concept_id": "autistic-depression-presentation",
+      "description": "A depression presentation in autistic people with distinctive markers — masking regression, rumination loops, and interest shifts — that overlaps with but is not identical to autistic burnout.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0035125606512998175,
+      "title": "Autistic Depression Presentation"
+    },
+    {
+      "concept_id": "autistic-inertia",
+      "description": "A disproportionate difficulty crossing task-transition points — starting a task or stopping one already underway — that is a mechanical stuck state at the transition itself, not a reflection of motivation or overall capability.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0035125606512998175,
+      "title": "Autistic Inertia"
+    },
+    {
+      "concept_id": "autistic-intellectualized-rumination",
+      "description": "A rumination pattern in which autistics move feelings into the thinking brain and over-process them until anxiety re-alerts the emotional brain — recycling distress through new perspectives rather than resolving it, and undermining CBT-style cognitive questioning that adds more thinking.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.004418602438669009,
+      "title": "Autistic Intellectualized Rumination"
+    },
+    {
+      "concept_id": "autistic-presentation-vs-borderline",
+      "description": "A misdiagnosis pattern in which autistic traits and trauma from undiagnosed neurodivergence are read through BPD criteria — producing surface behaviors that look identical but have different root causes.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.004258980181411262,
+      "title": "Autistic Presentation versus Borderline Personality Disorder"
+    },
+    {
+      "concept_id": "aversion-reaction",
+      "description": "The mind's automatic \"get rid of it\" response to an unpleasant feeling tone — registered as bodily contraction and a drive to escape internal experience, which fuels rumination and relapse when applied to one's own thoughts and feelings.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 4,
+      "pagerank": 0.013396139865937618,
+      "title": "Aversion Reaction"
+    },
+    {
+      "concept_id": "body-dysmorphic-preoccupation",
+      "description": "An obsessive preoccupation loop in which perceived physical defects — usually minor to others — drive compulsive concealment and mirror rituals that maintain distress and often worsen after cosmetic intervention.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0035125606512998175,
+      "title": "Body Dysmorphic Preoccupation"
+    },
+    {
+      "concept_id": "burnout-skill-loss",
+      "description": "A regression of previously reliable cognitive skills during autistic burnout — memory, word-finding, concentration, and task tracking — that parallels childhood autistic regression but in adults and is often mistaken for permanent executive dysfunction.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.044572624588416106,
+      "title": "Burnout Skill Loss"
+    },
+    {
+      "concept_id": "chronic-stress-activation",
+      "description": "A pattern in which the body's stress response — evolved for rare, brief emergencies — gets triggered repeatedly by routine, non-life-threatening events and is allowed to persist for days, months, or years instead of resolving once the trigger passes.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.03474171206733114,
+      "title": "Chronic Stress Activation"
+    },
+    {
+      "concept_id": "cognitive-reactivity",
+      "description": "The tendency for small mood dips to trigger large swings into negative thinking patterns that were dormant during recovery — a relapse vulnerability mechanism in recurrent depression, not a permanent trait attitude.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.010299852820643511,
+      "title": "Cognitive Reactivity"
+    },
+    {
+      "concept_id": "cross-employer-performance-capping-cycle",
+      "description": "A recurring pattern in which a competent employee's authentic traits get penalized as a \"fit\" or \"personality\" problem despite strong outcomes, forcing masking that ends in burnout or departure, then repeats unchanged at the next employer because the cause is structural rather than individual.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 0,
+      "pagerank": 0.006000625751671299,
+      "title": "Cross-Employer Performance-Capping Cycle"
+    },
+    {
+      "concept_id": "cure-becomes-poison",
+      "description": "A breakdown pattern in which a coping behavior that genuinely helped at first — self-medication, gambling, drinking, control rituals — through overuse or dependence becomes the primary source of damage while still feeling necessary for survival.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.005381199560317062,
+      "title": "Cure Becomes Poison"
+    },
+    {
+      "concept_id": "decompensation-collapse",
+      "description": "A breakdown pattern in which compensatory effort masks growing overload until adaptive capacity is suddenly exhausted — producing abrupt collapse rather than gradual visible decline.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0035125606512998175,
+      "title": "Decompensation Collapse"
+    },
+    {
+      "concept_id": "delayed-interoception",
+      "description": "A pattern in which hunger, tiredness, temperature discomfort, and other body signals are not registered until the person is at the brink of breakdown — making proactive self-care impossible without deliberate scheduled check-ins.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0060186828715648065,
+      "title": "Delayed Interoception"
+    },
+    {
+      "concept_id": "depression-episode-kindling",
+      "description": "A pattern in recurrent depression where each episode lowers the threshold for the next — life events matter less and episodes appear more spontaneous — making relapse pathways easier to activate over time.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.00450778669144841,
+      "title": "Depression Episode Kindling"
+    },
+    {
+      "concept_id": "depression-exhaustion-funnel",
+      "description": "A depression behavior pattern in which nourishing-but-\"optional\" activities are dropped first while work and obligations narrow the life funnel — often driven by conscientious workers whose self-confidence ties to performance, producing burnout rather than recovery.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.004678939076842542,
+      "title": "Depression Exhaustion Funnel"
+    },
+    {
+      "concept_id": "depression-four-dimension-spiral",
+      "description": "A depression maintenance pattern in which feelings, thoughts, body sensations, and behaviors interact and reinforce each other — any one dimension can trigger the full downward spiral, which strengthens with each episode.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.0068610413767628275,
+      "title": "Depression Four-Dimension Spiral"
+    },
+    {
+      "concept_id": "depression-interpretation-loop",
+      "description": "The A–B–C pattern in depression where unnoticed interpretation (B) between facts (A) and emotional reaction (C) drives mood — low mood selects the most negative reading of ambiguous situations and recruits more evidence.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.004678939076842542,
+      "title": "Depression Interpretation Loop"
+    },
+    {
+      "concept_id": "depression-relapse-signature",
+      "description": "An individual's unique early-warning combination of mind and body changes that signal depression gathering pace — identified in advance while mood is stable, before hopelessness makes heeding warnings feel pointless.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0035125606512998175,
+      "title": "Depression Relapse Signature"
+    },
+    {
+      "concept_id": "depression-sensory-shutdown",
+      "description": "A relapse-vulnerability pattern in which sad mood activates the default mode network at the expense of sensory processing — muting body awareness and sharply increasing depression risk when the shutdown is intense.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0035125606512998175,
+      "title": "Depression Sensory Shutdown"
+    },
+    {
+      "concept_id": "depression-vicious-cycle",
+      "description": "A self-reinforcing pattern in which reduced activity produces worse mood and a growing neglected-task backlog, each of which independently drives further reduced activity, distinguishing it from ordinary tiredness where rest actually helps.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 1,
+      "pagerank": 0.016604877389336876,
+      "title": "Depression Vicious Cycle"
+    },
+    {
+      "concept_id": "discrepancy-monitor-rumination",
+      "description": "An MBCT relapse mechanism in which a \"discrepancy monitor\" compares self and situation to how things should be, finds mismatches, and dwelling on those mismatches deepens the very low mood the person is trying to escape.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.007999573396084965,
+      "title": "Discrepancy Monitor Rumination"
+    },
+    {
+      "concept_id": "emotional-avoidance",
+      "description": "A pattern of suppressing or not processing emotion in response to overwhelming input, which relieves distress briefly but compounds into worse outcomes the longer it continues.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.024703252293633397,
+      "title": "Emotional Avoidance"
+    },
+    {
+      "concept_id": "escalating-escapism",
+      "description": "A pattern in which pleasurable or distracting activity is used to silence unresolved distress rather than address its cause, providing real but temporary relief that requires progressively larger doses over time as the untouched underlying cause keeps regenerating the distress.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 1,
+      "pagerank": 0.015354107070668508,
+      "title": "Escalating Escapism"
+    },
+    {
+      "concept_id": "experiential-avoidance",
+      "description": "A habitual pattern of walling off, suppressing, or numbing one's own emotions, thoughts, and body sensations — which disconnects interoceptive awareness and lets unregistered distress drive behavior until it erupts.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 5,
+      "pagerank": 0.01474186392655403,
+      "title": "Experiential Avoidance"
+    },
+    {
+      "concept_id": "fear-generalization-spiral",
+      "description": "A pattern in which a mind, trying to protect against one identified fear, proactively searches memory and imagination for anything else that might relate to it and flags each new association as an additional thing to fear — increasing felt vulnerability rather than reducing it.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0035125606512998175,
+      "title": "Fear-Generalization Spiral"
+    },
+    {
+      "concept_id": "forced-socialization-hide-response",
+      "description": "A shutdown-and-hide pattern in which mandatory social environments with no escape option produce elaborate physical withdrawal — distinct from chosen solitude when exclusion is mutually acceptable.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0035125606512998175,
+      "title": "Forced Socialization Hide Response"
+    },
+    {
+      "concept_id": "hyperarousal-vs-hypoarousal",
+      "description": "The two opposite directions a nervous system can be pushed past its capacity for stress — an activated, escalating direction and a collapsed, shut-down direction — which explain why superficially very different breakdown patterns (panic versus shutdown) share the same root cause of exceeded capacity.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.04254190614910749,
+      "title": "Hyperarousal versus Hypoarousal"
+    },
+    {
+      "concept_id": "hyperfocus",
+      "description": "A state of dramatically elevated attention and output on a task, but only under specific environmental conditions (commonly quiet, distraction-free settings), which is easy to misread as either workaholism or low productivity depending on which side of that condition an observer sees.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.013464821052785745,
+      "title": "Hyperfocus"
+    },
+    {
+      "concept_id": "inconsistent-performer-pattern",
+      "description": "A work breakdown pattern of alternating hyperfocused overdelivery with shutdown to bare minimum under overwhelm — read as unreliable character when it reflects capacity cycling, not inconsistent effort or ego.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0035125606512998175,
+      "title": "Inconsistent Performer Pattern"
+    },
+    {
+      "concept_id": "indiscipline-of-overwork",
+      "description": "A self-reinforcing pattern of pushing past sustainable limits — treating rest as weakness — that produces the same breakdown outcome as under-training, paid for with interest later rather than saved effort now.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.006000625751671299,
+      "title": "Indiscipline of Overwork"
+    },
+    {
+      "concept_id": "locally-adaptive-globally-maladaptive-coping",
+      "description": "A breakdown pattern in which coping that succeeds locally — for one task, role, or moment — undermines broader goals, relationships, or long-term wellbeing when groups or life domains fail to coordinate.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0035125606512998175,
+      "title": "Locally Adaptive Globally Maladaptive Coping"
+    },
+    {
+      "concept_id": "masking",
+      "description": "Adaptive social camouflage — consciously or unconsciously adopting others' mannerisms, speech, or affect to appear neurotypical — driven by a need for safety, which erodes sense of self and is exhausting to sustain.",
+      "inbound_link_count": 11,
+      "outbound_link_count": 4,
+      "pagerank": 0.09023829687088296,
+      "title": "Masking"
+    },
+    {
+      "concept_id": "masking-hidden-coping",
+      "description": "A pattern in which unhealthy coping mechanisms hide behind social masking — the mask is the tidy room, the addiction or binge behavior the messy back room — until crisis makes secrecy unsustainable.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.004263723519707633,
+      "title": "Masking-Hidden Coping"
+    },
+    {
+      "concept_id": "meltdown",
+      "description": "An outward, escalating eruption produced when unreleased sensory or emotional energy exceeds capacity — the hyperarousal-direction counterpart to shutdown's collapse.",
+      "inbound_link_count": 14,
+      "outbound_link_count": 2,
+      "pagerank": 0.08724122907566989,
+      "title": "Meltdown"
+    },
+    {
+      "concept_id": "moral-injury",
+      "description": "A trauma response to witnessing or participating in behavior that contradicts one's own moral beliefs in a high-stakes situation, distinct from ordinary work stress because the trigger is the ethical transgression itself rather than workload or intensity.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0035125606512998175,
+      "title": "Moral Injury"
+    },
+    {
+      "concept_id": "neurodivergence-misread-as-anxiety",
+      "description": "A misdiagnosis pattern in which autistic meltdown, shutdown, or ADHD internal hyperactivity are treated as panic disorder or anxious rumination — addressing symptoms without investigating neurodivergence as the underlying driver.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0035125606512998175,
+      "title": "Neurodivergence Misread as Anxiety"
+    },
+    {
+      "concept_id": "obsessive-compulsive-loop",
+      "description": "A self-maintaining OCD pattern in which intrusive obsessions trigger compulsions and avoidance that give immediate but non-lasting relief — the rituals and avoidance are the lifeblood of the problem, not the solution.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.005470383813096464,
+      "title": "Obsessive-Compulsive Loop"
+    },
+    {
+      "concept_id": "perfectionism-driven-overwork",
+      "description": "Overwork produced by hyperfixating on details at the wrong level of granularity — pouring disproportionate effort into minor points regardless of their weight to the overall outcome — rather than by task duration or workload volume.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0035125606512998175,
+      "title": "Perfectionism-Driven Overwork"
+    },
+    {
+      "concept_id": "pervasive-drive-for-autonomy",
+      "description": "An anxiety-driven pattern in which external demands — even tiny or desired ones — trigger intense avoidance to retain control, commonly misread as oppositional defiance or volitional inconsistency.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0035125606512998175,
+      "title": "Pervasive Drive for Autonomy"
+    },
+    {
+      "concept_id": "post-meltdown-fawning-rebound",
+      "description": "A post-meltdown pattern in which sudden clarity and relief tip into over-commitment and emotional suppression to please others again — making the aftermath a risky moment for decisions, not a reliable recovery signal.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.040590070423185284,
+      "title": "Post-Meltdown Fawning Rebound"
+    },
+    {
+      "concept_id": "problem-maintaining-solution",
+      "description": "A breakdown pattern in which short-term coping strategies that reduce distress in the moment maintain or worsen the underlying problem long term — \"feel better, get worse; feel worse, get better.\"",
+      "inbound_link_count": 2,
+      "outbound_link_count": 6,
+      "pagerank": 0.006794798109690147,
+      "title": "Problem-Maintaining Solution"
+    },
+    {
+      "concept_id": "raw-spots",
+      "description": "Sensitive areas left by past emotional wounds that amplify a present reaction beyond what the current situation alone would produce, so the intensity of a reaction is not a reliable measure of the present stressor's severity.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.005197842404755536,
+      "title": "Raw Spots"
+    },
+    {
+      "concept_id": "reactive-reprioritization-spiral",
+      "description": "A pattern in which continuous \"urgent\" demands are layered onto a person's core committed work without ever relieving them of it, until the original work dies from neglect and the person disengages.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0035125606512998175,
+      "title": "Reactive Reprioritization Spiral"
+    },
+    {
+      "concept_id": "rejection-sensitive-dysphoria",
+      "description": "A pattern of intensely amplified emotional pain — with real physical symptoms — triggered by actual or even just anticipated rejection, common in ADHD, that commonly drives avoidance behaviors including procrastination on anything that risks judgment or failure.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.007930730299560984,
+      "title": "Rejection Sensitive Dysphoria"
+    },
+    {
+      "concept_id": "restraint-collapse",
+      "description": "An early burnout warning in which masking restraint finally exhausts the person into end-of-day or multi-day collapse into passive, low-dopamine disengagement — not laziness but depleted inhibition capacity.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.02539699639312338,
+      "title": "Restraint Collapse"
+    },
+    {
+      "concept_id": "rumination-spiral",
+      "description": "A self-reinforcing pattern in which repeatedly dwelling on distressing or self-critical thoughts makes the mind progressively faster and more practiced at generating more of the same, so each episode primes the next rather than resolving on its own.",
+      "inbound_link_count": 14,
+      "outbound_link_count": 0,
+      "pagerank": 0.04083415572682215,
+      "title": "Rumination Spiral"
+    },
+    {
+      "concept_id": "second-arrow-suffering",
+      "description": "A pattern in which reactive distress — anger, fear, grief, self-criticism, or shame — layered onto an initial painful experience causes more unhappiness than the original pain itself.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0035125606512998175,
+      "title": "Second Arrow Suffering"
+    },
+    {
+      "concept_id": "shutdown",
+      "description": "A protective freeze-and-withdraw response in which a person's ability to act, speak, or respond drops sharply and involuntarily, distinct from a deliberate choice to disengage.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 4,
+      "pagerank": 0.04470084809866745,
+      "title": "Shutdown"
+    },
+    {
+      "concept_id": "stim-vs-compulsion",
+      "description": "A diagnostic distinction between repetitive behaviors driven by sensory pleasure or self-soothing (stims) and those driven by intrusive thoughts that distress the person (compulsions), critical when autism and OCD overlap.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.0058374753658060686,
+      "title": "Stim versus Compulsion"
+    },
+    {
+      "concept_id": "stuck-in-outdated-coping",
+      "description": "A breakdown pattern in which strategies that previously worked continue rigidly even as evidence accumulates that conditions have changed and the old approach is no longer adaptive.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0035125606512998175,
+      "title": "Stuck in Outdated Coping"
+    },
+    {
+      "concept_id": "work-collapse-repeat-cycle",
+      "description": "A repeating cycle of masked, unsupported effort at work followed by collapse and partial recovery, then a return to the same unsupported conditions — distinct from a single burnout episode because the underlying demand/support mismatch is never actually addressed between cycles.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.02539699639312338,
+      "title": "Work-Collapse-Repeat Cycle"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "adhd-burnout",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "adhd-misread-as-carelessness",
+      "target": "hyperfocus.md",
+      "target_concept_id": "hyperfocus",
+      "text": "hyperfocus"
+    },
+    {
+      "source_concept_id": "affective-empathy-overload",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "affective-empathy-overload",
+      "target": "shutdown.md",
+      "target_concept_id": "shutdown",
+      "text": "shutdown"
+    },
+    {
+      "source_concept_id": "alexithymia",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "alexithymia",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "alexithymia",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "attachment-reaction",
+      "target": "aversion-reaction.md",
+      "target_concept_id": "aversion-reaction",
+      "text": "Aversion reaction"
+    },
+    {
+      "source_concept_id": "attachment-reaction",
+      "target": "aversion-reaction.md",
+      "target_concept_id": "aversion-reaction",
+      "text": "aversion reaction"
+    },
+    {
+      "source_concept_id": "attachment-reaction",
+      "target": "discrepancy-monitor-rumination.md",
+      "target_concept_id": "discrepancy-monitor-rumination",
+      "text": "discrepancy-monitorrumination"
+    },
+    {
+      "source_concept_id": "attachment-reaction",
+      "target": "experiential-avoidance.md",
+      "target_concept_id": "experiential-avoidance",
+      "text": "experientialavoidance"
+    },
+    {
+      "source_concept_id": "autistic-burnout",
+      "target": "adhd-burnout.md",
+      "target_concept_id": "adhd-burnout",
+      "text": "ADHD burnout"
+    },
+    {
+      "source_concept_id": "autistic-burnout",
+      "target": "burnout-skill-loss.md",
+      "target_concept_id": "burnout-skill-loss",
+      "text": "burnout skill loss"
+    },
+    {
+      "source_concept_id": "autistic-burnout",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "autistic-burnout",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "autistic-burnout",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdowns"
+    },
+    {
+      "source_concept_id": "autistic-burnout",
+      "target": "restraint-collapse.md",
+      "target_concept_id": "restraint-collapse",
+      "text": "restraint collapse"
+    },
+    {
+      "source_concept_id": "autistic-burnout",
+      "target": "shutdown.md",
+      "target_concept_id": "shutdown",
+      "text": "shutdowns"
+    },
+    {
+      "source_concept_id": "autistic-burnout",
+      "target": "work-collapse-repeat-cycle.md",
+      "target_concept_id": "work-collapse-repeat-cycle",
+      "text": "work-collapse-repeatcycle"
+    },
+    {
+      "source_concept_id": "autistic-depression-presentation",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "autistic-depression-presentation",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "mask"
+    },
+    {
+      "source_concept_id": "autistic-depression-presentation",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "rumination spiral"
+    },
+    {
+      "source_concept_id": "autistic-inertia",
+      "target": "hyperfocus.md",
+      "target_concept_id": "hyperfocus",
+      "text": "hyperfocus"
+    },
+    {
+      "source_concept_id": "autistic-intellectualized-rumination",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "autistic-intellectualized-rumination",
+      "target": "escalating-escapism.md",
+      "target_concept_id": "escalating-escapism",
+      "text": "escalatingescapism"
+    },
+    {
+      "source_concept_id": "autistic-intellectualized-rumination",
+      "target": "masking-hidden-coping.md",
+      "target_concept_id": "masking-hidden-coping",
+      "text": "masking-hidden coping"
+    },
+    {
+      "source_concept_id": "autistic-intellectualized-rumination",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "Meltdown"
+    },
+    {
+      "source_concept_id": "autistic-intellectualized-rumination",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "rumination spiral"
+    },
+    {
+      "source_concept_id": "autistic-presentation-vs-borderline",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "aversion-reaction",
+      "target": "attachment-reaction.md",
+      "target_concept_id": "attachment-reaction",
+      "text": "Attachmentreaction"
+    },
+    {
+      "source_concept_id": "aversion-reaction",
+      "target": "discrepancy-monitor-rumination.md",
+      "target_concept_id": "discrepancy-monitor-rumination",
+      "text": "discrepancy-monitor rumination"
+    },
+    {
+      "source_concept_id": "aversion-reaction",
+      "target": "experiential-avoidance.md",
+      "target_concept_id": "experiential-avoidance",
+      "text": "experientialavoidance"
+    },
+    {
+      "source_concept_id": "aversion-reaction",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "rumination spiral"
+    },
+    {
+      "source_concept_id": "body-dysmorphic-preoccupation",
+      "target": "depression-vicious-cycle.md",
+      "target_concept_id": "depression-vicious-cycle",
+      "text": "depression viciouscycle"
+    },
+    {
+      "source_concept_id": "body-dysmorphic-preoccupation",
+      "target": "obsessive-compulsive-loop.md",
+      "target_concept_id": "obsessive-compulsive-loop",
+      "text": "obsessive-compulsive loop"
+    },
+    {
+      "source_concept_id": "body-dysmorphic-preoccupation",
+      "target": "problem-maintaining-solution.md",
+      "target_concept_id": "problem-maintaining-solution",
+      "text": "problem-maintaining solution"
+    },
+    {
+      "source_concept_id": "burnout-skill-loss",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "burnout-skill-loss",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "chronic-stress-activation",
+      "target": "hyperarousal-vs-hypoarousal.md",
+      "target_concept_id": "hyperarousal-vs-hypoarousal",
+      "text": "hyperarousal"
+    },
+    {
+      "source_concept_id": "cognitive-reactivity",
+      "target": "depression-vicious-cycle.md",
+      "target_concept_id": "depression-vicious-cycle",
+      "text": "depression vicious cycle"
+    },
+    {
+      "source_concept_id": "cognitive-reactivity",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "rumination spiral"
+    },
+    {
+      "source_concept_id": "cure-becomes-poison",
+      "target": "escalating-escapism.md",
+      "target_concept_id": "escalating-escapism",
+      "text": "escalatingescapism"
+    },
+    {
+      "source_concept_id": "cure-becomes-poison",
+      "target": "problem-maintaining-solution.md",
+      "target_concept_id": "problem-maintaining-solution",
+      "text": "problem-maintainingsolution"
+    },
+    {
+      "source_concept_id": "decompensation-collapse",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "decompensation-collapse",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "decompensation-collapse",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "decompensation-collapse",
+      "target": "shutdown.md",
+      "target_concept_id": "shutdown",
+      "text": "shutdown"
+    },
+    {
+      "source_concept_id": "delayed-interoception",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "Alexithymia"
+    },
+    {
+      "source_concept_id": "delayed-interoception",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "delayed-interoception",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "delayed-interoception",
+      "target": "shutdown.md",
+      "target_concept_id": "shutdown",
+      "text": "shutdown"
+    },
+    {
+      "source_concept_id": "depression-episode-kindling",
+      "target": "cognitive-reactivity.md",
+      "target_concept_id": "cognitive-reactivity",
+      "text": "cognitivereactivity"
+    },
+    {
+      "source_concept_id": "depression-episode-kindling",
+      "target": "depression-vicious-cycle.md",
+      "target_concept_id": "depression-vicious-cycle",
+      "text": "depression viciouscycle"
+    },
+    {
+      "source_concept_id": "depression-episode-kindling",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "ruminationspiral"
+    },
+    {
+      "source_concept_id": "depression-exhaustion-funnel",
+      "target": "depression-vicious-cycle.md",
+      "target_concept_id": "depression-vicious-cycle",
+      "text": "depression vicious cycle"
+    },
+    {
+      "source_concept_id": "depression-exhaustion-funnel",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "rumination spiral"
+    },
+    {
+      "source_concept_id": "depression-four-dimension-spiral",
+      "target": "cognitive-reactivity.md",
+      "target_concept_id": "cognitive-reactivity",
+      "text": "cognitivereactivity"
+    },
+    {
+      "source_concept_id": "depression-four-dimension-spiral",
+      "target": "depression-exhaustion-funnel.md",
+      "target_concept_id": "depression-exhaustion-funnel",
+      "text": "depression exhaustion funnel"
+    },
+    {
+      "source_concept_id": "depression-four-dimension-spiral",
+      "target": "depression-interpretation-loop.md",
+      "target_concept_id": "depression-interpretation-loop",
+      "text": "depression interpretation loop"
+    },
+    {
+      "source_concept_id": "depression-four-dimension-spiral",
+      "target": "depression-vicious-cycle.md",
+      "target_concept_id": "depression-vicious-cycle",
+      "text": "depression vicious cycle"
+    },
+    {
+      "source_concept_id": "depression-four-dimension-spiral",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "rumination spiral"
+    },
+    {
+      "source_concept_id": "depression-interpretation-loop",
+      "target": "cognitive-reactivity.md",
+      "target_concept_id": "cognitive-reactivity",
+      "text": "cognitivereactivity"
+    },
+    {
+      "source_concept_id": "depression-interpretation-loop",
+      "target": "depression-four-dimension-spiral.md",
+      "target_concept_id": "depression-four-dimension-spiral",
+      "text": "depression four-dimensionspiral"
+    },
+    {
+      "source_concept_id": "depression-relapse-signature",
+      "target": "cognitive-reactivity.md",
+      "target_concept_id": "cognitive-reactivity",
+      "text": "cognitive reactivity"
+    },
+    {
+      "source_concept_id": "depression-relapse-signature",
+      "target": "depression-episode-kindling.md",
+      "target_concept_id": "depression-episode-kindling",
+      "text": "depression episodekindling"
+    },
+    {
+      "source_concept_id": "depression-relapse-signature",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "ruminationspiral"
+    },
+    {
+      "source_concept_id": "depression-sensory-shutdown",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "Alexithymia"
+    },
+    {
+      "source_concept_id": "depression-sensory-shutdown",
+      "target": "aversion-reaction.md",
+      "target_concept_id": "aversion-reaction",
+      "text": "aversionreaction"
+    },
+    {
+      "source_concept_id": "depression-sensory-shutdown",
+      "target": "experiential-avoidance.md",
+      "target_concept_id": "experiential-avoidance",
+      "text": "experientialavoidance"
+    },
+    {
+      "source_concept_id": "depression-sensory-shutdown",
+      "target": "experiential-avoidance.md",
+      "target_concept_id": "experiential-avoidance",
+      "text": "experientialavoidance"
+    },
+    {
+      "source_concept_id": "depression-vicious-cycle",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "Rumination spiral"
+    },
+    {
+      "source_concept_id": "discrepancy-monitor-rumination",
+      "target": "attachment-reaction.md",
+      "target_concept_id": "attachment-reaction",
+      "text": "attachment reaction"
+    },
+    {
+      "source_concept_id": "discrepancy-monitor-rumination",
+      "target": "aversion-reaction.md",
+      "target_concept_id": "aversion-reaction",
+      "text": "aversionreaction"
+    },
+    {
+      "source_concept_id": "discrepancy-monitor-rumination",
+      "target": "cognitive-reactivity.md",
+      "target_concept_id": "cognitive-reactivity",
+      "text": "cognitive reactivity"
+    },
+    {
+      "source_concept_id": "discrepancy-monitor-rumination",
+      "target": "depression-four-dimension-spiral.md",
+      "target_concept_id": "depression-four-dimension-spiral",
+      "text": "depressionfour-dimension spiral"
+    },
+    {
+      "source_concept_id": "discrepancy-monitor-rumination",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "rumination spiral"
+    },
+    {
+      "source_concept_id": "emotional-avoidance",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "burnout"
+    },
+    {
+      "source_concept_id": "emotional-avoidance",
+      "target": "escalating-escapism.md",
+      "target_concept_id": "escalating-escapism",
+      "text": "escalating escapism"
+    },
+    {
+      "source_concept_id": "emotional-avoidance",
+      "target": "experiential-avoidance.md",
+      "target_concept_id": "experiential-avoidance",
+      "text": "experientialavoidance"
+    },
+    {
+      "source_concept_id": "emotional-avoidance",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "escalating-escapism",
+      "target": "emotional-avoidance.md",
+      "target_concept_id": "emotional-avoidance",
+      "text": "emotionalavoidance"
+    },
+    {
+      "source_concept_id": "experiential-avoidance",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "experiential-avoidance",
+      "target": "aversion-reaction.md",
+      "target_concept_id": "aversion-reaction",
+      "text": "aversion reaction"
+    },
+    {
+      "source_concept_id": "experiential-avoidance",
+      "target": "delayed-interoception.md",
+      "target_concept_id": "delayed-interoception",
+      "text": "delayedinteroception"
+    },
+    {
+      "source_concept_id": "experiential-avoidance",
+      "target": "emotional-avoidance.md",
+      "target_concept_id": "emotional-avoidance",
+      "text": "Emotional avoidance"
+    },
+    {
+      "source_concept_id": "experiential-avoidance",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "rumination spiral"
+    },
+    {
+      "source_concept_id": "fear-generalization-spiral",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "ruminationspiral"
+    },
+    {
+      "source_concept_id": "forced-socialization-hide-response",
+      "target": "shutdown.md",
+      "target_concept_id": "shutdown",
+      "text": "shutdown"
+    },
+    {
+      "source_concept_id": "hyperarousal-vs-hypoarousal",
+      "target": "chronic-stress-activation.md",
+      "target_concept_id": "chronic-stress-activation",
+      "text": "chronic stressactivation"
+    },
+    {
+      "source_concept_id": "hyperarousal-vs-hypoarousal",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "hyperarousal-vs-hypoarousal",
+      "target": "shutdown.md",
+      "target_concept_id": "shutdown",
+      "text": "shutdown"
+    },
+    {
+      "source_concept_id": "hyperfocus",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "inconsistent-performer-pattern",
+      "target": "cross-employer-performance-capping-cycle.md",
+      "target_concept_id": "cross-employer-performance-capping-cycle",
+      "text": "cross-employer performance cappingcycle"
+    },
+    {
+      "source_concept_id": "inconsistent-performer-pattern",
+      "target": "hyperfocus.md",
+      "target_concept_id": "hyperfocus",
+      "text": "hyperfocus"
+    },
+    {
+      "source_concept_id": "inconsistent-performer-pattern",
+      "target": "indiscipline-of-overwork.md",
+      "target_concept_id": "indiscipline-of-overwork",
+      "text": "indiscipline of overwork"
+    },
+    {
+      "source_concept_id": "indiscipline-of-overwork",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "indiscipline-of-overwork",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "locally-adaptive-globally-maladaptive-coping",
+      "target": "cross-employer-performance-capping-cycle.md",
+      "target_concept_id": "cross-employer-performance-capping-cycle",
+      "text": "cross-employer performancecapping cycle"
+    },
+    {
+      "source_concept_id": "locally-adaptive-globally-maladaptive-coping",
+      "target": "indiscipline-of-overwork.md",
+      "target_concept_id": "indiscipline-of-overwork",
+      "text": "indiscipline of overwork"
+    },
+    {
+      "source_concept_id": "masking",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "masking",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "masking",
+      "target": "burnout-skill-loss.md",
+      "target_concept_id": "burnout-skill-loss",
+      "text": "burnout skillloss"
+    },
+    {
+      "source_concept_id": "masking",
+      "target": "chronic-stress-activation.md",
+      "target_concept_id": "chronic-stress-activation",
+      "text": "chronic stressactivation"
+    },
+    {
+      "source_concept_id": "masking-hidden-coping",
+      "target": "autistic-intellectualized-rumination.md",
+      "target_concept_id": "autistic-intellectualized-rumination",
+      "text": "autistic intellectualized rumination"
+    },
+    {
+      "source_concept_id": "masking-hidden-coping",
+      "target": "cure-becomes-poison.md",
+      "target_concept_id": "cure-becomes-poison",
+      "text": "cure becomespoison"
+    },
+    {
+      "source_concept_id": "masking-hidden-coping",
+      "target": "escalating-escapism.md",
+      "target_concept_id": "escalating-escapism",
+      "text": "escalating escapism"
+    },
+    {
+      "source_concept_id": "masking-hidden-coping",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "meltdown",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "meltdown",
+      "target": "post-meltdown-fawning-rebound.md",
+      "target_concept_id": "post-meltdown-fawning-rebound",
+      "text": "post-meltdown fawning rebound"
+    },
+    {
+      "source_concept_id": "neurodivergence-misread-as-anxiety",
+      "target": "alexithymia.md",
+      "target_concept_id": "alexithymia",
+      "text": "alexithymia"
+    },
+    {
+      "source_concept_id": "neurodivergence-misread-as-anxiety",
+      "target": "autistic-presentation-vs-borderline.md",
+      "target_concept_id": "autistic-presentation-vs-borderline",
+      "text": "autistic presentation versus borderlinepersonality disorder"
+    },
+    {
+      "source_concept_id": "neurodivergence-misread-as-anxiety",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "neurodivergence-misread-as-anxiety",
+      "target": "shutdown.md",
+      "target_concept_id": "shutdown",
+      "text": "shutdown"
+    },
+    {
+      "source_concept_id": "obsessive-compulsive-loop",
+      "target": "depression-vicious-cycle.md",
+      "target_concept_id": "depression-vicious-cycle",
+      "text": "depression vicious cycle"
+    },
+    {
+      "source_concept_id": "obsessive-compulsive-loop",
+      "target": "stim-vs-compulsion.md",
+      "target_concept_id": "stim-vs-compulsion",
+      "text": "Stim versus compulsion"
+    },
+    {
+      "source_concept_id": "perfectionism-driven-overwork",
+      "target": "hyperfocus.md",
+      "target_concept_id": "hyperfocus",
+      "text": "hyperfocus"
+    },
+    {
+      "source_concept_id": "pervasive-drive-for-autonomy",
+      "target": "emotional-avoidance.md",
+      "target_concept_id": "emotional-avoidance",
+      "text": "emotional avoidance"
+    },
+    {
+      "source_concept_id": "post-meltdown-fawning-rebound",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "post-meltdown-fawning-rebound",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "post-meltdown-fawning-rebound",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "problem-maintaining-solution",
+      "target": "cure-becomes-poison.md",
+      "target_concept_id": "cure-becomes-poison",
+      "text": "cure becomespoison"
+    },
+    {
+      "source_concept_id": "problem-maintaining-solution",
+      "target": "depression-vicious-cycle.md",
+      "target_concept_id": "depression-vicious-cycle",
+      "text": "depression viciouscycle"
+    },
+    {
+      "source_concept_id": "problem-maintaining-solution",
+      "target": "emotional-avoidance.md",
+      "target_concept_id": "emotional-avoidance",
+      "text": "emotional avoidance"
+    },
+    {
+      "source_concept_id": "problem-maintaining-solution",
+      "target": "escalating-escapism.md",
+      "target_concept_id": "escalating-escapism",
+      "text": "escalatingescapism"
+    },
+    {
+      "source_concept_id": "problem-maintaining-solution",
+      "target": "obsessive-compulsive-loop.md",
+      "target_concept_id": "obsessive-compulsive-loop",
+      "text": "obsessive-compulsiveloop"
+    },
+    {
+      "source_concept_id": "problem-maintaining-solution",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "rumination spiral"
+    },
+    {
+      "source_concept_id": "raw-spots",
+      "target": "rejection-sensitive-dysphoria.md",
+      "target_concept_id": "rejection-sensitive-dysphoria",
+      "text": "rejection sensitivedysphoria"
+    },
+    {
+      "source_concept_id": "rejection-sensitive-dysphoria",
+      "target": "emotional-avoidance.md",
+      "target_concept_id": "emotional-avoidance",
+      "text": "emotional avoidance"
+    },
+    {
+      "source_concept_id": "rejection-sensitive-dysphoria",
+      "target": "escalating-escapism.md",
+      "target_concept_id": "escalating-escapism",
+      "text": "escalating escapism"
+    },
+    {
+      "source_concept_id": "rejection-sensitive-dysphoria",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "rejection-sensitive-dysphoria",
+      "target": "raw-spots.md",
+      "target_concept_id": "raw-spots",
+      "text": "rawspots"
+    },
+    {
+      "source_concept_id": "restraint-collapse",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "restraint-collapse",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "second-arrow-suffering",
+      "target": "aversion-reaction.md",
+      "target_concept_id": "aversion-reaction",
+      "text": "aversion reaction"
+    },
+    {
+      "source_concept_id": "second-arrow-suffering",
+      "target": "aversion-reaction.md",
+      "target_concept_id": "aversion-reaction",
+      "text": "aversion reaction"
+    },
+    {
+      "source_concept_id": "second-arrow-suffering",
+      "target": "rumination-spiral.md",
+      "target_concept_id": "rumination-spiral",
+      "text": "ruminationspiral"
+    },
+    {
+      "source_concept_id": "shutdown",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autistic burnout"
+    },
+    {
+      "source_concept_id": "shutdown",
+      "target": "hyperarousal-vs-hypoarousal.md",
+      "target_concept_id": "hyperarousal-vs-hypoarousal",
+      "text": "hypoarousal-direction"
+    },
+    {
+      "source_concept_id": "shutdown",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "shutdown",
+      "target": "meltdown.md",
+      "target_concept_id": "meltdown",
+      "text": "meltdown"
+    },
+    {
+      "source_concept_id": "stuck-in-outdated-coping",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "mask"
+    },
+    {
+      "source_concept_id": "work-collapse-repeat-cycle",
+      "target": "autistic-burnout.md",
+      "target_concept_id": "autistic-burnout",
+      "text": "autisticburnout"
+    },
+    {
+      "source_concept_id": "work-collapse-repeat-cycle",
+      "target": "masking.md",
+      "target_concept_id": "masking",
+      "text": "masking"
+    }
+  ]
+}

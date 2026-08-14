@@ -1,0 +1,1915 @@
+{
+  "bundle": "automation-engineering",
+  "concepts": [
+    {
+      "concept_id": "ad-hoc-compute-resource-governance",
+      "description": "Self-service distributed compute for one-off analyses needs quota guardrails because accidental over-consumption is easy, even when the engineering time saved almost always outweighs the compute cost.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.003260869565217392,
+      "title": "Ad Hoc Compute Resource Governance"
+    },
+    {
+      "concept_id": "automation-bias",
+      "description": "Humans who rely on automated tools for long enough lose the situational awareness and manual skill needed to intervene effectively when the automation fails or behaves unexpectedly.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 5,
+      "pagerank": 0.044356268290192506,
+      "title": "Automation Bias"
+    },
+    {
+      "concept_id": "automation-maturity-spectrum",
+      "description": "Operational automation progresses through recognizable stages \u2014 manual operation, playbook scripts, internal automation services, and autonomous self-healing systems \u2014 each trading operator control for consistency and scale.",
+      "inbound_link_count": 13,
+      "outbound_link_count": 9,
+      "pagerank": 0.06696157967344615,
+      "title": "Automation Maturity Spectrum"
+    },
+    {
+      "concept_id": "automation-surprise",
+      "description": "An operator is caught off guard by what automation just did because their mental model of its current mode or state has silently diverged from reality, not because they lack skill or attention.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.010801428463426873,
+      "title": "Automation Surprise"
+    },
+    {
+      "concept_id": "autoscaling-safety-practices",
+      "description": "Autoscaling is automation deciding how much of a service to run, so it inherits every general safeguard automation needs, plus failure modes specific to using load or utilization as the signal that drives it.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.020768670519472412,
+      "title": "Autoscaling Safety Practices"
+    },
+    {
+      "concept_id": "case-for-eliminating-toil",
+      "description": "Eliminating toil prevents operator burnout, keeps headcount growth sublinear as the system it supports scales, and removes the manual-error risk that comes from doing operational tasks by hand.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.024601807929281617,
+      "title": "The Case for Eliminating Toil"
+    },
+    {
+      "concept_id": "checklist-design-principles",
+      "description": "A documented procedure only earns the reliability it promises if it is built to specific design rules \u2014 short, tested, and focused on the steps people actually forget \u2014 not just written down.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.013285083814778817,
+      "title": "Checklist Design Principles"
+    },
+    {
+      "concept_id": "circuit-breaker-for-automated-retries",
+      "description": "Automation that retries a failing dependency needs a circuit breaker to stop retrying once failures pass a threshold, so a struggling downstream service gets relief instead of a retry storm that keeps it down.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.013692106393088151,
+      "title": "Circuit Breaker for Automated Retries"
+    },
+    {
+      "concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "description": "A countermeasure that only runs during a real emergency \u2014 a failover, a restore, a manual override \u2014 silently loses reliability between incidents, so it needs to be exercised deliberately rather than trusted on the strength of its last successful use.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 4,
+      "pagerank": 0.06013033275602084,
+      "title": "Confidence Decay in Unpracticed Safeguards"
+    },
+    {
+      "concept_id": "convergent-vs-direct-orchestration",
+      "description": "Automation that maintains a system's state can either continuously reconcile it toward a declared goal, or execute an explicit ordered sequence of steps \u2014 and the right choice depends on whether the procedure has invariants that must hold mid-flight, not just at the end.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.012880539222028453,
+      "title": "Convergent vs. Direct Orchestration"
+    },
+    {
+      "concept_id": "crash-loop-escalation-threshold",
+      "description": "An automated process watcher that blindly restarts a crashing process forever can waste resources or mask a real problem, so it needs its own rate limit that converts repeated restarts into a human escalation.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.008216002695840408,
+      "title": "Crash-Loop Escalation Threshold"
+    },
+    {
+      "concept_id": "crash-only-software",
+      "description": "Deliberately omitting a graceful shutdown/startup path so the only way to stop or start a component is through its crash-recovery code, forcing that recovery path to be exercised \u2014 and hardened \u2014 on every run.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.01603855225482439,
+      "title": "Crash-Only Software"
+    },
+    {
+      "concept_id": "dynamic-work-chunking-for-failure-resilience",
+      "description": "Batch work assigned in small, dynamically claimed chunks bounds how much progress a managed-compute scheduler can destroy when it kills a replica, instead of losing an entire static partition on every failure.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.007675406275423955,
+      "title": "Dynamic Work Chunking for Failure Resilience"
+    },
+    {
+      "concept_id": "efficiency-flexibility-tradeoff",
+      "description": "A system tuned for high efficiency inside a narrow, predictable operating envelope becomes correspondingly brittle outside it, so standardizing for normal conditions trades away the adaptive range a system needs for abnormal ones.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.006379339121994235,
+      "title": "Efficiency-Flexibility Trade-off"
+    },
+    {
+      "concept_id": "embedding-decision-support-to-reduce-sharp-end-load",
+      "description": "Pairing a generic, high-level sensemaking framework with a real-time decision-support tool built into the automation itself lowers how much adaptive competence a sharp-end operator must supply unaided during a genuine surprise.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.006379339121994235,
+      "title": "Embedding Decision Support to Reduce Sharp-End Cognitive Load"
+    },
+    {
+      "concept_id": "engineering-work-vs-toil",
+      "description": "Operational work splits into three categories with different value \u2014 engineering work builds enduring, sublinearly-scaling improvements, toil is manual work that scales linearly and leaves nothing behind, and overhead is administrative work that isn't either.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.01374908993296324,
+      "title": "Engineering Work vs. Toil vs. Overhead"
+    },
+    {
+      "concept_id": "exception-collection-as-automation-health-signal",
+      "description": "Centrally capturing every severe program-exiting failure keeps automated self-healing from silently hiding recurring crashes, and turns exception volume into a stop-the-rollout signal for automated deployment.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.011844538610534682,
+      "title": "Exception Collection as an Automation Health Signal"
+    },
+    {
+      "concept_id": "failing-safe-vs-failing-secure",
+      "description": "Automation reacting to a condition it can't fully verify has to choose a default direction \u2014 keep serving to maximize availability, or lock down to maximize security \u2014 and the two goals point opposite ways.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.013692106393088151,
+      "title": "Failing Safe vs. Failing Secure"
+    },
+    {
+      "concept_id": "failure-domain-amplification",
+      "description": "Automation running at scale can apply a destructive bug to an entire fleet almost instantaneously, turning a small coding error into a global outage in the time it takes the automation to run.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.028180256959393465,
+      "title": "Failure Domain Amplification in Automation"
+    },
+    {
+      "concept_id": "fallacy-of-predetermination",
+      "description": "Detailed planning and rule-writing create the illusion that all future operational states have been anticipated, when no realistic amount of upfront rules can actually cover every situation a system or its operators will eventually meet.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.016810575949864993,
+      "title": "Fallacy of Predetermination"
+    },
+    {
+      "concept_id": "fencing-tokens-against-zombie-actors",
+      "description": "A control-loop instance or leader that was presumed dead and superseded can wake up and keep acting on stale authority unless every action it takes is tagged with a monotonically increasing token the rest of the system can use to reject it.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.029086258471602268,
+      "title": "Fencing Tokens Against Zombie Actors"
+    },
+    {
+      "concept_id": "governor-pattern",
+      "description": "A programmable throttle that caps the maximum rate of an automated operation \u2014 batch processing, automated deploys, mass sends \u2014 so a bug or misconfiguration can't run away to its full damage before anyone can intervene.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.020645299193614547,
+      "title": "Governor Pattern"
+    },
+    {
+      "concept_id": "idempotency-in-automation",
+      "description": "Automation that isn't idempotent can leave a system in an inconsistent, half-configured state when it fails partway through, so anything designed to run unattended must be safe to retry or re-run from any point.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 7,
+      "pagerank": 0.04907998346824863,
+      "title": "Idempotency as a Requirement for Safe Automation"
+    },
+    {
+      "concept_id": "intent-based-automation",
+      "description": "An automation pattern where the system is given a high-level goal \u2014 an SLO, a growth forecast, a target state \u2014 and computes the low-level operational decisions itself, instead of being told the steps to execute.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.01765916791763058,
+      "title": "Intent-Based Automation"
+    },
+    {
+      "concept_id": "interacting-automated-control-loops",
+      "description": "Two automated systems that are each individually correct can still drive each other into a runaway feedback loop if they were built and tuned without a shared view of how their signals affect one another.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.021766252154989188,
+      "title": "Interacting Automated Control Loops"
+    },
+    {
+      "concept_id": "irony-of-resilience",
+      "description": "Blunt-end efforts to standardize and pre-plan every response strip sharp-end operators of exactly the autonomy and adaptability the system ends up depending on the one time an event falls outside what was anticipated.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 6,
+      "pagerank": 0.0220127449669624,
+      "title": "Irony of Resilience"
+    },
+    {
+      "concept_id": "lame-duck-mode-draining",
+      "description": "A replica that needs to be taken out of service intentionally fails its own health checks so a load balancer stops routing new traffic to it, letting automation retire or replace it without losing in-flight work.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.012630539406046972,
+      "title": "Lame-Duck Mode (Queue Draining)"
+    },
+    {
+      "concept_id": "lease-based-exclusive-coordination",
+      "description": "Automation that must have exactly one active owner at a time \u2014 a singleton scheduler, a leader-elected control loop \u2014 should grant that ownership as a time-bound lease renewed by heartbeat, not a permanent lock, so a crashed or hung owner can't block the system forever.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.005450560713291941,
+      "title": "Lease-Based Exclusive Coordination"
+    },
+    {
+      "concept_id": "legacy-system-automation-pathway",
+      "description": "Automating away a legacy system that can't simply be replaced outright moves through recognizable stages \u2014 avoidance, encapsulation, replacement, then retirement of the stragglers \u2014 rather than one big migration.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.00848876803971331,
+      "title": "Legacy System Automation Pathway"
+    },
+    {
+      "concept_id": "normalization-of-deviance-via-decrementalism",
+      "description": "A safety-critical threshold erodes not through one bad decision but through many small, individually-defensible relaxations, each judged safe only because the previous relaxation happened to succeed \u2014 leaving the cumulative drift invisible to anyone reviewing changes one at a time.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.018647239523711168,
+      "title": "Normalization of Deviance via Decrementalism"
+    },
+    {
+      "concept_id": "pets-vs-cattle",
+      "description": "Managed compute treats replicas as interchangeable \"cattle\" that automation can replace without human nursing, which only works when every new instance can be stamped out with zero manual setup.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 4,
+      "pagerank": 0.020774290527410803,
+      "title": "Pets versus Cattle"
+    },
+    {
+      "concept_id": "progressive-compute-automation",
+      "description": "Operating compute at organizational scale forces a recognizable ladder of automation \u2014 deployment, monitoring, process self-healing, then central scheduling \u2014 because manual SSH-and-deploy workflows collapse long before the fleet does.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.012632534820067598,
+      "title": "Progressive Compute Automation"
+    },
+    {
+      "concept_id": "reusable-platforms-over-bespoke-scripts",
+      "description": "Building automation as a reusable platform framework that many teams can build on captures more value than writing a one-off script tied to a single service, at the cost of needing genuine software-engineering investment to build.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 4,
+      "pagerank": 0.019501204942601543,
+      "title": "Reusable Platforms over Bespoke Scripts"
+    },
+    {
+      "concept_id": "risk-reduction-through-repetition",
+      "description": "The instinctive response to a risky procedure is to do it less often, but that concentrates more change into each attempt and lets skill decay between attempts \u2014 doing it smaller and more often is usually safer.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.022362704845336537,
+      "title": "Risk Reduction Through Repetition"
+    },
+    {
+      "concept_id": "safeguards-against-runaway-automation",
+      "description": "Automation capable of acting at scale needs explicit rate limits, precondition checks, and an emergency stop built in, so a bug or bad input can't run to completion unchecked before a human can intervene.",
+      "inbound_link_count": 21,
+      "outbound_link_count": 10,
+      "pagerank": 0.12272049635390699,
+      "title": "Safeguards Against Runaway Automation"
+    },
+    {
+      "concept_id": "self-healing-overload-response",
+      "description": "A system can automatically shed or throttle its own load to survive a spike without crashing, as long as it detects the overload itself rather than trusting a signal an attacker or a dependency could spoof.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 6,
+      "pagerank": 0.03497742693631205,
+      "title": "Self-Healing Overload Response"
+    },
+    {
+      "concept_id": "silent-correction-masks-growing-failure",
+      "description": "Automation that quietly absorbs small deviations without surfacing them removes the early warning signs an operator would otherwise notice, letting a slowly growing problem go undetected until it fails all at once.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.012806605895087444,
+      "title": "Silent Correction Masks a Growing Failure"
+    },
+    {
+      "concept_id": "software-engineering-rigor-for-ops-tooling",
+      "description": "Internal tools, control planes, and automation platforms should be held to the same standards as production software \u2014 design docs, code review, automated testing, continuous integration \u2014 not treated as disposable scripts.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.012966381178186543,
+      "title": "Software-Engineering Rigor for Operational Tooling"
+    },
+    {
+      "concept_id": "thinnest-viable-platform",
+      "description": "Start an internal automation platform at the smallest scope that solves consumers' real problem \u2014 even just a documented convention \u2014 and grow it only as consuming teams' needs actually justify more investment.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.007404878557251825,
+      "title": "Thinnest Viable Platform"
+    },
+    {
+      "concept_id": "toil",
+      "description": "Toil is operational work that is manual, repetitive, automatable, reactive, produces no enduring value, and grows linearly with the system it supports.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 5,
+      "pagerank": 0.03823670697691499,
+      "title": "Toil"
+    },
+    {
+      "concept_id": "toil-budget",
+      "description": "Capping toil and on-call at half of operational time, with a mechanism to push the surplus back to development teams when the cap is exceeded, protects the other half as guaranteed time for the engineering work that removes toil permanently.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.01876684882486186,
+      "title": "Toil Budget (the 50% Rule)"
+    },
+    {
+      "concept_id": "toil-triage-categories",
+      "description": "Not all toil is a live automation candidate \u2014 sorting it into not-yet automated, not worth automating, and impossible-to-automate-but-still streamlinable determines what to do with each kind instead of treating all manual work the same.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.013059016585027436,
+      "title": "Toil Triage Categories"
+    },
+    {
+      "concept_id": "transient-local-state-on-managed-compute",
+      "description": "Replicas treated as cattle lose all in-process and local-disk state on replacement or migration, so durable application state must live off-machine unless a local copy is explicitly disposable.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.003260869565217392,
+      "title": "Transient Local State on Managed Compute"
+    },
+    {
+      "concept_id": "unbriefed-surprise-builds-uncertainty-competence",
+      "description": "A drill that is pre-briefed, run once, and debriefed only rehearses matching a known scenario to a known procedure; building the ability to handle genuinely unanticipated events requires exposure to surprise without advance warning, plus deliberate counterfactual rehearsal.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.02805318950380661,
+      "title": "Unbriefed Surprise Builds Uncertainty-Management Competence"
+    },
+    {
+      "concept_id": "uniformity-as-automation-prerequisite",
+      "description": "Automation is cheapest to build and safest to run when the things it operates on are interchangeable, so converting special-cased \"snowflakes\" into uniform, identically-handled instances is often the real prerequisite work before automating at all.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.015519476926507663,
+      "title": "Uniformity as an Automation Prerequisite"
+    },
+    {
+      "concept_id": "value-of-automation",
+      "description": "Automation is worth building because it executes identically every time, runs faster than a human, hides low-level operational detail behind a declarative interface, and lets a small team manage a large, growing system without headcount growing to match.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.011786659762816867,
+      "title": "Value of Automation"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "ad-hoc-compute-resource-governance",
+      "source_path": "ad-hoc-compute-resource-governance.md",
+      "target": "pets-vs-cattle.md",
+      "target_concept_id": "pets-vs-cattle",
+      "target_path": "pets-vs-cattle.md",
+      "text": "cattle",
+      "title": null
+    },
+    {
+      "source_concept_id": "ad-hoc-compute-resource-governance",
+      "source_path": "ad-hoc-compute-resource-governance.md",
+      "target": "pets-vs-cattle.md",
+      "target_concept_id": "pets-vs-cattle",
+      "target_path": "pets-vs-cattle.md",
+      "text": "servingjobs",
+      "title": null
+    },
+    {
+      "source_concept_id": "ad-hoc-compute-resource-governance",
+      "source_path": "ad-hoc-compute-resource-governance.md",
+      "target": "reusable-platforms-over-bespoke-scripts.md",
+      "target_concept_id": "reusable-platforms-over-bespoke-scripts",
+      "target_path": "reusable-platforms-over-bespoke-scripts.md",
+      "text": "reusable platforms over bespokescripts",
+      "title": null
+    },
+    {
+      "source_concept_id": "ad-hoc-compute-resource-governance",
+      "source_path": "ad-hoc-compute-resource-governance.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguardsagainst runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-bias",
+      "source_path": "automation-bias.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturityspectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-bias",
+      "source_path": "automation-bias.md",
+      "target": "automation-surprise.md",
+      "target_concept_id": "automation-surprise",
+      "target_path": "automation-surprise.md",
+      "text": "automationsurprise",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-bias",
+      "source_path": "automation-bias.md",
+      "target": "confidence-decay-in-unpracticed-safeguards.md",
+      "target_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "target_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "text": "confidence decay in unpracticedsafeguards",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-bias",
+      "source_path": "automation-bias.md",
+      "target": "irony-of-resilience.md",
+      "target_concept_id": "irony-of-resilience",
+      "target_path": "irony-of-resilience.md",
+      "text": "irony of resilience",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-bias",
+      "source_path": "automation-bias.md",
+      "target": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "target_concept_id": "unbriefed-surprise-builds-uncertainty-competence",
+      "target_path": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "text": "unbriefed surprise exposure",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-maturity-spectrum",
+      "source_path": "automation-maturity-spectrum.md",
+      "target": "automation-bias.md",
+      "target_concept_id": "automation-bias",
+      "target_path": "automation-bias.md",
+      "text": "automation bias",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-maturity-spectrum",
+      "source_path": "automation-maturity-spectrum.md",
+      "target": "checklist-design-principles.md",
+      "target_concept_id": "checklist-design-principles",
+      "target_path": "checklist-design-principles.md",
+      "text": "checklist",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-maturity-spectrum",
+      "source_path": "automation-maturity-spectrum.md",
+      "target": "failure-domain-amplification.md",
+      "target_concept_id": "failure-domain-amplification",
+      "target_path": "failure-domain-amplification.md",
+      "text": "failure domain amplification",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-maturity-spectrum",
+      "source_path": "automation-maturity-spectrum.md",
+      "target": "idempotency-in-automation.md",
+      "target_concept_id": "idempotency-in-automation",
+      "target_path": "idempotency-in-automation.md",
+      "text": "idempotency",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-maturity-spectrum",
+      "source_path": "automation-maturity-spectrum.md",
+      "target": "intent-based-automation.md",
+      "target_concept_id": "intent-based-automation",
+      "target_path": "intent-based-automation.md",
+      "text": "intent-based automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-maturity-spectrum",
+      "source_path": "automation-maturity-spectrum.md",
+      "target": "reusable-platforms-over-bespoke-scripts.md",
+      "target_concept_id": "reusable-platforms-over-bespoke-scripts",
+      "target_path": "reusable-platforms-over-bespoke-scripts.md",
+      "text": "reusable platform frameworks",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-maturity-spectrum",
+      "source_path": "automation-maturity-spectrum.md",
+      "target": "risk-reduction-through-repetition.md",
+      "target_concept_id": "risk-reduction-through-repetition",
+      "target_path": "risk-reduction-through-repetition.md",
+      "text": "risk reduction through repetition",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-maturity-spectrum",
+      "source_path": "automation-maturity-spectrum.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-maturity-spectrum",
+      "source_path": "automation-maturity-spectrum.md",
+      "target": "self-healing-overload-response.md",
+      "target_concept_id": "self-healing-overload-response",
+      "target_path": "self-healing-overload-response.md",
+      "text": "Self-healing overload response",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-surprise",
+      "source_path": "automation-surprise.md",
+      "target": "automation-bias.md",
+      "target_concept_id": "automation-bias",
+      "target_path": "automation-bias.md",
+      "text": "automationbias",
+      "title": null
+    },
+    {
+      "source_concept_id": "automation-surprise",
+      "source_path": "automation-surprise.md",
+      "target": "silent-correction-masks-growing-failure.md",
+      "target_concept_id": "silent-correction-masks-growing-failure",
+      "target_path": "silent-correction-masks-growing-failure.md",
+      "text": "silent correction masking agrowing failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "autoscaling-safety-practices",
+      "source_path": "autoscaling-safety-practices.md",
+      "target": "intent-based-automation.md",
+      "target_concept_id": "intent-based-automation",
+      "target_path": "intent-based-automation.md",
+      "text": "intent-based automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "autoscaling-safety-practices",
+      "source_path": "autoscaling-safety-practices.md",
+      "target": "interacting-automated-control-loops.md",
+      "target_concept_id": "interacting-automated-control-loops",
+      "target_path": "interacting-automated-control-loops.md",
+      "text": "interacting automated controlloops",
+      "title": null
+    },
+    {
+      "source_concept_id": "autoscaling-safety-practices",
+      "source_path": "autoscaling-safety-practices.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runawayautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "case-for-eliminating-toil",
+      "source_path": "case-for-eliminating-toil.md",
+      "target": "legacy-system-automation-pathway.md",
+      "target_concept_id": "legacy-system-automation-pathway",
+      "target_path": "legacy-system-automation-pathway.md",
+      "text": "legacy system automationpathway",
+      "title": null
+    },
+    {
+      "source_concept_id": "case-for-eliminating-toil",
+      "source_path": "case-for-eliminating-toil.md",
+      "target": "toil-budget.md",
+      "target_concept_id": "toil-budget",
+      "target_path": "toil-budget.md",
+      "text": "toil budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "case-for-eliminating-toil",
+      "source_path": "case-for-eliminating-toil.md",
+      "target": "toil.md",
+      "target_concept_id": "toil",
+      "target_path": "toil.md",
+      "text": "toil",
+      "title": null
+    },
+    {
+      "source_concept_id": "case-for-eliminating-toil",
+      "source_path": "case-for-eliminating-toil.md",
+      "target": "value-of-automation.md",
+      "target_concept_id": "value-of-automation",
+      "target_path": "value-of-automation.md",
+      "text": "automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-design-principles",
+      "source_path": "checklist-design-principles.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturityspectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-design-principles",
+      "source_path": "checklist-design-principles.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "playbook automation script",
+      "title": null
+    },
+    {
+      "source_concept_id": "circuit-breaker-for-automated-retries",
+      "source_path": "circuit-breaker-for-automated-retries.md",
+      "target": "confidence-decay-in-unpracticed-safeguards.md",
+      "target_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "target_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "text": "confidence decay in unpracticedsafeguards",
+      "title": null
+    },
+    {
+      "source_concept_id": "circuit-breaker-for-automated-retries",
+      "source_path": "circuit-breaker-for-automated-retries.md",
+      "target": "idempotency-in-automation.md",
+      "target_concept_id": "idempotency-in-automation",
+      "target_path": "idempotency-in-automation.md",
+      "text": "idempotency",
+      "title": null
+    },
+    {
+      "source_concept_id": "circuit-breaker-for-automated-retries",
+      "source_path": "circuit-breaker-for-automated-retries.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runawayautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "source_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "target": "automation-bias.md",
+      "target_concept_id": "automation-bias",
+      "target_path": "automation-bias.md",
+      "text": "automationbias",
+      "title": null
+    },
+    {
+      "source_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "source_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "target": "crash-only-software.md",
+      "target_concept_id": "crash-only-software",
+      "target_path": "crash-only-software.md",
+      "text": "crash-onlysoftware",
+      "title": null
+    },
+    {
+      "source_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "source_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "target": "risk-reduction-through-repetition.md",
+      "target_concept_id": "risk-reduction-through-repetition",
+      "target_path": "risk-reduction-through-repetition.md",
+      "text": "risk reduction through frequentrepetition",
+      "title": null
+    },
+    {
+      "source_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "source_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "target": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "target_concept_id": "unbriefed-surprise-builds-uncertainty-competence",
+      "target_path": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "text": "unbriefedsurprise exposure",
+      "title": null
+    },
+    {
+      "source_concept_id": "convergent-vs-direct-orchestration",
+      "source_path": "convergent-vs-direct-orchestration.md",
+      "target": "intent-based-automation.md",
+      "target_concept_id": "intent-based-automation",
+      "target_path": "intent-based-automation.md",
+      "text": "intent-basedautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "convergent-vs-direct-orchestration",
+      "source_path": "convergent-vs-direct-orchestration.md",
+      "target": "interacting-automated-control-loops.md",
+      "target_concept_id": "interacting-automated-control-loops",
+      "target_path": "interacting-automated-control-loops.md",
+      "text": "interactingautomated control loops",
+      "title": null
+    },
+    {
+      "source_concept_id": "convergent-vs-direct-orchestration",
+      "source_path": "convergent-vs-direct-orchestration.md",
+      "target": "lease-based-exclusive-coordination.md",
+      "target_concept_id": "lease-based-exclusive-coordination",
+      "target_path": "lease-based-exclusive-coordination.md",
+      "text": "lease-based exclusivecoordination",
+      "title": null
+    },
+    {
+      "source_concept_id": "convergent-vs-direct-orchestration",
+      "source_path": "convergent-vs-direct-orchestration.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runawayautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "convergent-vs-direct-orchestration",
+      "source_path": "convergent-vs-direct-orchestration.md",
+      "target": "self-healing-overload-response.md",
+      "target_concept_id": "self-healing-overload-response",
+      "target_path": "self-healing-overload-response.md",
+      "text": "self-healing",
+      "title": null
+    },
+    {
+      "source_concept_id": "crash-loop-escalation-threshold",
+      "source_path": "crash-loop-escalation-threshold.md",
+      "target": "governor-pattern.md",
+      "target_concept_id": "governor-pattern",
+      "target_path": "governor-pattern.md",
+      "text": "governor",
+      "title": null
+    },
+    {
+      "source_concept_id": "crash-loop-escalation-threshold",
+      "source_path": "crash-loop-escalation-threshold.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguard against runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "crash-loop-escalation-threshold",
+      "source_path": "crash-loop-escalation-threshold.md",
+      "target": "self-healing-overload-response.md",
+      "target_concept_id": "self-healing-overload-response",
+      "target_path": "self-healing-overload-response.md",
+      "text": "self-healing",
+      "title": null
+    },
+    {
+      "source_concept_id": "crash-only-software",
+      "source_path": "crash-only-software.md",
+      "target": "confidence-decay-in-unpracticed-safeguards.md",
+      "target_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "target_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "text": "fire drills and other deliberately exercisedsafeguards",
+      "title": null
+    },
+    {
+      "source_concept_id": "crash-only-software",
+      "source_path": "crash-only-software.md",
+      "target": "idempotency-in-automation.md",
+      "target_concept_id": "idempotency-in-automation",
+      "target_path": "idempotency-in-automation.md",
+      "text": "idempotentautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "crash-only-software",
+      "source_path": "crash-only-software.md",
+      "target": "self-healing-overload-response.md",
+      "target_concept_id": "self-healing-overload-response",
+      "target_path": "self-healing-overload-response.md",
+      "text": "self-healing",
+      "title": null
+    },
+    {
+      "source_concept_id": "dynamic-work-chunking-for-failure-resilience",
+      "source_path": "dynamic-work-chunking-for-failure-resilience.md",
+      "target": "pets-vs-cattle.md",
+      "target_concept_id": "pets-vs-cattle",
+      "target_path": "pets-vs-cattle.md",
+      "text": "pets versus cattle",
+      "title": null
+    },
+    {
+      "source_concept_id": "dynamic-work-chunking-for-failure-resilience",
+      "source_path": "dynamic-work-chunking-for-failure-resilience.md",
+      "target": "progressive-compute-automation.md",
+      "target_concept_id": "progressive-compute-automation",
+      "target_path": "progressive-compute-automation.md",
+      "text": "Progressive computeautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "efficiency-flexibility-tradeoff",
+      "source_path": "efficiency-flexibility-tradeoff.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturityspectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "efficiency-flexibility-tradeoff",
+      "source_path": "efficiency-flexibility-tradeoff.md",
+      "target": "irony-of-resilience.md",
+      "target_concept_id": "irony-of-resilience",
+      "target_path": "irony-of-resilience.md",
+      "text": "irony ofresilience",
+      "title": null
+    },
+    {
+      "source_concept_id": "embedding-decision-support-to-reduce-sharp-end-load",
+      "source_path": "embedding-decision-support-to-reduce-sharp-end-load.md",
+      "target": "irony-of-resilience.md",
+      "target_concept_id": "irony-of-resilience",
+      "target_path": "irony-of-resilience.md",
+      "text": "irony of resilience",
+      "title": null
+    },
+    {
+      "source_concept_id": "embedding-decision-support-to-reduce-sharp-end-load",
+      "source_path": "embedding-decision-support-to-reduce-sharp-end-load.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "embedding-decision-support-to-reduce-sharp-end-load",
+      "source_path": "embedding-decision-support-to-reduce-sharp-end-load.md",
+      "target": "self-healing-overload-response.md",
+      "target_concept_id": "self-healing-overload-response",
+      "target_path": "self-healing-overload-response.md",
+      "text": "self-healing overload response",
+      "title": null
+    },
+    {
+      "source_concept_id": "embedding-decision-support-to-reduce-sharp-end-load",
+      "source_path": "embedding-decision-support-to-reduce-sharp-end-load.md",
+      "target": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "target_concept_id": "unbriefed-surprise-builds-uncertainty-competence",
+      "target_path": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "text": "unbriefed surpriseexposure",
+      "title": null
+    },
+    {
+      "source_concept_id": "engineering-work-vs-toil",
+      "source_path": "engineering-work-vs-toil.md",
+      "target": "case-for-eliminating-toil.md",
+      "target_concept_id": "case-for-eliminating-toil",
+      "target_path": "case-for-eliminating-toil.md",
+      "text": "the case for eliminatingtoil",
+      "title": null
+    },
+    {
+      "source_concept_id": "engineering-work-vs-toil",
+      "source_path": "engineering-work-vs-toil.md",
+      "target": "toil.md",
+      "target_concept_id": "toil",
+      "target_path": "toil.md",
+      "text": "toil",
+      "title": null
+    },
+    {
+      "source_concept_id": "exception-collection-as-automation-health-signal",
+      "source_path": "exception-collection-as-automation-health-signal.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "exception-collection-as-automation-health-signal",
+      "source_path": "exception-collection-as-automation-health-signal.md",
+      "target": "self-healing-overload-response.md",
+      "target_concept_id": "self-healing-overload-response",
+      "target_path": "self-healing-overload-response.md",
+      "text": "self-healing",
+      "title": null
+    },
+    {
+      "source_concept_id": "failing-safe-vs-failing-secure",
+      "source_path": "failing-safe-vs-failing-secure.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runawayautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-domain-amplification",
+      "source_path": "failure-domain-amplification.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automationmaturity spectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-domain-amplification",
+      "source_path": "failure-domain-amplification.md",
+      "target": "idempotency-in-automation.md",
+      "target_concept_id": "idempotency-in-automation",
+      "target_path": "idempotency-in-automation.md",
+      "text": "idempotent",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-domain-amplification",
+      "source_path": "failure-domain-amplification.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "fallacy-of-predetermination",
+      "source_path": "fallacy-of-predetermination.md",
+      "target": "irony-of-resilience.md",
+      "target_concept_id": "irony-of-resilience",
+      "target_path": "irony-of-resilience.md",
+      "text": "irony of resilience",
+      "title": null
+    },
+    {
+      "source_concept_id": "fallacy-of-predetermination",
+      "source_path": "fallacy-of-predetermination.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runawayautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "fencing-tokens-against-zombie-actors",
+      "source_path": "fencing-tokens-against-zombie-actors.md",
+      "target": "confidence-decay-in-unpracticed-safeguards.md",
+      "target_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "target_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "text": "confidence decay in unpracticedsafeguards",
+      "title": null
+    },
+    {
+      "source_concept_id": "fencing-tokens-against-zombie-actors",
+      "source_path": "fencing-tokens-against-zombie-actors.md",
+      "target": "idempotency-in-automation.md",
+      "target_concept_id": "idempotency-in-automation",
+      "target_path": "idempotency-in-automation.md",
+      "text": "idempotency",
+      "title": null
+    },
+    {
+      "source_concept_id": "fencing-tokens-against-zombie-actors",
+      "source_path": "fencing-tokens-against-zombie-actors.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runawayautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "governor-pattern",
+      "source_path": "governor-pattern.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "idempotency-in-automation",
+      "source_path": "idempotency-in-automation.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturityspectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "idempotency-in-automation",
+      "source_path": "idempotency-in-automation.md",
+      "target": "convergent-vs-direct-orchestration.md",
+      "target_concept_id": "convergent-vs-direct-orchestration",
+      "target_path": "convergent-vs-direct-orchestration.md",
+      "text": "convergent orchestration",
+      "title": null
+    },
+    {
+      "source_concept_id": "idempotency-in-automation",
+      "source_path": "idempotency-in-automation.md",
+      "target": "failure-domain-amplification.md",
+      "target_concept_id": "failure-domain-amplification",
+      "target_path": "failure-domain-amplification.md",
+      "text": "failure domain amplification",
+      "title": null
+    },
+    {
+      "source_concept_id": "idempotency-in-automation",
+      "source_path": "idempotency-in-automation.md",
+      "target": "fencing-tokens-against-zombie-actors.md",
+      "target_concept_id": "fencing-tokens-against-zombie-actors",
+      "target_path": "fencing-tokens-against-zombie-actors.md",
+      "text": "fencing tokens against zombieactors",
+      "title": null
+    },
+    {
+      "source_concept_id": "idempotency-in-automation",
+      "source_path": "idempotency-in-automation.md",
+      "target": "fencing-tokens-against-zombie-actors.md",
+      "target_concept_id": "fencing-tokens-against-zombie-actors",
+      "target_path": "fencing-tokens-against-zombie-actors.md",
+      "text": "fencingtokens against zombie actors",
+      "title": null
+    },
+    {
+      "source_concept_id": "idempotency-in-automation",
+      "source_path": "idempotency-in-automation.md",
+      "target": "pets-vs-cattle.md",
+      "target_concept_id": "pets-vs-cattle",
+      "target_path": "pets-vs-cattle.md",
+      "text": "managed compute",
+      "title": null
+    },
+    {
+      "source_concept_id": "idempotency-in-automation",
+      "source_path": "idempotency-in-automation.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "intent-based-automation",
+      "source_path": "intent-based-automation.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturityspectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "intent-based-automation",
+      "source_path": "intent-based-automation.md",
+      "target": "autoscaling-safety-practices.md",
+      "target_concept_id": "autoscaling-safety-practices",
+      "target_path": "autoscaling-safety-practices.md",
+      "text": "autoscaling safetypractices",
+      "title": null
+    },
+    {
+      "source_concept_id": "intent-based-automation",
+      "source_path": "intent-based-automation.md",
+      "target": "convergent-vs-direct-orchestration.md",
+      "target_concept_id": "convergent-vs-direct-orchestration",
+      "target_path": "convergent-vs-direct-orchestration.md",
+      "text": "convergentorchestration",
+      "title": null
+    },
+    {
+      "source_concept_id": "intent-based-automation",
+      "source_path": "intent-based-automation.md",
+      "target": "progressive-compute-automation.md",
+      "target_concept_id": "progressive-compute-automation",
+      "target_path": "progressive-compute-automation.md",
+      "text": "progressive computeautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "intent-based-automation",
+      "source_path": "intent-based-automation.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "intent-based-automation",
+      "source_path": "intent-based-automation.md",
+      "target": "toil.md",
+      "target_concept_id": "toil",
+      "target_path": "toil.md",
+      "text": "toil",
+      "title": null
+    },
+    {
+      "source_concept_id": "interacting-automated-control-loops",
+      "source_path": "interacting-automated-control-loops.md",
+      "target": "autoscaling-safety-practices.md",
+      "target_concept_id": "autoscaling-safety-practices",
+      "target_path": "autoscaling-safety-practices.md",
+      "text": "autoscaling safety practices",
+      "title": null
+    },
+    {
+      "source_concept_id": "interacting-automated-control-loops",
+      "source_path": "interacting-automated-control-loops.md",
+      "target": "autoscaling-safety-practices.md",
+      "target_concept_id": "autoscaling-safety-practices",
+      "target_path": "autoscaling-safety-practices.md",
+      "text": "autoscaling safetypractice",
+      "title": null
+    },
+    {
+      "source_concept_id": "interacting-automated-control-loops",
+      "source_path": "interacting-automated-control-loops.md",
+      "target": "governor-pattern.md",
+      "target_concept_id": "governor-pattern",
+      "target_path": "governor-pattern.md",
+      "text": "governorpattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "interacting-automated-control-loops",
+      "source_path": "interacting-automated-control-loops.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runawayautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "irony-of-resilience",
+      "source_path": "irony-of-resilience.md",
+      "target": "automation-bias.md",
+      "target_concept_id": "automation-bias",
+      "target_path": "automation-bias.md",
+      "text": "Bainbridge'sirony of automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "irony-of-resilience",
+      "source_path": "irony-of-resilience.md",
+      "target": "efficiency-flexibility-tradeoff.md",
+      "target_concept_id": "efficiency-flexibility-tradeoff",
+      "target_path": "efficiency-flexibility-tradeoff.md",
+      "text": "efficiency-flexibility trade-off",
+      "title": null
+    },
+    {
+      "source_concept_id": "irony-of-resilience",
+      "source_path": "irony-of-resilience.md",
+      "target": "embedding-decision-support-to-reduce-sharp-end-load.md",
+      "target_concept_id": "embedding-decision-support-to-reduce-sharp-end-load",
+      "target_path": "embedding-decision-support-to-reduce-sharp-end-load.md",
+      "text": "embedding decision support directly into theautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "irony-of-resilience",
+      "source_path": "irony-of-resilience.md",
+      "target": "fallacy-of-predetermination.md",
+      "target_concept_id": "fallacy-of-predetermination",
+      "target_path": "fallacy-of-predetermination.md",
+      "text": "fallacy of predetermination",
+      "title": null
+    },
+    {
+      "source_concept_id": "irony-of-resilience",
+      "source_path": "irony-of-resilience.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "Safeguards against runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "irony-of-resilience",
+      "source_path": "irony-of-resilience.md",
+      "target": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "target_concept_id": "unbriefed-surprise-builds-uncertainty-competence",
+      "target_path": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "text": "unbriefed exposure to surprise",
+      "title": null
+    },
+    {
+      "source_concept_id": "lame-duck-mode-draining",
+      "source_path": "lame-duck-mode-draining.md",
+      "target": "autoscaling-safety-practices.md",
+      "target_concept_id": "autoscaling-safety-practices",
+      "target_path": "autoscaling-safety-practices.md",
+      "text": "autoscaler",
+      "title": null
+    },
+    {
+      "source_concept_id": "lame-duck-mode-draining",
+      "source_path": "lame-duck-mode-draining.md",
+      "target": "pets-vs-cattle.md",
+      "target_concept_id": "pets-vs-cattle",
+      "target_path": "pets-vs-cattle.md",
+      "text": "cattle",
+      "title": null
+    },
+    {
+      "source_concept_id": "lame-duck-mode-draining",
+      "source_path": "lame-duck-mode-draining.md",
+      "target": "progressive-compute-automation.md",
+      "target_concept_id": "progressive-compute-automation",
+      "target_path": "progressive-compute-automation.md",
+      "text": "progressive computeautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "lame-duck-mode-draining",
+      "source_path": "lame-duck-mode-draining.md",
+      "target": "self-healing-overload-response.md",
+      "target_concept_id": "self-healing-overload-response",
+      "target_path": "self-healing-overload-response.md",
+      "text": "self-healing",
+      "title": null
+    },
+    {
+      "source_concept_id": "lease-based-exclusive-coordination",
+      "source_path": "lease-based-exclusive-coordination.md",
+      "target": "convergent-vs-direct-orchestration.md",
+      "target_concept_id": "convergent-vs-direct-orchestration",
+      "target_path": "convergent-vs-direct-orchestration.md",
+      "text": "convergent vs. directorchestration",
+      "title": null
+    },
+    {
+      "source_concept_id": "lease-based-exclusive-coordination",
+      "source_path": "lease-based-exclusive-coordination.md",
+      "target": "fencing-tokens-against-zombie-actors.md",
+      "target_concept_id": "fencing-tokens-against-zombie-actors",
+      "target_path": "fencing-tokens-against-zombie-actors.md",
+      "text": "HeartBeat",
+      "title": null
+    },
+    {
+      "source_concept_id": "lease-based-exclusive-coordination",
+      "source_path": "lease-based-exclusive-coordination.md",
+      "target": "fencing-tokens-against-zombie-actors.md",
+      "target_concept_id": "fencing-tokens-against-zombie-actors",
+      "target_path": "fencing-tokens-against-zombie-actors.md",
+      "text": "HeartBeat",
+      "title": null
+    },
+    {
+      "source_concept_id": "lease-based-exclusive-coordination",
+      "source_path": "lease-based-exclusive-coordination.md",
+      "target": "fencing-tokens-against-zombie-actors.md",
+      "target_concept_id": "fencing-tokens-against-zombie-actors",
+      "target_path": "fencing-tokens-against-zombie-actors.md",
+      "text": "fencing token",
+      "title": null
+    },
+    {
+      "source_concept_id": "legacy-system-automation-pathway",
+      "source_path": "legacy-system-automation-pathway.md",
+      "target": "toil.md",
+      "target_concept_id": "toil",
+      "target_path": "toil.md",
+      "text": "toil",
+      "title": null
+    },
+    {
+      "source_concept_id": "normalization-of-deviance-via-decrementalism",
+      "source_path": "normalization-of-deviance-via-decrementalism.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards",
+      "title": null
+    },
+    {
+      "source_concept_id": "normalization-of-deviance-via-decrementalism",
+      "source_path": "normalization-of-deviance-via-decrementalism.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runawayautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "pets-vs-cattle",
+      "source_path": "pets-vs-cattle.md",
+      "target": "dynamic-work-chunking-for-failure-resilience.md",
+      "target_concept_id": "dynamic-work-chunking-for-failure-resilience",
+      "target_path": "dynamic-work-chunking-for-failure-resilience.md",
+      "text": "dynamic workchunking",
+      "title": null
+    },
+    {
+      "source_concept_id": "pets-vs-cattle",
+      "source_path": "pets-vs-cattle.md",
+      "target": "idempotency-in-automation.md",
+      "target_concept_id": "idempotency-in-automation",
+      "target_path": "idempotency-in-automation.md",
+      "text": "idempotency for managedcompute",
+      "title": null
+    },
+    {
+      "source_concept_id": "pets-vs-cattle",
+      "source_path": "pets-vs-cattle.md",
+      "target": "lame-duck-mode-draining.md",
+      "target_concept_id": "lame-duck-mode-draining",
+      "target_path": "lame-duck-mode-draining.md",
+      "text": "lame-duck modedraining",
+      "title": null
+    },
+    {
+      "source_concept_id": "pets-vs-cattle",
+      "source_path": "pets-vs-cattle.md",
+      "target": "uniformity-as-automation-prerequisite.md",
+      "target_concept_id": "uniformity-as-automation-prerequisite",
+      "target_path": "uniformity-as-automation-prerequisite.md",
+      "text": "uniformity as an automationprerequisite",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-compute-automation",
+      "source_path": "progressive-compute-automation.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturityspectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-compute-automation",
+      "source_path": "progressive-compute-automation.md",
+      "target": "autoscaling-safety-practices.md",
+      "target_concept_id": "autoscaling-safety-practices",
+      "target_path": "autoscaling-safety-practices.md",
+      "text": "autoscaling safetypractices",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-compute-automation",
+      "source_path": "progressive-compute-automation.md",
+      "target": "reusable-platforms-over-bespoke-scripts.md",
+      "target_concept_id": "reusable-platforms-over-bespoke-scripts",
+      "target_path": "reusable-platforms-over-bespoke-scripts.md",
+      "text": "reusable platforms over bespokescripts",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-compute-automation",
+      "source_path": "progressive-compute-automation.md",
+      "target": "toil.md",
+      "target_concept_id": "toil",
+      "target_path": "toil.md",
+      "text": "toil",
+      "title": null
+    },
+    {
+      "source_concept_id": "progressive-compute-automation",
+      "source_path": "progressive-compute-automation.md",
+      "target": "toil.md",
+      "target_concept_id": "toil",
+      "target_path": "toil.md",
+      "text": "toil",
+      "title": null
+    },
+    {
+      "source_concept_id": "reusable-platforms-over-bespoke-scripts",
+      "source_path": "reusable-platforms-over-bespoke-scripts.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturityspectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "reusable-platforms-over-bespoke-scripts",
+      "source_path": "reusable-platforms-over-bespoke-scripts.md",
+      "target": "software-engineering-rigor-for-ops-tooling.md",
+      "target_concept_id": "software-engineering-rigor-for-ops-tooling",
+      "target_path": "software-engineering-rigor-for-ops-tooling.md",
+      "text": "treating the platform asproduction software",
+      "title": null
+    },
+    {
+      "source_concept_id": "reusable-platforms-over-bespoke-scripts",
+      "source_path": "reusable-platforms-over-bespoke-scripts.md",
+      "target": "thinnest-viable-platform.md",
+      "target_concept_id": "thinnest-viable-platform",
+      "target_path": "thinnest-viable-platform.md",
+      "text": "thinnest viableplatform",
+      "title": null
+    },
+    {
+      "source_concept_id": "reusable-platforms-over-bespoke-scripts",
+      "source_path": "reusable-platforms-over-bespoke-scripts.md",
+      "target": "uniformity-as-automation-prerequisite.md",
+      "target_concept_id": "uniformity-as-automation-prerequisite",
+      "target_path": "uniformity-as-automation-prerequisite.md",
+      "text": "uniformity across what the platformoperates on",
+      "title": null
+    },
+    {
+      "source_concept_id": "risk-reduction-through-repetition",
+      "source_path": "risk-reduction-through-repetition.md",
+      "target": "automation-bias.md",
+      "target_concept_id": "automation-bias",
+      "target_path": "automation-bias.md",
+      "text": "automation bias",
+      "title": null
+    },
+    {
+      "source_concept_id": "risk-reduction-through-repetition",
+      "source_path": "risk-reduction-through-repetition.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturityspectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "risk-reduction-through-repetition",
+      "source_path": "risk-reduction-through-repetition.md",
+      "target": "confidence-decay-in-unpracticed-safeguards.md",
+      "target_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "target_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "text": "confidence decay in unpracticedsafeguards",
+      "title": null
+    },
+    {
+      "source_concept_id": "safeguards-against-runaway-automation",
+      "source_path": "safeguards-against-runaway-automation.md",
+      "target": "circuit-breaker-for-automated-retries.md",
+      "target_concept_id": "circuit-breaker-for-automated-retries",
+      "target_path": "circuit-breaker-for-automated-retries.md",
+      "text": "circuit breaker for automatedretries",
+      "title": null
+    },
+    {
+      "source_concept_id": "safeguards-against-runaway-automation",
+      "source_path": "safeguards-against-runaway-automation.md",
+      "target": "confidence-decay-in-unpracticed-safeguards.md",
+      "target_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "target_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "text": "keeping unpracticed safeguards from decayingsilently",
+      "title": null
+    },
+    {
+      "source_concept_id": "safeguards-against-runaway-automation",
+      "source_path": "safeguards-against-runaway-automation.md",
+      "target": "failing-safe-vs-failing-secure.md",
+      "target_concept_id": "failing-safe-vs-failing-secure",
+      "target_path": "failing-safe-vs-failing-secure.md",
+      "text": "failing safe vs. failingsecure",
+      "title": null
+    },
+    {
+      "source_concept_id": "safeguards-against-runaway-automation",
+      "source_path": "safeguards-against-runaway-automation.md",
+      "target": "failure-domain-amplification.md",
+      "target_concept_id": "failure-domain-amplification",
+      "target_path": "failure-domain-amplification.md",
+      "text": "failure domainamplification",
+      "title": null
+    },
+    {
+      "source_concept_id": "safeguards-against-runaway-automation",
+      "source_path": "safeguards-against-runaway-automation.md",
+      "target": "fallacy-of-predetermination.md",
+      "target_concept_id": "fallacy-of-predetermination",
+      "target_path": "fallacy-of-predetermination.md",
+      "text": "fallacy ofpredetermination",
+      "title": null
+    },
+    {
+      "source_concept_id": "safeguards-against-runaway-automation",
+      "source_path": "safeguards-against-runaway-automation.md",
+      "target": "fencing-tokens-against-zombie-actors.md",
+      "target_concept_id": "fencing-tokens-against-zombie-actors",
+      "target_path": "fencing-tokens-against-zombie-actors.md",
+      "text": "fencingtokens against zombie actors",
+      "title": null
+    },
+    {
+      "source_concept_id": "safeguards-against-runaway-automation",
+      "source_path": "safeguards-against-runaway-automation.md",
+      "target": "governor-pattern.md",
+      "target_concept_id": "governor-pattern",
+      "target_path": "governor-pattern.md",
+      "text": "Governor pattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "safeguards-against-runaway-automation",
+      "source_path": "safeguards-against-runaway-automation.md",
+      "target": "idempotency-in-automation.md",
+      "target_concept_id": "idempotency-in-automation",
+      "target_path": "idempotency-in-automation.md",
+      "text": "idempotent",
+      "title": null
+    },
+    {
+      "source_concept_id": "safeguards-against-runaway-automation",
+      "source_path": "safeguards-against-runaway-automation.md",
+      "target": "interacting-automated-control-loops.md",
+      "target_concept_id": "interacting-automated-control-loops",
+      "target_path": "interacting-automated-control-loops.md",
+      "text": "interacting automated controlloops",
+      "title": null
+    },
+    {
+      "source_concept_id": "safeguards-against-runaway-automation",
+      "source_path": "safeguards-against-runaway-automation.md",
+      "target": "normalization-of-deviance-via-decrementalism.md",
+      "target_concept_id": "normalization-of-deviance-via-decrementalism",
+      "target_path": "normalization-of-deviance-via-decrementalism.md",
+      "text": "normalization of deviance viadecrementalism",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-healing-overload-response",
+      "source_path": "self-healing-overload-response.md",
+      "target": "crash-loop-escalation-threshold.md",
+      "target_concept_id": "crash-loop-escalation-threshold",
+      "target_path": "crash-loop-escalation-threshold.md",
+      "text": "crash-loop escalationthresholds",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-healing-overload-response",
+      "source_path": "self-healing-overload-response.md",
+      "target": "exception-collection-as-automation-health-signal.md",
+      "target_concept_id": "exception-collection-as-automation-health-signal",
+      "target_path": "exception-collection-as-automation-health-signal.md",
+      "text": "exception collection asan automation health signal",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-healing-overload-response",
+      "source_path": "self-healing-overload-response.md",
+      "target": "lame-duck-mode-draining.md",
+      "target_concept_id": "lame-duck-mode-draining",
+      "target_path": "lame-duck-mode-draining.md",
+      "text": "lame-duck modedraining",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-healing-overload-response",
+      "source_path": "self-healing-overload-response.md",
+      "target": "normalization-of-deviance-via-decrementalism.md",
+      "target_concept_id": "normalization-of-deviance-via-decrementalism",
+      "target_path": "normalization-of-deviance-via-decrementalism.md",
+      "text": "normalization of deviance viadecrementalism",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-healing-overload-response",
+      "source_path": "self-healing-overload-response.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runaway automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "self-healing-overload-response",
+      "source_path": "self-healing-overload-response.md",
+      "target": "silent-correction-masks-growing-failure.md",
+      "target_concept_id": "silent-correction-masks-growing-failure",
+      "target_path": "silent-correction-masks-growing-failure.md",
+      "text": "silent correctionmasking a growing failure",
+      "title": null
+    },
+    {
+      "source_concept_id": "silent-correction-masks-growing-failure",
+      "source_path": "silent-correction-masks-growing-failure.md",
+      "target": "exception-collection-as-automation-health-signal.md",
+      "target_concept_id": "exception-collection-as-automation-health-signal",
+      "target_path": "exception-collection-as-automation-health-signal.md",
+      "text": "exception collection",
+      "title": null
+    },
+    {
+      "source_concept_id": "silent-correction-masks-growing-failure",
+      "source_path": "silent-correction-masks-growing-failure.md",
+      "target": "self-healing-overload-response.md",
+      "target_concept_id": "self-healing-overload-response",
+      "target_path": "self-healing-overload-response.md",
+      "text": "self-healing overload response",
+      "title": null
+    },
+    {
+      "source_concept_id": "silent-correction-masks-growing-failure",
+      "source_path": "silent-correction-masks-growing-failure.md",
+      "target": "self-healing-overload-response.md",
+      "target_concept_id": "self-healing-overload-response",
+      "target_path": "self-healing-overload-response.md",
+      "text": "self-healing systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "software-engineering-rigor-for-ops-tooling",
+      "source_path": "software-engineering-rigor-for-ops-tooling.md",
+      "target": "failure-domain-amplification.md",
+      "target_concept_id": "failure-domain-amplification",
+      "target_path": "failure-domain-amplification.md",
+      "text": "failure domain amplification",
+      "title": null
+    },
+    {
+      "source_concept_id": "software-engineering-rigor-for-ops-tooling",
+      "source_path": "software-engineering-rigor-for-ops-tooling.md",
+      "target": "reusable-platforms-over-bespoke-scripts.md",
+      "target_concept_id": "reusable-platforms-over-bespoke-scripts",
+      "target_path": "reusable-platforms-over-bespoke-scripts.md",
+      "text": "reusable platformsinstead of bespoke scripts",
+      "title": null
+    },
+    {
+      "source_concept_id": "software-engineering-rigor-for-ops-tooling",
+      "source_path": "software-engineering-rigor-for-ops-tooling.md",
+      "target": "safeguards-against-runaway-automation.md",
+      "target_concept_id": "safeguards-against-runaway-automation",
+      "target_path": "safeguards-against-runaway-automation.md",
+      "text": "safeguards against runawayautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "software-engineering-rigor-for-ops-tooling",
+      "source_path": "software-engineering-rigor-for-ops-tooling.md",
+      "target": "toil-budget.md",
+      "target_concept_id": "toil-budget",
+      "target_path": "toil-budget.md",
+      "text": "the toil budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "software-engineering-rigor-for-ops-tooling",
+      "source_path": "software-engineering-rigor-for-ops-tooling.md",
+      "target": "toil.md",
+      "target_concept_id": "toil",
+      "target_path": "toil.md",
+      "text": "toil",
+      "title": null
+    },
+    {
+      "source_concept_id": "thinnest-viable-platform",
+      "source_path": "thinnest-viable-platform.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturity spectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "thinnest-viable-platform",
+      "source_path": "thinnest-viable-platform.md",
+      "target": "reusable-platforms-over-bespoke-scripts.md",
+      "target_concept_id": "reusable-platforms-over-bespoke-scripts",
+      "target_path": "reusable-platforms-over-bespoke-scripts.md",
+      "text": "reusable platforms over bespokescripts",
+      "title": null
+    },
+    {
+      "source_concept_id": "thinnest-viable-platform",
+      "source_path": "thinnest-viable-platform.md",
+      "target": "software-engineering-rigor-for-ops-tooling.md",
+      "target_concept_id": "software-engineering-rigor-for-ops-tooling",
+      "target_path": "software-engineering-rigor-for-ops-tooling.md",
+      "text": "software-engineeringrigor expected of any operationaltooling",
+      "title": null
+    },
+    {
+      "source_concept_id": "thinnest-viable-platform",
+      "source_path": "thinnest-viable-platform.md",
+      "target": "toil-budget.md",
+      "target_concept_id": "toil-budget",
+      "target_path": "toil-budget.md",
+      "text": "toil budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil",
+      "source_path": "toil.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturityspectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil",
+      "source_path": "toil.md",
+      "target": "case-for-eliminating-toil.md",
+      "target_concept_id": "case-for-eliminating-toil",
+      "target_path": "case-for-eliminating-toil.md",
+      "text": "the case for eliminating toil",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil",
+      "source_path": "toil.md",
+      "target": "engineering-work-vs-toil.md",
+      "target_concept_id": "engineering-work-vs-toil",
+      "target_path": "engineering-work-vs-toil.md",
+      "text": "engineeringwork",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil",
+      "source_path": "toil.md",
+      "target": "toil-budget.md",
+      "target_concept_id": "toil-budget",
+      "target_path": "toil-budget.md",
+      "text": "toil budget",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil",
+      "source_path": "toil.md",
+      "target": "toil-triage-categories.md",
+      "target_concept_id": "toil-triage-categories",
+      "target_path": "toil-triage-categories.md",
+      "text": "toil triagecategories",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil-budget",
+      "source_path": "toil-budget.md",
+      "target": "case-for-eliminating-toil.md",
+      "target_concept_id": "case-for-eliminating-toil",
+      "target_path": "case-for-eliminating-toil.md",
+      "text": "the case for eliminatingtoil",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil-budget",
+      "source_path": "toil-budget.md",
+      "target": "engineering-work-vs-toil.md",
+      "target_concept_id": "engineering-work-vs-toil",
+      "target_path": "engineering-work-vs-toil.md",
+      "text": "engineering work",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil-budget",
+      "source_path": "toil-budget.md",
+      "target": "software-engineering-rigor-for-ops-tooling.md",
+      "target_concept_id": "software-engineering-rigor-for-ops-tooling",
+      "target_path": "software-engineering-rigor-for-ops-tooling.md",
+      "text": "treating operationaltooling as production software",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil-budget",
+      "source_path": "toil-budget.md",
+      "target": "toil.md",
+      "target_concept_id": "toil",
+      "target_path": "toil.md",
+      "text": "toil",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil-triage-categories",
+      "source_path": "toil-triage-categories.md",
+      "target": "checklist-design-principles.md",
+      "target_concept_id": "checklist-design-principles",
+      "target_path": "checklist-design-principles.md",
+      "text": "checklist",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil-triage-categories",
+      "source_path": "toil-triage-categories.md",
+      "target": "toil.md",
+      "target_concept_id": "toil",
+      "target_path": "toil.md",
+      "text": "toil",
+      "title": null
+    },
+    {
+      "source_concept_id": "toil-triage-categories",
+      "source_path": "toil-triage-categories.md",
+      "target": "uniformity-as-automation-prerequisite.md",
+      "target_concept_id": "uniformity-as-automation-prerequisite",
+      "target_path": "uniformity-as-automation-prerequisite.md",
+      "text": "uniformity as an automationprerequisite",
+      "title": null
+    },
+    {
+      "source_concept_id": "transient-local-state-on-managed-compute",
+      "source_path": "transient-local-state-on-managed-compute.md",
+      "target": "autoscaling-safety-practices.md",
+      "target_concept_id": "autoscaling-safety-practices",
+      "target_path": "autoscaling-safety-practices.md",
+      "text": "autoscaling safetypractices",
+      "title": null
+    },
+    {
+      "source_concept_id": "transient-local-state-on-managed-compute",
+      "source_path": "transient-local-state-on-managed-compute.md",
+      "target": "pets-vs-cattle.md",
+      "target_concept_id": "pets-vs-cattle",
+      "target_path": "pets-vs-cattle.md",
+      "text": "cattle",
+      "title": null
+    },
+    {
+      "source_concept_id": "transient-local-state-on-managed-compute",
+      "source_path": "transient-local-state-on-managed-compute.md",
+      "target": "progressive-compute-automation.md",
+      "target_concept_id": "progressive-compute-automation",
+      "target_path": "progressive-compute-automation.md",
+      "text": "progressive computeautomation",
+      "title": null
+    },
+    {
+      "source_concept_id": "unbriefed-surprise-builds-uncertainty-competence",
+      "source_path": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "target": "automation-bias.md",
+      "target_concept_id": "automation-bias",
+      "target_path": "automation-bias.md",
+      "text": "automationbias",
+      "title": null
+    },
+    {
+      "source_concept_id": "unbriefed-surprise-builds-uncertainty-competence",
+      "source_path": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "target": "confidence-decay-in-unpracticed-safeguards.md",
+      "target_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "target_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "text": "confidencedecay",
+      "title": null
+    },
+    {
+      "source_concept_id": "unbriefed-surprise-builds-uncertainty-competence",
+      "source_path": "unbriefed-surprise-builds-uncertainty-competence.md",
+      "target": "confidence-decay-in-unpracticed-safeguards.md",
+      "target_concept_id": "confidence-decay-in-unpracticed-safeguards",
+      "target_path": "confidence-decay-in-unpracticed-safeguards.md",
+      "text": "fire drills and gamedays",
+      "title": null
+    },
+    {
+      "source_concept_id": "uniformity-as-automation-prerequisite",
+      "source_path": "uniformity-as-automation-prerequisite.md",
+      "target": "pets-vs-cattle.md",
+      "target_concept_id": "pets-vs-cattle",
+      "target_path": "pets-vs-cattle.md",
+      "text": "pets versuscattle",
+      "title": null
+    },
+    {
+      "source_concept_id": "uniformity-as-automation-prerequisite",
+      "source_path": "uniformity-as-automation-prerequisite.md",
+      "target": "reusable-platforms-over-bespoke-scripts.md",
+      "target_concept_id": "reusable-platforms-over-bespoke-scripts",
+      "target_path": "reusable-platforms-over-bespoke-scripts.md",
+      "text": "reusable platforms cost more up front thanbespoke scripts",
+      "title": null
+    },
+    {
+      "source_concept_id": "uniformity-as-automation-prerequisite",
+      "source_path": "uniformity-as-automation-prerequisite.md",
+      "target": "toil-triage-categories.md",
+      "target_concept_id": "toil-triage-categories",
+      "target_path": "toil-triage-categories.md",
+      "text": "toil triage categories",
+      "title": null
+    },
+    {
+      "source_concept_id": "uniformity-as-automation-prerequisite",
+      "source_path": "uniformity-as-automation-prerequisite.md",
+      "target": "value-of-automation.md",
+      "target_concept_id": "value-of-automation",
+      "target_path": "value-of-automation.md",
+      "text": "automation",
+      "title": null
+    },
+    {
+      "source_concept_id": "value-of-automation",
+      "source_path": "value-of-automation.md",
+      "target": "automation-maturity-spectrum.md",
+      "target_concept_id": "automation-maturity-spectrum",
+      "target_path": "automation-maturity-spectrum.md",
+      "text": "automation maturityspectrum",
+      "title": null
+    },
+    {
+      "source_concept_id": "value-of-automation",
+      "source_path": "value-of-automation.md",
+      "target": "case-for-eliminating-toil.md",
+      "target_concept_id": "case-for-eliminating-toil",
+      "target_path": "case-for-eliminating-toil.md",
+      "text": "the case for eliminating toil",
+      "title": null
+    }
+  ],
+  "orphans": []
+}
