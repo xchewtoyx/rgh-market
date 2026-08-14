@@ -1,0 +1,22 @@
+---
+type: concept
+title: Transaction Fact Table
+description: A fact table whose grain is a single measurement event at a point in time, the most dimensional and most common of the three fact table types.
+sources:
+  - title: "The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling, 3rd Edition"
+    resource: "The Data Warehouse Toolkit (Kimball, Ross), 3rd ed., ch. 2-4"
+  - title: "Star Schema: The Complete Reference"
+    resource: "Star Schema: The Complete Reference (Christopher Adamson), ch. 11"
+---
+
+A transaction fact table row corresponds to a measurement event at a specific point in space and time — one row per order line, one row per product scanned on a point-of-sale transaction. It is one of the three fundamental [fact-table](fact-table.md) grain types, alongside [periodic snapshot fact table](periodic-snapshot-fact-table.md) and [accumulating snapshot fact table](accumulating-snapshot-fact-table.md); transaction grain is the most common of the three. During requirements gathering, a business event classified as a [discrete event story](event-story-types.md) is the signal that a transaction fact table is the right grain type.
+
+Transaction fact tables always contain a foreign key per dimension, optionally precise date/time stamps, and optional [degenerate dimension](degenerate-dimension.md) keys. Because they capture the [atomic grain](grain.md) directly, they are the most dimensional and expressive fact table type, enabling maximum slicing and dicing — a customer or product appears only if an event actually occurred, and typically appears across many rows. Rows are not revisited after posting: unlike an accumulating snapshot, a transaction fact table's history is never updated in place.
+
+Transaction fact tables may be dense or sparse depending on the business process — rows exist only when a measurement event occurs, so most transaction fact tables are sparse relative to the full dimensional space, yet can still be enormous: most billion- or trillion-row warehouse tables are transaction fact tables. A rough sizing technique: divide annual gross activity (e.g., revenue) by the average per-event value to estimate annual row counts.
+
+Transaction fact tables alone are often impractical as the sole basis for broad analytic questions that require a cumulative view (e.g., reconstructing an inventory position by rolling every transaction forward) — a companion [periodic snapshot fact table](periodic-snapshot-fact-table.md) typically complements the transaction table for that kind of analysis. If different transaction types within the same business process have varying natural dimensionality (for example, a shipper dimension that applies to receipts and shipments but not returns), model them as a series of related fact tables rather than forcing uniform dimensionality onto one table — performance measurements with different natural grain or dimensionality generally come from separate processes and should be modeled as separate fact tables.
+
+## Why a status measurement doesn't belong alongside the transactions that produce it
+
+A balance, level, or similar status measurement (an account balance, an inventory position) is often the cumulative effect of a whole series of transactions, and it's tempting — like a handwritten checkbook register — to just carry a running-balance column on the transaction row itself. This breaks for two structural reasons, not just performance ones: first, a transaction fact table is sparse (see above), so a day with no activity has no row at all, meaning there's nowhere to read "balance as of that day" without an expensive backward search for the most recent prior row; second, when more than one transaction happens on the same day and each carries the running balance, naively summing that column across the day's rows double-counts the balance itself. Both problems can be worked around (a daily zero-amount placeholder row for the first; a "last transaction of the day" flag or correlated subquery for the second), but both workarounds are themselves anti-patterns elsewhere in this wiki (see the zero-row clutter problem discussed under [factless fact table](factless-fact-table.md) and [semi-additive fact](semi-additive-fact.md)). Storing a transaction and the status measurement it affects in the same fact table row is best avoided outright — model the status measurement in its own [periodic snapshot fact table](periodic-snapshot-fact-table.md) instead.

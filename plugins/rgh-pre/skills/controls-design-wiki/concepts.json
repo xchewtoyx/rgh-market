@@ -1,0 +1,3871 @@
+{
+  "bundle": "controls-design",
+  "concepts": [
+    {
+      "concept_id": "ability-chain-diagnosis",
+      "description": "Find which of five friction factors — time, money, physical effort, mental effort, or routine fit — is the weakest link making a behavior hard to do, then fix that link instead of adding motivation.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.0060909502875945536,
+      "title": "Ability Chain Diagnosis"
+    },
+    {
+      "concept_id": "absorbing-activity-revival",
+      "description": "When recovery frees time symptoms consumed, deliberately revive or start roughly five character-matched absorbing activities with concrete start dates so the gap doesn't refill with old unhelpful habits.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.002048144494949306,
+      "title": "Absorbing Activity Revival"
+    },
+    {
+      "concept_id": "accommodation-category-matrix",
+      "description": "Classify supports by type — setting, presentation, scheduling, timing, response, and comfort — when designing educational or workplace accommodations for executive-function deficits.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Accommodation Category Matrix"
+    },
+    {
+      "concept_id": "advance-notice-of-change",
+      "description": "Establish a standing norm of receiving advance warning before changes to routine, schedule, or expectations, since it's the surprise of a last-minute change that's disproportionately costly, not the change itself.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 0,
+      "pagerank": 0.0028974206255629837,
+      "title": "Advance Notice of Change"
+    },
+    {
+      "concept_id": "anchor-moment-design",
+      "description": "Attach a new habit to a precise trailing edge of an existing reliable routine — matched by location, frequency, and theme — rather than relying on memory or mistimed alarms.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 2,
+      "pagerank": 0.008384481643706941,
+      "title": "Anchor Moment Design"
+    },
+    {
+      "concept_id": "atomic-habit",
+      "description": "A regular practice that is small enough to do reliably and is a building block of a larger system — individually minor, collectively compounding.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0026106591571791933,
+      "title": "Atomic Habit"
+    },
+    {
+      "concept_id": "automated-proofreading-scaffold",
+      "description": "Route fast-produced writing through spellcheck, grammar tools, and human editors so output quality does not depend on catching errors in real time while thoughts outpace typing.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0014019833557996392,
+      "title": "Automated Proofreading Scaffold"
+    },
+    {
+      "concept_id": "avoidance-habit-savings-transfer",
+      "description": "When a target habit is abstaining from something, make each successful skip visible by transferring the forgone cost into a labeled savings account so inaction produces immediate felt progress.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.004116444463970753,
+      "title": "Avoidance Habit Savings Transfer"
+    },
+    {
+      "concept_id": "backward-milestone-planning",
+      "description": "Start from the finished deliverable and deadline, then map milestones backward to the first action so nothing essential is missed.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002396589418389978,
+      "title": "Backward Milestone Planning"
+    },
+    {
+      "concept_id": "balanced-activity-scheduling",
+      "description": "When designing a recurring activity schedule, deliberately include both pleasurable/fun activities and achievement/mastery tasks rather than only one type, since each supplies a different missing positive feeling.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.02334278092997554,
+      "title": "Balanced Fun-and-Achievement Activity Scheduling"
+    },
+    {
+      "concept_id": "bare-minimum-day-goal",
+      "description": "Set the day's success threshold at a small, realistic task count you will likely complete, instead of judging against a full list that triggers dread and avoidance.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.002671824810176234,
+      "title": "Bare Minimum Day Goal"
+    },
+    {
+      "concept_id": "bed-stimulus-control",
+      "description": "Reserve the bed/bedroom for sleep (and sex) only, so that lying down there reliably cues the brain toward sleep instead of toward whatever else has been done there — physically partitioning the space if it must also serve as a retreat or safe space.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 0,
+      "pagerank": 0.005453340615794479,
+      "title": "Bed Stimulus Control"
+    },
+    {
+      "concept_id": "behavior-change-masterplan",
+      "description": "A phased algorithm for stopping unwanted habits: build change skills with new positive habits first, then unwind one easy specific habit at a time using prompt → ability → motivation levers, and only then swap in a replacement.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 5,
+      "pagerank": 0.005633523871641128,
+      "title": "Behavior Change Masterplan"
+    },
+    {
+      "concept_id": "behavior-crafting-pace",
+      "description": "Start with about three super-easy habits and add roughly three per month unless your interests pull a different pace — learn by doing rather than perfecting one hard habit before starting another.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Behavior Crafting Pace"
+    },
+    {
+      "concept_id": "body-doubling-work-setup",
+      "description": "Work alongside another person (in person or on video) as an external presence that makes starting and sustaining focus easier, without the other person managing the task.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0011562749086439122,
+      "title": "Body-Doubling Work Setup"
+    },
+    {
+      "concept_id": "breathing-space-action-scaffold",
+      "description": "When mood drops, always run a brief grounding pause first, then choose one concrete pleasurable, mastery, or mindful action — because depression demands specificity, not vague \"cheer up.\"",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0034356219417604823,
+      "title": "Breathing-Space Action Scaffold"
+    },
+    {
+      "concept_id": "cardinal-rule-of-behavior-change",
+      "description": "What is immediately rewarded is repeated; what is immediately punished is avoided — the fourth law completes the habit loop by making the ending satisfying enough to drive the next repetition.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0015326030612310589,
+      "title": "Cardinal Rule of Behavior Change"
+    },
+    {
+      "concept_id": "change-segment-dolphin-turtle-crab-clam",
+      "description": "When a group won't adopt a behavior, segment members by motivation and ability — help Dolphins and Turtles first, redirect Crabs and Clams to different activities instead of converting everyone at once.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.002823709573813623,
+      "title": "Change Segment Dolphin Turtle Crab Clam"
+    },
+    {
+      "concept_id": "choice-architecture",
+      "description": "Design how options are presented — defaults, ordering, salience, and friction — so the easy path aligns with long-term interests without removing the freedom to choose otherwise.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0033744241836201087,
+      "title": "Choice Architecture"
+    },
+    {
+      "concept_id": "co-design-with-affected-users",
+      "description": "When designing an accommodation or system meant to serve a particular population, involve members of that population directly in the design process itself, rather than designing on their behalf from assumptions and only collecting feedback afterward.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 0,
+      "pagerank": 0.008996168003757937,
+      "title": "Co-Design With Affected Users"
+    },
+    {
+      "concept_id": "comfort-edge-scaling",
+      "description": "As a habit becomes automatic, test slightly past your current comfort edge when motivated and scale back to baseline when sick, tired, or frustrated — flexibility in both directions protects the habit.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.001856544013452629,
+      "title": "Comfort Edge Scaling"
+    },
+    {
+      "concept_id": "commitment-device",
+      "description": "A choice made now that locks in better behavior later by making the wanted path easier to continue than to abandon, or the unwanted path harder to start than to skip.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0015326030612310589,
+      "title": "Commitment Device"
+    },
+    {
+      "concept_id": "commitment-pruning-protocol",
+      "description": "A five-step process for deliberately ending people, habits, jobs, or roles that no longer support growth — naming dead wood, planning for grief, and waiting for new space to fill.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.00325720780974412,
+      "title": "Commitment Pruning Protocol"
+    },
+    {
+      "concept_id": "concrete-implementation-plan",
+      "description": "Convert a vague intention to act into a specific plan naming when, where, and how the action will happen, since vague intentions rarely convert into action on their own.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.0110082975420879,
+      "title": "Concrete Implementation Plan"
+    },
+    {
+      "concept_id": "consistent-sensory-cue-for-routine-transition",
+      "description": "Pair a specific, always-the-same sensory input (a scent, a piece of music) exclusively with the start of a target routine, so the cue itself comes to signal the transition and the brain shifts state on cue rather than by deliberate effort.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0020095300513346907,
+      "title": "Consistent Sensory Cue for Routine Transition"
+    },
+    {
+      "concept_id": "constant-across-task-transition",
+      "description": "Carry one unchanged element (audio, fidget, call) from task A into task B to soften autistic inertia at state switches.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011562749086439122,
+      "title": "Constant Across Task Transition"
+    },
+    {
+      "concept_id": "consumer-tech-assistive-scaffold",
+      "description": "Use mainstream consumer hardware and software off-label as functional accommodation — to-do apps, GPS, headphones, calendars — rather than waiting for formally labeled assistive technology and its gatekeeping.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 7,
+      "pagerank": 0.0011562749086439122,
+      "title": "Consumer Tech Assistive Scaffold"
+    },
+    {
+      "concept_id": "context-as-cue",
+      "description": "Over time a habit attaches to the whole surrounding context — location, sounds, sights — not just one trigger, so changing behavior often means reshaping or relocating the context rather than fighting a single cue.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.002879541331307604,
+      "title": "Context as Cue"
+    },
+    {
+      "concept_id": "contingency-rehearsal-script",
+      "description": "Pre-write paired \"If X happens, then I will Y\" responses for plausible failure modes, so setbacks trigger a known script instead of improvisation under stress.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.015628741731475645,
+      "title": "Contingency Rehearsal Script"
+    },
+    {
+      "concept_id": "cue-exposure-reduction",
+      "description": "Eliminate bad habits by removing triggering cues from the environment rather than relying on willpower to resist them once noticed.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.0038431832261206253,
+      "title": "Cue Exposure Reduction"
+    },
+    {
+      "concept_id": "cumulative-exposure-scheduling",
+      "description": "Evaluate load and recovery across a sequence of demands, not as isolated blocks, because effects accumulate and late-sequence exposure is often higher risk than the same exposure early.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011562749086439122,
+      "title": "Cumulative Exposure Scheduling"
+    },
+    {
+      "concept_id": "curated-activity-menu",
+      "description": "Pre-build a large menu of concrete, low-barrier activity options spanning many life domains so that choosing what to do never requires generating ideas from scratch, which is exactly the step that's hardest when motivation or energy is low.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 2,
+      "pagerank": 0.020566376448606892,
+      "title": "Curated Activity Menu"
+    },
+    {
+      "concept_id": "curated-social-exposure",
+      "description": "Deliberately choose which people and environments to spend regular time in based on their emotional/energetic effect, rather than letting exposure be incidental to circumstance.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.0014838861715182148,
+      "title": "Curated Social Exposure"
+    },
+    {
+      "concept_id": "daily-report-card-scaffold",
+      "description": "Use a daily home–school feedback card with quantifiable behavior targets, period-by-period ratings, and home-delivered rewards, so performance feedback is frequent and concrete instead of relying on end-of-day memory.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.001647691802955366,
+      "title": "Daily Report Card Scaffold"
+    },
+    {
+      "concept_id": "daily-sensory-load-budget",
+      "description": "Cap the number of high-sensory-demand tasks scheduled in a single day, treating sensory capacity as a finite daily budget to allocate rather than letting demanding tasks stack up unconstrained.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.014095454897568969,
+      "title": "Daily Sensory Load Budget"
+    },
+    {
+      "concept_id": "day-quadrant-planning",
+      "description": "Split the day into four bounded segments so one bad period does not write off the entire day under all-or-nothing thinking.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011562749086439122,
+      "title": "Day Quadrant Planning"
+    },
+    {
+      "concept_id": "decisive-moment",
+      "description": "A small fork-in-the-road choice that constrains what options remain for hours afterward — the cab to the gym, not the workout itself.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0063042803322655655,
+      "title": "Decisive Moment"
+    },
+    {
+      "concept_id": "default-option-preselection",
+      "description": "Pre-organize a small, fixed set of default options for a recurring decision (what to eat, which care products to use) so the in-the-moment choice becomes picking from a short pre-approved list instead of an open-ended decision.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.00782876052905966,
+      "title": "Default Option Preselection"
+    },
+    {
+      "concept_id": "defined-primary-end-filter",
+      "description": "Define a single primary contribution or definite end in advance, then treat every new commitment as a yes/no against that end rather than judging each opportunity on its own merits.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.0025004194145602397,
+      "title": "Defined Primary End Filter"
+    },
+    {
+      "concept_id": "demand-softening-schedule-design",
+      "description": "Structure plans as flexible option pools rather than fixed date-time assignments when perceived demands trigger avoidance even for tasks the person intended to do.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.0046756864018988814,
+      "title": "Demand-Softening Schedule Design"
+    },
+    {
+      "concept_id": "demand-triage-traffic-light-system",
+      "description": "Pre-categorize commitments and demands into a traffic-light system (green droppable, yellow conditionally droppable, red hard-to-drop) while capacity is available, so a demand can be triaged by lookup rather than fresh judgment when capacity is already low.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.021298422829317022,
+      "title": "Demand Triage Traffic-Light System"
+    },
+    {
+      "concept_id": "designated-external-state-monitor",
+      "description": "Arrange in advance for a trusted person to watch for signs of a state shift (mood escalation, overload, fatigue) that the person themselves is unlikely to notice in time, since the state being monitored for is often the same one that degrades self-monitoring.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0014019833557996392,
+      "title": "Designated External State Monitor"
+    },
+    {
+      "concept_id": "designated-staging-pile",
+      "description": "Give each room an agreed temporary holding spot for items not yet returned to permanent storage, instead of expecting immediate put-away every time.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.00281258404389031,
+      "title": "Designated Staging Pile"
+    },
+    {
+      "concept_id": "designated-vent-channel",
+      "description": "Send emotionally charged messages to a pre-agreed trusted person instead of the real recipient, preserving catharsis without irreversible consequences.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011562749086439122,
+      "title": "Designated Vent Channel"
+    },
+    {
+      "concept_id": "distress-tolerance-kit",
+      "description": "Assemble a physical kit of tangible coping objects (stress balls, fidget toys, soothing lotion, a photo, a meaningful note, a favorite book) in advance, so healthy coping tools are within reach the moment they're needed rather than having to be located under distress.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.006510717206536507,
+      "title": "Distress-Tolerance Kit"
+    },
+    {
+      "concept_id": "efficiency-flexibility-control-tradeoff",
+      "description": "Controls that maximize efficiency and predictability within the normal envelope can erode the autonomy, creativity, and reactivity needed when something genuinely unanticipated happens — the \"irony of resilience.\"",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0014838861715182148,
+      "title": "Efficiency-Flexibility Control Tradeoff"
+    },
+    {
+      "concept_id": "eliminate-structural-overhead-costs",
+      "description": "When a fixed, seemingly-unavoidable overhead (like a commute) consumes a large share of daily capacity before any actual goal is addressed, look for ways to remove or reduce the overhead itself rather than only trying to fit everything else around what's left.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0011562749086439122,
+      "title": "Eliminate Structural Overhead Costs"
+    },
+    {
+      "concept_id": "energy-coded-task-list",
+      "description": "Label each task with how much energy it costs, then match today's list to available energy instead of assuming uniform capacity.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Energy-Coded Task List"
+    },
+    {
+      "concept_id": "energy-rhythm-aligned-scheduling",
+      "description": "Schedule demanding tasks during a person's natural high-focus windows (which may not match a conventional 9-to-5 pattern) rather than forcing focus-intensive work into a fixed external time slot that fights against it.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.001647691802955366,
+      "title": "Energy-Rhythm-Aligned Scheduling"
+    },
+    {
+      "concept_id": "environmental-reminder-placement",
+      "description": "Place a physical or visual reminder in the environment at the point where a recurring practice should happen, so the environment itself prompts the behavior instead of relying on memory or motivation to initiate it.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 4,
+      "pagerank": 0.029673291636995225,
+      "title": "Environmental Reminder Placement"
+    },
+    {
+      "concept_id": "environmental-sensory-accommodation",
+      "description": "When a specific sensory trigger is identified, substitute a product/environmental variant that avoids it rather than trying to endure or will through the standard-issue version.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.02284716962632933,
+      "title": "Environmental Sensory Accommodation"
+    },
+    {
+      "concept_id": "explicit-async-response-norms",
+      "description": "Establish and communicate an explicit expected response-time norm for an asynchronous channel (e.g. \"email doesn't mean respond within the hour\"), so its asynchronous nature isn't silently overridden by an unstated expectation of instant response.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 0,
+      "pagerank": 0.004935203214512854,
+      "title": "Explicit Async Response Norms"
+    },
+    {
+      "concept_id": "explicit-inclusion-invitations",
+      "description": "Address a person directly and explicitly to invite participation (\"Hey Alan, want to join us?\", \"Amara, we'd love to hear your thoughts\") rather than relying on implied cues (body language, an open pause) that assume everyone can read them the same way.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011562749086439122,
+      "title": "Explicit Inclusion Invitations"
+    },
+    {
+      "concept_id": "external-commitment-declaration",
+      "description": "State a goal or deadline out loud to another person in advance, so follow-through is backed by external accountability rather than relying on internal willpower alone to sustain it.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.002089856449673397,
+      "title": "External Commitment Declaration"
+    },
+    {
+      "concept_id": "factor-combination-risk-matrix",
+      "description": "Identify contributing factors from a checklist, then evaluate risk from their combinations — not from any single factor in isolation — using a matrix that maps factor severity to situation criticality.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.001647691802955366,
+      "title": "Factor Combination Risk Matrix"
+    },
+    {
+      "concept_id": "fixed-schedule-for-unreliable-body-cues",
+      "description": "Put basic needs (eating, drinking, using the bathroom) on a fixed external schedule rather than relying on internal body signals to prompt them, when those internal signals are known to be unreliable or register too late.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.021089086884774184,
+      "title": "Fixed Schedule for Unreliable Body Cues"
+    },
+    {
+      "concept_id": "fogg-behavior-design-maxims",
+      "description": "Two non-negotiable design requirements for durable behavior change — align interventions with what the person already wants to do, and engineer an immediate felt sense of success after each instance.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 5,
+      "pagerank": 0.0034535843383934573,
+      "title": "Fogg Behavior Design Maxims"
+    },
+    {
+      "concept_id": "fogg-behavior-model",
+      "description": "Every behavior happens only when Motivation, Ability, and a Prompt converge at the same moment — diagrammed as an Action Line separating what fires from what does not when cued.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.0035238429423582926,
+      "title": "Fogg Behavior Model"
+    },
+    {
+      "concept_id": "four-laws-of-behavior-change",
+      "description": "A four-lever framework for designing or breaking habits: make cues obvious or invisible, cravings attractive or unattractive, responses easy or difficult, and rewards satisfying or unsatisfying.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 9,
+      "pagerank": 0.003984650011931924,
+      "title": "Four Laws of Behavior Change"
+    },
+    {
+      "concept_id": "freeze-new-commitments",
+      "description": "When trying to exit an overloaded role or situation, stop accepting any new obligations immediately, even before the existing ones are resolved, rather than treating the exit as a single all-at-once move.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 0,
+      "pagerank": 0.003741808679397239,
+      "title": "Freeze New Commitments"
+    },
+    {
+      "concept_id": "friction-shaping",
+      "description": "Change the physical or logistical effort required to reach an unwanted option (remove it, put it out of easy reach) or a wanted one (pre-stage it, keep it close at hand), rather than relying on willpower to choose correctly each time the option is presented.",
+      "inbound_link_count": 14,
+      "outbound_link_count": 1,
+      "pagerank": 0.029539549661585444,
+      "title": "Friction Shaping"
+    },
+    {
+      "concept_id": "full-calendar-capture",
+      "description": "Put every time-bound commitment — including solo work, chores, travel, and self-care — on one calendar so true capacity is visible before accepting new obligations.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.0030379921352622326,
+      "title": "Full Calendar Capture"
+    },
+    {
+      "concept_id": "future-linked-precommitment",
+      "description": "Commit now to an automatic change that takes effect only on a future trigger (such as a pay raise), avoiding immediate loss while binding future behavior.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0014819531125751409,
+      "title": "Future-Linked Precommitment"
+    },
+    {
+      "concept_id": "golden-behavior-selection",
+      "description": "Choose target behaviors that simultaneously score high on aspiration impact, personal motivation, and ability — using Focus Mapping instead of guessing, internet inspiration, or copying friends.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0022348012319676758,
+      "title": "Golden Behavior Selection"
+    },
+    {
+      "concept_id": "good-enough-checkpoint",
+      "description": "Adopt a specific, pre-agreed checkpoint phrase (\"is this good enough?\") to deliberately interrupt perfectionistic iteration and grant permission to stop, since it can be hard to trust one's own judgment that a task is finished without an explicit, previously legitimized signal to stop.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0011562749086439122,
+      "title": "Good-Enough Checkpoint"
+    },
+    {
+      "concept_id": "goodhart-measurement-guard",
+      "description": "Choose progress metrics that track the real goal, because optimizing a proxy number produces the wrong behavior once the measure becomes the target.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.004064806947385955,
+      "title": "Goodhart Measurement Guard"
+    },
+    {
+      "concept_id": "graded-task-assignment",
+      "description": "A design principle for any task-based intervention: start at the person's current level of functioning and decompose the goal into progressively smaller steps, rather than attempting the full-sized task in one go.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 3,
+      "pagerank": 0.030364639982988065,
+      "title": "Graded Task Assignment"
+    },
+    {
+      "concept_id": "graduated-self-disclosure-script",
+      "description": "Prepare a small set of disclosure statements ranging from vague to specific, so how much personal information to share in a new or developing relationship can be chosen deliberately and paced to match closeness, rather than defaulting to full disclosure or improvised evasion under social pressure.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Graduated Self-Disclosure Script"
+    },
+    {
+      "concept_id": "group-behavior-design-process",
+      "description": "A seven-step method for changing household or team habits together — clarify aspiration, generate options, pick golden behaviors, ease ability, anchor prompts, celebrate success, and troubleshoot in P→A→M order.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.00301833086644183,
+      "title": "Group Behavior Design Process"
+    },
+    {
+      "concept_id": "habit-completion-reinforcement",
+      "description": "Attach an immediate reward to the end of a target behavior so the finish feels satisfying and the brain learns to repeat it — distinct from cues that make starting obvious.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 6,
+      "pagerank": 0.006105671736338513,
+      "title": "Habit Completion Reinforcement"
+    },
+    {
+      "concept_id": "habit-contract",
+      "description": "A written or verbal agreement naming a target habit, daily actions, and concrete penalties for lapses — signed with one or two accountability partners who enforce the social cost of breaking it.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.004393321365512974,
+      "title": "Habit Contract"
+    },
+    {
+      "concept_id": "habit-growth-vs-multiplication",
+      "description": "Scale habits either by growing the same behavior bigger or by keeping it fixed while it seeds additional habits — each plant has its own pace and ceiling.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.001647691802955366,
+      "title": "Habit Growth Versus Multiplication"
+    },
+    {
+      "concept_id": "habit-loop-replacement",
+      "description": "To change an existing habit, keep its cue and reward the same and swap only the routine in between, rather than trying to eliminate the cue or the underlying urge it triggers.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0015326030612310589,
+      "title": "Habit Loop Replacement"
+    },
+    {
+      "concept_id": "habit-meaning-filter",
+      "description": "Before investing effort in a habit, check whether it affirms a wanted identity, connects clearly to an important aspiration, or has outsized impact despite tiny size — drop \"should\" habits that fail the filter.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Habit Meaning Filter"
+    },
+    {
+      "concept_id": "habit-shaping",
+      "description": "After a gateway habit sticks, advance one small stage at a time while always mastering the first two minutes of the current stage before adding difficulty.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.009683869833643272,
+      "title": "Habit Shaping"
+    },
+    {
+      "concept_id": "habit-stacking",
+      "description": "Attach a new small practice to an already-established routine's existing cue (e.g. noticing body sensations while holding a morning cup of tea) instead of introducing it as a freestanding task that needs its own reminder and motivation.",
+      "inbound_link_count": 13,
+      "outbound_link_count": 2,
+      "pagerank": 0.029855012220057986,
+      "title": "Habit Stacking"
+    },
+    {
+      "concept_id": "hard-loss-recovery-scheduling",
+      "description": "When recovery is threatened by common emotional states, pre-schedule structural countermeasures — alternative treats, social time, reduced demands, and schedule variety — instead of relying on in-the-moment willpower.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.001558976913989271,
+      "title": "Hard Loss Recovery Scheduling"
+    },
+    {
+      "concept_id": "hyperfocus-bumper-rails",
+      "description": "Before starting an activity known to trigger prolonged, hard-to-exit absorption, pre-commit to an external stop-cue (an alarm, a check-in from another person, a scheduled end time) rather than relying on in-the-moment self-monitoring to notice when to stop.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.002690047057365976,
+      "title": "Hyperfocus Bumper Rails"
+    },
+    {
+      "concept_id": "idea-parking-lot",
+      "description": "Capture every urgent new idea in one external list so only one \"car\" is driven at a time while the rest wait safely parked.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Idea Parking Lot"
+    },
+    {
+      "concept_id": "identity-aligned-reward-selection",
+      "description": "Pick immediate habit rewards that vote for the identity you're building, not one that conflicts with it — otherwise extrinsic reinforcement cancels the habit it was meant to sustain.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.004929879522442155,
+      "title": "Identity Aligned Reward Selection"
+    },
+    {
+      "concept_id": "immediate-start-reward",
+      "description": "Attach a small pleasure available only once work has begun, because distant future payoffs do not motivate brains that experience time as now or not now.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.002363331405533851,
+      "title": "Immediate Start Reward"
+    },
+    {
+      "concept_id": "importance-urgency-triage-criteria",
+      "description": "Pre-define criteria for distinguishing importance from urgency, so each newly arriving request or task is filtered against a known standard instead of being reactively treated as urgent by default just because it just arrived.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.02054268511105798,
+      "title": "Importance-Urgency Triage Criteria"
+    },
+    {
+      "concept_id": "individual-environmental-control",
+      "description": "Prefer personal-level control over a shared environmental variable (temperature, lighting) via an individual device, rather than one centralized setting imposed on everyone, since the optimal level genuinely varies by person.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Individual Environmental Control"
+    },
+    {
+      "concept_id": "information-action-fallacy",
+      "description": "The mistaken belief that supplying correct facts or awareness alone will change behavior — when lasting change requires environmental redesign and tiny practiced habits instead.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 7,
+      "pagerank": 0.0011562749086439122,
+      "title": "Information-Action Fallacy"
+    },
+    {
+      "concept_id": "information-diet-boundary",
+      "description": "Pre-set a standing limit on consumption of emotionally costly information sources (news, social media) rather than deciding case by case whether to engage with each piece of content.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.0022743740211212124,
+      "title": "Information Diet Boundary"
+    },
+    {
+      "concept_id": "interest-novelty-challenge-urgency-injection",
+      "description": "Attach at least one of four stimulation sources — interest, novelty, challenge, or urgency — to a mundane task so an interest-led brain can engage it without relying on importance alone.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 7,
+      "pagerank": 0.002817179647376812,
+      "title": "Interest Novelty Challenge Urgency Injection"
+    },
+    {
+      "concept_id": "joint-sensory-needs-negotiation",
+      "description": "When two people who share a recurring context have opposing sensory or physical preferences, treat the mismatch as a joint design problem to solve together rather than framing either person's need as the flaw to be corrected.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011562749086439122,
+      "title": "Joint Sensory Needs Negotiation"
+    },
+    {
+      "concept_id": "launch-pad-bag",
+      "description": "Keep one bag permanently stocked with departure essentials so leaving the house does not depend on remembering each item every time.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0015225569997916646,
+      "title": "Launch Pad Bag"
+    },
+    {
+      "concept_id": "law-of-least-effort",
+      "description": "People gravitate toward the option that delivers value with the least work, so durable controls reduce friction for wanted behaviors rather than boosting motivation to overcome unnecessary effort.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.005282175840095562,
+      "title": "Law of Least Effort"
+    },
+    {
+      "concept_id": "layered-defence-in-depth",
+      "description": "Stack multiple independent preventive and mitigating controls so a breach at one layer triggers tactical retreat to the next rather than total failure, with each deeper layer accepting more damage but saving what can be saved.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 7,
+      "pagerank": 0.0030164403127078986,
+      "title": "Layered Defence in Depth"
+    },
+    {
+      "concept_id": "lifestyle-balance-audit",
+      "description": "Periodically review daily and weekly habits across physical, psychological, and resource domains — flag excesses and deliberately substitute under-used replenishing activities before old unhelpful patterns return.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.001474925642919873,
+      "title": "Lifestyle Balance Audit"
+    },
+    {
+      "concept_id": "lower-load-modality-choice",
+      "description": "For a recurring interaction, choose the format with lower ongoing sensory or logistical cost (e.g. teletherapy over in-person visits) rather than defaulting to the standard modality when a lighter one serves the same purpose.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 0,
+      "pagerank": 0.0018699994456200715,
+      "title": "Lower-Load Modality Choice"
+    },
+    {
+      "concept_id": "master-storage-directory",
+      "description": "Maintain a single written index of where important but hidden items are stored, so location tracking does not consume working memory.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0048690788698883955,
+      "title": "Master Storage Directory"
+    },
+    {
+      "concept_id": "meanwhile-habit",
+      "description": "Insert a tiny beneficial behavior into an existing dead pocket of waiting time — shower warm-up, red lights, checkout lines — instead of letting the pause default to annoyance or distraction.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011562749086439122,
+      "title": "Meanwhile Habit"
+    },
+    {
+      "concept_id": "mentor-as-decoding-resource",
+      "description": "Designate an ongoing go-to person who can translate ambiguous social or contextual signals into explicit terms, so decoding a new environment's unwritten rules doesn't have to be done alone, from scratch, one observation at a time.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.002321434873067271,
+      "title": "Mentor as Decoding Resource"
+    },
+    {
+      "concept_id": "monitoring-mode-selection",
+      "description": "Choose among continuous, probe, proactive, and reactive monitoring modes depending on whether the system is steady-state, under investigation, facing a planned change, or showing a drift signal.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0011562749086439122,
+      "title": "Monitoring Mode Selection"
+    },
+    {
+      "concept_id": "motivational-prosthesis",
+      "description": "Arrange artificial external motivators at the point of performance when internally generated drive is unreliable, and sustain them rather than withdrawing support after early success.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 3,
+      "pagerank": 0.017606775619686696,
+      "title": "Motivational Prosthesis"
+    },
+    {
+      "concept_id": "multi-format-information-provision",
+      "description": "Provide important information in more than one format (text, visual, audio) by default, since assuming a single processing style fits everyone systematically excludes whoever doesn't match the assumed default.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.020010805979962687,
+      "title": "Multi-Format Information Provision"
+    },
+    {
+      "concept_id": "never-miss-twice-rule",
+      "description": "After one missed instance of a habit, get back on track immediately so a single lapse doesn't spiral into a new bad habit of skipping.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.004064806947385955,
+      "title": "Never Miss Twice Rule"
+    },
+    {
+      "concept_id": "one-space-one-use",
+      "description": "Assign each physical zone or device a single primary activity so the location itself cues one behavior, instead of mixing contexts that let the easiest habit win.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.002707691460634607,
+      "title": "One Space, One Use"
+    },
+    {
+      "concept_id": "one-time-setup-lock-in",
+      "description": "A single upfront environmental or systems change that pays off repeatedly without further decisions — mattress, automatic savings, app deletion, smaller plates — automating future behavior by default.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 0,
+      "pagerank": 0.0019568484418976875,
+      "title": "One-Time Setup Lock-In"
+    },
+    {
+      "concept_id": "operating-envelope-control-shift",
+      "description": "Match control design to how far the situation has departed from normal: detailed protocols when within the normal envelope, predefined reconfiguration when abnormal, generic frameworks and satisficing when in the emergency region.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.0030653272785859166,
+      "title": "Operating Envelope Control Shift"
+    },
+    {
+      "concept_id": "opt-out-social-engagement-design",
+      "description": "Design group or social activities with an explicit, judgment-free opt-out by default, letting each individual set their own pace of relational engagement rather than presuming a uniform comfort level.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0011562749086439122,
+      "title": "Opt-Out Social Engagement Design"
+    },
+    {
+      "concept_id": "outcome-based-work-accountability",
+      "description": "Evaluate and reward work by quality and value delivered, not hours visible, meeting count, or productivity theater inputs.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.003808154213222932,
+      "title": "Outcome-Based Work Accountability"
+    },
+    {
+      "concept_id": "pearl-habit",
+      "description": "Repurpose a recurring irritant as the anchor for a beneficial response so the annoyance itself becomes a cue you welcome rather than resist.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011562749086439122,
+      "title": "Pearl Habit"
+    },
+    {
+      "concept_id": "performance-versus-knowledge-gap",
+      "description": "A design assumption that the limiting factor is often execution at the critical moment, not missing information about what to do.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.007461852916469804,
+      "title": "Performance Versus Knowledge Gap"
+    },
+    {
+      "concept_id": "permissions-not-demands-work-frame",
+      "description": "Replace \"should\" self-talk that triggers shutdown with an explicit list of permitted tangential activities that count as legitimate parts of work.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Permissions-Not-Demands Work Frame"
+    },
+    {
+      "concept_id": "personal-accommodation-planning-list",
+      "description": "Draft a written list of specific workplace accommodations to discuss with a manager, prepared before the conversation, when lifelong without support makes it hard to know what to ask for.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0011562749086439122,
+      "title": "Personal Accommodation Planning List"
+    },
+    {
+      "concept_id": "personal-bright-line-rule",
+      "description": "Decide a fixed rule of conduct in advance and treat it as binding regardless of in-the-moment social pressure, rather than re-judging whether to follow it case by case.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 4,
+      "pagerank": 0.0052616420079562905,
+      "title": "Personal Bright-Line Rule"
+    },
+    {
+      "concept_id": "point-of-performance-intervention",
+      "description": "Design controls to act at the exact time and place a target behavior should occur, because interventions distant from that moment lose effectiveness.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 2,
+      "pagerank": 0.020659455179635973,
+      "title": "Point-of-Performance Intervention"
+    },
+    {
+      "concept_id": "pre-agreed-overload-pause-signal",
+      "description": "Agree in advance, while calm, on a specific word or signal that either party in a recurring interaction can use to call a pause once overload sets in, so stopping doesn't require negotiating permission to stop in the moment.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011562749086439122,
+      "title": "Pre-Agreed Overload Pause Signal"
+    },
+    {
+      "concept_id": "pre-authorized-refusal-boundary",
+      "description": "Establish in advance an explicit right to refuse a duty, commitment, or exposure when predicted risk is too high — without treating each refusal as a fresh negotiation.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0011562749086439122,
+      "title": "Pre-Authorized Refusal Boundary"
+    },
+    {
+      "concept_id": "pre-prepared-response-bank",
+      "description": "Build a stock of ready-made stories or answers, plus a scripted delay phrase, usable across a range of spontaneous-verbal-demand situations (interviews, unexpected questions), so responding doesn't require generating content on the spot.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0027904563434409443,
+      "title": "Pre-Prepared Response Bank"
+    },
+    {
+      "concept_id": "pre-rehearsed-boundary-script",
+      "description": "Write down and rehearse short phrases for declining, pausing, or exiting a situation in advance, so asserting a boundary under social or sensory pressure doesn't require composing the right words on the spot.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 3,
+      "pagerank": 0.005767698199460851,
+      "title": "Pre-Rehearsed Boundary Script"
+    },
+    {
+      "concept_id": "pre-scripted-accommodation-request",
+      "description": "Prepare a short, ready-to-use phrase for requesting a specific environmental accommodation in advance, so asking doesn't require composing a justification under stress in the moment.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 0,
+      "pagerank": 0.015398572536090846,
+      "title": "Pre-Scripted Accommodation Request"
+    },
+    {
+      "concept_id": "pre-stocked-low-energy-fallback",
+      "description": "Prepare and keep on hand a low-effort, no-decisions-required fallback option (e.g. frozen meals) reserved specifically for low-capacity days, so the routine has a degraded-but-working path instead of collapsing when energy or executive function is depleted.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.005034879895177993,
+      "title": "Pre-Stocked Low-Energy Fallback"
+    },
+    {
+      "concept_id": "precorrection-cue-before-activity",
+      "description": "State expected behavior immediately before a transition or activity starts, not only after a violation, so the cue is present at the point of performance.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Precorrection Cue Before Activity"
+    },
+    {
+      "concept_id": "preference-aligned-routine-design",
+      "description": "When choosing which form a routine activity takes (e.g. which kind of exercise), pick the variant that's genuinely enjoyable or sensory-fitting over the variant that's conventionally prescribed, so the routine survives without needing willpower to sustain it.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.002918386642686952,
+      "title": "Preference-Aligned Routine Design"
+    },
+    {
+      "concept_id": "premortem-procedure",
+      "description": "Before committing to a plan, run a structured session imagining it has already failed and writing the failure history, to surface suppressed doubts and break premature group consensus.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.015458415281208723,
+      "title": "Premortem Procedure"
+    },
+    {
+      "concept_id": "prepared-appointment-notes",
+      "description": "Write down questions and concerns before an important conversation or appointment, and consider asking to record it, so recall of what to raise or what was said doesn't depend on memory under the pressure of the conversation itself.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0011562749086439122,
+      "title": "Prepared Appointment Notes"
+    },
+    {
+      "concept_id": "prewritten-relapse-action-plan",
+      "description": "Document concrete steps to take when mood warning signs appear — often sealed until needed — so future-you executes pre-decided care instead of improvising under depression's narrowed judgment.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.008044745462685868,
+      "title": "Prewritten Relapse Action Plan"
+    },
+    {
+      "concept_id": "proactive-environment-priming",
+      "description": "After finishing an activity, reset the space and stage materials for the next wanted action so future effort starts at zero instead of hunting, deciding, or cleaning up first.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0016153304698660026,
+      "title": "Proactive Environment Priming"
+    },
+    {
+      "concept_id": "proactive-recovery-leave",
+      "description": "Schedule extended recovery time (leave, a sabbatical, a planned pause) on a standing cadence proactively, rather than treating time off as something only taken reactively after burnout has already set in.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011562749086439122,
+      "title": "Proactive Recovery Leave"
+    },
+    {
+      "concept_id": "proactive-support-menu",
+      "description": "Present a menu of available accommodations or supports upfront by default, rather than requiring a person to identify and request what they need, since self-advocacy capacity is unevenly distributed and often lowest exactly where need is highest.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0014019833557996392,
+      "title": "Proactive Support Menu"
+    },
+    {
+      "concept_id": "proactive-transition-preparation",
+      "description": "Use the lead-up period before a known major transition (a new job, a big change) to front-load orientation information, arrange needed accommodations, and establish support relationships in advance, rather than leaving all of it to be handled at the transition point itself.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.001732260661139625,
+      "title": "Proactive Transition Preparation"
+    },
+    {
+      "concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "description": "When a wanted behavior fails, diagnose prompt first, then ability, then motivation last — reversing the common instinct to reach for willpower or penalties before fixing missing cues or excess friction.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 7,
+      "pagerank": 0.005375408016673323,
+      "title": "Prompt-Ability-Motivation Troubleshooting Order"
+    },
+    {
+      "concept_id": "prosthetic-social-environment",
+      "description": "Treat long-term environmental accommodations as permanent prosthetic support, not temporary fixes to be withdrawn once behavior improves.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Prosthetic Social Environment"
+    },
+    {
+      "concept_id": "protected-core-scope",
+      "description": "When a core intervention, project, or routine is defined, resist adding peripheral features or obligations that dilute it — the personal analogue of product \"feature creep.\"",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0015813462691296727,
+      "title": "Protected Core Scope"
+    },
+    {
+      "concept_id": "protected-uninterrupted-time",
+      "description": "Proactively block out interruption-free time — disabling notifications, requesting formally protected work time — as a standing feature of the schedule, rather than hoping interruptions simply don't happen.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.010166879466632346,
+      "title": "Protected Uninterrupted Time"
+    },
+    {
+      "concept_id": "provider-vetting-checklist",
+      "description": "Prepare a standing list of green flags and red flags for evaluating a category of recurring people-decision (a service provider, a new friendship) in advance, so each new candidate is screened against known criteria instead of being freshly judged from scratch.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011562749086439122,
+      "title": "Green/Red Flag Vetting Checklist"
+    },
+    {
+      "concept_id": "recurring-task-automation",
+      "description": "Remove recurring obligations from working memory via subscriptions, standing orders, calendar reminders, and rule-based transfers so action happens only when prompted or not at all.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.003863818829142178,
+      "title": "Recurring Task Automation"
+    },
+    {
+      "concept_id": "reduced-inventory-organization-load",
+      "description": "Lower the number of possessions and commitments to track so organization requires less memory, storage, and decision-making surface area.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0019737431031688155,
+      "title": "Reduced Inventory Organization Load"
+    },
+    {
+      "concept_id": "request-explicit-norms",
+      "description": "Proactively ask for an unwritten rule or expectation to be stated explicitly, rather than trying to infer it by observing subtle social or contextual cues.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.004112328639382257,
+      "title": "Request Explicit Norms"
+    },
+    {
+      "concept_id": "request-reference-example",
+      "description": "When facing a vague or open-ended task, ask for a concrete example, template, or prior similar work product before starting, rather than beginning from an ambiguous specification.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0011562749086439122,
+      "title": "Request a Reference Example"
+    },
+    {
+      "concept_id": "risk-policy-advance-rule",
+      "description": "Adopt a class-wide decision rule in advance for a category of risky choices, so each individual instance is judged against the long-run policy rather than re-decided under loss aversion in the moment.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Risk Policy Advance Rule"
+    },
+    {
+      "concept_id": "role-crafting",
+      "description": "Proactively negotiate or reshape which tasks make up a role or set of responsibilities to match actual capacities and strengths, rather than treating the role's task list as a fixed given to be forced through regardless of fit.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0011562749086439122,
+      "title": "Role Crafting"
+    },
+    {
+      "concept_id": "running-decision-log",
+      "description": "Keep an ongoing written record of key conversations, agreements, and decisions as they happen (notes, follow-up recap emails) rather than relying on memory to reconstruct them later.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 0,
+      "pagerank": 0.0043446470439907296,
+      "title": "Running Decision Log"
+    },
+    {
+      "concept_id": "scheduled-recalibration-breaks",
+      "description": "Build short regulation breaks into the schedule at fixed intervals as a standing feature of the day, rather than only taking a break reactively once overwhelm has already set in.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.008345079583026565,
+      "title": "Scheduled Recalibration Breaks"
+    },
+    {
+      "concept_id": "scheduled-relationship-check-in",
+      "description": "Put a recurring, structured check-in on the calendar for an ongoing relationship, with fixed reflection prompts, so misalignment surfaces on a regular cadence instead of only once it's already become a problem.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0011562749086439122,
+      "title": "Scheduled Relationship Check-In"
+    },
+    {
+      "concept_id": "scheduled-self-treat-routine",
+      "description": "Build small, regular pampering into the week as a preventive control — inexpensive treats on a fixed rhythm remind you to value yourself before burnout or relapse, not only as a reward after crisis.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0014213010177052245,
+      "title": "Scheduled Self Treat Routine"
+    },
+    {
+      "concept_id": "scheduled-sensory-recovery-slot",
+      "description": "Block recurring calendar time to deliberately meet sensory avoiding or seeking needs, rather than hoping recovery happens spontaneously after overload builds.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Scheduled Sensory Recovery Slot"
+    },
+    {
+      "concept_id": "scheduled-worry-period",
+      "description": "Contain an otherwise-unbounded recurring activity (worrying) to a fixed daily time slot, and defer intrusions outside that slot to the next scheduled occurrence, instead of engaging with it wherever it arises.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.007036983610250339,
+      "title": "Scheduled Worry Period"
+    },
+    {
+      "concept_id": "self-maintenance-routine",
+      "description": "Preventive repair work on sleep, food, and movement done before the day demands them — greasing the wheels so you can function, not a luxury reward after everything else is done.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 6,
+      "pagerank": 0.0017831183858879936,
+      "title": "Self-Maintenance Routine"
+    },
+    {
+      "concept_id": "self-regulation-resource-replenishment",
+      "description": "Arrange periodic replenishment during or after self-regulation-heavy work because executive effort temporarily depletes a limited resource pool.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0061448639368348705,
+      "title": "Self-Regulation Resource Replenishment"
+    },
+    {
+      "concept_id": "sensory-friendly-activity-selection",
+      "description": "When planning a shared activity, choose the venue and format for its sensory characteristics (lighting, noise, structure) up front, rather than defaulting to a conventional venue and hoping sensory overload doesn't undermine the activity's actual purpose.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011562749086439122,
+      "title": "Sensory-Friendly Activity Selection"
+    },
+    {
+      "concept_id": "sensory-safety-plan",
+      "description": "A written plan, prepared in advance while calm, listing calming strategies, safe spaces, comforting tools, and an exit strategy for sensory overwhelm — so none of that has to be worked out in the moment when overwhelmed.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.01889802191923507,
+      "title": "Sensory Safety Plan"
+    },
+    {
+      "concept_id": "shareable-needs-profile",
+      "description": "Write down a person's strengths, triggers, sensory sensitivities, and communication preferences once, in a document meant to be handed to new teachers, providers, or caregivers, so each new person doesn't have to independently rediscover the same information from scratch.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0014019833557996392,
+      "title": "Shareable Needs Profile"
+    },
+    {
+      "concept_id": "sleep-arrangement-accommodation",
+      "description": "Choose the sleeping arrangement (e.g. separate beds or bedrooms) that actually protects both partners' sleep, rather than defaulting to a shared arrangement because of social expectations about what a healthy relationship's sleep setup should look like.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0011562749086439122,
+      "title": "Sleep Arrangement Accommodation"
+    },
+    {
+      "concept_id": "sleep-restriction-protocol",
+      "description": "Rebuild sleep by fixing wake time, starting with a short sleep window and holding it for two weeks, then gradually extending bedtime in 30-minute steps until reaching a sustainable nightly duration.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0014088833796298394,
+      "title": "Sleep Restriction Protocol"
+    },
+    {
+      "concept_id": "smart-goal-specification",
+      "description": "Specify a goal as Specific, Measurable, Achievable, Relevant, and Time-bound so it's concrete enough to act on, instead of leaving it as a vague aspiration that gives no clear starting point.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002556813118261346,
+      "title": "SMART Goal Specification"
+    },
+    {
+      "concept_id": "starter-step-scaling-back",
+      "description": "Make a habit tiny via a small first move (starter step) or a shrunken baseline version (scaling back), so low-motivation days still count as full success and the habit survives disruption.",
+      "inbound_link_count": 12,
+      "outbound_link_count": 3,
+      "pagerank": 0.00866556998468251,
+      "title": "Starter Step Scaling Back"
+    },
+    {
+      "concept_id": "streak-tracking",
+      "description": "Keep an explicit count of consecutive successful days (or instances) of a target behavior, so an abstract ongoing commitment becomes a visible, cumulative record that's costly to break, rather than a private intention that has to be renewed from scratch each day.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.010265402026307808,
+      "title": "Streak Tracking"
+    },
+    {
+      "concept_id": "structured-engagement-check-in",
+      "description": "Pair systematic monitoring of engagement indicators with a trusted mentor who problem-solves when metrics cross risk thresholds, instead of waiting for crisis to surface disengagement.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0011562749086439122,
+      "title": "Structured Engagement Check-In"
+    },
+    {
+      "concept_id": "structured-scoring-checklist",
+      "description": "Replace inconsistent holistic judgment with a fixed checklist of a few observable variables scored on a simple scale, then combined by a formula — often with equal weights — for reliable repeated decisions.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0028838186624025597,
+      "title": "Structured Scoring Checklist"
+    },
+    {
+      "concept_id": "success-momentum",
+      "description": "Frequent small felt successes raise overall motivation more reliably than rare large ones — the size of the win barely matters compared to how often it happens.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.001647691802955366,
+      "title": "Success Momentum"
+    },
+    {
+      "concept_id": "superfridge-food-environment",
+      "description": "Redesign the home fridge to stock only ready-to-eat healthy food and nothing that conflicts with the eating plan — eat freely from it without willpower battles against the rest of the food environment.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0014995326773369904,
+      "title": "Superfridge Food Environment"
+    },
+    {
+      "concept_id": "suppression-reduction-barrier-mitigation-hierarchy",
+      "description": "When designing controls for a hazard, prefer removing exposure first, then reducing exposure, and only then adding barriers that block harm after exposure has already occurred.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.002102252460608356,
+      "title": "Suppression Reduction Barrier Mitigation Hierarchy"
+    },
+    {
+      "concept_id": "systems-over-goals",
+      "description": "Design and maintain the recurring processes that produce results, rather than relying on goal bursts that treat symptoms without changing the habits that created them.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0017110400598029517,
+      "title": "Systems Over Goals"
+    },
+    {
+      "concept_id": "task-batching",
+      "description": "Group similar tasks together into a single session rather than interleaving different task types, since each switch between task types costs disproportionate refocusing time.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.007062539597416589,
+      "title": "Task Batching"
+    },
+    {
+      "concept_id": "task-delegation-scaffold",
+      "description": "Hand off recurring or standardized tasks to another person or service when holding them in working memory is unsustainable, without treating support as failure.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.005274024590921201,
+      "title": "Task Delegation Scaffold"
+    },
+    {
+      "concept_id": "temporal-gap-bridging",
+      "description": "Shorten the delay between action and consequence so behavior is governed by near-term contingencies instead of weak internal representations of the future.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0027416134296453227,
+      "title": "Temporal Gap Bridging"
+    },
+    {
+      "concept_id": "temptation-bundling",
+      "description": "Pair an action you need to do with one you want to do, so the needed behavior becomes the gateway to the wanted reward and anticipation drives action.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002021245255931958,
+      "title": "Temptation Bundling"
+    },
+    {
+      "concept_id": "tiered-todo-structure",
+      "description": "Split a flat task list into named tiers (must, could, delegate, later) so today's view excludes deferred and non-owned work instead of accumulating shame from one impossible pile.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.005194663101586157,
+      "title": "Tiered To-Do Structure"
+    },
+    {
+      "concept_id": "time-boxed-goal-setting",
+      "description": "Set a task's goal as a fixed duration to spend on it (e.g. \"read for 5 minutes\") rather than a fixed amount to complete, so success is reachable even when initiation itself is the main barrier.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.013836957182323795,
+      "title": "Time-Boxed Goal Setting"
+    },
+    {
+      "concept_id": "two-minute-rule",
+      "description": "Scale a new habit's first step to under two minutes so starting is easy, establishing the behavior before optimizing its duration or intensity.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.012112948418300478,
+      "title": "Two-Minute Rule"
+    },
+    {
+      "concept_id": "universal-design-default",
+      "description": "Make an accommodation a standard environmental default for everyone rather than an individually-triggered exception, when doing so doesn't disadvantage anyone else, removing the need for whoever needs it to disclose or request it at all.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.016134244035400015,
+      "title": "Universal Design Default"
+    },
+    {
+      "concept_id": "urge-delay-friction-controls",
+      "description": "In early recovery from compulsive spending or similar habits, impose temporary structural barriers — limited cash, removed cards, deleted apps — that force a delay between urge and action.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.030233103581768422,
+      "title": "Urge Delay Friction Controls"
+    },
+    {
+      "concept_id": "urge-trigger-alternative-plan",
+      "description": "Map personal triggers and highest-risk times for unwanted behavior, then pre-decide a specific alternative action for each — so an urge finds a ready script instead of improvisation under craving.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.014005357542615454,
+      "title": "Urge Trigger Alternative Plan"
+    },
+    {
+      "concept_id": "virtual-route-preview",
+      "description": "Rehearse an unfamiliar location via street-level imagery before going, to convert abstract anxiety into a concrete, predictable mental map.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.0020328906147246625,
+      "title": "Virtual Route Preview"
+    },
+    {
+      "concept_id": "visible-storage-for-object-permanence",
+      "description": "Keep routinely needed items in obvious view near related routines instead of hidden storage, when out-of-sight reliably means out-of-mind.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.013104007882402187,
+      "title": "Visible Storage for Object Permanence"
+    },
+    {
+      "concept_id": "visual-checklist-for-multistep-routines",
+      "description": "Externalize the steps of a multi-step self-care or task routine as a visual/written checklist, so the steps don't have to be held in memory or re-derived each time the routine is performed.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.019962424153862866,
+      "title": "Visual Checklist for Multi-Step Routines"
+    },
+    {
+      "concept_id": "voluntary-hardship-drill",
+      "description": "Periodically and deliberately practice a scaled-down version of a feared future deprivation (going without comfort, food, or money) while circumstances are still stable, so the real thing — if it arrives — is familiar rather than untested.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.0014716007592987267,
+      "title": "Voluntary Hardship Drill"
+    },
+    {
+      "concept_id": "waiting-mode-mitigation",
+      "description": "Reduce the lost day before a scheduled appointment by early scheduling, task-duration records, and hard external reminders.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0014838861715182148,
+      "title": "Waiting Mode Mitigation"
+    },
+    {
+      "concept_id": "waypoint-sequencing-without-timetable",
+      "description": "Pre-build an unordered menu of concrete waypoints for a trip or outing, then visit them in whatever sequence fits the day, instead of requiring a fixed timetable for unfamiliar places.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.001732260661139625,
+      "title": "Waypoint Sequencing Without Timetable"
+    },
+    {
+      "concept_id": "weekly-activity-schedule-template",
+      "description": "A pre-structured, blank week-by-time-block grid used to plan activities in advance, so that filling in a week's plan is a matter of placing items into existing slots rather than designing a schedule structure from scratch each time.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.01709108543078488,
+      "title": "Weekly Activity Schedule Template"
+    },
+    {
+      "concept_id": "weekly-brain-dump-planning",
+      "description": "Once per week, externalize every upcoming obligation onto one master view, then each evening pull the next day's subset so mornings start with a decided plan instead of decision freeze.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.010658858581782059,
+      "title": "Weekly Brain Dump Planning"
+    },
+    {
+      "concept_id": "what-by-when-and-why-instructions",
+      "description": "State delegated work as what exactly is needed, by when, and why, instead of vague requests that force the recipient to infer missing context.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.012743887423222472,
+      "title": "What-by-When-and-Why Instructions"
+    },
+    {
+      "concept_id": "wind-down-buffer",
+      "description": "Fix a cutoff time before a target routine (e.g. sleep) after which stimulating activities are pre-emptively swapped for calming ones, instead of deciding in the moment whether to stop.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.002007658891039969,
+      "title": "Wind-Down Buffer"
+    },
+    {
+      "concept_id": "work-home-boundary-separation",
+      "description": "Physically and digitally separate work from personal life — separate devices, logins, or notification rules — so relaxation time doesn't carry productivity guilt from ambient work cues.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0011562749086439122,
+      "title": "Work Home Boundary Separation"
+    },
+    {
+      "concept_id": "workspace-processing-surface",
+      "description": "Use a clear, drawer-free work surface where each item is processed immediately in–out, rather than accumulating piles that require later sorting under load.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.001923454284341989,
+      "title": "Workspace Processing Surface"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "ability-chain-diagnosis",
+      "target": "fogg-behavior-model.md",
+      "target_concept_id": "fogg-behavior-model",
+      "text": "Fogg Behavior Model"
+    },
+    {
+      "source_concept_id": "ability-chain-diagnosis",
+      "target": "law-of-least-effort.md",
+      "target_concept_id": "law-of-least-effort",
+      "text": "law of least effort"
+    },
+    {
+      "source_concept_id": "ability-chain-diagnosis",
+      "target": "prompt-ability-motivation-troubleshooting-order.md",
+      "target_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "text": "prompt-ability-motivation troubleshootingorder"
+    },
+    {
+      "source_concept_id": "ability-chain-diagnosis",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter stepscaling back"
+    },
+    {
+      "source_concept_id": "absorbing-activity-revival",
+      "target": "curated-activity-menu.md",
+      "target_concept_id": "curated-activity-menu",
+      "text": "curated activity menu"
+    },
+    {
+      "source_concept_id": "absorbing-activity-revival",
+      "target": "preference-aligned-routine-design.md",
+      "target_concept_id": "preference-aligned-routine-design",
+      "text": "preference-aligned routinedesign"
+    },
+    {
+      "source_concept_id": "absorbing-activity-revival",
+      "target": "weekly-activity-schedule-template.md",
+      "target_concept_id": "weekly-activity-schedule-template",
+      "text": "weekly activity scheduletemplate"
+    },
+    {
+      "source_concept_id": "accommodation-category-matrix",
+      "target": "motivational-prosthesis.md",
+      "target_concept_id": "motivational-prosthesis",
+      "text": "motivational prostheses"
+    },
+    {
+      "source_concept_id": "accommodation-category-matrix",
+      "target": "point-of-performance-intervention.md",
+      "target_concept_id": "point-of-performance-intervention",
+      "text": "point-of-performance intervention"
+    },
+    {
+      "source_concept_id": "anchor-moment-design",
+      "target": "concrete-implementation-plan.md",
+      "target_concept_id": "concrete-implementation-plan",
+      "text": "concrete implementation plan"
+    },
+    {
+      "source_concept_id": "anchor-moment-design",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "atomic-habit",
+      "target": "four-laws-of-behavior-change.md",
+      "target_concept_id": "four-laws-of-behavior-change",
+      "text": "four laws ofbehavior change"
+    },
+    {
+      "source_concept_id": "atomic-habit",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter step scaling back"
+    },
+    {
+      "source_concept_id": "atomic-habit",
+      "target": "systems-over-goals.md",
+      "target_concept_id": "systems-over-goals",
+      "text": "systems over goals"
+    },
+    {
+      "source_concept_id": "atomic-habit",
+      "target": "two-minute-rule.md",
+      "target_concept_id": "two-minute-rule",
+      "text": "two-minute rule"
+    },
+    {
+      "source_concept_id": "automated-proofreading-scaffold",
+      "target": "full-calendar-capture.md",
+      "target_concept_id": "full-calendar-capture",
+      "text": "full calendarcapture"
+    },
+    {
+      "source_concept_id": "automated-proofreading-scaffold",
+      "target": "what-by-when-and-why-instructions.md",
+      "target_concept_id": "what-by-when-and-why-instructions",
+      "text": "what-by-when-and-why instructions"
+    },
+    {
+      "source_concept_id": "avoidance-habit-savings-transfer",
+      "target": "habit-completion-reinforcement.md",
+      "target_concept_id": "habit-completion-reinforcement",
+      "text": "habit completionreinforcement"
+    },
+    {
+      "source_concept_id": "avoidance-habit-savings-transfer",
+      "target": "identity-aligned-reward-selection.md",
+      "target_concept_id": "identity-aligned-reward-selection",
+      "text": "identity-aligned reward selection"
+    },
+    {
+      "source_concept_id": "backward-milestone-planning",
+      "target": "concrete-implementation-plan.md",
+      "target_concept_id": "concrete-implementation-plan",
+      "text": "concrete implementation plans"
+    },
+    {
+      "source_concept_id": "backward-milestone-planning",
+      "target": "weekly-brain-dump-planning.md",
+      "target_concept_id": "weekly-brain-dump-planning",
+      "text": "weekly brain dumpplanning"
+    },
+    {
+      "source_concept_id": "balanced-activity-scheduling",
+      "target": "curated-activity-menu.md",
+      "target_concept_id": "curated-activity-menu",
+      "text": "curated activity menu"
+    },
+    {
+      "source_concept_id": "balanced-activity-scheduling",
+      "target": "graded-task-assignment.md",
+      "target_concept_id": "graded-task-assignment",
+      "text": "graded task assignment"
+    },
+    {
+      "source_concept_id": "balanced-activity-scheduling",
+      "target": "weekly-activity-schedule-template.md",
+      "target_concept_id": "weekly-activity-schedule-template",
+      "text": "weekly activity schedule template"
+    },
+    {
+      "source_concept_id": "bare-minimum-day-goal",
+      "target": "graded-task-assignment.md",
+      "target_concept_id": "graded-task-assignment",
+      "text": "graded task assignment"
+    },
+    {
+      "source_concept_id": "bare-minimum-day-goal",
+      "target": "tiered-todo-structure.md",
+      "target_concept_id": "tiered-todo-structure",
+      "text": "tiered to-do structures"
+    },
+    {
+      "source_concept_id": "behavior-change-masterplan",
+      "target": "cue-exposure-reduction.md",
+      "target_concept_id": "cue-exposure-reduction",
+      "text": "cue exposurereduction"
+    },
+    {
+      "source_concept_id": "behavior-change-masterplan",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "behavior-change-masterplan",
+      "target": "habit-contract.md",
+      "target_concept_id": "habit-contract",
+      "text": "habit contract"
+    },
+    {
+      "source_concept_id": "behavior-change-masterplan",
+      "target": "prompt-ability-motivation-troubleshooting-order.md",
+      "target_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "text": "prompt-ability-motivation troubleshootingorder"
+    },
+    {
+      "source_concept_id": "behavior-change-masterplan",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter stepscaling back"
+    },
+    {
+      "source_concept_id": "behavior-crafting-pace",
+      "target": "habit-growth-vs-multiplication.md",
+      "target_concept_id": "habit-growth-vs-multiplication",
+      "text": "habit growth versusmultiplication"
+    },
+    {
+      "source_concept_id": "behavior-crafting-pace",
+      "target": "success-momentum.md",
+      "target_concept_id": "success-momentum",
+      "text": "successmomentum"
+    },
+    {
+      "source_concept_id": "body-doubling-work-setup",
+      "target": "lower-load-modality-choice.md",
+      "target_concept_id": "lower-load-modality-choice",
+      "text": "lower-load modality choice"
+    },
+    {
+      "source_concept_id": "body-doubling-work-setup",
+      "target": "personal-bright-line-rule.md",
+      "target_concept_id": "personal-bright-line-rule",
+      "text": "personal bright-linerule"
+    },
+    {
+      "source_concept_id": "body-doubling-work-setup",
+      "target": "pre-rehearsed-boundary-script.md",
+      "target_concept_id": "pre-rehearsed-boundary-script",
+      "text": "pre-rehearsed boundaryscript"
+    },
+    {
+      "source_concept_id": "body-doubling-work-setup",
+      "target": "protected-uninterrupted-time.md",
+      "target_concept_id": "protected-uninterrupted-time",
+      "text": "protecteduninterrupted time"
+    },
+    {
+      "source_concept_id": "breathing-space-action-scaffold",
+      "target": "prewritten-relapse-action-plan.md",
+      "target_concept_id": "prewritten-relapse-action-plan",
+      "text": "prewritten relapse action plan"
+    },
+    {
+      "source_concept_id": "cardinal-rule-of-behavior-change",
+      "target": "fogg-behavior-design-maxims.md",
+      "target_concept_id": "fogg-behavior-design-maxims",
+      "text": "Fogg behavior design maxims"
+    },
+    {
+      "source_concept_id": "cardinal-rule-of-behavior-change",
+      "target": "four-laws-of-behavior-change.md",
+      "target_concept_id": "four-laws-of-behavior-change",
+      "text": "four laws of behavior change"
+    },
+    {
+      "source_concept_id": "cardinal-rule-of-behavior-change",
+      "target": "habit-completion-reinforcement.md",
+      "target_concept_id": "habit-completion-reinforcement",
+      "text": "habit completion reinforcement"
+    },
+    {
+      "source_concept_id": "cardinal-rule-of-behavior-change",
+      "target": "temporal-gap-bridging.md",
+      "target_concept_id": "temporal-gap-bridging",
+      "text": "Temporal gap bridging"
+    },
+    {
+      "source_concept_id": "change-segment-dolphin-turtle-crab-clam",
+      "target": "ability-chain-diagnosis.md",
+      "target_concept_id": "ability-chain-diagnosis",
+      "text": "ability chain diagnosis"
+    },
+    {
+      "source_concept_id": "change-segment-dolphin-turtle-crab-clam",
+      "target": "group-behavior-design-process.md",
+      "target_concept_id": "group-behavior-design-process",
+      "text": "group behavior design process"
+    },
+    {
+      "source_concept_id": "change-segment-dolphin-turtle-crab-clam",
+      "target": "prompt-ability-motivation-troubleshooting-order.md",
+      "target_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "text": "prompt-ability-motivation troubleshootingorder"
+    },
+    {
+      "source_concept_id": "choice-architecture",
+      "target": "context-as-cue.md",
+      "target_concept_id": "context-as-cue",
+      "text": "context as cue"
+    },
+    {
+      "source_concept_id": "choice-architecture",
+      "target": "default-option-preselection.md",
+      "target_concept_id": "default-option-preselection",
+      "text": "default option preselection"
+    },
+    {
+      "source_concept_id": "choice-architecture",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "comfort-edge-scaling",
+      "target": "fogg-behavior-design-maxims.md",
+      "target_concept_id": "fogg-behavior-design-maxims",
+      "text": "Fogg behavior design maxims"
+    },
+    {
+      "source_concept_id": "comfort-edge-scaling",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter step scalingback"
+    },
+    {
+      "source_concept_id": "commitment-device",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "commitment-device",
+      "target": "future-linked-precommitment.md",
+      "target_concept_id": "future-linked-precommitment",
+      "text": "future-linked precommitment"
+    },
+    {
+      "source_concept_id": "commitment-device",
+      "target": "one-time-setup-lock-in.md",
+      "target_concept_id": "one-time-setup-lock-in",
+      "text": "one-time setup lock-in"
+    },
+    {
+      "source_concept_id": "commitment-device",
+      "target": "recurring-task-automation.md",
+      "target_concept_id": "recurring-task-automation",
+      "text": "recurring task automation"
+    },
+    {
+      "source_concept_id": "commitment-pruning-protocol",
+      "target": "behavior-change-masterplan.md",
+      "target_concept_id": "behavior-change-masterplan",
+      "text": "behavior change masterplan"
+    },
+    {
+      "source_concept_id": "commitment-pruning-protocol",
+      "target": "personal-bright-line-rule.md",
+      "target_concept_id": "personal-bright-line-rule",
+      "text": "personal bright-line rule"
+    },
+    {
+      "source_concept_id": "commitment-pruning-protocol",
+      "target": "pre-rehearsed-boundary-script.md",
+      "target_concept_id": "pre-rehearsed-boundary-script",
+      "text": "pre-rehearsedboundary script"
+    },
+    {
+      "source_concept_id": "concrete-implementation-plan",
+      "target": "anchor-moment-design.md",
+      "target_concept_id": "anchor-moment-design",
+      "text": "anchor moment design"
+    },
+    {
+      "source_concept_id": "concrete-implementation-plan",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "Habit stacking"
+    },
+    {
+      "source_concept_id": "concrete-implementation-plan",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "consistent-sensory-cue-for-routine-transition",
+      "target": "bed-stimulus-control.md",
+      "target_concept_id": "bed-stimulus-control",
+      "text": "bed stimulus control"
+    },
+    {
+      "source_concept_id": "consistent-sensory-cue-for-routine-transition",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "constant-across-task-transition",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "consumer-tech-assistive-scaffold",
+      "target": "environmental-sensory-accommodation.md",
+      "target_concept_id": "environmental-sensory-accommodation",
+      "text": "environmental sensory accommodation"
+    },
+    {
+      "source_concept_id": "consumer-tech-assistive-scaffold",
+      "target": "fixed-schedule-for-unreliable-body-cues.md",
+      "target_concept_id": "fixed-schedule-for-unreliable-body-cues",
+      "text": "fixed schedules for unreliable bodycues"
+    },
+    {
+      "source_concept_id": "consumer-tech-assistive-scaffold",
+      "target": "lower-load-modality-choice.md",
+      "target_concept_id": "lower-load-modality-choice",
+      "text": "Lower-load modality choice"
+    },
+    {
+      "source_concept_id": "consumer-tech-assistive-scaffold",
+      "target": "personal-bright-line-rule.md",
+      "target_concept_id": "personal-bright-line-rule",
+      "text": "personal bright-linerule"
+    },
+    {
+      "source_concept_id": "consumer-tech-assistive-scaffold",
+      "target": "pre-rehearsed-boundary-script.md",
+      "target_concept_id": "pre-rehearsed-boundary-script",
+      "text": "pre-rehearsedboundary script"
+    },
+    {
+      "source_concept_id": "consumer-tech-assistive-scaffold",
+      "target": "recurring-task-automation.md",
+      "target_concept_id": "recurring-task-automation",
+      "text": "recurring task automation"
+    },
+    {
+      "source_concept_id": "consumer-tech-assistive-scaffold",
+      "target": "virtual-route-preview.md",
+      "target_concept_id": "virtual-route-preview",
+      "text": "virtual route preview"
+    },
+    {
+      "source_concept_id": "context-as-cue",
+      "target": "bed-stimulus-control.md",
+      "target_concept_id": "bed-stimulus-control",
+      "text": "Bed stimuluscontrol"
+    },
+    {
+      "source_concept_id": "context-as-cue",
+      "target": "one-space-one-use.md",
+      "target_concept_id": "one-space-one-use",
+      "text": "one space, one use"
+    },
+    {
+      "source_concept_id": "contingency-rehearsal-script",
+      "target": "premortem-procedure.md",
+      "target_concept_id": "premortem-procedure",
+      "text": "premortem procedure"
+    },
+    {
+      "source_concept_id": "cue-exposure-reduction",
+      "target": "behavior-change-masterplan.md",
+      "target_concept_id": "behavior-change-masterplan",
+      "text": "behaviorchange masterplan"
+    },
+    {
+      "source_concept_id": "cue-exposure-reduction",
+      "target": "four-laws-of-behavior-change.md",
+      "target_concept_id": "four-laws-of-behavior-change",
+      "text": "four laws of behavior change"
+    },
+    {
+      "source_concept_id": "cue-exposure-reduction",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "cumulative-exposure-scheduling",
+      "target": "demand-triage-traffic-light-system.md",
+      "target_concept_id": "demand-triage-traffic-light-system",
+      "text": "demand triage traffic-lightsystems"
+    },
+    {
+      "source_concept_id": "cumulative-exposure-scheduling",
+      "target": "efficiency-flexibility-control-tradeoff.md",
+      "target_concept_id": "efficiency-flexibility-control-tradeoff",
+      "text": "Efficiency-flexibility controltradeoff"
+    },
+    {
+      "source_concept_id": "cumulative-exposure-scheduling",
+      "target": "full-calendar-capture.md",
+      "target_concept_id": "full-calendar-capture",
+      "text": "Full calendar capture"
+    },
+    {
+      "source_concept_id": "curated-activity-menu",
+      "target": "balanced-activity-scheduling.md",
+      "target_concept_id": "balanced-activity-scheduling",
+      "text": "balanced fun-and-achievement activity scheduling"
+    },
+    {
+      "source_concept_id": "curated-activity-menu",
+      "target": "weekly-activity-schedule-template.md",
+      "target_concept_id": "weekly-activity-schedule-template",
+      "text": "weekly activity schedule template"
+    },
+    {
+      "source_concept_id": "daily-report-card-scaffold",
+      "target": "smart-goal-specification.md",
+      "target_concept_id": "smart-goal-specification",
+      "text": "smart goal specification"
+    },
+    {
+      "source_concept_id": "daily-sensory-load-budget",
+      "target": "sensory-safety-plan.md",
+      "target_concept_id": "sensory-safety-plan",
+      "text": "sensory safety plan"
+    },
+    {
+      "source_concept_id": "day-quadrant-planning",
+      "target": "task-batching.md",
+      "target_concept_id": "task-batching",
+      "text": "taskbatching"
+    },
+    {
+      "source_concept_id": "decisive-moment",
+      "target": "habit-shaping.md",
+      "target_concept_id": "habit-shaping",
+      "text": "habit shaping"
+    },
+    {
+      "source_concept_id": "decisive-moment",
+      "target": "two-minute-rule.md",
+      "target_concept_id": "two-minute-rule",
+      "text": "two-minute rule"
+    },
+    {
+      "source_concept_id": "default-option-preselection",
+      "target": "choice-architecture.md",
+      "target_concept_id": "choice-architecture",
+      "text": "choicearchitecture"
+    },
+    {
+      "source_concept_id": "default-option-preselection",
+      "target": "curated-activity-menu.md",
+      "target_concept_id": "curated-activity-menu",
+      "text": "curated activity menu"
+    },
+    {
+      "source_concept_id": "default-option-preselection",
+      "target": "pre-stocked-low-energy-fallback.md",
+      "target_concept_id": "pre-stocked-low-energy-fallback",
+      "text": "pre-stocked low-energy fallback"
+    },
+    {
+      "source_concept_id": "defined-primary-end-filter",
+      "target": "freeze-new-commitments.md",
+      "target_concept_id": "freeze-new-commitments",
+      "text": "freeze newcommitments"
+    },
+    {
+      "source_concept_id": "defined-primary-end-filter",
+      "target": "importance-urgency-triage-criteria.md",
+      "target_concept_id": "importance-urgency-triage-criteria",
+      "text": "importance-urgency triagecriteria"
+    },
+    {
+      "source_concept_id": "defined-primary-end-filter",
+      "target": "personal-bright-line-rule.md",
+      "target_concept_id": "personal-bright-line-rule",
+      "text": "personalbright-line rule"
+    },
+    {
+      "source_concept_id": "defined-primary-end-filter",
+      "target": "pre-rehearsed-boundary-script.md",
+      "target_concept_id": "pre-rehearsed-boundary-script",
+      "text": "pre-rehearsed boundaryscripts"
+    },
+    {
+      "source_concept_id": "defined-primary-end-filter",
+      "target": "protected-core-scope.md",
+      "target_concept_id": "protected-core-scope",
+      "text": "Protected core scope"
+    },
+    {
+      "source_concept_id": "demand-softening-schedule-design",
+      "target": "curated-activity-menu.md",
+      "target_concept_id": "curated-activity-menu",
+      "text": "curated activity menus"
+    },
+    {
+      "source_concept_id": "demand-softening-schedule-design",
+      "target": "demand-triage-traffic-light-system.md",
+      "target_concept_id": "demand-triage-traffic-light-system",
+      "text": "demand triage traffic-light systems"
+    },
+    {
+      "source_concept_id": "demand-triage-traffic-light-system",
+      "target": "importance-urgency-triage-criteria.md",
+      "target_concept_id": "importance-urgency-triage-criteria",
+      "text": "Importance-urgency triage criteria"
+    },
+    {
+      "source_concept_id": "designated-external-state-monitor",
+      "target": "hyperfocus-bumper-rails.md",
+      "target_concept_id": "hyperfocus-bumper-rails",
+      "text": "hyperfocus bumperrails"
+    },
+    {
+      "source_concept_id": "designated-staging-pile",
+      "target": "visible-storage-for-object-permanence.md",
+      "target_concept_id": "visible-storage-for-object-permanence",
+      "text": "visible storage for object permanence"
+    },
+    {
+      "source_concept_id": "designated-vent-channel",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "frictionshaping"
+    },
+    {
+      "source_concept_id": "distress-tolerance-kit",
+      "target": "environmental-sensory-accommodation.md",
+      "target_concept_id": "environmental-sensory-accommodation",
+      "text": "environmental sensory accommodation"
+    },
+    {
+      "source_concept_id": "distress-tolerance-kit",
+      "target": "sensory-safety-plan.md",
+      "target_concept_id": "sensory-safety-plan",
+      "text": "sensory safety plan"
+    },
+    {
+      "source_concept_id": "efficiency-flexibility-control-tradeoff",
+      "target": "contingency-rehearsal-script.md",
+      "target_concept_id": "contingency-rehearsal-script",
+      "text": "contingencyrehearsal scripts"
+    },
+    {
+      "source_concept_id": "efficiency-flexibility-control-tradeoff",
+      "target": "layered-defence-in-depth.md",
+      "target_concept_id": "layered-defence-in-depth",
+      "text": "layered defence in depth"
+    },
+    {
+      "source_concept_id": "efficiency-flexibility-control-tradeoff",
+      "target": "operating-envelope-control-shift.md",
+      "target_concept_id": "operating-envelope-control-shift",
+      "text": "operating envelopecontrol shift"
+    },
+    {
+      "source_concept_id": "efficiency-flexibility-control-tradeoff",
+      "target": "voluntary-hardship-drill.md",
+      "target_concept_id": "voluntary-hardship-drill",
+      "text": "voluntary hardshipdrill"
+    },
+    {
+      "source_concept_id": "energy-coded-task-list",
+      "target": "bare-minimum-day-goal.md",
+      "target_concept_id": "bare-minimum-day-goal",
+      "text": "bare minimum daygoals"
+    },
+    {
+      "source_concept_id": "energy-coded-task-list",
+      "target": "energy-rhythm-aligned-scheduling.md",
+      "target_concept_id": "energy-rhythm-aligned-scheduling",
+      "text": "energy rhythm alignedscheduling"
+    },
+    {
+      "source_concept_id": "environmental-reminder-placement",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "environmental-reminder-placement",
+      "target": "performance-versus-knowledge-gap.md",
+      "target_concept_id": "performance-versus-knowledge-gap",
+      "text": "performance versus knowledge gap"
+    },
+    {
+      "source_concept_id": "environmental-reminder-placement",
+      "target": "point-of-performance-intervention.md",
+      "target_concept_id": "point-of-performance-intervention",
+      "text": "point ofperformance"
+    },
+    {
+      "source_concept_id": "environmental-reminder-placement",
+      "target": "visible-storage-for-object-permanence.md",
+      "target_concept_id": "visible-storage-for-object-permanence",
+      "text": "visible storage for objectpermanence"
+    },
+    {
+      "source_concept_id": "environmental-sensory-accommodation",
+      "target": "fixed-schedule-for-unreliable-body-cues.md",
+      "target_concept_id": "fixed-schedule-for-unreliable-body-cues",
+      "text": "fixed schedule for unreliable body cues"
+    },
+    {
+      "source_concept_id": "environmental-sensory-accommodation",
+      "target": "pre-scripted-accommodation-request.md",
+      "target_concept_id": "pre-scripted-accommodation-request",
+      "text": "pre-scripted accommodation request"
+    },
+    {
+      "source_concept_id": "environmental-sensory-accommodation",
+      "target": "universal-design-default.md",
+      "target_concept_id": "universal-design-default",
+      "text": "universal designdefault"
+    },
+    {
+      "source_concept_id": "explicit-inclusion-invitations",
+      "target": "request-explicit-norms.md",
+      "target_concept_id": "request-explicit-norms",
+      "text": "requesting explicit norms"
+    },
+    {
+      "source_concept_id": "factor-combination-risk-matrix",
+      "target": "operating-envelope-control-shift.md",
+      "target_concept_id": "operating-envelope-control-shift",
+      "text": "operating envelope controlshift"
+    },
+    {
+      "source_concept_id": "factor-combination-risk-matrix",
+      "target": "suppression-reduction-barrier-mitigation-hierarchy.md",
+      "target_concept_id": "suppression-reduction-barrier-mitigation-hierarchy",
+      "text": "suppression-reduction-barrier mitigation"
+    },
+    {
+      "source_concept_id": "fixed-schedule-for-unreliable-body-cues",
+      "target": "environmental-sensory-accommodation.md",
+      "target_concept_id": "environmental-sensory-accommodation",
+      "text": "external hazard-detection substitutes"
+    },
+    {
+      "source_concept_id": "fogg-behavior-design-maxims",
+      "target": "change-segment-dolphin-turtle-crab-clam.md",
+      "target_concept_id": "change-segment-dolphin-turtle-crab-clam",
+      "text": "change segment dolphin turtle crabclam"
+    },
+    {
+      "source_concept_id": "fogg-behavior-design-maxims",
+      "target": "golden-behavior-selection.md",
+      "target_concept_id": "golden-behavior-selection",
+      "text": "goldenbehaviors"
+    },
+    {
+      "source_concept_id": "fogg-behavior-design-maxims",
+      "target": "group-behavior-design-process.md",
+      "target_concept_id": "group-behavior-design-process",
+      "text": "group behavior design process"
+    },
+    {
+      "source_concept_id": "fogg-behavior-design-maxims",
+      "target": "preference-aligned-routine-design.md",
+      "target_concept_id": "preference-aligned-routine-design",
+      "text": "preference-aligned routine design"
+    },
+    {
+      "source_concept_id": "fogg-behavior-design-maxims",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter step scalingback"
+    },
+    {
+      "source_concept_id": "fogg-behavior-model",
+      "target": "ability-chain-diagnosis.md",
+      "target_concept_id": "ability-chain-diagnosis",
+      "text": "ability chaindiagnosis"
+    },
+    {
+      "source_concept_id": "fogg-behavior-model",
+      "target": "anchor-moment-design.md",
+      "target_concept_id": "anchor-moment-design",
+      "text": "anchor moment design"
+    },
+    {
+      "source_concept_id": "fogg-behavior-model",
+      "target": "behavior-change-masterplan.md",
+      "target_concept_id": "behavior-change-masterplan",
+      "text": "behaviorchange masterplan"
+    },
+    {
+      "source_concept_id": "fogg-behavior-model",
+      "target": "prompt-ability-motivation-troubleshooting-order.md",
+      "target_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "text": "prompt-ability-motivation troubleshootingorder"
+    },
+    {
+      "source_concept_id": "fogg-behavior-model",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter step scaling back"
+    },
+    {
+      "source_concept_id": "four-laws-of-behavior-change",
+      "target": "cardinal-rule-of-behavior-change.md",
+      "target_concept_id": "cardinal-rule-of-behavior-change",
+      "text": "cardinal rule of behaviorchange"
+    },
+    {
+      "source_concept_id": "four-laws-of-behavior-change",
+      "target": "commitment-device.md",
+      "target_concept_id": "commitment-device",
+      "text": "commitment device"
+    },
+    {
+      "source_concept_id": "four-laws-of-behavior-change",
+      "target": "environmental-reminder-placement.md",
+      "target_concept_id": "environmental-reminder-placement",
+      "text": "environmental reminder placement"
+    },
+    {
+      "source_concept_id": "four-laws-of-behavior-change",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "four-laws-of-behavior-change",
+      "target": "habit-completion-reinforcement.md",
+      "target_concept_id": "habit-completion-reinforcement",
+      "text": "habit completionreinforcement"
+    },
+    {
+      "source_concept_id": "four-laws-of-behavior-change",
+      "target": "habit-loop-replacement.md",
+      "target_concept_id": "habit-loop-replacement",
+      "text": "Habit loop replacement"
+    },
+    {
+      "source_concept_id": "four-laws-of-behavior-change",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "four-laws-of-behavior-change",
+      "target": "law-of-least-effort.md",
+      "target_concept_id": "law-of-least-effort",
+      "text": "law of least effort"
+    },
+    {
+      "source_concept_id": "four-laws-of-behavior-change",
+      "target": "streak-tracking.md",
+      "target_concept_id": "streak-tracking",
+      "text": "streaktracking"
+    },
+    {
+      "source_concept_id": "friction-shaping",
+      "target": "urge-delay-friction-controls.md",
+      "target_concept_id": "urge-delay-friction-controls",
+      "text": "urge delay frictioncontrols"
+    },
+    {
+      "source_concept_id": "full-calendar-capture",
+      "target": "demand-softening-schedule-design.md",
+      "target_concept_id": "demand-softening-schedule-design",
+      "text": "demand-softening schedule design"
+    },
+    {
+      "source_concept_id": "full-calendar-capture",
+      "target": "task-batching.md",
+      "target_concept_id": "task-batching",
+      "text": "time-blocked task batches"
+    },
+    {
+      "source_concept_id": "future-linked-precommitment",
+      "target": "temporal-gap-bridging.md",
+      "target_concept_id": "temporal-gap-bridging",
+      "text": "temporal gapbridging"
+    },
+    {
+      "source_concept_id": "golden-behavior-selection",
+      "target": "fogg-behavior-design-maxims.md",
+      "target_concept_id": "fogg-behavior-design-maxims",
+      "text": "Fogg behavior design maxims"
+    },
+    {
+      "source_concept_id": "golden-behavior-selection",
+      "target": "group-behavior-design-process.md",
+      "target_concept_id": "group-behavior-design-process",
+      "text": "group behavior design process"
+    },
+    {
+      "source_concept_id": "golden-behavior-selection",
+      "target": "one-time-setup-lock-in.md",
+      "target_concept_id": "one-time-setup-lock-in",
+      "text": "one-time setuplock-in"
+    },
+    {
+      "source_concept_id": "golden-behavior-selection",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter step scalingback"
+    },
+    {
+      "source_concept_id": "goodhart-measurement-guard",
+      "target": "streak-tracking.md",
+      "target_concept_id": "streak-tracking",
+      "text": "streak tracking"
+    },
+    {
+      "source_concept_id": "goodhart-measurement-guard",
+      "target": "structured-scoring-checklist.md",
+      "target_concept_id": "structured-scoring-checklist",
+      "text": "structured scoringchecklist"
+    },
+    {
+      "source_concept_id": "graded-task-assignment",
+      "target": "balanced-activity-scheduling.md",
+      "target_concept_id": "balanced-activity-scheduling",
+      "text": "balanced fun-and-achievement activity scheduling"
+    },
+    {
+      "source_concept_id": "graded-task-assignment",
+      "target": "time-boxed-goal-setting.md",
+      "target_concept_id": "time-boxed-goal-setting",
+      "text": "Time-boxed goal setting"
+    },
+    {
+      "source_concept_id": "graded-task-assignment",
+      "target": "visual-checklist-for-multistep-routines.md",
+      "target_concept_id": "visual-checklist-for-multistep-routines",
+      "text": "visual checklist for multi-step routines"
+    },
+    {
+      "source_concept_id": "graduated-self-disclosure-script",
+      "target": "pre-scripted-accommodation-request.md",
+      "target_concept_id": "pre-scripted-accommodation-request",
+      "text": "pre-scripted accommodation request"
+    },
+    {
+      "source_concept_id": "graduated-self-disclosure-script",
+      "target": "pre-scripted-accommodation-request.md",
+      "target_concept_id": "pre-scripted-accommodation-request",
+      "text": "pre-scripted accommodationrequest"
+    },
+    {
+      "source_concept_id": "group-behavior-design-process",
+      "target": "ability-chain-diagnosis.md",
+      "target_concept_id": "ability-chain-diagnosis",
+      "text": "ability chain diagnosis"
+    },
+    {
+      "source_concept_id": "group-behavior-design-process",
+      "target": "anchor-moment-design.md",
+      "target_concept_id": "anchor-moment-design",
+      "text": "anchor moment"
+    },
+    {
+      "source_concept_id": "group-behavior-design-process",
+      "target": "change-segment-dolphin-turtle-crab-clam.md",
+      "target_concept_id": "change-segment-dolphin-turtle-crab-clam",
+      "text": "change segment dolphin turtle crab clam"
+    },
+    {
+      "source_concept_id": "group-behavior-design-process",
+      "target": "fogg-behavior-design-maxims.md",
+      "target_concept_id": "fogg-behavior-design-maxims",
+      "text": "Fogg behavior designmaxims"
+    },
+    {
+      "source_concept_id": "group-behavior-design-process",
+      "target": "prompt-ability-motivation-troubleshooting-order.md",
+      "target_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "text": "prompt-ability-motivationtroubleshooting order"
+    },
+    {
+      "source_concept_id": "group-behavior-design-process",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter step scaling back"
+    },
+    {
+      "source_concept_id": "habit-completion-reinforcement",
+      "target": "avoidance-habit-savings-transfer.md",
+      "target_concept_id": "avoidance-habit-savings-transfer",
+      "text": "avoidance habit savings transfer"
+    },
+    {
+      "source_concept_id": "habit-completion-reinforcement",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "habit-completion-reinforcement",
+      "target": "identity-aligned-reward-selection.md",
+      "target_concept_id": "identity-aligned-reward-selection",
+      "text": "identity-aligned rewardselection"
+    },
+    {
+      "source_concept_id": "habit-completion-reinforcement",
+      "target": "immediate-start-reward.md",
+      "target_concept_id": "immediate-start-reward",
+      "text": "Immediate startreward"
+    },
+    {
+      "source_concept_id": "habit-completion-reinforcement",
+      "target": "streak-tracking.md",
+      "target_concept_id": "streak-tracking",
+      "text": "Streak tracking"
+    },
+    {
+      "source_concept_id": "habit-completion-reinforcement",
+      "target": "temptation-bundling.md",
+      "target_concept_id": "temptation-bundling",
+      "text": "Temptationbundling"
+    },
+    {
+      "source_concept_id": "habit-contract",
+      "target": "behavior-change-masterplan.md",
+      "target_concept_id": "behavior-change-masterplan",
+      "text": "behavior changemasterplan"
+    },
+    {
+      "source_concept_id": "habit-contract",
+      "target": "cue-exposure-reduction.md",
+      "target_concept_id": "cue-exposure-reduction",
+      "text": "cue exposurereduction"
+    },
+    {
+      "source_concept_id": "habit-contract",
+      "target": "external-commitment-declaration.md",
+      "target_concept_id": "external-commitment-declaration",
+      "text": "externalcommitment declaration"
+    },
+    {
+      "source_concept_id": "habit-contract",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "frictionshaping"
+    },
+    {
+      "source_concept_id": "habit-growth-vs-multiplication",
+      "target": "comfort-edge-scaling.md",
+      "target_concept_id": "comfort-edge-scaling",
+      "text": "comfort edge scaling"
+    },
+    {
+      "source_concept_id": "habit-growth-vs-multiplication",
+      "target": "habit-shaping.md",
+      "target_concept_id": "habit-shaping",
+      "text": "habit shaping"
+    },
+    {
+      "source_concept_id": "habit-loop-replacement",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "habit-meaning-filter",
+      "target": "golden-behavior-selection.md",
+      "target_concept_id": "golden-behavior-selection",
+      "text": "self-insight for behavior design"
+    },
+    {
+      "source_concept_id": "habit-meaning-filter",
+      "target": "identity-aligned-reward-selection.md",
+      "target_concept_id": "identity-aligned-reward-selection",
+      "text": "identity-aligned rewardselection"
+    },
+    {
+      "source_concept_id": "habit-shaping",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "habit-shaping",
+      "target": "two-minute-rule.md",
+      "target_concept_id": "two-minute-rule",
+      "text": "two-minute rule"
+    },
+    {
+      "source_concept_id": "habit-stacking",
+      "target": "environmental-reminder-placement.md",
+      "target_concept_id": "environmental-reminder-placement",
+      "text": "Environmental reminder placement"
+    },
+    {
+      "source_concept_id": "habit-stacking",
+      "target": "fixed-schedule-for-unreliable-body-cues.md",
+      "target_concept_id": "fixed-schedule-for-unreliable-body-cues",
+      "text": "fixed schedule for unreliable body cues"
+    },
+    {
+      "source_concept_id": "hard-loss-recovery-scheduling",
+      "target": "absorbing-activity-revival.md",
+      "target_concept_id": "absorbing-activity-revival",
+      "text": "absorbing activity revival"
+    },
+    {
+      "source_concept_id": "hard-loss-recovery-scheduling",
+      "target": "demand-softening-schedule-design.md",
+      "target_concept_id": "demand-softening-schedule-design",
+      "text": "demandsoftening schedule design"
+    },
+    {
+      "source_concept_id": "hard-loss-recovery-scheduling",
+      "target": "identity-aligned-reward-selection.md",
+      "target_concept_id": "identity-aligned-reward-selection",
+      "text": "identity-aligned rewardselection"
+    },
+    {
+      "source_concept_id": "hard-loss-recovery-scheduling",
+      "target": "interest-novelty-challenge-urgency-injection.md",
+      "target_concept_id": "interest-novelty-challenge-urgency-injection",
+      "text": "interest novelty challenge urgency injection"
+    },
+    {
+      "source_concept_id": "hard-loss-recovery-scheduling",
+      "target": "scheduled-self-treat-routine.md",
+      "target_concept_id": "scheduled-self-treat-routine",
+      "text": "scheduled self treatroutine"
+    },
+    {
+      "source_concept_id": "hyperfocus-bumper-rails",
+      "target": "interest-novelty-challenge-urgency-injection.md",
+      "target_concept_id": "interest-novelty-challenge-urgency-injection",
+      "text": "interest-novelty-challenge-urgency injection"
+    },
+    {
+      "source_concept_id": "hyperfocus-bumper-rails",
+      "target": "protected-uninterrupted-time.md",
+      "target_concept_id": "protected-uninterrupted-time",
+      "text": "protected uninterrupted time"
+    },
+    {
+      "source_concept_id": "idea-parking-lot",
+      "target": "running-decision-log.md",
+      "target_concept_id": "running-decision-log",
+      "text": "running decision logs"
+    },
+    {
+      "source_concept_id": "idea-parking-lot",
+      "target": "tiered-todo-structure.md",
+      "target_concept_id": "tiered-todo-structure",
+      "text": "tiered to-do structures"
+    },
+    {
+      "source_concept_id": "identity-aligned-reward-selection",
+      "target": "avoidance-habit-savings-transfer.md",
+      "target_concept_id": "avoidance-habit-savings-transfer",
+      "text": "avoidance habitsavings transfer"
+    },
+    {
+      "source_concept_id": "identity-aligned-reward-selection",
+      "target": "habit-completion-reinforcement.md",
+      "target_concept_id": "habit-completion-reinforcement",
+      "text": "habit completionreinforcement"
+    },
+    {
+      "source_concept_id": "immediate-start-reward",
+      "target": "motivational-prosthesis.md",
+      "target_concept_id": "motivational-prosthesis",
+      "text": "motivational prosthesis"
+    },
+    {
+      "source_concept_id": "importance-urgency-triage-criteria",
+      "target": "demand-triage-traffic-light-system.md",
+      "target_concept_id": "demand-triage-traffic-light-system",
+      "text": "demand triagetraffic-light system"
+    },
+    {
+      "source_concept_id": "individual-environmental-control",
+      "target": "environmental-sensory-accommodation.md",
+      "target_concept_id": "environmental-sensory-accommodation",
+      "text": "environmental sensory accommodation"
+    },
+    {
+      "source_concept_id": "individual-environmental-control",
+      "target": "outcome-based-work-accountability.md",
+      "target_concept_id": "outcome-based-work-accountability",
+      "text": "outcome-based workaccountability"
+    },
+    {
+      "source_concept_id": "information-action-fallacy",
+      "target": "anchor-moment-design.md",
+      "target_concept_id": "anchor-moment-design",
+      "text": "anchormoment design"
+    },
+    {
+      "source_concept_id": "information-action-fallacy",
+      "target": "cue-exposure-reduction.md",
+      "target_concept_id": "cue-exposure-reduction",
+      "text": "cue exposure reduction"
+    },
+    {
+      "source_concept_id": "information-action-fallacy",
+      "target": "fogg-behavior-model.md",
+      "target_concept_id": "fogg-behavior-model",
+      "text": "Fogg BehaviorModel"
+    },
+    {
+      "source_concept_id": "information-action-fallacy",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "information-action-fallacy",
+      "target": "proactive-environment-priming.md",
+      "target_concept_id": "proactive-environment-priming",
+      "text": "proactive environmentpriming"
+    },
+    {
+      "source_concept_id": "information-action-fallacy",
+      "target": "prompt-ability-motivation-troubleshooting-order.md",
+      "target_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "text": "prompt-ability-motivationtroubleshooting order"
+    },
+    {
+      "source_concept_id": "information-action-fallacy",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter step scaling back"
+    },
+    {
+      "source_concept_id": "interest-novelty-challenge-urgency-injection",
+      "target": "hyperfocus-bumper-rails.md",
+      "target_concept_id": "hyperfocus-bumper-rails",
+      "text": "hyperfocus bumper rails"
+    },
+    {
+      "source_concept_id": "interest-novelty-challenge-urgency-injection",
+      "target": "immediate-start-reward.md",
+      "target_concept_id": "immediate-start-reward",
+      "text": "immediate start reward"
+    },
+    {
+      "source_concept_id": "interest-novelty-challenge-urgency-injection",
+      "target": "motivational-prosthesis.md",
+      "target_concept_id": "motivational-prosthesis",
+      "text": "motivational prosthesis"
+    },
+    {
+      "source_concept_id": "interest-novelty-challenge-urgency-injection",
+      "target": "point-of-performance-intervention.md",
+      "target_concept_id": "point-of-performance-intervention",
+      "text": "point of performance"
+    },
+    {
+      "source_concept_id": "interest-novelty-challenge-urgency-injection",
+      "target": "preference-aligned-routine-design.md",
+      "target_concept_id": "preference-aligned-routine-design",
+      "text": "preference-aligned routine design"
+    },
+    {
+      "source_concept_id": "interest-novelty-challenge-urgency-injection",
+      "target": "task-delegation-scaffold.md",
+      "target_concept_id": "task-delegation-scaffold",
+      "text": "taskdelegation"
+    },
+    {
+      "source_concept_id": "interest-novelty-challenge-urgency-injection",
+      "target": "tiered-todo-structure.md",
+      "target_concept_id": "tiered-todo-structure",
+      "text": "tiered to-do structures"
+    },
+    {
+      "source_concept_id": "joint-sensory-needs-negotiation",
+      "target": "co-design-with-affected-users.md",
+      "target_concept_id": "co-design-with-affected-users",
+      "text": "co-design with affected users"
+    },
+    {
+      "source_concept_id": "launch-pad-bag",
+      "target": "pre-stocked-low-energy-fallback.md",
+      "target_concept_id": "pre-stocked-low-energy-fallback",
+      "text": "pre-stocked low-energyfallback"
+    },
+    {
+      "source_concept_id": "law-of-least-effort",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "frictionshaping"
+    },
+    {
+      "source_concept_id": "layered-defence-in-depth",
+      "target": "contingency-rehearsal-script.md",
+      "target_concept_id": "contingency-rehearsal-script",
+      "text": "contingency rehearsalscripts"
+    },
+    {
+      "source_concept_id": "layered-defence-in-depth",
+      "target": "demand-triage-traffic-light-system.md",
+      "target_concept_id": "demand-triage-traffic-light-system",
+      "text": "demand triagetraffic-light system"
+    },
+    {
+      "source_concept_id": "layered-defence-in-depth",
+      "target": "environmental-sensory-accommodation.md",
+      "target_concept_id": "environmental-sensory-accommodation",
+      "text": "environmental sensoryaccommodation"
+    },
+    {
+      "source_concept_id": "layered-defence-in-depth",
+      "target": "importance-urgency-triage-criteria.md",
+      "target_concept_id": "importance-urgency-triage-criteria",
+      "text": "importance-urgency triagecriteria"
+    },
+    {
+      "source_concept_id": "layered-defence-in-depth",
+      "target": "launch-pad-bag.md",
+      "target_concept_id": "launch-pad-bag",
+      "text": "launch padbag"
+    },
+    {
+      "source_concept_id": "layered-defence-in-depth",
+      "target": "pre-stocked-low-energy-fallback.md",
+      "target_concept_id": "pre-stocked-low-energy-fallback",
+      "text": "pre-stocked low-energy fallback"
+    },
+    {
+      "source_concept_id": "layered-defence-in-depth",
+      "target": "premortem-procedure.md",
+      "target_concept_id": "premortem-procedure",
+      "text": "premortem procedure"
+    },
+    {
+      "source_concept_id": "lifestyle-balance-audit",
+      "target": "absorbing-activity-revival.md",
+      "target_concept_id": "absorbing-activity-revival",
+      "text": "absorbing activity revival"
+    },
+    {
+      "source_concept_id": "lifestyle-balance-audit",
+      "target": "self-maintenance-routine.md",
+      "target_concept_id": "self-maintenance-routine",
+      "text": "self-maintenance routine"
+    },
+    {
+      "source_concept_id": "master-storage-directory",
+      "target": "tiered-todo-structure.md",
+      "target_concept_id": "tiered-todo-structure",
+      "text": "tiered to-do structures"
+    },
+    {
+      "source_concept_id": "master-storage-directory",
+      "target": "visible-storage-for-object-permanence.md",
+      "target_concept_id": "visible-storage-for-object-permanence",
+      "text": "visiblestorage"
+    },
+    {
+      "source_concept_id": "meanwhile-habit",
+      "target": "anchor-moment-design.md",
+      "target_concept_id": "anchor-moment-design",
+      "text": "anchor moment"
+    },
+    {
+      "source_concept_id": "meanwhile-habit",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "afterbuckling a seatbelt"
+    },
+    {
+      "source_concept_id": "meanwhile-habit",
+      "target": "waiting-mode-mitigation.md",
+      "target_concept_id": "waiting-mode-mitigation",
+      "text": "waiting mode mitigation"
+    },
+    {
+      "source_concept_id": "mentor-as-decoding-resource",
+      "target": "request-explicit-norms.md",
+      "target_concept_id": "request-explicit-norms",
+      "text": "requesting explicit norms"
+    },
+    {
+      "source_concept_id": "monitoring-mode-selection",
+      "target": "automated-proofreading-scaffold.md",
+      "target_concept_id": "automated-proofreading-scaffold",
+      "text": "automated proofreadingscaffold"
+    },
+    {
+      "source_concept_id": "monitoring-mode-selection",
+      "target": "designated-external-state-monitor.md",
+      "target_concept_id": "designated-external-state-monitor",
+      "text": "designated external statemonitor"
+    },
+    {
+      "source_concept_id": "monitoring-mode-selection",
+      "target": "factor-combination-risk-matrix.md",
+      "target_concept_id": "factor-combination-risk-matrix",
+      "text": "factor combination risk matrix"
+    },
+    {
+      "source_concept_id": "monitoring-mode-selection",
+      "target": "running-decision-log.md",
+      "target_concept_id": "running-decision-log",
+      "text": "running decision log"
+    },
+    {
+      "source_concept_id": "motivational-prosthesis",
+      "target": "point-of-performance-intervention.md",
+      "target_concept_id": "point-of-performance-intervention",
+      "text": "point of performance"
+    },
+    {
+      "source_concept_id": "motivational-prosthesis",
+      "target": "self-regulation-resource-replenishment.md",
+      "target_concept_id": "self-regulation-resource-replenishment",
+      "text": "periodic small rewards during demanding tasks"
+    },
+    {
+      "source_concept_id": "motivational-prosthesis",
+      "target": "streak-tracking.md",
+      "target_concept_id": "streak-tracking",
+      "text": "Streak tracking"
+    },
+    {
+      "source_concept_id": "multi-format-information-provision",
+      "target": "universal-design-default.md",
+      "target_concept_id": "universal-design-default",
+      "text": "universal design default"
+    },
+    {
+      "source_concept_id": "multi-format-information-provision",
+      "target": "what-by-when-and-why-instructions.md",
+      "target_concept_id": "what-by-when-and-why-instructions",
+      "text": "what-by-when-and-why instructions"
+    },
+    {
+      "source_concept_id": "never-miss-twice-rule",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter step scaling back"
+    },
+    {
+      "source_concept_id": "never-miss-twice-rule",
+      "target": "streak-tracking.md",
+      "target_concept_id": "streak-tracking",
+      "text": "streak tracking"
+    },
+    {
+      "source_concept_id": "never-miss-twice-rule",
+      "target": "two-minute-rule.md",
+      "target_concept_id": "two-minute-rule",
+      "text": "two-minute rule"
+    },
+    {
+      "source_concept_id": "one-space-one-use",
+      "target": "bed-stimulus-control.md",
+      "target_concept_id": "bed-stimulus-control",
+      "text": "bed stimuluscontrol"
+    },
+    {
+      "source_concept_id": "one-space-one-use",
+      "target": "context-as-cue.md",
+      "target_concept_id": "context-as-cue",
+      "text": "context as cue"
+    },
+    {
+      "source_concept_id": "one-space-one-use",
+      "target": "workspace-processing-surface.md",
+      "target_concept_id": "workspace-processing-surface",
+      "text": "workspace processing surface"
+    },
+    {
+      "source_concept_id": "operating-envelope-control-shift",
+      "target": "contingency-rehearsal-script.md",
+      "target_concept_id": "contingency-rehearsal-script",
+      "text": "contingency rehearsalscripts"
+    },
+    {
+      "source_concept_id": "operating-envelope-control-shift",
+      "target": "layered-defence-in-depth.md",
+      "target_concept_id": "layered-defence-in-depth",
+      "text": "layered defence in depth"
+    },
+    {
+      "source_concept_id": "operating-envelope-control-shift",
+      "target": "premortem-procedure.md",
+      "target_concept_id": "premortem-procedure",
+      "text": "Premortemprocedure"
+    },
+    {
+      "source_concept_id": "operating-envelope-control-shift",
+      "target": "visual-checklist-for-multistep-routines.md",
+      "target_concept_id": "visual-checklist-for-multistep-routines",
+      "text": "visual checklists for multisteproutines"
+    },
+    {
+      "source_concept_id": "outcome-based-work-accountability",
+      "target": "explicit-async-response-norms.md",
+      "target_concept_id": "explicit-async-response-norms",
+      "text": "explicit async responsenorms"
+    },
+    {
+      "source_concept_id": "outcome-based-work-accountability",
+      "target": "protected-uninterrupted-time.md",
+      "target_concept_id": "protected-uninterrupted-time",
+      "text": "protected uninterrupted time"
+    },
+    {
+      "source_concept_id": "pearl-habit",
+      "target": "anchor-moment-design.md",
+      "target_concept_id": "anchor-moment-design",
+      "text": "anchormoment"
+    },
+    {
+      "source_concept_id": "pearl-habit",
+      "target": "cue-exposure-reduction.md",
+      "target_concept_id": "cue-exposure-reduction",
+      "text": "cue exposure reduction"
+    },
+    {
+      "source_concept_id": "pearl-habit",
+      "target": "pre-rehearsed-boundary-script.md",
+      "target_concept_id": "pre-rehearsed-boundary-script",
+      "text": "pre-rehearsed boundary script"
+    },
+    {
+      "source_concept_id": "performance-versus-knowledge-gap",
+      "target": "motivational-prosthesis.md",
+      "target_concept_id": "motivational-prosthesis",
+      "text": "motivational prostheses"
+    },
+    {
+      "source_concept_id": "performance-versus-knowledge-gap",
+      "target": "point-of-performance-intervention.md",
+      "target_concept_id": "point-of-performance-intervention",
+      "text": "point-of-performanceintervention"
+    },
+    {
+      "source_concept_id": "permissions-not-demands-work-frame",
+      "target": "bare-minimum-day-goal.md",
+      "target_concept_id": "bare-minimum-day-goal",
+      "text": "bare minimum day goals"
+    },
+    {
+      "source_concept_id": "permissions-not-demands-work-frame",
+      "target": "demand-softening-schedule-design.md",
+      "target_concept_id": "demand-softening-schedule-design",
+      "text": "demand-softening schedule design"
+    },
+    {
+      "source_concept_id": "personal-accommodation-planning-list",
+      "target": "pre-scripted-accommodation-request.md",
+      "target_concept_id": "pre-scripted-accommodation-request",
+      "text": "pre-scripted accommodationrequest"
+    },
+    {
+      "source_concept_id": "personal-accommodation-planning-list",
+      "target": "proactive-support-menu.md",
+      "target_concept_id": "proactive-support-menu",
+      "text": "proactive support menu"
+    },
+    {
+      "source_concept_id": "personal-accommodation-planning-list",
+      "target": "shareable-needs-profile.md",
+      "target_concept_id": "shareable-needs-profile",
+      "text": "shareable needs profile"
+    },
+    {
+      "source_concept_id": "personal-accommodation-planning-list",
+      "target": "what-by-when-and-why-instructions.md",
+      "target_concept_id": "what-by-when-and-why-instructions",
+      "text": "what-by-when-and-whyinstructions"
+    },
+    {
+      "source_concept_id": "personal-bright-line-rule",
+      "target": "commitment-pruning-protocol.md",
+      "target_concept_id": "commitment-pruning-protocol",
+      "text": "commitment pruningprotocol"
+    },
+    {
+      "source_concept_id": "personal-bright-line-rule",
+      "target": "default-option-preselection.md",
+      "target_concept_id": "default-option-preselection",
+      "text": "default option preselection"
+    },
+    {
+      "source_concept_id": "personal-bright-line-rule",
+      "target": "information-diet-boundary.md",
+      "target_concept_id": "information-diet-boundary",
+      "text": "information diet boundary"
+    },
+    {
+      "source_concept_id": "personal-bright-line-rule",
+      "target": "pre-rehearsed-boundary-script.md",
+      "target_concept_id": "pre-rehearsed-boundary-script",
+      "text": "pre-rehearsed boundaryscript"
+    },
+    {
+      "source_concept_id": "point-of-performance-intervention",
+      "target": "environmental-reminder-placement.md",
+      "target_concept_id": "environmental-reminder-placement",
+      "text": "environmental reminder placement"
+    },
+    {
+      "source_concept_id": "point-of-performance-intervention",
+      "target": "motivational-prosthesis.md",
+      "target_concept_id": "motivational-prosthesis",
+      "text": "motivational prostheses"
+    },
+    {
+      "source_concept_id": "pre-agreed-overload-pause-signal",
+      "target": "sensory-safety-plan.md",
+      "target_concept_id": "sensory-safety-plan",
+      "text": "sensory safetyplan"
+    },
+    {
+      "source_concept_id": "pre-authorized-refusal-boundary",
+      "target": "factor-combination-risk-matrix.md",
+      "target_concept_id": "factor-combination-risk-matrix",
+      "text": "factorcombination risk matrix"
+    },
+    {
+      "source_concept_id": "pre-authorized-refusal-boundary",
+      "target": "personal-bright-line-rule.md",
+      "target_concept_id": "personal-bright-line-rule",
+      "text": "personal bright-linerule"
+    },
+    {
+      "source_concept_id": "pre-authorized-refusal-boundary",
+      "target": "pre-rehearsed-boundary-script.md",
+      "target_concept_id": "pre-rehearsed-boundary-script",
+      "text": "pre-rehearsed boundaryscript"
+    },
+    {
+      "source_concept_id": "pre-authorized-refusal-boundary",
+      "target": "suppression-reduction-barrier-mitigation-hierarchy.md",
+      "target_concept_id": "suppression-reduction-barrier-mitigation-hierarchy",
+      "text": "suppression-reduction-barriermitigation hierarchy"
+    },
+    {
+      "source_concept_id": "pre-prepared-response-bank",
+      "target": "pre-rehearsed-boundary-script.md",
+      "target_concept_id": "pre-rehearsed-boundary-script",
+      "text": "pre-rehearsed boundaryscript"
+    },
+    {
+      "source_concept_id": "pre-prepared-response-bank",
+      "target": "pre-scripted-accommodation-request.md",
+      "target_concept_id": "pre-scripted-accommodation-request",
+      "text": "pre-scripted accommodation request"
+    },
+    {
+      "source_concept_id": "pre-rehearsed-boundary-script",
+      "target": "anchor-moment-design.md",
+      "target_concept_id": "anchor-moment-design",
+      "text": "anchormoments"
+    },
+    {
+      "source_concept_id": "pre-rehearsed-boundary-script",
+      "target": "personal-bright-line-rule.md",
+      "target_concept_id": "personal-bright-line-rule",
+      "text": "personal bright-linerule"
+    },
+    {
+      "source_concept_id": "pre-rehearsed-boundary-script",
+      "target": "pre-prepared-response-bank.md",
+      "target_concept_id": "pre-prepared-response-bank",
+      "text": "pre-prepared responsebank"
+    },
+    {
+      "source_concept_id": "pre-stocked-low-energy-fallback",
+      "target": "default-option-preselection.md",
+      "target_concept_id": "default-option-preselection",
+      "text": "default option preselection"
+    },
+    {
+      "source_concept_id": "precorrection-cue-before-activity",
+      "target": "environmental-reminder-placement.md",
+      "target_concept_id": "environmental-reminder-placement",
+      "text": "environmental reminder placement"
+    },
+    {
+      "source_concept_id": "precorrection-cue-before-activity",
+      "target": "visual-checklist-for-multistep-routines.md",
+      "target_concept_id": "visual-checklist-for-multistep-routines",
+      "text": "visualchecklist"
+    },
+    {
+      "source_concept_id": "preference-aligned-routine-design",
+      "target": "backward-milestone-planning.md",
+      "target_concept_id": "backward-milestone-planning",
+      "text": "backward milestone planning"
+    },
+    {
+      "source_concept_id": "preference-aligned-routine-design",
+      "target": "curated-activity-menu.md",
+      "target_concept_id": "curated-activity-menu",
+      "text": "curated activity menu"
+    },
+    {
+      "source_concept_id": "premortem-procedure",
+      "target": "contingency-rehearsal-script.md",
+      "target_concept_id": "contingency-rehearsal-script",
+      "text": "contingency rehearsalscript"
+    },
+    {
+      "source_concept_id": "prewritten-relapse-action-plan",
+      "target": "breathing-space-action-scaffold.md",
+      "target_concept_id": "breathing-space-action-scaffold",
+      "text": "breathing-space action scaffold"
+    },
+    {
+      "source_concept_id": "prewritten-relapse-action-plan",
+      "target": "concrete-implementation-plan.md",
+      "target_concept_id": "concrete-implementation-plan",
+      "text": "concreteimplementation plan"
+    },
+    {
+      "source_concept_id": "prewritten-relapse-action-plan",
+      "target": "habit-contract.md",
+      "target_concept_id": "habit-contract",
+      "text": "habit contract"
+    },
+    {
+      "source_concept_id": "proactive-environment-priming",
+      "target": "environmental-reminder-placement.md",
+      "target_concept_id": "environmental-reminder-placement",
+      "text": "environmental reminder placement"
+    },
+    {
+      "source_concept_id": "proactive-environment-priming",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "proactive-environment-priming",
+      "target": "superfridge-food-environment.md",
+      "target_concept_id": "superfridge-food-environment",
+      "text": "superfridge food environment"
+    },
+    {
+      "source_concept_id": "proactive-environment-priming",
+      "target": "visible-storage-for-object-permanence.md",
+      "target_concept_id": "visible-storage-for-object-permanence",
+      "text": "visible storage forobject permanence"
+    },
+    {
+      "source_concept_id": "proactive-recovery-leave",
+      "target": "scheduled-recalibration-breaks.md",
+      "target_concept_id": "scheduled-recalibration-breaks",
+      "text": "scheduled recalibration breaks"
+    },
+    {
+      "source_concept_id": "proactive-support-menu",
+      "target": "curated-activity-menu.md",
+      "target_concept_id": "curated-activity-menu",
+      "text": "curated activity menu"
+    },
+    {
+      "source_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "target": "ability-chain-diagnosis.md",
+      "target_concept_id": "ability-chain-diagnosis",
+      "text": "ability chain diagnosis"
+    },
+    {
+      "source_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "target": "anchor-moment-design.md",
+      "target_concept_id": "anchor-moment-design",
+      "text": "anchor momentdesign"
+    },
+    {
+      "source_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "target": "behavior-change-masterplan.md",
+      "target_concept_id": "behavior-change-masterplan",
+      "text": "behavior change masterplan"
+    },
+    {
+      "source_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "target": "change-segment-dolphin-turtle-crab-clam.md",
+      "target_concept_id": "change-segment-dolphin-turtle-crab-clam",
+      "text": "changesegment dolphin turtle crab clam"
+    },
+    {
+      "source_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "target": "environmental-reminder-placement.md",
+      "target_concept_id": "environmental-reminder-placement",
+      "text": "environmental reminderplacement"
+    },
+    {
+      "source_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "target": "fogg-behavior-model.md",
+      "target_concept_id": "fogg-behavior-model",
+      "text": "Fogg BehaviorModel"
+    },
+    {
+      "source_concept_id": "prompt-ability-motivation-troubleshooting-order",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "prosthetic-social-environment",
+      "target": "motivational-prosthesis.md",
+      "target_concept_id": "motivational-prosthesis",
+      "text": "motivational prostheses"
+    },
+    {
+      "source_concept_id": "prosthetic-social-environment",
+      "target": "point-of-performance-intervention.md",
+      "target_concept_id": "point-of-performance-intervention",
+      "text": "point-of-performance"
+    },
+    {
+      "source_concept_id": "protected-core-scope",
+      "target": "defined-primary-end-filter.md",
+      "target_concept_id": "defined-primary-end-filter",
+      "text": "defined primaryend"
+    },
+    {
+      "source_concept_id": "protected-uninterrupted-time",
+      "target": "explicit-async-response-norms.md",
+      "target_concept_id": "explicit-async-response-norms",
+      "text": "explicitasync response norms"
+    },
+    {
+      "source_concept_id": "protected-uninterrupted-time",
+      "target": "freeze-new-commitments.md",
+      "target_concept_id": "freeze-new-commitments",
+      "text": "freeze newcommitments"
+    },
+    {
+      "source_concept_id": "protected-uninterrupted-time",
+      "target": "outcome-based-work-accountability.md",
+      "target_concept_id": "outcome-based-work-accountability",
+      "text": "outcome-basedwork accountability"
+    },
+    {
+      "source_concept_id": "protected-uninterrupted-time",
+      "target": "task-batching.md",
+      "target_concept_id": "task-batching",
+      "text": "task batching"
+    },
+    {
+      "source_concept_id": "provider-vetting-checklist",
+      "target": "commitment-pruning-protocol.md",
+      "target_concept_id": "commitment-pruning-protocol",
+      "text": "commitmentpruning protocol"
+    },
+    {
+      "source_concept_id": "recurring-task-automation",
+      "target": "task-delegation-scaffold.md",
+      "target_concept_id": "task-delegation-scaffold",
+      "text": "delegate"
+    },
+    {
+      "source_concept_id": "reduced-inventory-organization-load",
+      "target": "designated-staging-pile.md",
+      "target_concept_id": "designated-staging-pile",
+      "text": "designated staging piles"
+    },
+    {
+      "source_concept_id": "reduced-inventory-organization-load",
+      "target": "visible-storage-for-object-permanence.md",
+      "target_concept_id": "visible-storage-for-object-permanence",
+      "text": "visible storage"
+    },
+    {
+      "source_concept_id": "request-explicit-norms",
+      "target": "advance-notice-of-change.md",
+      "target_concept_id": "advance-notice-of-change",
+      "text": "advance notice of change"
+    },
+    {
+      "source_concept_id": "request-explicit-norms",
+      "target": "mentor-as-decoding-resource.md",
+      "target_concept_id": "mentor-as-decoding-resource",
+      "text": "mentor as decoding resource"
+    },
+    {
+      "source_concept_id": "request-explicit-norms",
+      "target": "multi-format-information-provision.md",
+      "target_concept_id": "multi-format-information-provision",
+      "text": "multi-format information provision"
+    },
+    {
+      "source_concept_id": "risk-policy-advance-rule",
+      "target": "importance-urgency-triage-criteria.md",
+      "target_concept_id": "importance-urgency-triage-criteria",
+      "text": "importance-urgency triage criteria"
+    },
+    {
+      "source_concept_id": "risk-policy-advance-rule",
+      "target": "personal-bright-line-rule.md",
+      "target_concept_id": "personal-bright-line-rule",
+      "text": "personal bright-line rule"
+    },
+    {
+      "source_concept_id": "scheduled-recalibration-breaks",
+      "target": "daily-sensory-load-budget.md",
+      "target_concept_id": "daily-sensory-load-budget",
+      "text": "daily sensory load budget"
+    },
+    {
+      "source_concept_id": "scheduled-relationship-check-in",
+      "target": "scheduled-recalibration-breaks.md",
+      "target_concept_id": "scheduled-recalibration-breaks",
+      "text": "scheduled recalibrationbreaks"
+    },
+    {
+      "source_concept_id": "scheduled-self-treat-routine",
+      "target": "habit-completion-reinforcement.md",
+      "target_concept_id": "habit-completion-reinforcement",
+      "text": "habit completionreinforcement"
+    },
+    {
+      "source_concept_id": "scheduled-self-treat-routine",
+      "target": "hard-loss-recovery-scheduling.md",
+      "target_concept_id": "hard-loss-recovery-scheduling",
+      "text": "hard lossrecovery scheduling"
+    },
+    {
+      "source_concept_id": "scheduled-self-treat-routine",
+      "target": "identity-aligned-reward-selection.md",
+      "target_concept_id": "identity-aligned-reward-selection",
+      "text": "identity-alignedreward selection"
+    },
+    {
+      "source_concept_id": "scheduled-sensory-recovery-slot",
+      "target": "daily-sensory-load-budget.md",
+      "target_concept_id": "daily-sensory-load-budget",
+      "text": "daily sensory loadbudgeting"
+    },
+    {
+      "source_concept_id": "scheduled-sensory-recovery-slot",
+      "target": "sensory-safety-plan.md",
+      "target_concept_id": "sensory-safety-plan",
+      "text": "sensory safety plan"
+    },
+    {
+      "source_concept_id": "scheduled-worry-period",
+      "target": "concrete-implementation-plan.md",
+      "target_concept_id": "concrete-implementation-plan",
+      "text": "concrete implementation plan"
+    },
+    {
+      "source_concept_id": "scheduled-worry-period",
+      "target": "time-boxed-goal-setting.md",
+      "target_concept_id": "time-boxed-goal-setting",
+      "text": "time-boxed goal setting"
+    },
+    {
+      "source_concept_id": "self-maintenance-routine",
+      "target": "bare-minimum-day-goal.md",
+      "target_concept_id": "bare-minimum-day-goal",
+      "text": "bare minimum daygoal"
+    },
+    {
+      "source_concept_id": "self-maintenance-routine",
+      "target": "interest-novelty-challenge-urgency-injection.md",
+      "target_concept_id": "interest-novelty-challenge-urgency-injection",
+      "text": "interest noveltychallenge urgency injection"
+    },
+    {
+      "source_concept_id": "self-maintenance-routine",
+      "target": "preference-aligned-routine-design.md",
+      "target_concept_id": "preference-aligned-routine-design",
+      "text": "preference-aligned routine design"
+    },
+    {
+      "source_concept_id": "self-maintenance-routine",
+      "target": "sleep-restriction-protocol.md",
+      "target_concept_id": "sleep-restriction-protocol",
+      "text": "sleep restriction protocol"
+    },
+    {
+      "source_concept_id": "self-maintenance-routine",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter step scaling back"
+    },
+    {
+      "source_concept_id": "self-maintenance-routine",
+      "target": "wind-down-buffer.md",
+      "target_concept_id": "wind-down-buffer",
+      "text": "wind-down buffer"
+    },
+    {
+      "source_concept_id": "self-regulation-resource-replenishment",
+      "target": "scheduled-recalibration-breaks.md",
+      "target_concept_id": "scheduled-recalibration-breaks",
+      "text": "Scheduled recalibration breaks"
+    },
+    {
+      "source_concept_id": "sensory-friendly-activity-selection",
+      "target": "curated-social-exposure.md",
+      "target_concept_id": "curated-social-exposure",
+      "text": "curated social exposure"
+    },
+    {
+      "source_concept_id": "sensory-friendly-activity-selection",
+      "target": "lower-load-modality-choice.md",
+      "target_concept_id": "lower-load-modality-choice",
+      "text": "lower-load modality choice"
+    },
+    {
+      "source_concept_id": "sensory-friendly-activity-selection",
+      "target": "sensory-safety-plan.md",
+      "target_concept_id": "sensory-safety-plan",
+      "text": "sensory safety plan"
+    },
+    {
+      "source_concept_id": "sensory-safety-plan",
+      "target": "daily-sensory-load-budget.md",
+      "target_concept_id": "daily-sensory-load-budget",
+      "text": "daily sensory load budget"
+    },
+    {
+      "source_concept_id": "sensory-safety-plan",
+      "target": "distress-tolerance-kit.md",
+      "target_concept_id": "distress-tolerance-kit",
+      "text": "distress-tolerance kit"
+    },
+    {
+      "source_concept_id": "sensory-safety-plan",
+      "target": "pre-scripted-accommodation-request.md",
+      "target_concept_id": "pre-scripted-accommodation-request",
+      "text": "pre-scripted accommodation request"
+    },
+    {
+      "source_concept_id": "shareable-needs-profile",
+      "target": "sensory-safety-plan.md",
+      "target_concept_id": "sensory-safety-plan",
+      "text": "sensory safetyplan"
+    },
+    {
+      "source_concept_id": "sleep-restriction-protocol",
+      "target": "bed-stimulus-control.md",
+      "target_concept_id": "bed-stimulus-control",
+      "text": "bed stimulus control"
+    },
+    {
+      "source_concept_id": "sleep-restriction-protocol",
+      "target": "wind-down-buffer.md",
+      "target_concept_id": "wind-down-buffer",
+      "text": "wind-down buffer"
+    },
+    {
+      "source_concept_id": "smart-goal-specification",
+      "target": "graded-task-assignment.md",
+      "target_concept_id": "graded-task-assignment",
+      "text": "graded task assignment"
+    },
+    {
+      "source_concept_id": "smart-goal-specification",
+      "target": "time-boxed-goal-setting.md",
+      "target_concept_id": "time-boxed-goal-setting",
+      "text": "time-boxed"
+    },
+    {
+      "source_concept_id": "starter-step-scaling-back",
+      "target": "ability-chain-diagnosis.md",
+      "target_concept_id": "ability-chain-diagnosis",
+      "text": "ability chain diagnosis"
+    },
+    {
+      "source_concept_id": "starter-step-scaling-back",
+      "target": "law-of-least-effort.md",
+      "target_concept_id": "law-of-least-effort",
+      "text": "law of leasteffort"
+    },
+    {
+      "source_concept_id": "starter-step-scaling-back",
+      "target": "two-minute-rule.md",
+      "target_concept_id": "two-minute-rule",
+      "text": "two-minute rule"
+    },
+    {
+      "source_concept_id": "streak-tracking",
+      "target": "goodhart-measurement-guard.md",
+      "target_concept_id": "goodhart-measurement-guard",
+      "text": "Goodhart measurement guard"
+    },
+    {
+      "source_concept_id": "streak-tracking",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "streak-tracking",
+      "target": "never-miss-twice-rule.md",
+      "target_concept_id": "never-miss-twice-rule",
+      "text": "never miss twice rule"
+    },
+    {
+      "source_concept_id": "structured-engagement-check-in",
+      "target": "daily-report-card-scaffold.md",
+      "target_concept_id": "daily-report-card-scaffold",
+      "text": "daily report card scaffold"
+    },
+    {
+      "source_concept_id": "structured-engagement-check-in",
+      "target": "task-delegation-scaffold.md",
+      "target_concept_id": "task-delegation-scaffold",
+      "text": "task delegationscaffold"
+    },
+    {
+      "source_concept_id": "structured-scoring-checklist",
+      "target": "running-decision-log.md",
+      "target_concept_id": "running-decision-log",
+      "text": "running decision log"
+    },
+    {
+      "source_concept_id": "success-momentum",
+      "target": "bare-minimum-day-goal.md",
+      "target_concept_id": "bare-minimum-day-goal",
+      "text": "bare minimum daygoal"
+    },
+    {
+      "source_concept_id": "success-momentum",
+      "target": "behavior-change-masterplan.md",
+      "target_concept_id": "behavior-change-masterplan",
+      "text": "behavior change masterplan"
+    },
+    {
+      "source_concept_id": "success-momentum",
+      "target": "fogg-behavior-design-maxims.md",
+      "target_concept_id": "fogg-behavior-design-maxims",
+      "text": "Fogg behavior designmaxims"
+    },
+    {
+      "source_concept_id": "success-momentum",
+      "target": "fogg-behavior-model.md",
+      "target_concept_id": "fogg-behavior-model",
+      "text": "Fogg behavior model"
+    },
+    {
+      "source_concept_id": "success-momentum",
+      "target": "starter-step-scaling-back.md",
+      "target_concept_id": "starter-step-scaling-back",
+      "text": "starter step scalingback"
+    },
+    {
+      "source_concept_id": "superfridge-food-environment",
+      "target": "default-option-preselection.md",
+      "target_concept_id": "default-option-preselection",
+      "text": "default optionpreselection"
+    },
+    {
+      "source_concept_id": "superfridge-food-environment",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "superfridge-food-environment",
+      "target": "lifestyle-balance-audit.md",
+      "target_concept_id": "lifestyle-balance-audit",
+      "text": "lifestyle balanceaudit"
+    },
+    {
+      "source_concept_id": "superfridge-food-environment",
+      "target": "proactive-environment-priming.md",
+      "target_concept_id": "proactive-environment-priming",
+      "text": "proactive environmentpriming"
+    },
+    {
+      "source_concept_id": "suppression-reduction-barrier-mitigation-hierarchy",
+      "target": "layered-defence-in-depth.md",
+      "target_concept_id": "layered-defence-in-depth",
+      "text": "layered defence indepth"
+    },
+    {
+      "source_concept_id": "suppression-reduction-barrier-mitigation-hierarchy",
+      "target": "operating-envelope-control-shift.md",
+      "target_concept_id": "operating-envelope-control-shift",
+      "text": "operatingenvelope control shift"
+    },
+    {
+      "source_concept_id": "systems-over-goals",
+      "target": "atomic-habit.md",
+      "target_concept_id": "atomic-habit",
+      "text": "atomic habits"
+    },
+    {
+      "source_concept_id": "task-batching",
+      "target": "protected-uninterrupted-time.md",
+      "target_concept_id": "protected-uninterrupted-time",
+      "text": "protected uninterruptedtime"
+    },
+    {
+      "source_concept_id": "task-delegation-scaffold",
+      "target": "recurring-task-automation.md",
+      "target_concept_id": "recurring-task-automation",
+      "text": "recurring task automation"
+    },
+    {
+      "source_concept_id": "task-delegation-scaffold",
+      "target": "what-by-when-and-why-instructions.md",
+      "target_concept_id": "what-by-when-and-why-instructions",
+      "text": "what-by-when-and-whyinstructions"
+    },
+    {
+      "source_concept_id": "temporal-gap-bridging",
+      "target": "graded-task-assignment.md",
+      "target_concept_id": "graded-task-assignment",
+      "text": "Graded task assignment"
+    },
+    {
+      "source_concept_id": "temporal-gap-bridging",
+      "target": "motivational-prosthesis.md",
+      "target_concept_id": "motivational-prosthesis",
+      "text": "motivational prostheses"
+    },
+    {
+      "source_concept_id": "temptation-bundling",
+      "target": "four-laws-of-behavior-change.md",
+      "target_concept_id": "four-laws-of-behavior-change",
+      "text": "four laws of behavior change"
+    },
+    {
+      "source_concept_id": "temptation-bundling",
+      "target": "habit-stacking.md",
+      "target_concept_id": "habit-stacking",
+      "text": "habit stacking"
+    },
+    {
+      "source_concept_id": "tiered-todo-structure",
+      "target": "demand-softening-schedule-design.md",
+      "target_concept_id": "demand-softening-schedule-design",
+      "text": "demand-softening scheduledesign"
+    },
+    {
+      "source_concept_id": "tiered-todo-structure",
+      "target": "environmental-reminder-placement.md",
+      "target_concept_id": "environmental-reminder-placement",
+      "text": "environmental reminderplacement"
+    },
+    {
+      "source_concept_id": "tiered-todo-structure",
+      "target": "task-batching.md",
+      "target_concept_id": "task-batching",
+      "text": "task batching"
+    },
+    {
+      "source_concept_id": "time-boxed-goal-setting",
+      "target": "graded-task-assignment.md",
+      "target_concept_id": "graded-task-assignment",
+      "text": "graded task assignment"
+    },
+    {
+      "source_concept_id": "time-boxed-goal-setting",
+      "target": "scheduled-worry-period.md",
+      "target_concept_id": "scheduled-worry-period",
+      "text": "scheduled worry period"
+    },
+    {
+      "source_concept_id": "two-minute-rule",
+      "target": "decisive-moment.md",
+      "target_concept_id": "decisive-moment",
+      "text": "decisive moment"
+    },
+    {
+      "source_concept_id": "two-minute-rule",
+      "target": "habit-shaping.md",
+      "target_concept_id": "habit-shaping",
+      "text": "habit shaping"
+    },
+    {
+      "source_concept_id": "universal-design-default",
+      "target": "co-design-with-affected-users.md",
+      "target_concept_id": "co-design-with-affected-users",
+      "text": "co-design with affected users"
+    },
+    {
+      "source_concept_id": "universal-design-default",
+      "target": "multi-format-information-provision.md",
+      "target_concept_id": "multi-format-information-provision",
+      "text": "Multi-format information provision"
+    },
+    {
+      "source_concept_id": "urge-delay-friction-controls",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "urge-delay-friction-controls",
+      "target": "urge-trigger-alternative-plan.md",
+      "target_concept_id": "urge-trigger-alternative-plan",
+      "text": "urge trigger alternative plan"
+    },
+    {
+      "source_concept_id": "urge-trigger-alternative-plan",
+      "target": "friction-shaping.md",
+      "target_concept_id": "friction-shaping",
+      "text": "friction shaping"
+    },
+    {
+      "source_concept_id": "urge-trigger-alternative-plan",
+      "target": "prewritten-relapse-action-plan.md",
+      "target_concept_id": "prewritten-relapse-action-plan",
+      "text": "prewritten relapse action plan"
+    },
+    {
+      "source_concept_id": "urge-trigger-alternative-plan",
+      "target": "urge-delay-friction-controls.md",
+      "target_concept_id": "urge-delay-friction-controls",
+      "text": "urge delay frictioncontrols"
+    },
+    {
+      "source_concept_id": "virtual-route-preview",
+      "target": "advance-notice-of-change.md",
+      "target_concept_id": "advance-notice-of-change",
+      "text": "advance notice of change"
+    },
+    {
+      "source_concept_id": "virtual-route-preview",
+      "target": "proactive-transition-preparation.md",
+      "target_concept_id": "proactive-transition-preparation",
+      "text": "proactive transitionpreparation"
+    },
+    {
+      "source_concept_id": "virtual-route-preview",
+      "target": "waypoint-sequencing-without-timetable.md",
+      "target_concept_id": "waypoint-sequencing-without-timetable",
+      "text": "waypoint sequencing withouttimetable"
+    },
+    {
+      "source_concept_id": "visible-storage-for-object-permanence",
+      "target": "environmental-reminder-placement.md",
+      "target_concept_id": "environmental-reminder-placement",
+      "text": "environmental reminder placement"
+    },
+    {
+      "source_concept_id": "visible-storage-for-object-permanence",
+      "target": "master-storage-directory.md",
+      "target_concept_id": "master-storage-directory",
+      "text": "master storage directory"
+    },
+    {
+      "source_concept_id": "visible-storage-for-object-permanence",
+      "target": "point-of-performance-intervention.md",
+      "target_concept_id": "point-of-performance-intervention",
+      "text": "point of performance"
+    },
+    {
+      "source_concept_id": "visual-checklist-for-multistep-routines",
+      "target": "graded-task-assignment.md",
+      "target_concept_id": "graded-task-assignment",
+      "text": "graded task assignment"
+    },
+    {
+      "source_concept_id": "visual-checklist-for-multistep-routines",
+      "target": "weekly-brain-dump-planning.md",
+      "target_concept_id": "weekly-brain-dump-planning",
+      "text": "weekly brain dumpplanning"
+    },
+    {
+      "source_concept_id": "waiting-mode-mitigation",
+      "target": "fixed-schedule-for-unreliable-body-cues.md",
+      "target_concept_id": "fixed-schedule-for-unreliable-body-cues",
+      "text": "fixed schedules for unreliablebody cues"
+    },
+    {
+      "source_concept_id": "waiting-mode-mitigation",
+      "target": "full-calendar-capture.md",
+      "target_concept_id": "full-calendar-capture",
+      "text": "full calendarcapture"
+    },
+    {
+      "source_concept_id": "waypoint-sequencing-without-timetable",
+      "target": "curated-activity-menu.md",
+      "target_concept_id": "curated-activity-menu",
+      "text": "curated activity menu"
+    },
+    {
+      "source_concept_id": "waypoint-sequencing-without-timetable",
+      "target": "virtual-route-preview.md",
+      "target_concept_id": "virtual-route-preview",
+      "text": "virtual routepreview"
+    },
+    {
+      "source_concept_id": "weekly-activity-schedule-template",
+      "target": "balanced-activity-scheduling.md",
+      "target_concept_id": "balanced-activity-scheduling",
+      "text": "balanced fun-and-achievement activity scheduling"
+    },
+    {
+      "source_concept_id": "weekly-activity-schedule-template",
+      "target": "curated-activity-menu.md",
+      "target_concept_id": "curated-activity-menu",
+      "text": "curated activity menu"
+    },
+    {
+      "source_concept_id": "weekly-activity-schedule-template",
+      "target": "graded-task-assignment.md",
+      "target_concept_id": "graded-task-assignment",
+      "text": "graded task assignment"
+    },
+    {
+      "source_concept_id": "weekly-brain-dump-planning",
+      "target": "visual-checklist-for-multistep-routines.md",
+      "target_concept_id": "visual-checklist-for-multistep-routines",
+      "text": "visual checklists for multi-step routines"
+    },
+    {
+      "source_concept_id": "what-by-when-and-why-instructions",
+      "target": "multi-format-information-provision.md",
+      "target_concept_id": "multi-format-information-provision",
+      "text": "multi-format information provision"
+    },
+    {
+      "source_concept_id": "wind-down-buffer",
+      "target": "bed-stimulus-control.md",
+      "target_concept_id": "bed-stimulus-control",
+      "text": "bed stimulus control"
+    },
+    {
+      "source_concept_id": "wind-down-buffer",
+      "target": "consistent-sensory-cue-for-routine-transition.md",
+      "target_concept_id": "consistent-sensory-cue-for-routine-transition",
+      "text": "consistent sensory cue for routine transition"
+    },
+    {
+      "source_concept_id": "work-home-boundary-separation",
+      "target": "cue-exposure-reduction.md",
+      "target_concept_id": "cue-exposure-reduction",
+      "text": "cue exposure reduction"
+    },
+    {
+      "source_concept_id": "work-home-boundary-separation",
+      "target": "full-calendar-capture.md",
+      "target_concept_id": "full-calendar-capture",
+      "text": "full calendar capture"
+    },
+    {
+      "source_concept_id": "work-home-boundary-separation",
+      "target": "one-space-one-use.md",
+      "target_concept_id": "one-space-one-use",
+      "text": "one space, one use"
+    },
+    {
+      "source_concept_id": "workspace-processing-surface",
+      "target": "designated-staging-pile.md",
+      "target_concept_id": "designated-staging-pile",
+      "text": "designated staging pile"
+    },
+    {
+      "source_concept_id": "workspace-processing-surface",
+      "target": "reduced-inventory-organization-load.md",
+      "target_concept_id": "reduced-inventory-organization-load",
+      "text": "reduced inventory organization load"
+    }
+  ]
+}

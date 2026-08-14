@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Russell Heilling",
+    "url": "https://github.com/xchewtoyx"
+  },
+  "description": "Consumer wiki package for rgh-pre personal wellbeing and Personal Reliability Engineering bundles (`philosophy`, `mindset`, `telemetry-state`, `capacity-load`, `failure-modes`, `controls-design`, `incident-response`, `reliability-strategy`). Clone and point a harness at plugin/. plugin.json version is 0.1.0; Agent Plugins 1.0.0 is $schema. Runtime needs no search CLI. License is deferred until the repository has one.",
+  "homepage": "https://github.com/xchewtoyx/rgh-pre",
+  "keywords": [
+    "wellbeing",
+    "personal-reliability-engineering",
+    "wiki",
+    "agent-plugins",
+    "philosophy",
+    "mindset",
+    "telemetry-state",
+    "capacity-load",
+    "failure-modes",
+    "controls-design",
+    "incident-response",
+    "reliability-strategy"
+  ],
+  "name": "rgh-pre",
+  "repository": "https://github.com/xchewtoyx/rgh-pre",
+  "version": "0.1.0"
+}

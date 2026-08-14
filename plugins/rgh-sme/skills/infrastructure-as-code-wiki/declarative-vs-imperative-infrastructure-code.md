@@ -1,0 +1,18 @@
+---
+type: concept
+title: Declarative vs Imperative Infrastructure Code
+description: The trade-off between languages that state the desired end state of infrastructure (declarative) and languages that specify the steps to reach it (imperative), and guidance on which concerns each suits.
+sources:
+  - title: Infrastructure as Code
+    resource: "Infrastructure as Code (Kief Morris), ch. 4"
+  - title: Ansible for DevOps
+    resource: "Ansible for DevOps (Jeff Geerling), ch. 4"
+---
+
+Declarative infrastructure code (used by tools such as Ansible, Chef, CloudFormation, Puppet, and Terraform) specifies the *desired state* you want — which packages should be installed, how much RAM a server should have — and leaves the tool to work out how to get there, including deciding whether to create, update, or leave a resource alone. Imperative code specifies *how* to make something happen: explicit steps, conditionals, and loops, as you'd write in a general-purpose scripting or programming language.
+
+Declarative code is well suited to defining a fixed shape of infrastructure that should be highly consistent across instances — for example, the shape of a [reusable stack](reusable-stack-pattern.md) or a [delivery environment](environment-vs-stack.md) — and it can tolerate a limited degree of variation through simple [instance configuration parameters](stack-parameter-design-principles.md). Imperative code is needed once you want the same code to produce meaningfully different results depending on context — for example, discovering how many data centers exist in a region and creating one VLAN per data center. Declarative languages are increasingly extended with conditionals and loops to cope with this need (Ansible adds these to YAML; Terraform's HCL bundles an expressions sublanguage), but pushing complex logic into a declarative syntax is a design smell — see [separating declarative and imperative code](infrastructure-domain-specific-languages.md).
+
+Declarative infrastructure code must also be [idempotent](idempotent-infrastructure-code.md) to be safe to reapply — see that note for why this matters for [continuous configuration synchronization](continuous-configuration-synchronization-pattern.md). The choice of paradigm also determines how much [testing declarative infrastructure code](testing-declarative-infrastructure-code.md) is actually worth doing, and drives the choice between building reusable components as [declarative modules](infrastructure-domain-specific-languages.md) or as imperative libraries (see [infrastructure domain entity pattern](infrastructure-domain-entity-pattern.md)).
+
+Server configuration tools typically expose a graduated set of escape hatches from pure declarative modules down to raw imperative execution, precisely because real infrastructure occasionally needs a step no dedicated module covers. Ansible's own hierarchy is explicit and worth naming as a pattern: prefer a purpose-built module (idempotent by construction) over its generic `command` module (runs one program directly, no shell features, always reported as changed unless told otherwise); prefer `command` over `shell` (invokes a real shell, so it gains piping/redirection/env-var expansion, but loses even more safety); and reserve a raw, no-module-machinery escape hatch for the rare case where nothing else can reach the target at all. Each step down this hierarchy trades away idempotence, portability, or safety for the ability to express something the declarative layer can't — the same trade-off [Terraform provisioners](terraform-provisioners-vs-user-data.md) make relative to a purely declarative resource graph.

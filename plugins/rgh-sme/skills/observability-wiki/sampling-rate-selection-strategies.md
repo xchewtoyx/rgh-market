@@ -1,0 +1,23 @@
+---
+type: concept
+title: Sampling Rate Selection Strategies
+description: Beyond deciding when to sample (head vs. tail), you must decide how the keep-rate itself varies — a fixed constant rate, a rate that adapts to recent traffic volume, a rate that varies by field values like error status, or some combination — and each choice requires a different formula to reconstruct accurate totals later.
+sources:
+  - title: Observability Engineering, 2nd Edition
+    resource: "Observability Engineering, 2nd Edition (Majors, Fong-Jones, Miranda), ch. 15"
+  - title: "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure"
+    resource: "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure (Sigelman et al.), §4.4-4.5"
+---
+
+Beyond [when to decide to sample](head-vs-tail-sampling.md), a separate question is *what* rate to sample at, and whether that rate is uniform:
+
+- **Constant-probability** — a fixed keep rate (e.g. 1-in-10). Simplest to implement and reason about: reconstructing totals just means multiplying counts/sums by the sample rate at read time, and percentiles (p50, p99) are not distorted by a constant rate. It breaks down when you care much more about errors than successes, when traffic is highly skewed across customers, or when you need protection against sudden traffic spikes. Google's Dapper started here — one sampled trace per 1024 candidates for every process — and found it effective for high-throughput services but liable to miss important events for lower-traffic ones that could actually afford a much higher rate at acceptable overhead.
+- **Traffic-volume-adaptive** — the keep rate adjusts dynamically based on recent volume, to hold throughput roughly constant regardless of load. Rather than configuring a fixed probability, parameterize this by a **desired rate of sampled events per unit time**: low-traffic workloads automatically raise their sampling probability to hit that rate, high-traffic workloads lower theirs, and the actual probability used is recorded alongside the sampled event so downstream tools can reconstruct accurate frequencies. This requires *weighted* reconstruction at read time: you can't average raw sampled values directly, you must expand each kept event by its own sample rate (its "weight") before computing any aggregate.
+- **Content/key-based** — vary the sample rate by field values, e.g. keep 100% of errors but only 10% of successes, or keep more events from paying customers than free-tier ones.
+- **Combined key + historical** — adjust the rate per key based on that specific key's recent volume (e.g. per `[customer_id, dataset_id, error_code]` over the last 30 seconds), so proportionally fewer events get kept from unusually high-volume keys specifically, rather than applying one global adaptive rate.
+
+**Pitfall**: a naive constant or otherwise-high sample rate will likely miss rare long-tail events (errors, p99.9 outliers) — a p99.9 event has a low chance of being randomly selected under any uniform rate — so a baseline rate should always be paired with a guaranteed higher rate specifically for anomalies (errors, high latency). Production implementations generally lean on existing sampling libraries rather than hand-rolling this logic, since correctly reconstructing weighted aggregates from adaptively-sampled data is easy to get subtly wrong.
+
+**Aggressive rates are more tolerable at high volume than intuition suggests**: Google's operational experience with Dapper is that for high-throughput services, sampling as low as 1-in-10,000 (0.01%) rarely hinders important analyses, because "if a notable execution pattern surfaces once in such systems, it will surface thousands of times" — the same bug or slow path recurs often enough that a low uniform rate still catches it eventually. This reasoning applies specifically to *volume*, not to *rarity of pattern relative to volume* — it doesn't help find a genuinely one-in-a-million event, which is exactly why the guaranteed-higher-rate-for-anomalies pairing above still matters. Lower-volume services (dozens rather than tens of thousands of requests/sec) can usually just afford to sample every request instead.
+
+For [traces](trace-anatomy-and-spans.md) specifically, whatever rate/strategy is chosen still needs to be applied *consistently* across every span belonging to the same trace — see the consistent-sampling discussion in [head sampling vs. tail sampling](head-vs-tail-sampling.md). A separate, independent sampling stage can also run downstream in the collection pipeline itself — see [collection-side sampling](collection-side-sampling-controls-write-throughput.md) — to control total write volume to storage without touching the rate chosen here.

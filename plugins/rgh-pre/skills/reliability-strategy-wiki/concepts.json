@@ -1,0 +1,765 @@
+{
+  "bundle": "reliability-strategy",
+  "concepts": [
+    {
+      "concept_id": "acute-vs-chronic-objectives",
+      "description": "Competing objective families — short-term output (acute) versus emergent long-horizon system properties like safety and sustainability (chronic) — that cannot all be maximized together and default toward sacrificing the chronic set unless it is explicitly prioritized.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 5,
+      "pagerank": 0.05273084693393036,
+      "title": "Acute vs. Chronic Objectives"
+    },
+    {
+      "concept_id": "autonomy-preservation-heuristic",
+      "description": "A concrete litmus test for whether a support structure genuinely preserves a person's autonomy or has quietly slid into paternalism — ask whether they can do an ordinary, harmless, self-directed thing (heat up a burrito at midnight) without needing permission.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.012534431213183237,
+      "title": "Autonomy-Preservation Heuristic (the \"Burrito Test\")"
+    },
+    {
+      "concept_id": "blooming-as-life-outcome",
+      "description": "The target objective for a personal PRE system is sustainable daily-life quality — mornings without dread, relationships worth staying in, a life that does not need numbing — not external milestones like albums, titles, or revenue that can coexist with a miserable baseline.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.03642380726367486,
+      "title": "Blooming as Life Outcome (Not Achievement Milestone)"
+    },
+    {
+      "concept_id": "chosen-relationship-objectives",
+      "description": "Once societal default social obligations are stripped away, explicitly decide which human connections you actually want — a partner, one friend, solitude, family trust — instead of maintaining relationships because they look normal.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.015000579938636283,
+      "title": "Chosen Relationship Objectives"
+    },
+    {
+      "concept_id": "chronic-objective-measurement-asymmetry",
+      "description": "Acute objectives broadcast strong, familiar metrics while chronic protection lacks leading indicators — making chronic goals easier to defer until crisis, and making \"invest in safety when least affordable\" the default trap under production pressure.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.018175251945237805,
+      "title": "Chronic-Objective Measurement Asymmetry"
+    },
+    {
+      "concept_id": "delegation-as-capacity-protection",
+      "description": "Refusing to hand off work you could do — even from good motives — is a form of gluttony that erodes the time and reflective space needed to serve chronic objectives and the main thing.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.009767088266324046,
+      "title": "Delegation as Capacity Protection"
+    },
+    {
+      "concept_id": "demand-triage-by-droppability",
+      "description": "A pre-prepared three-tier (green/yellow/red) classification of which demands can be dropped without real consequence, which are droppable depending on circumstances, and which cannot be dropped — decided in advance so the choice doesn't have to be made under duress.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 0,
+      "pagerank": 0.08103699559037665,
+      "title": "Demand Triage by Droppability"
+    },
+    {
+      "concept_id": "downward-vs-upward-resilience",
+      "description": "Macro-level explicit goal rules and communicated intent (downward) versus micro-level sacrifice judgements and professional buffering (upward) — both needed to balance conflicting objectives, with over-reliance on upward resilience when downward is weak as a structural vulnerability.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.018897162198184173,
+      "title": "Downward vs. Upward Resilience"
+    },
+    {
+      "concept_id": "duration-weighted-well-being",
+      "description": "A decision-oriented conception of well-being that weights every lived moment by its duration (plus time spent dwelling on it or downstream misery it causes), rather than letting memorable peaks and endings dominate the score.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.03193650108168305,
+      "title": "Duration-Weighted Well-Being"
+    },
+    {
+      "concept_id": "focusing-illusion-in-objective-choice",
+      "description": "When choosing goals or interventions, attention to a salient change makes its future impact on well-being look larger than it will be — especially for one-time purchases or status shifts whose novelty fades — while ongoing attention-demanding activities are less overrated.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.009767088266324046,
+      "title": "Focusing Illusion in Objective Choice"
+    },
+    {
+      "concept_id": "goal-attainability-as-satisfaction-driver",
+      "description": "Life-evaluation satisfaction depends heavily on whether stated goals were attained — especially for goals the person marked as important — so choosing objectives that are difficult to reach is a structural recipe for chronic dissatisfaction even when circumstances are objectively good.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.039579247228122956,
+      "title": "Goal Attainability as a Satisfaction Driver"
+    },
+    {
+      "concept_id": "life-evaluation-vs-experienced-well-being",
+      "description": "Two distinct constructs for judging whether life is going well — global retrospective satisfaction versus moment-to-moment affect — that diverge enough that optimizing one can miss or distort the other.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.06233064661295753,
+      "title": "Life Evaluation vs. Experienced Well-Being"
+    },
+    {
+      "concept_id": "likability-as-wrong-objective",
+      "description": "Treating universal likability as a life objective trades away boundaries, authenticity, and sustainable relationships — accepting that some people will dislike your true self is often the prerequisite for protecting what actually matters.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.009767088266324046,
+      "title": "Likability as a Wrong Objective"
+    },
+    {
+      "concept_id": "main-thing-as-priority-anchor",
+      "description": "Without a named primary contribution or objective, every request looks equally deserving of yes — the discipline of no protects the vital few by anchoring trade-offs to what actually matters.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.027989637192465538,
+      "title": "Main Thing as Priority Anchor"
+    },
+    {
+      "concept_id": "minimum-masking-trade-off",
+      "description": "A prioritisation framework for social environments: identify the smallest masking set each context truly requires, meet only that minimum, and reclaim authenticity everywhere else — trading acute social-performance cost only where the environment demands it.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.020955548723974576,
+      "title": "Minimum-Masking Trade-Off"
+    },
+    {
+      "concept_id": "minimum-viable-day-objective",
+      "description": "Under reduced capacity, set the day's goal at what is realistically achievable — not the full aspirational list — so chronic protection does not collapse into dread, freeze, and deadline-only action.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.01741222941900262,
+      "title": "Minimum Viable Day Objective"
+    },
+    {
+      "concept_id": "non-negotiable-protection-targets",
+      "description": "Named baseline needs or practices that stay protected regardless of other demands — explicit chronic objectives that prevent \"temporary\" sacrifice from becoming permanent erosion.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.026982849354888896,
+      "title": "Non-Negotiable Protection Targets"
+    },
+    {
+      "concept_id": "outcomes-vs-activity-signal",
+      "description": "Judging an intervention or a stretch of effort by visible activity (hours logged, busyness, being seen to work hard) rather than by the actual outcome delivered is a systematic way to reward the wrong thing and mistake motion for progress.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.04391827761993211,
+      "title": "Outcomes vs. Activity as the Evaluation Signal"
+    },
+    {
+      "concept_id": "peak-end-rule-and-duration-neglect",
+      "description": "The remembering self scores episodes by peak intensity and ending quality while largely ignoring duration — a System 1 bias that conflicts with stated values and produces systematically bad choices when used to plan future well-being.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.033878495744577214,
+      "title": "Peak-End Rule and Duration Neglect"
+    },
+    {
+      "concept_id": "personal-priority-over-social-default",
+      "description": "\"Struggling to prioritize\" often means refusing society's default ranking of work, relationships, or hustle — valid PRE objective-setting starts from what genuinely matters to this person, not expected hierarchies.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.02462817307643976,
+      "title": "Personal Priority Over Social Default"
+    },
+    {
+      "concept_id": "purposeful-vs-avoidant-withdrawal",
+      "description": "The same visible move — stepping back from demanding activity — can be a genuine investment in a protected objective or a fear-driven hiding from one, and the two are easy to mistake for each other from the outside and even from the inside.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.009767088266324046,
+      "title": "Purposeful Withdrawal vs. Avoidant Withdrawal"
+    },
+    {
+      "concept_id": "recognizing-life-bloom",
+      "description": "A five-part checklist for noticing when chronic life objectives are actually being met — including unplanned small moments, quiet baselines, and slow seasonal payoffs — so evaluation does not chase milestones while missing bloom already present.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.009767088266324046,
+      "title": "Recognizing Life Bloom (Evaluation Heuristics)"
+    },
+    {
+      "concept_id": "resilience-erosion-under-production-pressure",
+      "description": "When acute production demands override the buffer that should protect chronic safety margins — through absent expertise, fear of delay, or culture that punishes sacrifice — the system drifts toward catastrophe while everyone acts riskier than they would consciously choose.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.01873134298333958,
+      "title": "Resilience Erosion Under Production Pressure"
+    },
+    {
+      "concept_id": "restorative-rest-vs-cheap-rest",
+      "description": "Distinguishes recovery activities that genuinely rebuild capacity from low-effort activities that give fleeting relief but leave a person more depleted, as a way to judge whether a self-care intervention is a real investment in sustainability or a short-term patch.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.04441112199988867,
+      "title": "Restorative Rest vs. Cheap Rest"
+    },
+    {
+      "concept_id": "reward-trap-vs-genuine-duty",
+      "description": "A diagnostic for deciding whether to keep pouring capacity into a demanding commitment — ask whether staying is actually required, or whether it's the rewards (status, income, momentum) doing the holding, since the latter is a voluntary trade dressed up as an obligation.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 0,
+      "pagerank": 0.02125674294538072,
+      "title": "Reward-Trap vs. Genuine Duty"
+    },
+    {
+      "concept_id": "sacrifice-judgements",
+      "description": "Deliberately relaxing acute production pressure to stay clear of chronic safety margins — a trade-off decision that often looks wasteful in hindsight and only works if the culture still rewards it when \"nothing happened.\"",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.043500925428407125,
+      "title": "Sacrifice Judgements"
+    },
+    {
+      "concept_id": "self-care-domains-as-protection-targets",
+      "description": "One way to decompose \"what needs protecting\" into concrete life domains — physical, emotional, mental, social, and professional — usable as a checklist for whether an intervention or life setup is covering every front rather than only the one currently making noise.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 0,
+      "pagerank": 0.05497353825734954,
+      "title": "Self-Care Domains as a Protection-Target Taxonomy"
+    },
+    {
+      "concept_id": "success-criteria-before-commitment",
+      "description": "Clarify why a project exists and what done looks like before scheduling work — then map backward from the end state so trade-offs serve stated objectives instead of drifting task-by-task.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.019167548185996565,
+      "title": "Success Criteria Before Commitment"
+    },
+    {
+      "concept_id": "sustainable-effort-ceiling",
+      "description": "Deliberately operating below maximum perceived effort, treating slack as built-in recovery capacity rather than waste, produces better sustained output than running at 100% until burnout forces a collapse.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.04075764316046109,
+      "title": "Sustainable Effort Ceiling (the ~85% Rule)"
+    },
+    {
+      "concept_id": "tempered-ambition",
+      "description": "Ambition needs a named objective and a stopping rule — unchecked drive for more status, scale, or achievement consumes everything, including satisfaction, relationships, and the original cause.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.009767088266324046,
+      "title": "Tempered Ambition"
+    },
+    {
+      "concept_id": "testing-life-soil-audit",
+      "description": "A five-step audit of whether your surrounding environment — especially work, where many adults spend half their waking hours — supplies enough support and return on energy to let chronic life objectives thrive, or is quietly burning you out.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 5,
+      "pagerank": 0.009767088266324046,
+      "title": "Testing Life Soil (Environment Audit)"
+    },
+    {
+      "concept_id": "thriving-vs-surviving",
+      "description": "Frames \"merely getting by\" and \"thriving\" as different destinations entirely, not points on the same scale — a reminder that a PRE system optimizing only for avoiding collapse can succeed at that and still fail the actual goal.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.04579211282535079,
+      "title": "Thriving vs. Surviving as the Target Objective"
+    },
+    {
+      "concept_id": "u-index-for-experienced-suffering",
+      "description": "The percentage of waking time spent in unpleasant affect — a duration- grounded metric of the experiencing self's burden, distinct from global life-satisfaction scores.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.027427398188662744,
+      "title": "U-Index for Experienced Suffering"
+    },
+    {
+      "concept_id": "vital-few-vs-trivial-many",
+      "description": "A prioritization heuristic for competing demands under fixed capacity — identify the small subset of tasks/objectives that actually matter and give them the lion's share of time and energy, rather than spreading effort evenly across everything that shows up.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.051201327023627105,
+      "title": "Vital Few vs. Trivial Many"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "acute-vs-chronic-objectives",
+      "target": "outcomes-vs-activity-signal.md",
+      "target_concept_id": "outcomes-vs-activity-signal",
+      "text": "outcomes vs. activity"
+    },
+    {
+      "source_concept_id": "acute-vs-chronic-objectives",
+      "target": "resilience-erosion-under-production-pressure.md",
+      "target_concept_id": "resilience-erosion-under-production-pressure",
+      "text": "resilience erosion under production pressure"
+    },
+    {
+      "source_concept_id": "acute-vs-chronic-objectives",
+      "target": "sacrifice-judgements.md",
+      "target_concept_id": "sacrifice-judgements",
+      "text": "sacrifice judgements"
+    },
+    {
+      "source_concept_id": "acute-vs-chronic-objectives",
+      "target": "self-care-domains-as-protection-targets.md",
+      "target_concept_id": "self-care-domains-as-protection-targets",
+      "text": "self-care domains as protection targets"
+    },
+    {
+      "source_concept_id": "acute-vs-chronic-objectives",
+      "target": "thriving-vs-surviving.md",
+      "target_concept_id": "thriving-vs-surviving",
+      "text": "thriving vs. surviving"
+    },
+    {
+      "source_concept_id": "blooming-as-life-outcome",
+      "target": "non-negotiable-protection-targets.md",
+      "target_concept_id": "non-negotiable-protection-targets",
+      "text": "non-negotiable protection targets"
+    },
+    {
+      "source_concept_id": "blooming-as-life-outcome",
+      "target": "outcomes-vs-activity-signal.md",
+      "target_concept_id": "outcomes-vs-activity-signal",
+      "text": "outcomes vs. activity as the evaluation signal"
+    },
+    {
+      "source_concept_id": "blooming-as-life-outcome",
+      "target": "success-criteria-before-commitment.md",
+      "target_concept_id": "success-criteria-before-commitment",
+      "text": "success criteria before commitment"
+    },
+    {
+      "source_concept_id": "blooming-as-life-outcome",
+      "target": "thriving-vs-surviving.md",
+      "target_concept_id": "thriving-vs-surviving",
+      "text": "thriving vs. surviving as the target objective"
+    },
+    {
+      "source_concept_id": "chosen-relationship-objectives",
+      "target": "minimum-masking-trade-off.md",
+      "target_concept_id": "minimum-masking-trade-off",
+      "text": "minimum-masking trade-off"
+    },
+    {
+      "source_concept_id": "chosen-relationship-objectives",
+      "target": "personal-priority-over-social-default.md",
+      "target_concept_id": "personal-priority-over-social-default",
+      "text": "personal priority over social default"
+    },
+    {
+      "source_concept_id": "chosen-relationship-objectives",
+      "target": "reward-trap-vs-genuine-duty.md",
+      "target_concept_id": "reward-trap-vs-genuine-duty",
+      "text": "reward-trap vs. genuine duty"
+    },
+    {
+      "source_concept_id": "chosen-relationship-objectives",
+      "target": "self-care-domains-as-protection-targets.md",
+      "target_concept_id": "self-care-domains-as-protection-targets",
+      "text": "self-care domains as protection targets"
+    },
+    {
+      "source_concept_id": "chronic-objective-measurement-asymmetry",
+      "target": "downward-vs-upward-resilience.md",
+      "target_concept_id": "downward-vs-upward-resilience",
+      "text": "downward vs. upward resilience"
+    },
+    {
+      "source_concept_id": "chronic-objective-measurement-asymmetry",
+      "target": "outcomes-vs-activity-signal.md",
+      "target_concept_id": "outcomes-vs-activity-signal",
+      "text": "outcomes vs. activity as the evaluation signal"
+    },
+    {
+      "source_concept_id": "chronic-objective-measurement-asymmetry",
+      "target": "sacrifice-judgements.md",
+      "target_concept_id": "sacrifice-judgements",
+      "text": "sacrifice judgements"
+    },
+    {
+      "source_concept_id": "delegation-as-capacity-protection",
+      "target": "acute-vs-chronic-objectives.md",
+      "target_concept_id": "acute-vs-chronic-objectives",
+      "text": "acute vs. chronic objectives"
+    },
+    {
+      "source_concept_id": "delegation-as-capacity-protection",
+      "target": "demand-triage-by-droppability.md",
+      "target_concept_id": "demand-triage-by-droppability",
+      "text": "demand triage by droppability"
+    },
+    {
+      "source_concept_id": "delegation-as-capacity-protection",
+      "target": "main-thing-as-priority-anchor.md",
+      "target_concept_id": "main-thing-as-priority-anchor",
+      "text": "main thing as priority anchor"
+    },
+    {
+      "source_concept_id": "delegation-as-capacity-protection",
+      "target": "non-negotiable-protection-targets.md",
+      "target_concept_id": "non-negotiable-protection-targets",
+      "text": "non-negotiable protection targets"
+    },
+    {
+      "source_concept_id": "downward-vs-upward-resilience",
+      "target": "acute-vs-chronic-objectives.md",
+      "target_concept_id": "acute-vs-chronic-objectives",
+      "text": "acute vs. chronic objectives"
+    },
+    {
+      "source_concept_id": "downward-vs-upward-resilience",
+      "target": "sacrifice-judgements.md",
+      "target_concept_id": "sacrifice-judgements",
+      "text": "sacrifice judgements"
+    },
+    {
+      "source_concept_id": "duration-weighted-well-being",
+      "target": "life-evaluation-vs-experienced-well-being.md",
+      "target_concept_id": "life-evaluation-vs-experienced-well-being",
+      "text": "life evaluation vs. experienced well-being"
+    },
+    {
+      "source_concept_id": "duration-weighted-well-being",
+      "target": "peak-end-rule-and-duration-neglect.md",
+      "target_concept_id": "peak-end-rule-and-duration-neglect",
+      "text": "peak-end rule and duration neglect"
+    },
+    {
+      "source_concept_id": "focusing-illusion-in-objective-choice",
+      "target": "goal-attainability-as-satisfaction-driver.md",
+      "target_concept_id": "goal-attainability-as-satisfaction-driver",
+      "text": "goal attainability as a satisfaction driver"
+    },
+    {
+      "source_concept_id": "focusing-illusion-in-objective-choice",
+      "target": "outcomes-vs-activity-signal.md",
+      "target_concept_id": "outcomes-vs-activity-signal",
+      "text": "outcomes vs. activity as the evaluation signal"
+    },
+    {
+      "source_concept_id": "goal-attainability-as-satisfaction-driver",
+      "target": "life-evaluation-vs-experienced-well-being.md",
+      "target_concept_id": "life-evaluation-vs-experienced-well-being",
+      "text": "life evaluation vs. experienced well-being"
+    },
+    {
+      "source_concept_id": "goal-attainability-as-satisfaction-driver",
+      "target": "vital-few-vs-trivial-many.md",
+      "target_concept_id": "vital-few-vs-trivial-many",
+      "text": "vital few vs. trivial many"
+    },
+    {
+      "source_concept_id": "life-evaluation-vs-experienced-well-being",
+      "target": "goal-attainability-as-satisfaction-driver.md",
+      "target_concept_id": "goal-attainability-as-satisfaction-driver",
+      "text": "goal attainability as a satisfaction driver"
+    },
+    {
+      "source_concept_id": "life-evaluation-vs-experienced-well-being",
+      "target": "thriving-vs-surviving.md",
+      "target_concept_id": "thriving-vs-surviving",
+      "text": "thriving vs. surviving as the target objective"
+    },
+    {
+      "source_concept_id": "life-evaluation-vs-experienced-well-being",
+      "target": "u-index-for-experienced-suffering.md",
+      "target_concept_id": "u-index-for-experienced-suffering",
+      "text": "U-index for experienced suffering"
+    },
+    {
+      "source_concept_id": "likability-as-wrong-objective",
+      "target": "autonomy-preservation-heuristic.md",
+      "target_concept_id": "autonomy-preservation-heuristic",
+      "text": "autonomy-preservation heuristic"
+    },
+    {
+      "source_concept_id": "likability-as-wrong-objective",
+      "target": "blooming-as-life-outcome.md",
+      "target_concept_id": "blooming-as-life-outcome",
+      "text": "blooming as life outcome"
+    },
+    {
+      "source_concept_id": "likability-as-wrong-objective",
+      "target": "minimum-masking-trade-off.md",
+      "target_concept_id": "minimum-masking-trade-off",
+      "text": "minimum-masking trade-off"
+    },
+    {
+      "source_concept_id": "main-thing-as-priority-anchor",
+      "target": "demand-triage-by-droppability.md",
+      "target_concept_id": "demand-triage-by-droppability",
+      "text": "demand triage"
+    },
+    {
+      "source_concept_id": "main-thing-as-priority-anchor",
+      "target": "sacrifice-judgements.md",
+      "target_concept_id": "sacrifice-judgements",
+      "text": "sacrifice judgements"
+    },
+    {
+      "source_concept_id": "main-thing-as-priority-anchor",
+      "target": "self-care-domains-as-protection-targets.md",
+      "target_concept_id": "self-care-domains-as-protection-targets",
+      "text": "self-care domains as protection targets"
+    },
+    {
+      "source_concept_id": "main-thing-as-priority-anchor",
+      "target": "vital-few-vs-trivial-many.md",
+      "target_concept_id": "vital-few-vs-trivial-many",
+      "text": "vital few vs. trivial many"
+    },
+    {
+      "source_concept_id": "minimum-masking-trade-off",
+      "target": "acute-vs-chronic-objectives.md",
+      "target_concept_id": "acute-vs-chronic-objectives",
+      "text": "acute vs. chronic objectives"
+    },
+    {
+      "source_concept_id": "minimum-masking-trade-off",
+      "target": "personal-priority-over-social-default.md",
+      "target_concept_id": "personal-priority-over-social-default",
+      "text": "personal priority over social default"
+    },
+    {
+      "source_concept_id": "minimum-viable-day-objective",
+      "target": "demand-triage-by-droppability.md",
+      "target_concept_id": "demand-triage-by-droppability",
+      "text": "demand triage by droppability"
+    },
+    {
+      "source_concept_id": "minimum-viable-day-objective",
+      "target": "non-negotiable-protection-targets.md",
+      "target_concept_id": "non-negotiable-protection-targets",
+      "text": "non-negotiable protection targets"
+    },
+    {
+      "source_concept_id": "non-negotiable-protection-targets",
+      "target": "acute-vs-chronic-objectives.md",
+      "target_concept_id": "acute-vs-chronic-objectives",
+      "text": "acute vs. chronic objectives"
+    },
+    {
+      "source_concept_id": "non-negotiable-protection-targets",
+      "target": "minimum-viable-day-objective.md",
+      "target_concept_id": "minimum-viable-day-objective",
+      "text": "minimum viable day objective"
+    },
+    {
+      "source_concept_id": "non-negotiable-protection-targets",
+      "target": "self-care-domains-as-protection-targets.md",
+      "target_concept_id": "self-care-domains-as-protection-targets",
+      "text": "self-care domains as protection targets"
+    },
+    {
+      "source_concept_id": "outcomes-vs-activity-signal",
+      "target": "sustainable-effort-ceiling.md",
+      "target_concept_id": "sustainable-effort-ceiling",
+      "text": "sustainable capacity"
+    },
+    {
+      "source_concept_id": "outcomes-vs-activity-signal",
+      "target": "vital-few-vs-trivial-many.md",
+      "target_concept_id": "vital-few-vs-trivial-many",
+      "text": "the vital few objectives that matter"
+    },
+    {
+      "source_concept_id": "peak-end-rule-and-duration-neglect",
+      "target": "duration-weighted-well-being.md",
+      "target_concept_id": "duration-weighted-well-being",
+      "text": "duration-weighted well-being"
+    },
+    {
+      "source_concept_id": "peak-end-rule-and-duration-neglect",
+      "target": "life-evaluation-vs-experienced-well-being.md",
+      "target_concept_id": "life-evaluation-vs-experienced-well-being",
+      "text": "life evaluation vs. experienced well-being"
+    },
+    {
+      "source_concept_id": "personal-priority-over-social-default",
+      "target": "chosen-relationship-objectives.md",
+      "target_concept_id": "chosen-relationship-objectives",
+      "text": "chosen relationship objectives"
+    },
+    {
+      "source_concept_id": "personal-priority-over-social-default",
+      "target": "goal-attainability-as-satisfaction-driver.md",
+      "target_concept_id": "goal-attainability-as-satisfaction-driver",
+      "text": "goal attainability as a satisfaction driver"
+    },
+    {
+      "source_concept_id": "personal-priority-over-social-default",
+      "target": "main-thing-as-priority-anchor.md",
+      "target_concept_id": "main-thing-as-priority-anchor",
+      "text": "main thing as priority anchor"
+    },
+    {
+      "source_concept_id": "personal-priority-over-social-default",
+      "target": "minimum-masking-trade-off.md",
+      "target_concept_id": "minimum-masking-trade-off",
+      "text": "minimum-masking trade-off"
+    },
+    {
+      "source_concept_id": "purposeful-vs-avoidant-withdrawal",
+      "target": "reward-trap-vs-genuine-duty.md",
+      "target_concept_id": "reward-trap-vs-genuine-duty",
+      "text": "reward-trap vs. genuine duty"
+    },
+    {
+      "source_concept_id": "recognizing-life-bloom",
+      "target": "blooming-as-life-outcome.md",
+      "target_concept_id": "blooming-as-life-outcome",
+      "text": "blooming as life outcome"
+    },
+    {
+      "source_concept_id": "recognizing-life-bloom",
+      "target": "chronic-objective-measurement-asymmetry.md",
+      "target_concept_id": "chronic-objective-measurement-asymmetry",
+      "text": "chronic-objective measurement asymmetry"
+    },
+    {
+      "source_concept_id": "recognizing-life-bloom",
+      "target": "peak-end-rule-and-duration-neglect.md",
+      "target_concept_id": "peak-end-rule-and-duration-neglect",
+      "text": "peak-end rule and duration neglect"
+    },
+    {
+      "source_concept_id": "resilience-erosion-under-production-pressure",
+      "target": "acute-vs-chronic-objectives.md",
+      "target_concept_id": "acute-vs-chronic-objectives",
+      "text": "acute vs. chronic objectives"
+    },
+    {
+      "source_concept_id": "resilience-erosion-under-production-pressure",
+      "target": "chronic-objective-measurement-asymmetry.md",
+      "target_concept_id": "chronic-objective-measurement-asymmetry",
+      "text": "chronic-objective measurement asymmetry"
+    },
+    {
+      "source_concept_id": "resilience-erosion-under-production-pressure",
+      "target": "downward-vs-upward-resilience.md",
+      "target_concept_id": "downward-vs-upward-resilience",
+      "text": "downward vs. upward resilience"
+    },
+    {
+      "source_concept_id": "resilience-erosion-under-production-pressure",
+      "target": "sacrifice-judgements.md",
+      "target_concept_id": "sacrifice-judgements",
+      "text": "sacrifice judgements"
+    },
+    {
+      "source_concept_id": "sacrifice-judgements",
+      "target": "acute-vs-chronic-objectives.md",
+      "target_concept_id": "acute-vs-chronic-objectives",
+      "text": "acute vs. chronic objectives"
+    },
+    {
+      "source_concept_id": "sacrifice-judgements",
+      "target": "demand-triage-by-droppability.md",
+      "target_concept_id": "demand-triage-by-droppability",
+      "text": "demand triage by droppability"
+    },
+    {
+      "source_concept_id": "sacrifice-judgements",
+      "target": "sustainable-effort-ceiling.md",
+      "target_concept_id": "sustainable-effort-ceiling",
+      "text": "sustainable effort ceiling"
+    },
+    {
+      "source_concept_id": "success-criteria-before-commitment",
+      "target": "main-thing-as-priority-anchor.md",
+      "target_concept_id": "main-thing-as-priority-anchor",
+      "text": "main thing as priority anchor"
+    },
+    {
+      "source_concept_id": "success-criteria-before-commitment",
+      "target": "outcomes-vs-activity-signal.md",
+      "target_concept_id": "outcomes-vs-activity-signal",
+      "text": "outcomes vs. activity as the evaluation signal"
+    },
+    {
+      "source_concept_id": "sustainable-effort-ceiling",
+      "target": "restorative-rest-vs-cheap-rest.md",
+      "target_concept_id": "restorative-rest-vs-cheap-rest",
+      "text": "restorative rest vs. cheap rest"
+    },
+    {
+      "source_concept_id": "tempered-ambition",
+      "target": "goal-attainability-as-satisfaction-driver.md",
+      "target_concept_id": "goal-attainability-as-satisfaction-driver",
+      "text": "goal attainability as a satisfaction driver"
+    },
+    {
+      "source_concept_id": "tempered-ambition",
+      "target": "main-thing-as-priority-anchor.md",
+      "target_concept_id": "main-thing-as-priority-anchor",
+      "text": "main thing as priority anchor"
+    },
+    {
+      "source_concept_id": "tempered-ambition",
+      "target": "personal-priority-over-social-default.md",
+      "target_concept_id": "personal-priority-over-social-default",
+      "text": "personal priority over social default"
+    },
+    {
+      "source_concept_id": "testing-life-soil-audit",
+      "target": "blooming-as-life-outcome.md",
+      "target_concept_id": "blooming-as-life-outcome",
+      "text": "blooming as life outcome"
+    },
+    {
+      "source_concept_id": "testing-life-soil-audit",
+      "target": "chronic-objective-measurement-asymmetry.md",
+      "target_concept_id": "chronic-objective-measurement-asymmetry",
+      "text": "chronic-objective measurement asymmetry"
+    },
+    {
+      "source_concept_id": "testing-life-soil-audit",
+      "target": "sacrifice-judgements.md",
+      "target_concept_id": "sacrifice-judgements",
+      "text": "sacrifice judgement"
+    },
+    {
+      "source_concept_id": "testing-life-soil-audit",
+      "target": "success-criteria-before-commitment.md",
+      "target_concept_id": "success-criteria-before-commitment",
+      "text": "success criteria before commitment"
+    },
+    {
+      "source_concept_id": "testing-life-soil-audit",
+      "target": "thriving-vs-surviving.md",
+      "target_concept_id": "thriving-vs-surviving",
+      "text": "thriving vs. surviving as the target objective"
+    },
+    {
+      "source_concept_id": "thriving-vs-surviving",
+      "target": "blooming-as-life-outcome.md",
+      "target_concept_id": "blooming-as-life-outcome",
+      "text": "blooming as life outcome"
+    },
+    {
+      "source_concept_id": "thriving-vs-surviving",
+      "target": "self-care-domains-as-protection-targets.md",
+      "target_concept_id": "self-care-domains-as-protection-targets",
+      "text": "self-care domains as a protection-target taxonomy"
+    },
+    {
+      "source_concept_id": "u-index-for-experienced-suffering",
+      "target": "duration-weighted-well-being.md",
+      "target_concept_id": "duration-weighted-well-being",
+      "text": "duration-weighted well-being"
+    },
+    {
+      "source_concept_id": "u-index-for-experienced-suffering",
+      "target": "life-evaluation-vs-experienced-well-being.md",
+      "target_concept_id": "life-evaluation-vs-experienced-well-being",
+      "text": "life evaluation vs. experienced well-being"
+    },
+    {
+      "source_concept_id": "u-index-for-experienced-suffering",
+      "target": "peak-end-rule-and-duration-neglect.md",
+      "target_concept_id": "peak-end-rule-and-duration-neglect",
+      "text": "peak-end rule and duration neglect"
+    },
+    {
+      "source_concept_id": "vital-few-vs-trivial-many",
+      "target": "demand-triage-by-droppability.md",
+      "target_concept_id": "demand-triage-by-droppability",
+      "text": "demand triage by droppability"
+    }
+  ]
+}

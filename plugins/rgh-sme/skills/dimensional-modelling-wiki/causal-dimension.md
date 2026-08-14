@@ -1,0 +1,39 @@
+---
+type: concept
+title: Causal Dimension
+description: A dimension describing factors believed to cause a change in a measured outcome, such as a promotion, evaluated by lift, time shifting, and cannibalization.
+sources:
+  - title: "The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling, 3rd Edition"
+    resource: "The Data Warehouse Toolkit (Kimball, Ross), 3rd ed., ch. 3"
+  - title: "Agile Data Warehouse Design"
+    resource: "Agile Data Warehouse Design (Lawrence Corr with Jim Stagnitto), ch. 9"
+---
+
+A causal dimension describes conditions thought to *cause* a change in a measured outcome — the archetypal example is a retail promotion dimension describing temporary price reductions, end-aisle displays, newspaper ads, and coupons under which a product sold. Promotions (and causal factors generally) are judged along several standard dimensions of analysis:
+
+- **Lift** — the sales gain during the causal event versus an estimated baseline (from prior history or a more sophisticated model).
+- **Time shifting** — a drop in sales just before or after the event that cancels out the apparent gain (did the event just move sales from full-price periods, rather than generate net-new demand?).
+- **Cannibalization** — a gain in the promoted item's sales offset by a drop in sales of nearby, related items.
+- **Market growth** — whether the entire affected category grew net, comparing before/during/after periods.
+- **Profitability** — the incremental profit gain over baseline, netting out time shifting, cannibalization, and the causal event's own cost.
+
+## Classifying causal factors: direct/indirect and internal/external
+
+Two independent axes help decide how confidently a causal factor can be modeled and how hard it will be to source:
+
+- **Direct versus indirect.** A direct causal factor is recorded with certainty as part of the transaction itself — a discount code and its resulting discount amount are either present on a sale or they aren't, no inference required. An indirect causal factor (weather, a nearby sporting event, an ad campaign with no trackable code) merely coincides in time and location with the measured facts; its actual effect can only be inferred or modeled statistically, never read directly off the transaction. A single causal dimension can blend both kinds — a promotion dimension's discount-type attribute is typically direct, while its advertising-channel attribute is typically indirect, unless the advertisement carries a code the customer must supply, which promotes it to direct.
+- **Internal versus external.** An internal causal factor is one the organization itself controls (price discounts, its own advertising); an external one is not (weather, a competitor's actions, a sporting event the organization isn't sponsoring). Some internal causal factors are significant business activities in their own right — a seminar, a sales call, an ad campaign — and warrant their own dedicated fact table analyzing their cost and activity by the ordinary 7Ws, with the causal dimension then conformed across both that fact table and the fact table it's believed to influence, enabling a direct return-on-investment comparison via [drilling across](drilling-across.md) (a promotion-spend fact table compared against the sales fact table it's meant to lift, for instance).
+
+Indirect causal factors are typically the harder half to source: operational systems reliably capture direct details needed for a valid transaction record, but rarely capture whether a sale also happened to be advertised on TV or via an in-store display — that kind of detail usually lives only in informal sources (spreadsheets, marketing calendars) and may need dedicated ETL, or even a small purpose-built data-entry tool, to capture information "known to the business but not known to any system." An indirect, weakly-associated external factor (an unrelated sporting event overlapping the analysis period) is also often reasonable to defer past a star's initial build, or skip modeling altogether, in a way a direct or central causal factor is not — see "Overlapping time-based causal factors" below for the specific multivalued-date problem this creates when the factor is tied to a date range. Because a causal dimension doesn't change a fact table's grain, it's also one of the easiest dimension types to add later, once a reliable source or feed for it is actually found — see [dimensional model extensibility](dimensional-model-extensibility.md).
+
+## Combining correlated causal factors into one dimension
+
+When several distinct causal mechanisms are highly correlated in practice (for example, price reductions, ads, displays, and coupons that mostly co-occur), the recommended design combines them into a **single** causal dimension with one row per distinct combination of conditions that actually occurs, rather than a separate dimension per mechanism — the same correlated-attribute reasoning that motivates a [junk dimension](junk-dimension.md) and warns against a [centipede fact table](centipede-fact-table.md). Combining keeps the dimension not much larger than any one separate dimension would have been, and lets it be browsed to see how mechanisms are used together (though browsing the dimension alone doesn't reveal which specific stores or products were affected — that requires the fact table). Separating into multiple dimensions may be more understandable to business users who think of the mechanisms independently, and can simplify administration; there is no difference in the *information* content between the two approaches, only in design and administration trade-offs — validate the choice with the actual business users via requirements interviews.
+
+A causal factor's own cost attribute can live in the causal dimension for constraining and grouping, but must not appear as a fact on a transaction-grain [fact-table](fact-table.md) whose grain doesn't match the cost's own grain — see [grain](grain.md).
+
+## Overlapping time-based causal factors
+
+A causal factor tied to a date range rather than to the primary event itself — a sporting event or marketing campaign that a sales fact table wants to analyze "during" — is a genuinely multivalued attribute of the date it touches whenever two such factors' date ranges overlap: a day inside both a two-week tennis tournament and a month-long marketing campaign belongs to both at once. Grouping and summing sales "during the tournament" and separately "during the campaign" then double-counts every overlapping day's revenue if the two totals are ever added together, the same double-counting hazard as any other multivalued relationship (see [bridge table](bridge-table.md)). The fix follows the same pattern as any other overlapping-membership case: give each date/causal-factor combination its own row (so a two-week event becomes fourteen rows, one per date) carrying a weighting factor that sums to 1.00 across every causal factor active on a given date, and use `SUM(fact * weighting_factor)` for a correctly allocated total, or the unweighted sum per factor for an easily understood "impact" figure that isn't meant to be added across factors. This also simplifies the fact table's own join, since each event is now expressed as ordinary rows keyed on a single date rather than requiring a `BETWEEN` join against separately stored start and end dates.
+
+A multivalued causal factor that is only indirectly, weakly associated with the event being measured (an unrelated sporting event happening to overlap the analysis period, say) is often reasonable to defer past the initial build of a star, or skip modeling altogether — unlike a multivalued causal factor that is central and direct to the event itself (the promotion a sale was actually made under), which needs to be resolved as part of the core design.

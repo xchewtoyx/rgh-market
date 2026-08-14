@@ -1,0 +1,3480 @@
+{
+  "bundle": "incident-management",
+  "concepts": [
+    {
+      "concept_id": "accident-models",
+      "description": "Frameworks used to conceptualize safety, define risk, and establish strategies for safety management.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.006238837739802947,
+      "title": "Accident Models"
+    },
+    {
+      "concept_id": "action-item-quality",
+      "description": "The distinction between superficial, low-quality quick fixes and robust, high-quality systemic improvements in post-incident reviews.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 2,
+      "pagerank": 0.030471747427173457,
+      "title": "Action Item Quality"
+    },
+    {
+      "concept_id": "after-action-review",
+      "description": "A post-incident review methodology that evaluates both what broke and how the people responded, run as a critique rather than a search for a culprit.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 5,
+      "pagerank": 0.023341804172606756,
+      "title": "After Action Review (AAR)"
+    },
+    {
+      "concept_id": "andon-cord-and-swarming",
+      "description": "Stopping work the moment a problem is detected and mobilizing whoever is needed to fix it immediately, rather than letting it queue or propagate downstream.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.005226052244274416,
+      "title": "Andon Cord and Swarming"
+    },
+    {
+      "concept_id": "blameless-postmortems",
+      "description": "A post-incident analysis culture that assumes operators act with good intentions, aiming to identify systemic gaps rather than individual failure.",
+      "inbound_link_count": 17,
+      "outbound_link_count": 8,
+      "pagerank": 0.06401349832013713,
+      "title": "Blameless Postmortems"
+    },
+    {
+      "concept_id": "burnout-risk-factors",
+      "description": "Christina Maslach's six organizational conditions that drive burnout, and why fixing the work environment beats trying to fix the person.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0032612830230975033,
+      "title": "Burnout Risk Factors"
+    },
+    {
+      "concept_id": "can-report",
+      "description": "A three-part briefing format \u2014 Conditions, Actions, Needs \u2014 used to give any incident participant a fast, structured status update.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 4,
+      "pagerank": 0.013745577139507439,
+      "title": "CAN Report"
+    },
+    {
+      "concept_id": "chaos-engineering-experiment-design",
+      "description": "The four-step method for designing a chaos experiment (steady state, hypothesis, injection, verification) and the blast-radius controls that keep it safe to run.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.012283064468254862,
+      "title": "Chaos Engineering Experiment Design"
+    },
+    {
+      "concept_id": "checklist-design-rules",
+      "description": "How to design a checklist that survives actual use under stress \u2014 the format constraints, the two execution modes, and how to choose which items make the list.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.006184923975090068,
+      "title": "Checklist Design Rules"
+    },
+    {
+      "concept_id": "chronic-unease",
+      "description": "The organizational state of maintaining constant vigilance, welcoming doubt, and actively looking for signs of systemic drift in operations.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 2,
+      "pagerank": 0.032289094515289406,
+      "title": "Chronic Unease"
+    },
+    {
+      "concept_id": "command-presence",
+      "description": "The ability of an incident commander to convey calm authority under pressure, which sets the emotional tone the rest of the response mirrors.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.008237020811400122,
+      "title": "Command Presence"
+    },
+    {
+      "concept_id": "communicating-intent",
+      "description": "Why telling a delegate the purpose behind a task, not just the steps, is what lets them improvise correctly when the situation stops matching the plan.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0016103059581320453,
+      "title": "Communicating Intent"
+    },
+    {
+      "concept_id": "compounding-probability-in-contingency-plans",
+      "description": "Why a multi-step contingency plan where each step individually looks safe can still be fragile as a whole, and why that argues for acting decisively rather than planning every branch.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0016103059581320453,
+      "title": "Compounding Probability in Contingency Plans"
+    },
+    {
+      "concept_id": "corrupted-validation-can-mask-incidents",
+      "description": "A validation, canary, or golden-set check that shares the same broken upstream dependency as the system it's meant to catch can certify a broken change as an improvement, because both are corrupted by the same failure at the same time.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0026408622788544416,
+      "title": "Corrupted Validation Can Mask Incidents"
+    },
+    {
+      "concept_id": "crew-resource-management",
+      "description": "A commercial-aviation practice of deliberately flattening hierarchy during an active emergency so any team member can raise a safety concern regardless of rank.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.002498606588732968,
+      "title": "Crew Resource Management"
+    },
+    {
+      "concept_id": "cross-team-blind-spots-in-incident-diagnosis",
+      "description": "A team can take an action whose consequences land entirely inside another team's system, so neither team can connect cause to effect without shared visibility that neither may know to seek.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.0048496768033995125,
+      "title": "Cross-Team Blind Spots in Incident Diagnosis"
+    },
+    {
+      "concept_id": "crystal-ball-technique",
+      "description": "A practiced countermeasure against explaining away individually-weak warning signs instead of recognizing them as a converging pattern, plus a related caution against over-automating error correction.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0016103059581320453,
+      "title": "Crystal Ball Technique"
+    },
+    {
+      "concept_id": "data-availability-vs-observability",
+      "description": "The distinction between information physically present in a system (availability) and information perceivable by an operator under active cognitive workload (observability).",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0016103059581320453,
+      "title": "Data Availability vs. Observability"
+    },
+    {
+      "concept_id": "decentralized-crisis-response",
+      "description": "The tendency of institutions to centralize decision-making under crisis, and why pushing authority to frontline responders (backed by central logistics) outperforms it when conditions are complex and fast-changing.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.01040390744525274,
+      "title": "Decentralized Crisis Response"
+    },
+    {
+      "concept_id": "decontextualization-traps",
+      "description": "Investigative errors that remove data from its chronological and operational context, leading to distorted assessments of operator performance.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.010587109837778198,
+      "title": "Decontextualization Traps"
+    },
+    {
+      "concept_id": "disaster-risk-assessment-matrix",
+      "description": "A prioritization tool that ranks disaster scenarios by probability times impact to decide which ones deserve a prepared response plan first.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.011940874452151801,
+      "title": "Disaster Risk Assessment Matrix"
+    },
+    {
+      "concept_id": "dispatch-vs-notification",
+      "description": "The distinction between summoning a responder to act (dispatch) and merely informing someone of a status (notification), and why blurring the two produces uncoordinated pile-on responses.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.00850616118209978,
+      "title": "Dispatch vs Notification"
+    },
+    {
+      "concept_id": "dual-data-copy-divergence-risk",
+      "description": "Maintaining two authoritative-seeming copies of the same data, synced by periodic merge, is a latent failure pattern where an upstream schema change can silently zero out the merge for weeks before anyone notices.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0016103059581320453,
+      "title": "Dual Data Copy Divergence Risk"
+    },
+    {
+      "concept_id": "early-incident-declaration",
+      "description": "Formally declaring an incident as soon as it is suspected, rather than waiting for certainty, because undeclared incidents miss coordinated response.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.012761456777309691,
+      "title": "Early Incident Declaration"
+    },
+    {
+      "concept_id": "emergency-response-triage",
+      "description": "The principle of prioritizing rapid user-service mitigation over long-term root-cause diagnosis during an active incident.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.004719669635791103,
+      "title": "Emergency Response Triage"
+    },
+    {
+      "concept_id": "escalation-as-resource-request",
+      "description": "Reframing \"escalation\" from a management-approval or non-responsive-on-call problem into a request for more or different resources as an incident's conditions change.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.004989887616458673,
+      "title": "Escalation as a Resource Request"
+    },
+    {
+      "concept_id": "extended-all-hands-response-mode",
+      "description": "A temporary, explicitly bounded organizational operating mode for extraordinary incidents that requires suspending normal process and later returning to it deliberately.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.01040390744525274,
+      "title": "Extended \"All Hands on Deck\" Response Mode"
+    },
+    {
+      "concept_id": "failure-scenario-mapping-workshop",
+      "description": "A structured workshop technique that walks each candidate failure scenario through cause, failure mode, detection, and correction to turn a prioritized risk into a concrete mitigation plan.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0054498072336845674,
+      "title": "Failure Scenario Mapping Workshop"
+    },
+    {
+      "concept_id": "hindsight-and-outcome-biases",
+      "description": "Cognitive biases that distort failure analysis by overestimating predictability and judging decision quality by the severity of the outcome.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.018120453808357362,
+      "title": "Hindsight and Outcome Biases"
+    },
+    {
+      "concept_id": "human-error-as-symptom",
+      "description": "In safety science, human error is viewed as a symptom of deeper systemic issues rather than the primary cause of a failure.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.01367003720306314,
+      "title": "Human Error as a Symptom"
+    },
+    {
+      "concept_id": "incident-bridge-communication-patterns",
+      "description": "The four deliberate speaking patterns an incident commander uses to control an open communication channel, and why polling for support beats seeking consensus.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.005049479098119428,
+      "title": "Incident Bridge Communication Patterns"
+    },
+    {
+      "concept_id": "incident-command-system",
+      "description": "A flexible incident management framework that uses explicit role separation to coordinate response under stress.",
+      "inbound_link_count": 37,
+      "outbound_link_count": 8,
+      "pagerank": 0.08276330376886565,
+      "title": "Incident Command System"
+    },
+    {
+      "concept_id": "incident-fatality-paradox",
+      "description": "The empirical finding that organizations reporting fewer minor incidents often suffer from higher fatality rates.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.013880982538437822,
+      "title": "Incident-Fatality Paradox"
+    },
+    {
+      "concept_id": "incident-response-lifecycle",
+      "description": "The ten-step sequence an incident moves through from detection to organizational learning, used to locate where a response is breaking down.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 5,
+      "pagerank": 0.004020385037221624,
+      "title": "Incident Response Lifecycle"
+    },
+    {
+      "concept_id": "incident-response-process-framework",
+      "description": "A seven-attribute checklist \u2014 Predictable, Repeatable, Optimized, Clear, Evaluated, Scalable, Sustainable \u2014 for auditing whether an organization's incident response is mature rather than ad hoc.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.006780619168945488,
+      "title": "Incident Response Process Framework (PROCESS)"
+    },
+    {
+      "concept_id": "incident-severity-classification",
+      "description": "Tiering alerts and incidents by urgency and impact so response effort, escalation, and paging are proportionate rather than uniform.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.0116217968908202,
+      "title": "Incident Severity Classification"
+    },
+    {
+      "concept_id": "incident-state-document",
+      "description": "A single live document maintained throughout an active incident that separates fixed facts from evolving hypotheses so responders share one picture of the incident.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.010974224138757838,
+      "title": "Incident State Document"
+    },
+    {
+      "concept_id": "interrupt-shielding",
+      "description": "Designating one on-call role to absorb tickets, requests, and non-paging interrupts so the rest of the team can protect uninterrupted engineering time.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0029419953530471525,
+      "title": "Interrupt Shielding"
+    },
+    {
+      "concept_id": "kinds-of-uncertainty",
+      "description": "The several genuinely different problems \"uncertainty\" can refer to, and why more monitoring data relocates uncertainty rather than reducing it.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.0016103059581320453,
+      "title": "Kinds of Uncertainty"
+    },
+    {
+      "concept_id": "learning-reviews",
+      "description": "A post-incident investigation methodology designed to understand why actions made sense, focusing on systemic change factors over individual blame.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 4,
+      "pagerank": 0.0354510289004247,
+      "title": "Learning Reviews"
+    },
+    {
+      "concept_id": "leverage-points-and-choke-points",
+      "description": "The skill of spotting a small, high-impact opening a plan can be built around, and its inverse \u2014 proactively noticing a small vulnerability before it becomes an emergency.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0016103059581320453,
+      "title": "Leverage Points and Choke Points"
+    },
+    {
+      "concept_id": "liaison-officer-role",
+      "description": "A dedicated communication relay between an incident commander and a separate group or bridge, keeping the primary technical channel free of cross-group traffic.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.018759855828143383,
+      "title": "Liaison Officer Role"
+    },
+    {
+      "concept_id": "local-rationality-principle",
+      "description": "The principle that what people do always makes sense to them at the time given their goals, attentional focus, knowledge, and operational constraints.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 3,
+      "pagerank": 0.03168283592064221,
+      "title": "Local Rationality Principle"
+    },
+    {
+      "concept_id": "mean-time-to-assemble",
+      "description": "The time to get the right responders engaged and ready to act, framed as the one part of incident response fully within an organization's control.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.01223506102943077,
+      "title": "Mean Time to Assemble (MTTA)"
+    },
+    {
+      "concept_id": "mental-simulation-as-evaluation-tool",
+      "description": "The technique of imagining a course of action playing out step by step to find its flaws before committing to it, including the premortem method for doing this deliberately.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.00315220264845291,
+      "title": "Mental Simulation as an Evaluation Tool"
+    },
+    {
+      "concept_id": "ml-crisis-response-options",
+      "description": "Five immediate mitigation choices for a continuous ML system in crisis \u2014 stop training, fall back, roll back, remove bad data, roll through \u2014 and how to pick among them under time pressure.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.0066545636620697485,
+      "title": "ML Crisis Response Options"
+    },
+    {
+      "concept_id": "ml-fairness-incident-recognition",
+      "description": "A fairness-affecting model failure can cause severe harm while looking identical to normal operation on every aggregate KPI, so recognizing it as an incident at all depends on evaluation the team deliberately built in, not on ordinary monitoring noticing.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.002944847020933978,
+      "title": "ML Fairness Incident Recognition"
+    },
+    {
+      "concept_id": "ml-incident-anatomy-review-questions",
+      "description": "A set of questions specific to reviewing an ML-centric outage, distinguishing fixing the immediate problem from prospective quality-improvement work that looks similar but isn't follow-up.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 6,
+      "pagerank": 0.0016103059581320453,
+      "title": "ML Incident Anatomy Review Questions"
+    },
+    {
+      "concept_id": "ml-incident-data-access-privacy-risk",
+      "description": "Pulling raw customer query or log data for incident troubleshooting can expose PII and correlated-query re-identification risk that a responder focused on diagnosis is unlikely to weigh on their own.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0016103059581320453,
+      "title": "Privacy Risk in Ad Hoc Incident Data Access"
+    },
+    {
+      "concept_id": "ml-incident-organizational-breadth",
+      "description": "ML incident resolution routinely pulls in finance, vendor management, PR, legal, and business leadership rather than staying an engineering-only activity, because ML systems span more of the organization than non-ML services.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 5,
+      "pagerank": 0.00843792560194605,
+      "title": "ML Incident Organizational Breadth"
+    },
+    {
+      "concept_id": "ml-incident-whistleblower-considerations",
+      "description": "An on-call engineer investigating an ML incident may discover something worthy of disclosure beyond the incident itself, and needs a commonly understood framework for that situation established in advance rather than improvised alone.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002066559312936125,
+      "title": "ML Incident Whistleblower Considerations"
+    },
+    {
+      "concept_id": "ml-model-developer-incident-role",
+      "description": "What a model developer or data scientist should prepare before an ML incident and how they participate once one is declared, distinct from their day-to-day modeling work.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.0169422744005046,
+      "title": "Model Developer Incident Responsibilities"
+    },
+    {
+      "concept_id": "ml-outage-boundary-ambiguity",
+      "description": "ML outages are less sharply defined than conventional ones along both time (unclear start/end) and impact (unclear broken-vs-not-yet-good), which complicates declaring and closing them.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.0051578497377282925,
+      "title": "ML Outage Boundary Ambiguity"
+    },
+    {
+      "concept_id": "ml-outage-visibility-gap",
+      "description": "ML quality outages are often detected by end users before monitoring, and can stay invisible in aggregate metrics when only a narrow slice of users is affected.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.006652834411117064,
+      "title": "ML Outage Visibility Gap"
+    },
+    {
+      "concept_id": "ml-pre-negotiated-outage-thresholds",
+      "description": "Agreeing in advance \u2014 not during a live incident \u2014 on numeric reliability thresholds, escalation triggers, and decision authority for a continuous ML system, so responders can act with minimum decision latency.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.006865179903365274,
+      "title": "ML Pre-Negotiated Outage Thresholds"
+    },
+    {
+      "concept_id": "ml-product-leader-incident-boundaries",
+      "description": "A business or product leader's legitimate role during an ML incident is to be informed and to supply business-impact context, not to lead \u2014 their instinct to take charge is the main risk to manage.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0016103059581320453,
+      "title": "Product Leader Incident Boundaries"
+    },
+    {
+      "concept_id": "ml-rollback-limits-in-a-changing-world",
+      "description": "Rolling back to an older model or software version doesn't fully mitigate ML outages the way it does for conventional services, because the model's job is tracking a world that keeps moving even while the outage is being fixed.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.008297220302148309,
+      "title": "ML Rollback Limits in a Changing World"
+    },
+    {
+      "concept_id": "ml-software-engineer-incident-role",
+      "description": "How the engineer who builds the glue code around ML pieces should prepare to be a rarely-paged escalation point rather than a routine incident participant.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.016695227836031428,
+      "title": "Software Engineer Incident Responsibilities (ML Systems)"
+    },
+    {
+      "concept_id": "ml-sre-required-expertise-scope",
+      "description": "What an ML production engineer actually needs to know to be effective on call \u2014 the flow and relationships between the systems that build a model \u2014 rather than modeling expertise itself, which most ML SREs at scale never need.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0016103059581320453,
+      "title": "ML SRE Required Expertise Scope"
+    },
+    {
+      "concept_id": "ml-sre-whole-system-triage",
+      "description": "The habit an ML production engineer needs during triage \u2014 assuming the fault lies outside the component where it manifests \u2014 because ML outages are seldom caused by the system or metric where they show up.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0016103059581320453,
+      "title": "ML SRE Whole-System Triage Habit"
+    },
+    {
+      "concept_id": "model-staleness-as-silent-outage",
+      "description": "A model-training pipeline can fail in a way that produces no error at all, only a model that silently stops updating, so incident readiness needs a direct check on model age rather than trusting pipeline health signals.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0016103059581320453,
+      "title": "Model Staleness as a Silent Outage"
+    },
+    {
+      "concept_id": "mttr-over-mtbf-optimization",
+      "description": "A resilience strategy shift, enabled by cheap and fast infrastructure change, from optimizing to prevent failure (MTBF) toward optimizing to detect and recover from it quickly (MTTR).",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0016103059581320453,
+      "title": "MTTR-over-MTBF Optimization"
+    },
+    {
+      "concept_id": "operational-overload-recovery",
+      "description": "Diagnosing and recovering from a team that can no longer make progress on its own priorities because interrupt work continually preempts it, including the distinct but equally real case of perceived overload.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.0062667734403666076,
+      "title": "Operational Overload Recovery"
+    },
+    {
+      "concept_id": "outage-tracking-metrics",
+      "description": "A standard set of timing and impact measures \u2014 detection, mitigation, resolution, and user-impact minutes \u2014 used to compare incidents and find systemic trends across many of them.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.009630764679705878,
+      "title": "Outage Tracking Metrics"
+    },
+    {
+      "concept_id": "pager-load-management",
+      "description": "Treating the volume of paging incidents per on-call shift as a measurable quantity to be actively reduced, not an inevitable cost of running a service.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 3,
+      "pagerank": 0.01202159759288358,
+      "title": "Pager Load Management"
+    },
+    {
+      "concept_id": "peacetime-wartime-mode-shift",
+      "description": "Framing incident response as a deliberate switch from consensus-seeking steady-state operation to time-optimized command, and the mindset shift that switch requires of responders.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0024005811367681772,
+      "title": "Peacetime/Wartime Mode Shift"
+    },
+    {
+      "concept_id": "plan-continuation-bias",
+      "description": "The cognitive bias where operators continue with an original plan of action despite changing conditions that suggest the plan is no longer viable.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.003042930302680256,
+      "title": "Plan Continuation Bias"
+    },
+    {
+      "concept_id": "playbooks-layer-business-context",
+      "description": "What distinguishes a playbook from plain developer documentation \u2014 notification and verification steps that bracket the technical procedure, contributed jointly by operational and technical experts.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.003135178630451386,
+      "title": "Playbooks Layer Business Context on Top of Technical Steps"
+    },
+    {
+      "concept_id": "practical-drift",
+      "description": "The slow, incremental departure of real-world operations from official procedures and design assumptions, driven by production pressures and lack of accidents.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.035951074574861894,
+      "title": "Practical Drift"
+    },
+    {
+      "concept_id": "preparedness-drills",
+      "description": "Scheduled simulations used to practice incident response, test emergency procedures, and build operational muscle memory.",
+      "inbound_link_count": 15,
+      "outbound_link_count": 3,
+      "pagerank": 0.03237347304319768,
+      "title": "Preparedness Drills"
+    },
+    {
+      "concept_id": "procedural-heroism",
+      "description": "Redefining heroism in high-stakes response as disciplined adherence to procedure and reliance on a team, not solo improvisation.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.003135178630451386,
+      "title": "Procedural Heroism"
+    },
+    {
+      "concept_id": "rasmussen-safety-boundary-model",
+      "description": "Jens Rasmussen's model of a system operating within three invisible boundaries \u2014 acceptable performance, economic failure, and unacceptable workload \u2014 that organizational pressure constantly pushes it toward.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.011017578920954117,
+      "title": "Rasmussen's Safety Boundary Model"
+    },
+    {
+      "concept_id": "recognition-primed-decision-model",
+      "description": "How experienced responders under time pressure evaluate options one at a time against the first workable fit, rather than comparing multiple options against each other.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.003187810074066489,
+      "title": "Recognition-Primed Decision Model"
+    },
+    {
+      "concept_id": "recovery-point-objective-in-continuously-adapting-systems",
+      "description": "Recovery time objective (RTO) still applies to ML incidents, but recovery point objective (RPO) mostly doesn't, because a continuously adapting system's only meaningful restore target is \"now,\" which keeps moving.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.003961185043767829,
+      "title": "Recovery Point Objective in Continuously Adapting Systems"
+    },
+    {
+      "concept_id": "repeated-intervention-can-extend-incidents",
+      "description": "Each well-intentioned mitigation attempt during a self-correcting anomaly can independently re-trigger the same failure mechanism, extending the incident further than restraint would have.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0026408622788544416,
+      "title": "Repeated Intervention Can Extend Incidents"
+    },
+    {
+      "concept_id": "responder-behavior-patterns",
+      "description": "A field guide of recurring, non-clinical behavior patterns an incident commander encounters in responders, each paired with a tactic for keeping the response on track.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0038805341312039923,
+      "title": "Responder Behavior Patterns"
+    },
+    {
+      "concept_id": "restorative-just-culture",
+      "description": "A culture that balances safety, learning, and accountability by focusing on healing, repair, and forward-looking responsibility rather than retribution.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.008090794788526567,
+      "title": "Restorative Just Culture"
+    },
+    {
+      "concept_id": "root-cause-fallacy",
+      "description": "The misconception that complex system failures can be traced back to a single, identifiable root cause.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.01354586904337058,
+      "title": "The Root Cause Fallacy"
+    },
+    {
+      "concept_id": "runbooks-and-checklists",
+      "description": "Operational tools designed to reduce cognitive load, enforce discipline, and guide incident response under stress.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 9,
+      "pagerank": 0.01614571011766793,
+      "title": "Runbooks and Checklists"
+    },
+    {
+      "concept_id": "safety-bureaucracy",
+      "description": "The structural pathologies resulting from compliance-driven safety programs that focus on liability management over operational safety.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.019161318577852696,
+      "title": "Safety Bureaucracy"
+    },
+    {
+      "concept_id": "safety-i-vs-safety-ii",
+      "description": "The paradigm shift from defining safety as the absence of negative events (Safety-I) to defining it as the presence of capacities to succeed (Safety-II).",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0037201667134382915,
+      "title": "Safety-I vs. Safety-II"
+    },
+    {
+      "concept_id": "sharp-end-vs-blunt-end",
+      "description": "The distinction between practitioners who directly interact with a safety-critical process (sharp end) and the organizational layers that shape their constraints (blunt end).",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0016103059581320453,
+      "title": "Sharp End vs. Blunt End"
+    },
+    {
+      "concept_id": "sme-conduct-during-incidents",
+      "description": "The expected behaviors a subject-matter expert follows when joining an incident response, so the incident commander can integrate them without wasted time.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.004159116333690317,
+      "title": "SME Conduct During Incidents"
+    },
+    {
+      "concept_id": "span-of-control",
+      "description": "The practical limit \u2014 roughly 5 to 7 people \u2014 on how many responders one person can effectively manage during an incident, and how to preserve it as an incident grows.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 5,
+      "pagerank": 0.01806693140684761,
+      "title": "Span of Control"
+    },
+    {
+      "concept_id": "star-incident-action-plan",
+      "description": "A four-milestone structure \u2014 Size up, Triage, Act, Review \u2014 for building and executing an incident action plan under time pressure.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 6,
+      "pagerank": 0.011920984091593907,
+      "title": "STAR Incident Action Plan"
+    },
+    {
+      "concept_id": "stress-effects-on-decision-quality",
+      "description": "What time pressure and emotional shocks actually do to decision quality, and why recognition-based expertise and advance precommitment are the effective countermeasures.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 6,
+      "pagerank": 0.0016103059581320453,
+      "title": "Stress Effects on Decision Quality"
+    },
+    {
+      "concept_id": "survivorship-bias-in-safety",
+      "description": "The bias of studying only reported incidents (survivable failures) while remaining blind to the unrecorded adaptations of normal work where catastrophic risk incubates.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.028872186909610662,
+      "title": "Survivorship Bias in Safety"
+    },
+    {
+      "concept_id": "sustainable-on-call-design",
+      "description": "Principles for structuring on-call rotations to balance system reliability with engineer health, well-being, and operational sustainability.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0038846518819903677,
+      "title": "Sustainable On-Call Design"
+    },
+    {
+      "concept_id": "talent-diagnostic-framework",
+      "description": "A six-dimension checklist \u2014 Training, Accountability, Leadership, Empowerment, Notification, Trust \u2014 for locating why a people-side failure happened during an incident response.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 6,
+      "pagerank": 0.005578412822410098,
+      "title": "TALENT Diagnostic Framework"
+    },
+    {
+      "concept_id": "team-mind-and-shared-understanding",
+      "description": "Treating a response team as a cognitive unit with its own working memory, attention, and blind spots, and the specific failure where one member's correct knowledge never reaches the group.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 6,
+      "pagerank": 0.0016103059581320453,
+      "title": "Team Mind and Shared Understanding"
+    },
+    {
+      "concept_id": "transfer-of-command",
+      "description": "The protocol for handing the incident commander role (or any other function) to another qualified responder mid-incident without losing continuity.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.005137937849226794,
+      "title": "Transfer of Command"
+    },
+    {
+      "concept_id": "unified-command",
+      "description": "A meta layer above single-team incident command that lets multiple business units converge on one incident action plan when an incident's impact or decision needs cross organizational boundaries.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 5,
+      "pagerank": 0.013903731933948744,
+      "title": "Unified Command"
+    },
+    {
+      "concept_id": "westrum-organizational-culture-typology",
+      "description": "Ron Westrum's three-way classification of organizations by how they handle information flow and failure, used to explain why some cultures sustain blameless learning and others don't.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.009202275647456052,
+      "title": "Westrum Organizational Culture Typology"
+    },
+    {
+      "concept_id": "work-as-imagined-vs-work-as-done",
+      "description": "The gap between how planners assume work is performed through procedures (work-as-imagined) and how work is actually executed under real-world constraints (work-as-done).",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.03172561345900013,
+      "title": "Work-as-Imagined vs. Work-as-Done"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "accident-models",
+      "source_path": "accident-models.md",
+      "target": "practical-drift.md",
+      "target_concept_id": "practical-drift",
+      "target_path": "practical-drift.md",
+      "text": "practical drift",
+      "title": null
+    },
+    {
+      "source_concept_id": "accident-models",
+      "source_path": "accident-models.md",
+      "target": "rasmussen-safety-boundary-model.md",
+      "target_concept_id": "rasmussen-safety-boundary-model",
+      "target_path": "rasmussen-safety-boundary-model.md",
+      "text": "Rasmussen's safety boundary model",
+      "title": null
+    },
+    {
+      "source_concept_id": "accident-models",
+      "source_path": "accident-models.md",
+      "target": "safety-i-vs-safety-ii.md",
+      "target_concept_id": "safety-i-vs-safety-ii",
+      "target_path": "safety-i-vs-safety-ii.md",
+      "text": "safety-I vs safety-II",
+      "title": null
+    },
+    {
+      "source_concept_id": "action-item-quality",
+      "source_path": "action-item-quality.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortems",
+      "title": null
+    },
+    {
+      "source_concept_id": "action-item-quality",
+      "source_path": "action-item-quality.md",
+      "target": "learning-reviews.md",
+      "target_concept_id": "learning-reviews",
+      "target_path": "learning-reviews.md",
+      "text": "learning reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "after-action-review",
+      "source_path": "after-action-review.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortems",
+      "title": null
+    },
+    {
+      "source_concept_id": "after-action-review",
+      "source_path": "after-action-review.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commandsystem",
+      "title": null
+    },
+    {
+      "source_concept_id": "after-action-review",
+      "source_path": "after-action-review.md",
+      "target": "learning-reviews.md",
+      "target_concept_id": "learning-reviews",
+      "target_path": "learning-reviews.md",
+      "text": "learningreviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "after-action-review",
+      "source_path": "after-action-review.md",
+      "target": "mean-time-to-assemble.md",
+      "target_concept_id": "mean-time-to-assemble",
+      "target_path": "mean-time-to-assemble.md",
+      "text": "mean time to assemble",
+      "title": null
+    },
+    {
+      "source_concept_id": "after-action-review",
+      "source_path": "after-action-review.md",
+      "target": "talent-diagnostic-framework.md",
+      "target_concept_id": "talent-diagnostic-framework",
+      "target_path": "talent-diagnostic-framework.md",
+      "text": "TALENT diagnostic framework",
+      "title": null
+    },
+    {
+      "source_concept_id": "andon-cord-and-swarming",
+      "source_path": "andon-cord-and-swarming.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless",
+      "title": null
+    },
+    {
+      "source_concept_id": "andon-cord-and-swarming",
+      "source_path": "andon-cord-and-swarming.md",
+      "target": "early-incident-declaration.md",
+      "target_concept_id": "early-incident-declaration",
+      "target_path": "early-incident-declaration.md",
+      "text": "declared incident",
+      "title": null
+    },
+    {
+      "source_concept_id": "andon-cord-and-swarming",
+      "source_path": "andon-cord-and-swarming.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident command system",
+      "title": null
+    },
+    {
+      "source_concept_id": "blameless-postmortems",
+      "source_path": "blameless-postmortems.md",
+      "target": "action-item-quality.md",
+      "target_concept_id": "action-item-quality",
+      "target_path": "action-item-quality.md",
+      "text": "action item quality",
+      "title": null
+    },
+    {
+      "source_concept_id": "blameless-postmortems",
+      "source_path": "blameless-postmortems.md",
+      "target": "action-item-quality.md",
+      "target_concept_id": "action-item-quality",
+      "target_path": "action-item-quality.md",
+      "text": "action-item quality",
+      "title": null
+    },
+    {
+      "source_concept_id": "blameless-postmortems",
+      "source_path": "blameless-postmortems.md",
+      "target": "after-action-review.md",
+      "target_concept_id": "after-action-review",
+      "target_path": "after-action-review.md",
+      "text": "After Action Review",
+      "title": null
+    },
+    {
+      "source_concept_id": "blameless-postmortems",
+      "source_path": "blameless-postmortems.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "Plansgroup",
+      "title": null
+    },
+    {
+      "source_concept_id": "blameless-postmortems",
+      "source_path": "blameless-postmortems.md",
+      "target": "local-rationality-principle.md",
+      "target_concept_id": "local-rationality-principle",
+      "target_path": "local-rationality-principle.md",
+      "text": "local rationality principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "blameless-postmortems",
+      "source_path": "blameless-postmortems.md",
+      "target": "outage-tracking-metrics.md",
+      "target_concept_id": "outage-tracking-metrics",
+      "target_path": "outage-tracking-metrics.md",
+      "text": "outage tracking metrics",
+      "title": null
+    },
+    {
+      "source_concept_id": "blameless-postmortems",
+      "source_path": "blameless-postmortems.md",
+      "target": "root-cause-fallacy.md",
+      "target_concept_id": "root-cause-fallacy",
+      "target_path": "root-cause-fallacy.md",
+      "text": "root cause fallacy",
+      "title": null
+    },
+    {
+      "source_concept_id": "blameless-postmortems",
+      "source_path": "blameless-postmortems.md",
+      "target": "westrum-organizational-culture-typology.md",
+      "target_concept_id": "westrum-organizational-culture-typology",
+      "target_path": "westrum-organizational-culture-typology.md",
+      "text": "Westrum organizational culture typology",
+      "title": null
+    },
+    {
+      "source_concept_id": "burnout-risk-factors",
+      "source_path": "burnout-risk-factors.md",
+      "target": "pager-load-management.md",
+      "target_concept_id": "pager-load-management",
+      "target_path": "pager-load-management.md",
+      "text": "pager load",
+      "title": null
+    },
+    {
+      "source_concept_id": "burnout-risk-factors",
+      "source_path": "burnout-risk-factors.md",
+      "target": "sustainable-on-call-design.md",
+      "target_concept_id": "sustainable-on-call-design",
+      "target_path": "sustainable-on-call-design.md",
+      "text": "sustainable on-call design",
+      "title": null
+    },
+    {
+      "source_concept_id": "can-report",
+      "source_path": "can-report.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommander",
+      "title": null
+    },
+    {
+      "source_concept_id": "can-report",
+      "source_path": "can-report.md",
+      "target": "liaison-officer-role.md",
+      "target_concept_id": "liaison-officer-role",
+      "target_path": "liaison-officer-role.md",
+      "text": "liaison officer",
+      "title": null
+    },
+    {
+      "source_concept_id": "can-report",
+      "source_path": "can-report.md",
+      "target": "star-incident-action-plan.md",
+      "target_concept_id": "star-incident-action-plan",
+      "target_path": "star-incident-action-plan.md",
+      "text": "STAR's Reviewstep",
+      "title": null
+    },
+    {
+      "source_concept_id": "can-report",
+      "source_path": "can-report.md",
+      "target": "unified-command.md",
+      "target_concept_id": "unified-command",
+      "target_path": "unified-command.md",
+      "text": "UnifiedCommand Planning Wheel",
+      "title": null
+    },
+    {
+      "source_concept_id": "chaos-engineering-experiment-design",
+      "source_path": "chaos-engineering-experiment-design.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparedness drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "checklist-design-rules",
+      "source_path": "checklist-design-rules.md",
+      "target": "runbooks-and-checklists.md",
+      "target_concept_id": "runbooks-and-checklists",
+      "target_path": "runbooks-and-checklists.md",
+      "text": "runbook or checklist",
+      "title": null
+    },
+    {
+      "source_concept_id": "chronic-unease",
+      "source_path": "chronic-unease.md",
+      "target": "practical-drift.md",
+      "target_concept_id": "practical-drift",
+      "target_path": "practical-drift.md",
+      "text": "practical drift",
+      "title": null
+    },
+    {
+      "source_concept_id": "chronic-unease",
+      "source_path": "chronic-unease.md",
+      "target": "survivorship-bias-in-safety.md",
+      "target_concept_id": "survivorship-bias-in-safety",
+      "target_path": "survivorship-bias-in-safety.md",
+      "text": "survivorship bias in safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "command-presence",
+      "source_path": "command-presence.md",
+      "target": "incident-bridge-communication-patterns.md",
+      "target_concept_id": "incident-bridge-communication-patterns",
+      "target_path": "incident-bridge-communication-patterns.md",
+      "text": "seeking support, notconsensus",
+      "title": null
+    },
+    {
+      "source_concept_id": "command-presence",
+      "source_path": "command-presence.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident command system",
+      "title": null
+    },
+    {
+      "source_concept_id": "command-presence",
+      "source_path": "command-presence.md",
+      "target": "sme-conduct-during-incidents.md",
+      "target_concept_id": "sme-conduct-during-incidents",
+      "target_path": "sme-conduct-during-incidents.md",
+      "text": "subjectmatter expert",
+      "title": null
+    },
+    {
+      "source_concept_id": "command-presence",
+      "source_path": "command-presence.md",
+      "target": "star-incident-action-plan.md",
+      "target_concept_id": "star-incident-action-plan",
+      "target_path": "star-incident-action-plan.md",
+      "text": "STAR",
+      "title": null
+    },
+    {
+      "source_concept_id": "communicating-intent",
+      "source_path": "communicating-intent.md",
+      "target": "can-report.md",
+      "target_concept_id": "can-report",
+      "target_path": "can-report.md",
+      "text": "CAN report",
+      "title": null
+    },
+    {
+      "source_concept_id": "communicating-intent",
+      "source_path": "communicating-intent.md",
+      "target": "sme-conduct-during-incidents.md",
+      "target_concept_id": "sme-conduct-during-incidents",
+      "target_path": "sme-conduct-during-incidents.md",
+      "text": "SME",
+      "title": null
+    },
+    {
+      "source_concept_id": "communicating-intent",
+      "source_path": "communicating-intent.md",
+      "target": "star-incident-action-plan.md",
+      "target_concept_id": "star-incident-action-plan",
+      "target_path": "star-incident-action-plan.md",
+      "text": "incidentaction plan",
+      "title": null
+    },
+    {
+      "source_concept_id": "compounding-probability-in-contingency-plans",
+      "source_path": "compounding-probability-in-contingency-plans.md",
+      "target": "star-incident-action-plan.md",
+      "target_concept_id": "star-incident-action-plan",
+      "target_path": "star-incident-action-plan.md",
+      "text": "incident actionplan",
+      "title": null
+    },
+    {
+      "source_concept_id": "corrupted-validation-can-mask-incidents",
+      "source_path": "corrupted-validation-can-mask-incidents.md",
+      "target": "cross-team-blind-spots-in-incident-diagnosis.md",
+      "target_concept_id": "cross-team-blind-spots-in-incident-diagnosis",
+      "target_path": "cross-team-blind-spots-in-incident-diagnosis.md",
+      "text": "cross-team blind spots inincident diagnosis",
+      "title": null
+    },
+    {
+      "source_concept_id": "corrupted-validation-can-mask-incidents",
+      "source_path": "corrupted-validation-can-mask-incidents.md",
+      "target": "ml-pre-negotiated-outage-thresholds.md",
+      "target_concept_id": "ml-pre-negotiated-outage-thresholds",
+      "target_path": "ml-pre-negotiated-outage-thresholds.md",
+      "text": "ML pre-negotiated outagethresholds",
+      "title": null
+    },
+    {
+      "source_concept_id": "crew-resource-management",
+      "source_path": "crew-resource-management.md",
+      "target": "chronic-unease.md",
+      "target_concept_id": "chronic-unease",
+      "target_path": "chronic-unease.md",
+      "text": "chronic unease",
+      "title": null
+    },
+    {
+      "source_concept_id": "crew-resource-management",
+      "source_path": "crew-resource-management.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commander",
+      "title": null
+    },
+    {
+      "source_concept_id": "crew-resource-management",
+      "source_path": "crew-resource-management.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparednessdrills",
+      "title": null
+    },
+    {
+      "source_concept_id": "crew-resource-management",
+      "source_path": "crew-resource-management.md",
+      "target": "runbooks-and-checklists.md",
+      "target_concept_id": "runbooks-and-checklists",
+      "target_path": "runbooks-and-checklists.md",
+      "text": "runbook",
+      "title": null
+    },
+    {
+      "source_concept_id": "cross-team-blind-spots-in-incident-diagnosis",
+      "source_path": "cross-team-blind-spots-in-incident-diagnosis.md",
+      "target": "corrupted-validation-can-mask-incidents.md",
+      "target_concept_id": "corrupted-validation-can-mask-incidents",
+      "target_path": "corrupted-validation-can-mask-incidents.md",
+      "text": "corruptedvalidation can mask incidents",
+      "title": null
+    },
+    {
+      "source_concept_id": "cross-team-blind-spots-in-incident-diagnosis",
+      "source_path": "cross-team-blind-spots-in-incident-diagnosis.md",
+      "target": "ml-incident-organizational-breadth.md",
+      "target_concept_id": "ml-incident-organizational-breadth",
+      "target_path": "ml-incident-organizational-breadth.md",
+      "text": "ML incident organizationalbreadth",
+      "title": null
+    },
+    {
+      "source_concept_id": "cross-team-blind-spots-in-incident-diagnosis",
+      "source_path": "cross-team-blind-spots-in-incident-diagnosis.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparedness drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "cross-team-blind-spots-in-incident-diagnosis",
+      "source_path": "cross-team-blind-spots-in-incident-diagnosis.md",
+      "target": "repeated-intervention-can-extend-incidents.md",
+      "target_concept_id": "repeated-intervention-can-extend-incidents",
+      "target_path": "repeated-intervention-can-extend-incidents.md",
+      "text": "repeated intervention can extendincidents",
+      "title": null
+    },
+    {
+      "source_concept_id": "crystal-ball-technique",
+      "source_path": "crystal-ball-technique.md",
+      "target": "plan-continuation-bias.md",
+      "target_concept_id": "plan-continuation-bias",
+      "target_path": "plan-continuation-bias.md",
+      "text": "garden pathfallacy",
+      "title": null
+    },
+    {
+      "source_concept_id": "crystal-ball-technique",
+      "source_path": "crystal-ball-technique.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparednesswork",
+      "title": null
+    },
+    {
+      "source_concept_id": "data-availability-vs-observability",
+      "source_path": "data-availability-vs-observability.md",
+      "target": "local-rationality-principle.md",
+      "target_concept_id": "local-rationality-principle",
+      "target_path": "local-rationality-principle.md",
+      "text": "local rationality principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "decentralized-crisis-response",
+      "source_path": "decentralized-crisis-response.md",
+      "target": "chronic-unease.md",
+      "target_concept_id": "chronic-unease",
+      "target_path": "chronic-unease.md",
+      "text": "chronic unease",
+      "title": null
+    },
+    {
+      "source_concept_id": "decentralized-crisis-response",
+      "source_path": "decentralized-crisis-response.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "Three Cs",
+      "title": null
+    },
+    {
+      "source_concept_id": "decentralized-crisis-response",
+      "source_path": "decentralized-crisis-response.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commandsystem",
+      "title": null
+    },
+    {
+      "source_concept_id": "decontextualization-traps",
+      "source_path": "decontextualization-traps.md",
+      "target": "learning-reviews.md",
+      "target_concept_id": "learning-reviews",
+      "target_path": "learning-reviews.md",
+      "text": "learning reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "decontextualization-traps",
+      "source_path": "decontextualization-traps.md",
+      "target": "local-rationality-principle.md",
+      "target_concept_id": "local-rationality-principle",
+      "target_path": "local-rationality-principle.md",
+      "text": "local rationality principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "disaster-risk-assessment-matrix",
+      "source_path": "disaster-risk-assessment-matrix.md",
+      "target": "failure-scenario-mapping-workshop.md",
+      "target_concept_id": "failure-scenario-mapping-workshop",
+      "target_path": "failure-scenario-mapping-workshop.md",
+      "text": "failure scenario mappingworkshop",
+      "title": null
+    },
+    {
+      "source_concept_id": "disaster-risk-assessment-matrix",
+      "source_path": "disaster-risk-assessment-matrix.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparednessdrills",
+      "title": null
+    },
+    {
+      "source_concept_id": "disaster-risk-assessment-matrix",
+      "source_path": "disaster-risk-assessment-matrix.md",
+      "target": "safety-bureaucracy.md",
+      "target_concept_id": "safety-bureaucracy",
+      "target_path": "safety-bureaucracy.md",
+      "text": "safetybureaucracy",
+      "title": null
+    },
+    {
+      "source_concept_id": "dispatch-vs-notification",
+      "source_path": "dispatch-vs-notification.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commander's",
+      "title": null
+    },
+    {
+      "source_concept_id": "dispatch-vs-notification",
+      "source_path": "dispatch-vs-notification.md",
+      "target": "incident-response-lifecycle.md",
+      "target_concept_id": "incident-response-lifecycle",
+      "target_path": "incident-response-lifecycle.md",
+      "text": "incident responselifecycle",
+      "title": null
+    },
+    {
+      "source_concept_id": "dispatch-vs-notification",
+      "source_path": "dispatch-vs-notification.md",
+      "target": "mean-time-to-assemble.md",
+      "target_concept_id": "mean-time-to-assemble",
+      "target_path": "mean-time-to-assemble.md",
+      "text": "mean time toassemble",
+      "title": null
+    },
+    {
+      "source_concept_id": "dual-data-copy-divergence-risk",
+      "source_path": "dual-data-copy-divergence-risk.md",
+      "target": "cross-team-blind-spots-in-incident-diagnosis.md",
+      "target_concept_id": "cross-team-blind-spots-in-incident-diagnosis",
+      "target_path": "cross-team-blind-spots-in-incident-diagnosis.md",
+      "text": "dependency owners rarely know to checkfor",
+      "title": null
+    },
+    {
+      "source_concept_id": "early-incident-declaration",
+      "source_path": "early-incident-declaration.md",
+      "target": "andon-cord-and-swarming.md",
+      "target_concept_id": "andon-cord-and-swarming",
+      "target_path": "andon-cord-and-swarming.md",
+      "text": "swarming",
+      "title": null
+    },
+    {
+      "source_concept_id": "early-incident-declaration",
+      "source_path": "early-incident-declaration.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident command system",
+      "title": null
+    },
+    {
+      "source_concept_id": "early-incident-declaration",
+      "source_path": "early-incident-declaration.md",
+      "target": "incident-severity-classification.md",
+      "target_concept_id": "incident-severity-classification",
+      "target_path": "incident-severity-classification.md",
+      "text": "incident severity classification",
+      "title": null
+    },
+    {
+      "source_concept_id": "emergency-response-triage",
+      "source_path": "emergency-response-triage.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortems",
+      "title": null
+    },
+    {
+      "source_concept_id": "emergency-response-triage",
+      "source_path": "emergency-response-triage.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident command system",
+      "title": null
+    },
+    {
+      "source_concept_id": "emergency-response-triage",
+      "source_path": "emergency-response-triage.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparedness drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "escalation-as-resource-request",
+      "source_path": "escalation-as-resource-request.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommander",
+      "title": null
+    },
+    {
+      "source_concept_id": "escalation-as-resource-request",
+      "source_path": "escalation-as-resource-request.md",
+      "target": "mean-time-to-assemble.md",
+      "target_concept_id": "mean-time-to-assemble",
+      "target_path": "mean-time-to-assemble.md",
+      "text": "mean time toassemble",
+      "title": null
+    },
+    {
+      "source_concept_id": "escalation-as-resource-request",
+      "source_path": "escalation-as-resource-request.md",
+      "target": "unified-command.md",
+      "target_concept_id": "unified-command",
+      "target_path": "unified-command.md",
+      "text": "Unified Command",
+      "title": null
+    },
+    {
+      "source_concept_id": "extended-all-hands-response-mode",
+      "source_path": "extended-all-hands-response-mode.md",
+      "target": "action-item-quality.md",
+      "target_concept_id": "action-item-quality",
+      "target_path": "action-item-quality.md",
+      "text": "action item quality",
+      "title": null
+    },
+    {
+      "source_concept_id": "extended-all-hands-response-mode",
+      "source_path": "extended-all-hands-response-mode.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident command system",
+      "title": null
+    },
+    {
+      "source_concept_id": "extended-all-hands-response-mode",
+      "source_path": "extended-all-hands-response-mode.md",
+      "target": "pager-load-management.md",
+      "target_concept_id": "pager-load-management",
+      "target_path": "pager-load-management.md",
+      "text": "pager load management",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-scenario-mapping-workshop",
+      "source_path": "failure-scenario-mapping-workshop.md",
+      "target": "chaos-engineering-experiment-design.md",
+      "target_concept_id": "chaos-engineering-experiment-design",
+      "target_path": "chaos-engineering-experiment-design.md",
+      "text": "chaos engineering experiment",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-scenario-mapping-workshop",
+      "source_path": "failure-scenario-mapping-workshop.md",
+      "target": "disaster-risk-assessment-matrix.md",
+      "target_concept_id": "disaster-risk-assessment-matrix",
+      "target_path": "disaster-risk-assessment-matrix.md",
+      "text": "disaster risk assessment matrix",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-scenario-mapping-workshop",
+      "source_path": "failure-scenario-mapping-workshop.md",
+      "target": "learning-reviews.md",
+      "target_concept_id": "learning-reviews",
+      "target_path": "learning-reviews.md",
+      "text": "learning reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "failure-scenario-mapping-workshop",
+      "source_path": "failure-scenario-mapping-workshop.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparedness drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "hindsight-and-outcome-biases",
+      "source_path": "hindsight-and-outcome-biases.md",
+      "target": "learning-reviews.md",
+      "target_concept_id": "learning-reviews",
+      "target_path": "learning-reviews.md",
+      "text": "learning reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "hindsight-and-outcome-biases",
+      "source_path": "hindsight-and-outcome-biases.md",
+      "target": "local-rationality-principle.md",
+      "target_concept_id": "local-rationality-principle",
+      "target_path": "local-rationality-principle.md",
+      "text": "local rationality principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "hindsight-and-outcome-biases",
+      "source_path": "hindsight-and-outcome-biases.md",
+      "target": "root-cause-fallacy.md",
+      "target_concept_id": "root-cause-fallacy",
+      "target_path": "root-cause-fallacy.md",
+      "text": "contributing factors",
+      "title": null
+    },
+    {
+      "source_concept_id": "human-error-as-symptom",
+      "source_path": "human-error-as-symptom.md",
+      "target": "local-rationality-principle.md",
+      "target_concept_id": "local-rationality-principle",
+      "target_path": "local-rationality-principle.md",
+      "text": "local rationality principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "human-error-as-symptom",
+      "source_path": "human-error-as-symptom.md",
+      "target": "restorative-just-culture.md",
+      "target_concept_id": "restorative-just-culture",
+      "target_path": "restorative-just-culture.md",
+      "text": "restorative just culture",
+      "title": null
+    },
+    {
+      "source_concept_id": "human-error-as-symptom",
+      "source_path": "human-error-as-symptom.md",
+      "target": "work-as-imagined-vs-work-as-done.md",
+      "target_concept_id": "work-as-imagined-vs-work-as-done",
+      "target_path": "work-as-imagined-vs-work-as-done.md",
+      "text": "work-as-imagined vs work-as-done",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-bridge-communication-patterns",
+      "source_path": "incident-bridge-communication-patterns.md",
+      "target": "can-report.md",
+      "target_concept_id": "can-report",
+      "target_path": "can-report.md",
+      "text": "CANreports",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-bridge-communication-patterns",
+      "source_path": "incident-bridge-communication-patterns.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "group leader",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-bridge-communication-patterns",
+      "source_path": "incident-bridge-communication-patterns.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommander",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-command-system",
+      "source_path": "incident-command-system.md",
+      "target": "after-action-review.md",
+      "target_concept_id": "after-action-review",
+      "target_path": "after-action-review.md",
+      "text": "after action review",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-command-system",
+      "source_path": "incident-command-system.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortem",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-command-system",
+      "source_path": "incident-command-system.md",
+      "target": "decentralized-crisis-response.md",
+      "target_concept_id": "decentralized-crisis-response",
+      "target_path": "decentralized-crisis-response.md",
+      "text": "decentralized crisis response",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-command-system",
+      "source_path": "incident-command-system.md",
+      "target": "early-incident-declaration.md",
+      "target_concept_id": "early-incident-declaration",
+      "target_path": "early-incident-declaration.md",
+      "text": "early incident declaration",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-command-system",
+      "source_path": "incident-command-system.md",
+      "target": "extended-all-hands-response-mode.md",
+      "target_concept_id": "extended-all-hands-response-mode",
+      "target_path": "extended-all-hands-response-mode.md",
+      "text": "extended \"all hands on deck\" response mode",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-command-system",
+      "source_path": "incident-command-system.md",
+      "target": "incident-state-document.md",
+      "target_concept_id": "incident-state-document",
+      "target_path": "incident-state-document.md",
+      "text": "incident state document",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-command-system",
+      "source_path": "incident-command-system.md",
+      "target": "liaison-officer-role.md",
+      "target_concept_id": "liaison-officer-role",
+      "target_path": "liaison-officer-role.md",
+      "text": "liaison officer role",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-command-system",
+      "source_path": "incident-command-system.md",
+      "target": "span-of-control.md",
+      "target_concept_id": "span-of-control",
+      "target_path": "span-of-control.md",
+      "text": "span of control",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-fatality-paradox",
+      "source_path": "incident-fatality-paradox.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortems",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-fatality-paradox",
+      "source_path": "incident-fatality-paradox.md",
+      "target": "survivorship-bias-in-safety.md",
+      "target_concept_id": "survivorship-bias-in-safety",
+      "target_path": "survivorship-bias-in-safety.md",
+      "text": "survivorship bias in safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-response-lifecycle",
+      "source_path": "incident-response-lifecycle.md",
+      "target": "after-action-review.md",
+      "target_concept_id": "after-action-review",
+      "target_path": "after-action-review.md",
+      "text": "after action review",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-response-lifecycle",
+      "source_path": "incident-response-lifecycle.md",
+      "target": "dispatch-vs-notification.md",
+      "target_concept_id": "dispatch-vs-notification",
+      "target_path": "dispatch-vs-notification.md",
+      "text": "event",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-response-lifecycle",
+      "source_path": "incident-response-lifecycle.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident command system",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-response-lifecycle",
+      "source_path": "incident-response-lifecycle.md",
+      "target": "incident-response-process-framework.md",
+      "target_concept_id": "incident-response-process-framework",
+      "target_path": "incident-response-process-framework.md",
+      "text": "incident response process framework",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-response-lifecycle",
+      "source_path": "incident-response-lifecycle.md",
+      "target": "mean-time-to-assemble.md",
+      "target_concept_id": "mean-time-to-assemble",
+      "target_path": "mean-time-to-assemble.md",
+      "text": "mean time toassemble",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-response-process-framework",
+      "source_path": "incident-response-process-framework.md",
+      "target": "after-action-review.md",
+      "target_concept_id": "after-action-review",
+      "target_path": "after-action-review.md",
+      "text": "after actionreview",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-response-process-framework",
+      "source_path": "incident-response-process-framework.md",
+      "target": "dispatch-vs-notification.md",
+      "target_concept_id": "dispatch-vs-notification",
+      "target_path": "dispatch-vs-notification.md",
+      "text": "spray and pray",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-response-process-framework",
+      "source_path": "incident-response-process-framework.md",
+      "target": "mean-time-to-assemble.md",
+      "target_concept_id": "mean-time-to-assemble",
+      "target_path": "mean-time-to-assemble.md",
+      "text": "mean time toassemble",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-severity-classification",
+      "source_path": "incident-severity-classification.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident command system",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-severity-classification",
+      "source_path": "incident-severity-classification.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommander",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-severity-classification",
+      "source_path": "incident-severity-classification.md",
+      "target": "pager-load-management.md",
+      "target_concept_id": "pager-load-management",
+      "target_path": "pager-load-management.md",
+      "text": "pager load management",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-severity-classification",
+      "source_path": "incident-severity-classification.md",
+      "target": "star-incident-action-plan.md",
+      "target_concept_id": "star-incident-action-plan",
+      "target_path": "star-incident-action-plan.md",
+      "text": "STARincident action plan",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-state-document",
+      "source_path": "incident-state-document.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortem",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-state-document",
+      "source_path": "incident-state-document.md",
+      "target": "emergency-response-triage.md",
+      "target_concept_id": "emergency-response-triage",
+      "target_path": "emergency-response-triage.md",
+      "text": "emergency response triage",
+      "title": null
+    },
+    {
+      "source_concept_id": "incident-state-document",
+      "source_path": "incident-state-document.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commandsystem",
+      "title": null
+    },
+    {
+      "source_concept_id": "interrupt-shielding",
+      "source_path": "interrupt-shielding.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blamelesspostmortem",
+      "title": null
+    },
+    {
+      "source_concept_id": "interrupt-shielding",
+      "source_path": "interrupt-shielding.md",
+      "target": "operational-overload-recovery.md",
+      "target_concept_id": "operational-overload-recovery",
+      "target_path": "operational-overload-recovery.md",
+      "text": "operational overload recovery",
+      "title": null
+    },
+    {
+      "source_concept_id": "interrupt-shielding",
+      "source_path": "interrupt-shielding.md",
+      "target": "operational-overload-recovery.md",
+      "target_concept_id": "operational-overload-recovery",
+      "target_path": "operational-overload-recovery.md",
+      "text": "operationaloverload",
+      "title": null
+    },
+    {
+      "source_concept_id": "interrupt-shielding",
+      "source_path": "interrupt-shielding.md",
+      "target": "pager-load-management.md",
+      "target_concept_id": "pager-load-management",
+      "target_path": "pager-load-management.md",
+      "text": "pager load",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-reviews",
+      "source_path": "learning-reviews.md",
+      "target": "action-item-quality.md",
+      "target_concept_id": "action-item-quality",
+      "target_path": "action-item-quality.md",
+      "text": "action-item quality",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-reviews",
+      "source_path": "learning-reviews.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortems",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-reviews",
+      "source_path": "learning-reviews.md",
+      "target": "hindsight-and-outcome-biases.md",
+      "target_concept_id": "hindsight-and-outcome-biases",
+      "target_path": "hindsight-and-outcome-biases.md",
+      "text": "hindsight and outcome biases",
+      "title": null
+    },
+    {
+      "source_concept_id": "learning-reviews",
+      "source_path": "learning-reviews.md",
+      "target": "local-rationality-principle.md",
+      "target_concept_id": "local-rationality-principle",
+      "target_path": "local-rationality-principle.md",
+      "text": "local rationality principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "leverage-points-and-choke-points",
+      "source_path": "leverage-points-and-choke-points.md",
+      "target": "failure-scenario-mapping-workshop.md",
+      "target_concept_id": "failure-scenario-mapping-workshop",
+      "target_path": "failure-scenario-mapping-workshop.md",
+      "text": "failure scenario mapping",
+      "title": null
+    },
+    {
+      "source_concept_id": "leverage-points-and-choke-points",
+      "source_path": "leverage-points-and-choke-points.md",
+      "target": "recognition-primed-decision-model.md",
+      "target_concept_id": "recognition-primed-decision-model",
+      "target_path": "recognition-primed-decision-model.md",
+      "text": "recognition-primed decision making",
+      "title": null
+    },
+    {
+      "source_concept_id": "leverage-points-and-choke-points",
+      "source_path": "leverage-points-and-choke-points.md",
+      "target": "runbooks-and-checklists.md",
+      "target_concept_id": "runbooks-and-checklists",
+      "target_path": "runbooks-and-checklists.md",
+      "text": "runbooks and theirlimits",
+      "title": null
+    },
+    {
+      "source_concept_id": "liaison-officer-role",
+      "source_path": "liaison-officer-role.md",
+      "target": "can-report.md",
+      "target_concept_id": "can-report",
+      "target_path": "can-report.md",
+      "text": "CAN report",
+      "title": null
+    },
+    {
+      "source_concept_id": "liaison-officer-role",
+      "source_path": "liaison-officer-role.md",
+      "target": "command-presence.md",
+      "target_concept_id": "command-presence",
+      "target_path": "command-presence.md",
+      "text": "command presence",
+      "title": null
+    },
+    {
+      "source_concept_id": "liaison-officer-role",
+      "source_path": "liaison-officer-role.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommander",
+      "title": null
+    },
+    {
+      "source_concept_id": "liaison-officer-role",
+      "source_path": "liaison-officer-role.md",
+      "target": "span-of-control.md",
+      "target_concept_id": "span-of-control",
+      "target_path": "span-of-control.md",
+      "text": "span ofcontrol",
+      "title": null
+    },
+    {
+      "source_concept_id": "liaison-officer-role",
+      "source_path": "liaison-officer-role.md",
+      "target": "unified-command.md",
+      "target_concept_id": "unified-command",
+      "target_path": "unified-command.md",
+      "text": "Unified Command",
+      "title": null
+    },
+    {
+      "source_concept_id": "local-rationality-principle",
+      "source_path": "local-rationality-principle.md",
+      "target": "decontextualization-traps.md",
+      "target_concept_id": "decontextualization-traps",
+      "target_path": "decontextualization-traps.md",
+      "text": "decontextualization traps",
+      "title": null
+    },
+    {
+      "source_concept_id": "local-rationality-principle",
+      "source_path": "local-rationality-principle.md",
+      "target": "hindsight-and-outcome-biases.md",
+      "target_concept_id": "hindsight-and-outcome-biases",
+      "target_path": "hindsight-and-outcome-biases.md",
+      "text": "hindsight and outcome biases",
+      "title": null
+    },
+    {
+      "source_concept_id": "local-rationality-principle",
+      "source_path": "local-rationality-principle.md",
+      "target": "human-error-as-symptom.md",
+      "target_concept_id": "human-error-as-symptom",
+      "target_path": "human-error-as-symptom.md",
+      "text": "human error as a symptom",
+      "title": null
+    },
+    {
+      "source_concept_id": "mean-time-to-assemble",
+      "source_path": "mean-time-to-assemble.md",
+      "target": "dispatch-vs-notification.md",
+      "target_concept_id": "dispatch-vs-notification",
+      "target_path": "dispatch-vs-notification.md",
+      "text": "dispatch discipline",
+      "title": null
+    },
+    {
+      "source_concept_id": "mean-time-to-assemble",
+      "source_path": "mean-time-to-assemble.md",
+      "target": "incident-response-process-framework.md",
+      "target_concept_id": "incident-response-process-framework",
+      "target_path": "incident-response-process-framework.md",
+      "text": "incident response process framework",
+      "title": null
+    },
+    {
+      "source_concept_id": "mean-time-to-assemble",
+      "source_path": "mean-time-to-assemble.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparednessdrills",
+      "title": null
+    },
+    {
+      "source_concept_id": "mental-simulation-as-evaluation-tool",
+      "source_path": "mental-simulation-as-evaluation-tool.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "game day",
+      "title": null
+    },
+    {
+      "source_concept_id": "mental-simulation-as-evaluation-tool",
+      "source_path": "mental-simulation-as-evaluation-tool.md",
+      "target": "recognition-primed-decision-model.md",
+      "target_concept_id": "recognition-primed-decision-model",
+      "target_path": "recognition-primed-decision-model.md",
+      "text": "singularevaluation in the recognition-primed decisionmodel",
+      "title": null
+    },
+    {
+      "source_concept_id": "mental-simulation-as-evaluation-tool",
+      "source_path": "mental-simulation-as-evaluation-tool.md",
+      "target": "star-incident-action-plan.md",
+      "target_concept_id": "star-incident-action-plan",
+      "target_path": "star-incident-action-plan.md",
+      "text": "incident actionplan",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-crisis-response-options",
+      "source_path": "ml-crisis-response-options.md",
+      "target": "ml-pre-negotiated-outage-thresholds.md",
+      "target_concept_id": "ml-pre-negotiated-outage-thresholds",
+      "target_path": "ml-pre-negotiated-outage-thresholds.md",
+      "text": "ML pre-negotiated outage thresholds",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-crisis-response-options",
+      "source_path": "ml-crisis-response-options.md",
+      "target": "ml-rollback-limits-in-a-changing-world.md",
+      "target_concept_id": "ml-rollback-limits-in-a-changing-world",
+      "target_path": "ml-rollback-limits-in-a-changing-world.md",
+      "text": "ML rollback limits in a changingworld",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-crisis-response-options",
+      "source_path": "ml-crisis-response-options.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparedness drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-fairness-incident-recognition",
+      "source_path": "ml-fairness-incident-recognition.md",
+      "target": "ml-outage-visibility-gap.md",
+      "target_concept_id": "ml-outage-visibility-gap",
+      "target_path": "ml-outage-visibility-gap.md",
+      "text": "ML outage visibilitygap",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-anatomy-review-questions",
+      "source_path": "ml-incident-anatomy-review-questions.md",
+      "target": "action-item-quality.md",
+      "target_concept_id": "action-item-quality",
+      "target_path": "action-item-quality.md",
+      "text": "actionitem",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-anatomy-review-questions",
+      "source_path": "ml-incident-anatomy-review-questions.md",
+      "target": "after-action-review.md",
+      "target_concept_id": "after-action-review",
+      "target_path": "after-action-review.md",
+      "text": "after action review",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-anatomy-review-questions",
+      "source_path": "ml-incident-anatomy-review-questions.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortem",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-anatomy-review-questions",
+      "source_path": "ml-incident-anatomy-review-questions.md",
+      "target": "ml-incident-organizational-breadth.md",
+      "target_concept_id": "ml-incident-organizational-breadth",
+      "target_path": "ml-incident-organizational-breadth.md",
+      "text": "ML incident organizationalbreadth",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-anatomy-review-questions",
+      "source_path": "ml-incident-anatomy-review-questions.md",
+      "target": "ml-outage-boundary-ambiguity.md",
+      "target_concept_id": "ml-outage-boundary-ambiguity",
+      "target_path": "ml-outage-boundary-ambiguity.md",
+      "text": "ML outage boundary ambiguity",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-anatomy-review-questions",
+      "source_path": "ml-incident-anatomy-review-questions.md",
+      "target": "ml-outage-visibility-gap.md",
+      "target_concept_id": "ml-outage-visibility-gap",
+      "target_path": "ml-outage-visibility-gap.md",
+      "text": "ML outage visibility gap",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-data-access-privacy-risk",
+      "source_path": "ml-incident-data-access-privacy-risk.md",
+      "target": "ml-fairness-incident-recognition.md",
+      "target_concept_id": "ml-fairness-incident-recognition",
+      "target_path": "ml-fairness-incident-recognition.md",
+      "text": "ML fairness incidentrecognition",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-data-access-privacy-risk",
+      "source_path": "ml-incident-data-access-privacy-risk.md",
+      "target": "ml-incident-whistleblower-considerations.md",
+      "target_concept_id": "ml-incident-whistleblower-considerations",
+      "target_path": "ml-incident-whistleblower-considerations.md",
+      "text": "ML incidentwhistleblower considerations",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-data-access-privacy-risk",
+      "source_path": "ml-incident-data-access-privacy-risk.md",
+      "target": "ml-model-developer-incident-role.md",
+      "target_concept_id": "ml-model-developer-incident-role",
+      "target_path": "ml-model-developer-incident-role.md",
+      "text": "Model developers",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-organizational-breadth",
+      "source_path": "ml-incident-organizational-breadth.md",
+      "target": "escalation-as-resource-request.md",
+      "target_concept_id": "escalation-as-resource-request",
+      "target_path": "escalation-as-resource-request.md",
+      "text": "escalation",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-organizational-breadth",
+      "source_path": "ml-incident-organizational-breadth.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommand system",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-organizational-breadth",
+      "source_path": "ml-incident-organizational-breadth.md",
+      "target": "ml-outage-boundary-ambiguity.md",
+      "target_concept_id": "ml-outage-boundary-ambiguity",
+      "target_path": "ml-outage-boundary-ambiguity.md",
+      "text": "ML outage boundary ambiguity",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-organizational-breadth",
+      "source_path": "ml-incident-organizational-breadth.md",
+      "target": "ml-outage-visibility-gap.md",
+      "target_concept_id": "ml-outage-visibility-gap",
+      "target_path": "ml-outage-visibility-gap.md",
+      "text": "ML outage visibility gap",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-organizational-breadth",
+      "source_path": "ml-incident-organizational-breadth.md",
+      "target": "ml-rollback-limits-in-a-changing-world.md",
+      "target_concept_id": "ml-rollback-limits-in-a-changing-world",
+      "target_path": "ml-rollback-limits-in-a-changing-world.md",
+      "text": "ML rollback limits in a changingworld",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-whistleblower-considerations",
+      "source_path": "ml-incident-whistleblower-considerations.md",
+      "target": "ml-fairness-incident-recognition.md",
+      "target_concept_id": "ml-fairness-incident-recognition",
+      "target_path": "ml-fairness-incident-recognition.md",
+      "text": "ML fairness incident",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-incident-whistleblower-considerations",
+      "source_path": "ml-incident-whistleblower-considerations.md",
+      "target": "ml-pre-negotiated-outage-thresholds.md",
+      "target_concept_id": "ml-pre-negotiated-outage-thresholds",
+      "target_path": "ml-pre-negotiated-outage-thresholds.md",
+      "text": "ML pre-negotiated outagethresholds",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-model-developer-incident-role",
+      "source_path": "ml-model-developer-incident-role.md",
+      "target": "ml-software-engineer-incident-role.md",
+      "target_concept_id": "ml-software-engineer-incident-role",
+      "target_path": "ml-software-engineer-incident-role.md",
+      "text": "software engineer incidentresponsibilities",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-outage-boundary-ambiguity",
+      "source_path": "ml-outage-boundary-ambiguity.md",
+      "target": "early-incident-declaration.md",
+      "target_concept_id": "early-incident-declaration",
+      "target_path": "early-incident-declaration.md",
+      "text": "early incident declaration",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-outage-boundary-ambiguity",
+      "source_path": "ml-outage-boundary-ambiguity.md",
+      "target": "incident-severity-classification.md",
+      "target_concept_id": "incident-severity-classification",
+      "target_path": "incident-severity-classification.md",
+      "text": "incident severityclassification",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-outage-boundary-ambiguity",
+      "source_path": "ml-outage-boundary-ambiguity.md",
+      "target": "ml-incident-organizational-breadth.md",
+      "target_concept_id": "ml-incident-organizational-breadth",
+      "target_path": "ml-incident-organizational-breadth.md",
+      "text": "MLincident organizational breadth",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-outage-boundary-ambiguity",
+      "source_path": "ml-outage-boundary-ambiguity.md",
+      "target": "ml-outage-visibility-gap.md",
+      "target_concept_id": "ml-outage-visibility-gap",
+      "target_path": "ml-outage-visibility-gap.md",
+      "text": "ML outage visibility gap",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-outage-boundary-ambiguity",
+      "source_path": "ml-outage-boundary-ambiguity.md",
+      "target": "outage-tracking-metrics.md",
+      "target_concept_id": "outage-tracking-metrics",
+      "target_path": "outage-tracking-metrics.md",
+      "text": "outage tracking metrics",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-outage-visibility-gap",
+      "source_path": "ml-outage-visibility-gap.md",
+      "target": "incident-severity-classification.md",
+      "target_concept_id": "incident-severity-classification",
+      "target_path": "incident-severity-classification.md",
+      "text": "incident severityclassification",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-outage-visibility-gap",
+      "source_path": "ml-outage-visibility-gap.md",
+      "target": "ml-incident-organizational-breadth.md",
+      "target_concept_id": "ml-incident-organizational-breadth",
+      "target_path": "ml-incident-organizational-breadth.md",
+      "text": "ML incident organizational breadth",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-outage-visibility-gap",
+      "source_path": "ml-outage-visibility-gap.md",
+      "target": "ml-outage-boundary-ambiguity.md",
+      "target_concept_id": "ml-outage-boundary-ambiguity",
+      "target_path": "ml-outage-boundary-ambiguity.md",
+      "text": "ML outage boundary ambiguity",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-pre-negotiated-outage-thresholds",
+      "source_path": "ml-pre-negotiated-outage-thresholds.md",
+      "target": "escalation-as-resource-request.md",
+      "target_concept_id": "escalation-as-resource-request",
+      "target_path": "escalation-as-resource-request.md",
+      "text": "escalation as aresource request",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-pre-negotiated-outage-thresholds",
+      "source_path": "ml-pre-negotiated-outage-thresholds.md",
+      "target": "incident-severity-classification.md",
+      "target_concept_id": "incident-severity-classification",
+      "target_path": "incident-severity-classification.md",
+      "text": "incident severityclassification",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-pre-negotiated-outage-thresholds",
+      "source_path": "ml-pre-negotiated-outage-thresholds.md",
+      "target": "ml-crisis-response-options.md",
+      "target_concept_id": "ml-crisis-response-options",
+      "target_path": "ml-crisis-response-options.md",
+      "text": "MLcrisis response options",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-product-leader-incident-boundaries",
+      "source_path": "ml-product-leader-incident-boundaries.md",
+      "target": "command-presence.md",
+      "target_concept_id": "command-presence",
+      "target_path": "command-presence.md",
+      "text": "commandpresence",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-product-leader-incident-boundaries",
+      "source_path": "ml-product-leader-incident-boundaries.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commander's",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-product-leader-incident-boundaries",
+      "source_path": "ml-product-leader-incident-boundaries.md",
+      "target": "incident-state-document.md",
+      "target_concept_id": "incident-state-document",
+      "target_path": "incident-state-document.md",
+      "text": "incidentstate document",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-product-leader-incident-boundaries",
+      "source_path": "ml-product-leader-incident-boundaries.md",
+      "target": "sme-conduct-during-incidents.md",
+      "target_concept_id": "sme-conduct-during-incidents",
+      "target_path": "sme-conduct-during-incidents.md",
+      "text": "SME conduct duringincidents",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-rollback-limits-in-a-changing-world",
+      "source_path": "ml-rollback-limits-in-a-changing-world.md",
+      "target": "ml-crisis-response-options.md",
+      "target_concept_id": "ml-crisis-response-options",
+      "target_path": "ml-crisis-response-options.md",
+      "text": "ML crisis response options",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-rollback-limits-in-a-changing-world",
+      "source_path": "ml-rollback-limits-in-a-changing-world.md",
+      "target": "ml-incident-organizational-breadth.md",
+      "target_concept_id": "ml-incident-organizational-breadth",
+      "target_path": "ml-incident-organizational-breadth.md",
+      "text": "ML incident organizationalbreadth",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-rollback-limits-in-a-changing-world",
+      "source_path": "ml-rollback-limits-in-a-changing-world.md",
+      "target": "recovery-point-objective-in-continuously-adapting-systems.md",
+      "target_concept_id": "recovery-point-objective-in-continuously-adapting-systems",
+      "target_path": "recovery-point-objective-in-continuously-adapting-systems.md",
+      "text": "recovery point objective incontinuously adapting systems",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-software-engineer-incident-role",
+      "source_path": "ml-software-engineer-incident-role.md",
+      "target": "ml-model-developer-incident-role.md",
+      "target_concept_id": "ml-model-developer-incident-role",
+      "target_path": "ml-model-developer-incident-role.md",
+      "text": "model developer incidentresponsibilities",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-sre-required-expertise-scope",
+      "source_path": "ml-sre-required-expertise-scope.md",
+      "target": "ml-model-developer-incident-role.md",
+      "target_concept_id": "ml-model-developer-incident-role",
+      "target_path": "ml-model-developer-incident-role.md",
+      "text": "model developers",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-sre-required-expertise-scope",
+      "source_path": "ml-sre-required-expertise-scope.md",
+      "target": "ml-software-engineer-incident-role.md",
+      "target_concept_id": "ml-software-engineer-incident-role",
+      "target_path": "ml-software-engineer-incident-role.md",
+      "text": "software engineers",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-sre-whole-system-triage",
+      "source_path": "ml-sre-whole-system-triage.md",
+      "target": "action-item-quality.md",
+      "target_concept_id": "action-item-quality",
+      "target_path": "action-item-quality.md",
+      "text": "action item",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-sre-whole-system-triage",
+      "source_path": "ml-sre-whole-system-triage.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commandsystem",
+      "title": null
+    },
+    {
+      "source_concept_id": "ml-sre-whole-system-triage",
+      "source_path": "ml-sre-whole-system-triage.md",
+      "target": "ml-incident-organizational-breadth.md",
+      "target_concept_id": "ml-incident-organizational-breadth",
+      "target_path": "ml-incident-organizational-breadth.md",
+      "text": "ML incident organizationalbreadth",
+      "title": null
+    },
+    {
+      "source_concept_id": "model-staleness-as-silent-outage",
+      "source_path": "model-staleness-as-silent-outage.md",
+      "target": "ml-pre-negotiated-outage-thresholds.md",
+      "target_concept_id": "ml-pre-negotiated-outage-thresholds",
+      "target_path": "ml-pre-negotiated-outage-thresholds.md",
+      "text": "ML pre-negotiated outagethresholds",
+      "title": null
+    },
+    {
+      "source_concept_id": "mttr-over-mtbf-optimization",
+      "source_path": "mttr-over-mtbf-optimization.md",
+      "target": "chaos-engineering-experiment-design.md",
+      "target_concept_id": "chaos-engineering-experiment-design",
+      "target_path": "chaos-engineering-experiment-design.md",
+      "text": "chaos engineering experiment design",
+      "title": null
+    },
+    {
+      "source_concept_id": "mttr-over-mtbf-optimization",
+      "source_path": "mttr-over-mtbf-optimization.md",
+      "target": "outage-tracking-metrics.md",
+      "target_concept_id": "outage-tracking-metrics",
+      "target_path": "outage-tracking-metrics.md",
+      "text": "outage tracking metrics",
+      "title": null
+    },
+    {
+      "source_concept_id": "mttr-over-mtbf-optimization",
+      "source_path": "mttr-over-mtbf-optimization.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparedness drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "mttr-over-mtbf-optimization",
+      "source_path": "mttr-over-mtbf-optimization.md",
+      "target": "safety-i-vs-safety-ii.md",
+      "target_concept_id": "safety-i-vs-safety-ii",
+      "target_path": "safety-i-vs-safety-ii.md",
+      "text": "Safety-I vs. Safety-II",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-overload-recovery",
+      "source_path": "operational-overload-recovery.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blamelesspostmortem",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-overload-recovery",
+      "source_path": "operational-overload-recovery.md",
+      "target": "interrupt-shielding.md",
+      "target_concept_id": "interrupt-shielding",
+      "target_path": "interrupt-shielding.md",
+      "text": "interruptshielding",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-overload-recovery",
+      "source_path": "operational-overload-recovery.md",
+      "target": "pager-load-management.md",
+      "target_concept_id": "pager-load-management",
+      "target_path": "pager-load-management.md",
+      "text": "pager loadmanagement",
+      "title": null
+    },
+    {
+      "source_concept_id": "operational-overload-recovery",
+      "source_path": "operational-overload-recovery.md",
+      "target": "runbooks-and-checklists.md",
+      "target_concept_id": "runbooks-and-checklists",
+      "target_path": "runbooks-and-checklists.md",
+      "text": "runbooks",
+      "title": null
+    },
+    {
+      "source_concept_id": "outage-tracking-metrics",
+      "source_path": "outage-tracking-metrics.md",
+      "target": "action-item-quality.md",
+      "target_concept_id": "action-item-quality",
+      "target_path": "action-item-quality.md",
+      "text": "action item quality",
+      "title": null
+    },
+    {
+      "source_concept_id": "outage-tracking-metrics",
+      "source_path": "outage-tracking-metrics.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortems",
+      "title": null
+    },
+    {
+      "source_concept_id": "pager-load-management",
+      "source_path": "pager-load-management.md",
+      "target": "operational-overload-recovery.md",
+      "target_concept_id": "operational-overload-recovery",
+      "target_path": "operational-overload-recovery.md",
+      "text": "operational overloadrecovery",
+      "title": null
+    },
+    {
+      "source_concept_id": "pager-load-management",
+      "source_path": "pager-load-management.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparedness drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "pager-load-management",
+      "source_path": "pager-load-management.md",
+      "target": "runbooks-and-checklists.md",
+      "target_concept_id": "runbooks-and-checklists",
+      "target_path": "runbooks-and-checklists.md",
+      "text": "runbook",
+      "title": null
+    },
+    {
+      "source_concept_id": "peacetime-wartime-mode-shift",
+      "source_path": "peacetime-wartime-mode-shift.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commander",
+      "title": null
+    },
+    {
+      "source_concept_id": "peacetime-wartime-mode-shift",
+      "source_path": "peacetime-wartime-mode-shift.md",
+      "target": "incident-response-process-framework.md",
+      "target_concept_id": "incident-response-process-framework",
+      "target_path": "incident-response-process-framework.md",
+      "text": "incidentresponse process framework",
+      "title": null
+    },
+    {
+      "source_concept_id": "plan-continuation-bias",
+      "source_path": "plan-continuation-bias.md",
+      "target": "can-report.md",
+      "target_concept_id": "can-report",
+      "target_path": "can-report.md",
+      "text": "CAN report",
+      "title": null
+    },
+    {
+      "source_concept_id": "plan-continuation-bias",
+      "source_path": "plan-continuation-bias.md",
+      "target": "local-rationality-principle.md",
+      "target_concept_id": "local-rationality-principle",
+      "target_path": "local-rationality-principle.md",
+      "text": "local rationality principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "plan-continuation-bias",
+      "source_path": "plan-continuation-bias.md",
+      "target": "mental-simulation-as-evaluation-tool.md",
+      "target_concept_id": "mental-simulation-as-evaluation-tool",
+      "target_path": "mental-simulation-as-evaluation-tool.md",
+      "text": "mentalsimulation",
+      "title": null
+    },
+    {
+      "source_concept_id": "playbooks-layer-business-context",
+      "source_path": "playbooks-layer-business-context.md",
+      "target": "runbooks-and-checklists.md",
+      "target_concept_id": "runbooks-and-checklists",
+      "target_path": "runbooks-and-checklists.md",
+      "text": "runbook or checklist",
+      "title": null
+    },
+    {
+      "source_concept_id": "practical-drift",
+      "source_path": "practical-drift.md",
+      "target": "chronic-unease.md",
+      "target_concept_id": "chronic-unease",
+      "target_path": "chronic-unease.md",
+      "text": "chronic unease",
+      "title": null
+    },
+    {
+      "source_concept_id": "practical-drift",
+      "source_path": "practical-drift.md",
+      "target": "rasmussen-safety-boundary-model.md",
+      "target_concept_id": "rasmussen-safety-boundary-model",
+      "target_path": "rasmussen-safety-boundary-model.md",
+      "text": "Rasmussen's safety boundary model",
+      "title": null
+    },
+    {
+      "source_concept_id": "practical-drift",
+      "source_path": "practical-drift.md",
+      "target": "survivorship-bias-in-safety.md",
+      "target_concept_id": "survivorship-bias-in-safety",
+      "target_path": "survivorship-bias-in-safety.md",
+      "text": "survivorship bias in safety",
+      "title": null
+    },
+    {
+      "source_concept_id": "practical-drift",
+      "source_path": "practical-drift.md",
+      "target": "work-as-imagined-vs-work-as-done.md",
+      "target_concept_id": "work-as-imagined-vs-work-as-done",
+      "target_path": "work-as-imagined-vs-work-as-done.md",
+      "text": "work-as-imagined vs work-as-done",
+      "title": null
+    },
+    {
+      "source_concept_id": "preparedness-drills",
+      "source_path": "preparedness-drills.md",
+      "target": "chaos-engineering-experiment-design.md",
+      "target_concept_id": "chaos-engineering-experiment-design",
+      "target_path": "chaos-engineering-experiment-design.md",
+      "text": "chaos engineering experiment design",
+      "title": null
+    },
+    {
+      "source_concept_id": "preparedness-drills",
+      "source_path": "preparedness-drills.md",
+      "target": "disaster-risk-assessment-matrix.md",
+      "target_concept_id": "disaster-risk-assessment-matrix",
+      "target_path": "disaster-risk-assessment-matrix.md",
+      "text": "disaster risk assessment matrix",
+      "title": null
+    },
+    {
+      "source_concept_id": "preparedness-drills",
+      "source_path": "preparedness-drills.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident command system",
+      "title": null
+    },
+    {
+      "source_concept_id": "procedural-heroism",
+      "source_path": "procedural-heroism.md",
+      "target": "crew-resource-management.md",
+      "target_concept_id": "crew-resource-management",
+      "target_path": "crew-resource-management.md",
+      "text": "teamformation",
+      "title": null
+    },
+    {
+      "source_concept_id": "procedural-heroism",
+      "source_path": "procedural-heroism.md",
+      "target": "runbooks-and-checklists.md",
+      "target_concept_id": "runbooks-and-checklists",
+      "target_path": "runbooks-and-checklists.md",
+      "text": "runbook",
+      "title": null
+    },
+    {
+      "source_concept_id": "procedural-heroism",
+      "source_path": "procedural-heroism.md",
+      "target": "sustainable-on-call-design.md",
+      "target_concept_id": "sustainable-on-call-design",
+      "target_path": "sustainable-on-call-design.md",
+      "text": "sustainable on-calldesign",
+      "title": null
+    },
+    {
+      "source_concept_id": "rasmussen-safety-boundary-model",
+      "source_path": "rasmussen-safety-boundary-model.md",
+      "target": "chronic-unease.md",
+      "target_concept_id": "chronic-unease",
+      "target_path": "chronic-unease.md",
+      "text": "chronic unease",
+      "title": null
+    },
+    {
+      "source_concept_id": "rasmussen-safety-boundary-model",
+      "source_path": "rasmussen-safety-boundary-model.md",
+      "target": "practical-drift.md",
+      "target_concept_id": "practical-drift",
+      "target_path": "practical-drift.md",
+      "text": "practical drift",
+      "title": null
+    },
+    {
+      "source_concept_id": "recognition-primed-decision-model",
+      "source_path": "recognition-primed-decision-model.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commander's",
+      "title": null
+    },
+    {
+      "source_concept_id": "recognition-primed-decision-model",
+      "source_path": "recognition-primed-decision-model.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "plansgroup",
+      "title": null
+    },
+    {
+      "source_concept_id": "recognition-primed-decision-model",
+      "source_path": "recognition-primed-decision-model.md",
+      "target": "mental-simulation-as-evaluation-tool.md",
+      "target_concept_id": "mental-simulation-as-evaluation-tool",
+      "target_path": "mental-simulation-as-evaluation-tool.md",
+      "text": "mentalsimulation as an evaluation tool",
+      "title": null
+    },
+    {
+      "source_concept_id": "recognition-primed-decision-model",
+      "source_path": "recognition-primed-decision-model.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparedness drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "recognition-primed-decision-model",
+      "source_path": "recognition-primed-decision-model.md",
+      "target": "star-incident-action-plan.md",
+      "target_concept_id": "star-incident-action-plan",
+      "target_path": "star-incident-action-plan.md",
+      "text": "STAR's",
+      "title": null
+    },
+    {
+      "source_concept_id": "recognition-primed-decision-model",
+      "source_path": "recognition-primed-decision-model.md",
+      "target": "unified-command.md",
+      "target_concept_id": "unified-command",
+      "target_path": "unified-command.md",
+      "text": "unified command",
+      "title": null
+    },
+    {
+      "source_concept_id": "recovery-point-objective-in-continuously-adapting-systems",
+      "source_path": "recovery-point-objective-in-continuously-adapting-systems.md",
+      "target": "ml-rollback-limits-in-a-changing-world.md",
+      "target_concept_id": "ml-rollback-limits-in-a-changing-world",
+      "target_path": "ml-rollback-limits-in-a-changing-world.md",
+      "text": "ML rollback limits in achanging world",
+      "title": null
+    },
+    {
+      "source_concept_id": "repeated-intervention-can-extend-incidents",
+      "source_path": "repeated-intervention-can-extend-incidents.md",
+      "target": "cross-team-blind-spots-in-incident-diagnosis.md",
+      "target_concept_id": "cross-team-blind-spots-in-incident-diagnosis",
+      "target_path": "cross-team-blind-spots-in-incident-diagnosis.md",
+      "text": "cross-team blind spots in incidentdiagnosis",
+      "title": null
+    },
+    {
+      "source_concept_id": "repeated-intervention-can-extend-incidents",
+      "source_path": "repeated-intervention-can-extend-incidents.md",
+      "target": "ml-crisis-response-options.md",
+      "target_concept_id": "ml-crisis-response-options",
+      "target_path": "ml-crisis-response-options.md",
+      "text": "ML crisisresponse options",
+      "title": null
+    },
+    {
+      "source_concept_id": "repeated-intervention-can-extend-incidents",
+      "source_path": "repeated-intervention-can-extend-incidents.md",
+      "target": "plan-continuation-bias.md",
+      "target_concept_id": "plan-continuation-bias",
+      "target_path": "plan-continuation-bias.md",
+      "text": "plan continuationbias",
+      "title": null
+    },
+    {
+      "source_concept_id": "responder-behavior-patterns",
+      "source_path": "responder-behavior-patterns.md",
+      "target": "after-action-review.md",
+      "target_concept_id": "after-action-review",
+      "target_path": "after-action-review.md",
+      "text": "after actionreview",
+      "title": null
+    },
+    {
+      "source_concept_id": "responder-behavior-patterns",
+      "source_path": "responder-behavior-patterns.md",
+      "target": "can-report.md",
+      "target_concept_id": "can-report",
+      "target_path": "can-report.md",
+      "text": "CAN report",
+      "title": null
+    },
+    {
+      "source_concept_id": "responder-behavior-patterns",
+      "source_path": "responder-behavior-patterns.md",
+      "target": "dispatch-vs-notification.md",
+      "target_concept_id": "dispatch-vs-notification",
+      "target_path": "dispatch-vs-notification.md",
+      "text": "dispatch, notnotification",
+      "title": null
+    },
+    {
+      "source_concept_id": "responder-behavior-patterns",
+      "source_path": "responder-behavior-patterns.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommander",
+      "title": null
+    },
+    {
+      "source_concept_id": "restorative-just-culture",
+      "source_path": "restorative-just-culture.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortems",
+      "title": null
+    },
+    {
+      "source_concept_id": "restorative-just-culture",
+      "source_path": "restorative-just-culture.md",
+      "target": "human-error-as-symptom.md",
+      "target_concept_id": "human-error-as-symptom",
+      "target_path": "human-error-as-symptom.md",
+      "text": "human error as a symptom",
+      "title": null
+    },
+    {
+      "source_concept_id": "restorative-just-culture",
+      "source_path": "restorative-just-culture.md",
+      "target": "learning-reviews.md",
+      "target_concept_id": "learning-reviews",
+      "target_path": "learning-reviews.md",
+      "text": "learning reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "root-cause-fallacy",
+      "source_path": "root-cause-fallacy.md",
+      "target": "accident-models.md",
+      "target_concept_id": "accident-models",
+      "target_path": "accident-models.md",
+      "text": "accident models",
+      "title": null
+    },
+    {
+      "source_concept_id": "root-cause-fallacy",
+      "source_path": "root-cause-fallacy.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortems",
+      "title": null
+    },
+    {
+      "source_concept_id": "root-cause-fallacy",
+      "source_path": "root-cause-fallacy.md",
+      "target": "learning-reviews.md",
+      "target_concept_id": "learning-reviews",
+      "target_path": "learning-reviews.md",
+      "text": "learning reviews",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbooks-and-checklists",
+      "source_path": "runbooks-and-checklists.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortems",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbooks-and-checklists",
+      "source_path": "runbooks-and-checklists.md",
+      "target": "checklist-design-rules.md",
+      "target_concept_id": "checklist-design-rules",
+      "target_path": "checklist-design-rules.md",
+      "text": "checklist design rules",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbooks-and-checklists",
+      "source_path": "runbooks-and-checklists.md",
+      "target": "checklist-design-rules.md",
+      "target_concept_id": "checklist-design-rules",
+      "target_path": "checklist-design-rules.md",
+      "text": "checklist design rules",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbooks-and-checklists",
+      "source_path": "runbooks-and-checklists.md",
+      "target": "checklist-design-rules.md",
+      "target_concept_id": "checklist-design-rules",
+      "target_path": "checklist-design-rules.md",
+      "text": "checklist design rules",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbooks-and-checklists",
+      "source_path": "runbooks-and-checklists.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commandsystem",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbooks-and-checklists",
+      "source_path": "runbooks-and-checklists.md",
+      "target": "playbooks-layer-business-context.md",
+      "target_concept_id": "playbooks-layer-business-context",
+      "target_path": "playbooks-layer-business-context.md",
+      "text": "playbooks",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbooks-and-checklists",
+      "source_path": "runbooks-and-checklists.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparedness drills",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbooks-and-checklists",
+      "source_path": "runbooks-and-checklists.md",
+      "target": "procedural-heroism.md",
+      "target_concept_id": "procedural-heroism",
+      "target_path": "procedural-heroism.md",
+      "text": "proceduralheroism",
+      "title": null
+    },
+    {
+      "source_concept_id": "runbooks-and-checklists",
+      "source_path": "runbooks-and-checklists.md",
+      "target": "work-as-imagined-vs-work-as-done.md",
+      "target_concept_id": "work-as-imagined-vs-work-as-done",
+      "target_path": "work-as-imagined-vs-work-as-done.md",
+      "text": "work-as-imagined vs work-as-done",
+      "title": null
+    },
+    {
+      "source_concept_id": "safety-bureaucracy",
+      "source_path": "safety-bureaucracy.md",
+      "target": "work-as-imagined-vs-work-as-done.md",
+      "target_concept_id": "work-as-imagined-vs-work-as-done",
+      "target_path": "work-as-imagined-vs-work-as-done.md",
+      "text": "work-as-imagined vs work-as-done",
+      "title": null
+    },
+    {
+      "source_concept_id": "safety-i-vs-safety-ii",
+      "source_path": "safety-i-vs-safety-ii.md",
+      "target": "accident-models.md",
+      "target_concept_id": "accident-models",
+      "target_path": "accident-models.md",
+      "text": "accident-models",
+      "title": null
+    },
+    {
+      "source_concept_id": "safety-i-vs-safety-ii",
+      "source_path": "safety-i-vs-safety-ii.md",
+      "target": "human-error-as-symptom.md",
+      "target_concept_id": "human-error-as-symptom",
+      "target_path": "human-error-as-symptom.md",
+      "text": "human error as a symptom",
+      "title": null
+    },
+    {
+      "source_concept_id": "safety-i-vs-safety-ii",
+      "source_path": "safety-i-vs-safety-ii.md",
+      "target": "westrum-organizational-culture-typology.md",
+      "target_concept_id": "westrum-organizational-culture-typology",
+      "target_path": "westrum-organizational-culture-typology.md",
+      "text": "Westrum organizational culture typology",
+      "title": null
+    },
+    {
+      "source_concept_id": "safety-i-vs-safety-ii",
+      "source_path": "safety-i-vs-safety-ii.md",
+      "target": "work-as-imagined-vs-work-as-done.md",
+      "target_concept_id": "work-as-imagined-vs-work-as-done",
+      "target_path": "work-as-imagined-vs-work-as-done.md",
+      "text": "work-as-imagined vs work-as-done",
+      "title": null
+    },
+    {
+      "source_concept_id": "sharp-end-vs-blunt-end",
+      "source_path": "sharp-end-vs-blunt-end.md",
+      "target": "practical-drift.md",
+      "target_concept_id": "practical-drift",
+      "target_path": "practical-drift.md",
+      "text": "practical drift",
+      "title": null
+    },
+    {
+      "source_concept_id": "sharp-end-vs-blunt-end",
+      "source_path": "sharp-end-vs-blunt-end.md",
+      "target": "safety-bureaucracy.md",
+      "target_concept_id": "safety-bureaucracy",
+      "target_path": "safety-bureaucracy.md",
+      "text": "safety bureaucracy",
+      "title": null
+    },
+    {
+      "source_concept_id": "sme-conduct-during-incidents",
+      "source_path": "sme-conduct-during-incidents.md",
+      "target": "command-presence.md",
+      "target_concept_id": "command-presence",
+      "target_path": "command-presence.md",
+      "text": "commandpresence",
+      "title": null
+    },
+    {
+      "source_concept_id": "sme-conduct-during-incidents",
+      "source_path": "sme-conduct-during-incidents.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommander",
+      "title": null
+    },
+    {
+      "source_concept_id": "sme-conduct-during-incidents",
+      "source_path": "sme-conduct-during-incidents.md",
+      "target": "responder-behavior-patterns.md",
+      "target_concept_id": "responder-behavior-patterns",
+      "target_path": "responder-behavior-patterns.md",
+      "text": "responder behaviorpatterns",
+      "title": null
+    },
+    {
+      "source_concept_id": "span-of-control",
+      "source_path": "span-of-control.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommander",
+      "title": null
+    },
+    {
+      "source_concept_id": "span-of-control",
+      "source_path": "span-of-control.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "scribe/SitStat",
+      "title": null
+    },
+    {
+      "source_concept_id": "span-of-control",
+      "source_path": "span-of-control.md",
+      "target": "liaison-officer-role.md",
+      "target_concept_id": "liaison-officer-role",
+      "target_path": "liaison-officer-role.md",
+      "text": "liaisonofficer",
+      "title": null
+    },
+    {
+      "source_concept_id": "span-of-control",
+      "source_path": "span-of-control.md",
+      "target": "transfer-of-command.md",
+      "target_concept_id": "transfer-of-command",
+      "target_path": "transfer-of-command.md",
+      "text": "transfer of command",
+      "title": null
+    },
+    {
+      "source_concept_id": "span-of-control",
+      "source_path": "span-of-control.md",
+      "target": "unified-command.md",
+      "target_concept_id": "unified-command",
+      "target_path": "unified-command.md",
+      "text": "UnifiedCommand",
+      "title": null
+    },
+    {
+      "source_concept_id": "star-incident-action-plan",
+      "source_path": "star-incident-action-plan.md",
+      "target": "after-action-review.md",
+      "target_concept_id": "after-action-review",
+      "target_path": "after-action-review.md",
+      "text": "after action review",
+      "title": null
+    },
+    {
+      "source_concept_id": "star-incident-action-plan",
+      "source_path": "star-incident-action-plan.md",
+      "target": "can-report.md",
+      "target_concept_id": "can-report",
+      "target_path": "can-report.md",
+      "text": "CAN report",
+      "title": null
+    },
+    {
+      "source_concept_id": "star-incident-action-plan",
+      "source_path": "star-incident-action-plan.md",
+      "target": "command-presence.md",
+      "target_concept_id": "command-presence",
+      "target_path": "command-presence.md",
+      "text": "command presence",
+      "title": null
+    },
+    {
+      "source_concept_id": "star-incident-action-plan",
+      "source_path": "star-incident-action-plan.md",
+      "target": "incident-bridge-communication-patterns.md",
+      "target_concept_id": "incident-bridge-communication-patterns",
+      "target_path": "incident-bridge-communication-patterns.md",
+      "text": "seeking support, notconsensus",
+      "title": null
+    },
+    {
+      "source_concept_id": "star-incident-action-plan",
+      "source_path": "star-incident-action-plan.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commander's",
+      "title": null
+    },
+    {
+      "source_concept_id": "star-incident-action-plan",
+      "source_path": "star-incident-action-plan.md",
+      "target": "incident-severity-classification.md",
+      "target_concept_id": "incident-severity-classification",
+      "target_path": "incident-severity-classification.md",
+      "text": "incident severity classification",
+      "title": null
+    },
+    {
+      "source_concept_id": "stress-effects-on-decision-quality",
+      "source_path": "stress-effects-on-decision-quality.md",
+      "target": "mental-simulation-as-evaluation-tool.md",
+      "target_concept_id": "mental-simulation-as-evaluation-tool",
+      "target_path": "mental-simulation-as-evaluation-tool.md",
+      "text": "mentalsimulation",
+      "title": null
+    },
+    {
+      "source_concept_id": "stress-effects-on-decision-quality",
+      "source_path": "stress-effects-on-decision-quality.md",
+      "target": "preparedness-drills.md",
+      "target_concept_id": "preparedness-drills",
+      "target_path": "preparedness-drills.md",
+      "text": "preparedness",
+      "title": null
+    },
+    {
+      "source_concept_id": "stress-effects-on-decision-quality",
+      "source_path": "stress-effects-on-decision-quality.md",
+      "target": "recognition-primed-decision-model.md",
+      "target_concept_id": "recognition-primed-decision-model",
+      "target_path": "recognition-primed-decision-model.md",
+      "text": "recognition-primeddecisions",
+      "title": null
+    },
+    {
+      "source_concept_id": "stress-effects-on-decision-quality",
+      "source_path": "stress-effects-on-decision-quality.md",
+      "target": "transfer-of-command.md",
+      "target_concept_id": "transfer-of-command",
+      "target_path": "transfer-of-command.md",
+      "text": "transfer of command",
+      "title": null
+    },
+    {
+      "source_concept_id": "stress-effects-on-decision-quality",
+      "source_path": "stress-effects-on-decision-quality.md",
+      "target": "transfer-of-command.md",
+      "target_concept_id": "transfer-of-command",
+      "target_path": "transfer-of-command.md",
+      "text": "transfer ofcommand",
+      "title": null
+    },
+    {
+      "source_concept_id": "stress-effects-on-decision-quality",
+      "source_path": "stress-effects-on-decision-quality.md",
+      "target": "unified-command.md",
+      "target_concept_id": "unified-command",
+      "target_path": "unified-command.md",
+      "text": "UnifiedCommand",
+      "title": null
+    },
+    {
+      "source_concept_id": "survivorship-bias-in-safety",
+      "source_path": "survivorship-bias-in-safety.md",
+      "target": "chronic-unease.md",
+      "target_concept_id": "chronic-unease",
+      "target_path": "chronic-unease.md",
+      "text": "chronic unease",
+      "title": null
+    },
+    {
+      "source_concept_id": "survivorship-bias-in-safety",
+      "source_path": "survivorship-bias-in-safety.md",
+      "target": "incident-fatality-paradox.md",
+      "target_concept_id": "incident-fatality-paradox",
+      "target_path": "incident-fatality-paradox.md",
+      "text": "incident-fatality-paradox",
+      "title": null
+    },
+    {
+      "source_concept_id": "sustainable-on-call-design",
+      "source_path": "sustainable-on-call-design.md",
+      "target": "burnout-risk-factors.md",
+      "target_concept_id": "burnout-risk-factors",
+      "target_path": "burnout-risk-factors.md",
+      "text": "burnout risk factors",
+      "title": null
+    },
+    {
+      "source_concept_id": "sustainable-on-call-design",
+      "source_path": "sustainable-on-call-design.md",
+      "target": "pager-load-management.md",
+      "target_concept_id": "pager-load-management",
+      "target_path": "pager-load-management.md",
+      "text": "pager load management",
+      "title": null
+    },
+    {
+      "source_concept_id": "talent-diagnostic-framework",
+      "source_path": "talent-diagnostic-framework.md",
+      "target": "after-action-review.md",
+      "target_concept_id": "after-action-review",
+      "target_path": "after-action-review.md",
+      "text": "after actionreview",
+      "title": null
+    },
+    {
+      "source_concept_id": "talent-diagnostic-framework",
+      "source_path": "talent-diagnostic-framework.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortem",
+      "title": null
+    },
+    {
+      "source_concept_id": "talent-diagnostic-framework",
+      "source_path": "talent-diagnostic-framework.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommander",
+      "title": null
+    },
+    {
+      "source_concept_id": "talent-diagnostic-framework",
+      "source_path": "talent-diagnostic-framework.md",
+      "target": "peacetime-wartime-mode-shift.md",
+      "target_concept_id": "peacetime-wartime-mode-shift",
+      "target_path": "peacetime-wartime-mode-shift.md",
+      "text": "peacetime/wartime",
+      "title": null
+    },
+    {
+      "source_concept_id": "talent-diagnostic-framework",
+      "source_path": "talent-diagnostic-framework.md",
+      "target": "span-of-control.md",
+      "target_concept_id": "span-of-control",
+      "target_path": "span-of-control.md",
+      "text": "span ofcontrol",
+      "title": null
+    },
+    {
+      "source_concept_id": "talent-diagnostic-framework",
+      "source_path": "talent-diagnostic-framework.md",
+      "target": "unified-command.md",
+      "target_concept_id": "unified-command",
+      "target_path": "unified-command.md",
+      "text": "Unified Command",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-mind-and-shared-understanding",
+      "source_path": "team-mind-and-shared-understanding.md",
+      "target": "can-report.md",
+      "target_concept_id": "can-report",
+      "target_path": "can-report.md",
+      "text": "CAN reports",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-mind-and-shared-understanding",
+      "source_path": "team-mind-and-shared-understanding.md",
+      "target": "command-presence.md",
+      "target_concept_id": "command-presence",
+      "target_path": "command-presence.md",
+      "text": "commandpresence",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-mind-and-shared-understanding",
+      "source_path": "team-mind-and-shared-understanding.md",
+      "target": "incident-state-document.md",
+      "target_concept_id": "incident-state-document",
+      "target_path": "incident-state-document.md",
+      "text": "incident statedocument",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-mind-and-shared-understanding",
+      "source_path": "team-mind-and-shared-understanding.md",
+      "target": "mean-time-to-assemble.md",
+      "target_concept_id": "mean-time-to-assemble",
+      "target_path": "mean-time-to-assemble.md",
+      "text": "mean time to assemble",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-mind-and-shared-understanding",
+      "source_path": "team-mind-and-shared-understanding.md",
+      "target": "span-of-control.md",
+      "target_concept_id": "span-of-control",
+      "target_path": "span-of-control.md",
+      "text": "span of control",
+      "title": null
+    },
+    {
+      "source_concept_id": "team-mind-and-shared-understanding",
+      "source_path": "team-mind-and-shared-understanding.md",
+      "target": "unified-command.md",
+      "target_concept_id": "unified-command",
+      "target_path": "unified-command.md",
+      "text": "operationalperiod",
+      "title": null
+    },
+    {
+      "source_concept_id": "transfer-of-command",
+      "source_path": "transfer-of-command.md",
+      "target": "can-report.md",
+      "target_concept_id": "can-report",
+      "target_path": "can-report.md",
+      "text": "CANreport",
+      "title": null
+    },
+    {
+      "source_concept_id": "transfer-of-command",
+      "source_path": "transfer-of-command.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commanders",
+      "title": null
+    },
+    {
+      "source_concept_id": "transfer-of-command",
+      "source_path": "transfer-of-command.md",
+      "target": "responder-behavior-patterns.md",
+      "target_concept_id": "responder-behavior-patterns",
+      "target_path": "responder-behavior-patterns.md",
+      "text": "responder behaviorpattern",
+      "title": null
+    },
+    {
+      "source_concept_id": "transfer-of-command",
+      "source_path": "transfer-of-command.md",
+      "target": "span-of-control.md",
+      "target_concept_id": "span-of-control",
+      "target_path": "span-of-control.md",
+      "text": "span of control",
+      "title": null
+    },
+    {
+      "source_concept_id": "unified-command",
+      "source_path": "unified-command.md",
+      "target": "can-report.md",
+      "target_concept_id": "can-report",
+      "target_path": "can-report.md",
+      "text": "CAN report",
+      "title": null
+    },
+    {
+      "source_concept_id": "unified-command",
+      "source_path": "unified-command.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incident commandsystem",
+      "title": null
+    },
+    {
+      "source_concept_id": "unified-command",
+      "source_path": "unified-command.md",
+      "target": "incident-command-system.md",
+      "target_concept_id": "incident-command-system",
+      "target_path": "incident-command-system.md",
+      "text": "incidentcommander",
+      "title": null
+    },
+    {
+      "source_concept_id": "unified-command",
+      "source_path": "unified-command.md",
+      "target": "liaison-officer-role.md",
+      "target_concept_id": "liaison-officer-role",
+      "target_path": "liaison-officer-role.md",
+      "text": "liaison officer",
+      "title": null
+    },
+    {
+      "source_concept_id": "unified-command",
+      "source_path": "unified-command.md",
+      "target": "span-of-control.md",
+      "target_concept_id": "span-of-control",
+      "target_path": "span-of-control.md",
+      "text": "span ofcontrol",
+      "title": null
+    },
+    {
+      "source_concept_id": "westrum-organizational-culture-typology",
+      "source_path": "westrum-organizational-culture-typology.md",
+      "target": "blameless-postmortems.md",
+      "target_concept_id": "blameless-postmortems",
+      "target_path": "blameless-postmortems.md",
+      "text": "blameless postmortem",
+      "title": null
+    },
+    {
+      "source_concept_id": "westrum-organizational-culture-typology",
+      "source_path": "westrum-organizational-culture-typology.md",
+      "target": "chronic-unease.md",
+      "target_concept_id": "chronic-unease",
+      "target_path": "chronic-unease.md",
+      "text": "chronic unease",
+      "title": null
+    },
+    {
+      "source_concept_id": "westrum-organizational-culture-typology",
+      "source_path": "westrum-organizational-culture-typology.md",
+      "target": "restorative-just-culture.md",
+      "target_concept_id": "restorative-just-culture",
+      "target_path": "restorative-just-culture.md",
+      "text": "restorative just culture",
+      "title": null
+    },
+    {
+      "source_concept_id": "work-as-imagined-vs-work-as-done",
+      "source_path": "work-as-imagined-vs-work-as-done.md",
+      "target": "practical-drift.md",
+      "target_concept_id": "practical-drift",
+      "target_path": "practical-drift.md",
+      "text": "practical drift",
+      "title": null
+    },
+    {
+      "source_concept_id": "work-as-imagined-vs-work-as-done",
+      "source_path": "work-as-imagined-vs-work-as-done.md",
+      "target": "safety-bureaucracy.md",
+      "target_concept_id": "safety-bureaucracy",
+      "target_path": "safety-bureaucracy.md",
+      "text": "safety bureaucracy",
+      "title": null
+    }
+  ],
+  "orphans": [
+    "kinds-of-uncertainty"
+  ]
+}

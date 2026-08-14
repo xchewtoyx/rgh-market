@@ -1,0 +1,28 @@
+---
+type: concept
+title: Profile Changes as SCD Attributes vs. Fact Events
+description: A warning against modeling every attribute change as its own factless fact table row when a slowly changing dimension already captures the same history more directly.
+sources:
+  - title: "The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling, 3rd Edition"
+    resource: "The Data Warehouse Toolkit (Kimball, Ross), 3rd ed., ch. 9"
+  - title: "Agile Data Warehouse Design"
+    resource: "Agile Data Warehouse Design (Lawrence Corr with Jim Stagnitto), ch. 3"
+---
+
+A tempting but flawed initial design for tracking an entity whose profile changes constantly (an employee's job grade, salary, or address, for example) is a transaction-grained [factless fact table](factless-fact-table.md) with one row per profile-change transaction — dimensions for transaction date, transaction type/reason, and the entity itself — paired with a [slowly changing dimension type 2](slowly-changing-dimension-type-2.md) version of the same entity's dimension. Because there is no numeric metric associated with a pure profile change, and because every fact-table transaction also spawns a new type 2 dimension row, the fact table and the dimension table end up with essentially the same row count and are almost always joined together one-to-one.
+
+**A fact table with as many rows as its related dimension is a dimensional-modeling alarm bell.** It signals that the fact table isn't adding anything the dimension doesn't already capture on its own. The fix is to drop the profile-transaction fact table entirely and embellish the dimension instead: each type 2 row already *is* a full snapshot of the entity's profile following a change, so the transaction's type or reason simply becomes a "change reason" attribute directly on the dimension row. If some of the changing characteristics are genuinely numeric and need to be summarized or trended (not just constrained on or displayed), those specific facts belong in a separate, properly-motivated fact table — but the change *event itself* does not need its own fact table when a type 2 dimension already records it.
+
+## Don't over-apply the pattern in the other direction
+
+The reverse mistake is swinging too far toward dimension-based tracking — trying to capture every event touching an entity (for a employee: every performance review, every benefit enrollment, every professional development event) as more type 2 attributes and embedded outrigger foreign keys (reviewer, benefit description, separation reason, and so on) directly on that one dimension. These events genuinely involve their own distinct dimensions (event date, organization, reviewer, approver) and generate their own [business process](business-process.md)es worth counting and trending by time period — they belong in their own process-centric fact tables, even if those fact tables end up factless, rather than being folded into an increasingly overloaded, hard-to-navigate primary dimension. It is fine, and often correct, to carry an event's *outcome* (e.g., the resulting job grade from a promotion) as a plain dimension attribute; it is a mistake to carry the surrounding event apparatus itself there.
+
+## Discovering whether a candidate event is really minor
+
+The same question can be asked earlier, during requirements gathering, before any physical design exists: a discovered candidate "event" that has too few details or occurs too infrequently to justify a standalone [business process](business-process.md) is a **minor event**, better modeled as a [type 2 slowly changing dimension](slowly-changing-dimension-type-2.md) attribute (a change story — see [discovering each attribute's policy](slowly-changing-dimension.md)) than as its own fact table. A quick test: if the event's active verb can be swapped for "has" without losing meaning — "customer moves to address on move date" becomes "customer has address on effective date" — and its subject and object describe the same entity with only a *when* detail besides, it's a strong minor-event candidate, provided it doesn't change so often (daily or monthly) that it would instead qualify as a rapidly-changing dimension better modeled as its own event. More generally, a candidate event with a small number of details (typically three or fewer of its [7Ws](seven-ws-framework.md), including when) is worth checking against a nearby major event it might just be a byproduct of, rather than modeling standalone — for example, a new delivery address supplied on every order is a detail of the order event, not a customer profile change.
+
+What counts as minor is organization-specific: a company whose core business is customer relocation would model "customer moves" with far more supporting detail (mover, origin, destination, cost, timeline) as a major event in its own right, where a retailer would fold the same fact into a plain address-change attribute.
+
+## Consolidating micro-transactions into one dimension row
+
+Source systems often generate several individual attribute-level change transactions for what the business considers a single logical action — several field updates that together represent one employee promotion, for instance. Rather than spawning a separate type 2 dimension row per micro-transaction, these should usually be encapsulated as a single "super transaction," producing one new dimension row that reflects every changed attribute from the action at once. Identifying which micro-transactions belong together is genuinely difficult from the data alone; it's best solved by having the source operational application capture and expose the higher-level business action directly, rather than trying to reconstruct it during ETL.

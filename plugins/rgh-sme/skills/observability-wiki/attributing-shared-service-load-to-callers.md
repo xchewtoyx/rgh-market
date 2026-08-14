@@ -1,0 +1,16 @@
+---
+type: concept
+title: Attributing Shared-Service Load Back to Individual Callers
+description: In a layered system where a shared lower-level service (storage, a lock manager) can't distinguish which upstream caller generated a given unit of load, aggregating trace data by caller identity recovers per-tenant attribution the lower layer's own metrics can't provide.
+sources:
+  - title: "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure"
+    resource: "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure (Sigelman et al.), §6.5"
+  - title: "Pivot Tracing: Dynamic Causal Monitoring for Distributed Systems"
+    resource: "Pivot Tracing: Dynamic Causal Monitoring for Distributed Systems (Mace, Roelke, Fonseca), §2.1"
+---
+
+Many production systems are built in layers, where a lower-level service (a storage engine, a lock manager, a shared cache) is deliberately run as one multi-tenant deployment shared across many unrelated upstream callers, for deployment simplicity and better resource utilization. This creates an attribution blind spot: at the lower layer's own vantage point, load from one heavy caller and load from many light callers can look identical — a spike in traffic to a shared storage cell doesn't reveal whether it came from a single user or was spread across several, because that distinction was already lost by the time the request reached this layer.
+
+[Distributed tracing](trace-anatomy-and-spans.md) can recover the missing attribution, because a trace retains the full caller identity all the way down through every layer it passes through, even after the shared service itself has discarded it. Aggregating trace data across all of a shared service's callers — grouping by caller identity and summing a chosen cost metric (inbound network load, outbound network load, total time spent servicing that caller's requests) — lets the shared service's owners rank their own users by actual resource consumption, something neither the shared service's own metrics nor the caller's own metrics can answer alone. This is the tracing-specific version of a "noisy neighbor" investigation: the noise is only visible once you can see across the tenant boundary that the shared service's own instrumentation collapses.
+
+[Pivot Tracing](pivot-tracing.md) demonstrates the same blind spot with a concrete HDFS disk-bandwidth example. Out-of-the-box HDFS metrics aggregate disk read throughput per DataNode; HBase and MapReduce clients are indistinguishable at that layer. A simple Pivot Tracing query at the DataNode tracepoint groups bytes locally by host; a cross-tier query joins via a [happened-before join](happened-before-join.md) to client-protocol [tracepoints](pivot-tracing-tracepoints.md), grouping `incrBytesRead` events by upstream `cl.procName` — exposing per-application disk throughput that HDFS's own instrumentation cannot provide, because HDFS has no visibility into which upstream application generated a given unit of load. Metrics are ad hoc between systems (HDFS sums IO bytes; HBase exposes ops/sec), and cross-tier support is very limited: MapReduce counts global HDFS input/output bytes; HBase does not explicitly relate HDFS metrics to HBase operations.

@@ -1,0 +1,667 @@
+{
+  "bundle": "incident-response",
+  "concepts": [
+    {
+      "concept_id": "acute-cognitive-degradation",
+      "description": "Temporary loss of skills and executive function during an acute burnout or overload incident, distinct from permanent decline and requiring safe-mode operation rather than working harder.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.006250000000000001,
+      "title": "Acute Cognitive Degradation"
+    },
+    {
+      "concept_id": "acute-emotional-regulation",
+      "description": "Runbook techniques to prevent panic and reactive emotion from overriding procedures during an active incident when training and logic must carry the response.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 5,
+      "pagerank": 0.05037783818025491,
+      "title": "Acute Emotional Regulation"
+    },
+    {
+      "concept_id": "acute-stabilisation-procedures",
+      "description": "Immediate runbook actions to hold steady during an active incident: stop-and-assess, stand-down check-ins, and rapid risk reassessment before load compounds further.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 2,
+      "pagerank": 0.09794468255640153,
+      "title": "Acute Stabilisation Procedures"
+    },
+    {
+      "concept_id": "autistic-burnout-detection-thresholds",
+      "description": "Observable cues that autistic burnout has crossed from ordinary strain into an acute incident requiring load reduction, safe-mode operation, or escalation.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.04898672605665178,
+      "title": "Autistic Burnout Detection Thresholds"
+    },
+    {
+      "concept_id": "autistic-stress-state-tracking",
+      "description": "Deliberate self-monitoring to detect which acute stress state is approaching before meltdown, shutdown, or burnout fully engages.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.014186134951052715,
+      "title": "Autistic Stress State Tracking"
+    },
+    {
+      "concept_id": "crisis-candid-communication",
+      "description": "Runbook communication patterns during acute incidents: clarity under time pressure, shared data, admitting error, and listening to front-line input.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.006250000000000001,
+      "title": "Crisis Candid Communication"
+    },
+    {
+      "concept_id": "crisis-rehearsal",
+      "description": "Graded exposure and mental rehearsal before acute situations so procedures feel authoritative under stress and uncertainty does not trigger panic-driven deviation.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.023380124226902197,
+      "title": "Crisis Rehearsal"
+    },
+    {
+      "concept_id": "dangerous-coping-escalation-trigger",
+      "description": "When hidden addictive or self-destructive coping mechanisms surface during acute load or unmasking, treat identification and disclosure as an escalation step rather than solo management.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.006250000000000001,
+      "title": "Dangerous Coping Escalation Trigger"
+    },
+    {
+      "concept_id": "defence-in-depth-tactical-retreat",
+      "description": "Layered fallback through successive lines of defence during an acute incident, each breach lowering ambitions and sacrificing less-critical goals to preserve what remains saveable.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.03134812127820319,
+      "title": "Defence in Depth Tactical Retreat"
+    },
+    {
+      "concept_id": "distress-tolerance-stabilisation",
+      "description": "A structured pause procedure to tolerate acute discomfort without escalating into meltdown, flight, or dissociation when basic safety is confirmed.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.014186134951052715,
+      "title": "Distress Tolerance Stabilisation"
+    },
+    {
+      "concept_id": "envelope-trespass-escalation-trigger",
+      "description": "The pivotal in-moment decision that a situation has left the prepared response envelope and requires mobilising additional resources or expertise.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.06649316185730374,
+      "title": "Envelope Trespass Escalation Trigger"
+    },
+    {
+      "concept_id": "error-likely-climate-signals",
+      "description": "Local workplace conditions that correlate with acute incidents and near misses, detectable before a specific failure occurs, warranting referral or outside risk support.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.03571197219124687,
+      "title": "Error-Likely Climate Signals"
+    },
+    {
+      "concept_id": "fundamental-surprise-at-onset",
+      "description": "The initial disbelief and cognitive conflict when an acute incident arrives, even when the event type was anticipated at system level, and how to move through it into focused response.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.014814249309897737,
+      "title": "Fundamental Surprise at Onset"
+    },
+    {
+      "concept_id": "incident-detection-thresholds",
+      "description": "Observable signs that distinguish an acute incident from ordinary strain, including stacked minor failures, stalled progress, and mismatches between declared urgency and actual risk.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 3,
+      "pagerank": 0.10398348596983895,
+      "title": "Incident Detection Thresholds"
+    },
+    {
+      "concept_id": "incident-escalation-path",
+      "description": "When and how to bring in additional decision authority or outside help during an acute incident, with clear ownership resting closest to the situation.",
+      "inbound_link_count": 12,
+      "outbound_link_count": 4,
+      "pagerank": 0.1448527686632405,
+      "title": "Incident Escalation Path"
+    },
+    {
+      "concept_id": "meltdown-shutdown-runbook",
+      "description": "Runbook for acute meltdown and shutdown episodes that cannot be stopped once triggered: safe location, individual regulation aids, and what not to attempt.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 7,
+      "pagerank": 0.0653564496111139,
+      "title": "Meltdown and Shutdown Runbook"
+    },
+    {
+      "concept_id": "operational-mode-envelopes",
+      "description": "Three operating regions — normal, abnormal, and emergency — each with different procedures, decision styles, and acceptable improvisation when an acute situation is already underway.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.038854948347037586,
+      "title": "Operational Mode Envelopes"
+    },
+    {
+      "concept_id": "post-incident-recovery",
+      "description": "Gradual restoration after an acute episode ends, including return to sustainable normal functioning, processing what was harder after than during the event, and learning without assuming debrief always adds value.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 3,
+      "pagerank": 0.046475650852566094,
+      "title": "Post-Incident Recovery"
+    },
+    {
+      "concept_id": "relapse-early-warning-and-action-plan",
+      "description": "Pre-written runbook for when lowered mood or symptom return threatens a full incident, including warning signs, first-step pause, and chosen actions.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.014493249845982374,
+      "title": "Relapse Early Warning and Action Plan"
+    },
+    {
+      "concept_id": "resilience-state-transitions",
+      "description": "Requirements for shifting operating mode during an acute disruption — recognition, transition rules, readiness, and eventual return to sustainable normal functioning.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.040299960723643925,
+      "title": "Resilience State Transitions"
+    },
+    {
+      "concept_id": "rumination-interrupt-runbook",
+      "description": "Short-term procedures to break an acute rumination feedback loop before it escalates into meltdown, shutdown, self-harm, or multi-day functional loss.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.011100646793998858,
+      "title": "Rumination Interrupt Runbook"
+    },
+    {
+      "concept_id": "sacrificing-decisions",
+      "description": "Crisis decisions that foreclose ambitious options to establish a damage floor when time, information, and resources cannot support a fully optimal outcome.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.0487754802503879,
+      "title": "Sacrificing Decisions"
+    },
+    {
+      "concept_id": "signs-of-life-detection",
+      "description": "Diagnostic procedure for human dormancy during crisis: finding one remaining anchor of care, hope, or purpose that confirms recovery is still possible.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.03879178565191239,
+      "title": "Signs of Life Detection"
+    },
+    {
+      "concept_id": "westrum-threat-situation-types",
+      "description": "Three classes of threat — regular, irregular, and unexampled — that set how much pre-scripted procedure versus improvisation an acute response can rely on.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 6,
+      "pagerank": 0.030836427731310147,
+      "title": "Westrum Threat Situation Types"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "acute-cognitive-degradation",
+      "target": "incident-detection-thresholds.md",
+      "target_concept_id": "incident-detection-thresholds",
+      "text": "incidentdetection threshold"
+    },
+    {
+      "source_concept_id": "acute-cognitive-degradation",
+      "target": "meltdown-shutdown-runbook.md",
+      "target_concept_id": "meltdown-shutdown-runbook",
+      "text": "meltdown and shutdownrunbook"
+    },
+    {
+      "source_concept_id": "acute-cognitive-degradation",
+      "target": "post-incident-recovery.md",
+      "target_concept_id": "post-incident-recovery",
+      "text": "post-incidentrecovery"
+    },
+    {
+      "source_concept_id": "acute-emotional-regulation",
+      "target": "acute-stabilisation-procedures.md",
+      "target_concept_id": "acute-stabilisation-procedures",
+      "text": "acute stabilisation procedures"
+    },
+    {
+      "source_concept_id": "acute-emotional-regulation",
+      "target": "crisis-rehearsal.md",
+      "target_concept_id": "crisis-rehearsal",
+      "text": "crisis rehearsal"
+    },
+    {
+      "source_concept_id": "acute-emotional-regulation",
+      "target": "fundamental-surprise-at-onset.md",
+      "target_concept_id": "fundamental-surprise-at-onset",
+      "text": "fundamental surprise atonset"
+    },
+    {
+      "source_concept_id": "acute-emotional-regulation",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incident escalation path"
+    },
+    {
+      "source_concept_id": "acute-emotional-regulation",
+      "target": "sacrificing-decisions.md",
+      "target_concept_id": "sacrificing-decisions",
+      "text": "sacrificing decisions"
+    },
+    {
+      "source_concept_id": "acute-stabilisation-procedures",
+      "target": "incident-detection-thresholds.md",
+      "target_concept_id": "incident-detection-thresholds",
+      "text": "incident detectionthresholds"
+    },
+    {
+      "source_concept_id": "acute-stabilisation-procedures",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incident escalation path"
+    },
+    {
+      "source_concept_id": "autistic-burnout-detection-thresholds",
+      "target": "acute-stabilisation-procedures.md",
+      "target_concept_id": "acute-stabilisation-procedures",
+      "text": "acute stabilisationprocedures"
+    },
+    {
+      "source_concept_id": "autistic-burnout-detection-thresholds",
+      "target": "incident-detection-thresholds.md",
+      "target_concept_id": "incident-detection-thresholds",
+      "text": "Incident detectionthresholds"
+    },
+    {
+      "source_concept_id": "autistic-burnout-detection-thresholds",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incident escalation path"
+    },
+    {
+      "source_concept_id": "autistic-stress-state-tracking",
+      "target": "autistic-burnout-detection-thresholds.md",
+      "target_concept_id": "autistic-burnout-detection-thresholds",
+      "text": "autisticburnout detection thresholds"
+    },
+    {
+      "source_concept_id": "autistic-stress-state-tracking",
+      "target": "incident-detection-thresholds.md",
+      "target_concept_id": "incident-detection-thresholds",
+      "text": "Incident detection thresholds"
+    },
+    {
+      "source_concept_id": "autistic-stress-state-tracking",
+      "target": "meltdown-shutdown-runbook.md",
+      "target_concept_id": "meltdown-shutdown-runbook",
+      "text": "meltdown and shutdownrunbook"
+    },
+    {
+      "source_concept_id": "crisis-candid-communication",
+      "target": "acute-emotional-regulation.md",
+      "target_concept_id": "acute-emotional-regulation",
+      "text": "Acute emotional regulation"
+    },
+    {
+      "source_concept_id": "crisis-candid-communication",
+      "target": "acute-stabilisation-procedures.md",
+      "target_concept_id": "acute-stabilisation-procedures",
+      "text": "acute stabilisation procedures"
+    },
+    {
+      "source_concept_id": "crisis-candid-communication",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incident escalationpath"
+    },
+    {
+      "source_concept_id": "crisis-candid-communication",
+      "target": "meltdown-shutdown-runbook.md",
+      "target_concept_id": "meltdown-shutdown-runbook",
+      "text": "meltdown and shutdownrunbook"
+    },
+    {
+      "source_concept_id": "crisis-rehearsal",
+      "target": "acute-emotional-regulation.md",
+      "target_concept_id": "acute-emotional-regulation",
+      "text": "acuteemotional regulation"
+    },
+    {
+      "source_concept_id": "crisis-rehearsal",
+      "target": "incident-detection-thresholds.md",
+      "target_concept_id": "incident-detection-thresholds",
+      "text": "incidentdetection thresholds"
+    },
+    {
+      "source_concept_id": "dangerous-coping-escalation-trigger",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incidentescalation path"
+    },
+    {
+      "source_concept_id": "dangerous-coping-escalation-trigger",
+      "target": "post-incident-recovery.md",
+      "target_concept_id": "post-incident-recovery",
+      "text": "post-incident recovery"
+    },
+    {
+      "source_concept_id": "dangerous-coping-escalation-trigger",
+      "target": "rumination-interrupt-runbook.md",
+      "target_concept_id": "rumination-interrupt-runbook",
+      "text": "rumination interrupt runbook"
+    },
+    {
+      "source_concept_id": "defence-in-depth-tactical-retreat",
+      "target": "acute-stabilisation-procedures.md",
+      "target_concept_id": "acute-stabilisation-procedures",
+      "text": "acute stabilisationprocedures"
+    },
+    {
+      "source_concept_id": "defence-in-depth-tactical-retreat",
+      "target": "operational-mode-envelopes.md",
+      "target_concept_id": "operational-mode-envelopes",
+      "text": "operational modeenvelopes"
+    },
+    {
+      "source_concept_id": "defence-in-depth-tactical-retreat",
+      "target": "sacrificing-decisions.md",
+      "target_concept_id": "sacrificing-decisions",
+      "text": "sacrificing decisions"
+    },
+    {
+      "source_concept_id": "distress-tolerance-stabilisation",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incident escalation path"
+    },
+    {
+      "source_concept_id": "distress-tolerance-stabilisation",
+      "target": "meltdown-shutdown-runbook.md",
+      "target_concept_id": "meltdown-shutdown-runbook",
+      "text": "meltdown and shutdownrunbook"
+    },
+    {
+      "source_concept_id": "distress-tolerance-stabilisation",
+      "target": "meltdown-shutdown-runbook.md",
+      "target_concept_id": "meltdown-shutdown-runbook",
+      "text": "meltdown andshutdown runbook"
+    },
+    {
+      "source_concept_id": "envelope-trespass-escalation-trigger",
+      "target": "acute-stabilisation-procedures.md",
+      "target_concept_id": "acute-stabilisation-procedures",
+      "text": "acute stabilisationprocedures"
+    },
+    {
+      "source_concept_id": "envelope-trespass-escalation-trigger",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incident escalationpath"
+    },
+    {
+      "source_concept_id": "error-likely-climate-signals",
+      "target": "incident-detection-thresholds.md",
+      "target_concept_id": "incident-detection-thresholds",
+      "text": "incident detection thresholds"
+    },
+    {
+      "source_concept_id": "error-likely-climate-signals",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "escalate"
+    },
+    {
+      "source_concept_id": "fundamental-surprise-at-onset",
+      "target": "acute-emotional-regulation.md",
+      "target_concept_id": "acute-emotional-regulation",
+      "text": "Acute emotional regulation"
+    },
+    {
+      "source_concept_id": "fundamental-surprise-at-onset",
+      "target": "crisis-rehearsal.md",
+      "target_concept_id": "crisis-rehearsal",
+      "text": "Crisis rehearsal"
+    },
+    {
+      "source_concept_id": "fundamental-surprise-at-onset",
+      "target": "sacrificing-decisions.md",
+      "target_concept_id": "sacrificing-decisions",
+      "text": "Sacrificing decisions"
+    },
+    {
+      "source_concept_id": "incident-detection-thresholds",
+      "target": "envelope-trespass-escalation-trigger.md",
+      "target_concept_id": "envelope-trespass-escalation-trigger",
+      "text": "envelope trespass escalationtrigger"
+    },
+    {
+      "source_concept_id": "incident-detection-thresholds",
+      "target": "error-likely-climate-signals.md",
+      "target_concept_id": "error-likely-climate-signals",
+      "text": "error-likely climate signals"
+    },
+    {
+      "source_concept_id": "incident-detection-thresholds",
+      "target": "signs-of-life-detection.md",
+      "target_concept_id": "signs-of-life-detection",
+      "text": "signs of life detection"
+    },
+    {
+      "source_concept_id": "incident-escalation-path",
+      "target": "acute-stabilisation-procedures.md",
+      "target_concept_id": "acute-stabilisation-procedures",
+      "text": "acute stabilisationprocedures"
+    },
+    {
+      "source_concept_id": "incident-escalation-path",
+      "target": "autistic-burnout-detection-thresholds.md",
+      "target_concept_id": "autistic-burnout-detection-thresholds",
+      "text": "autistic burnout detectionthresholds"
+    },
+    {
+      "source_concept_id": "incident-escalation-path",
+      "target": "envelope-trespass-escalation-trigger.md",
+      "target_concept_id": "envelope-trespass-escalation-trigger",
+      "text": "envelope trespass escalationtrigger"
+    },
+    {
+      "source_concept_id": "incident-escalation-path",
+      "target": "meltdown-shutdown-runbook.md",
+      "target_concept_id": "meltdown-shutdown-runbook",
+      "text": "meltdown and shutdownrunbook"
+    },
+    {
+      "source_concept_id": "meltdown-shutdown-runbook",
+      "target": "acute-emotional-regulation.md",
+      "target_concept_id": "acute-emotional-regulation",
+      "text": "Acute emotional regulation"
+    },
+    {
+      "source_concept_id": "meltdown-shutdown-runbook",
+      "target": "autistic-burnout-detection-thresholds.md",
+      "target_concept_id": "autistic-burnout-detection-thresholds",
+      "text": "autistic burnout detectionthresholds"
+    },
+    {
+      "source_concept_id": "meltdown-shutdown-runbook",
+      "target": "autistic-stress-state-tracking.md",
+      "target_concept_id": "autistic-stress-state-tracking",
+      "text": "autistic stressstate tracking"
+    },
+    {
+      "source_concept_id": "meltdown-shutdown-runbook",
+      "target": "distress-tolerance-stabilisation.md",
+      "target_concept_id": "distress-tolerance-stabilisation",
+      "text": "Distress tolerance stabilisation"
+    },
+    {
+      "source_concept_id": "meltdown-shutdown-runbook",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incident escalation path"
+    },
+    {
+      "source_concept_id": "meltdown-shutdown-runbook",
+      "target": "operational-mode-envelopes.md",
+      "target_concept_id": "operational-mode-envelopes",
+      "text": "emergency operatingregion"
+    },
+    {
+      "source_concept_id": "meltdown-shutdown-runbook",
+      "target": "post-incident-recovery.md",
+      "target_concept_id": "post-incident-recovery",
+      "text": "post-incident recovery"
+    },
+    {
+      "source_concept_id": "operational-mode-envelopes",
+      "target": "resilience-state-transitions.md",
+      "target_concept_id": "resilience-state-transitions",
+      "text": "resilience statetransitions"
+    },
+    {
+      "source_concept_id": "operational-mode-envelopes",
+      "target": "sacrificing-decisions.md",
+      "target_concept_id": "sacrificing-decisions",
+      "text": "sacrificing decisions"
+    },
+    {
+      "source_concept_id": "post-incident-recovery",
+      "target": "meltdown-shutdown-runbook.md",
+      "target_concept_id": "meltdown-shutdown-runbook",
+      "text": "meltdown and shutdownrunbook"
+    },
+    {
+      "source_concept_id": "post-incident-recovery",
+      "target": "resilience-state-transitions.md",
+      "target_concept_id": "resilience-state-transitions",
+      "text": "Resilience statetransitions"
+    },
+    {
+      "source_concept_id": "post-incident-recovery",
+      "target": "westrum-threat-situation-types.md",
+      "target_concept_id": "westrum-threat-situation-types",
+      "text": "Westrum threat situation types"
+    },
+    {
+      "source_concept_id": "relapse-early-warning-and-action-plan",
+      "target": "incident-detection-thresholds.md",
+      "target_concept_id": "incident-detection-thresholds",
+      "text": "incidentdetection thresholds"
+    },
+    {
+      "source_concept_id": "relapse-early-warning-and-action-plan",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incident escalation path"
+    },
+    {
+      "source_concept_id": "relapse-early-warning-and-action-plan",
+      "target": "rumination-interrupt-runbook.md",
+      "target_concept_id": "rumination-interrupt-runbook",
+      "text": "rumination interruptrunbook"
+    },
+    {
+      "source_concept_id": "relapse-early-warning-and-action-plan",
+      "target": "signs-of-life-detection.md",
+      "target_concept_id": "signs-of-life-detection",
+      "text": "signs of lifedetection"
+    },
+    {
+      "source_concept_id": "resilience-state-transitions",
+      "target": "operational-mode-envelopes.md",
+      "target_concept_id": "operational-mode-envelopes",
+      "text": "operational modeenvelopes"
+    },
+    {
+      "source_concept_id": "resilience-state-transitions",
+      "target": "post-incident-recovery.md",
+      "target_concept_id": "post-incident-recovery",
+      "text": "post-incident recovery"
+    },
+    {
+      "source_concept_id": "resilience-state-transitions",
+      "target": "westrum-threat-situation-types.md",
+      "target_concept_id": "westrum-threat-situation-types",
+      "text": "Westrum threat situationtypes"
+    },
+    {
+      "source_concept_id": "rumination-interrupt-runbook",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incident escalationpath"
+    },
+    {
+      "source_concept_id": "rumination-interrupt-runbook",
+      "target": "post-incident-recovery.md",
+      "target_concept_id": "post-incident-recovery",
+      "text": "post-incidentrecovery"
+    },
+    {
+      "source_concept_id": "sacrificing-decisions",
+      "target": "acute-emotional-regulation.md",
+      "target_concept_id": "acute-emotional-regulation",
+      "text": "acute emotional regulation"
+    },
+    {
+      "source_concept_id": "sacrificing-decisions",
+      "target": "defence-in-depth-tactical-retreat.md",
+      "target_concept_id": "defence-in-depth-tactical-retreat",
+      "text": "defence in depth tacticalretreat"
+    },
+    {
+      "source_concept_id": "signs-of-life-detection",
+      "target": "incident-detection-thresholds.md",
+      "target_concept_id": "incident-detection-thresholds",
+      "text": "Incident detection thresholds"
+    },
+    {
+      "source_concept_id": "signs-of-life-detection",
+      "target": "incident-escalation-path.md",
+      "target_concept_id": "incident-escalation-path",
+      "text": "incident escalation path"
+    },
+    {
+      "source_concept_id": "signs-of-life-detection",
+      "target": "post-incident-recovery.md",
+      "target_concept_id": "post-incident-recovery",
+      "text": "post-incidentrecovery"
+    },
+    {
+      "source_concept_id": "signs-of-life-detection",
+      "target": "relapse-early-warning-and-action-plan.md",
+      "target_concept_id": "relapse-early-warning-and-action-plan",
+      "text": "relapse early warning and actionplan"
+    },
+    {
+      "source_concept_id": "westrum-threat-situation-types",
+      "target": "crisis-rehearsal.md",
+      "target_concept_id": "crisis-rehearsal",
+      "text": "Crisis rehearsal"
+    },
+    {
+      "source_concept_id": "westrum-threat-situation-types",
+      "target": "defence-in-depth-tactical-retreat.md",
+      "target_concept_id": "defence-in-depth-tactical-retreat",
+      "text": "defence in depth tactical retreat"
+    },
+    {
+      "source_concept_id": "westrum-threat-situation-types",
+      "target": "operational-mode-envelopes.md",
+      "target_concept_id": "operational-mode-envelopes",
+      "text": "operational mode envelopes"
+    },
+    {
+      "source_concept_id": "westrum-threat-situation-types",
+      "target": "post-incident-recovery.md",
+      "target_concept_id": "post-incident-recovery",
+      "text": "post-incidentrecovery"
+    },
+    {
+      "source_concept_id": "westrum-threat-situation-types",
+      "target": "resilience-state-transitions.md",
+      "target_concept_id": "resilience-state-transitions",
+      "text": "resiliencestate transitions"
+    },
+    {
+      "source_concept_id": "westrum-threat-situation-types",
+      "target": "sacrificing-decisions.md",
+      "target_concept_id": "sacrificing-decisions",
+      "text": "sacrificing decisions"
+    }
+  ]
+}

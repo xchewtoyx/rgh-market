@@ -1,0 +1,1611 @@
+{
+  "bundle": "capacity-load",
+  "concepts": [
+    {
+      "concept_id": "absorbing-activities-crowd-out-other-commitments",
+      "description": "A highly engaging, high-flow activity can keep drawing time and attention well past the point of being net-positive, silently overdrawing other capacity dimensions and commitments because felt absorption in the moment doesn't signal the overdraw the way fatigue on a less engaging task would.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.013226876958068103,
+      "title": "Absorbing Activities Crowd Out Other Commitments"
+    },
+    {
+      "concept_id": "action-before-motivation-in-low-mood",
+      "description": "When mood is depressed, wanting to act often follows doing, not the other way around — so pacing plans must schedule small actions as experiments rather than waiting for felt readiness.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0036538811525077502,
+      "title": "Action Before Motivation in Low Mood"
+    },
+    {
+      "concept_id": "activation-recovery-rate-asymmetry",
+      "description": "Entering a stress-activated state is fast and spreads system-wide, while recovering from it is slower and propagates more selectively, so recovery time is not the mirror image of activation time.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.07909649194284334,
+      "title": "Activation and Recovery Have Asymmetric Rates"
+    },
+    {
+      "concept_id": "acute-and-chronic-fatigue",
+      "description": "Fatigue from inadequate recovery between demands (acute) and from accumulated shortfalls over time (chronic) both reduce performance headroom, but chronic fatigue is easier to underestimate because impairment creeps in gradually and often goes unnoticed.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.004285171977929738,
+      "title": "Acute and Chronic Fatigue"
+    },
+    {
+      "concept_id": "body-budget-as-cognitive-baseline",
+      "description": "Physical depletion — hunger, fatigue, poor sleep, illness — shrinks effective mental capacity because the brain cannot regulate well from a physically bankrupt body.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 5,
+      "pagerank": 0.005391428705480409,
+      "title": "Body Budget as Cognitive Baseline"
+    },
+    {
+      "concept_id": "camouflaging-extends-demand-beyond-interaction",
+      "description": "Masking load often begins before a social event (planning, rehearsal) and continues after it (recovery, decompression), so the true capacity cost spans a wider window than the visible interaction alone.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.003943703385927362,
+      "title": "Camouflaging Extends Demand Beyond the Interaction"
+    },
+    {
+      "concept_id": "capacity-load-triage-menu",
+      "description": "When demand approaches saturation, only three families of response exist — add capacity, adjust limits by removing stressors, or remove load — and the right mix depends on how close to yield the person already was.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.012502731661626111,
+      "title": "Capacity Load Triage Menu"
+    },
+    {
+      "concept_id": "capacity-yield-point",
+      "description": "Demand on a person can increase with manageable compensation up to a yield point, beyond which functioning degrades permanently for that episode until load is removed and recovery completes.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.007898321450843213,
+      "title": "Capacity Yield Point"
+    },
+    {
+      "concept_id": "challenge-skill-balance",
+      "description": "Sustained absorbed engagement requires task difficulty calibrated just above current skill — too easy leaves spare capacity that wanders, too hard produces overwhelm, and the band shifts upward as skill grows.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.044779111042569875,
+      "title": "Challenge-Skill Balance"
+    },
+    {
+      "concept_id": "collaboration-overload-as-hidden-demand",
+      "description": "Poorly managed teamwork can consume most of the working day in meetings and interruptions, leaving no blocks large enough for deep work and distributing collaborative load unevenly onto a few people.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.002584660308892841,
+      "title": "Collaboration Overload as Hidden Demand"
+    },
+    {
+      "concept_id": "completing-the-stress-response-cycle",
+      "description": "Recovering from acute stress load requires physiologically discharging the accumulated stress-response energy, not merely removing the trigger that caused it.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.09001433840275219,
+      "title": "Completing the Stress-Response Cycle"
+    },
+    {
+      "concept_id": "consistent-sleep-window-protocol",
+      "description": "Holding a fixed wake time and a deliberately bounded sleep window — then expanding bedtime only after sleep quality improves — rebuilds sleep as a reliable capacity-restoration channel faster than varying schedule by how tired you feel each night.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0034860395126711653,
+      "title": "Consistent Sleep Window Protocol"
+    },
+    {
+      "concept_id": "cross-dimensional-saturation-cascade",
+      "description": "Unaddressed saturation in one dimension of capacity does not stay contained there — it degrades headroom in other dimensions even though the demand on those other dimensions hasn't changed.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 2,
+      "pagerank": 0.033506209200992156,
+      "title": "Cross-Dimensional Saturation Cascade"
+    },
+    {
+      "concept_id": "day-quadrants-instead-of-all-or-nothing-days",
+      "description": "Splitting the day into bounded segments gives multiple fresh starts when one block goes poorly, countering the trap of writing off an entire day after a bad morning.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.002584660308892841,
+      "title": "Day Quadrants Instead of All-or-Nothing Days"
+    },
+    {
+      "concept_id": "deep-work-minimum-block-size",
+      "description": "Cognitively demanding work typically needs several consecutive uninterrupted hours before the effort pays off, so schedules fragmented below that threshold systematically waste capacity on restart cost.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0033169807447095846,
+      "title": "Deep-Work Minimum Block Size"
+    },
+    {
+      "concept_id": "delegation-as-capacity-multiplier",
+      "description": "Handing off tasks others can do better or cheaper frees attention for work only you can do — refusing to delegate is often a capacity problem disguised as virtue or control.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.003944597407257271,
+      "title": "Delegation as Capacity Multiplier"
+    },
+    {
+      "concept_id": "depressed-fatigue-calls-for-activity-not-rest",
+      "description": "Fatigue from low mood is not ordinary tiredness — resting often deepens it — so the capacity move when mood is flat is short, scheduled activity, not more downtime.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.005031627372644731,
+      "title": "Depressed Fatigue Calls for Activity Not Rest"
+    },
+    {
+      "concept_id": "designing-around-capacity-limits",
+      "description": "Treating recurring sensory, energy, and social limits as real constraints to design commitments around — rather than as failures to overcome — prevents the repeated overshoot-and-crash pattern that comes from ignoring them.",
+      "inbound_link_count": 8,
+      "outbound_link_count": 4,
+      "pagerank": 0.017184990874437256,
+      "title": "Designing Around Capacity Limits"
+    },
+    {
+      "concept_id": "dimension-matched-recovery",
+      "description": "Recovery is more effective when the recovery activity targets the same dimension that was actually depleted, rather than defaulting to a generic notion of \"rest.\"",
+      "inbound_link_count": 9,
+      "outbound_link_count": 5,
+      "pagerank": 0.02253687795903173,
+      "title": "Dimension-Matched Recovery"
+    },
+    {
+      "concept_id": "dimensions-of-personal-capacity",
+      "description": "Personal capacity is better modelled as several independently-saturating dimensions — sensory, physical, emotional, cognitive, and social — than as one undifferentiated pool of energy.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 2,
+      "pagerank": 0.039659839707584896,
+      "title": "Dimensions of Personal Capacity"
+    },
+    {
+      "concept_id": "effortful-social-mentalizing-tax",
+      "description": "When social cues are not absorbed automatically through mirror-neuron simulation, the brain must actively decode tone, expression, and implied meaning — adding a continuous cognitive tax on top of the interaction itself.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.002584660308892841,
+      "title": "Effortful Social Mentalizing Tax"
+    },
+    {
+      "concept_id": "elevated-baseline-cognitive-idle-cost",
+      "description": "Some brains run a higher resting cognitive \"noise\" level and maintain more neural connections than typical, so capacity is spent on baseline upkeep before any task demand is added — the same energy pool that fuels deliberate thinking also funds that idle overhead.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.010473799215316361,
+      "title": "Elevated Baseline Cognitive Idle Cost"
+    },
+    {
+      "concept_id": "energy-rated-task-lists",
+      "description": "Colour-coding tasks by energy cost and matching them to the day's available energy — not just available time — prevents planning that assumes full headroom every morning.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.002584660308892841,
+      "title": "Energy-Rated Task Lists"
+    },
+    {
+      "concept_id": "environmental-mismatch-as-source-of-struggle",
+      "description": "A struggle that looks like a fixed personal deficit can instead be a demand/capacity mismatch created by the environment; changing the environment to match actual capacity can resolve the struggle entirely without any change in underlying skill.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.006785712951946549,
+      "title": "Environmental Mismatch as the Source of Disabling Struggle"
+    },
+    {
+      "concept_id": "environmental-trial-run-before-novel-demands",
+      "description": "Previewing a new place or route before full exposure converts abstract unpredictability into processed detail, lowering the spike load of first-time environments.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.002584660308892841,
+      "title": "Environmental Trial Run Before Novel Demands"
+    },
+    {
+      "concept_id": "exhaustion-funnel-from-dropping-nourishing-activities",
+      "description": "Under sustained load, people often shed optional nourishing activities first while keeping obligatory stressors — narrowing life until only depleting demands remain and capacity spirals down further.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.0046891475033951574,
+      "title": "Exhaustion Funnel From Dropping Nourishing Activities"
+    },
+    {
+      "concept_id": "fallback-to-known-cost-options-under-load",
+      "description": "Deliberately keeping a stock of low-variance, already-evaluated choices (a routine, a \"safe\" option) for use when headroom is low avoids spending scarce capacity on evaluating novelty, at the cost of variety.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.011716466039654115,
+      "title": "Fallback to Known-Cost Options Under Load"
+    },
+    {
+      "concept_id": "glucose-and-effortful-cognition",
+      "description": "Effortful mental work including self-control measurably draws down blood glucose, and restoring it can prevent the performance drop that otherwise follows a depleting task.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.02794146163175821,
+      "title": "Glucose and Effortful Cognition"
+    },
+    {
+      "concept_id": "graded-task-decomposition-for-low-headroom",
+      "description": "When available capacity is low, success depends on decomposing demands into steps small enough to complete at the current level — including time-boxed goals — rather than matching neurotypical task size.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.0058168879672304795,
+      "title": "Graded Task Decomposition for Low Headroom"
+    },
+    {
+      "concept_id": "historical-sensitization-amplifies-demand-cost",
+      "description": "A demand's capacity cost is not fixed by its surface-level content alone — a stressor that lands on an unresolved past wound draws substantially more capacity than the same stressor would otherwise, because present distress compounds with old, unprocessed distress.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 0,
+      "pagerank": 0.002584660308892841,
+      "title": "Historical Sensitization Amplifies Demand Cost"
+    },
+    {
+      "concept_id": "hyperfocus-bypasses-interoception-and-time",
+      "description": "Deep absorption can suppress hunger, bathroom, and clock cues until crisis level — adding a hidden recovery cost and requiring external timers when internal signals are unreliable.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.005330861943205629,
+      "title": "Hyperfocus Bypasses Interoception and Time"
+    },
+    {
+      "concept_id": "identify-isolate-transfer-for-pacing",
+      "description": "A coping skill developed in one context can be repurposed for capacity pacing elsewhere by stripping it to its active ingredient and reapplying that mechanism across dimensions or disabilities.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.002584660308892841,
+      "title": "Identify-Isolate-Transfer for Pacing"
+    },
+    {
+      "concept_id": "law-of-least-effort",
+      "description": "Given several ways to reach the same goal, people gravitate toward the least attention-demanding path — effort is a cost in the economy of action, and this bias shapes both habit formation and capacity planning.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.009054603126496679,
+      "title": "Law of Least Effort"
+    },
+    {
+      "concept_id": "limited-attention-budget",
+      "description": "Attention is a finite resource allocated across activities, and effortful tasks interfere with each other when their combined demand exceeds that budget — even when each task alone seems manageable.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 3,
+      "pagerank": 0.01944420797016156,
+      "title": "Limited Attention Budget"
+    },
+    {
+      "concept_id": "maintain-recover-reload-cycle",
+      "description": "A three-part pacing cycle — fund baseline capacity, shed guilt and excess demand, then restore motivation through interest-matched input — coordinates prevention, demand reduction, and replenishment instead of treating any one as sufficient alone.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 6,
+      "pagerank": 0.009599552744813842,
+      "title": "Maintain-Recover-Reload Cycle"
+    },
+    {
+      "concept_id": "masking-as-hidden-capacity-drain",
+      "description": "Suppressing natural self-regulating behaviour to appear \"fine\" consumes capacity on top of the task itself, so the visible task load understates true demand.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 4,
+      "pagerank": 0.029395870434855986,
+      "title": "Masking as a Hidden Capacity Drain"
+    },
+    {
+      "concept_id": "movement-suppression-as-hidden-capacity-drain",
+      "description": "Holding the body still through sustained muscular effort — not relaxed calm — consumes capacity continuously, so \"sitting quietly\" can be more demanding than visible movement.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.01661144586009523,
+      "title": "Movement Suppression as Hidden Capacity Drain"
+    },
+    {
+      "concept_id": "nervous-system-load-model",
+      "description": "A model in which a person's nervous system absorbs sensory, social, and informational input with less internal filtering, so their capacity depletes faster than a \"typical\" baseline would predict.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 4,
+      "pagerank": 0.03195601810903327,
+      "title": "Nervous-System-on-the-Outside Load Model"
+    },
+    {
+      "concept_id": "net-capacity-effect-depends-on-activity-fit",
+      "description": "The same category of activity can be net-depleting or net-restorative depending on whether it fits the person's sensory, social, and physical preferences, not on the activity category itself.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 2,
+      "pagerank": 0.038694231530993335,
+      "title": "Net Capacity Effect Depends on Activity Fit"
+    },
+    {
+      "concept_id": "nourishing-versus-depleting-activity-balance",
+      "description": "Daily activities differ in net capacity effect — some refill headroom, others drain it — and pacing requires auditing the mix, not only total hours busy or free.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.004982472977958598,
+      "title": "Nourishing Versus Depleting Activity Balance"
+    },
+    {
+      "concept_id": "optimal-stimulation-range",
+      "description": "Focused output is maximized within a personal range of ambient stimulation rather than simply below a ceiling — both under- and over-stimulation degrade functioning, so headroom management has to guard a floor as well as a cap.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.04082888551976596,
+      "title": "Optimal Stimulation Range"
+    },
+    {
+      "concept_id": "oscillating-performance-under-overload",
+      "description": "When total demand exceeds sustainable load, output often alternates between hyperfocused overdelivery and bare-minimum shutdown — looking like inconsistency but reflecting a capacity problem, not capability.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.002584660308892841,
+      "title": "Oscillating Performance Under Overload"
+    },
+    {
+      "concept_id": "precommitted-demand-shedding",
+      "description": "Deciding in advance, while headroom is available, which demands can be dropped and under what circumstances avoids having to spend scarce evaluation capacity on that decision during a period of low headroom.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 2,
+      "pagerank": 0.02148660067212406,
+      "title": "Precommitted Demand-Shedding"
+    },
+    {
+      "concept_id": "proactive-recovery-scheduling",
+      "description": "Scheduling recovery periods before saturation is reached is more effective than taking recovery only reactively after a breakdown, because by the time reactive recovery is triggered the deficit is already much larger.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 0,
+      "pagerank": 0.012960329908509514,
+      "title": "Proactive Recovery Scheduling"
+    },
+    {
+      "concept_id": "restorative-rest-vs-cheap-rest",
+      "description": "Not all activities that look or feel like rest actually restore capacity; some give fleeting relief while leaving net capacity lower, so recovery value must be measured by actual rejuvenation, not by social convention or immediate gratification.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.023019249447425616,
+      "title": "Restorative Rest versus Cheap Rest"
+    },
+    {
+      "concept_id": "routine-as-decision-capacity-preservation",
+      "description": "Standardizing low-stakes choices (meals, commute, morning sequence) frees executive and decision capacity for demands that actually vary, especially when the baseline depletion rate is already high.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 6,
+      "pagerank": 0.004423924397986448,
+      "title": "Routine as Decision-Capacity Preservation"
+    },
+    {
+      "concept_id": "rumination-as-continuous-cognitive-demand",
+      "description": "Repetitive dwelling on guilt, sadness, or self-directed anger consumes capacity continuously in the background — not only during focused tasks — so headroom can shrink even when nothing new is being done.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.002584660308892841,
+      "title": "Rumination as Continuous Cognitive Demand"
+    },
+    {
+      "concept_id": "schedule-around-energy-patterns",
+      "description": "Capacity availability varies predictably across the day for a given person, so scheduling demanding work against that individual pattern uses fewer total hours to produce more usable output than scheduling by uniform clock time.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.0044154613984347,
+      "title": "Schedule Around Energy Patterns, Not Just Clock Time"
+    },
+    {
+      "concept_id": "scheduled-batching-of-recurring-demand",
+      "description": "Confining a recurring, capacity-consuming activity to one fixed time window and deferring intrusions outside it prevents that demand from draining capacity continuously throughout the day.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.009630317074832246,
+      "title": "Scheduled Batching of Recurring Demand"
+    },
+    {
+      "concept_id": "scheduled-work-boundaries-for-guilt-free-rest",
+      "description": "When work and personal time share the same space, explicitly scheduling stressful obligations and separating work channels from personal ones frees off-hours rest from the feeling that relaxation is slacking.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.003944597407257271,
+      "title": "Scheduled Work Boundaries for Guilt-Free Rest"
+    },
+    {
+      "concept_id": "scheduling-isolated-blocks-underestimates-cumulative-load",
+      "description": "Planning each demand as a standalone block without modeling how deficits accumulate across a sequence systematically under-counts end-of-period fatigue and recovery need.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.0037606232769731756,
+      "title": "Scheduling Isolated Blocks Underestimates Cumulative Load"
+    },
+    {
+      "concept_id": "self-maintenance-as-preventive-capacity-work",
+      "description": "Baseline routines that fund physical and cognitive capacity are preventive maintenance — done before the day starts so breakdown is less likely — not luxury \"self-care\" reserved for after everything else is finished.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.004861140368034034,
+      "title": "Self-Maintenance as Preventive Capacity Work"
+    },
+    {
+      "concept_id": "self-regulatory-resource-replenishment",
+      "description": "After voluntary-effort depletion, specific inputs — rest breaks, glucose, exercise, rewards, and positive affect — restore the shared self-regulation budget faster than simply waiting.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.030311721117935782,
+      "title": "Factors That Replenish the Self-Regulatory Pool"
+    },
+    {
+      "concept_id": "shared-pool-of-voluntary-effort",
+      "description": "Self-control, deliberate thought, and other voluntary effort draw on a common limited budget, so spending it on one demand leaves less for the next even when the tasks look unrelated.",
+      "inbound_link_count": 10,
+      "outbound_link_count": 3,
+      "pagerank": 0.05594795421376512,
+      "title": "Shared Pool of Voluntary Effort"
+    },
+    {
+      "concept_id": "skill-reduces-cognitive-demand",
+      "description": "As skill in a task grows, the same performance requires less attention and less physiological effort — a key mechanism by which practice increases effective headroom without raising raw capacity limits.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.006432866787892419,
+      "title": "Skill Reduces Cognitive Demand"
+    },
+    {
+      "concept_id": "sleep-debt-compounds-across-dimensions",
+      "description": "Sleep is a primary channel for overnight capacity restoration, so a sleep shortfall doesn't just cause tiredness — it directly degrades next-day cognitive and emotional headroom, compounding the deficit.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 7,
+      "pagerank": 0.007423121981749908,
+      "title": "Sleep Debt Compounds Across Dimensions"
+    },
+    {
+      "concept_id": "social-energy-as-spendable-capacity",
+      "description": "Social interaction draws on a limited, individually-sized pool of social capacity that depletes faster under high-pressure formats and recovers only with time alone or lower-cost connection.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 7,
+      "pagerank": 0.008328730159265165,
+      "title": "Social Energy as Spendable Capacity"
+    },
+    {
+      "concept_id": "stimming-as-real-time-capacity-regulation",
+      "description": "Self-stimulatory movement, sound, or touch can offload sensory and emotional load in the moment — restoring attention and preventing escalation — so suppressing stims raises true demand on top of the task.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.027459353649848934,
+      "title": "Stimming as Real-Time Capacity Regulation"
+    },
+    {
+      "concept_id": "sustainable-effort-margin",
+      "description": "Deliberately operating below maximum perceived effort, rather than at it, sustains higher output over time than an intermittent maximum-effort/crash cycle, because running without margin leaves no headroom to absorb variance or recover.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.0071177500148474,
+      "title": "Sustainable Effort Margin"
+    },
+    {
+      "concept_id": "task-switching-cost",
+      "description": "Moving between dissimilar tasks incurs a refocusing cost on top of the tasks' own demand, and this switching cost is amplified for some people, making batching similar work a distinct capacity-saving lever from reducing task count.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 3,
+      "pagerank": 0.022655060712630758,
+      "title": "Task-Switching Cost"
+    },
+    {
+      "concept_id": "transition-bridges-for-autistic-inertia",
+      "description": "Keeping one sensory or attention constant across a task change softens the cost of moving from rest to action or from one activity to another when inertia makes both starts and stops expensive.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.002584660308892841,
+      "title": "Transition Bridges for Autistic Inertia"
+    },
+    {
+      "concept_id": "vagal-tone-and-recovery-capacity",
+      "description": "Baseline vagal tone governs how flexibly the nervous system adapts to and recovers from stress, and functions as a trainable parameter of the recovery rate itself rather than a fixed trait.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.014017594282237781,
+      "title": "Vagal Tone as a Determinant of Recovery Capacity"
+    },
+    {
+      "concept_id": "vague-instructions-amplify-cognitive-demand",
+      "description": "Imprecise requests force extra computation to infer what, when, and why before work can start — a hidden attention cost that literal thinkers and anyone under load pay disproportionately.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.002584660308892841,
+      "title": "Vague Instructions Amplify Cognitive Demand"
+    },
+    {
+      "concept_id": "waiting-mode-locks-capacity-before-events",
+      "description": "A later appointment can consume the whole day in anxious limbo when working memory, hyperfocus risk, time blindness, and decision paralysis combine — leaving no productive headroom before the event even starts.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.002584660308892841,
+      "title": "Waiting Mode Locks Capacity Before Events"
+    },
+    {
+      "concept_id": "window-of-tolerance",
+      "description": "A model of saturation as a bounded operating zone with two failure thresholds — hyperarousal above it, hypoarousal below it — whose width is itself a capacity parameter that varies by person and can be trained.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.026900996174078345,
+      "title": "Window of Tolerance"
+    },
+    {
+      "concept_id": "working-memory-as-cognitive-capacity-buffer",
+      "description": "Working memory holds and manipulates information for immediate use, and its effective capacity shrinks when other demands — masking, sensory processing, anxiety — already occupy slots in the same buffer.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 4,
+      "pagerank": 0.004521177952006392,
+      "title": "Working Memory as Cognitive Capacity Buffer"
+    },
+    {
+      "concept_id": "workload-flexibility-as-capacity-lever",
+      "description": "Adjusting schedule, workload intensity, and continuity of employment — not just where work happens — lets people align demand with their actual capacity curve instead of forcing a single pattern on everyone.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.002584660308892841,
+      "title": "Workload Flexibility as a Capacity Lever"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "absorbing-activities-crowd-out-other-commitments",
+      "target": "challenge-skill-balance.md",
+      "target_concept_id": "challenge-skill-balance",
+      "text": "challenge-skillbalance"
+    },
+    {
+      "source_concept_id": "absorbing-activities-crowd-out-other-commitments",
+      "target": "precommitted-demand-shedding.md",
+      "target_concept_id": "precommitted-demand-shedding",
+      "text": "precommitted demand-shedding"
+    },
+    {
+      "source_concept_id": "action-before-motivation-in-low-mood",
+      "target": "depressed-fatigue-calls-for-activity-not-rest.md",
+      "target_concept_id": "depressed-fatigue-calls-for-activity-not-rest",
+      "text": "depressed fatigue calls for activity notrest"
+    },
+    {
+      "source_concept_id": "action-before-motivation-in-low-mood",
+      "target": "exhaustion-funnel-from-dropping-nourishing-activities.md",
+      "target_concept_id": "exhaustion-funnel-from-dropping-nourishing-activities",
+      "text": "exhaustion funnel from dropping nourishingactivities"
+    },
+    {
+      "source_concept_id": "action-before-motivation-in-low-mood",
+      "target": "graded-task-decomposition-for-low-headroom.md",
+      "target_concept_id": "graded-task-decomposition-for-low-headroom",
+      "text": "graded task decomposition for lowheadroom"
+    },
+    {
+      "source_concept_id": "activation-recovery-rate-asymmetry",
+      "target": "completing-the-stress-response-cycle.md",
+      "target_concept_id": "completing-the-stress-response-cycle",
+      "text": "completing the stress-responsecycle"
+    },
+    {
+      "source_concept_id": "acute-and-chronic-fatigue",
+      "target": "proactive-recovery-scheduling.md",
+      "target_concept_id": "proactive-recovery-scheduling",
+      "text": "proactive recoveryscheduling"
+    },
+    {
+      "source_concept_id": "acute-and-chronic-fatigue",
+      "target": "sleep-debt-compounds-across-dimensions.md",
+      "target_concept_id": "sleep-debt-compounds-across-dimensions",
+      "text": "sleep debt compoundsacross dimensions"
+    },
+    {
+      "source_concept_id": "body-budget-as-cognitive-baseline",
+      "target": "dimensions-of-personal-capacity.md",
+      "target_concept_id": "dimensions-of-personal-capacity",
+      "text": "dimensions of personalcapacity"
+    },
+    {
+      "source_concept_id": "body-budget-as-cognitive-baseline",
+      "target": "glucose-and-effortful-cognition.md",
+      "target_concept_id": "glucose-and-effortful-cognition",
+      "text": "glucose and effortful cognition"
+    },
+    {
+      "source_concept_id": "body-budget-as-cognitive-baseline",
+      "target": "nervous-system-load-model.md",
+      "target_concept_id": "nervous-system-load-model",
+      "text": "nervous-system-on-the-outside loadmodel"
+    },
+    {
+      "source_concept_id": "body-budget-as-cognitive-baseline",
+      "target": "self-maintenance-as-preventive-capacity-work.md",
+      "target_concept_id": "self-maintenance-as-preventive-capacity-work",
+      "text": "self-maintenance as preventive capacitywork"
+    },
+    {
+      "source_concept_id": "body-budget-as-cognitive-baseline",
+      "target": "sleep-debt-compounds-across-dimensions.md",
+      "target_concept_id": "sleep-debt-compounds-across-dimensions",
+      "text": "sleep debt compoundsacross dimensions"
+    },
+    {
+      "source_concept_id": "camouflaging-extends-demand-beyond-interaction",
+      "target": "dimension-matched-recovery.md",
+      "target_concept_id": "dimension-matched-recovery",
+      "text": "dimension-matchedrecovery"
+    },
+    {
+      "source_concept_id": "camouflaging-extends-demand-beyond-interaction",
+      "target": "limited-attention-budget.md",
+      "target_concept_id": "limited-attention-budget",
+      "text": "limited attentionbudget"
+    },
+    {
+      "source_concept_id": "camouflaging-extends-demand-beyond-interaction",
+      "target": "masking-as-hidden-capacity-drain.md",
+      "target_concept_id": "masking-as-hidden-capacity-drain",
+      "text": "masking as a hidden capacitydrain"
+    },
+    {
+      "source_concept_id": "camouflaging-extends-demand-beyond-interaction",
+      "target": "working-memory-as-cognitive-capacity-buffer.md",
+      "target_concept_id": "working-memory-as-cognitive-capacity-buffer",
+      "text": "workingmemory"
+    },
+    {
+      "source_concept_id": "capacity-load-triage-menu",
+      "target": "capacity-yield-point.md",
+      "target_concept_id": "capacity-yield-point",
+      "text": "capacity yield point"
+    },
+    {
+      "source_concept_id": "capacity-load-triage-menu",
+      "target": "precommitted-demand-shedding.md",
+      "target_concept_id": "precommitted-demand-shedding",
+      "text": "precommitted demandshedding"
+    },
+    {
+      "source_concept_id": "capacity-yield-point",
+      "target": "capacity-load-triage-menu.md",
+      "target_concept_id": "capacity-load-triage-menu",
+      "text": "capacity load triage menu"
+    },
+    {
+      "source_concept_id": "challenge-skill-balance",
+      "target": "optimal-stimulation-range.md",
+      "target_concept_id": "optimal-stimulation-range",
+      "text": "optimalstimulation range"
+    },
+    {
+      "source_concept_id": "challenge-skill-balance",
+      "target": "shared-pool-of-voluntary-effort.md",
+      "target_concept_id": "shared-pool-of-voluntary-effort",
+      "text": "self-control within the shared pool of voluntaryeffort"
+    },
+    {
+      "source_concept_id": "collaboration-overload-as-hidden-demand",
+      "target": "deep-work-minimum-block-size.md",
+      "target_concept_id": "deep-work-minimum-block-size",
+      "text": "deep-work minimum block size"
+    },
+    {
+      "source_concept_id": "collaboration-overload-as-hidden-demand",
+      "target": "sustainable-effort-margin.md",
+      "target_concept_id": "sustainable-effort-margin",
+      "text": "sustainable effortmargin"
+    },
+    {
+      "source_concept_id": "collaboration-overload-as-hidden-demand",
+      "target": "task-switching-cost.md",
+      "target_concept_id": "task-switching-cost",
+      "text": "task-switching cost"
+    },
+    {
+      "source_concept_id": "completing-the-stress-response-cycle",
+      "target": "activation-recovery-rate-asymmetry.md",
+      "target_concept_id": "activation-recovery-rate-asymmetry",
+      "text": "activation and recovery have asymmetricrates"
+    },
+    {
+      "source_concept_id": "consistent-sleep-window-protocol",
+      "target": "body-budget-as-cognitive-baseline.md",
+      "target_concept_id": "body-budget-as-cognitive-baseline",
+      "text": "body budget ascognitive baseline"
+    },
+    {
+      "source_concept_id": "consistent-sleep-window-protocol",
+      "target": "dimensions-of-personal-capacity.md",
+      "target_concept_id": "dimensions-of-personal-capacity",
+      "text": "dimensions of personalcapacity"
+    },
+    {
+      "source_concept_id": "consistent-sleep-window-protocol",
+      "target": "routine-as-decision-capacity-preservation.md",
+      "target_concept_id": "routine-as-decision-capacity-preservation",
+      "text": "routine as decision-capacitypreservation"
+    },
+    {
+      "source_concept_id": "consistent-sleep-window-protocol",
+      "target": "sleep-debt-compounds-across-dimensions.md",
+      "target_concept_id": "sleep-debt-compounds-across-dimensions",
+      "text": "sleep debt compounds acrossdimensions"
+    },
+    {
+      "source_concept_id": "cross-dimensional-saturation-cascade",
+      "target": "completing-the-stress-response-cycle.md",
+      "target_concept_id": "completing-the-stress-response-cycle",
+      "text": "completing the stress-responsecycle"
+    },
+    {
+      "source_concept_id": "cross-dimensional-saturation-cascade",
+      "target": "dimensions-of-personal-capacity.md",
+      "target_concept_id": "dimensions-of-personal-capacity",
+      "text": "dimension of capacity"
+    },
+    {
+      "source_concept_id": "day-quadrants-instead-of-all-or-nothing-days",
+      "target": "graded-task-decomposition-for-low-headroom.md",
+      "target_concept_id": "graded-task-decomposition-for-low-headroom",
+      "text": "graded task decomposition for lowheadroom"
+    },
+    {
+      "source_concept_id": "day-quadrants-instead-of-all-or-nothing-days",
+      "target": "task-switching-cost.md",
+      "target_concept_id": "task-switching-cost",
+      "text": "task-switching cost"
+    },
+    {
+      "source_concept_id": "deep-work-minimum-block-size",
+      "target": "task-switching-cost.md",
+      "target_concept_id": "task-switching-cost",
+      "text": "task-switchingcost"
+    },
+    {
+      "source_concept_id": "delegation-as-capacity-multiplier",
+      "target": "designing-around-capacity-limits.md",
+      "target_concept_id": "designing-around-capacity-limits",
+      "text": "designing around capacitylimits"
+    },
+    {
+      "source_concept_id": "delegation-as-capacity-multiplier",
+      "target": "maintain-recover-reload-cycle.md",
+      "target_concept_id": "maintain-recover-reload-cycle",
+      "text": "maintain-recover-reloadcycle"
+    },
+    {
+      "source_concept_id": "delegation-as-capacity-multiplier",
+      "target": "precommitted-demand-shedding.md",
+      "target_concept_id": "precommitted-demand-shedding",
+      "text": "precommitted demand-shedding"
+    },
+    {
+      "source_concept_id": "depressed-fatigue-calls-for-activity-not-rest",
+      "target": "action-before-motivation-in-low-mood.md",
+      "target_concept_id": "action-before-motivation-in-low-mood",
+      "text": "Action before motivation in low mood"
+    },
+    {
+      "source_concept_id": "depressed-fatigue-calls-for-activity-not-rest",
+      "target": "dimension-matched-recovery.md",
+      "target_concept_id": "dimension-matched-recovery",
+      "text": "dimension-matched recovery"
+    },
+    {
+      "source_concept_id": "depressed-fatigue-calls-for-activity-not-rest",
+      "target": "exhaustion-funnel-from-dropping-nourishing-activities.md",
+      "target_concept_id": "exhaustion-funnel-from-dropping-nourishing-activities",
+      "text": "exhaustion funnel from droppingnourishing activities"
+    },
+    {
+      "source_concept_id": "depressed-fatigue-calls-for-activity-not-rest",
+      "target": "nourishing-versus-depleting-activity-balance.md",
+      "target_concept_id": "nourishing-versus-depleting-activity-balance",
+      "text": "nourishing versus depleting activitybalance"
+    },
+    {
+      "source_concept_id": "designing-around-capacity-limits",
+      "target": "environmental-mismatch-as-source-of-struggle.md",
+      "target_concept_id": "environmental-mismatch-as-source-of-struggle",
+      "text": "environmental mismatch as the source of disablingstruggle"
+    },
+    {
+      "source_concept_id": "designing-around-capacity-limits",
+      "target": "net-capacity-effect-depends-on-activity-fit.md",
+      "target_concept_id": "net-capacity-effect-depends-on-activity-fit",
+      "text": "net capacity effect depends on activityfit"
+    },
+    {
+      "source_concept_id": "designing-around-capacity-limits",
+      "target": "proactive-recovery-scheduling.md",
+      "target_concept_id": "proactive-recovery-scheduling",
+      "text": "proactive recoveryscheduling"
+    },
+    {
+      "source_concept_id": "designing-around-capacity-limits",
+      "target": "social-energy-as-spendable-capacity.md",
+      "target_concept_id": "social-energy-as-spendable-capacity",
+      "text": "social energyas spendable capacity"
+    },
+    {
+      "source_concept_id": "dimension-matched-recovery",
+      "target": "cross-dimensional-saturation-cascade.md",
+      "target_concept_id": "cross-dimensional-saturation-cascade",
+      "text": "cross-dimensional saturationcascade"
+    },
+    {
+      "source_concept_id": "dimension-matched-recovery",
+      "target": "dimension-matched-recovery.md",
+      "target_concept_id": "dimension-matched-recovery",
+      "text": "dimension-matched recovery"
+    },
+    {
+      "source_concept_id": "dimension-matched-recovery",
+      "target": "dimensions-of-personal-capacity.md",
+      "target_concept_id": "dimensions-of-personal-capacity",
+      "text": "capacity is one undifferentiated pool"
+    },
+    {
+      "source_concept_id": "dimension-matched-recovery",
+      "target": "maintain-recover-reload-cycle.md",
+      "target_concept_id": "maintain-recover-reload-cycle",
+      "text": "maintain-recover-reloadcycle"
+    },
+    {
+      "source_concept_id": "dimension-matched-recovery",
+      "target": "net-capacity-effect-depends-on-activity-fit.md",
+      "target_concept_id": "net-capacity-effect-depends-on-activity-fit",
+      "text": "net capacity effect depends on activityfit"
+    },
+    {
+      "source_concept_id": "dimensions-of-personal-capacity",
+      "target": "cross-dimensional-saturation-cascade.md",
+      "target_concept_id": "cross-dimensional-saturation-cascade",
+      "text": "saturation in one dimension cascades into the others"
+    },
+    {
+      "source_concept_id": "dimensions-of-personal-capacity",
+      "target": "nervous-system-load-model.md",
+      "target_concept_id": "nervous-system-load-model",
+      "text": "nervous-system load model"
+    },
+    {
+      "source_concept_id": "effortful-social-mentalizing-tax",
+      "target": "dimension-matched-recovery.md",
+      "target_concept_id": "dimension-matched-recovery",
+      "text": "dimension-matchedrecovery"
+    },
+    {
+      "source_concept_id": "effortful-social-mentalizing-tax",
+      "target": "masking-as-hidden-capacity-drain.md",
+      "target_concept_id": "masking-as-hidden-capacity-drain",
+      "text": "masking as a hidden capacitydrain"
+    },
+    {
+      "source_concept_id": "effortful-social-mentalizing-tax",
+      "target": "social-energy-as-spendable-capacity.md",
+      "target_concept_id": "social-energy-as-spendable-capacity",
+      "text": "social energy as spendablecapacity"
+    },
+    {
+      "source_concept_id": "elevated-baseline-cognitive-idle-cost",
+      "target": "nervous-system-load-model.md",
+      "target_concept_id": "nervous-system-load-model",
+      "text": "nervous-system-on-the-outsideload model"
+    },
+    {
+      "source_concept_id": "elevated-baseline-cognitive-idle-cost",
+      "target": "shared-pool-of-voluntary-effort.md",
+      "target_concept_id": "shared-pool-of-voluntary-effort",
+      "text": "shared pool of voluntaryeffort"
+    },
+    {
+      "source_concept_id": "energy-rated-task-lists",
+      "target": "capacity-load-triage-menu.md",
+      "target_concept_id": "capacity-load-triage-menu",
+      "text": "capacity-load triage menu"
+    },
+    {
+      "source_concept_id": "energy-rated-task-lists",
+      "target": "schedule-around-energy-patterns.md",
+      "target_concept_id": "schedule-around-energy-patterns",
+      "text": "schedule around energy patterns"
+    },
+    {
+      "source_concept_id": "energy-rated-task-lists",
+      "target": "shared-pool-of-voluntary-effort.md",
+      "target_concept_id": "shared-pool-of-voluntary-effort",
+      "text": "shared pool of voluntary effort"
+    },
+    {
+      "source_concept_id": "environmental-mismatch-as-source-of-struggle",
+      "target": "designing-around-capacity-limits.md",
+      "target_concept_id": "designing-around-capacity-limits",
+      "text": "designing around capacitylimits"
+    },
+    {
+      "source_concept_id": "environmental-mismatch-as-source-of-struggle",
+      "target": "net-capacity-effect-depends-on-activity-fit.md",
+      "target_concept_id": "net-capacity-effect-depends-on-activity-fit",
+      "text": "net capacity effect depends on activityfit"
+    },
+    {
+      "source_concept_id": "environmental-trial-run-before-novel-demands",
+      "target": "camouflaging-extends-demand-beyond-interaction.md",
+      "target_concept_id": "camouflaging-extends-demand-beyond-interaction",
+      "text": "camouflaging extends demandbeyond the interaction"
+    },
+    {
+      "source_concept_id": "environmental-trial-run-before-novel-demands",
+      "target": "cross-dimensional-saturation-cascade.md",
+      "target_concept_id": "cross-dimensional-saturation-cascade",
+      "text": "cross-dimensional saturationcascade"
+    },
+    {
+      "source_concept_id": "environmental-trial-run-before-novel-demands",
+      "target": "designing-around-capacity-limits.md",
+      "target_concept_id": "designing-around-capacity-limits",
+      "text": "designing aroundcapacity limits"
+    },
+    {
+      "source_concept_id": "exhaustion-funnel-from-dropping-nourishing-activities",
+      "target": "nourishing-versus-depleting-activity-balance.md",
+      "target_concept_id": "nourishing-versus-depleting-activity-balance",
+      "text": "nourishing versus depleting activitybalance"
+    },
+    {
+      "source_concept_id": "exhaustion-funnel-from-dropping-nourishing-activities",
+      "target": "proactive-recovery-scheduling.md",
+      "target_concept_id": "proactive-recovery-scheduling",
+      "text": "proactive recovery scheduling"
+    },
+    {
+      "source_concept_id": "exhaustion-funnel-from-dropping-nourishing-activities",
+      "target": "sustainable-effort-margin.md",
+      "target_concept_id": "sustainable-effort-margin",
+      "text": "sustainable effort margin"
+    },
+    {
+      "source_concept_id": "glucose-and-effortful-cognition",
+      "target": "self-regulatory-resource-replenishment.md",
+      "target_concept_id": "self-regulatory-resource-replenishment",
+      "text": "factors thatreplenish the self-regulatorypool"
+    },
+    {
+      "source_concept_id": "glucose-and-effortful-cognition",
+      "target": "shared-pool-of-voluntary-effort.md",
+      "target_concept_id": "shared-pool-of-voluntary-effort",
+      "text": "shared pool of voluntary effort"
+    },
+    {
+      "source_concept_id": "graded-task-decomposition-for-low-headroom",
+      "target": "capacity-load-triage-menu.md",
+      "target_concept_id": "capacity-load-triage-menu",
+      "text": "capacity load triagemenu"
+    },
+    {
+      "source_concept_id": "graded-task-decomposition-for-low-headroom",
+      "target": "sustainable-effort-margin.md",
+      "target_concept_id": "sustainable-effort-margin",
+      "text": "sustainable effort margin"
+    },
+    {
+      "source_concept_id": "hyperfocus-bypasses-interoception-and-time",
+      "target": "absorbing-activities-crowd-out-other-commitments.md",
+      "target_concept_id": "absorbing-activities-crowd-out-other-commitments",
+      "text": "absorbing activities crowd outother commitments"
+    },
+    {
+      "source_concept_id": "hyperfocus-bypasses-interoception-and-time",
+      "target": "dimension-matched-recovery.md",
+      "target_concept_id": "dimension-matched-recovery",
+      "text": "dimension-matchedrecovery"
+    },
+    {
+      "source_concept_id": "hyperfocus-bypasses-interoception-and-time",
+      "target": "limited-attention-budget.md",
+      "target_concept_id": "limited-attention-budget",
+      "text": "limited attention budget"
+    },
+    {
+      "source_concept_id": "identify-isolate-transfer-for-pacing",
+      "target": "designing-around-capacity-limits.md",
+      "target_concept_id": "designing-around-capacity-limits",
+      "text": "designingaround capacity limits"
+    },
+    {
+      "source_concept_id": "identify-isolate-transfer-for-pacing",
+      "target": "graded-task-decomposition-for-low-headroom.md",
+      "target_concept_id": "graded-task-decomposition-for-low-headroom",
+      "text": "graded task decomposition for lowheadroom"
+    },
+    {
+      "source_concept_id": "law-of-least-effort",
+      "target": "limited-attention-budget.md",
+      "target_concept_id": "limited-attention-budget",
+      "text": "limited attentionbudget"
+    },
+    {
+      "source_concept_id": "law-of-least-effort",
+      "target": "skill-reduces-cognitive-demand.md",
+      "target_concept_id": "skill-reduces-cognitive-demand",
+      "text": "skill reduces cognitivedemand"
+    },
+    {
+      "source_concept_id": "limited-attention-budget",
+      "target": "law-of-least-effort.md",
+      "target_concept_id": "law-of-least-effort",
+      "text": "law of leasteffort"
+    },
+    {
+      "source_concept_id": "limited-attention-budget",
+      "target": "shared-pool-of-voluntary-effort.md",
+      "target_concept_id": "shared-pool-of-voluntary-effort",
+      "text": "shared pool ofvoluntary effort"
+    },
+    {
+      "source_concept_id": "limited-attention-budget",
+      "target": "task-switching-cost.md",
+      "target_concept_id": "task-switching-cost",
+      "text": "task-switching cost"
+    },
+    {
+      "source_concept_id": "maintain-recover-reload-cycle",
+      "target": "delegation-as-capacity-multiplier.md",
+      "target_concept_id": "delegation-as-capacity-multiplier",
+      "text": "delegationas capacity multiplier"
+    },
+    {
+      "source_concept_id": "maintain-recover-reload-cycle",
+      "target": "dimension-matched-recovery.md",
+      "target_concept_id": "dimension-matched-recovery",
+      "text": "dimension-matched recovery"
+    },
+    {
+      "source_concept_id": "maintain-recover-reload-cycle",
+      "target": "scheduled-work-boundaries-for-guilt-free-rest.md",
+      "target_concept_id": "scheduled-work-boundaries-for-guilt-free-rest",
+      "text": "scheduled work boundaries for guilt-freerest"
+    },
+    {
+      "source_concept_id": "maintain-recover-reload-cycle",
+      "target": "self-maintenance-as-preventive-capacity-work.md",
+      "target_concept_id": "self-maintenance-as-preventive-capacity-work",
+      "text": "self-maintenance as preventive capacitywork"
+    },
+    {
+      "source_concept_id": "maintain-recover-reload-cycle",
+      "target": "sleep-debt-compounds-across-dimensions.md",
+      "target_concept_id": "sleep-debt-compounds-across-dimensions",
+      "text": "sleep debt compounds acrossdimensions"
+    },
+    {
+      "source_concept_id": "maintain-recover-reload-cycle",
+      "target": "social-energy-as-spendable-capacity.md",
+      "target_concept_id": "social-energy-as-spendable-capacity",
+      "text": "social energy as spendable capacity"
+    },
+    {
+      "source_concept_id": "masking-as-hidden-capacity-drain",
+      "target": "designing-around-capacity-limits.md",
+      "target_concept_id": "designing-around-capacity-limits",
+      "text": "designing around capacitylimits"
+    },
+    {
+      "source_concept_id": "masking-as-hidden-capacity-drain",
+      "target": "movement-suppression-as-hidden-capacity-drain.md",
+      "target_concept_id": "movement-suppression-as-hidden-capacity-drain",
+      "text": "movement suppression as hidden capacitydrain"
+    },
+    {
+      "source_concept_id": "masking-as-hidden-capacity-drain",
+      "target": "nervous-system-load-model.md",
+      "target_concept_id": "nervous-system-load-model",
+      "text": "nervous-system load model"
+    },
+    {
+      "source_concept_id": "masking-as-hidden-capacity-drain",
+      "target": "stimming-as-real-time-capacity-regulation.md",
+      "target_concept_id": "stimming-as-real-time-capacity-regulation",
+      "text": "stimming asreal-time capacity regulation"
+    },
+    {
+      "source_concept_id": "movement-suppression-as-hidden-capacity-drain",
+      "target": "masking-as-hidden-capacity-drain.md",
+      "target_concept_id": "masking-as-hidden-capacity-drain",
+      "text": "masking as a hidden capacitydrain"
+    },
+    {
+      "source_concept_id": "movement-suppression-as-hidden-capacity-drain",
+      "target": "stimming-as-real-time-capacity-regulation.md",
+      "target_concept_id": "stimming-as-real-time-capacity-regulation",
+      "text": "stimming as real-time capacityregulation"
+    },
+    {
+      "source_concept_id": "nervous-system-load-model",
+      "target": "cross-dimensional-saturation-cascade.md",
+      "target_concept_id": "cross-dimensional-saturation-cascade",
+      "text": "saturation cascading across dimensions"
+    },
+    {
+      "source_concept_id": "nervous-system-load-model",
+      "target": "elevated-baseline-cognitive-idle-cost.md",
+      "target_concept_id": "elevated-baseline-cognitive-idle-cost",
+      "text": "elevated baseline cognitive idle cost"
+    },
+    {
+      "source_concept_id": "nervous-system-load-model",
+      "target": "masking-as-hidden-capacity-drain.md",
+      "target_concept_id": "masking-as-hidden-capacity-drain",
+      "text": "masking as a hidden capacity drain"
+    },
+    {
+      "source_concept_id": "nervous-system-load-model",
+      "target": "window-of-tolerance.md",
+      "target_concept_id": "window-of-tolerance",
+      "text": "window of tolerance"
+    },
+    {
+      "source_concept_id": "net-capacity-effect-depends-on-activity-fit",
+      "target": "dimensions-of-personal-capacity.md",
+      "target_concept_id": "dimensions-of-personal-capacity",
+      "text": "dimensions of personalcapacity"
+    },
+    {
+      "source_concept_id": "net-capacity-effect-depends-on-activity-fit",
+      "target": "restorative-rest-vs-cheap-rest.md",
+      "target_concept_id": "restorative-rest-vs-cheap-rest",
+      "text": "restorative rest versus cheaprest"
+    },
+    {
+      "source_concept_id": "nourishing-versus-depleting-activity-balance",
+      "target": "depressed-fatigue-calls-for-activity-not-rest.md",
+      "target_concept_id": "depressed-fatigue-calls-for-activity-not-rest",
+      "text": "depressed fatiguecalls for activity not rest"
+    },
+    {
+      "source_concept_id": "nourishing-versus-depleting-activity-balance",
+      "target": "net-capacity-effect-depends-on-activity-fit.md",
+      "target_concept_id": "net-capacity-effect-depends-on-activity-fit",
+      "text": "net capacity effect depends on activityfit"
+    },
+    {
+      "source_concept_id": "nourishing-versus-depleting-activity-balance",
+      "target": "restorative-rest-vs-cheap-rest.md",
+      "target_concept_id": "restorative-rest-vs-cheap-rest",
+      "text": "restorative restversus cheap rest"
+    },
+    {
+      "source_concept_id": "optimal-stimulation-range",
+      "target": "challenge-skill-balance.md",
+      "target_concept_id": "challenge-skill-balance",
+      "text": "challenge-skill balance"
+    },
+    {
+      "source_concept_id": "optimal-stimulation-range",
+      "target": "stimming-as-real-time-capacity-regulation.md",
+      "target_concept_id": "stimming-as-real-time-capacity-regulation",
+      "text": "stimming as real-timecapacity regulation"
+    },
+    {
+      "source_concept_id": "optimal-stimulation-range",
+      "target": "window-of-tolerance.md",
+      "target_concept_id": "window-of-tolerance",
+      "text": "window of tolerance"
+    },
+    {
+      "source_concept_id": "oscillating-performance-under-overload",
+      "target": "environmental-mismatch-as-source-of-struggle.md",
+      "target_concept_id": "environmental-mismatch-as-source-of-struggle",
+      "text": "environmentalmismatch as the source of disablingstruggle"
+    },
+    {
+      "source_concept_id": "oscillating-performance-under-overload",
+      "target": "hyperfocus-bypasses-interoception-and-time.md",
+      "target_concept_id": "hyperfocus-bypasses-interoception-and-time",
+      "text": "hyperfocus bypasses interoception andtime"
+    },
+    {
+      "source_concept_id": "oscillating-performance-under-overload",
+      "target": "scheduling-isolated-blocks-underestimates-cumulative-load.md",
+      "target_concept_id": "scheduling-isolated-blocks-underestimates-cumulative-load",
+      "text": "scheduling isolated blocks underestimates cumulativeload"
+    },
+    {
+      "source_concept_id": "oscillating-performance-under-overload",
+      "target": "shared-pool-of-voluntary-effort.md",
+      "target_concept_id": "shared-pool-of-voluntary-effort",
+      "text": "shared pool of voluntaryeffort"
+    },
+    {
+      "source_concept_id": "precommitted-demand-shedding",
+      "target": "absorbing-activities-crowd-out-other-commitments.md",
+      "target_concept_id": "absorbing-activities-crowd-out-other-commitments",
+      "text": "absorbing activities crowd out othercommitments"
+    },
+    {
+      "source_concept_id": "precommitted-demand-shedding",
+      "target": "fallback-to-known-cost-options-under-load.md",
+      "target_concept_id": "fallback-to-known-cost-options-under-load",
+      "text": "fallback to known-costoptions"
+    },
+    {
+      "source_concept_id": "restorative-rest-vs-cheap-rest",
+      "target": "net-capacity-effect-depends-on-activity-fit.md",
+      "target_concept_id": "net-capacity-effect-depends-on-activity-fit",
+      "text": "net capacity effectdepends on activity fit"
+    },
+    {
+      "source_concept_id": "routine-as-decision-capacity-preservation",
+      "target": "camouflaging-extends-demand-beyond-interaction.md",
+      "target_concept_id": "camouflaging-extends-demand-beyond-interaction",
+      "text": "camouflaging extends demand beyond theinteraction"
+    },
+    {
+      "source_concept_id": "routine-as-decision-capacity-preservation",
+      "target": "masking-as-hidden-capacity-drain.md",
+      "target_concept_id": "masking-as-hidden-capacity-drain",
+      "text": "masking as a hidden capacitydrain"
+    },
+    {
+      "source_concept_id": "routine-as-decision-capacity-preservation",
+      "target": "scheduled-batching-of-recurring-demand.md",
+      "target_concept_id": "scheduled-batching-of-recurring-demand",
+      "text": "scheduled batching of recurring demand"
+    },
+    {
+      "source_concept_id": "routine-as-decision-capacity-preservation",
+      "target": "scheduling-isolated-blocks-underestimates-cumulative-load.md",
+      "target_concept_id": "scheduling-isolated-blocks-underestimates-cumulative-load",
+      "text": "schedulingisolated blocks underestimates cumulativeload"
+    },
+    {
+      "source_concept_id": "routine-as-decision-capacity-preservation",
+      "target": "shared-pool-of-voluntary-effort.md",
+      "target_concept_id": "shared-pool-of-voluntary-effort",
+      "text": "shared pool of voluntaryeffort"
+    },
+    {
+      "source_concept_id": "routine-as-decision-capacity-preservation",
+      "target": "task-switching-cost.md",
+      "target_concept_id": "task-switching-cost",
+      "text": "task-switching"
+    },
+    {
+      "source_concept_id": "rumination-as-continuous-cognitive-demand",
+      "target": "elevated-baseline-cognitive-idle-cost.md",
+      "target_concept_id": "elevated-baseline-cognitive-idle-cost",
+      "text": "elevated baseline cognitive idle cost"
+    },
+    {
+      "source_concept_id": "rumination-as-continuous-cognitive-demand",
+      "target": "shared-pool-of-voluntary-effort.md",
+      "target_concept_id": "shared-pool-of-voluntary-effort",
+      "text": "shared pool of voluntaryeffort"
+    },
+    {
+      "source_concept_id": "schedule-around-energy-patterns",
+      "target": "net-capacity-effect-depends-on-activity-fit.md",
+      "target_concept_id": "net-capacity-effect-depends-on-activity-fit",
+      "text": "activity fit"
+    },
+    {
+      "source_concept_id": "scheduled-batching-of-recurring-demand",
+      "target": "task-switching-cost.md",
+      "target_concept_id": "task-switching-cost",
+      "text": "task-switching cost"
+    },
+    {
+      "source_concept_id": "scheduled-work-boundaries-for-guilt-free-rest",
+      "target": "proactive-recovery-scheduling.md",
+      "target_concept_id": "proactive-recovery-scheduling",
+      "text": "proactive recovery scheduling"
+    },
+    {
+      "source_concept_id": "scheduled-work-boundaries-for-guilt-free-rest",
+      "target": "restorative-rest-vs-cheap-rest.md",
+      "target_concept_id": "restorative-rest-vs-cheap-rest",
+      "text": "restorative restversus cheap rest"
+    },
+    {
+      "source_concept_id": "scheduling-isolated-blocks-underestimates-cumulative-load",
+      "target": "acute-and-chronic-fatigue.md",
+      "target_concept_id": "acute-and-chronic-fatigue",
+      "text": "acute and chronic fatigue"
+    },
+    {
+      "source_concept_id": "scheduling-isolated-blocks-underestimates-cumulative-load",
+      "target": "cross-dimensional-saturation-cascade.md",
+      "target_concept_id": "cross-dimensional-saturation-cascade",
+      "text": "cross-dimensional saturationcascade"
+    },
+    {
+      "source_concept_id": "scheduling-isolated-blocks-underestimates-cumulative-load",
+      "target": "precommitted-demand-shedding.md",
+      "target_concept_id": "precommitted-demand-shedding",
+      "text": "precommitted demand-shedding"
+    },
+    {
+      "source_concept_id": "scheduling-isolated-blocks-underestimates-cumulative-load",
+      "target": "proactive-recovery-scheduling.md",
+      "target_concept_id": "proactive-recovery-scheduling",
+      "text": "proactive recoveryscheduling"
+    },
+    {
+      "source_concept_id": "self-maintenance-as-preventive-capacity-work",
+      "target": "body-budget-as-cognitive-baseline.md",
+      "target_concept_id": "body-budget-as-cognitive-baseline",
+      "text": "body budget as cognitivebaseline"
+    },
+    {
+      "source_concept_id": "self-maintenance-as-preventive-capacity-work",
+      "target": "maintain-recover-reload-cycle.md",
+      "target_concept_id": "maintain-recover-reload-cycle",
+      "text": "maintain-recover-reload cycle"
+    },
+    {
+      "source_concept_id": "self-regulatory-resource-replenishment",
+      "target": "dimension-matched-recovery.md",
+      "target_concept_id": "dimension-matched-recovery",
+      "text": "dimension-matched recovery"
+    },
+    {
+      "source_concept_id": "self-regulatory-resource-replenishment",
+      "target": "glucose-and-effortful-cognition.md",
+      "target_concept_id": "glucose-and-effortful-cognition",
+      "text": "glucose andeffortful cognition"
+    },
+    {
+      "source_concept_id": "self-regulatory-resource-replenishment",
+      "target": "shared-pool-of-voluntary-effort.md",
+      "target_concept_id": "shared-pool-of-voluntary-effort",
+      "text": "shared pool of voluntary effort"
+    },
+    {
+      "source_concept_id": "shared-pool-of-voluntary-effort",
+      "target": "challenge-skill-balance.md",
+      "target_concept_id": "challenge-skill-balance",
+      "text": "challenge-skill balance"
+    },
+    {
+      "source_concept_id": "shared-pool-of-voluntary-effort",
+      "target": "glucose-and-effortful-cognition.md",
+      "target_concept_id": "glucose-and-effortful-cognition",
+      "text": "glucose and effortful cognition"
+    },
+    {
+      "source_concept_id": "shared-pool-of-voluntary-effort",
+      "target": "self-regulatory-resource-replenishment.md",
+      "target_concept_id": "self-regulatory-resource-replenishment",
+      "text": "factors thatreplenish the self-regulatory pool"
+    },
+    {
+      "source_concept_id": "skill-reduces-cognitive-demand",
+      "target": "challenge-skill-balance.md",
+      "target_concept_id": "challenge-skill-balance",
+      "text": "challenge-skillbalance"
+    },
+    {
+      "source_concept_id": "skill-reduces-cognitive-demand",
+      "target": "limited-attention-budget.md",
+      "target_concept_id": "limited-attention-budget",
+      "text": "limited attentionbudget"
+    },
+    {
+      "source_concept_id": "sleep-debt-compounds-across-dimensions",
+      "target": "acute-and-chronic-fatigue.md",
+      "target_concept_id": "acute-and-chronic-fatigue",
+      "text": "acute and chronicfatigue"
+    },
+    {
+      "source_concept_id": "sleep-debt-compounds-across-dimensions",
+      "target": "consistent-sleep-window-protocol.md",
+      "target_concept_id": "consistent-sleep-window-protocol",
+      "text": "consistent sleep windowprotocol"
+    },
+    {
+      "source_concept_id": "sleep-debt-compounds-across-dimensions",
+      "target": "cross-dimensional-saturation-cascade.md",
+      "target_concept_id": "cross-dimensional-saturation-cascade",
+      "text": "cross-dimensional saturationcascade"
+    },
+    {
+      "source_concept_id": "sleep-debt-compounds-across-dimensions",
+      "target": "dimensions-of-personal-capacity.md",
+      "target_concept_id": "dimensions-of-personal-capacity",
+      "text": "dimensions of personalcapacity"
+    },
+    {
+      "source_concept_id": "sleep-debt-compounds-across-dimensions",
+      "target": "nervous-system-load-model.md",
+      "target_concept_id": "nervous-system-load-model",
+      "text": "nervous-system load model"
+    },
+    {
+      "source_concept_id": "sleep-debt-compounds-across-dimensions",
+      "target": "restorative-rest-vs-cheap-rest.md",
+      "target_concept_id": "restorative-rest-vs-cheap-rest",
+      "text": "restorative rest versus cheaprest"
+    },
+    {
+      "source_concept_id": "sleep-debt-compounds-across-dimensions",
+      "target": "shared-pool-of-voluntary-effort.md",
+      "target_concept_id": "shared-pool-of-voluntary-effort",
+      "text": "shared pool ofvoluntary effort"
+    },
+    {
+      "source_concept_id": "social-energy-as-spendable-capacity",
+      "target": "cross-dimensional-saturation-cascade.md",
+      "target_concept_id": "cross-dimensional-saturation-cascade",
+      "text": "cross-dimensionalsaturation cascade"
+    },
+    {
+      "source_concept_id": "social-energy-as-spendable-capacity",
+      "target": "designing-around-capacity-limits.md",
+      "target_concept_id": "designing-around-capacity-limits",
+      "text": "designing around capacitylimits"
+    },
+    {
+      "source_concept_id": "social-energy-as-spendable-capacity",
+      "target": "dimension-matched-recovery.md",
+      "target_concept_id": "dimension-matched-recovery",
+      "text": "dimension-matched recovery"
+    },
+    {
+      "source_concept_id": "social-energy-as-spendable-capacity",
+      "target": "dimension-matched-recovery.md",
+      "target_concept_id": "dimension-matched-recovery",
+      "text": "dimension-matched recovery"
+    },
+    {
+      "source_concept_id": "social-energy-as-spendable-capacity",
+      "target": "masking-as-hidden-capacity-drain.md",
+      "target_concept_id": "masking-as-hidden-capacity-drain",
+      "text": "masking as a hidden capacitydrain"
+    },
+    {
+      "source_concept_id": "social-energy-as-spendable-capacity",
+      "target": "masking-as-hidden-capacity-drain.md",
+      "target_concept_id": "masking-as-hidden-capacity-drain",
+      "text": "masking as a hidden capacitydrain"
+    },
+    {
+      "source_concept_id": "social-energy-as-spendable-capacity",
+      "target": "net-capacity-effect-depends-on-activity-fit.md",
+      "target_concept_id": "net-capacity-effect-depends-on-activity-fit",
+      "text": "net capacity effect depends on activityfit"
+    },
+    {
+      "source_concept_id": "stimming-as-real-time-capacity-regulation",
+      "target": "masking-as-hidden-capacity-drain.md",
+      "target_concept_id": "masking-as-hidden-capacity-drain",
+      "text": "masking as a hiddencapacity drain"
+    },
+    {
+      "source_concept_id": "stimming-as-real-time-capacity-regulation",
+      "target": "movement-suppression-as-hidden-capacity-drain.md",
+      "target_concept_id": "movement-suppression-as-hidden-capacity-drain",
+      "text": "movementsuppression as hidden capacity drain"
+    },
+    {
+      "source_concept_id": "stimming-as-real-time-capacity-regulation",
+      "target": "optimal-stimulation-range.md",
+      "target_concept_id": "optimal-stimulation-range",
+      "text": "optimal stimulationrange"
+    },
+    {
+      "source_concept_id": "sustainable-effort-margin",
+      "target": "precommitted-demand-shedding.md",
+      "target_concept_id": "precommitted-demand-shedding",
+      "text": "precommitted demand-shedding"
+    },
+    {
+      "source_concept_id": "task-switching-cost",
+      "target": "challenge-skill-balance.md",
+      "target_concept_id": "challenge-skill-balance",
+      "text": "challenge-skillbalance"
+    },
+    {
+      "source_concept_id": "task-switching-cost",
+      "target": "limited-attention-budget.md",
+      "target_concept_id": "limited-attention-budget",
+      "text": "limited attention budget"
+    },
+    {
+      "source_concept_id": "task-switching-cost",
+      "target": "scheduled-batching-of-recurring-demand.md",
+      "target_concept_id": "scheduled-batching-of-recurring-demand",
+      "text": "scheduledbatching of recurring demand"
+    },
+    {
+      "source_concept_id": "transition-bridges-for-autistic-inertia",
+      "target": "routine-as-decision-capacity-preservation.md",
+      "target_concept_id": "routine-as-decision-capacity-preservation",
+      "text": "routine as decision-capacitypreservation"
+    },
+    {
+      "source_concept_id": "transition-bridges-for-autistic-inertia",
+      "target": "task-switching-cost.md",
+      "target_concept_id": "task-switching-cost",
+      "text": "task-switchingcost"
+    },
+    {
+      "source_concept_id": "vagal-tone-and-recovery-capacity",
+      "target": "completing-the-stress-response-cycle.md",
+      "target_concept_id": "completing-the-stress-response-cycle",
+      "text": "completing the stress-responsecycle"
+    },
+    {
+      "source_concept_id": "vagal-tone-and-recovery-capacity",
+      "target": "window-of-tolerance.md",
+      "target_concept_id": "window-of-tolerance",
+      "text": "window oftolerance"
+    },
+    {
+      "source_concept_id": "vague-instructions-amplify-cognitive-demand",
+      "target": "designing-around-capacity-limits.md",
+      "target_concept_id": "designing-around-capacity-limits",
+      "text": "designing around capacitylimits"
+    },
+    {
+      "source_concept_id": "vague-instructions-amplify-cognitive-demand",
+      "target": "limited-attention-budget.md",
+      "target_concept_id": "limited-attention-budget",
+      "text": "limitedattention budget"
+    },
+    {
+      "source_concept_id": "vague-instructions-amplify-cognitive-demand",
+      "target": "working-memory-as-cognitive-capacity-buffer.md",
+      "target_concept_id": "working-memory-as-cognitive-capacity-buffer",
+      "text": "working memory"
+    },
+    {
+      "source_concept_id": "vague-instructions-amplify-cognitive-demand",
+      "target": "working-memory-as-cognitive-capacity-buffer.md",
+      "target_concept_id": "working-memory-as-cognitive-capacity-buffer",
+      "text": "working memory as a cognitive capacitybuffer"
+    },
+    {
+      "source_concept_id": "waiting-mode-locks-capacity-before-events",
+      "target": "hyperfocus-bypasses-interoception-and-time.md",
+      "target_concept_id": "hyperfocus-bypasses-interoception-and-time",
+      "text": "hyperfocus bypasses interoception andtime"
+    },
+    {
+      "source_concept_id": "window-of-tolerance",
+      "target": "optimal-stimulation-range.md",
+      "target_concept_id": "optimal-stimulation-range",
+      "text": "optimal stimulation range"
+    },
+    {
+      "source_concept_id": "window-of-tolerance",
+      "target": "vagal-tone-and-recovery-capacity.md",
+      "target_concept_id": "vagal-tone-and-recovery-capacity",
+      "text": "vagal tone as a determinant of recoverycapacity"
+    },
+    {
+      "source_concept_id": "working-memory-as-cognitive-capacity-buffer",
+      "target": "designing-around-capacity-limits.md",
+      "target_concept_id": "designing-around-capacity-limits",
+      "text": "designing around capacitylimits"
+    },
+    {
+      "source_concept_id": "working-memory-as-cognitive-capacity-buffer",
+      "target": "law-of-least-effort.md",
+      "target_concept_id": "law-of-least-effort",
+      "text": "law of least effort"
+    },
+    {
+      "source_concept_id": "working-memory-as-cognitive-capacity-buffer",
+      "target": "limited-attention-budget.md",
+      "target_concept_id": "limited-attention-budget",
+      "text": "limited attention budget"
+    },
+    {
+      "source_concept_id": "working-memory-as-cognitive-capacity-buffer",
+      "target": "masking-as-hidden-capacity-drain.md",
+      "target_concept_id": "masking-as-hidden-capacity-drain",
+      "text": "masking"
+    },
+    {
+      "source_concept_id": "workload-flexibility-as-capacity-lever",
+      "target": "proactive-recovery-scheduling.md",
+      "target_concept_id": "proactive-recovery-scheduling",
+      "text": "proactive recoveryscheduling"
+    },
+    {
+      "source_concept_id": "workload-flexibility-as-capacity-lever",
+      "target": "schedule-around-energy-patterns.md",
+      "target_concept_id": "schedule-around-energy-patterns",
+      "text": "schedule around energy patterns, not just clocktime"
+    }
+  ]
+}

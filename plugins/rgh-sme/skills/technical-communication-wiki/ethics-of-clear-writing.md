@@ -1,0 +1,21 @@
+---
+type: concept
+title: Ethics of Clear Writing
+description: >
+  Sentence-level choices about what to make the subject of a verb can
+  assign or conceal responsibility, which makes some stylistic choices an
+  ethical matter and not just a clarity one.
+sources:
+  - title: "Style: Lessons in Clarity and Grace"
+    resource: "Style: Lessons in Clarity and Grace, 9th ed. (Joseph M. Williams, Joseph Bizup), Lesson 12"
+---
+
+The choice of what to make a sentence's subject is never purely stylistic. "Shiites, Sunnis, and Kurds distrust one another because they have engaged in generations of cultural conflict" makes people agents of their own history; "Generations of cultural conflict have caused distrust among Shiites, Sunnis, and Kurds" makes circumstance the agent and people its passive recipients. Neither is grammatically wrong, but they imply different accounts of who is responsible for what — and the same choice, applied to a writer's own organization or its readers, can knowingly obscure responsibility rather than merely describe it differently.
+
+Three cases carry distinct ethical weight, distinguishable by testing who the topic/subject of each clause actually is:
+
+- **Unintended obscurity**: most dense, hard-to-parse writing is not deliberate — writers simply don't notice their own prose is unclear, because they read their intention into it. The reader's reciprocal obligation here is to respond candidly and helpfully when asked, not just to judge; the writer's is to revise once shown the problem.
+- **Intended misdirection**: a writer knowingly chooses subjects/topics that deflect responsibility away from an agent readers would want named. A company's apology that says mistakes "occurred" (no agent at all) but then makes the company the subject the moment it wants credit for good intentions; a rate-increase notice whose customer appears only as the object of a preposition, never as the person actually paying more; a recall letter whose subjects are the car and its parts, never the manufacturer or the driver whose safety is at risk. The diagnostic is the same one used for clarity generally — check the topic/subject of every clause — but applied to ask not "is this clear" but "who does this sentence let the reader hold responsible." Not all indirectness is misdirection: a supervisor softening bad news ("I'm afraid the funding didn't come through") is indirect out of kindness, not deception, and shouldn't be confused with the deflective cases above.
+- **Rationalizing opacity**: writers who know their prose is difficult sometimes defend it as necessary because their ideas are new or their subject is inherently complex. This defense is "more often wrong than right" — readers are owed precise, nuanced prose, but they are not owed unlimited time to extract meaning from prose that could have been clearer with a bit more effort. The related claim that clarity itself is an ideological tool used to oversimplify and control is worth taking seriously as a historical point (bureaucratic, Latinate prose genuinely has been used to exclude), but it doesn't follow that clarity is the threat — the threat is whoever uses clarity, or its absence, to deceive.
+
+The unifying test — the first principle of ethical writing — is reciprocity: **we write ethically when we would willingly trade places with our intended reader and experience the consequences of our own writing.** This is harder to apply than it sounds, because even admired, apparently honest writing can use this same subject/agent manipulation for a persuasive end (a close reading of the Declaration of Independence shows Part 1 systematically making abstractions — "necessity," "prudence" — the agents that act on the colonists, stripping them of apparent free will, precisely where Parts 2 and 3 give both King George and the colonists themselves full agency as sentence subjects). Whether that particular use is acceptable turns on whether the end justifies the means, which the test itself doesn't resolve — it only forces the question into view. See [characters as subjects](characters-as-subjects.md) and [active voice and concrete language](active-voice-and-concrete-language.md) for the underlying mechanics this test is applied to.

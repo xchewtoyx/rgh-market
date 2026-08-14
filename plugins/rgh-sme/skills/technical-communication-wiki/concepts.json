@@ -1,0 +1,3330 @@
+{
+  "bundle": "technical-communication",
+  "concepts": [
+    {
+      "concept_id": "active-voice-and-concrete-language",
+      "description": "Prefer active-voice verbs that name the actor and concrete nouns over abstractions, using the passive voice deliberately for one of a few specific reasons rather than by default.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.014634255289451973,
+      "title": "Active Voice and Concrete Language"
+    },
+    {
+      "concept_id": "adapting-pyramid-structure-for-presentations",
+      "description": "An oral presentation is not a written document read aloud with slides attached \u2014 it needs its own storyboarded adaptation of the same pyramid logic to the audience's limited ability to read, listen, and interpret visuals all at once.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0023311420145285563,
+      "title": "Adapting Pyramid Structure for Oral Presentations"
+    },
+    {
+      "concept_id": "anatomy-of-a-case-story",
+      "description": "A well-told incident narrative \u2014 the kind used to transfer expertise, document a postmortem, or illustrate a lesson \u2014 has identifiable parts and quality criteria distinct from a scientific paper's structure, and a story missing them reads as a flat, forgettable chronology.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.003937553705134909,
+      "title": "Anatomy of a Case Story"
+    },
+    {
+      "concept_id": "annotations-must-add-information-not-repeat-the-name",
+      "description": "A caption, comment, or label that only rearranges words already present in the thing it labels has added an extra thing to read without adding any actual information \u2014 a reliable test catches this before it ships.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.003975622353616924,
+      "title": "Annotations Must Add Information, Not Repeat the Name"
+    },
+    {
+      "concept_id": "api-comments-versus-implementation-comments",
+      "description": "Reference documentation in code splits into comments on the public surface, written for callers who may know nothing about the implementation, and comments on the implementation itself, written for maintainers who need the reasoning behind non-obvious choices.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.006480677192104496,
+      "title": "API Comments Versus Implementation Comments"
+    },
+    {
+      "concept_id": "asking-how-not-why-for-non-defensive-recall",
+      "description": "When reconstructing what happened from the people involved, \"why\" questions tend to produce a justification instead of a description \u2014 \"how,\" \"what,\" and \"when\" get a participant recalling events rather than defending a decision, and yield material that's actually usable.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Asking \"How,\" Not \"Why,\" for Non-Defensive Recall"
+    },
+    {
+      "concept_id": "bullet-point-compression-hides-technical-nuance",
+      "description": "A condensed slide-bullet format can quietly discard the magnitude comparisons, caveats, and reasoning chain a complex or high-stakes technical finding depends on, so the format itself becomes a source of miscommunication independent of the underlying analysis.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.006021387047707346,
+      "title": "Bullet-Point Compression Hides Technical Nuance"
+    },
+    {
+      "concept_id": "catalog-entry-structure-for-reusable-techniques",
+      "description": "A catalog of named, reusable techniques (patterns, refactorings, runbook moves) reads fastest when every entry follows the same fixed shape \u2014 name, a before/after sketch, motivation, and mechanics \u2014 so a reader can jump straight to whichever part they currently need.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Catalog Entry Structure for Reusable Techniques"
+    },
+    {
+      "concept_id": "characters-as-subjects",
+      "description": "Readers judge a sentence clear when its grammatical subject names the real character responsible and its verb names the real action, rather than burying both inside abstract nouns.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 2,
+      "pagerank": 0.05375078498228915,
+      "title": "Characters as Subjects, Actions as Verbs"
+    },
+    {
+      "concept_id": "choosing-a-different-altitude-than-what-its-explaining",
+      "description": "A caption or comment pitched at the same level of detail as the thing beside it just repeats it \u2014 real value comes from either dropping down to add precision the original leaves out, or rising above it to state the point the detail exists to serve.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.006277918637725231,
+      "title": "Explanatory Text Should Sit at a Different Altitude Than What It Explains"
+    },
+    {
+      "concept_id": "choosing-documentation-types",
+      "description": "Different reader needs call for structurally different kinds of documentation \u2014 conceptual, procedural, and reference material each answer a different question and shouldn't be blended into one page.",
+      "inbound_link_count": 10,
+      "outbound_link_count": 6,
+      "pagerank": 0.03014362889114438,
+      "title": "Choosing Documentation Types"
+    },
+    {
+      "concept_id": "closing-the-feedback-loop",
+      "description": "Feedback closes the gap between what a writer assumed and what readers actually experience, but only if it's easy to give, properly triaged, and checked afterward against whether it actually reduced the friction it targeted.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 3,
+      "pagerank": 0.00411755760937226,
+      "title": "Closing the Documentation Feedback Loop"
+    },
+    {
+      "concept_id": "comments-complete-the-interface",
+      "description": "A structural signature alone can't convey behavior, meaning, or constraints, so a reader who has to read the underlying implementation to use something correctly has been handed an incomplete abstraction, not a self-explanatory one.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.007412800457587692,
+      "title": "Comments Complete the Interface"
+    },
+    {
+      "concept_id": "communicating-evidence-visually",
+      "description": "Choose a visual over prose when it reveals a pattern, comparison, or relationship more efficiently than words would, pick the graphic form suited to that specific task, and treat the resulting figure as part of the argument that needs its own introduction and explanation.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.009728144007058641,
+      "title": "Communicating Evidence Visually"
+    },
+    {
+      "concept_id": "communicating-intent-not-just-instructions",
+      "description": "An instruction that states only the literal steps forces its reader to guess at everything it left unstated \u2014 stating the purpose behind a request, not only the request itself, is what lets a reader fill gaps correctly and adapt when the literal instruction stops fitting.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018631954621138695,
+      "title": "Communicating Intent, Not Just Instructions"
+    },
+    {
+      "concept_id": "completeness-accuracy-clarity-tradeoff",
+      "description": "Documentation quality has three competing dimensions \u2014 completeness, accuracy, and clarity \u2014 and a good document optimizes whichever dimension matches its single purpose rather than maximizing all three.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.005577858085164292,
+      "title": "The Completeness-Accuracy-Clarity Tradeoff"
+    },
+    {
+      "concept_id": "conditions-actions-needs-status-briefing",
+      "description": "A time-pressured status update stays both complete and brief when it's organized into three fixed parts \u2014 what's currently true, what's being done about it, and what's still required \u2014 instead of a free-form narration of everything the speaker knows.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013075055464836114,
+      "title": "Conditions-Actions-Needs Status Briefing"
+    },
+    {
+      "concept_id": "consistent-visual-encoding-across-a-document",
+      "description": "Varying chart types, colors, or icons purely to avoid monotony forces a reader to relearn an interpretive strategy on every instance, so the same kind of data should get the same visual treatment everywhere it appears in a document or document set.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.005278532298655211,
+      "title": "Consistent Visual Encoding Across a Document"
+    },
+    {
+      "concept_id": "content-design-principles",
+      "description": "A short checklist for evaluating any piece of content \u2014 useful, usable, findable, focused, targeted, distinctive, and connected \u2014 that treats content design as an application of UX principles to the words themselves, not just to the interface around them.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 5,
+      "pagerank": 0.0013075055464836114,
+      "title": "Content Design Principles"
+    },
+    {
+      "concept_id": "conversational-vocabulary-as-a-documentation-diagnostic",
+      "description": "When the words people naturally use while talking through a system don't match the vocabulary its documentation or code actually uses, that mismatch is a reliable signal that the written artifact has drifted from the team's real mental model.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.004031509861617718,
+      "title": "Conversational Vocabulary as a Documentation Diagnostic"
+    },
+    {
+      "concept_id": "correctness-versus-clarity",
+      "description": "Grammatical correctness and communicative clarity are separate axes, and effort spent policing minor or invented usage rules is effort not spent on the sentence-level revision that actually helps readers.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.003994035905524391,
+      "title": "Correctness Versus Clarity"
+    },
+    {
+      "concept_id": "curating-guides-over-duplicating-content",
+      "description": "When authoritative material already exists but is scattered or hard to approach, write a short guide that points into it \u2014 a sightseeing map or guided tour \u2014 rather than duplicating it into a new, separately maintained document.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.007967548682587948,
+      "title": "Curating Guides Over Duplicating Content"
+    },
+    {
+      "concept_id": "curse-of-knowledge-and-audience-research",
+      "description": "Writers who know a system overestimate how much of it readers can infer, which is why documentation needs deliberate audience research rather than an author's own sense of what's obvious.",
+      "inbound_link_count": 9,
+      "outbound_link_count": 4,
+      "pagerank": 0.009419602725343878,
+      "title": "The Curse of Knowledge and Audience Research"
+    },
+    {
+      "concept_id": "customer-versus-provider-documentation",
+      "description": "End users and maintainers need different material \u2014 keep customer-facing reference free of implementation and design reasoning that only providers should see.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 4,
+      "pagerank": 0.004248559656106087,
+      "title": "Customer Versus Provider Documentation"
+    },
+    {
+      "concept_id": "cutting-clutter",
+      "description": "Clutter \u2014 inflated diction, redundant modifiers, throat-clearing phrases, and euphemism \u2014 is the main enemy of clear prose and should be stripped word by word until every remaining word earns its place.",
+      "inbound_link_count": 10,
+      "outbound_link_count": 6,
+      "pagerank": 0.03724826348041575,
+      "title": "Cutting Clutter"
+    },
+    {
+      "concept_id": "decoration-competes-with-data-for-attention",
+      "description": "Decorative visual elements that don't encode information \u2014 logos, background images, gradients, ornamental borders \u2014 cost a viewer processing effort they'd rather spend on the actual content, so blank space is a better default than filler.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0069548090108537165,
+      "title": "Decoration Competes with Data for Attention"
+    },
+    {
+      "concept_id": "deductive-and-inductive-grouping",
+      "description": "Ideas grouped together under one point in a document must be related either deductively (a chain of reasoning ending in \"therefore\") or inductively (a set of similar things supporting one inference), never a mixture of both within the same group.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.0415276684503079,
+      "title": "Deductive and Inductive Grouping"
+    },
+    {
+      "concept_id": "diagnosing-nominalizations",
+      "description": "A step-by-step procedure for finding actions that have been buried inside abstract nouns (nominalizations) and rebuilding the sentence around the character and verb they actually describe.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 1,
+      "pagerank": 0.05313648789914942,
+      "title": "Diagnosing and Revising Nominalizations"
+    },
+    {
+      "concept_id": "diagrams-as-elicitation-tools-in-review",
+      "description": "A structural diagram shown live to mixed stakeholders often surfaces unclear or missing requirements that prose specs never provoked, simply by being concrete enough for a non-technical reader to ask \"but what happens when...\" \u2014 treat that derailment as the review working, not as scope creep.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.008396249808821823,
+      "title": "Diagrams as Elicitation Tools in Stakeholder Review"
+    },
+    {
+      "concept_id": "difficulty-explaining-signals-a-problem-with-the-thing",
+      "description": "When a short, honest, complete explanation of something keeps eluding you, the likeliest cause is that the thing being explained doesn't yet have a clean, single idea at its core \u2014 so write the explanation early and treat the struggle to write it as design feedback.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Difficulty Explaining Something Signals a Problem With the Thing Itself"
+    },
+    {
+      "concept_id": "disclosing-limitations-early",
+      "description": "State a work's constraints and caveats early and move on to the contribution, rather than ending on them \u2014 the reader's last impression should be the finding, not its limits.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.010383803650634092,
+      "title": "Disclosing Limitations Early, Not Last"
+    },
+    {
+      "concept_id": "document-observed-behavior-not-intended-behavior",
+      "description": "When documenting a system that has evolved past its original design or specification, ground the documentation in what the system actually does, verified directly, rather than what it was supposed to do \u2014 the two quietly diverge, and only one of them is what a reader can rely on.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Document Observed Behavior, Not Intended Behavior"
+    },
+    {
+      "concept_id": "documentation-as-code",
+      "description": "Treat documentation like code \u2014 version-controlled, owned, reviewed, and bug-tracked alongside the system it describes \u2014 so maintenance rides existing engineering workflow instead of a separate, decaying wiki.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0019076822978937868,
+      "title": "Documentation as Code"
+    },
+    {
+      "concept_id": "documentation-plan-as-outline",
+      "description": "Plan a documentation set as a reviewed outline of the reader's whole journey before drafting any individual page, so gaps and off-path detours are visible while they're still cheap to fix.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0013075055464836114,
+      "title": "A Documentation Plan Is an Outline of the User Journey"
+    },
+    {
+      "concept_id": "documentation-research-artifacts",
+      "description": "Four reusable artifacts \u2014 persona, user story, journey map, and friction log \u2014 condense audience research into a form later drafting and revision work can actually be checked against.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.00537481091080033,
+      "title": "Documentation Research Artifacts"
+    },
+    {
+      "concept_id": "drafting-with-outline-first",
+      "description": "Draft a document by first fixing its audience, purpose, and type, then building an outline as documentation pseudocode \u2014 cheap to restructure before any prose commits effort to a particular order.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 5,
+      "pagerank": 0.004339657525839561,
+      "title": "Drafting from an Outline"
+    },
+    {
+      "concept_id": "eliciting-a-threshold-via-absurd-bounds",
+      "description": "When a source insists they have no opinion on a number, ask about a deliberately extreme value first and progressively tighten it \u2014 the reflexive \"no, that's too much\" reaction usually reveals a real, usable threshold that a direct open-ended question never would have.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013075055464836114,
+      "title": "Eliciting a Hidden Threshold by Offering Absurd Bounds First"
+    },
+    {
+      "concept_id": "ethics-of-clear-writing",
+      "description": "Sentence-level choices about what to make the subject of a verb can assign or conceal responsibility, which makes some stylistic choices an ethical matter and not just a clarity one.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.004417289002306545,
+      "title": "Ethics of Clear Writing"
+    },
+    {
+      "concept_id": "exhaustive-matrices-for-unambiguous-logic",
+      "description": "When conditional or state-dependent behavior has enough interacting cases that nested prose can hide a gap, replace the prose with a table that forces every combination to be filled in explicitly.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.008396249808821823,
+      "title": "Exhaustive Matrices for Unambiguous Logic"
+    },
+    {
+      "concept_id": "expert-versus-audience-vocabulary",
+      "description": "A domain expert's own terminology and level of detail often diverge sharply from the audience's, so writing that borrows expert vocabulary wholesale can be precise and still fail the reader it's for.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.002571700200100377,
+      "title": "Expert Versus Audience Vocabulary"
+    },
+    {
+      "concept_id": "flow-linking-stress-to-topic",
+      "description": "Prose flows when the new information a sentence delivers at its end becomes the familiar topic the next sentence opens with, since chaining topic to topic produces a list rather than a story.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0015297815127357148,
+      "title": "Flow by Linking Stress to Topic"
+    },
+    {
+      "concept_id": "formatting-for-scanning",
+      "description": "Most readers scan a page rather than read it fully \u2014 one estimate puts it at under a third of the words, in an F-shaped pattern \u2014 so headings, short paragraphs, lists, and callouts have to carry structure that dense prose won't survive being skimmed.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.006653208217746211,
+      "title": "Formatting for Scanning"
+    },
+    {
+      "concept_id": "gestalt-principles-for-visual-grouping",
+      "description": "Six perceptual tendencies \u2014 proximity, similarity, enclosure, closure, continuity, and connection \u2014 determine which elements a reader automatically perceives as belonging together, in a fixed order of strength that a document's layout can either exploit or fight against.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.008988994874277368,
+      "title": "Gestalt Principles for Visual Grouping"
+    },
+    {
+      "concept_id": "headings-and-page-design-for-hierarchy",
+      "description": "Visual devices \u2014 titles, headings, numbering, and indentation \u2014 should make a document's pyramid structure visible on the page, and headings in particular must represent real, parallel divisions of thought rather than just naming a subject.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.007855175573692006,
+      "title": "Headings and Page Design for Hierarchy"
+    },
+    {
+      "concept_id": "highlighting-what-matters-in-a-visual-display",
+      "description": "What deserves attention permanently should be marked by a fixed position a reader learns to expect; what deserves attention only right now should be marked by a visual attribute that stands out from its neighbors \u2014 and either kind of highlighting fails once overused.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.001677965490237117,
+      "title": "Highlighting What Matters in a Visual Display"
+    },
+    {
+      "concept_id": "imposing-logical-order-on-groupings",
+      "description": "An inductive grouping needs an order that reflects the kind of analysis that produced it \u2014 time order, structural order, or degree order \u2014 and a list that resists any of the three is probably an invalid or incomplete grouping.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.021691716147036657,
+      "title": "Imposing Logical Order on Groupings"
+    },
+    {
+      "concept_id": "incorporating-sources-summarize-paraphrase-quote",
+      "description": "Choose deliberately between summarizing, paraphrasing, and quoting a source based on whether the reader needs its overall point, its information, or its exact words \u2014 and use each to advance your own argument rather than to replace it.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Incorporating Sources: Summarize, Paraphrase, or Quote"
+    },
+    {
+      "concept_id": "keeping-comparable-information-within-one-view",
+      "description": "Information a reader needs to compare or relate has to be visible at the same time, because working memory can't reliably hold what has scrolled or paged out of view while the reader looks at something else.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0018631954621138695,
+      "title": "Keeping Comparable Information Within One View"
+    },
+    {
+      "concept_id": "labeling-systems-for-clarity",
+      "description": "A label is a compressed representation that lets a reader decide whether to pursue a larger chunk of content without reading it first, so labels need to be built from the reader's own language and tested for consistency, not assembled from whatever term the writer already had in mind.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 2,
+      "pagerank": 0.015406270292151511,
+      "title": "Labeling Systems for Clarity"
+    },
+    {
+      "concept_id": "landing-pages-as-traffic-cops",
+      "description": "A landing page's only job is to state its purpose and route readers to the right next page \u2014 any content that does more than link onward belongs on a destination page instead.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.008603572238559258,
+      "title": "Landing Pages as Traffic Cops"
+    },
+    {
+      "concept_id": "layered-editing-passes",
+      "description": "Edit a draft in a fixed order \u2014 accuracy, then completeness, then structure, then clarity and brevity \u2014 so each pass has a narrow enough focus to actually catch its category of problem.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.006321245013769131,
+      "title": "Layered Editing Passes for Documentation"
+    },
+    {
+      "concept_id": "maintaining-and-deprecating-documentation",
+      "description": "The largest cause of documentation failure is not bad writing but unmaintained writing \u2014 a page that was once correct becomes actively harmful once the product it describes changes underneath it \u2014 and deprecating a page is a reader migration to manage, not just a deletion.",
+      "inbound_link_count": 7,
+      "outbound_link_count": 2,
+      "pagerank": 0.00777256725658565,
+      "title": "Maintaining and Deprecating Documentation"
+    },
+    {
+      "concept_id": "maintaining-style-consistency-across-a-document-set",
+      "description": "Consistency means similar things are presented the same way and different things are visibly different \u2014 a trust guarantee that lets a reader's pattern-matching from one document transfer safely to the next, and one that erodes on its own unless it's documented, enforced, and defended against well-meaning \"improvements.\"",
+      "inbound_link_count": 1,
+      "outbound_link_count": 0,
+      "pagerank": 0.00347581994598746,
+      "title": "Maintaining Style Consistency Across a Document Set"
+    },
+    {
+      "concept_id": "matching-communication-channel-to-message-type",
+      "description": "Which channel a message goes out on should follow from how long it needs to persist and how much emotional nuance it carries, not from whichever channel happens to be open \u2014 real-time chat, persistent email, and a lasting document each fit a different kind of message.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Matching Communication Channel to Message Type"
+    },
+    {
+      "concept_id": "matching-document-structure-to-reader-patience",
+      "description": "The same underlying story needs a different structural shape depending on how much patience and prior context the intended reader brings to it.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.0031028858455933233,
+      "title": "Matching Document Structure to Reader Patience"
+    },
+    {
+      "concept_id": "matching-organization-to-information-seeking-behavior",
+      "description": "Readers look for information in different modes \u2014 a known item, an exploratory trawl, exhaustive research, or refinding something seen before \u2014 and a document set's organization should support movement between these modes rather than assume every reader follows the same path.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Matching Organization to Information-Seeking Behavior"
+    },
+    {
+      "concept_id": "maximizing-the-data-ink-ratio",
+      "description": "Every mark on a graphic should earn its place by carrying information; the ratio of information-bearing ink to total ink is a concrete metric for deciding what to remove and what to visually mute instead.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0013075055464836114,
+      "title": "Maximizing the Data-Ink Ratio"
+    },
+    {
+      "concept_id": "measuring-documentation-quality",
+      "description": "Measure documentation against the user and business outcome it was written to serve, using a stated baseline and hypothesis, and treat raw pageview-style numbers with suspicion since they can mean success or widespread failure equally well.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0018332620020774153,
+      "title": "Measuring Documentation Quality"
+    },
+    {
+      "concept_id": "metadiscourse",
+      "description": "Metadiscourse is language that refers to the writer's own thinking, the reader, or the structure of the text rather than to the subject matter, and while some is necessary, excess buries the actual content.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.007612375474721473,
+      "title": "Metadiscourse"
+    },
+    {
+      "concept_id": "motivating-the-reader-with-a-problem",
+      "description": "Readers engage attentively with a document when its introduction frames the content as the answer to a problem they already care about, not as a topic that merely happens to interest the writer.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.007272875477962968,
+      "title": "Motivating the Reader with a Problem"
+    },
+    {
+      "concept_id": "naming-the-recipient-and-requiring-acknowledgment",
+      "description": "A spoken directive to a group is only reliably received if it names who it's for, states the objective and a timeframe, and asks for an explicit acknowledgment back \u2014 a request addressed to no one in particular is easy for everyone to assume someone else will handle.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Naming the Recipient and Requiring Acknowledgment"
+    },
+    {
+      "concept_id": "navigation-systems-for-wayfinding",
+      "description": "Navigation has to answer four questions for a reader at any point in a document set \u2014 where am I, what else is here, where can I go, how do I get back \u2014 combining global, local, and contextual navigation rather than relying on any one of them alone.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Navigation Systems for Wayfinding"
+    },
+    {
+      "concept_id": "nested-story-arcs",
+      "description": "Every level of a document \u2014 the whole piece, its sections, subsections, paragraphs, and sentences \u2014 should form one complete, resolved arc rather than leaving readers carrying an unresolved thought into the next unit.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Nested Story Arcs"
+    },
+    {
+      "concept_id": "numbers-need-comparative-context",
+      "description": "A bare number communicates almost nothing on its own \u2014 it becomes meaningful only when paired with something the reader can measure it against, so every reported figure should carry or point to its comparison.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.005087451458636432,
+      "title": "Numbers Need Comparative Context"
+    },
+    {
+      "concept_id": "ocar-story-structure",
+      "description": "A technical document reads clearly when it is shaped as a story with four parts \u2014 Opening, Challenge, Action, Resolution \u2014 rather than a flat report of what was done and found.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 4,
+      "pagerank": 0.012376690812745445,
+      "title": "OCAR Story Structure"
+    },
+    {
+      "concept_id": "organization-schemes-and-structures",
+      "description": "Content can be organized by an exact scheme (alphabetical, chronological) that suits readers who already know what they want, or an ambiguous scheme (topical, task-based, audience-based) that supports browsing \u2014 and mixing the two inside one structure destroys the reader's mental model.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002245104327373858,
+      "title": "Organization Schemes and Structures"
+    },
+    {
+      "concept_id": "organizing-documentation-by-user-goals",
+      "description": "Structure a documentation set around the tasks and mental models readers actually bring to it, not around the internal org chart or implementation structure, since most readers arrive by search rather than by following a planned path.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.012943574529121028,
+      "title": "Organizing Documentation by User Goals"
+    },
+    {
+      "concept_id": "pairing-plain-language-with-precise-definitions",
+      "description": "State a technical definition twice in the same place \u2014 once as a plain sentence any stakeholder can parse, once as the exact formula or query a specialist can verify \u2014 rather than forcing every reader through whichever version wasn't written for them.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0013075055464836114,
+      "title": "Pairing Plain-Language and Precise Definitions"
+    },
+    {
+      "concept_id": "phrasing-disagreement-to-stay-collaborative",
+      "description": "How a disagreement, correction, or piece of critical feedback is worded determines whether the other person can actually hear it \u2014 four specific phrasing habits keep a reader receptive instead of defensive.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.0024188853777441276,
+      "title": "Phrasing Disagreement to Stay Collaborative"
+    },
+    {
+      "concept_id": "point-first-and-point-last-paragraphs",
+      "description": "A paragraph is a complete mini-story, and a writer should deliberately choose whether it states its point first and then develops it, or develops evidence first and resolves with the point at the end.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.00457201198261963,
+      "title": "Point-First and Point-Last Paragraphs"
+    },
+    {
+      "concept_id": "point-sentences-and-document-coherence",
+      "description": "The clarity principle that a short, graspable segment should introduce a longer, more complex one applies recursively from sentences up through paragraphs, sections, and whole documents.",
+      "inbound_link_count": 6,
+      "outbound_link_count": 4,
+      "pagerank": 0.012538010771117743,
+      "title": "Point Sentences and Document-Level Coherence"
+    },
+    {
+      "concept_id": "preattentive-attributes-for-rapid-visual-perception",
+      "description": "A small set of visual properties \u2014 position, length, color hue and intensity, shape, orientation, size \u2014 are recognized by the brain in a fraction of a second, before conscious attention engages, and only some of them can carry an accurate sense of \"more than / less than.\"",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.010092862339272259,
+      "title": "Preattentive Attributes for Rapid Visual Perception"
+    },
+    {
+      "concept_id": "precise-and-consistent-naming",
+      "description": "A name is a miniature piece of documentation that a reader trusts without checking, so it needs to create an accurate mental image on its own and mean exactly the same thing every time it recurs \u2014 a merely \"close enough\" name is a latent bug or misunderstanding.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 5,
+      "pagerank": 0.012754780218415553,
+      "title": "Precise and Consistent Naming"
+    },
+    {
+      "concept_id": "problem-definition-framework",
+      "description": "Before writing about a problem, define it with a fixed structure \u2014 the existing situation, what disturbed it, the undesired and desired results, and the gap between them \u2014 which both clarifies the reader's real question and supplies the introduction's raw material directly.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0158449049301125,
+      "title": "The Problem-Definition Framework"
+    },
+    {
+      "concept_id": "publishing-as-part-of-user-experience",
+      "description": "Where and how a document is published \u2014 the channel, the launch timing, the findability of the page \u2014 determines whether well-written content ever actually reaches its reader.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 4,
+      "pagerank": 0.0024741473157774306,
+      "title": "Publishing Is Part of the User Experience"
+    },
+    {
+      "concept_id": "punctuation-as-functional-choice",
+      "description": "Punctuation is better treated as a set of choices about how readers experience a sentence's connections than as a fixed set of grammar rules to obey.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Punctuation as a Functional Choice"
+    },
+    {
+      "concept_id": "put-explanations-where-future-readers-will-look",
+      "description": "An explanation recorded only in a change log, chat thread, or meeting note is effectively lost the moment the person who needs it doesn't know to go searching there \u2014 durable rationale belongs in the artifact itself.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Put Explanations Where Future Readers Will Actually Look"
+    },
+    {
+      "concept_id": "pyramid-structure",
+      "description": "Organize a document as a pyramid \u2014 the governing point stated first, then the grouped ideas that support it, then the evidence beneath those \u2014 so the reader receives the answer before being asked to reconstruct the writer's reasoning.",
+      "inbound_link_count": 14,
+      "outbound_link_count": 5,
+      "pagerank": 0.11429444692828632,
+      "title": "Pyramid Structure"
+    },
+    {
+      "concept_id": "reading-aloud-to-revise",
+      "description": "Reading a draft aloud surfaces clutter, monotony, and rhythm problems that a silent read of the same text does not catch.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 2,
+      "pagerank": 0.010498396752497708,
+      "title": "Reading Prose Aloud to Revise"
+    },
+    {
+      "concept_id": "reviewing-documentation-for-fitness-of-purpose",
+      "description": "A structured documentation review checks correctness, completeness, consistency, understandability, and fitness for the reader's actual task, driven by concrete questions built from stakeholder needs rather than a passive read-through.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.0036361184698662915,
+      "title": "Reviewing Documentation for Fitness of Purpose"
+    },
+    {
+      "concept_id": "revising-for-argument-visibility",
+      "description": "Revise an argumentative document's global frame \u2014 title, introduction, section order, claim hierarchy \u2014 before its sentences, and check specifically whether a reader skimming only its structural signals could recover the line of reasoning.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013075055464836114,
+      "title": "Revising for Argument Visibility"
+    },
+    {
+      "concept_id": "scan-friendly-function-comments",
+      "description": "Function-level reference comments should open with an indicative verb so a seeker scanning a file can judge relevance quickly, and a single clear prose sentence often beats artificially separated boilerplate sections.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.007700753131619054,
+      "title": "Scan-Friendly Function Comments"
+    },
+    {
+      "concept_id": "scfl-editing-procedure",
+      "description": "A complex draft has faults that interact, so revise it in repeated, top-down passes \u2014 Structure, Clarity, Flow, Language \u2014 rather than trying to fix everything in one read.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 5,
+      "pagerank": 0.0013075055464836114,
+      "title": "SCFL Editing Procedure"
+    },
+    {
+      "concept_id": "seekers-versus-stumblers",
+      "description": "Seekers know what they want and scan for a match; stumblers have only a vague goal and need orienting overviews \u2014 reference material should optimize consistency for seekers, introductions and TL;DRs for stumblers.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0033091715217990515,
+      "title": "Seekers Versus Stumblers"
+    },
+    {
+      "concept_id": "selecting-content-by-stakeholder-concerns",
+      "description": "Choose what a technical document covers by mapping each intended reader to their specific concerns and the questions or tasks they need the document to support, then covering the smallest set of content that answers all of them.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0029745752933743857,
+      "title": "Selecting Content by Stakeholder Concerns"
+    },
+    {
+      "concept_id": "selection-and-unity",
+      "description": "A clear piece of writing is defined as much by what the writer deliberately leaves out as by what it includes, held together by one sustained organizing point of view.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013075055464836114,
+      "title": "Selection and Unity"
+    },
+    {
+      "concept_id": "sentence-order-for-reader-visualization",
+      "description": "Because a reader processes words one at a time through a narrow channel, a sentence should be composed by first forming a clear mental image of what it describes and then setting the words down in the order that lets the reader reconstruct that same image without having to revise it partway through.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0013075055464836114,
+      "title": "Sentence Order for Reader Visualization"
+    },
+    {
+      "concept_id": "sentence-shape-for-long-sentences",
+      "description": "A long sentence stays clear when it reaches its point quickly through a short subject-verb-object core and then extends that core with modifiers and parallel coordination instead of a chain of tacked-on clauses.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.025633394383174204,
+      "title": "Sentence Shape for Long Sentences"
+    },
+    {
+      "concept_id": "separating-drafting-from-revision",
+      "description": "Write a rough first draft to get material onto the page, then treat shaping, cutting, and refining it as a distinct later pass, rather than trying to produce a finished sentence on the first attempt.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.00868651308028935,
+      "title": "Separating Drafting from Revision"
+    },
+    {
+      "concept_id": "separating-exceptions-from-the-main-line",
+      "description": "When a document has one primary path and several minor exceptions, pull the exceptions out to their own clearly marked spot instead of weaving them into the main explanation at equal weight, so the reader's model of \"what this is really about\" isn't interrupted.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.005720624523781501,
+      "title": "Separate Exceptional Cases From the Main Line, Don't Interleave Them"
+    },
+    {
+      "concept_id": "separating-stable-from-volatile-content",
+      "description": "Keep durable, slow-changing orientation material \u2014 goals, vision, stable concepts \u2014 physically separate from fast-changing implementation detail, and make the volatile material depend on the stable material rather than the reverse.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Separating Stable from Volatile Content"
+    },
+    {
+      "concept_id": "seven-rules-for-technical-documentation",
+      "description": "A compact checklist for any technical document \u2014 write for the reader, avoid repetition and ambiguity, use a standard organization, record rationale, keep it current without being exhaustive, and review it for fitness of purpose.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 4,
+      "pagerank": 0.0013075055464836114,
+      "title": "Seven Rules for Technical Documentation"
+    },
+    {
+      "concept_id": "single-source-with-pointer-references",
+      "description": "When several places need the same explanation, write it once at whichever spot is the most natural anchor and point every other location back to it \u2014 a broken pointer fails loudly, where a duplicated copy fails silently by quietly drifting out of sync.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.007835333699641645,
+      "title": "Single Source With Pointer References"
+    },
+    {
+      "concept_id": "situation-complication-question-introduction",
+      "description": "An effective introduction is a short narrative \u2014 Situation, Complication, Question \u2014 that reminds the reader of what they already know rather than informing them of something new, and that narrative determines what question the rest of the document has to answer.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0342056947279943,
+      "title": "The Situation-Complication-Question Introduction"
+    },
+    {
+      "concept_id": "sketching-competing-outlines-before-committing",
+      "description": "A document's first structural idea is rarely its best one, so a hard structuring decision deserves two or three deliberately different outline sketches, compared before any is drafted into prose.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002045247601876508,
+      "title": "Sketching Competing Outlines Before Committing"
+    },
+    {
+      "concept_id": "small-multiples-for-added-variable-comparison",
+      "description": "Repeating the same simple chart once per category, stripped of redundant chrome, lets a reader compare an extra variable that wouldn't fit as another dimension inside a single chart.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013075055464836114,
+      "title": "Small Multiples for Added-Variable Comparison"
+    },
+    {
+      "concept_id": "sparklines-for-inline-historical-context",
+      "description": "A tiny, axis-less line graph can give a reader the shape of a value's history at a glance, trading away precise readout for a compactness that fits directly inline with the current figure it explains.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Sparklines for Inline Historical Context"
+    },
+    {
+      "concept_id": "spiral-structure-for-teaching-complex-systems",
+      "description": "For material with many interlocking parts, revisiting the same core elements across several passes of increasing depth teaches more reliably than a single linear pass that goes deep on each part in turn.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013075055464836114,
+      "title": "Spiral Structure for Teaching Complex Systems"
+    },
+    {
+      "concept_id": "stating-forecasts-as-calibrated-probabilities",
+      "description": "A recommendation or forecast written as a flat assertion hides the confidence behind it and invites a reader to judge it \"wrong\" whenever the less likely outcome happens \u2014 stating the actual probability instead lets both the decision and its later evaluation stay honest.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0018631954621138695,
+      "title": "Stating Forecasts as Calibrated Probabilities, Not Binary Claims"
+    },
+    {
+      "concept_id": "stickiness-framework-succes",
+      "description": "An idea is more likely to be remembered and acted on when it is Simple, Unexpected, Concrete, Credible, Emotional, and delivered as a Story \u2014 used as a diagnostic checklist, not a requirement to force every element into every piece.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "The SUCCES Stickiness Framework"
+    },
+    {
+      "concept_id": "storyboarding-an-argument",
+      "description": "Plan a document that makes a case \u2014 not just presents information \u2014 with a flexible storyboard of its claim, reasons, evidence, warrants, and anticipated objections, rearranged as the underlying research changes rather than committed to prose too early.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 3,
+      "pagerank": 0.005730884737482261,
+      "title": "Storyboarding an Argument"
+    },
+    {
+      "concept_id": "stress-position-and-emphasis",
+      "description": "The last few words of a sentence are where readers naturally hear emphasis, which makes sentence endings the right place for unfamiliar technical terms, new information, and whatever the writer most wants remembered.",
+      "inbound_link_count": 5,
+      "outbound_link_count": 3,
+      "pagerank": 0.009300447228542301,
+      "title": "Stress Position and Sentence Emphasis"
+    },
+    {
+      "concept_id": "strong-opening-technique",
+      "description": "An opening's only job is to make the reader want the next sentence, which favors a surprising, specific detail over a generic scene-setting preamble.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 1,
+      "pagerank": 0.006566237116530501,
+      "title": "Strong Opening Technique"
+    },
+    {
+      "concept_id": "structuring-content-for-multi-channel-reuse",
+      "description": "Plan content as small, structured chunks tied to a defined type rather than as one bespoke document per channel, so the same underlying content can be assembled into a website, an app, a voice response, or any future format without being rewritten for each.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.002571700200100377,
+      "title": "Structuring Content for Multi-Channel Reuse"
+    },
+    {
+      "concept_id": "structuring-interface-documentation",
+      "description": "Documentation for a callable unit reads best in a fixed order \u2014 behavior, then parameters, then side effects, exceptions, and preconditions \u2014 and must stay confined to what a caller needs, never leaking how the thing works internally.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.004964615403229622,
+      "title": "Structuring Interface Documentation"
+    },
+    {
+      "concept_id": "subject-matter-expert-interview-technique",
+      "description": "A structured approach to interviewing a subject-matter expert to extract a domain's key concepts and their relationships \u2014 timed phases, deliberate naivety, and listening specifically for the nouns an expert uses without being asked to.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.0029745752933743857,
+      "title": "Subject-Matter Expert Interview Technique"
+    },
+    {
+      "concept_id": "summarizing-grouped-ideas",
+      "description": "The point placed above a group of ideas must be a genuine insight derived from that group, not a category label like \"three reasons\" \u2014 and action items specifically need wording concrete enough that a reader can picture someone actually doing them.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 2,
+      "pagerank": 0.023405663456786244,
+      "title": "Summarizing Grouped Ideas"
+    },
+    {
+      "concept_id": "telling-the-simplest-honest-story-of-a-system",
+      "description": "Force yourself to explain a complex system using only its handful of most essential concepts, as if to someone who knows nothing about it, then add detail back in layers \u2014 the discomfort of what you have to leave out reveals what's actually essential versus merely accumulated.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013075055464836114,
+      "title": "Telling the Simplest Honest Story of a System"
+    },
+    {
+      "concept_id": "the-funnel-technique",
+      "description": "An introduction should narrow from a broad, engaging opening to a precise question one paragraph at a time, with each paragraph building on the one before rather than stacking background facts.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.008350672682432798,
+      "title": "The Funnel Technique"
+    },
+    {
+      "concept_id": "three-ways-to-reduce-what-a-reader-must-be-told",
+      "description": "In order of preference \u2014 eliminate the need for a piece of information entirely, let the reader's existing knowledge of convention supply it for free, or, only when neither is possible, state it explicitly.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0020993637081093723,
+      "title": "Three Ways to Reduce What a Reader Must Be Told"
+    },
+    {
+      "concept_id": "topic-position-and-old-before-new-information",
+      "description": "Readers process a sentence more easily when it opens with information they already have and saves new or difficult material for the end, and a passage reads as coherent when a consistent topic occupies that opening position sentence after sentence.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 3,
+      "pagerank": 0.010366904813289743,
+      "title": "Topic Position and Old-Before-New Information"
+    },
+    {
+      "concept_id": "translating-technical-material-for-general-readers",
+      "description": "Explaining specialist work to a non-specialist reader means starting from the human question the work answers, separating essential content from technical debris, and explaining process and uncertainty, not just results.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.003261681813488638,
+      "title": "Translating Technical Material for General Readers"
+    },
+    {
+      "concept_id": "trimming-precision-to-what-the-decision-needs",
+      "description": "Reporting more decimal places or finer units than a reader will ever act on costs reading time without adding information, so precision should be trimmed to whatever the reader's actual decision requires.",
+      "inbound_link_count": 3,
+      "outbound_link_count": 1,
+      "pagerank": 0.010914831838049257,
+      "title": "Trimming Precision to What the Decision Needs"
+    },
+    {
+      "concept_id": "tutorial-step-numbering",
+      "description": "Number only steps that require the reader to act, fold system-side effects into the step they belong to, and show input and output on separate lines so a procedural tutorial reads as a sequence of real user interventions.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.005577858085164292,
+      "title": "Tutorial Step Numbering"
+    },
+    {
+      "concept_id": "undocumented-automated-behavior-is-a-safety-defect",
+      "description": "When a system can act on its own initiative in ways an operator would need to recognize and respond to, leaving that behavior out of the operator-facing documentation isn't an incomplete manual \u2014 it is itself the defect that turns a survivable failure into a fatal one.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Undocumented Automated Behavior Is a Safety Defect, Not Just a Gap"
+    },
+    {
+      "concept_id": "using-metaphor-to-explain",
+      "description": "A well-chosen metaphor can make an abstract or technical idea graspable in a way literal restatement can't, but a metaphor pursued past the point where its own literal meaning still fits will mislead or read as silly.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 1,
+      "pagerank": 0.0018631954621138695,
+      "title": "Using Metaphor to Explain"
+    },
+    {
+      "concept_id": "using-visuals-effectively",
+      "description": "A visual belongs in documentation only if it passes three tests \u2014 comprehension, accessibility, performance \u2014 and each visual type (screenshot, diagram, video) has its own failure modes to check for.",
+      "inbound_link_count": 4,
+      "outbound_link_count": 2,
+      "pagerank": 0.01667937754249618,
+      "title": "Using Visuals Effectively in Documentation"
+    },
+    {
+      "concept_id": "vertical-question-answer-relationship",
+      "description": "Every point in a document should raise a specific question in the reader's mind that the points immediately beneath it answer, and a writer should never answer a question the reader hasn't yet been led to ask.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.02407599913605173,
+      "title": "The Vertical Question-Answer Relationship"
+    },
+    {
+      "concept_id": "when-to-involve-technical-writers",
+      "description": "Engineers can document for their own team; technical writers earn their place on documentation that must work for readers outside the authoring team's assumptions \u2014 especially cross-team or external API audiences.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 2,
+      "pagerank": 0.002210324653423816,
+      "title": "When to Involve Technical Writers"
+    },
+    {
+      "concept_id": "who-what-when-where-why-for-documents",
+      "description": "Beyond explaining how something works, a technical document should answer who it is for, what job it does, when it was last reviewed, where it canonically lives, and why a reader should care \u2014 usually in the opening paragraphs.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.002118270622424827,
+      "title": "WHO WHAT WHEN WHERE WHY for Documents"
+    },
+    {
+      "concept_id": "worked-example-before-principles",
+      "description": "For material a reader needs to internalize as a skill rather than just look up, one extended concrete example that builds intuition first makes the generalized definitions and rules that follow actually stick, instead of landing as abstract vocabulary with nothing yet to attach to.",
+      "inbound_link_count": 2,
+      "outbound_link_count": 1,
+      "pagerank": 0.0029745752933743857,
+      "title": "Lead With a Worked Example Before Stating Principles"
+    },
+    {
+      "concept_id": "write-for-the-reader-not-the-writer",
+      "description": "A shortcut that saves the writer a few minutes but costs every future reader more than that to decode is a bad trade nearly every time \u2014 the side that's outnumbered should be the one who spends the effort.",
+      "inbound_link_count": 1,
+      "outbound_link_count": 3,
+      "pagerank": 0.0015853505042987405,
+      "title": "Write for the Reader, Not the Writer"
+    },
+    {
+      "concept_id": "writing-code-samples",
+      "description": "A code sample is documentation that a reader will copy and run, which makes it a promise about the product \u2014 it needs its own correctness, testing, and maintenance discipline beyond ordinary prose.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 1,
+      "pagerank": 0.0013075055464836114,
+      "title": "Writing Code Samples as Executable Explanations"
+    },
+    {
+      "concept_id": "writing-for-non-native-and-global-readers",
+      "description": "Grammatical correctness does not guarantee comprehension for readers who don't share the writer's linguistic and cultural background, so writing for a global audience needs deliberately overt structure and plain vocabulary.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 2,
+      "pagerank": 0.0013075055464836114,
+      "title": "Writing for Non-Native and Global Readers"
+    },
+    {
+      "concept_id": "writing-for-public-audiences",
+      "description": "A public, non-specialist audience follows a different concern path than a specialist one \u2014 they ask \"how does this affect me?\" before anything else \u2014 which a message box (issue, problem, so-what, solution, benefit) can force a writer to answer explicitly.",
+      "inbound_link_count": 0,
+      "outbound_link_count": 3,
+      "pagerank": 0.0013075055464836114,
+      "title": "Writing for Public Audiences"
+    }
+  ],
+  "links": [
+    {
+      "source_concept_id": "active-voice-and-concrete-language",
+      "source_path": "active-voice-and-concrete-language.md",
+      "target": "characters-as-subjects.md",
+      "target_concept_id": "characters-as-subjects",
+      "target_path": "characters-as-subjects.md",
+      "text": "characters as subjects",
+      "title": null
+    },
+    {
+      "source_concept_id": "active-voice-and-concrete-language",
+      "source_path": "active-voice-and-concrete-language.md",
+      "target": "cutting-clutter.md",
+      "target_concept_id": "cutting-clutter",
+      "target_path": "cutting-clutter.md",
+      "text": "cutting clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "active-voice-and-concrete-language",
+      "source_path": "active-voice-and-concrete-language.md",
+      "target": "ethics-of-clear-writing.md",
+      "target_concept_id": "ethics-of-clear-writing",
+      "target_path": "ethics-of-clear-writing.md",
+      "text": "the ethics of clear writing",
+      "title": null
+    },
+    {
+      "source_concept_id": "active-voice-and-concrete-language",
+      "source_path": "active-voice-and-concrete-language.md",
+      "target": "topic-position-and-old-before-new-information.md",
+      "target_concept_id": "topic-position-and-old-before-new-information",
+      "target_path": "topic-position-and-old-before-new-information.md",
+      "text": "topic position and old-before-new information",
+      "title": null
+    },
+    {
+      "source_concept_id": "adapting-pyramid-structure-for-presentations",
+      "source_path": "adapting-pyramid-structure-for-presentations.md",
+      "target": "bullet-point-compression-hides-technical-nuance.md",
+      "target_concept_id": "bullet-point-compression-hides-technical-nuance",
+      "target_path": "bullet-point-compression-hides-technical-nuance.md",
+      "text": "bullet-point compression hides technical nuance",
+      "title": null
+    },
+    {
+      "source_concept_id": "adapting-pyramid-structure-for-presentations",
+      "source_path": "adapting-pyramid-structure-for-presentations.md",
+      "target": "point-sentences-and-document-coherence.md",
+      "target_concept_id": "point-sentences-and-document-coherence",
+      "target_path": "point-sentences-and-document-coherence.md",
+      "text": "point sentences",
+      "title": null
+    },
+    {
+      "source_concept_id": "adapting-pyramid-structure-for-presentations",
+      "source_path": "adapting-pyramid-structure-for-presentations.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "annotations-must-add-information-not-repeat-the-name",
+      "source_path": "annotations-must-add-information-not-repeat-the-name.md",
+      "target": "cutting-clutter.md",
+      "target_concept_id": "cutting-clutter",
+      "target_path": "cutting-clutter.md",
+      "text": "cutting clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "api-comments-versus-implementation-comments",
+      "source_path": "api-comments-versus-implementation-comments.md",
+      "target": "comments-complete-the-interface.md",
+      "target_concept_id": "comments-complete-the-interface",
+      "target_path": "comments-complete-the-interface.md",
+      "text": "comments complete the interface",
+      "title": null
+    },
+    {
+      "source_concept_id": "api-comments-versus-implementation-comments",
+      "source_path": "api-comments-versus-implementation-comments.md",
+      "target": "structuring-interface-documentation.md",
+      "target_concept_id": "structuring-interface-documentation",
+      "target_path": "structuring-interface-documentation.md",
+      "text": "structuring interface documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "asking-how-not-why-for-non-defensive-recall",
+      "source_path": "asking-how-not-why-for-non-defensive-recall.md",
+      "target": "subject-matter-expert-interview-technique.md",
+      "target_concept_id": "subject-matter-expert-interview-technique",
+      "target_path": "subject-matter-expert-interview-technique.md",
+      "text": "subject-matter expert interview technique",
+      "title": null
+    },
+    {
+      "source_concept_id": "bullet-point-compression-hides-technical-nuance",
+      "source_path": "bullet-point-compression-hides-technical-nuance.md",
+      "target": "adapting-pyramid-structure-for-presentations.md",
+      "target_concept_id": "adapting-pyramid-structure-for-presentations",
+      "target_path": "adapting-pyramid-structure-for-presentations.md",
+      "text": "adapting pyramid structure for presentations",
+      "title": null
+    },
+    {
+      "source_concept_id": "bullet-point-compression-hides-technical-nuance",
+      "source_path": "bullet-point-compression-hides-technical-nuance.md",
+      "target": "formatting-for-scanning.md",
+      "target_concept_id": "formatting-for-scanning",
+      "target_path": "formatting-for-scanning.md",
+      "text": "formatting for scanning",
+      "title": null
+    },
+    {
+      "source_concept_id": "bullet-point-compression-hides-technical-nuance",
+      "source_path": "bullet-point-compression-hides-technical-nuance.md",
+      "target": "formatting-for-scanning.md",
+      "target_concept_id": "formatting-for-scanning",
+      "target_path": "formatting-for-scanning.md",
+      "text": "formatting for scanning",
+      "title": null
+    },
+    {
+      "source_concept_id": "bullet-point-compression-hides-technical-nuance",
+      "source_path": "bullet-point-compression-hides-technical-nuance.md",
+      "target": "numbers-need-comparative-context.md",
+      "target_concept_id": "numbers-need-comparative-context",
+      "target_path": "numbers-need-comparative-context.md",
+      "text": "numbers need comparative context",
+      "title": null
+    },
+    {
+      "source_concept_id": "bullet-point-compression-hides-technical-nuance",
+      "source_path": "bullet-point-compression-hides-technical-nuance.md",
+      "target": "precise-and-consistent-naming.md",
+      "target_concept_id": "precise-and-consistent-naming",
+      "target_path": "precise-and-consistent-naming.md",
+      "text": "precise and consistent naming",
+      "title": null
+    },
+    {
+      "source_concept_id": "catalog-entry-structure-for-reusable-techniques",
+      "source_path": "catalog-entry-structure-for-reusable-techniques.md",
+      "target": "worked-example-before-principles.md",
+      "target_concept_id": "worked-example-before-principles",
+      "target_path": "worked-example-before-principles.md",
+      "text": "worked example before principles",
+      "title": null
+    },
+    {
+      "source_concept_id": "characters-as-subjects",
+      "source_path": "characters-as-subjects.md",
+      "target": "diagnosing-nominalizations.md",
+      "target_concept_id": "diagnosing-nominalizations",
+      "target_path": "diagnosing-nominalizations.md",
+      "text": "diagnosing nominalizations",
+      "title": null
+    },
+    {
+      "source_concept_id": "characters-as-subjects",
+      "source_path": "characters-as-subjects.md",
+      "target": "sentence-shape-for-long-sentences.md",
+      "target_concept_id": "sentence-shape-for-long-sentences",
+      "target_path": "sentence-shape-for-long-sentences.md",
+      "text": "sentence shape for long sentences",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-a-different-altitude-than-what-its-explaining",
+      "source_path": "choosing-a-different-altitude-than-what-its-explaining.md",
+      "target": "annotations-must-add-information-not-repeat-the-name.md",
+      "target_concept_id": "annotations-must-add-information-not-repeat-the-name",
+      "target_path": "annotations-must-add-information-not-repeat-the-name.md",
+      "text": "annotations must add information, not repeat the name",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-a-different-altitude-than-what-its-explaining",
+      "source_path": "choosing-a-different-altitude-than-what-its-explaining.md",
+      "target": "summarizing-grouped-ideas.md",
+      "target_concept_id": "summarizing-grouped-ideas",
+      "target_path": "summarizing-grouped-ideas.md",
+      "text": "summarizing grouped ideas",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-documentation-types",
+      "source_path": "choosing-documentation-types.md",
+      "target": "api-comments-versus-implementation-comments.md",
+      "target_concept_id": "api-comments-versus-implementation-comments",
+      "target_path": "api-comments-versus-implementation-comments.md",
+      "text": "API comments versus implementation comments",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-documentation-types",
+      "source_path": "choosing-documentation-types.md",
+      "target": "completeness-accuracy-clarity-tradeoff.md",
+      "target_concept_id": "completeness-accuracy-clarity-tradeoff",
+      "target_path": "completeness-accuracy-clarity-tradeoff.md",
+      "text": "the completeness-accuracy-clarity tradeoff",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-documentation-types",
+      "source_path": "choosing-documentation-types.md",
+      "target": "landing-pages-as-traffic-cops.md",
+      "target_concept_id": "landing-pages-as-traffic-cops",
+      "target_path": "landing-pages-as-traffic-cops.md",
+      "text": "landing pages as traffic cops",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-documentation-types",
+      "source_path": "choosing-documentation-types.md",
+      "target": "scan-friendly-function-comments.md",
+      "target_concept_id": "scan-friendly-function-comments",
+      "target_path": "scan-friendly-function-comments.md",
+      "text": "scan-friendly",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-documentation-types",
+      "source_path": "choosing-documentation-types.md",
+      "target": "single-source-with-pointer-references.md",
+      "target_concept_id": "single-source-with-pointer-references",
+      "target_path": "single-source-with-pointer-references.md",
+      "text": "single-sourced",
+      "title": null
+    },
+    {
+      "source_concept_id": "choosing-documentation-types",
+      "source_path": "choosing-documentation-types.md",
+      "target": "tutorial-step-numbering.md",
+      "target_concept_id": "tutorial-step-numbering",
+      "target_path": "tutorial-step-numbering.md",
+      "text": "only user interventions",
+      "title": null
+    },
+    {
+      "source_concept_id": "closing-the-feedback-loop",
+      "source_path": "closing-the-feedback-loop.md",
+      "target": "curse-of-knowledge-and-audience-research.md",
+      "target_concept_id": "curse-of-knowledge-and-audience-research",
+      "target_path": "curse-of-knowledge-and-audience-research.md",
+      "text": "the curse of knowledge and audience research",
+      "title": null
+    },
+    {
+      "source_concept_id": "closing-the-feedback-loop",
+      "source_path": "closing-the-feedback-loop.md",
+      "target": "documentation-research-artifacts.md",
+      "target_concept_id": "documentation-research-artifacts",
+      "target_path": "documentation-research-artifacts.md",
+      "text": "documentation research artifacts",
+      "title": null
+    },
+    {
+      "source_concept_id": "closing-the-feedback-loop",
+      "source_path": "closing-the-feedback-loop.md",
+      "target": "publishing-as-part-of-user-experience.md",
+      "target_concept_id": "publishing-as-part-of-user-experience",
+      "target_path": "publishing-as-part-of-user-experience.md",
+      "text": "publishing is part of the user experience",
+      "title": null
+    },
+    {
+      "source_concept_id": "comments-complete-the-interface",
+      "source_path": "comments-complete-the-interface.md",
+      "target": "labeling-systems-for-clarity.md",
+      "target_concept_id": "labeling-systems-for-clarity",
+      "target_path": "labeling-systems-for-clarity.md",
+      "text": "labeling systems for clarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "communicating-evidence-visually",
+      "source_path": "communicating-evidence-visually.md",
+      "target": "numbers-need-comparative-context.md",
+      "target_concept_id": "numbers-need-comparative-context",
+      "target_path": "numbers-need-comparative-context.md",
+      "text": "comparison the reader actually needs",
+      "title": null
+    },
+    {
+      "source_concept_id": "communicating-evidence-visually",
+      "source_path": "communicating-evidence-visually.md",
+      "target": "preattentive-attributes-for-rapid-visual-perception.md",
+      "target_concept_id": "preattentive-attributes-for-rapid-visual-perception",
+      "target_path": "preattentive-attributes-for-rapid-visual-perception.md",
+      "text": "preattentive channels",
+      "title": null
+    },
+    {
+      "source_concept_id": "communicating-evidence-visually",
+      "source_path": "communicating-evidence-visually.md",
+      "target": "storyboarding-an-argument.md",
+      "target_concept_id": "storyboarding-an-argument",
+      "target_path": "storyboarding-an-argument.md",
+      "text": "communicating evidence in prose",
+      "title": null
+    },
+    {
+      "source_concept_id": "communicating-intent-not-just-instructions",
+      "source_path": "communicating-intent-not-just-instructions.md",
+      "target": "comments-complete-the-interface.md",
+      "target_concept_id": "comments-complete-the-interface",
+      "target_path": "comments-complete-the-interface.md",
+      "text": "comments complete the interface",
+      "title": null
+    },
+    {
+      "source_concept_id": "communicating-intent-not-just-instructions",
+      "source_path": "communicating-intent-not-just-instructions.md",
+      "target": "three-ways-to-reduce-what-a-reader-must-be-told.md",
+      "target_concept_id": "three-ways-to-reduce-what-a-reader-must-be-told",
+      "target_path": "three-ways-to-reduce-what-a-reader-must-be-told.md",
+      "text": "three ways to reduce what a reader must be told",
+      "title": null
+    },
+    {
+      "source_concept_id": "completeness-accuracy-clarity-tradeoff",
+      "source_path": "completeness-accuracy-clarity-tradeoff.md",
+      "target": "choosing-documentation-types.md",
+      "target_concept_id": "choosing-documentation-types",
+      "target_path": "choosing-documentation-types.md",
+      "text": "choosing documentation types",
+      "title": null
+    },
+    {
+      "source_concept_id": "completeness-accuracy-clarity-tradeoff",
+      "source_path": "completeness-accuracy-clarity-tradeoff.md",
+      "target": "landing-pages-as-traffic-cops.md",
+      "target_concept_id": "landing-pages-as-traffic-cops",
+      "target_path": "landing-pages-as-traffic-cops.md",
+      "text": "landing pages as traffic cops",
+      "title": null
+    },
+    {
+      "source_concept_id": "completeness-accuracy-clarity-tradeoff",
+      "source_path": "completeness-accuracy-clarity-tradeoff.md",
+      "target": "layered-editing-passes.md",
+      "target_concept_id": "layered-editing-passes",
+      "target_path": "layered-editing-passes.md",
+      "text": "layered editing passes for documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "completeness-accuracy-clarity-tradeoff",
+      "source_path": "completeness-accuracy-clarity-tradeoff.md",
+      "target": "scan-friendly-function-comments.md",
+      "target_concept_id": "scan-friendly-function-comments",
+      "target_path": "scan-friendly-function-comments.md",
+      "text": "scan-friendly structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "conditions-actions-needs-status-briefing",
+      "source_path": "conditions-actions-needs-status-briefing.md",
+      "target": "communicating-intent-not-just-instructions.md",
+      "target_concept_id": "communicating-intent-not-just-instructions",
+      "target_path": "communicating-intent-not-just-instructions.md",
+      "text": "communicating intent, not just instructions",
+      "title": null
+    },
+    {
+      "source_concept_id": "conditions-actions-needs-status-briefing",
+      "source_path": "conditions-actions-needs-status-briefing.md",
+      "target": "consistent-visual-encoding-across-a-document.md",
+      "target_concept_id": "consistent-visual-encoding-across-a-document",
+      "target_path": "consistent-visual-encoding-across-a-document.md",
+      "text": "same benefit consistent visual encoding gives a reader",
+      "title": null
+    },
+    {
+      "source_concept_id": "consistent-visual-encoding-across-a-document",
+      "source_path": "consistent-visual-encoding-across-a-document.md",
+      "target": "communicating-evidence-visually.md",
+      "target_concept_id": "communicating-evidence-visually",
+      "target_path": "communicating-evidence-visually.md",
+      "text": "display medium to the reader's task",
+      "title": null
+    },
+    {
+      "source_concept_id": "consistent-visual-encoding-across-a-document",
+      "source_path": "consistent-visual-encoding-across-a-document.md",
+      "target": "gestalt-principles-for-visual-grouping.md",
+      "target_concept_id": "gestalt-principles-for-visual-grouping",
+      "target_path": "gestalt-principles-for-visual-grouping.md",
+      "text": "Gestalt similarity principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "consistent-visual-encoding-across-a-document",
+      "source_path": "consistent-visual-encoding-across-a-document.md",
+      "target": "preattentive-attributes-for-rapid-visual-perception.md",
+      "target_concept_id": "preattentive-attributes-for-rapid-visual-perception",
+      "target_path": "preattentive-attributes-for-rapid-visual-perception.md",
+      "text": "short-term memory holds the meaning of only a handful of distinct attribute values at a time",
+      "title": null
+    },
+    {
+      "source_concept_id": "content-design-principles",
+      "source_path": "content-design-principles.md",
+      "target": "curse-of-knowledge-and-audience-research.md",
+      "target_concept_id": "curse-of-knowledge-and-audience-research",
+      "target_path": "curse-of-knowledge-and-audience-research.md",
+      "text": "the curse of knowledge and audience research",
+      "title": null
+    },
+    {
+      "source_concept_id": "content-design-principles",
+      "source_path": "content-design-principles.md",
+      "target": "formatting-for-scanning.md",
+      "target_concept_id": "formatting-for-scanning",
+      "target_path": "formatting-for-scanning.md",
+      "text": "formatting",
+      "title": null
+    },
+    {
+      "source_concept_id": "content-design-principles",
+      "source_path": "content-design-principles.md",
+      "target": "labeling-systems-for-clarity.md",
+      "target_concept_id": "labeling-systems-for-clarity",
+      "target_path": "labeling-systems-for-clarity.md",
+      "text": "labeling systems for clarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "content-design-principles",
+      "source_path": "content-design-principles.md",
+      "target": "motivating-the-reader-with-a-problem.md",
+      "target_concept_id": "motivating-the-reader-with-a-problem",
+      "target_path": "motivating-the-reader-with-a-problem.md",
+      "text": "motivating the reader with a problem",
+      "title": null
+    },
+    {
+      "source_concept_id": "content-design-principles",
+      "source_path": "content-design-principles.md",
+      "target": "strong-opening-technique.md",
+      "target_concept_id": "strong-opening-technique",
+      "target_path": "strong-opening-technique.md",
+      "text": "strong opening technique",
+      "title": null
+    },
+    {
+      "source_concept_id": "conversational-vocabulary-as-a-documentation-diagnostic",
+      "source_path": "conversational-vocabulary-as-a-documentation-diagnostic.md",
+      "target": "precise-and-consistent-naming.md",
+      "target_concept_id": "precise-and-consistent-naming",
+      "target_path": "precise-and-consistent-naming.md",
+      "text": "precise and consistent naming",
+      "title": null
+    },
+    {
+      "source_concept_id": "correctness-versus-clarity",
+      "source_path": "correctness-versus-clarity.md",
+      "target": "characters-as-subjects.md",
+      "target_concept_id": "characters-as-subjects",
+      "target_path": "characters-as-subjects.md",
+      "text": "characters as subjects",
+      "title": null
+    },
+    {
+      "source_concept_id": "correctness-versus-clarity",
+      "source_path": "correctness-versus-clarity.md",
+      "target": "diagnosing-nominalizations.md",
+      "target_concept_id": "diagnosing-nominalizations",
+      "target_path": "diagnosing-nominalizations.md",
+      "text": "diagnosing nominalizations",
+      "title": null
+    },
+    {
+      "source_concept_id": "curating-guides-over-duplicating-content",
+      "source_path": "curating-guides-over-duplicating-content.md",
+      "target": "maintaining-and-deprecating-documentation.md",
+      "target_concept_id": "maintaining-and-deprecating-documentation",
+      "target_path": "maintaining-and-deprecating-documentation.md",
+      "text": "maintaining and deprecating documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "curating-guides-over-duplicating-content",
+      "source_path": "curating-guides-over-duplicating-content.md",
+      "target": "organizing-documentation-by-user-goals.md",
+      "target_concept_id": "organizing-documentation-by-user-goals",
+      "target_path": "organizing-documentation-by-user-goals.md",
+      "text": "organizing documentation by user goals",
+      "title": null
+    },
+    {
+      "source_concept_id": "curating-guides-over-duplicating-content",
+      "source_path": "curating-guides-over-duplicating-content.md",
+      "target": "single-source-with-pointer-references.md",
+      "target_concept_id": "single-source-with-pointer-references",
+      "target_path": "single-source-with-pointer-references.md",
+      "text": "single source with pointer references",
+      "title": null
+    },
+    {
+      "source_concept_id": "curse-of-knowledge-and-audience-research",
+      "source_path": "curse-of-knowledge-and-audience-research.md",
+      "target": "customer-versus-provider-documentation.md",
+      "target_concept_id": "customer-versus-provider-documentation",
+      "target_path": "customer-versus-provider-documentation.md",
+      "text": "customer versus provider documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "curse-of-knowledge-and-audience-research",
+      "source_path": "curse-of-knowledge-and-audience-research.md",
+      "target": "motivating-the-reader-with-a-problem.md",
+      "target_concept_id": "motivating-the-reader-with-a-problem",
+      "target_path": "motivating-the-reader-with-a-problem.md",
+      "text": "motivating the reader with a problem",
+      "title": null
+    },
+    {
+      "source_concept_id": "curse-of-knowledge-and-audience-research",
+      "source_path": "curse-of-knowledge-and-audience-research.md",
+      "target": "seekers-versus-stumblers.md",
+      "target_concept_id": "seekers-versus-stumblers",
+      "target_path": "seekers-versus-stumblers.md",
+      "text": "seekers versus stumblers",
+      "title": null
+    },
+    {
+      "source_concept_id": "curse-of-knowledge-and-audience-research",
+      "source_path": "curse-of-knowledge-and-audience-research.md",
+      "target": "strong-opening-technique.md",
+      "target_concept_id": "strong-opening-technique",
+      "target_path": "strong-opening-technique.md",
+      "text": "strong opening technique",
+      "title": null
+    },
+    {
+      "source_concept_id": "customer-versus-provider-documentation",
+      "source_path": "customer-versus-provider-documentation.md",
+      "target": "api-comments-versus-implementation-comments.md",
+      "target_concept_id": "api-comments-versus-implementation-comments",
+      "target_path": "api-comments-versus-implementation-comments.md",
+      "text": "API comments versus implementation comments",
+      "title": null
+    },
+    {
+      "source_concept_id": "customer-versus-provider-documentation",
+      "source_path": "customer-versus-provider-documentation.md",
+      "target": "landing-pages-as-traffic-cops.md",
+      "target_concept_id": "landing-pages-as-traffic-cops",
+      "target_path": "landing-pages-as-traffic-cops.md",
+      "text": "landing pages as traffic cops",
+      "title": null
+    },
+    {
+      "source_concept_id": "customer-versus-provider-documentation",
+      "source_path": "customer-versus-provider-documentation.md",
+      "target": "structuring-interface-documentation.md",
+      "target_concept_id": "structuring-interface-documentation",
+      "target_path": "structuring-interface-documentation.md",
+      "text": "structuring interface documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "customer-versus-provider-documentation",
+      "source_path": "customer-versus-provider-documentation.md",
+      "target": "when-to-involve-technical-writers.md",
+      "target_concept_id": "when-to-involve-technical-writers",
+      "target_path": "when-to-involve-technical-writers.md",
+      "text": "when to involve technical writers",
+      "title": null
+    },
+    {
+      "source_concept_id": "cutting-clutter",
+      "source_path": "cutting-clutter.md",
+      "target": "active-voice-and-concrete-language.md",
+      "target_concept_id": "active-voice-and-concrete-language",
+      "target_path": "active-voice-and-concrete-language.md",
+      "text": "active voice and concrete language",
+      "title": null
+    },
+    {
+      "source_concept_id": "cutting-clutter",
+      "source_path": "cutting-clutter.md",
+      "target": "decoration-competes-with-data-for-attention.md",
+      "target_concept_id": "decoration-competes-with-data-for-attention",
+      "target_path": "decoration-competes-with-data-for-attention.md",
+      "text": "decoration competes with data for attention",
+      "title": null
+    },
+    {
+      "source_concept_id": "cutting-clutter",
+      "source_path": "cutting-clutter.md",
+      "target": "diagnosing-nominalizations.md",
+      "target_concept_id": "diagnosing-nominalizations",
+      "target_path": "diagnosing-nominalizations.md",
+      "text": "diagnosing nominalizations",
+      "title": null
+    },
+    {
+      "source_concept_id": "cutting-clutter",
+      "source_path": "cutting-clutter.md",
+      "target": "metadiscourse.md",
+      "target_concept_id": "metadiscourse",
+      "target_path": "metadiscourse.md",
+      "text": "metadiscourse",
+      "title": null
+    },
+    {
+      "source_concept_id": "cutting-clutter",
+      "source_path": "cutting-clutter.md",
+      "target": "reading-aloud-to-revise.md",
+      "target_concept_id": "reading-aloud-to-revise",
+      "target_path": "reading-aloud-to-revise.md",
+      "text": "reading prose aloud to revise",
+      "title": null
+    },
+    {
+      "source_concept_id": "cutting-clutter",
+      "source_path": "cutting-clutter.md",
+      "target": "trimming-precision-to-what-the-decision-needs.md",
+      "target_concept_id": "trimming-precision-to-what-the-decision-needs",
+      "target_path": "trimming-precision-to-what-the-decision-needs.md",
+      "text": "trimming precision to what the decision needs",
+      "title": null
+    },
+    {
+      "source_concept_id": "decoration-competes-with-data-for-attention",
+      "source_path": "decoration-competes-with-data-for-attention.md",
+      "target": "cutting-clutter.md",
+      "target_concept_id": "cutting-clutter",
+      "target_path": "cutting-clutter.md",
+      "text": "cutting clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "decoration-competes-with-data-for-attention",
+      "source_path": "decoration-competes-with-data-for-attention.md",
+      "target": "gestalt-principles-for-visual-grouping.md",
+      "target_concept_id": "gestalt-principles-for-visual-grouping",
+      "target_path": "gestalt-principles-for-visual-grouping.md",
+      "text": "the closure principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "deductive-and-inductive-grouping",
+      "source_path": "deductive-and-inductive-grouping.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "diagnosing-nominalizations",
+      "source_path": "diagnosing-nominalizations.md",
+      "target": "characters-as-subjects.md",
+      "target_concept_id": "characters-as-subjects",
+      "target_path": "characters-as-subjects.md",
+      "text": "characters as subjects",
+      "title": null
+    },
+    {
+      "source_concept_id": "difficulty-explaining-signals-a-problem-with-the-thing",
+      "source_path": "difficulty-explaining-signals-a-problem-with-the-thing.md",
+      "target": "choosing-a-different-altitude-than-what-its-explaining.md",
+      "target_concept_id": "choosing-a-different-altitude-than-what-its-explaining",
+      "target_path": "choosing-a-different-altitude-than-what-its-explaining.md",
+      "text": "choosing the right altitude",
+      "title": null
+    },
+    {
+      "source_concept_id": "disclosing-limitations-early",
+      "source_path": "disclosing-limitations-early.md",
+      "target": "separating-exceptions-from-the-main-line.md",
+      "target_concept_id": "separating-exceptions-from-the-main-line",
+      "target_path": "separating-exceptions-from-the-main-line.md",
+      "text": "separating exceptions from the main line",
+      "title": null
+    },
+    {
+      "source_concept_id": "disclosing-limitations-early",
+      "source_path": "disclosing-limitations-early.md",
+      "target": "the-funnel-technique.md",
+      "target_concept_id": "the-funnel-technique",
+      "target_path": "the-funnel-technique.md",
+      "text": "challenge",
+      "title": null
+    },
+    {
+      "source_concept_id": "document-observed-behavior-not-intended-behavior",
+      "source_path": "document-observed-behavior-not-intended-behavior.md",
+      "target": "reviewing-documentation-for-fitness-of-purpose.md",
+      "target_concept_id": "reviewing-documentation-for-fitness-of-purpose",
+      "target_path": "reviewing-documentation-for-fitness-of-purpose.md",
+      "text": "reviewing documentation for fitness of purpose",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-as-code",
+      "source_path": "documentation-as-code.md",
+      "target": "maintaining-and-deprecating-documentation.md",
+      "target_concept_id": "maintaining-and-deprecating-documentation",
+      "target_path": "maintaining-and-deprecating-documentation.md",
+      "text": "maintaining and deprecating documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-as-code",
+      "source_path": "documentation-as-code.md",
+      "target": "who-what-when-where-why-for-documents.md",
+      "target_concept_id": "who-what-when-where-why-for-documents",
+      "target_path": "who-what-when-where-why-for-documents.md",
+      "text": "WHO WHAT WHEN WHERE WHY for documents",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-plan-as-outline",
+      "source_path": "documentation-plan-as-outline.md",
+      "target": "choosing-documentation-types.md",
+      "target_concept_id": "choosing-documentation-types",
+      "target_path": "choosing-documentation-types.md",
+      "text": "documentation type",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-plan-as-outline",
+      "source_path": "documentation-plan-as-outline.md",
+      "target": "curse-of-knowledge-and-audience-research.md",
+      "target_concept_id": "curse-of-knowledge-and-audience-research",
+      "target_path": "curse-of-knowledge-and-audience-research.md",
+      "text": "the curse of knowledge and audience research",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-plan-as-outline",
+      "source_path": "documentation-plan-as-outline.md",
+      "target": "documentation-research-artifacts.md",
+      "target_concept_id": "documentation-research-artifacts",
+      "target_path": "documentation-research-artifacts.md",
+      "text": "documentation research artifacts",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-plan-as-outline",
+      "source_path": "documentation-plan-as-outline.md",
+      "target": "drafting-with-outline-first.md",
+      "target_concept_id": "drafting-with-outline-first",
+      "target_path": "drafting-with-outline-first.md",
+      "text": "drafting",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-research-artifacts",
+      "source_path": "documentation-research-artifacts.md",
+      "target": "closing-the-feedback-loop.md",
+      "target_concept_id": "closing-the-feedback-loop",
+      "target_path": "closing-the-feedback-loop.md",
+      "text": "closing the feedback loop",
+      "title": null
+    },
+    {
+      "source_concept_id": "documentation-research-artifacts",
+      "source_path": "documentation-research-artifacts.md",
+      "target": "formatting-for-scanning.md",
+      "target_concept_id": "formatting-for-scanning",
+      "target_path": "formatting-for-scanning.md",
+      "text": "formatting for scanning",
+      "title": null
+    },
+    {
+      "source_concept_id": "drafting-with-outline-first",
+      "source_path": "drafting-with-outline-first.md",
+      "target": "choosing-documentation-types.md",
+      "target_concept_id": "choosing-documentation-types",
+      "target_path": "choosing-documentation-types.md",
+      "text": "documentation type",
+      "title": null
+    },
+    {
+      "source_concept_id": "drafting-with-outline-first",
+      "source_path": "drafting-with-outline-first.md",
+      "target": "documentation-research-artifacts.md",
+      "target_concept_id": "documentation-research-artifacts",
+      "target_path": "documentation-research-artifacts.md",
+      "text": "research artifacts",
+      "title": null
+    },
+    {
+      "source_concept_id": "drafting-with-outline-first",
+      "source_path": "drafting-with-outline-first.md",
+      "target": "layered-editing-passes.md",
+      "target_concept_id": "layered-editing-passes",
+      "target_path": "layered-editing-passes.md",
+      "text": "layered editing passes",
+      "title": null
+    },
+    {
+      "source_concept_id": "drafting-with-outline-first",
+      "source_path": "drafting-with-outline-first.md",
+      "target": "separating-drafting-from-revision.md",
+      "target_concept_id": "separating-drafting-from-revision",
+      "target_path": "separating-drafting-from-revision.md",
+      "text": "separating drafting from revision",
+      "title": null
+    },
+    {
+      "source_concept_id": "drafting-with-outline-first",
+      "source_path": "drafting-with-outline-first.md",
+      "target": "sketching-competing-outlines-before-committing.md",
+      "target_concept_id": "sketching-competing-outlines-before-committing",
+      "target_path": "sketching-competing-outlines-before-committing.md",
+      "text": "sketch a second, radically different outline",
+      "title": null
+    },
+    {
+      "source_concept_id": "eliciting-a-threshold-via-absurd-bounds",
+      "source_path": "eliciting-a-threshold-via-absurd-bounds.md",
+      "target": "stating-forecasts-as-calibrated-probabilities.md",
+      "target_concept_id": "stating-forecasts-as-calibrated-probabilities",
+      "target_path": "stating-forecasts-as-calibrated-probabilities.md",
+      "text": "calibrated estimates",
+      "title": null
+    },
+    {
+      "source_concept_id": "eliciting-a-threshold-via-absurd-bounds",
+      "source_path": "eliciting-a-threshold-via-absurd-bounds.md",
+      "target": "subject-matter-expert-interview-technique.md",
+      "target_concept_id": "subject-matter-expert-interview-technique",
+      "target_path": "subject-matter-expert-interview-technique.md",
+      "text": "subject-matter-expert interview technique",
+      "title": null
+    },
+    {
+      "source_concept_id": "ethics-of-clear-writing",
+      "source_path": "ethics-of-clear-writing.md",
+      "target": "active-voice-and-concrete-language.md",
+      "target_concept_id": "active-voice-and-concrete-language",
+      "target_path": "active-voice-and-concrete-language.md",
+      "text": "active voice and concrete language",
+      "title": null
+    },
+    {
+      "source_concept_id": "ethics-of-clear-writing",
+      "source_path": "ethics-of-clear-writing.md",
+      "target": "characters-as-subjects.md",
+      "target_concept_id": "characters-as-subjects",
+      "target_path": "characters-as-subjects.md",
+      "text": "characters as subjects",
+      "title": null
+    },
+    {
+      "source_concept_id": "exhaustive-matrices-for-unambiguous-logic",
+      "source_path": "exhaustive-matrices-for-unambiguous-logic.md",
+      "target": "using-visuals-effectively.md",
+      "target_concept_id": "using-visuals-effectively",
+      "target_path": "using-visuals-effectively.md",
+      "text": "using visuals effectively",
+      "title": null
+    },
+    {
+      "source_concept_id": "expert-versus-audience-vocabulary",
+      "source_path": "expert-versus-audience-vocabulary.md",
+      "target": "labeling-systems-for-clarity.md",
+      "target_concept_id": "labeling-systems-for-clarity",
+      "target_path": "labeling-systems-for-clarity.md",
+      "text": "labeling systems for clarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "flow-linking-stress-to-topic",
+      "source_path": "flow-linking-stress-to-topic.md",
+      "target": "stress-position-and-emphasis.md",
+      "target_concept_id": "stress-position-and-emphasis",
+      "target_path": "stress-position-and-emphasis.md",
+      "text": "stress",
+      "title": null
+    },
+    {
+      "source_concept_id": "flow-linking-stress-to-topic",
+      "source_path": "flow-linking-stress-to-topic.md",
+      "target": "topic-position-and-old-before-new-information.md",
+      "target_concept_id": "topic-position-and-old-before-new-information",
+      "target_path": "topic-position-and-old-before-new-information.md",
+      "text": "topic",
+      "title": null
+    },
+    {
+      "source_concept_id": "formatting-for-scanning",
+      "source_path": "formatting-for-scanning.md",
+      "target": "bullet-point-compression-hides-technical-nuance.md",
+      "target_concept_id": "bullet-point-compression-hides-technical-nuance",
+      "target_path": "bullet-point-compression-hides-technical-nuance.md",
+      "text": "bullet-point compression hides technical nuance",
+      "title": null
+    },
+    {
+      "source_concept_id": "formatting-for-scanning",
+      "source_path": "formatting-for-scanning.md",
+      "target": "documentation-research-artifacts.md",
+      "target_concept_id": "documentation-research-artifacts",
+      "target_path": "documentation-research-artifacts.md",
+      "text": "documentation research artifacts",
+      "title": null
+    },
+    {
+      "source_concept_id": "formatting-for-scanning",
+      "source_path": "formatting-for-scanning.md",
+      "target": "drafting-with-outline-first.md",
+      "target_concept_id": "drafting-with-outline-first",
+      "target_path": "drafting-with-outline-first.md",
+      "text": "drafting from an outline",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-principles-for-visual-grouping",
+      "source_path": "gestalt-principles-for-visual-grouping.md",
+      "target": "preattentive-attributes-for-rapid-visual-perception.md",
+      "target_concept_id": "preattentive-attributes-for-rapid-visual-perception",
+      "target_path": "preattentive-attributes-for-rapid-visual-perception.md",
+      "text": "preattentive attributes for rapid visual perception",
+      "title": null
+    },
+    {
+      "source_concept_id": "gestalt-principles-for-visual-grouping",
+      "source_path": "gestalt-principles-for-visual-grouping.md",
+      "target": "using-visuals-effectively.md",
+      "target_concept_id": "using-visuals-effectively",
+      "target_path": "using-visuals-effectively.md",
+      "text": "using visuals effectively",
+      "title": null
+    },
+    {
+      "source_concept_id": "headings-and-page-design-for-hierarchy",
+      "source_path": "headings-and-page-design-for-hierarchy.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "headings-and-page-design-for-hierarchy",
+      "source_path": "headings-and-page-design-for-hierarchy.md",
+      "target": "vertical-question-answer-relationship.md",
+      "target_concept_id": "vertical-question-answer-relationship",
+      "target_path": "vertical-question-answer-relationship.md",
+      "text": "the vertical question-answer relationship",
+      "title": null
+    },
+    {
+      "source_concept_id": "highlighting-what-matters-in-a-visual-display",
+      "source_path": "highlighting-what-matters-in-a-visual-display.md",
+      "target": "preattentive-attributes-for-rapid-visual-perception.md",
+      "target_concept_id": "preattentive-attributes-for-rapid-visual-perception",
+      "target_path": "preattentive-attributes-for-rapid-visual-perception.md",
+      "text": "preattentive attributes",
+      "title": null
+    },
+    {
+      "source_concept_id": "highlighting-what-matters-in-a-visual-display",
+      "source_path": "highlighting-what-matters-in-a-visual-display.md",
+      "target": "stress-position-and-emphasis.md",
+      "target_concept_id": "stress-position-and-emphasis",
+      "target_path": "stress-position-and-emphasis.md",
+      "text": "stress position and emphasis",
+      "title": null
+    },
+    {
+      "source_concept_id": "imposing-logical-order-on-groupings",
+      "source_path": "imposing-logical-order-on-groupings.md",
+      "target": "deductive-and-inductive-grouping.md",
+      "target_concept_id": "deductive-and-inductive-grouping",
+      "target_path": "deductive-and-inductive-grouping.md",
+      "text": "deductive and inductive grouping",
+      "title": null
+    },
+    {
+      "source_concept_id": "imposing-logical-order-on-groupings",
+      "source_path": "imposing-logical-order-on-groupings.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "incorporating-sources-summarize-paraphrase-quote",
+      "source_path": "incorporating-sources-summarize-paraphrase-quote.md",
+      "target": "storyboarding-an-argument.md",
+      "target_concept_id": "storyboarding-an-argument",
+      "target_path": "storyboarding-an-argument.md",
+      "text": "reported research rather than made a case",
+      "title": null
+    },
+    {
+      "source_concept_id": "keeping-comparable-information-within-one-view",
+      "source_path": "keeping-comparable-information-within-one-view.md",
+      "target": "communicating-evidence-visually.md",
+      "target_concept_id": "communicating-evidence-visually",
+      "target_path": "communicating-evidence-visually.md",
+      "text": "communicating evidence visually",
+      "title": null
+    },
+    {
+      "source_concept_id": "keeping-comparable-information-within-one-view",
+      "source_path": "keeping-comparable-information-within-one-view.md",
+      "target": "formatting-for-scanning.md",
+      "target_concept_id": "formatting-for-scanning",
+      "target_path": "formatting-for-scanning.md",
+      "text": "formatting for scanning",
+      "title": null
+    },
+    {
+      "source_concept_id": "labeling-systems-for-clarity",
+      "source_path": "labeling-systems-for-clarity.md",
+      "target": "headings-and-page-design-for-hierarchy.md",
+      "target_concept_id": "headings-and-page-design-for-hierarchy",
+      "target_path": "headings-and-page-design-for-hierarchy.md",
+      "text": "headings and page design for hierarchy",
+      "title": null
+    },
+    {
+      "source_concept_id": "labeling-systems-for-clarity",
+      "source_path": "labeling-systems-for-clarity.md",
+      "target": "precise-and-consistent-naming.md",
+      "target_concept_id": "precise-and-consistent-naming",
+      "target_path": "precise-and-consistent-naming.md",
+      "text": "precise and consistent naming",
+      "title": null
+    },
+    {
+      "source_concept_id": "landing-pages-as-traffic-cops",
+      "source_path": "landing-pages-as-traffic-cops.md",
+      "target": "organizing-documentation-by-user-goals.md",
+      "target_concept_id": "organizing-documentation-by-user-goals",
+      "target_path": "organizing-documentation-by-user-goals.md",
+      "text": "keep each page focused on one purpose",
+      "title": null
+    },
+    {
+      "source_concept_id": "layered-editing-passes",
+      "source_path": "layered-editing-passes.md",
+      "target": "correctness-versus-clarity.md",
+      "target_concept_id": "correctness-versus-clarity",
+      "target_path": "correctness-versus-clarity.md",
+      "text": "correctness versus clarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "layered-editing-passes",
+      "source_path": "layered-editing-passes.md",
+      "target": "cutting-clutter.md",
+      "target_concept_id": "cutting-clutter",
+      "target_path": "cutting-clutter.md",
+      "text": "cutting clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "maintaining-and-deprecating-documentation",
+      "source_path": "maintaining-and-deprecating-documentation.md",
+      "target": "choosing-a-different-altitude-than-what-its-explaining.md",
+      "target_concept_id": "choosing-a-different-altitude-than-what-its-explaining",
+      "target_path": "choosing-a-different-altitude-than-what-its-explaining.md",
+      "text": "choosing a different altitude",
+      "title": null
+    },
+    {
+      "source_concept_id": "maintaining-and-deprecating-documentation",
+      "source_path": "maintaining-and-deprecating-documentation.md",
+      "target": "using-visuals-effectively.md",
+      "target_concept_id": "using-visuals-effectively",
+      "target_path": "using-visuals-effectively.md",
+      "text": "using visuals effectively",
+      "title": null
+    },
+    {
+      "source_concept_id": "matching-communication-channel-to-message-type",
+      "source_path": "matching-communication-channel-to-message-type.md",
+      "target": "phrasing-disagreement-to-stay-collaborative.md",
+      "target_concept_id": "phrasing-disagreement-to-stay-collaborative",
+      "target_path": "phrasing-disagreement-to-stay-collaborative.md",
+      "text": "phrasing disagreement to stay collaborative",
+      "title": null
+    },
+    {
+      "source_concept_id": "matching-document-structure-to-reader-patience",
+      "source_path": "matching-document-structure-to-reader-patience.md",
+      "target": "ocar-story-structure.md",
+      "target_concept_id": "ocar-story-structure",
+      "target_path": "ocar-story-structure.md",
+      "text": "OCAR story structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "matching-organization-to-information-seeking-behavior",
+      "source_path": "matching-organization-to-information-seeking-behavior.md",
+      "target": "curse-of-knowledge-and-audience-research.md",
+      "target_concept_id": "curse-of-knowledge-and-audience-research",
+      "target_path": "curse-of-knowledge-and-audience-research.md",
+      "text": "the curse of knowledge and audience research",
+      "title": null
+    },
+    {
+      "source_concept_id": "maximizing-the-data-ink-ratio",
+      "source_path": "maximizing-the-data-ink-ratio.md",
+      "target": "decoration-competes-with-data-for-attention.md",
+      "target_concept_id": "decoration-competes-with-data-for-attention",
+      "target_path": "decoration-competes-with-data-for-attention.md",
+      "text": "decoration competes with data for attention",
+      "title": null
+    },
+    {
+      "source_concept_id": "maximizing-the-data-ink-ratio",
+      "source_path": "maximizing-the-data-ink-ratio.md",
+      "target": "gestalt-principles-for-visual-grouping.md",
+      "target_concept_id": "gestalt-principles-for-visual-grouping",
+      "target_path": "gestalt-principles-for-visual-grouping.md",
+      "text": "closure principle",
+      "title": null
+    },
+    {
+      "source_concept_id": "maximizing-the-data-ink-ratio",
+      "source_path": "maximizing-the-data-ink-ratio.md",
+      "target": "highlighting-what-matters-in-a-visual-display.md",
+      "target_concept_id": "highlighting-what-matters-in-a-visual-display",
+      "target_path": "highlighting-what-matters-in-a-visual-display.md",
+      "text": "highlighting what matters",
+      "title": null
+    },
+    {
+      "source_concept_id": "measuring-documentation-quality",
+      "source_path": "measuring-documentation-quality.md",
+      "target": "curse-of-knowledge-and-audience-research.md",
+      "target_concept_id": "curse-of-knowledge-and-audience-research",
+      "target_path": "curse-of-knowledge-and-audience-research.md",
+      "text": "the curse of knowledge and audience research",
+      "title": null
+    },
+    {
+      "source_concept_id": "metadiscourse",
+      "source_path": "metadiscourse.md",
+      "target": "active-voice-and-concrete-language.md",
+      "target_concept_id": "active-voice-and-concrete-language",
+      "target_path": "active-voice-and-concrete-language.md",
+      "text": "active voice and concrete language",
+      "title": null
+    },
+    {
+      "source_concept_id": "metadiscourse",
+      "source_path": "metadiscourse.md",
+      "target": "cutting-clutter.md",
+      "target_concept_id": "cutting-clutter",
+      "target_path": "cutting-clutter.md",
+      "text": "cutting clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "motivating-the-reader-with-a-problem",
+      "source_path": "motivating-the-reader-with-a-problem.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "the pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "naming-the-recipient-and-requiring-acknowledgment",
+      "source_path": "naming-the-recipient-and-requiring-acknowledgment.md",
+      "target": "labeling-systems-for-clarity.md",
+      "target_concept_id": "labeling-systems-for-clarity",
+      "target_path": "labeling-systems-for-clarity.md",
+      "text": "labeling systems for clarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "navigation-systems-for-wayfinding",
+      "source_path": "navigation-systems-for-wayfinding.md",
+      "target": "organizing-documentation-by-user-goals.md",
+      "target_concept_id": "organizing-documentation-by-user-goals",
+      "target_path": "organizing-documentation-by-user-goals.md",
+      "text": "organizing documentation by user goals",
+      "title": null
+    },
+    {
+      "source_concept_id": "nested-story-arcs",
+      "source_path": "nested-story-arcs.md",
+      "target": "ocar-story-structure.md",
+      "target_concept_id": "ocar-story-structure",
+      "target_path": "ocar-story-structure.md",
+      "text": "OCAR story structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "numbers-need-comparative-context",
+      "source_path": "numbers-need-comparative-context.md",
+      "target": "communicating-evidence-visually.md",
+      "target_concept_id": "communicating-evidence-visually",
+      "target_path": "communicating-evidence-visually.md",
+      "text": "communicating evidence visually",
+      "title": null
+    },
+    {
+      "source_concept_id": "numbers-need-comparative-context",
+      "source_path": "numbers-need-comparative-context.md",
+      "target": "trimming-precision-to-what-the-decision-needs.md",
+      "target_concept_id": "trimming-precision-to-what-the-decision-needs",
+      "target_path": "trimming-precision-to-what-the-decision-needs.md",
+      "text": "trimming precision to what the decision needs",
+      "title": null
+    },
+    {
+      "source_concept_id": "ocar-story-structure",
+      "source_path": "ocar-story-structure.md",
+      "target": "anatomy-of-a-case-story.md",
+      "target_concept_id": "anatomy-of-a-case-story",
+      "target_path": "anatomy-of-a-case-story.md",
+      "text": "anatomy of a case story",
+      "title": null
+    },
+    {
+      "source_concept_id": "ocar-story-structure",
+      "source_path": "ocar-story-structure.md",
+      "target": "disclosing-limitations-early.md",
+      "target_concept_id": "disclosing-limitations-early",
+      "target_path": "disclosing-limitations-early.md",
+      "text": "disclosing limitations early",
+      "title": null
+    },
+    {
+      "source_concept_id": "ocar-story-structure",
+      "source_path": "ocar-story-structure.md",
+      "target": "motivating-the-reader-with-a-problem.md",
+      "target_concept_id": "motivating-the-reader-with-a-problem",
+      "target_path": "motivating-the-reader-with-a-problem.md",
+      "text": "motivating the reader with a problem",
+      "title": null
+    },
+    {
+      "source_concept_id": "ocar-story-structure",
+      "source_path": "ocar-story-structure.md",
+      "target": "the-funnel-technique.md",
+      "target_concept_id": "the-funnel-technique",
+      "target_path": "the-funnel-technique.md",
+      "text": "the funnel technique",
+      "title": null
+    },
+    {
+      "source_concept_id": "organization-schemes-and-structures",
+      "source_path": "organization-schemes-and-structures.md",
+      "target": "imposing-logical-order-on-groupings.md",
+      "target_concept_id": "imposing-logical-order-on-groupings",
+      "target_path": "imposing-logical-order-on-groupings.md",
+      "text": "imposing logical order on groupings",
+      "title": null
+    },
+    {
+      "source_concept_id": "organization-schemes-and-structures",
+      "source_path": "organization-schemes-and-structures.md",
+      "target": "organizing-documentation-by-user-goals.md",
+      "target_concept_id": "organizing-documentation-by-user-goals",
+      "target_path": "organizing-documentation-by-user-goals.md",
+      "text": "organizing documentation by user goals",
+      "title": null
+    },
+    {
+      "source_concept_id": "organizing-documentation-by-user-goals",
+      "source_path": "organizing-documentation-by-user-goals.md",
+      "target": "choosing-documentation-types.md",
+      "target_concept_id": "choosing-documentation-types",
+      "target_path": "choosing-documentation-types.md",
+      "text": "choosing documentation types",
+      "title": null
+    },
+    {
+      "source_concept_id": "pairing-plain-language-with-precise-definitions",
+      "source_path": "pairing-plain-language-with-precise-definitions.md",
+      "target": "choosing-documentation-types.md",
+      "target_concept_id": "choosing-documentation-types",
+      "target_path": "choosing-documentation-types.md",
+      "text": "choosing documentation types",
+      "title": null
+    },
+    {
+      "source_concept_id": "pairing-plain-language-with-precise-definitions",
+      "source_path": "pairing-plain-language-with-precise-definitions.md",
+      "target": "cutting-clutter.md",
+      "target_concept_id": "cutting-clutter",
+      "target_path": "cutting-clutter.md",
+      "text": "cutting clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "pairing-plain-language-with-precise-definitions",
+      "source_path": "pairing-plain-language-with-precise-definitions.md",
+      "target": "maintaining-and-deprecating-documentation.md",
+      "target_concept_id": "maintaining-and-deprecating-documentation",
+      "target_path": "maintaining-and-deprecating-documentation.md",
+      "text": "maintaining and deprecating documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "phrasing-disagreement-to-stay-collaborative",
+      "source_path": "phrasing-disagreement-to-stay-collaborative.md",
+      "target": "metadiscourse.md",
+      "target_concept_id": "metadiscourse",
+      "target_path": "metadiscourse.md",
+      "text": "metadiscourse",
+      "title": null
+    },
+    {
+      "source_concept_id": "phrasing-disagreement-to-stay-collaborative",
+      "source_path": "phrasing-disagreement-to-stay-collaborative.md",
+      "target": "stress-position-and-emphasis.md",
+      "target_concept_id": "stress-position-and-emphasis",
+      "target_path": "stress-position-and-emphasis.md",
+      "text": "stress position and sentence emphasis",
+      "title": null
+    },
+    {
+      "source_concept_id": "point-first-and-point-last-paragraphs",
+      "source_path": "point-first-and-point-last-paragraphs.md",
+      "target": "point-sentences-and-document-coherence.md",
+      "target_concept_id": "point-sentences-and-document-coherence",
+      "target_path": "point-sentences-and-document-coherence.md",
+      "text": "point sentences and document-level coherence",
+      "title": null
+    },
+    {
+      "source_concept_id": "point-sentences-and-document-coherence",
+      "source_path": "point-sentences-and-document-coherence.md",
+      "target": "point-first-and-point-last-paragraphs.md",
+      "target_concept_id": "point-first-and-point-last-paragraphs",
+      "target_path": "point-first-and-point-last-paragraphs.md",
+      "text": "transitional or emphatic paragraphs",
+      "title": null
+    },
+    {
+      "source_concept_id": "point-sentences-and-document-coherence",
+      "source_path": "point-sentences-and-document-coherence.md",
+      "target": "stress-position-and-emphasis.md",
+      "target_concept_id": "stress-position-and-emphasis",
+      "target_path": "stress-position-and-emphasis.md",
+      "text": "stress position",
+      "title": null
+    },
+    {
+      "source_concept_id": "point-sentences-and-document-coherence",
+      "source_path": "point-sentences-and-document-coherence.md",
+      "target": "strong-opening-technique.md",
+      "target_concept_id": "strong-opening-technique",
+      "target_path": "strong-opening-technique.md",
+      "text": "strong opening technique",
+      "title": null
+    },
+    {
+      "source_concept_id": "point-sentences-and-document-coherence",
+      "source_path": "point-sentences-and-document-coherence.md",
+      "target": "topic-position-and-old-before-new-information.md",
+      "target_concept_id": "topic-position-and-old-before-new-information",
+      "target_path": "topic-position-and-old-before-new-information.md",
+      "text": "topic position and old-before-new information",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-attributes-for-rapid-visual-perception",
+      "source_path": "preattentive-attributes-for-rapid-visual-perception.md",
+      "target": "communicating-evidence-visually.md",
+      "target_concept_id": "communicating-evidence-visually",
+      "target_path": "communicating-evidence-visually.md",
+      "text": "misjudging area and angle in pie and bubble charts",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-attributes-for-rapid-visual-perception",
+      "source_path": "preattentive-attributes-for-rapid-visual-perception.md",
+      "target": "consistent-visual-encoding-across-a-document.md",
+      "target_concept_id": "consistent-visual-encoding-across-a-document",
+      "target_path": "consistent-visual-encoding-across-a-document.md",
+      "text": "consistent visual encoding across a document",
+      "title": null
+    },
+    {
+      "source_concept_id": "preattentive-attributes-for-rapid-visual-perception",
+      "source_path": "preattentive-attributes-for-rapid-visual-perception.md",
+      "target": "gestalt-principles-for-visual-grouping.md",
+      "target_concept_id": "gestalt-principles-for-visual-grouping",
+      "target_path": "gestalt-principles-for-visual-grouping.md",
+      "text": "gestalt principles for visual grouping",
+      "title": null
+    },
+    {
+      "source_concept_id": "precise-and-consistent-naming",
+      "source_path": "precise-and-consistent-naming.md",
+      "target": "bullet-point-compression-hides-technical-nuance.md",
+      "target_concept_id": "bullet-point-compression-hides-technical-nuance",
+      "target_path": "bullet-point-compression-hides-technical-nuance.md",
+      "text": "bullet-point compression hides technical nuance",
+      "title": null
+    },
+    {
+      "source_concept_id": "precise-and-consistent-naming",
+      "source_path": "precise-and-consistent-naming.md",
+      "target": "conversational-vocabulary-as-a-documentation-diagnostic.md",
+      "target_concept_id": "conversational-vocabulary-as-a-documentation-diagnostic",
+      "target_path": "conversational-vocabulary-as-a-documentation-diagnostic.md",
+      "text": "conversational vocabulary as a documentation diagnostic",
+      "title": null
+    },
+    {
+      "source_concept_id": "precise-and-consistent-naming",
+      "source_path": "precise-and-consistent-naming.md",
+      "target": "labeling-systems-for-clarity.md",
+      "target_concept_id": "labeling-systems-for-clarity",
+      "target_path": "labeling-systems-for-clarity.md",
+      "text": "labeling systems for clarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "precise-and-consistent-naming",
+      "source_path": "precise-and-consistent-naming.md",
+      "target": "maintaining-style-consistency-across-a-document-set.md",
+      "target_concept_id": "maintaining-style-consistency-across-a-document-set",
+      "target_path": "maintaining-style-consistency-across-a-document-set.md",
+      "text": "maintaining style consistency across a document set",
+      "title": null
+    },
+    {
+      "source_concept_id": "precise-and-consistent-naming",
+      "source_path": "precise-and-consistent-naming.md",
+      "target": "trimming-precision-to-what-the-decision-needs.md",
+      "target_concept_id": "trimming-precision-to-what-the-decision-needs",
+      "target_path": "trimming-precision-to-what-the-decision-needs.md",
+      "text": "unnecessary precision costs a reader on every number",
+      "title": null
+    },
+    {
+      "source_concept_id": "problem-definition-framework",
+      "source_path": "problem-definition-framework.md",
+      "target": "situation-complication-question-introduction.md",
+      "target_concept_id": "situation-complication-question-introduction",
+      "target_path": "situation-complication-question-introduction.md",
+      "text": "the situation-complication-question introduction",
+      "title": null
+    },
+    {
+      "source_concept_id": "publishing-as-part-of-user-experience",
+      "source_path": "publishing-as-part-of-user-experience.md",
+      "target": "choosing-documentation-types.md",
+      "target_concept_id": "choosing-documentation-types",
+      "target_path": "choosing-documentation-types.md",
+      "text": "choosing documentation types",
+      "title": null
+    },
+    {
+      "source_concept_id": "publishing-as-part-of-user-experience",
+      "source_path": "publishing-as-part-of-user-experience.md",
+      "target": "closing-the-feedback-loop.md",
+      "target_concept_id": "closing-the-feedback-loop",
+      "target_path": "closing-the-feedback-loop.md",
+      "text": "closing the feedback loop",
+      "title": null
+    },
+    {
+      "source_concept_id": "publishing-as-part-of-user-experience",
+      "source_path": "publishing-as-part-of-user-experience.md",
+      "target": "maintaining-and-deprecating-documentation.md",
+      "target_concept_id": "maintaining-and-deprecating-documentation",
+      "target_path": "maintaining-and-deprecating-documentation.md",
+      "text": "maintaining and deprecating documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "publishing-as-part-of-user-experience",
+      "source_path": "publishing-as-part-of-user-experience.md",
+      "target": "measuring-documentation-quality.md",
+      "target_concept_id": "measuring-documentation-quality",
+      "target_path": "measuring-documentation-quality.md",
+      "text": "measuring documentation quality",
+      "title": null
+    },
+    {
+      "source_concept_id": "punctuation-as-functional-choice",
+      "source_path": "punctuation-as-functional-choice.md",
+      "target": "sentence-shape-for-long-sentences.md",
+      "target_concept_id": "sentence-shape-for-long-sentences",
+      "target_path": "sentence-shape-for-long-sentences.md",
+      "text": "sentence shape for long sentences",
+      "title": null
+    },
+    {
+      "source_concept_id": "put-explanations-where-future-readers-will-look",
+      "source_path": "put-explanations-where-future-readers-will-look.md",
+      "target": "maintaining-and-deprecating-documentation.md",
+      "target_concept_id": "maintaining-and-deprecating-documentation",
+      "target_path": "maintaining-and-deprecating-documentation.md",
+      "text": "maintaining and deprecating documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "pyramid-structure",
+      "source_path": "pyramid-structure.md",
+      "target": "deductive-and-inductive-grouping.md",
+      "target_concept_id": "deductive-and-inductive-grouping",
+      "target_path": "deductive-and-inductive-grouping.md",
+      "text": "deductive and inductive grouping",
+      "title": null
+    },
+    {
+      "source_concept_id": "pyramid-structure",
+      "source_path": "pyramid-structure.md",
+      "target": "imposing-logical-order-on-groupings.md",
+      "target_concept_id": "imposing-logical-order-on-groupings",
+      "target_path": "imposing-logical-order-on-groupings.md",
+      "text": "imposing logical order on groupings",
+      "title": null
+    },
+    {
+      "source_concept_id": "pyramid-structure",
+      "source_path": "pyramid-structure.md",
+      "target": "situation-complication-question-introduction.md",
+      "target_concept_id": "situation-complication-question-introduction",
+      "target_path": "situation-complication-question-introduction.md",
+      "text": "the situation-complication-question introduction",
+      "title": null
+    },
+    {
+      "source_concept_id": "pyramid-structure",
+      "source_path": "pyramid-structure.md",
+      "target": "summarizing-grouped-ideas.md",
+      "target_concept_id": "summarizing-grouped-ideas",
+      "target_path": "summarizing-grouped-ideas.md",
+      "text": "summarizing grouped ideas",
+      "title": null
+    },
+    {
+      "source_concept_id": "pyramid-structure",
+      "source_path": "pyramid-structure.md",
+      "target": "vertical-question-answer-relationship.md",
+      "target_concept_id": "vertical-question-answer-relationship",
+      "target_path": "vertical-question-answer-relationship.md",
+      "text": "the vertical question-answer relationship",
+      "title": null
+    },
+    {
+      "source_concept_id": "reading-aloud-to-revise",
+      "source_path": "reading-aloud-to-revise.md",
+      "target": "cutting-clutter.md",
+      "target_concept_id": "cutting-clutter",
+      "target_path": "cutting-clutter.md",
+      "text": "cutting clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "reading-aloud-to-revise",
+      "source_path": "reading-aloud-to-revise.md",
+      "target": "separating-drafting-from-revision.md",
+      "target_concept_id": "separating-drafting-from-revision",
+      "target_path": "separating-drafting-from-revision.md",
+      "text": "separating drafting from revision",
+      "title": null
+    },
+    {
+      "source_concept_id": "reviewing-documentation-for-fitness-of-purpose",
+      "source_path": "reviewing-documentation-for-fitness-of-purpose.md",
+      "target": "layered-editing-passes.md",
+      "target_concept_id": "layered-editing-passes",
+      "target_path": "layered-editing-passes.md",
+      "text": "layered editing passes for documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "revising-for-argument-visibility",
+      "source_path": "revising-for-argument-visibility.md",
+      "target": "point-sentences-and-document-coherence.md",
+      "target_concept_id": "point-sentences-and-document-coherence",
+      "target_path": "point-sentences-and-document-coherence.md",
+      "text": "point sentences and document-level coherence",
+      "title": null
+    },
+    {
+      "source_concept_id": "revising-for-argument-visibility",
+      "source_path": "revising-for-argument-visibility.md",
+      "target": "storyboarding-an-argument.md",
+      "target_concept_id": "storyboarding-an-argument",
+      "target_path": "storyboarding-an-argument.md",
+      "text": "assembling reasons and evidence",
+      "title": null
+    },
+    {
+      "source_concept_id": "scan-friendly-function-comments",
+      "source_path": "scan-friendly-function-comments.md",
+      "target": "choosing-documentation-types.md",
+      "target_concept_id": "choosing-documentation-types",
+      "target_path": "choosing-documentation-types.md",
+      "text": "choosing documentation types",
+      "title": null
+    },
+    {
+      "source_concept_id": "scfl-editing-procedure",
+      "source_path": "scfl-editing-procedure.md",
+      "target": "characters-as-subjects.md",
+      "target_concept_id": "characters-as-subjects",
+      "target_path": "characters-as-subjects.md",
+      "text": "characters as subjects",
+      "title": null
+    },
+    {
+      "source_concept_id": "scfl-editing-procedure",
+      "source_path": "scfl-editing-procedure.md",
+      "target": "diagnosing-nominalizations.md",
+      "target_concept_id": "diagnosing-nominalizations",
+      "target_path": "diagnosing-nominalizations.md",
+      "text": "diagnosing nominalizations",
+      "title": null
+    },
+    {
+      "source_concept_id": "scfl-editing-procedure",
+      "source_path": "scfl-editing-procedure.md",
+      "target": "flow-linking-stress-to-topic.md",
+      "target_concept_id": "flow-linking-stress-to-topic",
+      "target_path": "flow-linking-stress-to-topic.md",
+      "text": "flow by linking stress to topic",
+      "title": null
+    },
+    {
+      "source_concept_id": "scfl-editing-procedure",
+      "source_path": "scfl-editing-procedure.md",
+      "target": "ocar-story-structure.md",
+      "target_concept_id": "ocar-story-structure",
+      "target_path": "ocar-story-structure.md",
+      "text": "OCAR arc",
+      "title": null
+    },
+    {
+      "source_concept_id": "scfl-editing-procedure",
+      "source_path": "scfl-editing-procedure.md",
+      "target": "reading-aloud-to-revise.md",
+      "target_concept_id": "reading-aloud-to-revise",
+      "target_path": "reading-aloud-to-revise.md",
+      "text": "reading prose aloud to revise",
+      "title": null
+    },
+    {
+      "source_concept_id": "seekers-versus-stumblers",
+      "source_path": "seekers-versus-stumblers.md",
+      "target": "landing-pages-as-traffic-cops.md",
+      "target_concept_id": "landing-pages-as-traffic-cops",
+      "target_path": "landing-pages-as-traffic-cops.md",
+      "text": "landing pages as traffic cops",
+      "title": null
+    },
+    {
+      "source_concept_id": "seekers-versus-stumblers",
+      "source_path": "seekers-versus-stumblers.md",
+      "target": "organization-schemes-and-structures.md",
+      "target_concept_id": "organization-schemes-and-structures",
+      "target_path": "organization-schemes-and-structures.md",
+      "text": "organization schemes and structures",
+      "title": null
+    },
+    {
+      "source_concept_id": "seekers-versus-stumblers",
+      "source_path": "seekers-versus-stumblers.md",
+      "target": "scan-friendly-function-comments.md",
+      "target_concept_id": "scan-friendly-function-comments",
+      "target_path": "scan-friendly-function-comments.md",
+      "text": "scan-friendly function comments",
+      "title": null
+    },
+    {
+      "source_concept_id": "selecting-content-by-stakeholder-concerns",
+      "source_path": "selecting-content-by-stakeholder-concerns.md",
+      "target": "choosing-documentation-types.md",
+      "target_concept_id": "choosing-documentation-types",
+      "target_path": "choosing-documentation-types.md",
+      "text": "choosing documentation types",
+      "title": null
+    },
+    {
+      "source_concept_id": "selecting-content-by-stakeholder-concerns",
+      "source_path": "selecting-content-by-stakeholder-concerns.md",
+      "target": "curse-of-knowledge-and-audience-research.md",
+      "target_concept_id": "curse-of-knowledge-and-audience-research",
+      "target_path": "curse-of-knowledge-and-audience-research.md",
+      "text": "the curse of knowledge and audience research",
+      "title": null
+    },
+    {
+      "source_concept_id": "selection-and-unity",
+      "source_path": "selection-and-unity.md",
+      "target": "selecting-content-by-stakeholder-concerns.md",
+      "target_concept_id": "selecting-content-by-stakeholder-concerns",
+      "target_path": "selecting-content-by-stakeholder-concerns.md",
+      "text": "what to omit",
+      "title": null
+    },
+    {
+      "source_concept_id": "selection-and-unity",
+      "source_path": "selection-and-unity.md",
+      "target": "separating-drafting-from-revision.md",
+      "target_concept_id": "separating-drafting-from-revision",
+      "target_path": "separating-drafting-from-revision.md",
+      "text": "revising a choice when later discovery proves it wrong",
+      "title": null
+    },
+    {
+      "source_concept_id": "sentence-order-for-reader-visualization",
+      "source_path": "sentence-order-for-reader-visualization.md",
+      "target": "characters-as-subjects.md",
+      "target_concept_id": "characters-as-subjects",
+      "target_path": "characters-as-subjects.md",
+      "text": "characters as subjects, actions as verbs",
+      "title": null
+    },
+    {
+      "source_concept_id": "sentence-order-for-reader-visualization",
+      "source_path": "sentence-order-for-reader-visualization.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "sentence-order-for-reader-visualization",
+      "source_path": "sentence-order-for-reader-visualization.md",
+      "target": "sentence-shape-for-long-sentences.md",
+      "target_concept_id": "sentence-shape-for-long-sentences",
+      "target_path": "sentence-shape-for-long-sentences.md",
+      "text": "sentence shape for long sentences",
+      "title": null
+    },
+    {
+      "source_concept_id": "sentence-shape-for-long-sentences",
+      "source_path": "sentence-shape-for-long-sentences.md",
+      "target": "diagnosing-nominalizations.md",
+      "target_concept_id": "diagnosing-nominalizations",
+      "target_path": "diagnosing-nominalizations.md",
+      "text": "diagnosing nominalizations",
+      "title": null
+    },
+    {
+      "source_concept_id": "separating-drafting-from-revision",
+      "source_path": "separating-drafting-from-revision.md",
+      "target": "cutting-clutter.md",
+      "target_concept_id": "cutting-clutter",
+      "target_path": "cutting-clutter.md",
+      "text": "cutting clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "separating-drafting-from-revision",
+      "source_path": "separating-drafting-from-revision.md",
+      "target": "reading-aloud-to-revise.md",
+      "target_concept_id": "reading-aloud-to-revise",
+      "target_path": "reading-aloud-to-revise.md",
+      "text": "reading prose aloud to revise",
+      "title": null
+    },
+    {
+      "source_concept_id": "separating-exceptions-from-the-main-line",
+      "source_path": "separating-exceptions-from-the-main-line.md",
+      "target": "disclosing-limitations-early.md",
+      "target_concept_id": "disclosing-limitations-early",
+      "target_path": "disclosing-limitations-early.md",
+      "text": "disclosing limitations early",
+      "title": null
+    },
+    {
+      "source_concept_id": "separating-stable-from-volatile-content",
+      "source_path": "separating-stable-from-volatile-content.md",
+      "target": "maintaining-and-deprecating-documentation.md",
+      "target_concept_id": "maintaining-and-deprecating-documentation",
+      "target_path": "maintaining-and-deprecating-documentation.md",
+      "text": "maintaining and deprecating documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-rules-for-technical-documentation",
+      "source_path": "seven-rules-for-technical-documentation.md",
+      "target": "curse-of-knowledge-and-audience-research.md",
+      "target_concept_id": "curse-of-knowledge-and-audience-research",
+      "target_path": "curse-of-knowledge-and-audience-research.md",
+      "text": "the curse of knowledge and audience research",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-rules-for-technical-documentation",
+      "source_path": "seven-rules-for-technical-documentation.md",
+      "target": "maintaining-and-deprecating-documentation.md",
+      "target_concept_id": "maintaining-and-deprecating-documentation",
+      "target_path": "maintaining-and-deprecating-documentation.md",
+      "text": "maintaining and deprecating documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-rules-for-technical-documentation",
+      "source_path": "seven-rules-for-technical-documentation.md",
+      "target": "reviewing-documentation-for-fitness-of-purpose.md",
+      "target_concept_id": "reviewing-documentation-for-fitness-of-purpose",
+      "target_path": "reviewing-documentation-for-fitness-of-purpose.md",
+      "text": "reviewing documentation for fitness of purpose",
+      "title": null
+    },
+    {
+      "source_concept_id": "seven-rules-for-technical-documentation",
+      "source_path": "seven-rules-for-technical-documentation.md",
+      "target": "write-for-the-reader-not-the-writer.md",
+      "target_concept_id": "write-for-the-reader-not-the-writer",
+      "target_path": "write-for-the-reader-not-the-writer.md",
+      "text": "write from the reader's point of view, not the author's",
+      "title": null
+    },
+    {
+      "source_concept_id": "single-source-with-pointer-references",
+      "source_path": "single-source-with-pointer-references.md",
+      "target": "curating-guides-over-duplicating-content.md",
+      "target_concept_id": "curating-guides-over-duplicating-content",
+      "target_path": "curating-guides-over-duplicating-content.md",
+      "text": "curating guides over duplicating content",
+      "title": null
+    },
+    {
+      "source_concept_id": "situation-complication-question-introduction",
+      "source_path": "situation-complication-question-introduction.md",
+      "target": "problem-definition-framework.md",
+      "target_concept_id": "problem-definition-framework",
+      "target_path": "problem-definition-framework.md",
+      "text": "the problem-definition framework",
+      "title": null
+    },
+    {
+      "source_concept_id": "situation-complication-question-introduction",
+      "source_path": "situation-complication-question-introduction.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "sketching-competing-outlines-before-committing",
+      "source_path": "sketching-competing-outlines-before-committing.md",
+      "target": "drafting-with-outline-first.md",
+      "target_concept_id": "drafting-with-outline-first",
+      "target_path": "drafting-with-outline-first.md",
+      "text": "drafting from an outline",
+      "title": null
+    },
+    {
+      "source_concept_id": "sketching-competing-outlines-before-committing",
+      "source_path": "sketching-competing-outlines-before-committing.md",
+      "target": "matching-document-structure-to-reader-patience.md",
+      "target_concept_id": "matching-document-structure-to-reader-patience",
+      "target_path": "matching-document-structure-to-reader-patience.md",
+      "text": "matching document structure to reader patience",
+      "title": null
+    },
+    {
+      "source_concept_id": "small-multiples-for-added-variable-comparison",
+      "source_path": "small-multiples-for-added-variable-comparison.md",
+      "target": "consistent-visual-encoding-across-a-document.md",
+      "target_concept_id": "consistent-visual-encoding-across-a-document",
+      "target_path": "consistent-visual-encoding-across-a-document.md",
+      "text": "consistent visual encoding across a document",
+      "title": null
+    },
+    {
+      "source_concept_id": "small-multiples-for-added-variable-comparison",
+      "source_path": "small-multiples-for-added-variable-comparison.md",
+      "target": "keeping-comparable-information-within-one-view.md",
+      "target_concept_id": "keeping-comparable-information-within-one-view",
+      "target_path": "keeping-comparable-information-within-one-view.md",
+      "text": "keeping comparable information within one view",
+      "title": null
+    },
+    {
+      "source_concept_id": "sparklines-for-inline-historical-context",
+      "source_path": "sparklines-for-inline-historical-context.md",
+      "target": "communicating-evidence-visually.md",
+      "target_concept_id": "communicating-evidence-visually",
+      "target_path": "communicating-evidence-visually.md",
+      "text": "communicating evidence visually",
+      "title": null
+    },
+    {
+      "source_concept_id": "spiral-structure-for-teaching-complex-systems",
+      "source_path": "spiral-structure-for-teaching-complex-systems.md",
+      "target": "matching-document-structure-to-reader-patience.md",
+      "target_concept_id": "matching-document-structure-to-reader-patience",
+      "target_path": "matching-document-structure-to-reader-patience.md",
+      "text": "matching document structure to reader patience",
+      "title": null
+    },
+    {
+      "source_concept_id": "spiral-structure-for-teaching-complex-systems",
+      "source_path": "spiral-structure-for-teaching-complex-systems.md",
+      "target": "worked-example-before-principles.md",
+      "target_concept_id": "worked-example-before-principles",
+      "target_path": "worked-example-before-principles.md",
+      "text": "leading with a worked example before stating principles",
+      "title": null
+    },
+    {
+      "source_concept_id": "stating-forecasts-as-calibrated-probabilities",
+      "source_path": "stating-forecasts-as-calibrated-probabilities.md",
+      "target": "disclosing-limitations-early.md",
+      "target_concept_id": "disclosing-limitations-early",
+      "target_path": "disclosing-limitations-early.md",
+      "text": "disclosing limitations early",
+      "title": null
+    },
+    {
+      "source_concept_id": "stickiness-framework-succes",
+      "source_path": "stickiness-framework-succes.md",
+      "target": "motivating-the-reader-with-a-problem.md",
+      "target_concept_id": "motivating-the-reader-with-a-problem",
+      "target_path": "motivating-the-reader-with-a-problem.md",
+      "text": "motivating the reader with a problem",
+      "title": null
+    },
+    {
+      "source_concept_id": "storyboarding-an-argument",
+      "source_path": "storyboarding-an-argument.md",
+      "target": "deductive-and-inductive-grouping.md",
+      "target_concept_id": "deductive-and-inductive-grouping",
+      "target_path": "deductive-and-inductive-grouping.md",
+      "text": "deductive and inductive grouping",
+      "title": null
+    },
+    {
+      "source_concept_id": "storyboarding-an-argument",
+      "source_path": "storyboarding-an-argument.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "storyboarding-an-argument",
+      "source_path": "storyboarding-an-argument.md",
+      "target": "separating-drafting-from-revision.md",
+      "target_concept_id": "separating-drafting-from-revision",
+      "target_path": "separating-drafting-from-revision.md",
+      "text": "separating drafting from revision",
+      "title": null
+    },
+    {
+      "source_concept_id": "stress-position-and-emphasis",
+      "source_path": "stress-position-and-emphasis.md",
+      "target": "point-sentences-and-document-coherence.md",
+      "target_concept_id": "point-sentences-and-document-coherence",
+      "target_path": "point-sentences-and-document-coherence.md",
+      "text": "point sentences and document-level coherence",
+      "title": null
+    },
+    {
+      "source_concept_id": "stress-position-and-emphasis",
+      "source_path": "stress-position-and-emphasis.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "stress-position-and-emphasis",
+      "source_path": "stress-position-and-emphasis.md",
+      "target": "topic-position-and-old-before-new-information.md",
+      "target_concept_id": "topic-position-and-old-before-new-information",
+      "target_path": "topic-position-and-old-before-new-information.md",
+      "text": "topic position and old-before-new information",
+      "title": null
+    },
+    {
+      "source_concept_id": "strong-opening-technique",
+      "source_path": "strong-opening-technique.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "structuring-content-for-multi-channel-reuse",
+      "source_path": "structuring-content-for-multi-channel-reuse.md",
+      "target": "choosing-documentation-types.md",
+      "target_concept_id": "choosing-documentation-types",
+      "target_path": "choosing-documentation-types.md",
+      "text": "choosing documentation types",
+      "title": null
+    },
+    {
+      "source_concept_id": "structuring-interface-documentation",
+      "source_path": "structuring-interface-documentation.md",
+      "target": "comments-complete-the-interface.md",
+      "target_concept_id": "comments-complete-the-interface",
+      "target_path": "comments-complete-the-interface.md",
+      "text": "comments complete the interface",
+      "title": null
+    },
+    {
+      "source_concept_id": "structuring-interface-documentation",
+      "source_path": "structuring-interface-documentation.md",
+      "target": "labeling-systems-for-clarity.md",
+      "target_concept_id": "labeling-systems-for-clarity",
+      "target_path": "labeling-systems-for-clarity.md",
+      "text": "labeling systems for clarity",
+      "title": null
+    },
+    {
+      "source_concept_id": "subject-matter-expert-interview-technique",
+      "source_path": "subject-matter-expert-interview-technique.md",
+      "target": "expert-versus-audience-vocabulary.md",
+      "target_concept_id": "expert-versus-audience-vocabulary",
+      "target_path": "expert-versus-audience-vocabulary.md",
+      "text": "expert-versus-audience vocabulary",
+      "title": null
+    },
+    {
+      "source_concept_id": "subject-matter-expert-interview-technique",
+      "source_path": "subject-matter-expert-interview-technique.md",
+      "target": "structuring-content-for-multi-channel-reuse.md",
+      "target_concept_id": "structuring-content-for-multi-channel-reuse",
+      "target_path": "structuring-content-for-multi-channel-reuse.md",
+      "text": "structuring content for multi-channel reuse",
+      "title": null
+    },
+    {
+      "source_concept_id": "summarizing-grouped-ideas",
+      "source_path": "summarizing-grouped-ideas.md",
+      "target": "deductive-and-inductive-grouping.md",
+      "target_concept_id": "deductive-and-inductive-grouping",
+      "target_path": "deductive-and-inductive-grouping.md",
+      "text": "grouping",
+      "title": null
+    },
+    {
+      "source_concept_id": "summarizing-grouped-ideas",
+      "source_path": "summarizing-grouped-ideas.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "telling-the-simplest-honest-story-of-a-system",
+      "source_path": "telling-the-simplest-honest-story-of-a-system.md",
+      "target": "choosing-a-different-altitude-than-what-its-explaining.md",
+      "target_concept_id": "choosing-a-different-altitude-than-what-its-explaining",
+      "target_path": "choosing-a-different-altitude-than-what-its-explaining.md",
+      "text": "choosing a different altitude than what it's explaining",
+      "title": null
+    },
+    {
+      "source_concept_id": "telling-the-simplest-honest-story-of-a-system",
+      "source_path": "telling-the-simplest-honest-story-of-a-system.md",
+      "target": "conversational-vocabulary-as-a-documentation-diagnostic.md",
+      "target_concept_id": "conversational-vocabulary-as-a-documentation-diagnostic",
+      "target_path": "conversational-vocabulary-as-a-documentation-diagnostic.md",
+      "text": "conversational vocabulary as a documentation diagnostic",
+      "title": null
+    },
+    {
+      "source_concept_id": "the-funnel-technique",
+      "source_path": "the-funnel-technique.md",
+      "target": "ocar-story-structure.md",
+      "target_concept_id": "ocar-story-structure",
+      "target_path": "ocar-story-structure.md",
+      "text": "OCAR story structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "three-ways-to-reduce-what-a-reader-must-be-told",
+      "source_path": "three-ways-to-reduce-what-a-reader-must-be-told.md",
+      "target": "curse-of-knowledge-and-audience-research.md",
+      "target_concept_id": "curse-of-knowledge-and-audience-research",
+      "target_path": "curse-of-knowledge-and-audience-research.md",
+      "text": "the curse of knowledge",
+      "title": null
+    },
+    {
+      "source_concept_id": "topic-position-and-old-before-new-information",
+      "source_path": "topic-position-and-old-before-new-information.md",
+      "target": "active-voice-and-concrete-language.md",
+      "target_concept_id": "active-voice-and-concrete-language",
+      "target_path": "active-voice-and-concrete-language.md",
+      "text": "active voice and concrete language",
+      "title": null
+    },
+    {
+      "source_concept_id": "topic-position-and-old-before-new-information",
+      "source_path": "topic-position-and-old-before-new-information.md",
+      "target": "point-sentences-and-document-coherence.md",
+      "target_concept_id": "point-sentences-and-document-coherence",
+      "target_path": "point-sentences-and-document-coherence.md",
+      "text": "point sentences and document-level coherence",
+      "title": null
+    },
+    {
+      "source_concept_id": "topic-position-and-old-before-new-information",
+      "source_path": "topic-position-and-old-before-new-information.md",
+      "target": "stress-position-and-emphasis.md",
+      "target_concept_id": "stress-position-and-emphasis",
+      "target_path": "stress-position-and-emphasis.md",
+      "text": "stress position and sentence emphasis",
+      "title": null
+    },
+    {
+      "source_concept_id": "translating-technical-material-for-general-readers",
+      "source_path": "translating-technical-material-for-general-readers.md",
+      "target": "cutting-clutter.md",
+      "target_concept_id": "cutting-clutter",
+      "target_path": "cutting-clutter.md",
+      "text": "cutting clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "trimming-precision-to-what-the-decision-needs",
+      "source_path": "trimming-precision-to-what-the-decision-needs.md",
+      "target": "cutting-clutter.md",
+      "target_concept_id": "cutting-clutter",
+      "target_path": "cutting-clutter.md",
+      "text": "cutting clutter",
+      "title": null
+    },
+    {
+      "source_concept_id": "tutorial-step-numbering",
+      "source_path": "tutorial-step-numbering.md",
+      "target": "choosing-documentation-types.md",
+      "target_concept_id": "choosing-documentation-types",
+      "target_path": "choosing-documentation-types.md",
+      "text": "choosing documentation types",
+      "title": null
+    },
+    {
+      "source_concept_id": "undocumented-automated-behavior-is-a-safety-defect",
+      "source_path": "undocumented-automated-behavior-is-a-safety-defect.md",
+      "target": "selecting-content-by-stakeholder-concerns.md",
+      "target_concept_id": "selecting-content-by-stakeholder-concerns",
+      "target_path": "selecting-content-by-stakeholder-concerns.md",
+      "text": "documentation-scoping instinct",
+      "title": null
+    },
+    {
+      "source_concept_id": "using-metaphor-to-explain",
+      "source_path": "using-metaphor-to-explain.md",
+      "target": "translating-technical-material-for-general-readers.md",
+      "target_concept_id": "translating-technical-material-for-general-readers",
+      "target_path": "translating-technical-material-for-general-readers.md",
+      "text": "translating technical material for general readers",
+      "title": null
+    },
+    {
+      "source_concept_id": "using-visuals-effectively",
+      "source_path": "using-visuals-effectively.md",
+      "target": "diagrams-as-elicitation-tools-in-review.md",
+      "target_concept_id": "diagrams-as-elicitation-tools-in-review",
+      "target_path": "diagrams-as-elicitation-tools-in-review.md",
+      "text": "diagrams as elicitation tools in stakeholder review",
+      "title": null
+    },
+    {
+      "source_concept_id": "using-visuals-effectively",
+      "source_path": "using-visuals-effectively.md",
+      "target": "exhaustive-matrices-for-unambiguous-logic.md",
+      "target_concept_id": "exhaustive-matrices-for-unambiguous-logic",
+      "target_path": "exhaustive-matrices-for-unambiguous-logic.md",
+      "text": "exhaustive matrix",
+      "title": null
+    },
+    {
+      "source_concept_id": "vertical-question-answer-relationship",
+      "source_path": "vertical-question-answer-relationship.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "when-to-involve-technical-writers",
+      "source_path": "when-to-involve-technical-writers.md",
+      "target": "customer-versus-provider-documentation.md",
+      "target_concept_id": "customer-versus-provider-documentation",
+      "target_path": "customer-versus-provider-documentation.md",
+      "text": "customer versus provider documentation",
+      "title": null
+    },
+    {
+      "source_concept_id": "when-to-involve-technical-writers",
+      "source_path": "when-to-involve-technical-writers.md",
+      "target": "reviewing-documentation-for-fitness-of-purpose.md",
+      "target_concept_id": "reviewing-documentation-for-fitness-of-purpose",
+      "target_path": "reviewing-documentation-for-fitness-of-purpose.md",
+      "text": "audience review",
+      "title": null
+    },
+    {
+      "source_concept_id": "who-what-when-where-why-for-documents",
+      "source_path": "who-what-when-where-why-for-documents.md",
+      "target": "documentation-as-code.md",
+      "target_concept_id": "documentation-as-code",
+      "target_path": "documentation-as-code.md",
+      "text": "documentation as code",
+      "title": null
+    },
+    {
+      "source_concept_id": "who-what-when-where-why-for-documents",
+      "source_path": "who-what-when-where-why-for-documents.md",
+      "target": "point-first-and-point-last-paragraphs.md",
+      "target_concept_id": "point-first-and-point-last-paragraphs",
+      "target_path": "point-first-and-point-last-paragraphs.md",
+      "text": "point-first paragraphs",
+      "title": null
+    },
+    {
+      "source_concept_id": "who-what-when-where-why-for-documents",
+      "source_path": "who-what-when-where-why-for-documents.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "worked-example-before-principles",
+      "source_path": "worked-example-before-principles.md",
+      "target": "pyramid-structure.md",
+      "target_concept_id": "pyramid-structure",
+      "target_path": "pyramid-structure.md",
+      "text": "the pyramid structure",
+      "title": null
+    },
+    {
+      "source_concept_id": "write-for-the-reader-not-the-writer",
+      "source_path": "write-for-the-reader-not-the-writer.md",
+      "target": "comments-complete-the-interface.md",
+      "target_concept_id": "comments-complete-the-interface",
+      "target_path": "comments-complete-the-interface.md",
+      "text": "comments completing the interface",
+      "title": null
+    },
+    {
+      "source_concept_id": "write-for-the-reader-not-the-writer",
+      "source_path": "write-for-the-reader-not-the-writer.md",
+      "target": "curse-of-knowledge-and-audience-research.md",
+      "target_concept_id": "curse-of-knowledge-and-audience-research",
+      "target_path": "curse-of-knowledge-and-audience-research.md",
+      "text": "the curse of knowledge",
+      "title": null
+    },
+    {
+      "source_concept_id": "write-for-the-reader-not-the-writer",
+      "source_path": "write-for-the-reader-not-the-writer.md",
+      "target": "precise-and-consistent-naming.md",
+      "target_concept_id": "precise-and-consistent-naming",
+      "target_path": "precise-and-consistent-naming.md",
+      "text": "precise naming",
+      "title": null
+    },
+    {
+      "source_concept_id": "writing-code-samples",
+      "source_path": "writing-code-samples.md",
+      "target": "using-visuals-effectively.md",
+      "target_concept_id": "using-visuals-effectively",
+      "target_path": "using-visuals-effectively.md",
+      "text": "using visuals effectively",
+      "title": null
+    },
+    {
+      "source_concept_id": "writing-for-non-native-and-global-readers",
+      "source_path": "writing-for-non-native-and-global-readers.md",
+      "target": "point-sentences-and-document-coherence.md",
+      "target_concept_id": "point-sentences-and-document-coherence",
+      "target_path": "point-sentences-and-document-coherence.md",
+      "text": "point sentences",
+      "title": null
+    },
+    {
+      "source_concept_id": "writing-for-non-native-and-global-readers",
+      "source_path": "writing-for-non-native-and-global-readers.md",
+      "target": "using-metaphor-to-explain.md",
+      "target_concept_id": "using-metaphor-to-explain",
+      "target_path": "using-metaphor-to-explain.md",
+      "text": "using metaphor to explain",
+      "title": null
+    },
+    {
+      "source_concept_id": "writing-for-public-audiences",
+      "source_path": "writing-for-public-audiences.md",
+      "target": "matching-document-structure-to-reader-patience.md",
+      "target_concept_id": "matching-document-structure-to-reader-patience",
+      "target_path": "matching-document-structure-to-reader-patience.md",
+      "text": "matching document structure to reader patience",
+      "title": null
+    },
+    {
+      "source_concept_id": "writing-for-public-audiences",
+      "source_path": "writing-for-public-audiences.md",
+      "target": "strong-opening-technique.md",
+      "target_concept_id": "strong-opening-technique",
+      "target_path": "strong-opening-technique.md",
+      "text": "strong opening technique",
+      "title": null
+    },
+    {
+      "source_concept_id": "writing-for-public-audiences",
+      "source_path": "writing-for-public-audiences.md",
+      "target": "translating-technical-material-for-general-readers.md",
+      "target_concept_id": "translating-technical-material-for-general-readers",
+      "target_path": "translating-technical-material-for-general-readers.md",
+      "text": "translating technical material for general readers",
+      "title": null
+    }
+  ],
+  "orphans": []
+}
