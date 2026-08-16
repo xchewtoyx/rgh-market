@@ -1,0 +1,4 @@
+# Script dependencies for plugins/bundle-curator/scripts/.
+# Only dump-source-chapters.py needs a third-party package (PDF/EPUB parsing);
+# every other script here is stdlib-only.
+pymupdf>=1.24.0

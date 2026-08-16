@@ -2,11 +2,15 @@
 
 Claude Code plugin marketplace for [`rgh-sme`](https://github.com/xchewtoyx/rgh-sme)
 and [`rgh-pre`](https://github.com/xchewtoyx/rgh-pre) — Zettelkasten-style Agent
-Plugins wiki bundles. The catalog is
+Plugins wiki bundles — plus [`bundle-curator`](plugins/bundle-curator), the
+harness-agnostic curation tooling those two repos (and future OKF wiki repos)
+share. The catalog is
 [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json). Cloudsmith
-(`chewcorp-kl2f/xchewtoyx`, raw format) is the artifact store both plugin repos
-already publish to on every version bump; this repo vendors the newest package
-from there into `plugins/<name>/` so Claude Code can install straight from git.
+(`chewcorp-kl2f/xchewtoyx`, raw format) is the artifact store the `rgh-sme` and
+`rgh-pre` plugin repos already publish to on every version bump; this repo
+vendors the newest package from there into `plugins/<name>/` so Claude Code can
+install straight from git. `bundle-curator` is different — see
+[Mastering `bundle-curator`](#mastering-bundle-curator) below.
 
 ## Install
 
@@ -14,6 +18,7 @@ from there into `plugins/<name>/` so Claude Code can install straight from git.
 /plugin marketplace add xchewtoyx/rgh-market
 /plugin install rgh-sme@rgh-plugins
 /plugin install rgh-pre@rgh-plugins
+/plugin install bundle-curator@rgh-plugins
 ```
 
 ## How it's wired
@@ -73,9 +78,24 @@ the price of installing on Claude Code versions without `archive` support;
 once that's broadly available, entries can switch back to a direct
 Cloudsmith `archive` source and `plugins/` can go away.
 
+## Mastering `bundle-curator`
+
+`plugins/bundle-curator/` is not vendored — it has no `.cloudsmith-source.json`
+stamp, so `scripts/sync_marketplace.py` leaves it alone (a stderr warning, no
+write) on every run. It was extracted directly from `rgh-pre`'s and
+`rgh-sme`'s `.claude/skills/`, `.claude/agents/`, and `scripts/` — the
+maintainer-side tooling that curates fleeting notes into wiki bundles, as
+opposed to the consumer-facing wiki content the `rgh-sme`/`rgh-pre` entries
+ship. Edit it in place here and bump `plugin.json`'s `version` by hand; see
+[`plugins/bundle-curator/README.md`](plugins/bundle-curator/README.md) for
+what it expects a consuming repo to supply (`okf-core.toml`, per-domain
+curator charters, curation state) and its provenance. `rgh-pre` and `rgh-sme`
+still carry their own copies of this tooling for now — neither depends on this
+plugin yet.
+
 ## Tests
 
 ```shell
-pip install -r requirements-dev.txt
-pytest tests/ -v
+pip install -r requirements-dev.txt -r plugins/bundle-curator/requirements.txt
+pytest tests/ plugins/bundle-curator/tests/ -v
 ```
