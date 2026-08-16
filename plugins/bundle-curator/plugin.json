@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bundle-curator",
+  "version": "0.1.0",
+  "description": "Harness-agnostic curation tooling for Zettelkasten-style OKF wiki bundles: skills to onboard sources, dispatch domain curators, review charters, and drain scoring/landscape backlogs, plus the scripts and shared agents they depend on. Domain-agnostic — reads the domain-slug list from the consuming repo's okf-core.toml. Domain-specific curator agents (<slug>-curator.md), okf-core.toml, and the fleeting/wiki content itself stay in the consuming repo; this plugin ships only the reusable mechanics.",
+  "author": {
+    "name": "Russell Heilling",
+    "url": "https://github.com/xchewtoyx"
+  },
+  "homepage": "https://github.com/xchewtoyx/rgh-market",
+  "repository": "https://github.com/xchewtoyx/rgh-market",
+  "keywords": [
+    "zettelkasten",
+    "okf",
+    "knowledge",
+    "wiki",
+    "llm",
+    "curation",
+    "agent-plugins"
+  ]
+}

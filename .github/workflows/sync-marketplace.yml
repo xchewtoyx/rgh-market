@@ -25,10 +25,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements-dev.txt
+          pip install -r requirements-dev.txt -r plugins/bundle-curator/requirements.txt
 
       - name: Run tests
-        run: pytest tests/ -v
+        run: pytest tests/ plugins/bundle-curator/tests/ -v
 
       - name: Sync vendored plugins from Cloudsmith
         run: python3 scripts/sync_marketplace.py
