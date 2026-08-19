@@ -19,7 +19,14 @@
       "homepage": "https://github.com/xchewtoyx/rgh-sme",
       "repository": "https://github.com/xchewtoyx/rgh-sme",
       "license": "MIT",
-      "keywords": ["zettelkasten", "okf", "knowledge", "wiki", "llm", "sme"],
+      "keywords": [
+        "zettelkasten",
+        "okf",
+        "knowledge",
+        "wiki",
+        "llm",
+        "sme"
+      ],
       "category": "knowledge",
       "strict": false,
       "source": "./plugins/rgh-sme"
@@ -69,6 +76,16 @@
       "category": "knowledge",
       "strict": false,
       "source": "./plugins/bundle-curator"
+    },
+    {
+      "name": "rgh-mms",
+      "displayName": "rgh-mms",
+      "description": "mini me swarm",
+      "homepage": "https://github.com/xchewtoyx/rgh-mms",
+      "repository": "https://github.com/xchewtoyx/rgh-mms",
+      "category": "knowledge",
+      "strict": false,
+      "source": "./plugins/rgh-mms"
     }
   ]
 }

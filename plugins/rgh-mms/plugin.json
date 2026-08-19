@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "rgh-mms claude-code agent surface (planner/implementor/reviewer/approver/researcher agents and skills), built from canonical policy/roles/workflows sources.",
+  "name": "rgh-mms",
+  "source_commit": "9f24a3d79a83bd860fa26640ab95e659fff3c797",
+  "version": "0.1.0"
+}
