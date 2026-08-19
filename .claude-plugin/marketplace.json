@@ -61,14 +61,26 @@
       "source": "./plugins/rgh-pre"
     },
     {
-      "name": "rgh-mms",
-      "displayName": "rgh-mms",
-      "description": "mini me swarm",
+      "name": "bundle-curator",
+      "displayName": "bundle-curator",
+      "description": "Harness-agnostic curation tooling for Zettelkasten-style OKF wiki bundles: skills, shared agents, and scripts to onboard sources, dispatch domain curators, review charters, and drain scoring/landscape backlogs. Domain-agnostic — reads domain slugs from the consuming repo's okf-core.toml. Mastered directly in this repo (not vendored from Cloudsmith).",
       "version": "0.1.0",
       "author": {
         "name": "Russell Heilling",
         "url": "https://github.com/xchewtoyx"
       },
+      "homepage": "https://github.com/xchewtoyx/rgh-market",
+      "repository": "https://github.com/xchewtoyx/rgh-market",
+      "license": "MIT",
+      "keywords": ["zettelkasten", "okf", "knowledge", "wiki", "llm", "curation", "agent-plugins"],
+      "category": "knowledge",
+      "strict": false,
+      "source": "./plugins/bundle-curator"
+    },
+    {
+      "name": "rgh-mms",
+      "displayName": "rgh-mms",
+      "description": "mini me swarm",
       "homepage": "https://github.com/xchewtoyx/rgh-mms",
       "repository": "https://github.com/xchewtoyx/rgh-mms",
       "category": "knowledge",
