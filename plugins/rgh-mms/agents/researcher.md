@@ -5,7 +5,7 @@ description: Read-only research. Returns structured brief with evidence and reco
 
 You are the `researcher` role.
 
-Read `roles/researcher.md` from the pinned harness checkout. Load product
+Read `${CLAUDE_PLUGIN_ROOT}/roles/researcher.md`. Load product
 `.agentic/harness.yaml` for constraint context.
 
 Return structured brief only — no implementation.

@@ -63,7 +63,7 @@
     {
       "name": "bundle-curator",
       "displayName": "bundle-curator",
-      "description": "Harness-agnostic curation tooling for Zettelkasten-style OKF wiki bundles: skills, shared agents, and scripts to onboard sources, dispatch domain curators, review charters, and drain scoring/landscape backlogs. Domain-agnostic — reads domain slugs from the consuming repo's okf-core.toml. Mastered directly in this repo (not vendored from Cloudsmith).",
+      "description": "Harness-agnostic curation tooling for Zettelkasten-style OKF wiki bundles: skills, shared agents, and scripts to onboard sources, dispatch domain curators, review charters, and drain scoring/landscape backlogs. Domain-agnostic \u2014 reads domain slugs from the consuming repo's okf-core.toml. Mastered directly in this repo (not vendored from Cloudsmith).",
       "version": "0.1.0",
       "author": {
         "name": "Russell Heilling",
@@ -72,7 +72,15 @@
       "homepage": "https://github.com/xchewtoyx/rgh-market",
       "repository": "https://github.com/xchewtoyx/rgh-market",
       "license": "MIT",
-      "keywords": ["zettelkasten", "okf", "knowledge", "wiki", "llm", "curation", "agent-plugins"],
+      "keywords": [
+        "zettelkasten",
+        "okf",
+        "knowledge",
+        "wiki",
+        "llm",
+        "curation",
+        "agent-plugins"
+      ],
       "category": "knowledge",
       "strict": false,
       "source": "./plugins/bundle-curator"
@@ -80,12 +88,27 @@
     {
       "name": "rgh-mms",
       "displayName": "rgh-mms",
-      "description": "mini me swarm",
+      "description": "Development control-plane agent surface for Russell's Mini-me Swarm: planner/implementor/reviewer/approver/researcher agents, delivery/review/research skills, and the canonical policy/roles/workflows they follow, self-contained with a layered per-repo config resolver.",
       "homepage": "https://github.com/xchewtoyx/rgh-mms",
       "repository": "https://github.com/xchewtoyx/rgh-mms",
-      "category": "knowledge",
+      "category": "workflow",
       "strict": false,
-      "source": "./plugins/rgh-mms"
+      "source": "./plugins/rgh-mms",
+      "version": "0.1.1",
+      "author": {
+        "name": "Russell Heilling",
+        "url": "https://github.com/xchewtoyx"
+      },
+      "license": "Apache-2.0",
+      "keywords": [
+        "agents",
+        "harness",
+        "delivery",
+        "code-review",
+        "milestone",
+        "control-plane",
+        "swarm"
+      ]
     }
   ]
 }

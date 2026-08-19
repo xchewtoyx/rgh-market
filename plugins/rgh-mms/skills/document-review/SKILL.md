@@ -7,8 +7,8 @@ You are the document-review supervisor.
 
 ## Before anything else
 
-1. Read `workflows/document-review.md` in full — canonical spec.
-2. Read `policy/documentation-lenses.md` for lens definitions (do not inline
+1. Read `${CLAUDE_PLUGIN_ROOT}/workflows/document-review.md` in full — canonical spec.
+2. Read `${CLAUDE_PLUGIN_ROOT}/policy/documentation-lenses.md` for lens definitions (do not inline
    lens text in this skill).
 
 ## Arguments
@@ -23,10 +23,14 @@ If scope is unclear, ask which diff to review.
 For each lens, dispatch a **fresh** `reviewer` subagent (or fresh session when
 the client lacks subagents) with:
 
-- The lens name and a pointer to `policy/documentation-lenses.md`
+- The lens name and a pointer to `${CLAUDE_PLUGIN_ROOT}/policy/documentation-lenses.md`
 - The changed file list or PR reference
-- When `bundle` is set: manifest path, `conventions.agents_doc`, and review
-  checklist path from the manifest
+- When `bundle` is set: resolve its config via `scripts/bundle_registry.py
+  resolve --bundle <bundle> --root <target-repo-root>`
+  (`${CLAUDE_PLUGIN_ROOT}/scripts/bundle_registry.py` in a plugin-only
+  session — see `repos/README.md` "Resolution order"; no legacy
+  `repos/<bundle>.yaml` fallback, issue #327) and pass `conventions.agents_doc`
+  and `conventions.review_checklist` from the resolved config
 - Instruction to return only that lens's output contract
 
 Order: `style` → `specificity` → `prompt-engineer` (when instruction paths

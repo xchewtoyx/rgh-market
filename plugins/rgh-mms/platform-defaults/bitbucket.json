@@ -1,0 +1,13 @@
+{
+  "conventions": {
+    "agents_doc": "AGENTS.md"
+  },
+  "delivery": {
+    "branch_pattern": "issue-{issue}-{slug}",
+    "integration_mode": "per-issue",
+    "milestone_branch_pattern": "milestone/{milestone}",
+    "agent_may_merge": false,
+    "agent_may_force_push": false,
+    "release_on_milestone_complete": false
+  }
+}
