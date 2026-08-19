@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/xchewtoyx/rgh-mms/schemas/rgh-mms-config.schema.json",
+  "title": "RGH-MMS Layered Bundle Config Fragment",
+  "description": "Successor scope to schemas/repo-registry.schema.json (issue #327). Validates one bundle-config *fragment* -- the shape read from each of the four resolver layers (scripts/bundle_registry.py resolve_bundle_config): plugin per-platform defaults (platform-defaults/<platform>.json), the per-bundle entry under ~/.claude/rgh-mms.json's `bundles` map, a committed <target>/.claude/rgh-mms.json, and an uncommitted <target>/.claude/rgh-mms.local.json. Every top-level and nested field is optional -- unlike schemas/repo-registry.schema.json's single complete manifest, a layer fragment may set only the handful of keys it wants to override, so `required` is deliberately never used here. Field scope is narrower than the legacy registry schema: only what the rewired resolver consumers (skills/*/SKILL.md steps, scripts/transition-work-item-state.py, scripts/telemetry_publish.py::load_bundle_manifest) actually read. See repos/README.md 'Resolution order' for the four-layer precedence and .agent-metrics/contracts/i324_repo_offboarding.md for the design this schema implements.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "bundle": {
+      "type": "string",
+      "description": "Stable identifier, matching schemas/repo-registry.schema.json's bundle pattern. Optional in a layer file (the resolver already knows which bundle it is resolving); present mainly for a committed/local file to self-document which bundle it configures.",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "platform": {
+      "type": "string",
+      "enum": ["github", "ado", "bitbucket"],
+      "description": "Source host for the tracker/delivery mechanics. Determines which platform-defaults/<platform>.json layer-1 file the resolver loads. Defaults to github when no layer declares it."
+    },
+    "conventions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "agents_doc": {
+          "type": "string",
+          "description": "Path to contributor conventions (usually AGENTS.md)."
+        },
+        "review_checklist": {
+          "type": "string",
+          "description": "Repo-specific review gates beyond the harness defaults."
+        }
+      }
+    },
+    "ci": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "local_command": {
+          "type": "string",
+          "description": "Full local CI equivalent the implementor must pass before returning."
+        },
+        "complexity_check": {
+          "type": "string",
+          "description": "Optional focused complexity command."
+        }
+      }
+    },
+    "contracts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "directory": { "type": "string" },
+        "cli": {
+          "type": "string",
+          "description": "CLI for scaffold/settle, e.g. agent-metrics contract."
+        }
+      }
+    },
+    "delivery": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "branch_pattern": {
+          "type": "string",
+          "description": "Branch naming template. Tokens: {issue}, {slug}, {work_item}, {parent}."
+        },
+        "milestone_query": {
+          "type": "string",
+          "description": "GitHub issue search query template."
+        },
+        "parent_issue_query": {
+          "type": "string",
+          "description": "Optional GitHub parent-issue worklist template. Token: {parent}."
+        },
+        "iteration_path": {
+          "type": "string",
+          "description": "ADO iteration path for sprint/iteration-scoped delivery."
+        },
+        "work_item_wiql": {
+          "type": "string",
+          "description": "ADO WIQL or query id for open work items in scope."
+        },
+        "pr_body_closes": {
+          "type": "string",
+          "description": "PR body closing-issue template, e.g. Closes #{issue}."
+        },
+        "integration_mode": {
+          "type": "string",
+          "enum": ["per-issue", "milestone-aggregate"],
+          "description": "How multi-PR milestones land."
+        },
+        "milestone_branch_pattern": {
+          "type": "string",
+          "description": "Tracking branch naming for integration_mode=milestone-aggregate. Tokens: {milestone}, {bundle}, {parent}."
+        },
+        "agent_may_merge": {
+          "type": "boolean",
+          "description": "When true, supervisor may merge issue PRs into the milestone tracking branch (milestone-aggregate only)."
+        },
+        "agent_may_force_push": { "type": "boolean" },
+        "release_on_milestone_complete": { "type": "boolean" },
+        "work_item_states": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Tracker state names to transition a work item through as the loop progresses.",
+          "properties": {
+            "in_progress": {
+              "type": "string",
+              "description": "State to set when a branch is cut for the work item."
+            },
+            "done": {
+              "type": "string",
+              "description": "State to set once the work item's issue PR merges into the integration base."
+            }
+          }
+        }
+      }
+    },
+    "ado": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Minimal ADO tracker addressing needed by scripts/transition-work-item-state.py. Not the full schemas/repo-registry.schema.json ado block (no repo/default_branch/remote_url here -- those are git-hosting metadata this resolver's consumers do not read).",
+      "properties": {
+        "organization": { "type": "string" },
+        "project": { "type": "string" }
+      }
+    },
+    "telemetry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "grafana_cloud": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Grafana Cloud instance and credential resolution for telemetry publication (see instrumentation/grafana-cloud.md and policy/security.md). All fields optional; unset resolves to scripts/telemetry_publish.py's harness-wide DEFAULT_* constants. This block belongs in the operator-local ~/.claude/rgh-mms.json layer, not a committed <target>/.claude/rgh-mms.json -- see repos/README.md 'Resolution order' for why credential-shaped fields should not be committed into an arbitrary product repo.",
+          "properties": {
+            "instance_url": {
+              "type": "string",
+              "description": "Override for the harness-wide default Grafana Cloud stack hostname."
+            },
+            "remote": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "credential": {
+                  "type": "string",
+                  "description": "Env var the session must have set, e.g. GRAFANA_CLOUD_TOKEN."
+                },
+                "note": { "type": "string" }
+              }
+            },
+            "local": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "keychain_item": {
+                  "type": "string",
+                  "description": "macOS Keychain service name (security find-generic-password -s <item> -w)."
+                },
+                "note": { "type": "string" }
+              }
+            },
+            "loki": {
+              "type": "object",
+              "additionalProperties": false,
+              "description": "Grafana Cloud Loki push target for loop-event log lines and its own distinct credential. See instrumentation/grafana-cloud.md and policy/security.md.",
+              "properties": {
+                "endpoint": {
+                  "type": "string",
+                  "description": "Override for the harness-wide default Loki push endpoint."
+                },
+                "remote": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "credential": {
+                      "type": "string",
+                      "description": "Env var the session must have set, e.g. GRAFANA_CLOUD_LOKI_TOKEN."
+                    },
+                    "note": { "type": "string" }
+                  }
+                },
+                "local": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "keychain_item": {
+                      "type": "string",
+                      "description": "macOS Keychain service name for the Loki credential."
+                    },
+                    "note": { "type": "string" }
+                  }
+                },
+                "push_enabled": {
+                  "type": "boolean",
+                  "description": "Set to false to disable the Loki write-through push while keeping local JSONL recording."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

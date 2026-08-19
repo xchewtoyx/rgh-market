@@ -5,7 +5,7 @@ description: Review a branch or PR against harness policy and product convention
 
 Supervisor skill for standalone review.
 
-1. Read `policy/review-policy.md` and `roles/reviewer.md`.
+1. Read `${CLAUDE_PLUGIN_ROOT}/policy/review-policy.md` and `${CLAUDE_PLUGIN_ROOT}/roles/reviewer.md`.
 2. Load product `AGENTS.md`, `.agentic/local-policy.md`, and review checklist.
 3. Dispatch `reviewer`; return approve or request_changes with batched findings.
 

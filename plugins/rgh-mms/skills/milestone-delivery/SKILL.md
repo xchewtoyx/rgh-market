@@ -7,17 +7,26 @@ You are the milestone-delivery supervisor for the RGH-MMS meta harness.
 
 ## Before anything else
 
-1. Read `workflows/milestone-delivery.md` in full — canonical spec.
-2. Load the target bundle manifest from `repos/<bundle>.yaml`.
-3. If `status` is `stub`, stop and tell the user the manifest needs completion.
-4. Read the target repo's conventions doc (path from manifest) when working
-   inside that repo.
+1. Read `${CLAUDE_PLUGIN_ROOT}/workflows/milestone-delivery.md` in full — canonical spec.
+2. Resolve the target bundle config via the layered resolver (see
+   `repos/README.md` "Resolution order"): `scripts/bundle_registry.py
+   resolve --bundle <bundle> --root <target-repo-root>` from a canonical
+   rgh-mms checkout, or `${CLAUDE_PLUGIN_ROOT}/scripts/bundle_registry.py
+   resolve ...` in a plugin-only session. No legacy `repos/<bundle>.yaml` /
+   product `.agentic/harness.yaml` fallback when the resolved layers are
+   empty (hard cutover, issue #327).
+3. If the resolved config's `configured` is `false`, stop and tell the user
+   the bundle needs onboarding — no `~/.claude/rgh-mms.json` entry,
+   committed `.claude/rgh-mms.json`, or `.claude/rgh-mms.local.json` was
+   found for it (see #339). This replaces the legacy `status: stub` gate.
+4. Read the target repo's conventions doc (`conventions.agents_doc` from
+   the resolved config) when working inside that repo.
 5. Note `delivery.integration_mode` (`per-issue` default, or
    `milestone-aggregate` when the platform lacks stacked PRs). Follow that
    section of the workflow for tracking-branch setup, merge authority, and
    the human hard gate.
 6. Before the container's first issue, run backlog reconciliation
-   (`workflows/milestone-delivery.md` Loop **step 0a**) — canonical field
+   (`${CLAUDE_PLUGIN_ROOT}/workflows/milestone-delivery.md` Loop **step 0a**) — canonical field
    list, blocking/advisory split, and telemetry treatment live there; do not
    duplicate them here.
 
@@ -36,13 +45,14 @@ operator has not named an origin ticket on an operator-supplied
 `owner/repo`, ask — never assume from a previous run. If both `milestone`
 and `parent` are given, ask which container this run uses. Canonical input,
 worklist, completion, and local-mirror rules live in
-`workflows/milestone-delivery.md` sections **Input**, **Parent-issue
+`${CLAUDE_PLUGIN_ROOT}/workflows/milestone-delivery.md` sections **Input**, **Parent-issue
 container**, and **Local-mirror flow**. Do not restate them here.
 
 When the operator names an origin ticket on an operator-supplied
-`owner/repo` (destination `repos/<bundle>.yaml`) rather than a local
-`rgh-mms` parent number, follow the workflow **Local-mirror flow** before
-the first issue.
+`owner/repo` (destination `repos/<bundle>.yaml` — this write path is
+distinct from step 2's config-resolution read path above and unaffected by
+issue #327) rather than a local `rgh-mms` parent number, follow the
+workflow **Local-mirror flow** before the first issue.
 
 ## Dispatch
 
@@ -56,12 +66,12 @@ stub; meta self-host under `harnesses/self-host/…`). Each defers to
 
 **Fresh dispatch required** for plan, implement, review, approve, and optional
 Review-loop step-back `researcher` — never run these phases inline in the
-supervisor transcript. See `workflows/milestone-delivery.md` section
-**Supervisor context discipline** (canonical spec at repo root).
+supervisor transcript. See `${CLAUDE_PLUGIN_ROOT}/workflows/milestone-delivery.md` section
+**Supervisor context discipline** (canonical spec, packaged with this plugin).
 
 - Platform tools: query the container worklist per workflow **Input** and
   **Parent-issue container**.
-- Work-item state: when manifest `delivery.work_item_states` is set, run
+- Work-item state: when resolved config `delivery.work_item_states` is set, run
   `scripts/transition-work-item-state.py` at branch cut (`in_progress`) and
   after an issue PR merges into the integration base (`done`) — see workflow
   Loop steps 3 and 10. Best-effort; a failure is a warning, not a loop
@@ -81,9 +91,9 @@ supervisor transcript. See `workflows/milestone-delivery.md` section
   reflects adjudication (rewritten text; waived criteria removed or
   annotated). Pass waived defect ids (`acceptance_criteria_defects[].id`) as
   Approver Input on Approve-loop dispatches (see workflow Escalation /
-  `roles/approver.md`).
+  `${CLAUDE_PLUGIN_ROOT}/roles/approver.md`).
 - At each of the phase transitions listed in
-  `workflows/milestone-delivery.md` section **Handoff readback**, emit the
+  `${CLAUDE_PLUGIN_ROOT}/workflows/milestone-delivery.md` section **Handoff readback**, emit the
   readback defined there (canonical field list and wording lives there — do
   not duplicate it here).
 - Review loop: follow workflow step **6a** (complete document-review when
@@ -92,7 +102,7 @@ supervisor transcript. See `workflows/milestone-delivery.md` section
   circuit-breaker fire, use the workflow's **circuit-breaker remediation**
   (optional **step-back** prelude, then structural-rewrite) — not a normal
   findings batch. Escalate timing lives in the workflow Review loop.
-- After approve, follow `workflows/milestone-delivery.md` **Open PR**
+- After approve, follow `${CLAUDE_PLUGIN_ROOT}/workflows/milestone-delivery.md` **Open PR**
   (ready for review; draft only under step 8 exceptions). Ready ≠ merge;
   human hard gate is default-branch land only (**Land**).
 - In `milestone-aggregate` mode: create/refresh the milestone tracking branch
@@ -103,7 +113,7 @@ supervisor transcript. See `workflows/milestone-delivery.md` section
 ## Telemetry emission
 
 Emit loop telemetry via `scripts/record-loop-event.py` at every transition
-listed in `workflows/milestone-delivery.md` **Loop telemetry (required)**.
+listed in `${CLAUDE_PLUGIN_ROOT}/workflows/milestone-delivery.md` **Loop telemetry (required)**.
 The recorder validates against `schemas/loop-telemetry-v1.schema.json` and
 rejects malformed or incomplete milestone-delivery records (exit 1). A
 rejected call is a loop defect — fix flags/metrics and retry before
@@ -150,7 +160,7 @@ Flags: `scripts/record-loop-event.py --help`.
 
 ## Release
 
-When manifest `delivery.release_on_milestone_complete` is true and the
+When resolved config `delivery.release_on_milestone_complete` is true and the
 container has no remaining open work (same completion rule as workflow
 **Milestone complete**; and aggregate-mode bulk land has human-merged),
 follow the release step in the workflow spec.
