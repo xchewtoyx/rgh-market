@@ -1,0 +1,20 @@
+{
+  "name": "rgh-sme",
+  "description": "Zettelkasten-style LLM wikis across a set of subject-matter domains, built from reference texts and packaged as Open Knowledge Format (OKF) bundles.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Russell Heilling"
+  },
+  "homepage": "https://github.com/xchewtoyx/rgh-sme",
+  "repository": "https://github.com/xchewtoyx/rgh-sme",
+  "license": "MIT",
+  "keywords": [
+    "zettelkasten",
+    "okf",
+    "knowledge",
+    "wiki",
+    "llm",
+    "sme"
+  ],
+  "skills": "skills"
+}

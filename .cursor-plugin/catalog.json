@@ -1,0 +1,191 @@
+{
+  "name": "rgh-plugins",
+  "description": "Zettelkasten-style Agent Plugins wiki bundles. Cloudsmith is the artifact store; plugins/ vendors the latest package from it so stable Claude Code (which doesn't yet support the archive source type) can install directly from git.",
+  "repository": "https://github.com/xchewtoyx/rgh-market",
+  "catalog_url": "https://raw.githubusercontent.com/xchewtoyx/rgh-market/main/.cursor-plugin/catalog.json",
+  "plugins": [
+    {
+      "name": "rgh-sme",
+      "description": "Zettelkasten-style LLM wikis across a set of subject-matter domains, built from reference texts and packaged as Open Knowledge Format (OKF) bundles.",
+      "version": "0.1.1",
+      "source": "plugins/rgh-sme",
+      "homepage": "https://github.com/xchewtoyx/rgh-sme",
+      "repository": "https://github.com/xchewtoyx/rgh-sme",
+      "license": "MIT",
+      "keywords": [
+        "zettelkasten",
+        "okf",
+        "knowledge",
+        "wiki",
+        "llm",
+        "sme"
+      ],
+      "category": "knowledge",
+      "skills": [
+        "agentic-engineering-wiki",
+        "api-design-wiki",
+        "automation-engineering-wiki",
+        "capacity-performance-wiki",
+        "change-engineering-wiki",
+        "ci-cd-wiki",
+        "data-engineering-wiki",
+        "data-visualization-wiki",
+        "decision-alignment-wiki",
+        "dimensional-modelling-wiki",
+        "distributed-systems-wiki",
+        "evidence-verification-wiki",
+        "incident-management-wiki",
+        "infrastructure-as-code-wiki",
+        "judgment-calibration-wiki",
+        "observability-wiki",
+        "operational-handover-wiki",
+        "organizational-learning-wiki",
+        "reliability-engineering-wiki",
+        "requirements-architecture-wiki",
+        "resilience-engineering-wiki",
+        "security-engineering-wiki",
+        "software-design-wiki",
+        "technical-communication-wiki",
+        "wiki-router"
+      ],
+      "agents": [],
+      "git": {
+        "url": "https://github.com/xchewtoyx/rgh-market",
+        "path": "plugins/rgh-sme"
+      },
+      "archive": {
+        "url": "https://dl.cloudsmith.io/public/chewcorp-kl2f/xchewtoyx/raw/names/rgh-sme/versions/0.1.1/rgh-sme-0.1.1.zip",
+        "sha256": "4ed83adb8c60f94d58edb391e6ae3647ec56a52673f13e404c542a534e465ed6",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "rgh-pre",
+      "description": "Consumer wiki package for personal wellbeing and Personal Reliability Engineering: philosophy, mindset, telemetry-state, capacity-load, failure-modes, controls-design, incident-response, reliability-strategy.",
+      "version": "0.1.0",
+      "source": "plugins/rgh-pre",
+      "homepage": "https://github.com/xchewtoyx/rgh-pre",
+      "repository": "https://github.com/xchewtoyx/rgh-pre",
+      "keywords": [
+        "wellbeing",
+        "personal-reliability-engineering",
+        "wiki",
+        "agent-plugins",
+        "philosophy",
+        "mindset",
+        "telemetry-state",
+        "capacity-load",
+        "failure-modes",
+        "controls-design",
+        "incident-response",
+        "reliability-strategy"
+      ],
+      "category": "knowledge",
+      "skills": [
+        "capacity-load-wiki",
+        "controls-design-wiki",
+        "failure-modes-wiki",
+        "incident-response-wiki",
+        "mindset-wiki",
+        "philosophy-wiki",
+        "reliability-strategy-wiki",
+        "telemetry-state-wiki",
+        "wiki-router"
+      ],
+      "agents": [],
+      "git": {
+        "url": "https://github.com/xchewtoyx/rgh-market",
+        "path": "plugins/rgh-pre"
+      },
+      "archive": {
+        "url": "https://dl.cloudsmith.io/public/chewcorp-kl2f/xchewtoyx/raw/names/rgh-pre/versions/0.1.0/rgh-pre-0.1.0.zip",
+        "sha256": "342e4f3be4957fcc1bcf0c0ec1a9f185f32d7939b8b227ccbee4b60b64879f11",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "bundle-curator",
+      "description": "Harness-agnostic curation tooling for Zettelkasten-style OKF wiki bundles: skills, shared agents, and scripts to onboard sources, dispatch domain curators, review charters, and drain scoring/landscape backlogs. Domain-agnostic \u2014 reads domain slugs from the consuming repo's okf-core.toml. Mastered directly in this repo (not vendored from Cloudsmith).",
+      "version": "0.1.0",
+      "source": "plugins/bundle-curator",
+      "homepage": "https://github.com/xchewtoyx/rgh-market",
+      "repository": "https://github.com/xchewtoyx/rgh-market",
+      "license": "MIT",
+      "keywords": [
+        "zettelkasten",
+        "okf",
+        "knowledge",
+        "wiki",
+        "llm",
+        "curation",
+        "agent-plugins"
+      ],
+      "category": "knowledge",
+      "skills": [
+        "catch-up",
+        "charter-review",
+        "curate",
+        "onboard",
+        "progress",
+        "score-catchup",
+        "source-watch"
+      ],
+      "agents": [
+        "chapter-writer",
+        "charter-researcher",
+        "fleeting-researcher",
+        "source-watch-researcher"
+      ],
+      "git": {
+        "url": "https://github.com/xchewtoyx/rgh-market",
+        "path": "plugins/bundle-curator"
+      }
+    },
+    {
+      "name": "rgh-mms",
+      "description": "Development control-plane agent surface for Russell's Mini-me Swarm: planner/implementor/reviewer/approver/researcher agents, delivery/review/research skills, and the canonical policy/roles/workflows they follow, self-contained with a layered per-repo config resolver.",
+      "version": "0.1.1",
+      "source": "plugins/rgh-mms",
+      "homepage": "https://github.com/xchewtoyx/rgh-mms",
+      "repository": "https://github.com/xchewtoyx/rgh-mms",
+      "license": "Apache-2.0",
+      "keywords": [
+        "agents",
+        "harness",
+        "delivery",
+        "code-review",
+        "milestone",
+        "control-plane",
+        "swarm"
+      ],
+      "category": "workflow",
+      "skills": [
+        "contract-first-change",
+        "document-review",
+        "documentation",
+        "implement-feature",
+        "investigate-failure",
+        "milestone-delivery",
+        "research",
+        "review-change",
+        "update-agent-instructions"
+      ],
+      "agents": [
+        "approver",
+        "implementor",
+        "planner",
+        "researcher",
+        "reviewer"
+      ],
+      "git": {
+        "url": "https://github.com/xchewtoyx/rgh-market",
+        "path": "plugins/rgh-mms"
+      },
+      "archive": {
+        "url": "https://dl.cloudsmith.io/public/chewcorp-kl2f/xchewtoyx/raw/names/rgh-mms/versions/0.1.1/rgh-mms-0.1.1.zip",
+        "sha256": "f6c337104039a6ba0a7deaea748fd548e24e1a5150eb8bc589a37a165362528c",
+        "version": "0.1.1"
+      }
+    }
+  ]
+}
