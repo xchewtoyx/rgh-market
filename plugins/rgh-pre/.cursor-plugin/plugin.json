@@ -1,0 +1,25 @@
+{
+  "name": "rgh-pre",
+  "description": "Consumer wiki package for personal wellbeing and Personal Reliability Engineering: philosophy, mindset, telemetry-state, capacity-load, failure-modes, controls-design, incident-response, reliability-strategy.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Russell Heilling"
+  },
+  "homepage": "https://github.com/xchewtoyx/rgh-pre",
+  "repository": "https://github.com/xchewtoyx/rgh-pre",
+  "keywords": [
+    "wellbeing",
+    "personal-reliability-engineering",
+    "wiki",
+    "agent-plugins",
+    "philosophy",
+    "mindset",
+    "telemetry-state",
+    "capacity-load",
+    "failure-modes",
+    "controls-design",
+    "incident-response",
+    "reliability-strategy"
+  ],
+  "skills": "skills"
+}

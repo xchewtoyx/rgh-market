@@ -21,6 +21,12 @@ new plugin, create plugins/<name>/.cloudsmith-source.json with those three
 coordinates, add a matching entry to marketplace.json's plugins[], and the
 next sync run populates the directory and its version.
 
+After vendoring, the script regenerates the Cursor-facing catalogs
+(`.cursor-plugin/marketplace.json`, `.cursor-plugin/catalog.json`, and
+per-plugin `.cursor-plugin/plugin.json` sidecars) so Claude and Cursor stay
+in lockstep. Cursor sidecars are preserved across extract so a Cloudsmith
+zip cannot wipe them.
+
 Usage (from repo root, or any cwd -- script locates the root):
   scripts/sync_marketplace.py
   scripts/sync_marketplace.py --check   # exit 1 if anything would change
@@ -40,12 +46,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Callable
 
+import cursor_catalog
+
 API_TEMPLATE = (
     "https://api.cloudsmith.io/v1/packages/{owner}/{repo}/"
     "?query=name:{name}&sort=-date&page_size=1"
 )
 
 STAMP_FILENAME = ".cloudsmith-source.json"
+# Marketplace metadata that lives beside a vendored Cloudsmith tree.
+PRESERVE_IN_VENDOR = frozenset({STAMP_FILENAME, cursor_catalog.CURSOR_SIDECAR_DIR})
 
 Fetcher = Callable[[str, str, str], "dict | None"]
 Downloader = Callable[[str], bytes]
@@ -85,9 +95,9 @@ def download_bytes(url: str) -> bytes:
 
 
 def _clear_dir(path: Path) -> None:
-    """Remove everything under `path` except the stamp file."""
+    """Remove everything under `path` except the stamp and Cursor sidecar."""
     for entry in path.iterdir():
-        if entry.name == STAMP_FILENAME:
+        if entry.name in PRESERVE_IN_VENDOR:
             continue
         if entry.is_dir():
             shutil.rmtree(entry)
@@ -168,8 +178,11 @@ def sync_marketplace(
     root: Path,
     fetch: Fetcher = fetch_latest_package,
     download: Downloader = download_bytes,
-) -> list[str]:
-    """Sync every plugins/<name>/ directory under `root`. Return names that changed."""
+) -> tuple[list[str], dict[str, bool]]:
+    """Sync vendored plugins and regenerate Cursor catalogs.
+
+    Returns (updated plugin names, Cursor artifact change flags).
+    """
     marketplace_path = root / ".claude-plugin" / "marketplace.json"
     plugins_dir = root / "plugins"
     changed: list[str] = []
@@ -179,7 +192,10 @@ def sync_marketplace(
             update_marketplace_version(marketplace_path, plugin_dir.name, new_version)
             changed.append(plugin_dir.name)
             print(f"updated {plugin_dir.name} -> {new_version}")
-    return changed
+    cursor_changed = cursor_catalog.write_cursor_artifacts(root)
+    if any(cursor_changed.values()):
+        print("updated Cursor catalogs: " + ", ".join(k for k, v in cursor_changed.items() if v))
+    return changed, cursor_changed
 
 
 def main() -> None:
@@ -198,11 +214,11 @@ def main() -> None:
     args = parser.parse_args()
 
     root = args.root or find_root(Path.cwd())
-    changed = sync_marketplace(root)
+    changed, cursor_changed = sync_marketplace(root)
 
     if not changed:
         print("plugins are already up to date")
-    if args.check and changed:
+    if args.check and (changed or any(cursor_changed.values())):
         raise SystemExit(1)
 
 

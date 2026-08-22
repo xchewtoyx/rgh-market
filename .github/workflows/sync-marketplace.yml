@@ -1,7 +1,9 @@
 # Keep plugins/<name>/ vendored from the newest Cloudsmith package for each
-# plugin, and .claude-plugin/marketplace.json's version field current with
-# it. Cloudsmith's packages API and raw downloads are both anonymously
-# readable for this public repo, so no credentials are needed here.
+# plugin, .claude-plugin/marketplace.json's version field current with it,
+# and the generated Cursor catalogs (.cursor-plugin/* plus per-plugin
+# sidecars) in lockstep. Cloudsmith's packages API and raw downloads are
+# both anonymously readable for this public repo, so no credentials are
+# needed here.
 name: Sync marketplace
 
 on:
@@ -36,12 +38,12 @@ jobs:
       - name: Commit and push if changed
         run: |
           set -euo pipefail
-          if [ -z "$(git status --porcelain -- plugins .claude-plugin/marketplace.json)" ]; then
+          if [ -z "$(git status --porcelain -- plugins .claude-plugin/marketplace.json .cursor-plugin)" ]; then
             echo "No changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add plugins .claude-plugin/marketplace.json
+          git add plugins .claude-plugin/marketplace.json .cursor-plugin
           git commit -m "Sync vendored plugins with latest Cloudsmith packages"
           git push origin HEAD:${{ github.ref_name }}

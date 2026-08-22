@@ -1,0 +1,22 @@
+{
+  "name": "rgh-mms",
+  "description": "Development control-plane agent surface for Russell's Mini-me Swarm: planner/implementor/reviewer/approver/researcher agents, delivery/review/research skills, and the canonical policy/roles/workflows they follow, self-contained with a layered per-repo config resolver.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Russell Heilling"
+  },
+  "homepage": "https://github.com/xchewtoyx/rgh-mms",
+  "repository": "https://github.com/xchewtoyx/rgh-mms",
+  "license": "Apache-2.0",
+  "keywords": [
+    "agents",
+    "harness",
+    "delivery",
+    "code-review",
+    "milestone",
+    "control-plane",
+    "swarm"
+  ],
+  "skills": "skills",
+  "agents": "agents"
+}

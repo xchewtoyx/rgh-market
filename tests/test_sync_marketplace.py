@@ -89,6 +89,9 @@ def test_sync_plugin_dir_rejects_checksum_mismatch(tmp_path):
 def test_sync_plugin_dir_clears_stale_files(tmp_path):
     plugin_dir = make_stamp(tmp_path, "rgh-sme", "0.1.0", "0" * 64)
     (plugin_dir / "removed-in-new-version.md").write_text("stale")
+    sidecar = plugin_dir / ".cursor-plugin" / "plugin.json"
+    sidecar.parent.mkdir()
+    sidecar.write_text('{"name":"rgh-sme"}\n', encoding="utf-8")
 
     zip_bytes = make_zip_bytes({"plugin.json": "{}"})
     sha256 = hashlib.sha256(zip_bytes).hexdigest()
@@ -97,6 +100,7 @@ def test_sync_plugin_dir_clears_stale_files(tmp_path):
 
     assert not (plugin_dir / "removed-in-new-version.md").exists()
     assert (plugin_dir / sync_marketplace.STAMP_FILENAME).exists()  # stamp itself survives
+    assert sidecar.is_file()  # Cursor sidecar is marketplace metadata, not package content
 
 
 def test_sync_plugin_dir_missing_stamp_is_skipped(tmp_path):
@@ -144,10 +148,14 @@ def test_sync_marketplace_end_to_end(tmp_path):
     sha256 = hashlib.sha256(zip_bytes).hexdigest()
     make_stamp(tmp_path, "rgh-sme", "0.1.0", "0" * 64)
 
-    changed = sync_marketplace.sync_marketplace(
+    changed, cursor_changed = sync_marketplace.sync_marketplace(
         tmp_path, fetch=fake_fetch("0.1.1", sha256), download=lambda url: zip_bytes
     )
 
     assert changed == ["rgh-sme"]
+    assert cursor_changed["marketplace"] is True
     written = json.loads(marketplace_path.read_text())
     assert written["plugins"][0]["version"] == "0.1.1"
+    cursor_market = json.loads((tmp_path / ".cursor-plugin" / "marketplace.json").read_text())
+    assert cursor_market["plugins"][0]["version"] == "0.1.1"
+    assert (tmp_path / "plugins" / "rgh-sme" / ".cursor-plugin" / "plugin.json").is_file()

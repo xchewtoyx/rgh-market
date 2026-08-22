@@ -1,0 +1,109 @@
+{
+  "name": "rgh-plugins",
+  "owner": {
+    "name": "Russell Heilling"
+  },
+  "metadata": {
+    "description": "Zettelkasten-style Agent Plugins wiki bundles. Cloudsmith is the artifact store; plugins/ vendors the latest package from it so stable Claude Code (which doesn't yet support the archive source type) can install directly from git.",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "rgh-sme",
+      "source": "rgh-sme",
+      "description": "Zettelkasten-style LLM wikis across a set of subject-matter domains, built from reference texts and packaged as Open Knowledge Format (OKF) bundles.",
+      "version": "0.1.1",
+      "homepage": "https://github.com/xchewtoyx/rgh-sme",
+      "repository": "https://github.com/xchewtoyx/rgh-sme",
+      "license": "MIT",
+      "keywords": [
+        "zettelkasten",
+        "okf",
+        "knowledge",
+        "wiki",
+        "llm",
+        "sme"
+      ],
+      "category": "knowledge",
+      "author": {
+        "name": "Russell Heilling"
+      },
+      "skills": "skills"
+    },
+    {
+      "name": "rgh-pre",
+      "source": "rgh-pre",
+      "description": "Consumer wiki package for personal wellbeing and Personal Reliability Engineering: philosophy, mindset, telemetry-state, capacity-load, failure-modes, controls-design, incident-response, reliability-strategy.",
+      "version": "0.1.0",
+      "homepage": "https://github.com/xchewtoyx/rgh-pre",
+      "repository": "https://github.com/xchewtoyx/rgh-pre",
+      "keywords": [
+        "wellbeing",
+        "personal-reliability-engineering",
+        "wiki",
+        "agent-plugins",
+        "philosophy",
+        "mindset",
+        "telemetry-state",
+        "capacity-load",
+        "failure-modes",
+        "controls-design",
+        "incident-response",
+        "reliability-strategy"
+      ],
+      "category": "knowledge",
+      "author": {
+        "name": "Russell Heilling"
+      },
+      "skills": "skills"
+    },
+    {
+      "name": "bundle-curator",
+      "source": "bundle-curator",
+      "description": "Harness-agnostic curation tooling for Zettelkasten-style OKF wiki bundles: skills, shared agents, and scripts to onboard sources, dispatch domain curators, review charters, and drain scoring/landscape backlogs. Domain-agnostic \u2014 reads domain slugs from the consuming repo's okf-core.toml. Mastered directly in this repo (not vendored from Cloudsmith).",
+      "version": "0.1.0",
+      "homepage": "https://github.com/xchewtoyx/rgh-market",
+      "repository": "https://github.com/xchewtoyx/rgh-market",
+      "license": "MIT",
+      "keywords": [
+        "zettelkasten",
+        "okf",
+        "knowledge",
+        "wiki",
+        "llm",
+        "curation",
+        "agent-plugins"
+      ],
+      "category": "knowledge",
+      "author": {
+        "name": "Russell Heilling"
+      },
+      "skills": "skills",
+      "agents": "agents"
+    },
+    {
+      "name": "rgh-mms",
+      "source": "rgh-mms",
+      "description": "Development control-plane agent surface for Russell's Mini-me Swarm: planner/implementor/reviewer/approver/researcher agents, delivery/review/research skills, and the canonical policy/roles/workflows they follow, self-contained with a layered per-repo config resolver.",
+      "version": "0.1.1",
+      "homepage": "https://github.com/xchewtoyx/rgh-mms",
+      "repository": "https://github.com/xchewtoyx/rgh-mms",
+      "license": "Apache-2.0",
+      "keywords": [
+        "agents",
+        "harness",
+        "delivery",
+        "code-review",
+        "milestone",
+        "control-plane",
+        "swarm"
+      ],
+      "category": "workflow",
+      "author": {
+        "name": "Russell Heilling"
+      },
+      "skills": "skills",
+      "agents": "agents"
+    }
+  ]
+}
